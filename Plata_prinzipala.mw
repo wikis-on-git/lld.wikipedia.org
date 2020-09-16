@@ -85,3 +85,29 @@ Imaja en vidrina
 
 </div>
 </div>
+
+<div align=center>'''Wikipedia y sü proiec te deplü lingac:'''
+
+<imagemap>
+Image:Wikimedia logo family complete-2013.svg|300px|
+
+circle 880 251 75 [[:meta:|Meta-Wiki, coordinamënt di proiec Wikimedia]]
+circle 990 589 80 [[:species:|WikiSpecies, catalogh dles sortes viëntes]]
+rect 840 695 1039 835 [[:mw:|MediaWiki, le software di proiec Wikimedia]]
+rect 192 812 347 928 [[Pagina principale|Wikiversità, ressurses y ativités didatiches]]
+rect 68 678 212 810 [[wikt:|Wikizionar]]
+rect 4 510 240 641 [[n:|Wikinotizies]]
+circle 123 390 80 [[s:|Wikisource, documentaziun y bilbioteca publica]]
+circle 241 253 80 [[:commons:|Wikimedia Commons, ressurses multimediales]]
+circle 381 141 80 [[Pajina prinsipałe|Wikipedia, l’enziclopedia lëdia]]
+rect 477 28 624 194 [[:Wmania:|Wikimania, conferënza en cunt di proiec de Wikimedia]]
+rect 765 812 876 953 [[:incubator:|Incubator,proiec che pëia ia]]
+rect 910 308 1071 480  [[q:|Wikiquote, na racoiüda de zitaziuns]]
+rect 641 72 794 222  [[b:|Wikibooks, ƚa biblioteca lëdia]]
+rect 585 919 741 1017 [[:wikidata:|Wikidata]]
+circle 464 958 76 [[incubator:Wy/vec/Pajina prinsipałe|Wikivoyage]]
+circle 550 550 160 [[:wmf:|Wikimedia Foundation, organisaziun che gestësc i proiec de Wikimedia]]
+desc none</imagemap>
+</div>
+
+<noinclude>
