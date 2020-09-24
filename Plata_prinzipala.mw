@@ -5,13 +5,6 @@ __NOTOC__
 
 {{Bëgngnüs y bëgngnüdes}}
 
-<div style="text-align:center;font-size:larger;">
-[[Usc fondamentales]]
-</div>
-
-<div style="text-align:center;font-size:larger;">
-[[Wikipedia:Café ladin|Café ladin]] · [[Wikipedia:Suport tecnich|Suport tecnich]]
-</div>
 
 <div class="pp-flexbox"><!-- Flexbox 1 -->
 <div class="pp-col50" style="background: #fff; border: solid 1px #F5F5F5;padding: 10px;">
@@ -83,13 +76,50 @@ Imaja en vidrina
 }}
 </div><!-- /variantes locales -->
 
+<div class="pp-flexbox"><!-- Flexbox 1 -->
+<div class="pp-col50" style="background: #fff; border: solid 1px #F5F5F5;padding: 10px;">
+<div style="background: #fff; border: 1px solid #FFA500; margin-bottom: 5px;">
+<h4 style="padding: 0.3em; margin: 0;font-family:Tahoma;font-size:100%;color:Blue;text-shadow: 0 0 0 grey;text-align:center;font-weight:bold;">
+Cie possi pa fé?
+</h4>
+</div>
+<div style="margin-top: 0px;">
+'''N valguna regules per scrijer sun la Wikipedia Ladina:'''
+
+1.Chësta ie na lerch per duc, respeteiela! Nia l adurvé per fé retlam o polemiches.
+
+2.Wikipedia ie neutrala y ne muessa nia repurté minonghes subietives.
+
+3.Indicheia ti articuli che te scrijes la funtanes scrites che revardea i contenuc.
+
+4.Sce ne te ses nia da ulà scumencé, cëleti ala [[Usc_fondamentales|ujes fundamenteles]].
+
+5.Sce l ie mesun, jonteti pro suinsom al articul che te scrijes l idiom ladin che te adroves cun l Template che ie da abiné tla tabela "Variantes locales dl ladin"
+
+<div style="text-align:center;font-size:larger;">
+[[Wikipedia:Café ladin|Café ladin]] · [[Wikipedia:Suport tecnich|Suport tecnich]]
+</div>
+
 </div>
 </div>
+
+<div class="pp-flexbox"><!-- Flexbox 1 -->
+<div class="pp-col50" style="background: #fff; border: solid 1px #F5F5F5;padding: 10px;">
+<div style="background: #fff; border: 1px solid #FFA500; margin-bottom: 5px;">
+<h4 style="padding: 0.3em; margin: 0;font-family:Tahoma;font-size:100%;color:Blue;text-shadow: 0 0 0 grey;text-align:center;font-weight:bold;">
+N proverb ladin
+</h4>
+</div>
+<div style="margin-top: 0px;">
+“Do San Berto n’á le tëmp plü degun famëi”
+[[File:Ladin2 K.jpg|center|thumb|]]
+</div>
+</div>
+
 
 <div align=center>'''Wikipedia y sü proiec te deplü lingac:'''
-
 <imagemap>
-Image:Wikimedia logo family complete-2013.svg|300px|
+Image:Wikimedia logo family complete-2013.svg|300px|center|
 
 circle 880 251 75 [[:meta:|Meta-Wiki, coordinamënt di proiec Wikimedia]]
 circle 990 589 80 [[:species:|WikiSpecies, catalogh dles sortes viëntes]]
@@ -108,6 +138,10 @@ rect 585 919 741 1017 [[:wikidata:|Wikidata]]
 circle 464 958 76 [[:wikivoyage:|Wikivoyage]]
 circle 550 550 160 [[:wmf:|Wikimedia Foundation, organisaziun che gestësc i proiec de Wikimedia]]
 desc none</imagemap>
+
 </div>
 
 <noinclude>
+
+</div>
+</div>
