@@ -1,0 +1,98 @@
+I '''Paejes Basc''' ie furmei da 12 provinzies ([[lingaz olandesc|olandesc]]: ''provincies van Nederland''), che ie istituzions aministratives che sta sota al guviern y sëura i chemuns. La provinzia cun la majera populazion ie la [[Olanda dl Sud]] (''Zuid-Holland'') cun 3,7 milions de abitanc tl 2020, chëla cun la mëndra l [[Zeeland]] cun 383.488 abitanc tl 2020.
+
+== Lista de la provinzies ==
+
+{| class="wikitable sortable zebra"
+|- class=hintergrundfarbe6
+! Provinzia !! Inuem olandesc<br/ >Name
+! Capitela !! Majera zità
+! class=unsortable | Bandiera
+! class=unsortable | Lage
+! Populazion<br /><small>Stand: {{EWD|NL}}<ref name="CBS">{{EWQ|NL}}</ref></small>
+! Densità
+! Sëuraspera<ref>{{Internetquelle |url=https://opendata.cbs.nl/statline/#/CBS/nl/dataset/70072ned/table?ts=1543436498172 |titel=Regionale kerncijfers Nederland |werk=StatLine |hrsg=[[Centraal Bureau voor de Statistiek]] |datum=2018-10-19 |zugriff=2018-11-28 |sprache=nl}}</ref>
+|-
+| [[Provinzia de Groningen|Groningen]] || Groningen || [[Groningen]] || Groningen
+| [[File:Flag Groningen.svg|border|80px|]]
+| [[File:Groningen-Position.png|50px|]]
+| {{nts|{{EWZ|NL|20}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|20}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|20}}/2333.28 round 0 }}}} Einw./km²
+| 2.959,68 km²<br />7,12 %
+|-
+| [[Friesland]] || Fryslân<br />''(nfin al 1996 Friesland)'' || [[Leeuwarden]] || Leeuwarden
+| [[File:Frisian flag.svg|border|80px|]]
+| [[File:Friesland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|21}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|21}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|21}}/3341.70 round 0 }}}} Einw./km²
+| 5.748,77 km²<br />13,84 %
+|-
+| [[Drente]] || Drenthe || [[Assen]] || [[Emmen (Drenthe)|Emmen]]
+| [[File:Flag Drenthe.svg|border|80px|]]
+| [[File:Drenthe-Position.png|50px|]]
+| {{nts|{{EWZ|NL|22}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|22}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|22}}/2641.09 round 0 }}}} Einw./km²
+| 2.680,39&nbsp;km²<br />6,45 %
+|-
+| [[Overijssel]] || Overijssel || [[Zwolle]] || [[Enschede]]
+| [[File:Flag Overijssel.svg|border|80px|]]
+| [[File:Overijssel-Position.png|50px|]]
+| {{nts|{{EWZ|NL|23}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|23}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|23}}/3325.62 round 0 }}}} Einw./km²
+| 3.420,74 km²<br />8,23 %
+|-
+| [[Gelderland]] || Gelderland || [[Arnheim]] || [[Nijmegen]]
+| [[File:Flag of Gelderland.svg|border|80px|]]
+| [[File:Gelderland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|25}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|25}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|25}}/4971.76 round 0 }}}} Einw./km²
+| 5.136,31 km²<br />12,36 %
+|-
+| [[Provinzia de Utrecht|Utrecht]] || Utrecht || [[Utrecht]] || Utrecht
+| [[File:Utrecht (province)-Flag.svg|border|80px|]]
+| [[File:Utrecht-Position.png|50px|]]
+| {{nts|{{EWZ|NL|26}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|26}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|26}}/1385.02 round 0 }}}} Einw./km²
+| 1.449,13 km²<br />3,49 %
+|-
+| [[Olanda dl Nord]] || Noord-Holland || [[Haarlem]] || [[Amsterdam]]
+| [[File:Flag North-Holland, Netherlands.svg|border|80px|]]
+| [[File:Noord Holland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|27}}}} <br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|27}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|27}}/2671.03 round 0 }}}} Einw./km²
+| 4.091,93 km²<br />9,85 %
+|-
+| [[Olanda dl Sud]] || Zuid-Holland || [[Den Haag]] || [[Rotterdam]]
+| [[File:Flag Zuid-Holland.svg|border|80px|]]
+| [[File:Zuid Holland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|28}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|28}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|28}}/2814.69 round 0 }}}} Einw./km²
+| 3.418,78 km²<br />8,23 %
+|-
+| [[Zeeland]] || Zeeland || [[Middelburg]] || [[Terneuzen]]
+| [[File:Flag of Zeeland.svg|border|80px|]]
+| [[File:Zeeland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|29}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|29}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|29}}/1787.13 round 0 }}}} Einw./km²
+| 2.933,44 km²<br />7,06 %
+|-
+| [[Brabant dl Nord]] || Noord-Brabant || [[’s-Hertogenbosch|’s‑Hertogen&shy;bosch]] || [[Eindhoven]]
+| [[File:North Brabant-Flag.svg|border|80px|]]
+| [[File:Noord Brabant-Position.png|50px|]]
+| {{nts|{{EWZ|NL|30}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|30}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|30}}/4916.49 round 0 }}}} Einw./km²
+| 5.082,06 km²<br />12,23 %
+|-
+| [[Limburg (Paejes Basc)|Limburg]] || Limburg || [[Maastricht]] || Maastricht
+| [[File:NL-LimburgVlag.svg|border|80px|]]
+| [[File:Limburg position.svg|50px|]]
+| {{nts|{{EWZ|NL|31}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|31}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|31}}/2150.87 round 0 }}}} Einw./km²
+| 2.209,84 km²<br />5,32 %
+|-
+| [[Flevoland]]<br />''(neu seit 1986)'' || Flevoland || [[Lelystad]] || [[Almere]]
+| [[File:Flevolandflag.svg|border|80px|]]
+| [[File:Flevoland-Position.png|50px|]]
+| {{nts|{{EWZ|NL|24}}}}<br />{{formatnum:{{#expr:100*{{Metadaten Einwohnerzahl NL|24}}/{{Metadaten Einwohnerzahl NL}} round 1 }}}} %
+| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|24}}/1417.50 round 0 }}}} Einw./km²
+| 2.412,31 km²<br />5,81 %
+|}
