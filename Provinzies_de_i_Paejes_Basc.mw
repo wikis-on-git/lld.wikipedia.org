@@ -15,84 +15,84 @@ I '''Paejes Basc''' ie furmei da 12 provinzies ([[lingaz olandesc|olandesc]]: ''
 | [[Provinzia de Groningen|Groningen]] || Groningen || [[Groningen]] || Groningen
 | [[File:Flag Groningen.svg|border|80px|]]
 | [[File:Groningen-Position.png|50px|]]
-| 586813
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|20}}/2333.28 round 0 }}}} Einw./km²
+| {{formatnum:586813}}
+| {{#expr:586813/2333.28 round 0 }} ab./km²
 | 2.959,68 km²<br />7,12 %
 |-
 | [[Friesland]] || Fryslân<br />''(nfin al 1996 Friesland)'' || [[Leeuwarden]] || Leeuwarden
 | [[File:Frisian flag.svg|border|80px|]]
 | [[File:Friesland-Position.png|50px|]]
-| 651459
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|21}}/3341.70 round 0 }}}} Einw./km²
+| {{formatnum:651459}}
+| {{#expr:651459/3341.70 round 0 }} ab./km²
 | 5.748,77 km²<br />13,84 %
 |-
 | [[Drente]] || Drenthe || [[Assen]] || [[Emmen (Drenthe)|Emmen]]
 | [[File:Flag Drenthe.svg|border|80px|]]
 | [[File:Drenthe-Position.png|50px|]]
-| 494760
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|22}}/2641.09 round 0 }}}} Einw./km²
+| {{formatnum:494760}}
+| {{#expr:494760/2641.09 round 0 }} ab./km²
 | 2.680,39&nbsp;km²<br />6,45 %
 |-
 | [[Overijssel]] || Overijssel || [[Zwolle]] || [[Enschede]]
 | [[File:Flag Overijssel.svg|border|80px|]]
 | [[File:Overijssel-Position.png|50px|]]
-| 1166478
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|23}}/3325.62 round 0 }}}} Einw./km²
+| {{formatnum:1166478}}
+| {{#expr:1166478/3325.62 round 0 }} ab./km²
 | 3.420,74 km²<br />8,23 %
 |-
 | [[Gelderland]] || Gelderland || [[Arnheim]] || [[Nijmegen]]
 | [[File:Flag of Gelderland.svg|border|80px|]]
 | [[File:Gelderland-Position.png|50px|]]
-| 2096620
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|25}}/4971.76 round 0 }}}} Einw./km²
+| {{formatnum:2096620}}
+| {{#expr:2096620/4971.76 round 0 }} ab./km²
 | 5.136,31 km²<br />12,36 %
 |-
 | [[Provinzia de Utrecht|Utrecht]] || Utrecht || [[Utrecht]] || Utrecht
 | [[File:Utrecht (province)-Flag.svg|border|80px|]]
 | [[File:Utrecht-Position.png|50px|]]
-| 1361093
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|26}}/1385.02 round 0 }}}} Einw./km²
+| {{formatnum:1361093}}
+| {{#expr:1361093/1385.02 round 0 }}/km²
 | 1.449,13 km²<br />3,49 %
 |-
 | [[Olanda dl Nord]] || Noord-Holland || [[Haarlem]] || [[Amsterdam]]
 | [[File:Flag North-Holland, Netherlands.svg|border|80px|]]
 | [[File:Noord Holland-Position.png|50px|]]
-| 2887906
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|27}}/2671.03 round 0 }}}} Einw./km²
+| {{formatnum:2887906}}
+| {{#expr:2887906/2671.03 round 0 }}/km²
 | 4.091,93 km²<br />9,85 %
 |-
 | [[Olanda dl Sud]] || Zuid-Holland || [[Den Haag]] || [[Rotterdam]]
 | [[File:Flag Zuid-Holland.svg|border|80px|]]
 | [[File:Zuid Holland-Position.png|50px|]]
-| 3726173
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|28}}/2814.69 round 0 }}}} Einw./km²
+| {{formatnum:3726173}}
+| {{#expr:3726173/2814.69 round 0 }}/km²
 | 3.418,78 km²<br />8,23 %
 |-
 | [[Zeeland]] || Zeeland || [[Middelburg]] || [[Terneuzen]]
 | [[File:Flag of Zeeland.svg|border|80px|]]
 | [[File:Zeeland-Position.png|50px|]]
-| 385379
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|29}}/1787.13 round 0 }}}} Einw./km²
+| {{formatnum:385379}}
+| {{#expr:385379/1787.13 round 0 }} Einw./km²
 | 2.933,44 km²<br />7,06 %
 |-
 | [[Brabant dl Nord]] || Noord-Brabant || [[’s-Hertogenbosch|’s‑Hertogen&shy;bosch]] || [[Eindhoven]]
 | [[File:North Brabant-Flag.svg|border|80px|]]
 | [[File:Noord Brabant-Position.png|50px|]]
-| 2573853
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|30}}/4916.49 round 0 }}}} Einw./km²
+| {{formatnum:2573853}}
+| {{#expr:2573853/4916.49 round 0 }} Einw./km²
 | 5.082,06 km²<br />12,23 %
 |-
 | [[Limburg (Paejes Basc)|Limburg]] || Limburg || [[Maastricht]] || Maastricht
 | [[File:NL-LimburgVlag.svg|border|80px|]]
 | [[File:Limburg position.svg|50px|]]
-| 1115895
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|31}}/2150.87 round 0 }}}} Einw./km²
+| {{formatnum:1115895}}
+| {{#expr:1115895/2150.87 round 0 }} Einw./km²
 | 2.209,84 km²<br />5,32 %
 |-
 | [[Flevoland]]<br />''(nuef dal 1986)'' || Flevoland || [[Lelystad]] || [[Almere]]
 | [[File:Flevolandflag.svg|border|80px|]]
 | [[File:Flevoland-Position.png|50px|]]
-| 428264
-| {{nts|{{#expr:{{Metadaten Einwohnerzahl NL|24}}/1417.50 round 0 }}}} Einw./km²
+| {{formatnum:428264}}
+| {{#expr:428264/1417.50 round 0 }} Einw./km²
 | 2.412,31 km²<br />5,81 %
 |}
