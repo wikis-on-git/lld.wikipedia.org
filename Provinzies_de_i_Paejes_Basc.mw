@@ -51,48 +51,48 @@ I '''Paejes Basc''' ie furmei da 12 provinzies ([[lingaz olandesc|olandesc]]: ''
 | [[File:Utrecht (province)-Flag.svg|border|80px|]]
 | [[File:Utrecht-Position.png|50px|]]
 | {{formatnum:1361093}}
-| {{#expr:1361093/1385.02 round 0 }}/km²
+| {{#expr:1361093/1385.02 round 0 }} ab./km²
 | 1.449,13 km²<br />3,49 %
 |-
 | [[Olanda dl Nord]] || Noord-Holland || [[Haarlem]] || [[Amsterdam]]
 | [[File:Flag North-Holland, Netherlands.svg|border|80px|]]
 | [[File:Noord Holland-Position.png|50px|]]
 | {{formatnum:2887906}}
-| {{#expr:2887906/2671.03 round 0 }}/km²
+| {{#expr:2887906/2671.03 round 0 }} ab./km²
 | 4.091,93 km²<br />9,85 %
 |-
 | [[Olanda dl Sud]] || Zuid-Holland || [[Den Haag]] || [[Rotterdam]]
 | [[File:Flag Zuid-Holland.svg|border|80px|]]
 | [[File:Zuid Holland-Position.png|50px|]]
 | {{formatnum:3726173}}
-| {{#expr:3726173/2814.69 round 0 }}/km²
+| {{#expr:3726173/2814.69 round 0 }} ab./km²
 | 3.418,78 km²<br />8,23 %
 |-
 | [[Zeeland]] || Zeeland || [[Middelburg]] || [[Terneuzen]]
 | [[File:Flag of Zeeland.svg|border|80px|]]
 | [[File:Zeeland-Position.png|50px|]]
 | {{formatnum:385379}}
-| {{#expr:385379/1787.13 round 0 }} Einw./km²
+| {{#expr:385379/1787.13 round 0 }} ab./km²
 | 2.933,44 km²<br />7,06 %
 |-
 | [[Brabant dl Nord]] || Noord-Brabant || [[’s-Hertogenbosch|’s‑Hertogen&shy;bosch]] || [[Eindhoven]]
 | [[File:North Brabant-Flag.svg|border|80px|]]
 | [[File:Noord Brabant-Position.png|50px|]]
 | {{formatnum:2573853}}
-| {{#expr:2573853/4916.49 round 0 }} Einw./km²
+| {{#expr:2573853/4916.49 round 0 }} ab./km²
 | 5.082,06 km²<br />12,23 %
 |-
 | [[Limburg (Paejes Basc)|Limburg]] || Limburg || [[Maastricht]] || Maastricht
 | [[File:NL-LimburgVlag.svg|border|80px|]]
 | [[File:Limburg position.svg|50px|]]
 | {{formatnum:1115895}}
-| {{#expr:1115895/2150.87 round 0 }} Einw./km²
+| {{#expr:1115895/2150.87 round 0 }} ab./km²
 | 2.209,84 km²<br />5,32 %
 |-
 | [[Flevoland]]<br />''(nuef dal 1986)'' || Flevoland || [[Lelystad]] || [[Almere]]
 | [[File:Flevolandflag.svg|border|80px|]]
 | [[File:Flevoland-Position.png|50px|]]
 | {{formatnum:428264}}
-| {{#expr:428264/1417.50 round 0 }} Einw./km²
+| {{#expr:428264/1417.50 round 0 }} ab./km²
 | 2.412,31 km²<br />5,81 %
 |}
