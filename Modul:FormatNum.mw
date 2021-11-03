@@ -1,0 +1,909 @@
+local FormatNum = { suite  = "FormatNum",
+                    serial = "2020-08-06",
+                    item   = 15709679 };
+--[[
+FormatNum
+* format
+* minus
+* padding
+* roman2number
+* round
+* failsafe
+FormatNum()
+]]
+local Failsafe       = FormatNum;
+local DEFAULT_FORMAT = "dewiki";
+local DEFAULT_METHOD = 0;
+
+
+
+-- Constant for round method "round half to even" (IEEE 754)
+local ROUND_TO_EVEN = 0;
+
+-- Constant for round method "round half away from zero"
+-- (German: "kaufmaennisches Runden"),
+-- also filters "-0" and converts it to "0".
+local ROUND_AWAY_FROM_ZERO = 1;
+
+-- Constant for U+202F
+local THIN_SPACE = mw.ustring.char( 0x202F );
+
+-- Constant for reducing code range to ANSI
+local SPACER_SPAN = "<span style='display:inline-block;width:.167em;'>&#160;</span>";
+
+-- Constant for padding span element
+local PADDING_SPAN = "<span style='visibility:hidden'>%s%s</span>";
+
+
+-- Table storing the format options.
+local FORMAT_TABLE = {
+    dewiki = {
+        decimalMark = ",",
+        groupMark = ".",
+        groupMinLength = 4,
+        groupNaturalLength = 5,
+        groupOnlyIntegerPart = false
+         },
+    dewikiint = {
+        decimalMark = ",",
+        groupMark = THIN_SPACE,
+        groupMinLength = 4,
+        groupNaturalLength = 5,
+        groupOnlyIntegerPart = true
+         },
+    de = {
+        decimalMark = ",",
+        groupMark = THIN_SPACE,
+        groupMinLength = 4,
+        groupNaturalLength = 4,
+        groupOnlyIntegerPart = false
+         },
+    de_currency = {
+        decimalMark = ",",
+        groupMark = ".",
+        groupMinLength = 4,
+        groupNaturalLength = 4,
+        groupOnlyIntegerPart = true
+         },
+    ch = {
+        decimalMark = ",",
+        groupMark = "'",
+        groupMinLength = 5,
+        groupNaturalLength = 5,
+        groupOnlyIntegerPart = true
+         },
+    ch_currency = {
+        decimalMark = ".",
+        groupMark = "'",
+        groupMinLength = 5,
+        groupNaturalLength = 5,
+        groupOnlyIntegerPart = true
+         },
+    en = {
+        decimalMark = ".",
+        groupMark = ",",
+        groupMinLength = 4,
+        groupNaturalLength = 4,
+        groupOnlyIntegerPart = true
+         },
+    iso31_0 = {    -- ISO 31-0 using comma as decimal mark
+        decimalMark = ",",
+        groupMark = THIN_SPACE,
+        groupMinLength = 4,
+        groupNaturalLength = 4,
+        groupOnlyIntegerPart = false
+         },
+    iso31_0_point = {    -- ISO 31-0 using dot as decimal mark
+        decimalMark = ".",
+        groupMark = THIN_SPACE,
+        groupMinLength = 4,
+        groupNaturalLength = 4,
+        groupOnlyIntegerPart = false
+         },
+    comma = {
+        decimalMark = ",",
+        groupMark = "",
+        groupMinLength = 1000, -- (for performance, but also small values wouldn't matter)
+        groupNaturalLength = 1000,
+        groupOnlyIntegerPart = true
+         },
+    heights = {
+        decimalMark = ",",
+        groupMark = ".",
+        groupMinLength = 6,
+        groupNaturalLength = 6,
+        groupOnlyIntegerPart = true
+         },
+    pc = nil   -- prevent formatting
+};
+
+-- Format table for "at" (only for convenience, same as "iso31_0").
+FORMAT_TABLE.at = FORMAT_TABLE.iso31_0;
+
+-- Constant defining digit group lengths when digit grouping is used.
+local DIGIT_GROUPING_SIZE = 3;
+
+-- Table defining roman digit values.
+local ROMAN_DIGITS = { I = 1,
+                       V = 5,
+                       X = 10,
+                       L = 50,
+                       C = 100,
+                       D = 500,
+                       M = 1000 };
+
+
+--[[
+    Internally used function for rounding.
+
+    @param a_number : Number to be rounded.
+    @param a_precision : Number of significant digits of the fractional part.
+                         If it is negative,
+                         the according number of digits of the integer part are also rounded.
+                         If it is negative but greater 1,
+                         for -.1 -.2 -.3 ... -.9 only the leading digits
+                         will be significant, while
+    @param a_roundMethod : Numeric constant defining the round method to use.
+       Supported are ROUND_TO_EVEN and ROUND_AWAY_FROM_ZERO.
+    @param a_signed : Boolean, shift to typographic minus sign, or precede plus sign.
+
+    @return String of the rounded number like returned by Lua function string.format().
+]]
+local function numberToString( a_number, a_precision, a_roundMethod, a_signed )
+    local suitable;
+    if ( a_precision < 0 ) then
+        a_precision = - a_precision;
+        if ( a_precision < 1 ) then
+            local k = math.log10( math.abs( a_number ) );
+            if ( k > 0 ) then
+                a_precision = math.floor( k )
+                              + 1
+                              - math.floor( a_precision * 10 );
+                if ( a_precision < 0 ) then
+                    a_precision = 0;
+                end
+            else
+                a_precision = 0;
+            end
+        else
+            a_precision = math.floor( a_precision );
+        end
+        if (a_roundMethod == ROUND_TO_EVEN) then
+            local integerPart = math.floor(math.abs(a_number) / (10 ^ a_precision));
+            if (integerPart % 2 == 0) then
+                -- next even number smaller than a_number / 10^precision
+                a_number = a_number - 5 * (10 ^ (a_precision - 1));
+                a_number = math.ceil(a_number / (10 ^ a_precision)) * (10 ^ a_precision);
+            else
+                -- next even number bigger than a_number / 10^precision
+                a_number = a_number + 5 * (10 ^ (a_precision - 1));
+                a_number = math.floor(a_number / (10 ^ a_precision)) * (10 ^ a_precision);
+            end
+        elseif (a_roundMethod == ROUND_AWAY_FROM_ZERO) then
+            if (a_number >= 0) then
+                a_number = a_number + 5 * (10 ^ (a_precision - 1));
+                a_number = math.floor(a_number / (10 ^ a_precision)) * (10 ^ a_precision);
+            else
+                a_number = a_number - 5 * (10 ^ (a_precision - 1));
+                a_number = math.ceil(a_number / (10 ^ a_precision)) * (10 ^ a_precision);
+            end
+        end
+        -- handle it as normal integer
+        a_precision = 0;
+    end
+    if (a_roundMethod == ROUND_AWAY_FROM_ZERO) then
+        if ((a_number * (10 ^ a_precision)) - math.floor(a_number * (10 ^ a_precision)) == 0.5) then
+            -- because string.format() uses round to even, we have to add (numbers >0) or
+            -- subtract (numbers <0) a little bit to point into the "correct" rounding
+            -- direction if a_number is exactly in the middle between two rounded numbers
+            if (a_number >= 0) then
+                a_number = a_number + (10 ^ -(a_precision + 1));
+            else
+                a_number = a_number - (10 ^ -(a_precision + 1));
+            end
+        else
+            if (math.abs(a_number * (10 ^ a_precision)) < 0.5) then
+                -- filter "-0" and convert it to 0
+                a_number = math.abs(a_number);
+            end
+        end
+    end
+    suitable = string.format( "%%.%df", a_precision );
+    suitable = string.format( suitable, a_number );
+    if a_signed then
+        if (a_number > 0) then
+            suitable = "+" .. suitable;
+        elseif (a_number < 0) then
+            suitable = mw.ustring.char( 0x2212 ) .. suitable;
+        end
+    end
+    return suitable;
+end -- numberToString()
+
+
+
+--[[
+    Internally used for formatting.
+
+    @param a_number : String (ASCII) of a non-negative number to be formatted.
+    @param a_sign   : String with a sign char, or false
+    @param a_decimalMark : String of the decimal mark to use.
+    @param a_groupMark : String of the mark used for digit grouping.
+    @param a_groupMinLength : Number defining the minimum length of integer part
+       to use digit grouping (normally 4 or 5). However if fractional part is
+       longer than DIGIT_GROUPING_SIZE (3 as default) and digit grouping of
+       fractional part is not disabled via 'a_groupOnlyIntegerPart', then this
+       value is ignored and set to DIGIT_GROUPING_SIZE + 1.
+    @param a_groupNaturalLength : a_groupMinLength for unsigned integer; or nil
+    @param a_groupOnlyIntegerPart : Boolean defining whether activating digit
+       grouping only for integer part (true) or for integer and fractional part
+       (false).
+
+    @return String of the formatted number according to the parameters.
+]]
+local function formatNumber( a_number,
+                             a_sign,
+                             a_decimalMark,
+                             a_groupMark,
+                             a_groupMinLength,
+                             a_groupNaturalLength,
+                             a_groupOnlyIntegerPart )
+    -- find the decimal point
+    local decimalPosition = a_number:find( ".", 1, true );
+    local needsGrouping = false;
+    if not decimalPosition then
+        -- no decimal point - integer number
+        local minLength = a_groupMinLength;
+        if not a_sign and a_groupNaturalLength then
+            minLength = a_groupNaturalLength;
+        end
+        decimalPosition = #a_number + 1;
+        if decimalPosition > minLength then
+            needsGrouping = true;
+        end
+    else
+        -- decimal point present
+        if decimalPosition > a_groupMinLength
+            or (#a_number - decimalPosition > DIGIT_GROUPING_SIZE
+                and  not a_groupOnlyIntegerPart) then
+            needsGrouping = true;
+        end
+        -- replace the decimal point
+        a_number = a_number:sub( 1, decimalPosition - 1 )
+                   .. a_decimalMark
+                   .. a_number:sub( decimalPosition + 1 );
+    end
+    if needsGrouping and decimalPosition > DIGIT_GROUPING_SIZE + 1 then
+        -- grouping of integer part necessary
+        local i = decimalPosition - DIGIT_GROUPING_SIZE;
+        while (i > 1) do
+            -- group the integer part
+            a_number = a_number:sub( 1, i - 1 )
+                       .. a_groupMark
+                       .. a_number:sub( i );
+            decimalPosition = decimalPosition + #a_groupMark;
+            i = i - DIGIT_GROUPING_SIZE;
+        end
+    end
+    -- skip to the end of the new decimal mark (in case it is more than one char)
+    decimalPosition = decimalPosition + #a_decimalMark - 1;
+    if a_groupOnlyIntegerPart then
+        needsGrouping = false;
+    end
+    if needsGrouping  and  #a_number - decimalPosition > DIGIT_GROUPING_SIZE then
+        -- grouping of fractional part necessary
+        -- using negative numbers (index from the end of the string)
+        local i = decimalPosition - #a_number + DIGIT_GROUPING_SIZE;
+        while i < 0 do
+            -- group the fractional part
+            a_number = a_number:sub(1, i - 1) .. a_groupMark .. a_number:sub(i);
+            i = i + DIGIT_GROUPING_SIZE;
+        end
+    end
+    if (a_sign) then
+        a_number = a_sign .. a_number;
+    end
+    return a_number;
+end -- formatNumber()
+
+
+
+--[[
+    Formatting numbers.
+
+    @param source : Numerical or string representation
+           of an unformatted (but maybe rounded) floating point or integer number.
+    @param spec : Formatting option. Currently there are
+           "at", "comma", "de", "dewiki", "de_currency", "ch", "ch_currency", "en",
+           "iso31_0", "iso31_0_point" and "pc" supported.
+           Defaults to "dewiki".
+           See the FORMAT_TABLE for details.
+    @param meet : HTML padding on left or right end.
+           Defaults to 'none' or 0.
+           Positive figures require padding behind decimal mark,
+           negative values ensure at least that absolute value
+           of characters before decimal mark.
+
+    @return String of the formatted number.
+            If the argument 'spec' is invalid
+            or 'source' is not a valid string representation of a number,
+            'source' is returned unmodified.
+]]
+FormatNum.format = function ( source, spec, meet )
+    local stitch = type( source );
+    local r;
+    if stitch == "string" then
+        r = mw.text.trim( source );
+        if r == "" then
+            r = false;
+        end
+    elseif stitch == "number" then
+        r = tostring( source );
+    end
+    if r then
+        if not spec then
+            spec = DEFAULT_FORMAT;
+        end
+        local format = FORMAT_TABLE[ spec ];
+        if format then
+            -- format entry found
+            local sign = mw.ustring.sub( r, 1, 1 );
+            local scan = mw.ustring.format( "^[%%+%%-%c]", 0x2212 );
+            local last;
+            if mw.ustring.match( sign, scan ) then
+                -- remove sign from r, add it again later
+                r = mw.ustring.sub( r, 2 );
+            else
+                -- was not a sign
+                sign = false;
+            end
+            if r:sub( 1, 1 ) == "." then
+                -- r begins with "." -> add a 0 to the beginning
+                r = "0" .. r;
+            elseif r:sub( -1 ) == "." then
+                -- r ends with "." -> remove it
+                r    = r:sub( 1, -2 );
+                last = true;
+            end
+            if r == r:match( "^%d+$" )  or
+               r == r:match( "^%d+%.%d+$" ) then
+                -- r has valid format (only digits or digits.digits)
+                r = formatNumber( r, sign,
+                                  format.decimalMark,
+                                  format.groupMark,
+                                  format.groupMinLength,
+                                  format.groupNaturalLength,
+                                  format.groupOnlyIntegerPart );
+                if meet then
+                    local stop;
+                    if not last then
+                        stop = format.decimalMark;
+                    end
+                    r = FormatNum.padding( r, meet, stop );
+                end
+                if format.groupMark == THIN_SPACE  and
+                   SPACER_SPAN  and
+                   r:find( THIN_SPACE, 2, true ) then
+                    r = r:gsub( THIN_SPACE, SPACER_SPAN );
+                        -- gsub has two results.
+                    r = tostring( mw.html.create( "span" )
+                                         :css( "white-space", "nowrap" )
+                                         :wikitext( r ) );
+                end
+            else
+                -- r has no valid format -> undo all modifications
+                r = source;
+            end
+        end
+    end
+    return r;
+end -- FormatNum.format()
+
+
+FormatNum.getromanstring = function(number, style)
+	local zahl = math.floor(math.abs(number)); -- erase several errors like  minus or noninteger
+	zahl = zahl % 1000000; -- truncate to six decimal digits
+	local lower = zahl % 1000;
+	local upper = ((zahl - lower) / 1000)
+	local text = '';
+	local hunderttausender = (zahl - zahl % 100000 ) / 100000;
+	zahl = zahl % 100000;
+	local zehntausender    = (zahl - zahl % 10000 ) / 10000;
+	zahl = zahl % 10000;
+	local tausender        = (zahl - zahl % 1000 ) / 1000;
+	zahl = zahl % 1000;
+	local hunderter        = (zahl - zahl % 100 ) / 100;
+	zahl = zahl % 100;
+	local zehner           = (zahl - zahl % 10 ) / 10;
+	local einer            = zahl % 10;
+	local digit = {};
+	if upper > 0 then
+		if style=='over' then
+			text = '<span style="text-decoration:overline">';
+			if hunderttausender > 0 then
+				digit = {'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'} ;
+				text =  text .. digit[hunderttausender];
+			end
+			if zehntausender > 0 then
+				digit = {'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'} ;
+				text = text .. digit[zehntausender];
+			end
+			if tausender > 0 then
+				digit = {'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'} ;
+				text = text .. digit[tausender];
+			end
+			text = text .. '</span>'
+		elseif style=='apo' then
+			if hunderttausender > 0 then
+				digit = {
+					'&#8584;',
+					'&#8584;&#8584;',
+					'&#8584;&#8584;&#8584;',
+					'&#8584;&#8584;&#8584;&#8584;',
+					'&#8584;&#8584;&#8584;&#8584;&#8584;',
+					'&#8584;&nbsp;&#8584;&#8584;&#8584;&#8584;&#8584;',
+					'&#8584;&#8584;&nbsp;&#8584;&#8584;&#8584;&#8584;&#8584;',
+					'&#8584;&#8584;&#8584;&nbsp;&#8584;&#8584;&#8584;&#8584;&#8584;',
+					'&#8584;&#8584;&#8584;&#8584;&nbsp;&#8584;&#8584;&#8584;&#8584;&#8584;'
+				} ;
+				text =  text .. digit[hunderttausender];
+			end
+			if zehntausender > 0 then
+				digit = {
+					'&#8578;',
+					'&#8578;&#8578;',
+					'&#8578;&#8578;&#8578;',
+					'&#8578;&#8583;',
+					'&#8583;',
+					'&#8583;&#8578;',
+					'&#8583;&#8578;&#8578;',
+					'&#8583;&#8578;&#8578;&#8578;',
+					'&#8578;&#8584;'
+				} ;
+				text = text .. digit[zehntausender];
+			end
+			if tausender > 0 then
+				digit = {
+					'&#8576;',
+					'&#8576;&#8576;',
+					'&#8576;&#8576;&#8576;',
+					'&#8576;&#8577;',
+					'&#8577;',
+					'&#8577;&#8576;',
+					'&#8577;&#8576;&#8576;',
+					'&#8577;&#8576;&#8576;&#8576;',
+					'&#8576;&#8578;'
+				} ;
+				text = text .. digit[tausender];
+			end
+		else
+			if upper < 10 then
+				text = string.rep('M',upper);
+			else
+				text = 'ERR!...'; -- klassische M nur bis 9999
+			end
+		end
+	end  -- Ende  upper > 0
+	if lower > 0 then
+		if upper > 0 then
+			text = text .. '&nbsp;';
+		end
+		if hunderter > 0 then
+			digit = {'C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'} ;
+			if  style=='apo' then
+				digit[9] =  'C&#8576;';
+			end
+			text = text .. digit[hunderter];
+		end
+		if zehner > 0 then
+			digit = {'X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'} ;
+			text = text .. digit[zehner];
+		end
+		if einer > 0 then
+			digit = {'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'} ;
+			text = text .. digit[einer];
+		end
+	end
+	return text;
+end
+
+
+--[[
+    Convert possible Unicode minus U+2212 into ASCII hyphen-minus.
+
+    @param source : String representation of a number.
+    @param larger : nil/false = Unicode -> ASCII.
+
+    @return String with one Unicode minus replaced by ASCII hyphen-minus.
+]]
+FormatNum.minus = function ( source, larger )
+    local r = mw.ustring.char( 0x2212 );
+    if larger then
+        r = source:gsub( "-", r, 1 );
+    else
+        r = mw.ustring.gsub( source, r, "-", 1 );
+    end
+    -- gsub has two results.
+    return r;
+end -- FormatNum.minus()
+
+
+
+--[[
+    HTML padding of number strings.
+
+    @param number : string with floating point or integer number
+    @param meet :  Positive figures require padding behind decimal mark,
+           negative values ensure at least that absolute value
+           of characters before decimal mark.
+           Defaults to 'none' or 0.
+    @param stop : string with decimal mark; if false: number is integer.
+
+    @return String of the formatted number.
+]]
+FormatNum.padding = function ( number, meet, stop )
+    local r = number;
+    if type( number ) == "string"    and
+       type( meet ) == "number"    and
+       ( not stop   or
+         ( type( stop ) == "string"  and
+           stop:match( "^%p$" ) ) ) then
+        local m = math.floor( meet );
+        if m ~= 0 then
+            local i, s;
+            r = mw.text.trim( r );
+            if stop then
+                i = r:find( stop, 1, true );
+                s = "";
+            else
+                i = mw.ustring.len( r );
+                s = ".";
+            end
+            if i then
+                local left = ( m < 0 );
+                local n    = m + i;
+                if left then
+                    n = 1 - n;
+                else
+                    n = n - mw.ustring.len( r );
+                end
+                if n > 0 then
+                    s = string.format( PADDING_SPAN,
+                                       s,
+                                       string.rep( "0", n ) );
+                    if left then
+                        r = s .. r;
+                    else
+                        r = r .. s;
+                    end
+                end
+            end
+        end
+    end
+    return r;
+end -- FormatNum.padding()
+
+
+
+--[[
+    Convert string of roman digits into number.
+    @param roman :  string with roman number, case-insensitive,
+                    and possibly trailing suffix.
+    @param suffix : nil, or string with pattern for permitted suffix.
+    @return
+        1. Read number, or false if error.
+        2. nil, or string with detected trailing suffix.
+]]
+FormatNum.roman2number = function ( roman, suffix )
+    local d  = mw.text.split( roman, "" );
+    local n  = #d;
+    local r  = 0;
+    local r2 = false;
+    local k;
+    for i = 1, n do
+        k = ROMAN_DIGITS[ d[ i ]:upper() ];
+        if k then
+            d[ i ] = k;
+        else
+            r2 = table.concat( d, "", i );
+            if suffix   and   mw.ustring.match( r2, "^" .. suffix ) then
+                n = i - 1;
+            else
+                r = false;
+            end
+            break;    -- for i
+        end
+    end    -- for i
+    if r then
+        local j = 0;
+        local l = true;
+        for i = n, 1, -1 do
+            k = d[ i ];
+            if k > j then
+                r = r + k;
+                l = true;
+            elseif k < j then
+                r = r - k;
+                l = false;
+            elseif l then
+                r = r + k;
+            else
+                r = r - k;
+            end
+            j = k;
+        end    -- for i
+    end
+    return r, r2;
+end -- FormatNum.roman2number()
+
+
+
+--[[
+    Rounding numbers.
+
+    @param number : string with unformatted floating point or integer number, or number.
+    @param precision : number of significant fractional part digits.
+           If precision is negative, the integer part is rounded as well.
+    @param method : number defining the rounding method to use.
+           Currently are supported only
+              0 for 'IEEE 754' rounding (default) and
+              1 for 'round half away from zero'.
+           If another number is supplied, the result is undefined.
+    @param lone : boolean or nil; omit decimal separator
+           on floating point numbers without trailing digits.
+
+    @return String of the rounded number as returned by Lua function string.format().
+]]
+FormatNum.round = function ( source, precision, method, lone )
+    local n = math.floor( precision );
+    local r;
+    if n then
+        local stitch = type( source );
+        local lower;
+        if stitch == "string" then
+            r = mw.text.trim( source );
+            if r == "" then
+                r = false;
+            elseif n > 0 then
+                local s = r:match( "^-?%d+%.(%d+)$" );
+                if not s  or  #s < n then
+                    n = false;
+                end
+            else
+                lower = r:find( ".", 1, true )  and  not lone;
+            end
+            if r and n then
+                r = tonumber( r );
+            end
+        elseif stitch == "number" then
+            r = source;
+        end
+        if r and n then
+            local m;
+            if type( method ) == "number" then
+                m = math.floor( method );
+            else
+                m = DEFAULT_METHOD;
+            end
+            r = numberToString( r, n, m );
+            if lower then
+                r = r .. ".";
+            end
+        end
+    end
+    return r or source;
+end -- FormatNum.round()
+
+
+
+--[[
+    Retrieve versioning and check for compliance.
+
+    @param atleast : string with with required version
+                    or "wikidata" or "~" or "@", or false.
+
+    @return String with with queried version, also if problem,
+                   or false if appropriate
+]]
+Failsafe.failsafe = function ( atleast )
+    -- Retrieve versioning and check for compliance
+    -- Precondition:
+    --     atleast  -- string, with required version
+    --                         or "wikidata" or "~" or "@" or false
+    -- Postcondition:
+    --     Returns  string  -- with queried version/item, also if problem
+    --              false   -- if appropriate
+    -- 2020-08-01
+    local last  = ( atleast == "~" )
+    local link  = ( atleast == "@" )
+    local since = atleast
+    local r
+    if last  or  link  or  since == "wikidata" then
+        local item = Failsafe.item
+        since = false
+        if type( item ) == "number"  and  item > 0 then
+            local suited = string.format( "Q%d", item )
+            local entity = mw.wikibase.getEntity( suited )
+            if type( entity ) == "table" then
+                local seek = Failsafe.serialProperty or "P348"
+                local vsn  = entity:formatPropertyValues( seek )
+                if type( vsn ) == "table"  and
+                   type( vsn.value ) == "string"  and
+                   vsn.value ~= "" then
+                    if last  and  vsn.value == Failsafe.serial then
+                        r = false
+                    elseif link then
+                        if mw.title.getCurrentTitle().prefixedText  ==
+                           mw.wikibase.getSitelink( suited ) then
+                            r = false
+                        else
+                            r = suited
+                        end
+                    else
+                        r = vsn.value
+                    end
+                end
+            end
+        end
+    end
+    if type( r ) == "nil" then
+        if not since  or  since <= Failsafe.serial then
+            r = Failsafe.serial
+        else
+            r = false
+        end
+    end
+    return r
+end -- Failsafe.failsafe()
+
+
+
+local p = { };
+
+p.format = function ( frame )
+    -- @param 1 : unformatted (but maybe rounded) floating point or integer number.
+    -- @param 2 : Formatting option. Currently there are supported:
+    --                 "at", "comma", "de", "dewiki", "de_currency", "ch",
+    --                 "ch_currency", "en", "iso31_0", "iso31_0_point" and "pc".
+    local source = frame.args[ 1 ];
+    local spec   = frame.args[ 2 ];
+    if spec then
+        spec = mw.text.trim( spec );
+        if spec == "" then
+            spec = false;
+        end
+    end
+    return FormatNum.format( source, spec )  or  "";
+end -- .format()
+
+
+
+p.minus = function ( frame )
+    -- @param 1 : number, with possible Unicode minus or vice versa.
+    -- @param 2 : boolean, turning ASCII hyphen into Unicode minus.
+    local larger = frame.args[ 2 ];
+    if larger then
+        larger = mw.text.trim( larger );
+        if larger == "" or larger == "0" then
+            larger = false;
+        end
+    end
+    return FormatNum.minus( frame.args[ 1 ], larger );
+end -- .minus()
+
+
+
+p.padding = function ( frame )
+    -- @param 1 : number to be padded
+    -- @param 2 : number of trailing or leading figures for alignment
+    -- @param 3 : string with decimal mark
+    local r    = frame.args[ 1 ];
+    local meet = tonumber( frame.args[ 2 ] );
+    local stop = frame.args[ 3 ];
+    if r and meet and stop then
+        stop = mw.text.trim( stop );
+        r = FormatNum.padding( r, meet, stop );
+    else
+        r = r or "";
+    end
+    return r;
+end -- .padding()
+
+
+
+p.roman =  function ( frame )
+    -- @param 1 : an Integer less than 1 000 000
+    -- @param 2 : formatting code: 'over' for overline style, 'apo' for apostrophus, any other for 'M' only up to 9999
+    local para1 =  tonumber(frame.args[1] or '') or 0 ;
+    local para2 =  string.lower(frame.args[2] or '');
+	return FormatNum.getromanstring(para1,para2)  or  "";
+end
+
+
+
+p.roman2number = function ( frame )
+    -- @param 1 : roman number, possibly with trailing suffix
+    -- @param 2 : pattern for permitted suffix, or not
+    local r = frame.args[ 1 ];
+    if r then
+        local suffix = frame.args[ 2 ];
+        r = mw.text.trim( r );
+        if #r > 0 then
+            if suffix then
+                suffix = mw.text.trim( suffix );
+                if #suffix == 0 then
+                    suffix = false;
+                end
+            end
+            r = FormatNum.roman2number( r, suffix )
+        end
+    end
+    return r or "";
+end -- .roman2number()
+
+
+
+p.round = function ( frame )
+    -- @param 1 : unformatted floating point or integer number.
+    -- @param 2 : precision; number of significant fractional part digits.
+    --            If precision is negative, the integer part is rounded as well.
+    -- @param method : number defining the rounding method to be used.
+    --                 Currently are supported only
+    --                    0 for 'IEEE 754' rounding (default) and
+    --                    1 for 'round half away from zero'.
+    --                 If another number is supplied, the result is undefined.
+    -- @param format : trigger formatting, if set to a formatting option.
+    -- @param padding : trigger formatting and padding, if set to a number.
+    local r         = frame.args[ 1 ];
+    local precision = tonumber( frame.args[ 2 ] );
+    if r and precision then
+        local suitable = frame.args.format;
+        local meet     = tonumber( frame.args.padding );
+        local method   = tonumber( frame.args.method );
+        local int      = frame.args[ 2 ]:find( "-0", 1, true );
+        r = FormatNum.round( r, precision, method, int );
+        if suitable then
+            suitable = mw.text.trim( suitable );
+            if #suitable == 0 then
+                suitable = false;
+            end
+        end
+        if suitable or meet then
+            r = FormatNum.format( r, suitable, meet );
+        end
+    else
+        r = r or "";
+    end
+    return r;
+end -- .round()
+
+
+
+p.failsafe = function ( frame )
+    -- Retrieve versioning and check for compliance.
+    -- @param 1 : string with with required version, or empty.
+    -- @return String with appropriate version, or false.
+    local s = type( frame );
+    local since;
+    if s == "table" then
+        since = frame.args[ 1 ];
+    elseif s == "string" then
+        since = frame;
+    end
+    if since then
+        since = mw.text.trim( since );
+        if #since == 0 then
+            since = false;
+        end
+    end
+    return Failsafe.failsafe( since )  or  "";
+end
+
+
+
+-- Export access for Lua modules
+p.FormatNum = function ()
+    return FormatNum;
+end -- .FormatNum()
+
+return p;
