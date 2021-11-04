@@ -27,10 +27,11 @@ A Frankfurt dal ngrum de istituzions de educazion mpurtantes sciche la [[Univers
 | DIAGRAMM TEMPERATUR = rechts
 | DIAGRAMM NIEDERSCHLAG = deaktiviert
 | DIAGRAMM NIEDERSCHLAG HÖHE = 200
-| QUELLE = [[Deutscher Wetterdienst]],<ref>{{Internetquelle |url=https://www.dwd.de/DE/leistungen/klimadatendeutschland/klimadatendeutschland.html |titel=Klimainformationen 1981–2010 |hrsg=Deutscher Wetterdienst |abruf=2020-04-15}}</ref> wetterkontor.de<ref>{{Internetquelle |url=https://wetterkontor.de/de/klima/klima2.asp?land=de&stat=10637 |titel=Klimadaten 1961–1990 |titelerg=für Temperatur, Niederschlag, Luftfeuchtigkeit, Sonnenscheindauer |hrsg=wetterkontor.de |abruf=2020-04-15}}</ref> (Zeitraum von 1981 bis 2010)
-| Überschrift = Klimadaten für die Station [[Frankfurt-Flughafen]] für die Referenzperiode 1981 bis 2010
-| Ort = Frankfurt am Main (1981 bis 2010)
-<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->| hmjan = 4.2
+| FUNTANA = [[https://www.dwd.de/DE/leistungen/klimadatendeutschland/klimadatendeutschland.html Deutscher Wetterdienst]]
+| Titul = Dac dl tlima per la stazion a l'[[aeroport de Frankfurt]] te la perioda dal 1981 al 2010
+| Luech = Frankfurt sul Main (dal 1981 al 2010)
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 4.2
 | hmfeb = 5.9
 | hmmär = 10.7
 | hmapr = 15.4
@@ -115,6 +116,7 @@ A Frankfurt dal ngrum de istituzions de educazion mpurtantes sciche la [[Univers
 | lfnov = 86
 | lfdez = 86
 }}
+
 ==Storia==
 
 
