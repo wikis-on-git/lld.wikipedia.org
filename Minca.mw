@@ -25,7 +25,29 @@ Aldidancuei ie Minca n zënter global de ert, scienza, tecnologia, finanza, publ
 ==Geografia==
 
 ===Tlima===
-
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = [https://www.wetterdienst.de/Deutschlandwetter/Muenchen/Klima/ Deutscher Wetterdienst Daten: 2015–2020], [http://wetterkontor.de/de/klima/klima2.asp?land=de&stat=10870 Klimatabelle für München - Wetterkontor]
+| Titul =
+| Luech = Minca
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 4.7 | hmfeb = 7.5 | hmmär = 10.8 | hmapr = 16.2 | hmmai = 19.5 | hmjun = 24.4 | hmjul = 26.2 | hmaug = 26.2 | hmsep = 20.5 | hmokt = 15.3 | hmnov = 9.2 | hmdez = 6.8
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1.6 | lmfeb = 0.1 | lmmär = 2.2 | lmapr = 5.5 | lmmai = 9.3 | lmjun = 13.8 | lmjul = 15.2 | lmaug = 14.9 | lmsep = 10.5 | lmokt = 6.6 | lmnov = 2.7 | lmdez = 0.4
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 1.5 | avfeb = 3.8 | avmär = 6.5 | avapr = 10.8 | avmai = 14.4 | avjun = 19.1 | avjul = 20.7 | avaug = 20.5 | avsep = 15.5 | avokt = 10.9 | avnov = 5.9 | avdez = 3.6
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 71 | nbfeb = 67 | nbmär = 43 | nbapr = 52 | nbmai = 137 | nbjun = 101 | nbjul = 103 | nbaug = 113 | nbsep = 83 | nbokt = 65 | nbnov = 53 | nbdez = 45
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 17 | rdfeb = 13 | rdmär = 14 | rdapr = 12 | rdmai = 16 | rdjun = 14 | rdjul = 15 | rdaug = 13 | rdsep = 14 | rdokt = 14 | rdnov = 14 | rddez = 14
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 2.0 | shfeb = 2.7 | shmär = 4.1 | shapr = 5.1 | shmai = 6.4 | shjun = 6.8 | shjul = 7.6 | shaug = 6.9 | shsep = 5.6 | shokt = 4.2 | shnov = 2.2 | shdez = 1.6
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 83 | lffeb = 83 | lfmär = 77 | lfapr = 72 | lfmai = 73 | lfjun = 73 | lfjul = 73 | lfaug = 75 | lfsep = 78 | lfokt = 82 | lfnov = 86 | lfdez = 86
+}}
 
 ==Galaria dala fotografies==
 <gallery  widths="180" heights="100" perrow="4" >
