@@ -105,7 +105,7 @@ Colors=
  id:sfondo value:rgb(1,1,1)
  id:barra value:rgb(0.6,0.7,0.8)
 
-ImageSize = width:455 height:303
+ImageSize = width:500 height:350
 PlotArea = left:50 bottom:50 top:30 right:30
 DateFormat = x.y
 Period = from:0 till:3000
@@ -130,6 +130,7 @@ BarData=
  bar:1981 text:1981
  bar:1991 text:1991
  bar:2001 text:2001
+ bar:2011 text:2011
 
 PlotData=
  color:barra width:20 align:left
@@ -148,23 +149,25 @@ PlotData=
  bar:1981 from: 0 till:2294
  bar:1991 from: 0 till:2394
  bar:2001 from: 0 till:2513
+ bar:2011 from: 0 till:2660
 
 PlotData=
 
- bar:1861 at:0 fontsize:XS text: ? shift:(-8,5)
- bar:1871 at:0 fontsize:XS text: ? shift:(-8,5)
- bar:1881 at:0 fontsize:XS text: ? shift:(-8,5)
- bar:1901 at:0 fontsize:XS text: ? shift:(-8,5)
- bar:1911 at:0 fontsize:XS text: ? shift:(-8,5)
- bar:1921 at:999 fontsize:XS text: 999 shift:(-8,5)
- bar:1931 at:999 fontsize:XS text: 999 shift:(-8,5)
- bar:1936 at:1102 fontsize:XS text: 1102 shift:(-8,5)
- bar:1951 at:1282 fontsize:XS text: 1282 shift:(-8,5)
- bar:1961 at:1604 fontsize:XS text: 1604 shift:(-8,5)
- bar:1971 at:2137 fontsize:XS text: 2137 shift:(-8,5)
- bar:1981 at:2294 fontsize:XS text: 2294 shift:(-8,5)
- bar:1991 at:2394 fontsize:XS text: 2394 shift:(-8,5)
- bar:2001 at:2513 fontsize:XS text: 2513 shift:(-8,5)
+ bar:1861 at:0 fontsize:S text: ? shift:(-8,5)
+ bar:1871 at:0 fontsize:S text: ? shift:(-8,5)
+ bar:1881 at:0 fontsize:S text: ? shift:(-8,5)
+ bar:1901 at:0 fontsize:S text: ? shift:(-8,5)
+ bar:1911 at:0 fontsize:S text: ? shift:(-8,5)
+ bar:1921 at:999 fontsize:S text: 999 shift:(-8,5)
+ bar:1931 at:999 fontsize:S text: 999 shift:(-8,5)
+ bar:1936 at:1102 fontsize:S text: 1102 shift:(-8,5)
+ bar:1951 at:1282 fontsize:S text: 1282 shift:(-8,5)
+ bar:1961 at:1604 fontsize:S text: 1604 shift:(-8,5)
+ bar:1971 at:2137 fontsize:S text: 2137 shift:(-8,5)
+ bar:1981 at:2294 fontsize:S text: 2294 shift:(-8,5)
+ bar:1991 at:2394 fontsize:S text: 2394 shift:(-8,5)
+ bar:2001 at:2513 fontsize:S text: 2513 shift:(-8,5)
+ bar:2011 at:2660 fontsize:S text: 2660 shift:(-8,5)
 
 TextData=
  fontsize:S pos:(20,20)
