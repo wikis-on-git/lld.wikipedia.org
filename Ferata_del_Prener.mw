@@ -10,7 +10,7 @@ La passa via [[Roveredo]], [[Trent]], [[Busan]] e [[Persenon]].
 {{BS-header|Dispruch–Bulsan–Verona}}
 {{BS-daten
 | AT-STRECKENNR=302 02
-| IT-STRECKENNR=42 <small>(Brenner – Bozen)</small><br /> 43 <small>(Bozen – Verona)</small>
+| IT-STRECKENNR=42 <small>(Prëner – Bulsan)</small><br /> 43 <small>(Bulsan – Verona)</small>
 | LÄNGE=275,4
 | SPURWEITE=1435
 | STROMG=15 kV, 16,7 Hz ~ <small>(ÖBB)</small><br /> 3 kV <small>(RFI)</small>
@@ -26,9 +26,9 @@ La passa via [[Roveredo]], [[Trent]], [[Busan]] e [[Persenon]].
 
 {{Ferata}}
 {{BS|STR|||[[Unterinntalbahn]] von Kufstein<br />(Beginn Kilometrierung ab Staatsgrenze)|T=STR}}
-{{BS|BHF|75,130|[[Stazion de Dispruch]]||{{Höhe|582|AT|link = true}}}}
+{{BS|BHF|75,130|[[Stazion de Dispruch]]||{{Autëza|582|AT|link = true}}}}
 {{BS|ABZgr|||[[Arlbergbahn]] per [[Bahnhof Bludenz|Bludenz]]}}
-{{BS|eABZgl|||[[Brennerbasistunnel]] (im Bau)|}}
+{{BS|eABZgl|||[[Tunnel de basa dl Prëner]] (vën frabicà)|}}
 {{BS|mKRZo|||[[Innsbrucker Mittelgebirgsbahn|Mittelgebirgsbahn]]}}
 {{BS|TUNNEL1|76,725||Bergiseltunnel (662 m)}}
 {{BS|TUNNEL2|78,198||Sonnenburgertunnel (250 m)}}
@@ -36,151 +36,150 @@ La passa via [[Roveredo]], [[Trent]], [[Busan]] e [[Persenon]].
 {{BS|BST|79,646|Abzw Innsbruck Hbf 1}}
 {{BS|TUNNEL2|80,291||Ahrenwaldtunnel (165 m)}}
 {{BS|TUNNEL2|80,809||Schupfentunnel (35 m)}}
-{{BS|HST|81,295|[[Unterberg-Stefansbrücke]]||{{Höhe|716|AT}}}}
+{{BS|HST|81,295|[[Unterberg-Stefansbrücke]]||{{Autëza|716|AT}}}}
 {{BS|TUNNEL2|81,648||Unterbergtunnel (48 m)}}
 {{BS|TUNNEL2|82,662||Patschertunnel (175 m)}}
 {{BS|TUNNEL2|83,581||Schürfestunnel (118 m)}}
 {{BS|ÜST|83,905|[[Überleitstelle|Üst]] Innsbruck Hbf 2}}
-{{BS|HST|84,718|[[Bahnhof Patsch|Patsch]]||{{Höhe|784|AT}}}}
+{{BS|HST|84,718|[[Bahnhof Patsch|Patsch]]||{{Autëza|784|AT}}}}
 {{BS|TUNNEL2|85,403||Schönbergtunnel (89 m)}}
 {{BS|TUNNEL1|85,726||Mühltaltunnel (872 m)}}
 {{BS|TUNNEL2|86,936||Moserwiesetunnel (74 m)}}
 {{BS|ÜST|88,291|Üst Innsbruck Hbf 3}}
 {{BS|TUNNEL2|91,847||Matreitunnel (125 m)}}
-{{BS|BHF|93,281|[[Matrei am Brenner|Matrei]]||{{Höhe|995|AT}}}}
-{{BS|BHF|97,884|[[Steinach am Brenner|Steinach in Tirol]]||{{Höhe|1048|AT}}}}
-{{BS|HST|101,918|[[St. Jodok am Brenner|St. Jodok]]||{{Höhe|1141|AT}}}}
+{{BS|BHF|93,281|[[Matrei am Brenner|Matrei]]||{{Autëza|995|AT}}}}
+{{BS|BHF|97,884|[[Steinach am Brenner|Steinach in Tirol]]||{{Autëza|1048|AT}}}}
+{{BS|HST|101,918|[[St. Jodok am Brenner|St. Jodok]]||{{Autëza|1141|AT}}}}
 {{BS|ÜST|101,985|Üst Steinach in T. 1}}
 {{BS|TUNNEL1|102,427||Jodoktunnel (481 m)}}
 {{BS|TUNNEL2|104,323||Stafflachtunnel (283 m)}}
 {{BS|TUNNEL2|106,189||Griestunnel (173 m)}}
-{{BS|HST|106,651|[[Gries am Brenner|Gries]]|([[Ausweichanschlussstelle|Awanst]]) |{{Höhe|1255|AT}}}}
+{{BS|HST|106,651|[[Gries am Brenner|Gries]]|([[Ausweichanschlussstelle|Awanst]]) |{{Autëza|1255|AT}}}}
 {{BS|ÜST|106,917|Üst Steinach in T. 2}}
-{{BS|eHST|110,9|[[Bahnhof Brennersee|Brennersee]]||{{Höhe|1351|AT}}}}
+{{BS|eHST|110,9|[[Bahnhof Brennersee|Lech dl Prëner]]||{{Autëza|1351|AT}}}}
 {{BS|BST|111,145|Abzw Steinach in T. 4|}}
 {{BS3|STR+l|ABZgr||||Str. 302 11 zum Terminal}}
 {{BS3|KDSTe|STR||111,425|Brennersee Terminal|}}
 {{BS|STR+GRZq|111,561||Erhaltungsgrenze ÖBB / RFI}}
 {{BS|GRENZE|{{BSkm|111,663|239,232}}||Staatsgrenze [[Grenze zwischen Italien und Österreich|Österreich/Italien]]}}
-{{BS|BHF|238,711|[[Bahnhof Brenner|Brenner/Brennero]]||{{Höhe|1371|IT|link = true}}}}
-{{BSe|HST|235,804|[[Brennerbad|Brennerbad/Terme di Brennero]]||{{Höhe|1310|IT}}}}
+{{BS|BHF|238,711|[[Stazion Prëner|Prëner]]||{{Autëza|1371|IT|link = true}}}}
+{{BSe|HST|235,804|[[Brennerbad|Brennerbad/Terme di Brennero]]||{{Autëza|1310|IT}}}}
 {{BS2|BS2+l|eBS2+r|}}
-{{BS2|tSTRa|exSTR|234,714||[[Pflerschtunnel]]/Galleria Fleres Nordportal (7349 m)|{{Höhe|1308|IT}}}}
-{{BS2|tÜST|exSTR|234,387|Üst Brennerbad/Terme di Brennero||{{Höhe|1298|IT}}}}
+{{BS2|tSTRa|exSTR|234,714||[[Pflerschtunnel]]/Galleria Fleres Nordportal (7349 m)|{{Autëza|1308|IT}}}}
+{{BS2|tÜST|exSTR|234,387|Üst Brennerbad/Terme di Brennero||{{Autëza|1298|IT}}}}
 {{BS2e|tSTR|exTUNNEL2|232,784||Giggelbergtunnel/Galleria Moncucco (91 m)}}
-{{BS2e|tSTR|exBHF|231,667|Schelleberg/Moncucco||{{Höhe|1242|IT}}}}
-{{BS2|tÜST|exSTR|229,798|Üst [[Pflersch|Pflersch/Fleres]]||{{Höhe|1206|IT}}}}
-{{BS2e|tSTR|exTUNNEL1|228,145||[[Aster Tunnel]]/Galleria Ast (761 m)|{{Höhe|1168|IT}}}}
-{{BS2|tSTRe|exSTR|227,311||Pflerschtunnel/Galleria Fleres Südportal|6={{Höhe|1153|IT}}}}
+{{BS2e|tSTR|exBHF|231,667|Schelleberg/Moncucco||{{Autëza|1242|IT}}}}
+{{BS2|tÜST|exSTR|229,798|Üst [[Pflersch|Pflersch/Fleres]]||{{Autëza|1206|IT}}}}
+{{BS2e|tSTR|exTUNNEL1|228,145||[[Aster Tunnel]]/Galleria Ast (761 m)|{{Autëza|1168|IT}}}}
+{{BS2|tSTRe|exSTR|227,311||Pflerschtunnel/Galleria Fleres Südportal|6={{Autëza|1153|IT}}}}
 {{BS2|BS2l|eBS2r|}}
-{{BSe|HST|227,025|[[Pflersch|Pflersch/Fleres]]||{{Höhe|1150|IT}}}}
-{{BS|BHF|223,157|[[Bahnhof Gossensaß|Gossensaß/Colle Isarco]]||{{Höhe|1100|IT}}}}
-{{BS|BHF|217,358|[[Bahnhof Sterzing-Pfitsch|Sterzing-Pfitsch/Vipiteno-Val di Vizze]]||{{Höhe|947|IT}}}}
-{{BSe|DST|215,378|Militärbf. Freienfeld/Campo di Trens|† 1944|{{Höhe|937|IT}}}}
-{{BS|HST|212,436|[[Bahnhof Freienfeld|Freienfeld/Campo di Trens]]|bis 2005 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 273 (September 2005), S. 8.</ref>|{{Höhe|934|IT}}}}
-{{BSe|HST|209,614|Mauls/Mules||{{Höhe|898|IT}}}}
+{{BSe|HST|227,025|[[Pflersch|Pflersch/Fleres]]||{{Autëza|1150|IT}}}}
+{{BS|BHF|223,157|[[Bahnhof Gossensaß|Gossensaß/Colle Isarco]]||{{Autëza|1100|IT}}}}
+{{BS|BHF|217,358|[[Bahnhof Sterzing-Pfitsch|Sterzing-Pfitsch/Vipiteno-Val di Vizze]]||{{Autëza|947|IT}}}}
+{{BSe|DST|215,378|Militärbf. Freienfeld/Campo di Trens|† 1944|{{Autëza|937|IT}}}}
+{{BS|HST|212,436|[[Bahnhof Freienfeld|Freienfeld/Campo di Trens]]|bis 2005 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 273 (September 2005), S. 8.</ref>|{{Autëza|934|IT}}}}
+{{BSe|HST|209,614|Mauls/Mules||{{Autëza|898|IT}}}}
 {{BS|TUNNEL2|206,631||Künstlicher Tunnel vor Grasstein (153 m)}}
-{{BS|DST|205,662|[[Grasstein|Grasstein/Le Cave]]||{{Höhe|843|IT}}}}
+{{BS|DST|205,662|[[Grasstein|Grasstein/Le Cave]]||{{Autëza|843|IT}}}}
 {{BS|TUNNEL2|202,907||Künstlicher Tunnel vor Mittewald (91 m)}}
-{{BSe|HST|202,121|[[Mittewald (Franzensfeste)|Mittewald/Mezzaselva]]||{{Höhe|805|IT}}}}
-{{BS|eABZg+l|||[[Brennerbasistunnel]] (im Bau)|}}
-{{BS|BHF|198,540|[[Bahnhof Franzensfeste|Franzensfeste/Fortezza]]||{{Höhe|747|IT}}}}
+{{BSe|HST|202,121|[[Mittewald (Franzensfeste)|Mittewald/Mezzaselva]]||{{Autëza|805|IT}}}}
+{{BS|eABZg+l|||[[Tunnel de basa dl Prëner]] (vën frabicà)|}}
+{{BS|BHF|198,540|[[Bahnhof Franzensfeste|Franzensfeste/Fortezza]]||{{Autëza|747|IT}}}}
 {{BS3||ABZgl|STR+r|197,633||[[Pustertalbahn]]}}
-{{BS3e||eHST|eHST|196,721|Unterau/Pradisotto|([[Festung Franzensfeste|Militärhaltestelle Franzensfeste)]]|{{Höhe|743|IT}}}}
+{{BS3e||eHST|eHST|196,721|Unterau/Pradisotto|([[Festung Franzensfeste|Militärhaltestelle Franzensfeste)]]|{{Autëza|743|IT}}}}
 {{BS3||STR|STRl|196,671||per [[Lienz]]}}
 {{BS|eABZg+l|||[[Riggertalschleife]] zur Pustertalbahn (in Planung)}}
-{{BSe|HST|192,197|[[Vahrn|Vahrn/Varna]]|(Neuerrichtung in Planung)|{{Höhe|650|IT}}}}
-{{BS|BHF|188,363|[[Bahnhof Brixen|Brixen/Bressanone]]||{{Höhe|577|IT}}}}
+{{BSe|HST|192,197|[[Vahrn|Vahrn/Varna]]|(Neuerrichtung in Planung)|{{Autëza|650|IT}}}}
+{{BS|BHF|188,363|[[Bahnhof Brixen|Brixen/Bressanone]]||{{Autëza|577|IT}}}}
 {{BS|hKRZWae|185,024||[[Eisack]]brücke (81 m)|}}
-{{BSe|HST|184,712|Albeins/Albès||{{Höhe|548|IT}}}}
-{{BSe|HST|180,608|[[Villnöß|Villnöß/Funes]]||{{Höhe|537|IT}}}}
-{{BS3||HST|exKBHFa|178,240|[[Bahnhof Klausen|Klausen/Chiusa]]|bis 2006 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 283 (Juli 2006), S. 11.</ref>|{{Höhe|523|IT}}}}
+{{BSe|HST|184,712|Albeins/Albès||{{Autëza|548|IT}}}}
+{{BSe|HST|180,608|[[Villnöß|Villnöß/Funes]]||{{Autëza|537|IT}}}}
+{{BS3||HST|exKBHFa|178,240|[[Stazion de Tluses|Tluses]]|bis 2006 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 283 (Juli 2006), S. 11.</ref>|{{Autëza|523|IT}}}}
 {{BS3e||STR|exSTRl|||ehem. [[Grödner Bahn]] de vieres de Plan (bis 1960)}}
-{{BS|TUNNEL1|177,572||Künstlicher Tunnel de vieres de Klausen (515 m)}}
-{{BS|BHF|172,432|[[Bahnhof Waidbruck-Lajen|Waidbruck-Lajen/Ponte Gardena-Laion]]||{{Höhe|422|IT}}}}
-{{BS|TUNNEL2|172,126||Künstlicher Tunnel de vieres de Waidbruck (396 m)}}
+{{BS|TUNNEL1|177,572||Künstlicher Tunnel de vieres de Tluses(515 m)}}
+{{BS|BHF|172,432|[[Stazion de Pruca-Laion|Pruca-Laion]]||{{Autëza|422|IT}}}}
+{{BS|TUNNEL2|172,126||Künstlicher Tunnel de vieres de Pruca(396 m)}}
 {{BS2|eBS2+l|BS2+r|}}
-{{BS2|exSTR|tSTRa|171,474||[[Schlerntunnel]]/Galleria Sciliar Nordportal (13 316 m)|{{Höhe|463|IT}}}}
+{{BS2|exSTR|tSTRa|171,474||[[Schlerntunnel]]/Galleria Sciliar Nordportal (13 316 m)|{{Autëza|463|IT}}}}
 {{BS2e|exhKRZWae|tSTR|170,019||[[Eisack]]brücke (59 m)|}}
-{{BS2e|exHST|tSTR|168,034|[[Kastelruth|Kastelruth/Castelrotto]]||{{Höhe|427|IT}}}}
-{{BS2|exSTR|tÜST|164,714|Üst St. Konstantin/San Costantino||{{Höhe|380|IT}}}}
-{{BS2e|exHST|tSTR|164,224|[[Atzwang|Atzwang/Campodazzo]]||{{Höhe|373|IT}}}}
+{{BS2e|exHST|tSTR|168,034|[[Kastelruth|Kastelruth/Castelrotto]]||{{Autëza|427|IT}}}}
+{{BS2|exSTR|tÜST|164,714|Üst St. Konstantin/San Costantino||{{Autëza|380|IT}}}}
+{{BS2e|exHST|tSTR|164,224|[[Atzwang|Atzwang/Campodazzo]]||{{Autëza|373|IT}}}}
 {{BS2e|exTUNNEL2|tSTR|163,598||Tunnel/Galleria VIII (55 m)}}
 {{BS2e|exTUNNEL2|tSTR|163,245||Tunnel/Galleria VII (172 m)}}
 {{BS2e|exTUNNEL2|tSTR|163,001||künstlicher Tunnel/Galleria artificiale VI (72 m)}}
-{{BS2e|exTUNNEL2|tSTR|162,809||künstlicher Tunnel/Galleria artificiale V (60 m)|{{Höhe|356|IT}}}}
+{{BS2e|exTUNNEL2|tSTR|162,809||künstlicher Tunnel/Galleria artificiale V (60 m)|{{Autëza|356|IT}}}}
 {{BS2e|exTUNNEL2|tSTR|162,369||künstlicher Tunnel/Galleria artificiale IV (239 m)}}
 {{BS2e|exTUNNEL2|tSTR|161,929||Tunnel/Galleria III (57 m)}}
 {{BS2e|exTUNNEL2|tSTR|161,779||künstlicher Tunnel/Galleria artificiale II (40 m)}}
-{{BS2e|exHST|tSTR|161,116|[[Völs am Schlern|Völsersteg/Fié]]||{{Höhe|340|IT}}}}
-{{BS2e|exTUNNEL2|tSTR|159,654||künstlicher Tunnel/Galleria artificiale I (116 m)|{{Höhe|325|IT}}}}
-{{BS2|exSTR|tSTRe|158,173||Schlerntunnel/Galleria Sciliar Südportal|{{Höhe|315|IT}}}}
+{{BS2e|exHST|tSTR|161,116|[[Völs am Schlern|Völsersteg/Fié]]||{{Autëza|340|IT}}}}
+{{BS2e|exTUNNEL2|tSTR|159,654||künstlicher Tunnel/Galleria artificiale I (116 m)|{{Autëza|325|IT}}}}
+{{BS2|exSTR|tSTRe|158,173||Schlerntunnel/Galleria Sciliar Südportal|{{Autëza|315|IT}}}}
 {{BS2|eBS2l|BS2r|}}
-{{BS|BST|157,997|[[Blumau (Südtirol)|Blumau/Prato Tires]]||{{Höhe|315|IT}}}}
+{{BS|BST|157,997|[[Blumau (Südtirol)|Blumau/Prato Tires]]||{{Autëza|315|IT}}}}
 {{BS2|eBS2+l|BS2+r|}}
-{{BS2|exSTR|tSTRa|157,196||[[Kardauntunnel]]/Galleria Cardano Nordportal (3939 m)|{{Höhe|308|IT}}}}
+{{BS2|exSTR|tSTRa|157,196||[[Kardauntunnel]]/Galleria Cardano Nordportal (3939 m)|{{Autëza|308|IT}}}}
 {{BS2e|exTUNNEL1|tSTR|156,813||Tunnel bei Blumau (430 m)}}
-{{BS2|exSTR|tSTRe|153,257||Kardauntunnel/Galleria Cardano Südportal|{{Höhe|285|IT}}}}
+{{BS2|exSTR|tSTRe|153,257||Kardauntunnel/Galleria Cardano Südportal|{{Autëza|285|IT}}}}
 {{BS2|eBS2l|BS2r|}}
-{{BSe|HST|152,758|[[Karneid|Kardaun/Cardano]]||{{Höhe|283|IT}}}}
+{{BSe|HST|152,758|[[Karneid|Kardaun/Cardano]]||{{Autëza|283|IT}}}}
 {{BS|hKRZWae|152,902||[[Eisack]]brücke (35 m)|}}
-{{BS|BHF|150,231|[[Bahnhof Bozen|Bozen/Bolzano]]||{{Höhe|266|IT}}}}
-{{BSe|ABZgr|150,000||ehem. [[Bahnstrecke Bozen–Meran|Trasse]] per [[Meran|Meran/Merano]] †1980}}
+{{BS|BHF|150,231|[[Stazion de Bulsan|Bulsan]]||{{Autëza|266|IT}}}}
+{{BSe|ABZgr|150,000||vedla [[Ferata Bulsan-Maran|trata]] per [[Maran]] †1980}}
 {{BS|hKRZWae|149,807||[[Eisack]]brücke (54 m)|}}
-{{BS|ABZgr|148,603||[[Bahnstrecke Bozen–Meran|neue Trasse]] per [[Meran|Meran/Merano]]}}
-{{BS|HST|142,565|[[Bahnhof Leifers|Leifers/Laives]]||{{Höhe|230|IT}}}}
-{{BS|BHF|139,294|[[Bahnhof Branzoll|Branzoll/Bronzolo]]||{{Höhe|227|IT}}}}
-{{BS3||HST|exKBHFa|134,176|[[Bahnhof Auer|Auer/Ora]]|bis 2004 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 264 (November 2004), S. 5.</ref>|{{Höhe|223|IT}}}}
+{{BS|ABZgr|148,603||[[Ferata Bulsan-Maran|nueva trata]] per [[Maran]]}}
+{{BS|HST|142,565|[[Bahnhof Leifers|Leifers]]||{{Autëza|230|IT}}}}
+{{BS|BHF|139,294|[[Bahnhof Branzoll|Branzoll]]||{{Autëza|227|IT}}}}
+{{BS3||HST|exKBHFa|134,176|[[Bahnhof Auer|Auer]]|nfin al 2004 stazion<ref>''Impianti FS.'' In: ''I Treni'' Nr. 264 (November 2004), S. 5.</ref>|{{Autëza|223|IT}}}}
 {{BS3e||STR|exSTRl|||ehem. [[Fleimstalbahn]] per [[Predazzo]] †1963}}
-{{BS|hKRZWae|133,087||Etsch (100 m)|{{Höhe|226|IT}}}}
-{{BS|BHF|128,399|[[Bahnhof Neumarkt-Tramin|Neumarkt-Tramin/Egna-Termeno]]||{{Höhe|217|IT}}}}
-{{BS|HST|124,426|[[Bahnhof Margreid-Kurtatsch|Margreid Kurtatsch/Magré-Cortaccia]]||{{Höhe|216|IT}}}}
-{{BS|HST|118,994|[[Bahnhof Salurn|Salurn/Salorno]]|min. bis 1994 Bahnhof<ref>[https://www.youtube.com/watch?v=SYXjaX-wGWs Video] 21:40 – 22:42 Aufruf am 9. Februar 2016</ref>|{{Höhe|211|IT}}}}
+{{BS|hKRZWae|133,087||Etsch (100 m)|{{Autëza|226|IT}}}}
+{{BS|BHF|128,399|[[Bahnhof Neumarkt-Tramin|Neumarkt-Tramin/Egna-Termeno]]||{{Autëza|217|IT}}}}
+{{BS|HST|124,426|[[Bahnhof Margreid-Kurtatsch|Margreid Kurtatsch/Magré-Cortaccia]]||{{Autëza|216|IT}}}}
+{{BS|HST|118,994|[[Bahnhof Salurn|Salurn/Salorno]]|min. bis 1994 Bahnhof<ref>[https://www.youtube.com/watch?v=SYXjaX-wGWs Video] 21:40 – 22:42 Aufruf am 9. Februar 2016</ref>|{{Autëza|211|IT}}}}
 {{BS|STR+GRZq|116,3||Provinzgrenze [[Südtirol]] – [[Trentino]]}}
-{{BS|BHF|111,624|[[Mezzocorona]]||{{Höhe|210|IT}}}}
+{{BS|BHF|111,624|[[Mezzocorona]]||{{Autëza|210|IT}}}}
 {{BS3||KRZu|STR+r|110,505||[[Ferrovia Trento–Malè|Nonstalbahn]] per Marilleva}}
-{{BS3||hKRZWae|LSTR|109,652||Etsch (87 m)|{{Höhe|209|IT}}}}
-{{BS3||HST|LSTR|104,322|[[Lavis]]|bis 2003 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 252 (Oktober 2003), S. 8.</ref>|{{Höhe|206|IT}}}}
-{{BS3||hSTRae|LSTR|101,979||Avisio Viadukt (900 m)|{{Höhe|206|IT}}}}
+{{BS3||hKRZWae|LSTR|109,652||Etsch (87 m)|{{Autëza|209|IT}}}}
+{{BS3||HST|LSTR|104,322|[[Lavis]]|bis 2003 Bahnhof<ref>''Impianti FS.'' In: ''I Treni'' Nr. 252 (Oktober 2003), S. 8.</ref>|{{Autëza|206|IT}}}}
+{{BS3||hSTRae|LSTR|101,979||Avisio Viadukt (900 m)|{{Autëza|206|IT}}}}
 {{BS3||DST|LSTR|99,671|Trento Roncafort|Güterbahnhof}}
-{{BS3||BHF|KBHFe|94,796|[[Bahnhof Trient|Trento]]||{{Höhe|193|IT}}}}
+{{BS3||BHF|KBHFe|94,796|[[Bahnhof Trient|Trento]]||{{Autëza|193|IT}}}}
 {{BS|ABZgl|||[[Bahnstrecke Trient–Venedig|Valsugana-Bahn]] per [[Unieja]]}}
-{{BS|BHF|87,222|Mattarello||{{Höhe|186|IT}}}}
-{{BSe|HST|78,9|[[Calliano (Trentino)|Calliano]]|bis 2004<ref>''Impianti FS.'' In: ''I Treni'' Nr. 267 (Februar 2005), S. 6–7.</ref>|{{Höhe|183|IT}}}}
-{{BSe|HST|75,589|Volano||{{Höhe|175|IT}}}}
-{{BSe|HST||Villa Lagarina||{{Höhe|177|IT}}}}
-{{BS|BHF|71,219|[[Rovereto]]||{{Höhe|189|IT}}}}
+{{BS|BHF|87,222|Mattarello||{{Autëza|186|IT}}}}
+{{BSe|HST|78,9|[[Calliano (Trentino)|Calliano]]|bis 2004<ref>''Impianti FS.'' In: ''I Treni'' Nr. 267 (Februar 2005), S. 6–7.</ref>|{{Autëza|183|IT}}}}
+{{BSe|HST|75,589|Volano||{{Autëza|175|IT}}}}
+{{BSe|HST||Villa Lagarina||{{Autëza|177|IT}}}}
+{{BS|BHF|71,219|[[Rovereto]]||{{Autëza|189|IT}}}}
 {{BSe|ABZgr|||ehem. [[Lokalbahn Mori–Arco–Riva|Lokalbahn]] per Riva †1936}}
-{{BS|hKRZWae|70,361||Leno (41&nbsp;m)|{{Höhe|186|IT}}}}
+{{BS|hKRZWae|70,361||Leno (41&nbsp;m)|{{Autëza|186|IT}}}}
 {{BS3e|exSTR+r|STR||||ehem. [[Lokalbahn Mori–Arco–Riva|Lokalbahn]] per Riva †1936}}
-{{BS3|exKBHFe|HST||66,914|[[Mori (Trentino)|Mori]]|bis 2004 Bahnhof,<ref>''Impianti FS.'' In: ''I Treni'' Nr. 262 (September 2004), S. 6.</ref>|{{Höhe|174|IT}}}}
-{{BS|HST|60,863|[[Serravalle (Trentino)|Serravalle all’Adige]]||{{Höhe|154|IT}}}}
-{{BS|BHF|54,684|[[Ala (Trentino)|Ala]]||{{Höhe|148|IT}}}}
-{{BS|HST|50,359|[[Avio (Trentino)|Avio]]||{{Höhe|137|IT}}}}
-{{BS|HST|45,485|[[Borghetto sull’Adige]]||{{Höhe|127|IT}}}}
+{{BS3|exKBHFe|HST||66,914|[[Mori (Trentino)|Mori]]|bis 2004 Bahnhof,<ref>''Impianti FS.'' In: ''I Treni'' Nr. 262 (September 2004), S. 6.</ref>|{{Autëza|174|IT}}}}
+{{BS|HST|60,863|[[Serravalle (Trentino)|Serravalle all’Adige]]||{{Autëza|154|IT}}}}
+{{BS|BHF|54,684|[[Ala (Trentino)|Ala]]||{{Autëza|148|IT}}}}
+{{BS|HST|50,359|[[Avio (Trentino)|Avio]]||{{Autëza|137|IT}}}}
+{{BS|HST|45,485|[[Borghetto sull’Adige]]||{{Autëza|127|IT}}}}
 {{BS|STR+GRZq|43,938||Regionsgrenze [[Trentino-Südtirol]] – [[Venetien]]}}
-{{BS|HST|40,361|Peri||{{Höhe|126|IT}}}}
-{{BSe|HST|32,775|Dolcé||{{Höhe|113|IT}}}}
+{{BS|HST|40,361|Peri||{{Autëza|126|IT}}}}
+{{BSe|HST|32,775|Dolcé||{{Autëza|113|IT}}}}
 {{BS2|eBS2+l|BS2+r|}}
 {{BS2|exSTR|tSTRa|31.029||neuer [[Cerainotunnel]]/nouva Galleria Ceraino Nordportal (4314 m)}}
-{{BS2e|exHST|tSTR|29,551|Ceraino||{{Höhe|108|IT}}}}
-{{BS2e|exTUNNEL1|tSTR|28,158||Cerainotunnel/Galleria Ceraino (694&nbsp;m)|{{Höhe|108|IT}}}}
+{{BS2e|exHST|tSTR|29,551|Ceraino||{{Autëza|108|IT}}}}
+{{BS2e|exTUNNEL1|tSTR|28,158||Cerainotunnel/Galleria Ceraino (694&nbsp;m)|{{Autëza|108|IT}}}}
 {{BS2|exSTR|tSTRe|26,715||neuer Cerainotunnel/nouva Galleria Ceraino Südportal}}
 {{BS2|eBS2l|BS2r|}}
 {{BSe|KRZo|||ehem. Strecke Garda/Caprino–Verona Porta San Giorgio}}
-{{BS|BHF|{{BSkm|23,561|22,830}}|Domegliara-Sant’Ambrogio||{{Höhe|118|IT}}}}
-{{BSe|BHF|16,985|Pescantina|bis 2004<ref>''Impianti FS.'' In: ''I Treni'' Nr. 266 (Januar 2005), S. 9.</ref>|{{Höhe|107|IT}}}}
-{{BS|BST|11,650|[[Verona]] Parona||{{Höhe|80|IT}}}}
+{{BS|BHF|{{BSkm|23,561|22,830}}|Domegliara-Sant’Ambrogio||{{Autëza|118|IT}}}}
+{{BSe|BHF|16,985|Pescantina|bis 2004<ref>''Impianti FS.'' In: ''I Treni'' Nr. 266 (Januar 2005), S. 9.</ref>|{{Autëza|107|IT}}}}
+{{BS|BST|11,650|[[Verona]] Parona||{{Autëza|80|IT}}}}
 {{BS3||KRZlr+lr|STR+r|6,397|Bivio/P.C. S. Massimo|([[Ferata Milan–Unieja|per Milan]])}}
 {{BS3||ABZgr|STR|||[[Bahnstrecke Verona–Mantua–Modena|per Modena]]}}
 {{BS3||STRr|STR|||[[Bahnstrecke Verona–Bologna|per Bologna]]}}
-{{BS3|||BHF|3,378|Verona Porta Nuova||{{Höhe|65|IT}}}}
+{{BS3|||BHF|3,378|Verona Porta Nuova||{{Autëza|65|IT}}}}
 {{BS3|||hKRZWae|||[[Etsch]]|}}
-{{BS3|||BHF|0,000|Verona Porta Vescovo||{{Höhe|59|IT}}}}
+{{BS3|||BHF|0,000|Verona Porta Vescovo||{{Autëza|59|IT}}}}
 {{BS3|||STR|||[[Bahnstrecke Milano–Venezia|per Unieja]]}}
 |}
 |}
-
 
 
 == Fotografia ==
