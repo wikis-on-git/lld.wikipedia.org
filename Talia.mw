@@ -47,8 +47,184 @@ La Talia ie spartida su te 20 regions. Chëstes ie i ënc aministratives che ie 
 
 ===Lista de la regions===
 
+Chësta ie na tabela che mostra le regions te la Talia ai 1 de jené 2020.
 
-
+{| class="wikitable sortable" width=100% border=1 cellpadding=2 cellspacing=0 style="margin-left:0.5em; margin-bottom:0.5em; background: #f9f9f9; border: 1px #aaaaaa solid; border-collapse: collapse;"
+! width="18%" | Region
+! width="4%" | Capitela
+! width="7%" | Populazion (ab.)
+! width="7%" | Seuraspersa (km²)
+! width="7%" | Densità (ab./km²)
+! width="53%" | provinzies y ziteies metropolitanes<ref>te cursif.</ref>
+! width="4%" | Chemuns
+|-
+| '''{{IT-LOM}}'''
+| align=center|[[Milan]]
+| align=right|{{formatnum:10027602}}
+| align=right|{{formatnum:23863}}
+| align="right" |420
+| align=left|[[Provinzia de Bergamo|Bergamo]], [[Provinzia de Brescia|Brescia]], [[Provinzia de Como|Como]], [[Provinzia de Cremona|Cremona]], [[Provinzia de Lecco|Lecco]], [[Provinzia de Lodi|Lodi]], [[Provinzia de Mantova|Mantova]], ''[[Zità metropolitana de Milan|Milan]]'', [[Provinzia de Monza y Brianza|Monza y Brianza]], [[Provinzia de Pavia|Pavia]], [[Provinzia de Sondrio|Sondrio]], [[Provinzia de Varese|Varese]]
+| align=right|{{formatnum:1506}}
+|-
+| '''{{IT-LAZ}}'''
+| align=center|[[Roma]]
+| align=right|{{formatnum:5755700}}
+| align=right|{{formatnum:17232}}
+| align=right|334
+| align=left|[[Provinzia de Frosinone|Frosinone]], [[Provinzia de Latina|Latina]], [[Provinzia de Rieti|Rieti]], ''[[Zità metropolitana de Roma|Roma]]'', [[Provinzia de Viterbo|Viterbo]]
+| align=right|378
+|-
+| '''{{IT-CAM}}'''
+| align=center|[[Napoli]]
+| align=right|{{formatnum:5712143}}
+| align=right|{{formatnum:13671}}
+| align="right" |418
+| align=left|[[Provinzia de Avellino|Avellino]], [[Provinzia de Benevento|Benevento]], [[Provinzia de Caserta|Caserta]], ''[[Zità metropolitana de Napoli|Napoli]]'', [[Provinzia de Salerno|Salerno]]
+| align=right|550
+|-
+| '''{{IT-VEN}}'''
+| align=center|[[Unieja]]
+| align=right|{{formatnum:4879133}}
+| align=right|{{formatnum:18345}}
+| align="right" |266
+| align=left|[[Provinzia de Belun|Belun]], [[Provinzia de Padua|Padua]], [[Provinzia de Rovigo|Rovigo]], [[Provinzia de Treviso|Treviso]], ''[[Zità metropolitana de Venezia|Unieja]]'', [[Provinzia de Verona|Verona]], [[Provinzia de Vicenza|Vicenza]] 
+| align=right|563
+|-
+| '''{{IT-SIC}}'''
+| align=center|[[Palermo]]
+| align=right|{{formatnum:4875290}}
+| align=right|{{formatnum:25832}}
+| align=right|189
+| align=left|[[Provinzia de Agrigento|Agrigento]], [[Provinzia de Caltanissetta|Caltanissetta]], ''[[Zità metropolitana de Catania|Catania]]'', [[Provinzia de Enna|Enna]], ''[[Zità metropolitana de Messina|Messina]]'', ''[[Zità metropolitana de Palermo|Palermo]]'', [[Provinzia de Ragusa|Ragusa]], [[Provinzia de Siracusa|Siracusa]], [[Provinzia de Trapani|Trapani]] 
+| align=right|390
+|-
+| '''{{IT-EMR}}'''
+| align=center|[[Bologna]]
+| align=right|{{formatnum:4464119}}
+| align=right|{{formatnum:22453}}
+| align="right" |199
+| align=left|''[[Zità metropolitana de Bologna|Bologna]]'', [[Provinzia de Ferrara|Ferrara]], [[Provinzia de Forlì-Cesena|Forlì-Cesena]], [[Provinzia de Modena|Modena]], [[Provinzia de Parma|Parma]], [[Provinzia de Piacenza|Piacenza]], [[Provinzia de Ravenna|Ravenna]], [[Provinzia de Reggio Emilia|Reggio Emilia]], [[Provinzia de Rimini|Rimini]]
+| align=right|328
+|-
+| '''{{IT-PMN}}'''
+| align=center|[[Torino]]
+| align=right|{{formatnum:4311217}}
+| align=right|{{formatnum:25387}}
+| align=right|170
+| align=left|[[Provinzia de Alessandria|Alessandria]], [[Provinzia de Asti|Asti]], [[Provinzia de Biella|Biella]], [[Provinzia de Cuneo|Cuneo]], [[Provinzia de Novara|Novara]], ''[[Zità metropolitana de Torino|Torino]]'', [[Provincia del Verbano-Cusio-Ossola|Verbano-Cusio-Ossola]], [[Provinzia de Vercelli|Vercelli]]
+| align=right|{{formatnum:1181}}
+|-
+| '''{{IT-PUG}}'''
+| align=center|[[Bari]]
+| align=right|{{formatnum:3953305}}
+| align=right|{{formatnum:19541}}
+| align=right|206
+| align=left|''[[Zità metropolitana de Bari|Bari]]'', [[Provinzia de Barletta-Andria-Trani|Barletta-Andria-Trani]], [[Provinzia de Brindisi|Brindisi]], [[Provinzia de Lecce|Lecce]], [[Provinzia de Foggia|Foggia]], [[Provinzia de Taranto|Taranto]]
+| align=right|257
+|-
+| '''{{IT-TOS}}'''
+| align=center|[[Firenze]]
+| align=right|{{formatnum:3692555}}
+| align=right|{{formatnum:22987}}
+| align=right|162
+| align=left|[[Provinzia de Arezzo|Arezzo]], ''[[Zità metropolitana de Firenze|Firenze]]'', [[Provinzia de Grosseto|Grosseto]], [[Provinzia de Livorno|Livorno]], [[Provinzia de Lucca|Lucca]], [[Provinzia de Massa e Carrara|Massa e Carrara]], [[Provinzia de Pisa|Pisa]], [[Provinzia de Pistoia|Pistoia]], [[Provinzia de Prato|Prato]], [[Provinzia de Siena|Siena]]
+| align=right|273
+|-
+| '''{{IT-CAL}}'''
+| align=center|[[Catanzaro]]
+| align=right|{{formatnum:1894110}}
+| align=right|{{formatnum:15221}}
+| align=right|128
+| align=left|[[Provinzia de Catanzaro|Catanzaro]], [[Provinzia de Cosenza|Cosenza]], [[Provinzia de Crotone|Crotone]], ''[[Zità metropolitana de Reggio Calabria|Reggio Calabria]]'', [[Provinzia de Vibo Valentia|Vibo Valentia]]
+| align=right|404
+|-
+| '''{{IT-SAR}}'''
+| align=center|[[Cagliari]]
+| align=right|{{formatnum:1611621}}
+| align=right|{{formatnum:24100}}
+| align=right|68
+| align=left|''[[Zità metropolitana de Cagliari|Cagliari]]'', [[Provincia del Medio Campidano|Medio Campidano]], [[Provincia del Nord-Est Sardegna|Nord-Est Sardegna]], [[Provinzia de Nuoro|Nuoro]], [[Provincia dell'Ogliastra|Ogliastra]], [[Provinzia de Oristano|Oristano]], ''[[Zità metropolitana de Sassari|Sassari]]'', [[Provincia del Sulcis Iglesiente|Sulcis Iglesiente]]
+| align=right|377
+|- 
+| '''{{IT-LIG}}'''
+| align=center|[[Genova]]
+| align=right|{{formatnum:1524826}}
+| align=right|{{formatnum:5416}}
+| align="right" |282
+| align=left|''[[Zità metropolitana de Genova|Genova]]'', [[Provinzia de Imperia|Imperia]], [[Provincia della Spezia|La Spezia]], [[Provinzia de Savona|Savona]]
+| align=right|234
+|-
+| '''{{IT-MAR}}'''
+| align=center|[[Ancona]]
+| align=right|{{formatnum:1513672}}
+| align=right|{{formatnum:9427}}
+| align=right|160
+| align=left|[[Provinzia de Ancona|Ancona]], [[Provinzia de Ascoli Piceno|Ascoli Piceno]], [[Provinzia de Fermo|Fermo]], [[Provinzia de Macerata|Macerata]], [[Provinzia de Pesaro e Urbino|Pesaro e Urbino]]
+| align=right|228
+|-
+| '''{{IT-ABR}}'''
+| align=center|[[L'Aquila]]
+| align=right|{{formatnum:1293941}}
+| align=right|{{formatnum:10831}}
+| align=right|119
+| align=left|[[Provinzia de Chieti|Chieti]], [[Provincia dell'Aquila|L'Aquila]], [[Provinzia de Pescara|Pescara]], [[Provinzia de Teramo|Teramo]]
+| align=right|305
+|-
+| '''{{IT-FVG}}'''
+| align=center|[[Trieste]]
+| align=right|{{formatnum:1206216}}
+| align=right|{{formatnum:7924}}
+| align=right|152
+| align=left|[[Provinzia de Gorizia|Gorizia]], [[Provinzia de Pordenone|Pordenone]], [[Provinzia de Trieste|Trieste]], [[Provinzia de Udine|Udine]]
+|-
+| '''{{IT-TST}}'''
+| align=center|[[Trënt]]
+| align=right|{{formatnum:1078069}}
+| align=right|{{formatnum:13616}}
+| align=right|79
+| align=left|[[Provincia autonoma di Bolzano|Bolzano]], [[Provincia autonoma di Trento|Trento]]
+| align=right|282
+|-
+| '''{{IT-UMB}}'''
+| align=center|[[Perugia]]
+| align=right|{{formatnum:870165}}
+| align=right|{{formatnum:8464}}
+| align=right|103
+| align=left|[[Provinzia de Perugia|Perugia]], [[Provinzia de Terni|Terni]]
+| align=right|92
+|-
+| '''{{IT-BAS}}'''
+| align=center|[[Potenza (Italia)|Potenza]]
+| align=right|{{formatnum:553254}}
+| align=right|{{formatnum:10073}}
+| align=right|55
+| align=left|[[Provinzia de Matera|Matera]], [[Provinzia de Potenza|Potenza]]
+| align=right|131
+|-
+| '''{{IT-MOL}}'''
+| align=center|[[Campobasso]]
+| align=right|{{formatnum:300516}}
+| align=right|{{formatnum:4460}}
+| align=right|67
+| align=left|[[Provinzia de Campobasso|Campobasso]], [[Provinzia de Isernia|Isernia]]
+| align=right|136
+|-
+| '''{{IT-VAO}}'''
+| align=center|[[Aosta]]
+| align=right|{{formatnum:125034}}
+| align=right|{{formatnum:3261}}
+| align=right|38
+| align=left|[[Aosta]]<ref>Te la Val d'Aosta ie la region y la provinzia la medema, perchël ne dal deguna aministrazion provinziela.</ref>
+| align=right|74
+|-
+! align=left| '''{{ITA}}'''
+! align=center|Roma
+! align=right|'''{{formatnum:59641488}}'''
+! align=right|'''{{formatnum:302121}}'''
+! align=right|'''197'''
+! align=right|'''107'''
+! align=right|'''7903'''
+|}
 
 == Notes ==
 <references />
