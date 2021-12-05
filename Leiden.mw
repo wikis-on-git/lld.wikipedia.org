@@ -4,7 +4,7 @@
 |Bandiera          = Flag_of_Leiden.svg
 |Blason            = Leiden_wapen.svg
 |Provinzia         = {{NL-ZH}}
-|Autëza            = 0
+|Autëza            = 0 m
 |Seuraspersa       = 23
 |Abitanc           = 124000
 |Data abitanc      = 2021
@@ -17,6 +17,7 @@
 |longitudineGradi = 4
 |longitudinePrimi = 29
 |position = top
+|relief = yes
 |width = 300
 |float = center
 }}
