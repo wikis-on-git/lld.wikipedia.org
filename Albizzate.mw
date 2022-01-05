@@ -7,7 +7,7 @@
 |Region            = {{IT-LOM}}
 |Provinzia         = [[Provinzia de Varese|Varese]]
 |Souraspersa       = 3.84
-|Coordinedes       = {{coord|8|48|N|21|43|E|display=inline}}   <!--mantenì chësc format-->
+|Coordinedes       = {{coord|21|43|N|8|48|E|display=inline}}   <!--mantenì chësc format-->
 |Auteza            = 
 |Abitanc           = 5349
 |Data abitanc      = 2021
@@ -19,10 +19,10 @@
 |Cherta localisazion = {{Mappa di localizzazione
 |ITA
 |label = Albizzate
-|latitudineGradi = 8
-|latitudinePrimi = 48
-|longitudineGradi = 21
-|longitudinePrimi = 43
+|latitudineGradi = 21
+|latitudinePrimi = 43
+|longitudineGradi = 8
+|longitudinePrimi = 48
 |position = right
 |width = 300
 |float = center
