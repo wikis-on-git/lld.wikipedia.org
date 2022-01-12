@@ -29,6 +29,71 @@
 }}
 }}'''Col''' ([[lingaz talian|talian]]: ''Colle Santa Lucia'', [[tudësch]]: ''Verseil'') ie n [[chemun]] [[talia]]n te la [[Ladinia]] te la [[provinzia de Belum]] tl [[Veneto]]. Tl 2021 ovel na populazion de 388 sun na spersa de 15,23&nbsp;km².<ref>https://www.databasecomuni.it/</ref>
 
+
+== Cumenanza ==
+
+=== Svilup demografich ===
+La populazion de Col ie jita scialdi zeruch do la anescion ala Talia, tuman da 754 tl 1921 a 354 tl 2021.
+
+<timeline>
+Colors=
+ id:lightgrey value:gray(0.9)
+ id:darkgrey value:gray(0.8)
+ id:sfondo value:rgb(1,1,1)
+ id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:350
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:1000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1921 from: 0 till:754
+  bar:1931 from: 0 till:719
+  bar:1936 from: 0 till:664
+  bar:1951 from: 0 till:677
+  bar:1961 from: 0 till:623
+  bar:1971 from: 0 till:603
+  bar:1981 from: 0 till:556
+  bar:1991 from: 0 till:480
+  bar:2001 from: 0 till:418
+
+PlotData=
+
+  bar:1921 at:754 fontsize:S text: 754 shift:(-8,5)
+  bar:1931 at:719 fontsize:S text: 719 shift:(-8,5)
+  bar:1936 at:664 fontsize:S text: 664 shift:(-8,5)
+  bar:1951 at:677 fontsize:S text: 677 shift:(-8,5)
+  bar:1961 at:623 fontsize:S text: 623 shift:(-8,5)
+  bar:1971 at:603 fontsize:S text: 603 shift:(-8,5)
+  bar:1981 at:556 fontsize:S text: 556 shift:(-8,5)
+  bar:1991 at:480 fontsize:S text: 480 shift:(-8,5)
+  bar:2001 at:418 fontsize:S text: 418 shift:(-8,5)
+
+TextData=
+ fontsize:S pos:(20,20)
+ text:Dac dl ISTAT
+</timeline>
+
+
 [[Categoria:Chemuns dl Veneto]]
 [[Categoria:Chemuns cun inuemes ladins tl Belum]]
 [[Categoria:Chemuns de la Talia]]
