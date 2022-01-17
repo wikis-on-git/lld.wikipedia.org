@@ -168,13 +168,79 @@ La scola elementera vën ressaneda y ngrandida.
 
 La scolina  vën ressaneda y ngrandida per fé lerch a trëi sezions.
 
-== Rujeneda ==
+== Cumenanza ==
+
+=== Spartizion linguistica ===
 {{Lingaz de apartenënza
 |talian = 4,41
 |tudësch = 4,19
 |ladins = 91,40
 |ann = 2011
 }}
+
+=== Svilup demografich ===
+Santa Cristina à abù n crëscer de la populazion do la anescion ala Talia, che ie dublieda dal 1921 al 2011 da zirca 900 a zirca 1.800 abitanc. Chësc crëscer ie stat mënder che te Sëlva y Urtijëi, ulache la populazion fova dublieda respetivamënter dal 1931 al 1971 y dal 1921 al 1981.
+
+<timeline>
+Colors=
+ id:lightgrey value:gray(0.9)
+ id:darkgrey value:gray(0.8)
+ id:sfondo value:rgb(1,1,1)
+ id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize = width:500 height:350
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:2000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+ bar:1921 text:1921
+ bar:1931 text:1931
+ bar:1936 text:1936
+ bar:1951 text:1951
+ bar:1961 text:1961
+ bar:1971 text:1971
+ bar:1981 text:1981
+ bar:1991 text:1991
+ bar:2001 text:2001
+ bar:2011 text:2011
+
+PlotData=
+ color:barra width:20 align:left
+
+ bar:1921 from: 0 till:913
+ bar:1931 from: 0 till:966
+ bar:1936 from: 0 till:1043
+ bar:1951 from: 0 till:1212
+ bar:1961 from: 0 till:1306
+ bar:1971 from: 0 till:1494
+ bar:1981 from: 0 till:1567
+ bar:1991 from: 0 till:1598
+ bar:2001 from: 0 till:1738
+ bar:2011 from: 0 till:1871
+
+PlotData=
+
+ bar:1921 at:913 fontsize:S text: 913 shift:(-8,5)
+ bar:1931 at:966 fontsize:S text: 966 shift:(-8,5)
+ bar:1936 at:1043 fontsize:S text: 1043 shift:(-8,5)
+ bar:1951 at:1212 fontsize:S text: 1212 shift:(-8,5)
+ bar:1961 at:1306 fontsize:S text: 1306 shift:(-8,5)
+ bar:1971 at:1494 fontsize:S text: 1494 shift:(-8,5)
+ bar:1981 at:1567 fontsize:S text: 1567 shift:(-8,5)
+ bar:1991 at:1598 fontsize:S text: 1598 shift:(-8,5)
+ bar:2001 at:1738 fontsize:S text: 1738 shift:(-8,5)
+ bar:2011 at:1871 fontsize:S text: 1871 shift:(-8,5)
+
+TextData=
+ fontsize:S pos:(20,20)
+ text:Dac dl ISTAT
+</timeline>
 
 == Da vijité ==
 * [[Dlieja de Santa Cristina]]
