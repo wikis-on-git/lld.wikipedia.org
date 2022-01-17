@@ -38,13 +38,79 @@ Tl zenter de Urtijëi ie la [[Cësa di Ladins]], sënta dl [[Museum Gherdëina]]
 * Istitut Tecnich Economich Urtijëï, Gherdëina ''Raetia''<ref>[Https://www.iteraetia.it/ld/ Istitut Tecnich Economic Urtijëi, plata web.]</ref>.
 * Scola de Mujiga Gherdëina<ref>[https://scoresdemusiga.provinzia.bz.it/scores-musiga-todesces-ladines/direziun-scora-de-musiga-gherdena-urtijei-selva.asp Scola de Mujiga Urtijëi, plata web.]</ref>.
 
-== Rujeneda ==
+== Cumenanza ==
+
+=== Spartizion linguistica ===
 {{Lingaz de apartenënza
 |talian = 6,51
 |tudësch = 9,30
 |ladins = 84,19
 |ann = 2011
 }}
+
+=== Svilup demografich ===
+Urtijëi à abù na gran crëscer do la anescion ala Talia, che ie dublieda dal 1921 al 1981 da 2.000 a 4.000 abitanc. Aldidancuei à l chemun plu de 4.600 abitanc.
+
+<timeline>
+Colors=
+ id:lightgrey value:gray(0.9)
+ id:darkgrey value:gray(0.8)
+ id:sfondo value:rgb(1,1,1)
+ id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize = width:500 height:350
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:5000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+ bar:1921 text:1921
+ bar:1931 text:1931
+ bar:1936 text:1936
+ bar:1951 text:1951
+ bar:1961 text:1961
+ bar:1971 text:1971
+ bar:1981 text:1981
+ bar:1991 text:1991
+ bar:2001 text:2001
+ bar:2011 text:2011
+
+PlotData=
+ color:barra width:20 align:left
+
+ bar:1921 from: 0 till:2070
+ bar:1931 from: 0 till:2216
+ bar:1936 from: 0 till:2535
+ bar:1951 from: 0 till:2803
+ bar:1961 from: 0 till:3196
+ bar:1971 from: 0 till:3961
+ bar:1981 from: 0 till:4106
+ bar:1991 from: 0 till:4222
+ bar:2001 from: 0 till:4484
+ bar:2011 from: 0 till:4653
+
+PlotData=
+
+ bar:1921 at:2070 fontsize:S text: 2070 shift:(-8,5)
+ bar:1931 at:2216 fontsize:S text: 2216 shift:(-8,5)
+ bar:1936 at:2535 fontsize:S text: 2535 shift:(-8,5)
+ bar:1951 at:2803 fontsize:S text: 2803 shift:(-8,5)
+ bar:1961 at:3196 fontsize:S text: 3196 shift:(-8,5)
+ bar:1971 at:3961 fontsize:S text: 3961 shift:(-8,5)
+ bar:1981 at:4106 fontsize:S text: 4106 shift:(-8,5)
+ bar:1991 at:4222 fontsize:S text: 4222 shift:(-8,5)
+ bar:2001 at:4484 fontsize:S text: 4484 shift:(-8,5)
+ bar:2011 at:4653 fontsize:S text: 4653 shift:(-8,5)
+
+TextData=
+ fontsize:S pos:(20,20)
+ text:Dac dl ISTAT
+</timeline>
 
 == Da vijité ==
 * [[Dlieja de San Durich]]
