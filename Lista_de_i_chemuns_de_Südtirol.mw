@@ -2,10 +2,10 @@
 <onlyinclude>
 {|  class="wikitable sortable zebra"   
 |- class="hintergrundfarbe6"
-! [[Blason]]
+! Blason
+! [[Lingaz ladin|Ladin]]
 ! [[lingaz tudësch|Tudësch]]
 ! [[Lingaz talian|Talian]]
-! [[Lingaz ladin|Ladin]]
 ! Cherta
 ! Numer ISTAT
 ! Abitanc<br /><small>({{EWD|IT|021001}})</small>
@@ -24,8 +24,8 @@
 |-
 |[[File:Wappen Ahrntal.svg|rahmenlos|72x72px]]
 |[[Ahrntal]]
+|Ahrntal
 |Valle Aurina
-|
 | align="center"|[[File:Ahrntal in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021108
 | align="right" | {{EWZT|IT|021108}}
@@ -34,8 +34,8 @@
 |-
 |[[File:ITA Aldein COA.svg|60px|rahmenlos]]
 |[[Aldein]]
+|Aldein
 |Aldino
-|
 | align="center"|[[File:Aldein in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021001
 | align="right" | {{EWZT|IT|021001}}
@@ -44,8 +44,8 @@
 |-
 |[[File:CoA civ ITA Algund-Lagundo.png|60px|rahmenlos]]
 |[[Algund]]
+|Algund
 |Lagundo
-|
 | align="center"|[[File:Algund in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021038
 | align="right" | {{EWZT|IT|021038}}
@@ -54,8 +54,8 @@
 |-
 |[[File:Anterivo-Stemma.svg|60px|rahmenlos]]
 |[[Altrei]]
+|Altrei
 |Anterivo
-|
 | align="center"|[[File:Altrei in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021003
 | align="right" | {{EWZT|IT|021003}}
@@ -64,8 +64,8 @@
 |-
 |[[File:Andriano-Stemma.png|60px|rahmenlos]]
 |[[Andrian]]
+|Andrian
 |Andriano
-|
 | align="center"|[[File:Andrian in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021002
 | align="right" | {{EWZT|IT|021002}}
@@ -74,8 +74,8 @@
 |-
 |[[File:CoA civ ITA Auer-Ora.png|60px|rahmenlos]]
 |[[Auer]]
+|Auer
 |Ora
-|
 | align="center"|[[File:Auer in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021060
 | align="right" | {{EWZT|IT|021060}}
@@ -83,18 +83,18 @@
 | align="right" | {{EWZF|IT|021060|11.82|2|1}}
 |-
 |[[File:CoA civ ITA Barbian-Barbiano.png|60px|rahmenlos]]
+|[[Perbian]]
 |Barbian
 |Barbiano
-|[[Perbian]]
 | align="center"|[[File:Barbian in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021007
 | align="right" | {{EWZT|IT|021007}}
 | align="right" | 24,4 km²
 |-
 |[[File:ITA Bolzano COA.svg|alternativtext=|rahmenlos|77x77px]]
+|[[Balsan]], [[Bulsan]]
 |Bozen
 |Bolzano
-|[[Balsan]], [[Bulsan]]
 | align="center"|[[File:Bozen in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021008
 | align="right" | {{EWZT|IT|021008}}
@@ -102,35 +102,35 @@
 |-
 |[[File:IT Bronzolo COA.svg|60px|rahmenlos]]
 |[[Branzoll]]
+|Branzoll
 |Bronzolo
-|
 | align="center"|[[File:Branzoll in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021012
 | align="right" | {{EWZT|IT|021012}}
 | align="right" | 7,45 km²
 |-
 |[[File:Brennero-Stemma.svg|60px|rahmenlos]]
+|[[Prëner (chemun)|Prëner]]
 |Brenner
 |Brennero
-|[[Prëner (chemun)|Prëner]]
 | align="center"|[[File:Brenner in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021010
 | align="right" | {{EWZT|IT|021010}}
 | align="right" | 114,30 km²
 |-
 |[[File:Brixen CoA.svg|60px|rahmenlos]]
+|[[Persenon]], [[Porsenù]]
 |Brixen
 |Bressanone
-|[[Persenon]], [[Porsenù]]
 | align="center"|[[File:Brixen in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021011
 | align="right" | {{EWZT|IT|021011}}
 | align="right" | 84,87 km²
 |-
 |[[File:Bruneck.svg|60px|rahmenlos]]
+|[[Bornech]], [[Burnech]]
 |Bruneck
 |Brunico
-|[[Bornech]], [[Burnech]]
 | align="center"|[[File:Bruneck in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021013
 | align="right" | {{EWZT|IT|021013}}
@@ -138,44 +138,44 @@
 |-
 |[[File:CoA civ ITA Burgstall-Postal.png|60px|rahmenlos]]
 |[[Burgstall]]
+|Burgstall
 |Postal
-|
 | align="center"|[[File:Burgstall in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021066
 | align="right" | {{EWZT|IT|021066}}
 | align="right" | 6,7 km²
 |-
 |[[File:CoA civ ITA Corvara-CorvaraInBadia.svg|60px|rahmenlos]]
-|Corvara
-|Corvara in Badia
 |[[Corvara]], [[Curvea]]
+|Corvara, Kurfar
+|Corvara in Badia
 | align="center"|[[File:Corvara in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021026
 | align="right" | {{EWZT|IT|021026}}
 | align="right" | 42,13 km²
 |-
 |[[File:Nova Ponente-Stemma.png|60px|rahmenlos]]
+|[[Nöia Todëscia]], [[Nueva Tudëscia]]
 |Deutschnofen
 |Nova Ponente
-|[[Nöia Todëscia]], [[Nueva Tudëscia]]
 | align="center"|[[File:Deutschnofen in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021059
 | align="right" | {{EWZT|IT|021059}}
 | align="right" | 112,02 km²
 |-
 |[[File:CoA civ ITA Enneberg-Marebbe.png|60px|rahmenlos]]
+|[[Mareo]]
 |Enneberg
 |Marebbe
-|[[Mareo]]
 | align="center"|[[File:Enneberg in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021047
 | align="right" | {{EWZT|IT|021047}}
 | align="right" | 161,34 km²
 |-
 |[[File:ITA Eppan COA.svg|60px|rahmenlos]]
-|[[Eppan an der Weinstraße]]
+|[[Eppan]]
+|Eppan an der Weinstraße
 |Appiano sulla Strada del Vino
-|
 | align="center"|[[File:Eppan an der Weinstraße in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021004
 | align="right" | {{EWZT|IT|021004}}
@@ -183,8 +183,8 @@
 |-
 |[[File:Velturno-Stemma.svg|60px|rahmenlos]]
 |[[Feldthurns]]
+|Feldthurns
 |Velturno
-|
 | align="center"|[[File:Feldthurns in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021116
 | align="right" | {{EWZT|IT|021116}}
@@ -192,8 +192,8 @@
 |-
 |[[File:CoA civ ITA Franzensfeste-Fortezza.png|60px|rahmenlos]]
 |[[Franzensfeste]]
+|Franzensfeste
 |Fortezza
-|
 | align="center"|[[File:Franzensfeste in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021032
 | align="right" | {{EWZT|IT|021032}}
@@ -201,8 +201,8 @@
 |-
 |[[File:Campo di Trens-Stemma.png|60px|rahmenlos]]
 |[[Freienfeld]]
+|Freienfeld
 |Campo di Trens
-|
 | align="center"|[[File:Freienfeld in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021016
 | align="right" | {{EWZT|IT|021016}}
@@ -211,7 +211,7 @@
 |[[File:CoA civ ITA Gais.png|60px|rahmenlos]]
 |[[Gais]]
 |Gais
-|
+|Gais
 | align="center"|[[File:Gais in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021034
 | align="right" | {{EWZT|IT|021034}}
@@ -219,8 +219,8 @@
 |-
 |[[File:Gargazzone-Stemma.png|60px|rahmenlos]]
 |[[Gargazon]]
+|Gargazon
 |Gargazzone
-|
 | align="center"|[[File:Gargazon in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021035
 | align="right" | {{EWZT|IT|021035}} 
@@ -228,17 +228,17 @@
 |-
 |[[File:ITA Glurns COA.svg|60px|rahmenlos]]
 |[[Glurns]]
+|Glurns
 |Glorenza
-|
 | align="center"|[[File:Glurns in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021036
 | align="right" | {{EWZT|IT|021036}} 
 | align="right" | 13,0 km²
 |-
 |[[File:CoA civ ITA Graun-CuronVenosta.png|60px|rahmenlos]]
-|[[Graun im Vinschgau]]
+|[[Graun]]
+|Graun im Vinschgau
 |Curon Venosta
-|
 | align="center"|[[File:Graun im Vinschgau in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021027
 | align="right" | {{EWZT|IT|021027}} 
@@ -246,8 +246,8 @@
 |-
 |[[File:CoA civ ITA Gsies-ValleDiCasies.png|60px|rahmenlos]]
 |[[Gsies]]
+|Gsies
 |Valle di Casies
-|
 | align="center"|[[File:Gsies in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021109
 | align="right" | {{EWZT|IT|021109}} 
@@ -255,17 +255,17 @@
 |-
 |[[File:Avelengo-Stemma.png|60px|rahmenlos]]
 |[[Hafling]]
+|Hafling
 |Avelengo
-|
 | align="center"|[[File:Hafling in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021005
 | align="right" | {{EWZT|IT|021005}} 
 | align="right" | 26 km²
 |-
 |[[File:CoA civ ITA Innichen-SanCandido.png|60px|rahmenlos]]
+|[[Sanciana]], [[Sanćiana]]
 |Innichen
 |San Candido
-|[[Sanciana]], [[Sanćiana]]
 | align="center"|[[File:Innichen in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021077
 | align="right" | {{EWZT|IT|021077}} 
@@ -273,8 +273,8 @@
 |-
 |[[File:San Genesio Atesino-Stemma.png|60px|rahmenlos]]
 |[[Jenesien]]
+|Jenesien
 |San Genesio Atesino
-|
 | align="center"|[[File:Jenesien in Südtirol - Positionskarte.svg|60px]]
 | align="right" | 021079
 | align="right" | {{EWZT|IT|021079}} 
