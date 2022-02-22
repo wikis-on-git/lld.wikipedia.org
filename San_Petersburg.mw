@@ -42,6 +42,109 @@ A San Petersburg ti dijun suënz de vester la capitela culturela de la Ruscia y 
 
 == Geografia ==
 
+=== Tlima ===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR = deaktiviert
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = [http://worldweather.wmo.int/107/c00203.htm Roshydromet], [http://wetterkontor.de/de/klima/klima2.asp?land=ru&stat=26063 wetterkontor.de]
+| Titul =
+| Luech = San Petersburg
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −5.1
+| hmfeb = −4.1
+| hmmär = 1.1
+| hmapr = 8.1
+| hmmai = 15.6
+| hmjun = 20.1
+| hmjul = 21.9
+| hmaug = 20.0
+| hmsep = 14.5
+| hmokt = 8.2
+| hmnov = 2.0
+| hmdez = −2.3
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −10.7
+| lmfeb = −9.7
+| lmmär = −5.2
+| lmapr = 0.6
+| lmmai = 6.5
+| lmjun = 11.4
+| lmjul = 13.9
+| lmaug = 12.8
+| lmsep = 8.1
+| lmokt = 3.4
+| lmnov = −1.9
+| lmdez = −7.1
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 38
+| nbfeb = 31
+| nbmär = 35
+| nbapr = 33
+| nbmai = 38
+| nbjun = 58
+| nbjul = 80
+| nbaug = 81
+| nbsep = 69
+| nbokt = 67
+| nbnov = 56
+| nbdez = 51
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 10
+| rdfeb = 9
+| rdmär = 9
+| rdapr = 7
+| rdmai = 7
+| rdjun = 9
+| rdjul = 10
+| rdaug = 11
+| rdsep = 12
+| rdokt = 12
+| rdnov = 12
+| rddez = 12
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 0.7
+| shfeb = 1.9
+| shmär = 4.0
+| shapr = 6.0
+| shmai = 8.4
+| shjun = 9.2
+| shjul = 8.6
+| shaug = 6.9
+| shsep = 4.3
+| shokt = 2.3
+| shnov = 0.9
+| shdez = 0.4
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 85
+| lffeb = 83
+| lfmär = 78
+| lfapr = 71
+| lfmai = 64
+| lfjun = 67
+| lfjul = 72
+| lfaug = 77
+| lfsep = 81
+| lfokt = 83
+| lfnov = 86
+| lfdez = 87
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 1
+| wtfeb = 0
+| wtmär = 0
+| wtapr = 1
+| wtmai = 5
+| wtjun = 12
+| wtjul = 17
+| wtaug = 16
+| wtsep = 12
+| wtokt = 8
+| wtnov = 5
+| wtdez = 2
+}}
+
+
 {{Partida de la Ruscia}}
 [[Categoria:Ruscia]]
 [[Categoria:Zità de la Ruscia]]
