@@ -38,6 +38,123 @@ L prim iede ie Moscau stata documenteda tl 1147 y fova cresciuda a deventé na z
 
 == Geografia ==
 
+
+=== Tlima ===
+
+{{Tlima
+| TABELLE = 
+| DIAGRAMM TEMPERATUR = deaktiviert
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = wetterkontor.de<ref>[http://wetterkontor.de/de/klima/klima2.asp?land=ru&stat=27612 wetterkontor.de]</ref>
+| Überschrift = 
+| Luech = Moscau
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −6.2
+| hmfeb = −3.9
+| hmmär = 2.4
+| hmapr = 10.6
+| hmmai = 18.6
+| hmjun = 22.4
+| hmjul = 23.8
+| hmaug = 22.0
+| hmsep = 15.8
+| hmokt = 8.4
+| hmnov = 1.3
+| hmdez = −3.4
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −12.7
+| lmfeb = −11.6
+| lmmär = −5.9
+| lmapr = 1.8
+| lmmai = 7.6
+| lmjun = 11.4
+| lmjul = 13.1
+| lmaug = 11.7
+| lmsep = 7.0
+| lmokt = 2.1
+| lmnov = −3.4
+| lmdez = −8.9
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 
+| avfeb = 
+| avmär = 
+| avapr = 
+| avmai = 
+| avjun = 
+| avjul = 
+| avaug = 
+| avsep = 
+| avokt = 
+| avnov = 
+| avdez = 
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 42
+| nbfeb = 36
+| nbmär = 34
+| nbapr = 44
+| nbmai = 51
+| nbjun = 75
+| nbjul = 94
+| nbaug = 77
+| nbsep = 65
+| nbokt = 59
+| nbnov = 58
+| nbdez = 56
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.0
+| shfeb = 2.5
+| shmär = 4.1
+| shapr = 5.7
+| shmai = 8.5
+| shjun = 9.2
+| shjul = 8.8
+| shaug = 7.6
+| shsep = 4.8
+| shokt = 2.5
+| shnov = 1.1
+| shdez = 0.6
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 
+| wtfeb = 
+| wtmär = 
+| wtapr = 
+| wtmai = 
+| wtjun = 
+| wtjul = 
+| wtaug = 
+| wtsep = 
+| wtokt = 
+| wtnov = 
+| wtdez = 
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 11
+| rdfeb = 8
+| rdmär = 8
+| rdapr = 9
+| rdmai = 8
+| rdjun = 11
+| rdjul = 12
+| rdaug = 10
+| rdsep = 11
+| rdokt = 10
+| rdnov = 12
+| rddez = 12
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 85
+| lffeb = 83
+| lfmär = 78
+| lfapr = 71
+| lfmai = 64
+| lfjun = 67
+| lfjul = 72
+| lfaug = 77
+| lfsep = 81
+| lfokt = 83
+| lfnov = 86
+| lfdez = 87
+}}
+
 == Trasport ==
 
 === Metro ===
