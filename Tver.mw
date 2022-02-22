@@ -38,6 +38,67 @@ La zità ie pusiziuneda ulache l ruf [[Volga]] va tl ruf [[Tvertsa]].
 == Storia ==
 
 == Geografia ==
-
+=== Tlima ===
+{{Tlima
+| TABELLE = aktiviert
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = [http://worldweather.wmo.int/107/c00984.htm Roshydromet]
+| Überschrift =
+| Luech = Tver
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 	−7.2
+| hmfeb = 	−4.9
+| hmmär = 	1.0
+| hmapr = 	9.4
+| hmmai = 	17.8
+| hmjun = 	21.2
+| hmjul = 	22.7
+| hmaug = 	21.0
+| hmsep = 	15.0
+| hmokt = 	7.8
+| hmnov = 	0.6
+| hmdez = 	−4.1
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = 	−14.2
+| lmfeb = 	−13.3
+| lmmär = 	−7.4
+| lmapr = 	0.6
+| lmmai = 	6.4
+| lmjun = 	10.3
+| lmjul = 	12.3
+| lmaug = 	10.8
+| lmsep = 	6.1
+| lmokt = 	1.5
+| lmnov = 	−4.2
+| lmdez = 	−9.9
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 	37
+| nbfeb = 	30
+| nbmär = 	31
+| nbapr = 	39
+| nbmai = 	60
+| nbjun = 	72
+| nbjul = 	100
+| nbaug = 	66
+| nbsep = 	58
+| nbokt = 	50
+| nbnov = 	50
+| nbdez = 	47
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 	10
+| rdfeb = 	8
+| rdmär = 	8
+| rdapr = 	8
+| rdmai = 	9
+| rdjun = 	11
+| rdjul = 	11
+| rdaug = 	10
+| rdsep = 	10
+| rdokt = 	10
+| rdnov = 	11
+| rddez = 	12
+}}
 [[Categoria:Ruscia]]
 [[Categoria:Zità de la Ruscia]]
