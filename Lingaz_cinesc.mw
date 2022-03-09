@@ -23,7 +23,132 @@
 |ISO 639-2                = zhi<br>bho
 |ISO 639-3                = 
 |Cherta                   = Map-Sinophone_World.png
-}}L '''cinesc''' (''[[cinesc scëmpl]]'': 汉语, ''[[cinesc tradiziunel]]'': 漢語, ''[[pinyin]]'': ''Hànyǔ'' o ënghe ''scëmpl'' y ''tradiziunel'': 中文, ''pinyin'': ''Zhōngwén'') ([[Ladin gherdëina|gherdëina]]: ''cinesc'' o ''chinesc'', [[badiot]]: ''cinesc'', [[Ladin fascian|fascian]]: ''cineis'') ie na grupa de [[rujeneda|rujenedes]] che ruva dal ram sintich de la [[rujenedes Sino-Tibetanes]] y che vën rujenedes dai [[Han]] y da autra mendranzes te la [[Cina]], [[Taiwan]], [[Hong Kong]] y te autri luesc ora per l mond. Ntëur a 1,3 miliarc de persones (16% de l mond) rejona una o n'autra variazion dl cinesc coche rujeneda de l'oma.<br>
+}}
+
+{{Infobox rujeneda
+| name             = Cinesc
+| nativename       = '汉语/漢語,'' Hànyǔ ''o 中文,'' Zhōngwén
+| states           = [[Mond sinofon]]
+| region           = 
+| speakers         = {{formatnum:1.207}} miliarc
+| date             = 2004
+| ref              = {{sfnp|Chinese Academy of Social Sciences|2012|p=3}}
+| familycolor      = Sino-Tibetan
+| fam2             = [[Rujenedes sinitiches|Sinitich]]
+| ancestor         = [[Cinesc vedl]]
+| ancestor2        = [[Cinesc mesan]]
+| dia1             = [[Cinesc mandarin|Mandarin]]
+| dia2             = Jin
+| dia3             = Wu
+| dia4             = Gan
+| dia5             = Xiang
+| dia6             = Min
+| dia7             = Hakka
+| dia8             = Yue
+| dia9             = Ping
+| dia10            = Huizhou
+| stand1           = [[Mandarin Standard]]
+| stand2           = [[Cantonesc Standard]]
+| script           = [[Carateri cinesc]]<br />([[carateri cinesc tradiziunei|tradiziunel]]/[[carateri cinesc scëmpli||scëmpl]])<br /><br />Trascrizions:<br />[[Bopomofo|Zhuyin]]<br /> [[Pinyin]] (Latin)<br />[[Xiao'erjing]] (Arabich)<br />[[Dungan language#Writing system|Dungan]] (Zirilich)<br />[[Chinese braille (disambiguation)|Chinese Braille]]<br />[[ʼPhags-pa script]] (Historical)
+| nation           = {{collapsible list |titlestyle = font-weight:normal; background:transparent; text-align:left; |title = [[Lista de stac y raions ulache l cinesc ie na rujeneda ufiziela#Mandarin|Mandarin]]:
+|[[China]]<br />[[Singapur]]<br />[[Taiwan]]
+}}
+{{collapsible list |titlestyle = font-weight:normal; background:transparent; text-align:left; |title = [[Lista de stac y raions ulache l cinesc ie na rujeneda ufiziela#Cantonesc|Cantonesc]]:{{efn|''de facto'': While no specific variety of Chinese is official in Hong Kong and Macau, Cantonese is the predominent spoken form and the ''[[de facto]]'' regional standard, written in [[traditional Chinese characters]]. [[Standard Chinese|Standard Mandarin]] and [[simplified Chinese characters]] are only occasionally used in some official and educational settings. The HK SAR Government promotes 兩文三語 [Bi-literacy (Chinese, English) and Tri-lingualism (Cantonese, Mandarin, English)], while the Macau SAR Government promotes 三文四語 [Tri-literacy (Chinese, Portuguese, English) and Quad-lingualism (Cantonese, Mandarin, Portuguese, English)], especially in public education.}}
+|[[Hong Kong]]<br />[[Macau]]
+}}{{collapsible list |titlestyle = font-weight:normal; background:transparent; text-align:left;}}
+| minority         = 
+| agency           = National Commission on Language and Script Work (Mainland China)<!--[[:zh:国家语言文字工作委员会]]--><ref>[http://www.china-language.gov.cn/ china-language.gov.cn] {{Webarchive|url=https://web.archive.org/web/20151218080430/http://www.china-language.gov.cn/ |date=2015-12-18 }} {{in lang|zh}}</ref><br />[[National Languages Committee]] (Taiwan)<br />[[Civil Service Bureau]] (Hong Kong)<br />[[Education and Youth Affairs Bureau (Macau)|Education and Youth Affairs Bureau]] (Macau)<br>[[Chinese Language Standardisation Council of Malaysia|Chinese Language Standardisation Council]] ([[Malaysia]])<br />[[Promote Mandarin Council]] (Singapore)
+| iso1             = zh
+| iso2b            = chi
+| iso2t            = zho
+| iso3             = zho
+| lc1              = cdo
+| ld1              = [[Min Dong]]
+| lc2              = cjy
+| ld2              = [[Jin Chinese|Jinyu]]
+| lc3              = cmn
+| ld3              = [[Mandarin Chinese|Mandarin]]
+| lc4              = cpx
+| ld4              = [[Pu Xian]]
+| lc5              = czh
+| ld5              = [[Huizhou Chinese|Huizhou]]
+| lc6              = czo
+| ld6              = [[Min Zhong]]
+| lc7              = gan
+| ld7              = [[Gan Chinese|Gan]]
+| lc8              = hak
+| ld8              = [[Hakka Chinese|Hakka]]
+| lc9              = hsn
+| ld9              = [[Xiang Chinese|Xiang]]
+| lc10             = mnp
+| ld10             = [[Min Bei]]
+| lc11             = nan
+| ld11             = [[Min Nan]]
+| lc12             = wuu
+| ld12             = [[Wu Chinese|Wu]]
+| lc13             = yue
+| ld13             = [[Yue Chinese|Yue]]
+| lc14             = csp
+| ld14             = [[Pinghua|Southern Pinghua]]
+| lc15             = cnp
+| ld15             = [[Pinghua|Northern Pinghua]]
+| lc16             = och
+| ld16             = [[Old Chinese]]<!-- This and the following codes aren't part of the macrolanguage per SIL -->
+| lc17             = ltc
+| ld17             = [[Middle Chinese|Late Middle Chinese]]
+| lc18             = lzh
+| ld18             = [[Classical Chinese]]
+| lingua           = 79-AAA
+| image            = Chineselanguage.svg
+| imagesize        = 
+| imagecaption     = ''Hànyǔ'' scrit ti [[carateri cinesc tradiziunei|carateri tradiziunei]] (sainsom) y [[carateri cinesc scëmpli|scëmpli]] (a mez); ''Zhōngwén'' (japé)
+| notice           = IPA
+| listclass        = hlist
+| glotto           = sini1245
+| glottorefname    = Sinitic
+| glottofoot       = no
+| map              = File:Map-Sinophone World.png
+| mapcaption       = Map of the Chinese-speaking world.
+{{legend|#008000|Countries and regions with a native Chinese-speaking majority.}}
+{{legend|#5ac038|Countries and regions where Chinese is not native but an official or educational language.}}
+{{legend|#b1ff72|Countries with significant Chinese-speaking minorities.}}
+}}
+{{Infobox Chinese
+|title   = Chinese language(s) (general/spoken)
+|s       = {{linktext|汉语}} |t = {{linktext|漢語}}
+|l       = [[Han Chinese|Han]] language
+|p       = Hànyǔ
+|w       = Han4-yu3
+|mi      = {{IPAc-cmn|h|an|4|.|yu|3}}
+|myr     = Hàn-yǔ
+|tp      = Hàn-yǔ
+|h       = Hon Ngi
+|j       = Hon<sup>3</sup> jyu<sup>5</sup>
+|y       = hon yúh
+|gd      = hon<sup>3</sup> yü<sup>5</sup>
+|ci      = {{IPA-yue|hɔ̄ːn.jy̬ː}}
+|buc     = Háng-ngṳ̄
+|poj     = Hàn-gí, Hàn-gú
+|wuu     = hoe3 nyiu2
+|altname = Chinese language (written)
+|c2      = {{linktext|lang=zh|中文}}
+|l2      = [[Names of China|Middle/Central/Chinese]] [[text (literary theory)|text]]
+|h2      = Chung-Vun
+|p2      = Zhōngwén
+|w2      = Chung1-wên2
+|mi2     = {{IPAc-cmn|zh|ong|1|.|wen|2}}
+|myr2    = jūng-wén
+|tp2     = jhong-wún
+|buc2    = Dṳng-ùng
+|poj2    = Tiong-bûn
+|wuu2    = tson1 ven1
+|j2      = Zung<sup>1</sup> man<sup>4</sup>*<sup>2</sup>
+|y2      = Jūng mán
+|gd2     = Zung<sup>1</sup> men<sup>4</sup>*<sup>2</sup>
+|order = st
+}}
+
+L '''cinesc''' (''[[cinesc scëmpl]]'': 汉语, ''[[cinesc tradiziunel]]'': 漢語, ''[[pinyin]]'': ''Hànyǔ'' o ënghe ''scëmpl'' y ''tradiziunel'': 中文, ''pinyin'': ''Zhōngwén'') ([[Ladin gherdëina|gherdëina]]: ''cinesc'' o ''chinesc'', [[badiot]]: ''cinesc'', [[Ladin fascian|fascian]]: ''cineis'') ie na grupa de [[rujeneda|rujenedes]] che ruva dal ram sintich de la [[rujenedes Sino-Tibetanes]] y che vën rujenedes dai [[Han]] y da autra mendranzes te la [[Cina]], [[Taiwan]], [[Hong Kong]] y te autri luesc ora per l mond. Ntëur a 1,3 miliarc de persones (16% de l mond) rejona una o n'autra variazion dl cinesc coche rujeneda de l'oma.<br>
 La variantes dl cinesc vën da la majera pert de si locutëures ududes coche dialec, ma ajache les ne ie nia da ntënder l'una da l'autra vënles te la [[linguistica]] ududes coche rujenedes desfrëntes. 
 La majera varianta dl cinesc ie l [[mandarin]], che ie la rujeneda de l'oma de ntëur a 800 milions de persones (65-70% de i locutëures dl cinesc) y che ie la sëula varianta dl cinesc a vester ufiziela te la [[Republica populera de la Cina]]. La segonda majera varianta ie l Min (75 milions, per ejëmpl l [[Min Nan]]), pona  l Wu (74 milions, p.e. l [[shanghainesc]]), y l Yue (68 milions, p.e. l [[cantonesc]]). Chisc rams dl cinesc ne ie nia da ntënder danter ëi y si desfrënza ie da cunfrunté cun la  desfrënza danter l [[talian]] y l [[franzëus]].
 L cinesc standard se basa sul dialet de Peking, che ie n dialet de la varianta dl [[mandarin]] y ie stat tëut coche rujeneda ufiziela tl 1930. L ie aldidancuei la rujeneda ufiziela de la  [[Republica populera de la Cina]] y de la [[Taiwan|Republica de la Cina (Taiwan)]], una de la cater rujenedes ufizieles dl [[Singapur]] y una de la sies rujenedes ufizieles de la [[Nazions Unides]].
