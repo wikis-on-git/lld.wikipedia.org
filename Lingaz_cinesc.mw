@@ -1,31 +1,4 @@
-{{gherdëina}}{{Infobox rujenedes
-|Foto                     = Chineselanguage.svg
-|Inuem                    = Cinesc
-|Inuem natif              = '汉语/漢語,'' Hànyǔ ''o 中文,'' Zhōngwén
-|Rujeneda de l'oma        = 1,3 miliarc de persones
-|Region                   = [[Cina]], sud-est de l'[[Asia]]
-|Familia 1                = Sino-Tibetan
-|Familia 2                = Sintich
-|Familia 3                = Cinesc
-|Familia 4                = 
-|Familia 5                = 
-|Forma 1                  = Cinesc vedl
-|Forma 2                  = Cinesc mesan
-|Forma 3                  = 
-|Forma 4                  = 
-|Forma 5                  = 
-|Formes standardisedes    = Mandarin Standard<br>Cantonesc Standard
-|Dialec                   = [[Mandarin]], Jin, Wu, Gan, Xiang, Min, Hakka, Yue, Ping, Huizhou
-|Sistem de scritura       = [[Carateri cinesc]] ([[cinesc tradiziunel|tradiziunei]] y [[cinesc scëmpl|scëmpli]])
-|Rujeneda ufiziela te     = &bull;&nbsp; [[Mandarin]]: [[Cina]], [[Taiwan]], [[Singapur]]<br>&bull;&nbsp; [[Cantonesc]]: [[Hong Kong]], [[Macau]]
-|Regulà da                = National Commission on Language and Script Work (Cina cuntinentela)<br>National Languages Committee (Taiwan)<br>Civil Service Bureau (Hong Kong)<br>Education and Youth Affairs Bureau (Macau)<br>Chinese Language Standardisation Council (Malaysia)Promote Mandarin Council (Singapore)
-|ISO 639-1                = zh
-|ISO 639-2                = zhi<br>bho
-|ISO 639-3                = 
-|Cherta                   = Map-Sinophone_World.png
-}}
-
-{{Infobox rujeneda
+{{gherdëina}}{{Infobox rujeneda
 | name             = Cinesc
 | nativename       = '汉语/漢語,'' Hànyǔ ''o 中文,'' Zhōngwén
 | states           = [[Mond sinofon]]
@@ -49,7 +22,7 @@
 | dia10            = Huizhou
 | stand1           = [[Mandarin Standard]]
 | stand2           = [[Cantonesc Standard]]
-| script           = [[Carateri cinesc]]<br />([[carateri cinesc tradiziunei|tradiziunel]]/[[carateri cinesc scëmpli||scëmpl]])<br /><br />Trascrizions:<br />[[Bopomofo|Zhuyin]]<br /> [[Pinyin]] (Latin)<br />[[Xiao'erjing]] (Arabich)<br />[[Dungan language#Writing system|Dungan]] (Zirilich)<br />[[Chinese braille (disambiguation)|Chinese Braille]]<br />[[ʼPhags-pa script]] (Historical)
+| script           = [[Carateri cinesc]]<br />([[carateri cinesc tradiziunei|tradiziunel]]/[[carateri cinesc scëmpli|scëmpl]])<br /><br />Trascrizions:<br />[[Bopomofo|Zhuyin]]<br /> [[Pinyin]] (Latin)<br />[[Xiao'erjing]] (Arabich)<br />[[Dungan language#Writing system|Dungan]] (Zirilich)
 | nation           = {{collapsible list |titlestyle = font-weight:normal; background:transparent; text-align:left; |title = [[Lista de stac y raions ulache l cinesc ie na rujeneda ufiziela#Mandarin|Mandarin]]:
 |[[China]]<br />[[Singapur]]<br />[[Taiwan]]
 }}
@@ -57,7 +30,8 @@
 |[[Hong Kong]]<br />[[Macau]]
 }}{{collapsible list |titlestyle = font-weight:normal; background:transparent; text-align:left;}}
 | minority         = 
-| agency           = National Commission on Language and Script Work (Mainland China)<!--[[:zh:国家语言文字工作委员会]]--><ref>[http://www.china-language.gov.cn/ china-language.gov.cn] {{Webarchive|url=https://web.archive.org/web/20151218080430/http://www.china-language.gov.cn/ |date=2015-12-18 }} {{in lang|zh}}</ref><br />[[National Languages Committee]] (Taiwan)<br />[[Civil Service Bureau]] (Hong Kong)<br />[[Education and Youth Affairs Bureau (Macau)|Education and Youth Affairs Bureau]] (Macau)<br>[[Chinese Language Standardisation Council of Malaysia|Chinese Language Standardisation Council]] ([[Malaysia]])<br />[[Promote Mandarin Council]] (Singapore)
+| agency           = 
+Comiscion Naziunela sun la Rujeneda y Lëur de Scritura (Cina cuntinentela)<!--[[:zh:国家语言文字工作委员会]]--><ref>[http://www.china-language.gov.cn/ china-language.gov.cn] {{Webarchive|url=https://web.archive.org/web/20151218080430/http://www.china-language.gov.cn/ |date=2015-12-18 }} {{in lang|zh}}</ref><br />Cumité Naziunel de Rujenedes (Taiwan)<br />Ufize de Servisc Zevil (Hong Kong)<br />[[Education and Youth Affairs Bureau (Macau)|Education and Youth Affairs Bureau]] (Macau)<br>[[Chinese Language Standardisation Council of Malaysia|Chinese Language Standardisation Council]] ([[Malaysia]])<br />[[Promote Mandarin Council]] (Singapore)
 | iso1             = zh
 | iso2b            = chi
 | iso2t            = zho
@@ -109,9 +83,9 @@
 | glottofoot       = no
 | map              = File:Map-Sinophone World.png
 | mapcaption       = Map of the Chinese-speaking world.
-{{legend|#008000|Countries and regions with a native Chinese-speaking majority.}}
-{{legend|#5ac038|Countries and regions where Chinese is not native but an official or educational language.}}
-{{legend|#b1ff72|Countries with significant Chinese-speaking minorities.}}
+{{legend|#008000|Stac y raions cun na maiuranza de cinesc coche rujeneda de l'oma.}}
+{{legend|#5ac038|Stac y raions ulache l cinesc ne ie nia la rujeneda de l'oma ma ie na rujeneda ufiziela o adurveda te l'educazion.}}
+{{legend|#b1ff72|Stac cun mendranzes significantes de cinesc coche rujeneda de l'oma.}}
 }}
 {{Infobox Chinese
 |title   = Chinese language(s) (general/spoken)
