@@ -11,92 +11,109 @@ De la Ladinia fej pert 17 chemuns. Leprò pudëssun mo cunté l chemun de [[Cias
 
 :{| class="wikitable sortable" style="text-align:left"
 |- style="background-color:#efefef;"
-! align="center" | Chemun || align="center" | Provinzia || align="center" | Spersa<br/>(km²) || align="center" | Populazion
+! align="center" | Chemun || align="center" | Provinzia || align="center" | Spersa<br/>(km²) || align="center" | Populazion || align="center" | Densità
 |-
 | [[Anpezo]]
 | [[Belum]]
 | align=right|255
 | align=right|{{EWZT|IT|025016}}
+| align=right|{{EWZF|IT|025016|255|2|1}}
 |-
 | [[Urtijëi]]
 | [[Südtirol]]
 | align=right|24
 | align=right|{{EWZT|IT|021061}}
+| align=right|{{EWZF|IT|021061|24|2|1}}
 |-
 | [[Badia]]
 | Südtirol
 | align=right|82
 | align=right|{{EWZT|IT|021006}}
+| align=right|{{EWZF|IT|021006|82|2|1}}
 |-
 | [[Mareo]]
 | Südtirol
 | align=right|161
 | align=right|{{EWZT|IT|021047}}
+| align=right|{{EWZF|IT|021047|161|2|1}}
 |-
 | [[Moena]]
 | [[Trentin]]
 | align=right|82
 | align=right|{{EWZT|IT|022118}}
+| align=right|{{EWZF|IT|022118|82|2|1}}
 |-
 | [[Sëlva]]
 | Südtirol
 | align=right|53
 | align=right|{{EWZT|IT|021089}}
+| align=right|{{EWZF|IT|021089|53|2|1}}
 |-
 | [[Cianacei]]
 | Trentin
 | align=right|67
 | align=right|{{EWZT|IT|022039}}
+| align=right|{{EWZF|IT|022039|67|2|1}}
 |-
 | [[Santa Cristina]]
 | Südtirol
 | align=right|31
 | align=right|{{EWZT|IT|021085}}
+| align=right|{{EWZF|IT|021085|31|2|1}}
 |-
 | [[San Martin de Tor]]
 | Südtirol
 | align=right|76
 | align=right|{{EWZT|IT|021082}}
+| align=right|{{EWZF|IT|021082|76|2|1}}
 |-
 | [[Fodom]]
 | Belum
 | align=right|99
 | align=right|{{EWZT|IT|025030}}
+| align=right|{{EWZF|IT|025030|99|2|1}}
 |-
 | [[Corvara]]
 | Südtirol
 | align=right|42
 | align=right|{{EWZT|IT|021026}}
+| align=right|{{EWZF|IT|021026|42|2|1}}
 |-
 | [[La Val]]
 | Südtirol
 | align=right|39
 | align=right|{{EWZT|IT|021117}}
+| align=right|{{EWZF|IT|021117|39|2|1}}
 |-
 | [[Sèn Jan]]
 | Trentin
 | align=right|100
 | align=right|{{EWZT|IT|022250}}
+| align=right|{{EWZF|IT|022250|100|2|1}}
 |-
 | [[Ciampedel]]
 | Trentin
 | align=right|25
 | align=right|{{EWZT|IT|022036}}
+| align=right|{{EWZF|IT|022036|25|2|1}}
 |-
 | [[Sorèga]]
 | Trentin
 | align=right|19
 | align=right|{{EWZT|IT|022176}}
+| align=right|{{EWZF|IT|022176|19|2|1}}
 |-
 | [[Mazin]]
 | Trentin
 | align=right|23
 | align=right|{{EWZT|IT|022113}}
+| align=right|{{EWZF|IT|022113|23|2|1}}
 |-
 | [[Col (comun)|Col]]
 | Belum
 | align=right|15
 | align=right|{{EWZT|IT|025014}}
+| align=right|{{EWZF|IT|025014|15|2|1}}
 |}
 
 == Lians ==
