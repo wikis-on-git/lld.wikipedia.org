@@ -32,7 +32,23 @@
 ==Geografia==
 
 ===Tlima===
-
+{{Tlima
+| TABELA =
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = DWD, Daten: 1971–2000<ref>{{Internetquelle |url=https://worldweather.wmo.int/016/c00059.htm |titel=Klimainformationen Berlin |hrsg=World Meteorological Organization |abruf=2013-01-04}}</ref>
+| Überschrift =
+| Ort = Berlin
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 2.9 | hmfeb = 4.2 | hmmär = 8.5 | hmapr = 13.2 | hmmai = 18.9 | hmjun = 21.6 | hmjul = 23.7 | hmaug = 23.6 | hmsep = 18.8 | hmokt = 13.4 | hmnov = 7.1 | hmdez = 4.4
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1.9 | lmfeb = −1.5 | lmmär = 1.3 | lmapr = 4.2 | lmmai = 9.0 | lmjun = 12.3 | lmjul = 14.3 | lmaug = 14.1 | lmsep = 10.6 | lmokt = 6.4 | lmnov = 2.2 | lmdez = −0.4
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 42.3 | nbfeb = 33.3 | nbmär = 40.5 | nbapr = 37.1 | nbmai = 53.8 | nbjun = 68.7 | nbjul = 55.5 | nbaug = 58.2 | nbsep = 45.1 | nbokt = 37.3 | nbnov = 43.6 | nbdez = 55.3
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 10.0 | rdfeb = 8.0 | rdmär = 9.1 | rdapr = 7.8 | rdmai = 8.9 | rdjun = 9.8 | rdjul = 8.4 | rdaug = 7.9 | rdsep = 7.8 | rdokt = 7.6 | rdnov = 9.6 | rddez = 11.4
+}}
 
 ==Galaria de fotografies==
 
