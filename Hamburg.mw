@@ -36,6 +36,28 @@ Hamburg ie l terzo majer port de l'Europa do [[Rotterdam]] y [[Antwerpen]]. A Ha
 
 ===Tlima===
 
+{{Tlima
+| TABELA =
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = Deutscher Wetterdienst<ref>[https://worldweather.wmo.int/en/city.html?cityId=55 DWD (1971–2000)]</ref>
+| Titul =
+| Luech = Hamburg
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 3.5| hmfeb = 4.4| hmmär = 8.0| hmapr = 12.3| hmmai = 17.5| hmjun = 19.9| hmjul = 22.1| hmaug = 22.2| hmsep = 17.9| hmokt = 13.0| hmnov = 7.5| hmdez = 4.6
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1.4| lmfeb = −1.2| lmmär = 1.1| lmapr = 3.3| lmmai = 7.4| lmjun = 10.5| lmjul = 12.7| lmaug = 12.5| lmsep = 9.6| lmokt = 6.0| lmnov = 2.4| lmdez = 0.0
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 64.4| nbfeb = 42.4| nbmär = 62.9| nbapr = 45.6| nbmai = 53.7| nbjun = 76.9| nbjul = 74.7| nbaug = 73.0| nbsep = 68.4| nbokt = 63.6| nbnov = 69.4| nbdez = 77.7
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 12.1| rdfeb = 9.2| rdmär = 11.3| rdapr = 8.9| rdmai = 9.6| rdjun = 11.3| rdjul = 11.4| rdaug = 10.2| rdsep = 10.8| rdokt = 10.5| rdnov = 11.7| rddez = 12.4
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.4 | shfeb = 2.2 | shmär = 3.4 | shapr = 5.2 | shmai = 7.0 | shjun = 7.2 | shjul = 6.7 | shaug = 6.7 | shsep = 4.6 | shokt = 3.2 | shnov = 1.7 | shdez = 1.1
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 87 | lffeb = 84| lfmär = 80 | lfapr = 75 | lfmai = 71 | lfjun = 72 | lfjul = 75 | lfaug = 76 | lfsep = 81 | lfokt = 84 | lfnov = 86 | lfdez = 87
+}}
+
 
 {{Stac federei de la Germania}}
 [[Categoria:Germania]]
