@@ -8,5 +8,122 @@
 * Abitanc	: 882500
 * Densità:	5613,33 ab./km²
 
+=== Tlima ===
+
+{{Tlima
+| TABELA=
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = <ref>{{Internetquelle | url=http://worldweather.wmo.int/010/c00032.htm | titel=World Weather Information Service | zugriff=2010-04-29 | sprache= Englisch}}</ref><ref>Tume y ëures de surëdl: [http://wetterkontor.de/de/klima/klima2.asp?land=gb&stat=03772 wetterkontor.de]</ref>
+| Titul =
+| Luech = London
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 7.2
+| hmfeb = 7.6
+| hmmär = 10.3
+| hmapr = 13.0
+| hmmai = 17.0
+| hmjun = 20.3
+| hmjul = 22.3
+| hmaug = 21.9
+| hmsep = 19.1
+| hmokt = 15.2
+| hmnov = 10.4
+| hmdez = 8.2
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = 2.4
+| lmfeb = 2.5
+| lmmär = 3.8
+| lmapr = 5.6
+| lmmai = 8.7
+| lmjun = 11.6
+| lmjul = 13.7
+| lmaug = 13.4
+| lmsep = 11.4
+| lmokt = 8.9
+| lmnov = 5.1
+| lmdez = 3.4
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan =
+| avfeb =
+| avmär =
+| avapr =
+| avmai =
+| avjun =
+| avjul =
+| avaug =
+| avsep =
+| avokt =
+| avnov =
+| avdez =
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 53
+| nbfeb = 36
+| nbmär = 48
+| nbapr = 47
+| nbmai = 51
+| nbjun = 50
+| nbjul = 48
+| nbaug = 54
+| nbsep = 53
+| nbokt = 57
+| nbnov = 57
+| nbdez = 57
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.5
+| shfeb = 2.2
+| shmär = 3.5
+| shapr = 5.2
+| shmai = 6.5
+| shjun = 6.8
+| shjul = 6.4
+| shaug = 6.0
+| shsep = 4.8
+| shokt = 3.1
+| shnov = 1.8
+| shdez = 1.3
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u. ä.) für den jeweiligen Monat in °C -->
+| wtjan =
+| wtfeb =
+| wtmär =
+| wtapr =
+| wtmai =
+| wtjun =
+| wtjul =
+| wtaug =
+| wtsep =
+| wtokt =
+| wtnov =
+| wtdez =
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 14.8
+| rdfeb = 10.8
+| rdmär = 13.4
+| rdapr = 12.7
+| rdmai = 12.5
+| rdjun = 10.5
+| rdjul = 10.1
+| rdaug = 10.9
+| rdsep = 10.5
+| rdokt = 11.6
+| rdnov = 14.0
+| rddez = 13.2
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 88
+| lffeb = 84
+| lfmär = 79
+| lfapr = 73
+| lfmai = 72
+| lfjun = 70
+| lfjul = 72
+| lfaug = 75
+| lfsep = 80
+| lfokt = 85
+| lfnov = 88
+| lfdez = 89
+}}
+
+
 [[Categoria:Riam Unì]]
 [[Categoria:Zità]]
