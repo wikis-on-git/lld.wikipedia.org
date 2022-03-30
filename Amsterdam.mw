@@ -28,14 +28,14 @@ Amsterdam ie te la provinzia dla [[Olanda dl Nord]] (''Noord-Holland'') pra l ru
 
 == Geografia ==
 === Tlima ===
-{{Klimatabelle
-| TABELLE = 
-| DIAGRAMM TEMPERATUR = rechts
-| DIAGRAMM NIEDERSCHLAG = deaktiviert
-| DIAGRAMM NIEDERSCHLAG HÖHE = 
-| QUELLE = [[Koninklijk Nederlands Meteorologisch Instituut|KNMI]], Daten: 1991-2020<ref name="Klimaat">{{Internetquelle |autor=Koninklijk Nederlands Meteorologisch Instituut |url=https://cdn.knmi.nl/knmi/map/page/klimatologie/klimaatatlas/tabel/stationsdata/klimtab_9120_240.pdf |titel=Schiphol, langjarige gemiddelden, tijdvak 1991-2020 |hrsg=Koninklijk Nederlands Meteorologisch Instituut |abruf=2021-06-19}}</ref>
-| Überschrift = Klimadaten Amsterdam<br/><small>Station Amsterdam Schiphol (Flugh.), -3 m über NHN</small>
-| Ort = Amsterdam
+{{Tlima
+| TABELA = 
+| DIAGRAMM TEMPERATURA = 
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = Koninklijk Nederlands Meteorologisch Instituut, Dac: 1991-2020<ref name="Klimaat">{{Internetquelle |autor=Koninklijk Nederlands Meteorologisch Instituut |url=https://cdn.knmi.nl/knmi/map/page/klimatologie/klimaatatlas/tabel/stationsdata/klimtab_9120_240.pdf |titel=Schiphol, langjarige gemiddelden, tijdvak 1991-2020 |hrsg=Koninklijk Nederlands Meteorologisch Instituut |abruf=2021-06-19}}</ref>
+| Titul= Tlima de Amsterdam<br/><small>Stazion [[Amsterdam Schiphol (aeroport)]], -3 m sëura l livel dl mer</small>
+| Luech = Amsterdam
 <!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
 | hmjan = 6.2
 | hmfeb = 6.9
@@ -128,6 +128,7 @@ Amsterdam ie te la provinzia dla [[Olanda dl Nord]] (''Noord-Holland'') pra l ru
 | lfnov = 88.4
 | lfdez = 88.5
 }}
+
 == Storia ==
 ==Galaria dales fotografies==
 <gallery  widths="150" heights="130" perrow="4" >
