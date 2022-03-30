@@ -31,6 +31,120 @@
 
 == Geografia ==
 === Tlima ===
+{{Tlima
+| TABELA = 
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = [https://worldweather.wmo.int/en/city.html?cityId=603 WMO] 1971–2000; Tume y ëures de surëdl: [http://wetterkontor.de/de/klima/klima2.asp?land=it&stat=16080 wetterkontor.de]
+| Titul = 
+| Luech = Milan
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan =   5.9
+| hmfeb =   9.0
+| hmmär =   14.3
+| hmapr = 	17.4
+| hmmai = 	22.3
+| hmjun = 	26.2
+| hmjul = 	29.2
+| hmaug = 	28.5
+| hmsep = 	24.4
+| hmokt = 	17.8
+| hmnov = 	10.7
+| hmdez = 	6.4
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = 	−0.9
+| lmfeb =   0.3
+| lmmär = 	3.8
+| lmapr =   7.0
+| lmmai =   11.6
+| lmjun = 	15.4
+| lmjul =   18.0
+| lmaug =   17.6
+| lmsep =   14.0
+| lmokt = 	9.0
+| lmnov = 	3.7
+| lmdez =   0.1
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 
+| avfeb = 
+| avmär = 
+| avapr = 
+| avmai = 
+| avjun = 
+| avjul = 
+| avaug = 
+| avsep = 
+| avokt = 
+| avnov = 
+| avdez = 
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan =   58.7
+| nbfeb = 	49.2
+| nbmär = 	65.0
+| nbapr = 	75.5
+| nbmai = 	95.5
+| nbjun =   66.7
+| nbjul = 	66.8
+| nbaug = 	88.8
+| nbsep = 	93.1
+| nbokt = 	122.4
+| nbnov =   76.7
+| nbdez =   61.7
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 2.0
+| shfeb = 3.3
+| shmär = 5.2
+| shapr = 6.3
+| shmai = 7.1
+| shjun = 8.3
+| shjul = 9.4
+| shaug = 8.0
+| shsep = 6.2
+| shokt = 3.7
+| shnov = 1.5
+| shdez = 1.5
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 
+| wtfeb = 
+| wtmär = 
+| wtapr = 
+| wtmai = 
+| wtjun = 
+| wtjul = 
+| wtaug = 
+| wtsep = 
+| wtokt = 
+| wtnov = 
+| wtdez = 
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan =    6.7
+| rdfeb =    5.3
+| rdmär =    6.7
+| rdapr = 	 8.1
+| rdmai =    8.9
+| rdjun =    7.7
+| rdjul =    5.4
+| rdaug =    7.1
+| rdsep =    6.1
+| rdokt = 	 8.3
+| rdnov =    6.4
+| rddez =    6.3
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 85
+| lffeb = 77
+| lfmär = 66
+| lfapr = 61
+| lfmai = 60
+| lfjun = 58
+| lfjul = 55
+| lfaug = 59
+| lfsep = 66
+| lfokt = 76
+| lfnov = 82
+| lfdez = 85
+}}
+
 == Storia==
 == Pulitica ==
 == Notes ==
