@@ -15,7 +15,7 @@
 ! data-sort-type="number"| Populazion
 ! per km<sup>2</sup>
 ! [[Rubl rus|RUB]] ([[USD]])
-! [[List of countries by GDP (nominal) per capita|per&nbsp;capita]]
+! a&nbsp;persona
 |-
 | style="background:#ffff80; width:3em;"| || style="text-align: left;" | [[Raion Federel Zentrel‎|Zentrel‎]]
 | 18 May 2000
@@ -36,7 +36,7 @@
 | {{formatnum:8.1}}
 | {{formatnum:0.827}}
 | {{formatnum:8,195}}&nbsp;miliarc ₽<br />(${{To USD|8195|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:588,507}}&nbsp;[[Russian ruble|₽]]<br />(${{To USD|588507|RUS|year=2017|round=yes}})
+| {{formatnum:588,507}}&nbsp;₽<br />(${{To USD|588507|RUS|year=2017|round=yes}})
 | 11
 | style="text-align: left;" | [[San Petersburg]]
 
