@@ -24,7 +24,7 @@
 | {{formatnum:59.1}}
 | {{formatnum:0.838}}
 | {{formatnum:26164}}&nbsp;miliarc ₽<br />(${{To USD|26164|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:666426}}&nbsp;₽<br />(${{To USD|666426|RUS|year=2017|round=yes}})
+| {{formatnum:666426}}&nbsp;₽<br />(${{formatnum:{{To USD|666426|RUS|year=2017|round=yes}}}})
 | 18
 | style="text-align: left;" | [[Moscau]]
 
@@ -36,7 +36,7 @@
 | {{formatnum:8.1}}
 | {{formatnum:0.827}}
 | {{formatnum:8195}}&nbsp;miliarc ₽<br />(${{To USD|8195|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:588507}}&nbsp;₽<br />(${{To USD|588507|RUS|year=2017|round=yes}})
+| {{formatnum:588507}}&nbsp;₽<br />(${{formatnum:{{To USD|588507|RUS|year=2017|round=yes}}}})
 | 11
 | style="text-align: left;" | [[San Petersburg]]
 
@@ -48,7 +48,7 @@
 | {{formatnum:37.7}}
 | {{formatnum:0.793}}
 | {{formatnum:5362}}&nbsp;miliarc ₽<br />(${{To USD|5362|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:326244}}&nbsp;₽<br />(${{To USD|326244|RUS|year=2017|round=yes}})
+| {{formatnum:326244}}&nbsp;₽<br />(${{formatnum:{{To USD|326244|RUS|year=2017|round=yes}}}})
 | 8
 | style="text-align: left;" | [[Rostov sul Don]]
 
@@ -60,7 +60,7 @@
 | {{formatnum:55.7}}
 | {{formatnum:0.785}}
 | {{formatnum:1865}}&nbsp;miliarc ₽<br />(${{To USD|1865|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:190285}}&nbsp;₽<br />(${{To USD|190285|RUS|year=2017|round=yes}})
+| {{formatnum:190285}}&nbsp;₽<br />(${{formatnum:{{To USD|190285|RUS|year=2017|round=yes}}}})
 | 7
 | style="text-align: left;" | [[Piatigorsk]]
 
@@ -72,7 +72,7 @@
 | {{formatnum:28.8}}
 | {{formatnum:0.797}}
 | {{formatnum:11027}}&nbsp;miliarc ₽<br />(${{To USD|11027|RUS|year=2016|round=yes}} miliarc)
-| {{formatnum:372654}}&nbsp;₽<br />(${{To USD|372654|RUS|year=2017|round=yes}})
+| {{formatnum:372654}}&nbsp;₽<br />(${{formatnum:{{To USD|372654|RUS|year=2017|round=yes}}}})
 | 14
 | style="text-align: left;" | [[Nijni Novgorod]]
 
@@ -84,7 +84,7 @@
 | {{formatnum:6.6}}
 | {{formatnum:0.833}}
 | {{formatnum:10678}}&nbsp;miliarc ₽<br />(${{To USD|10678|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:864540}}&nbsp;₽<br />(${{To USD|864540|RUS|year=2017|round=yes}})
+| {{formatnum:864540}}&nbsp;₽<br />(${{formatnum:{{To USD|864540|RUS|year=2017|round=yes}}}})
 | 6 
 | style="text-align: left;" | [[Iekaterinburg]]
 
@@ -96,7 +96,7 @@
 | {{formatnum:3.9}}
 | {{formatnum:0.788}}
 |{{formatnum: 7758}}&nbsp;miliarc ₽<br />(${{To USD|7758|RUS|year=2016|round=yes}} miliarc)
-|{{formatnum: 401809}}&nbsp;₽<br />(${{To USD|401809|RUS|year=2017|round=yes}})
+|{{formatnum: 401809}}&nbsp;₽<br />(${{formatnum:{{To USD|401809|RUS|year=2017|round=yes}}}})
 | 10
 | style="text-align: left;" | [[Novosibirsk]]
 
@@ -108,7 +108,7 @@
 | {{formatnum:1.2}}
 | {{formatnum:0.801}}
 | {{formatnum:3878}}&nbsp;miliarc ₽<br />(${{To USD|3878|RUS|year=2017|round=yes}} miliarc)
-| {{formatnum:628172}}&nbsp;₽<br />(${{To USD|628172|RUS|year=2017|round=yes}})
+| {{formatnum:628172}}&nbsp;₽<br />(${{formatnum:{{To USD|628172|RUS|year=2017|round=yes}}}})
 | 11
 | style="text-align: left;" | [[Vladivostok]]
 
