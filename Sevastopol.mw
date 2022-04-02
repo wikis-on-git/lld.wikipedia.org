@@ -38,6 +38,13 @@ La zità à n tlima bëndebo tiebe d'inviern y ciaut d'instà, cie che n'en fej 
 
 === Tlima ===
 {{Tlima
+| TABELLE = aktiviert
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = pogodaiklimat.ru<ref name="Погода и Климат">{{cite web|url=http://www.pogodaiklimat.ru/summary/33991.htm |title=Sevastopol Climate Summary   |publisher=pogodaiklimat.ru |access-date=14 February 2020}}</ref>
+| Überschrift =
+| Luech = Sevastopol
 |width = auto
 |location = Sevastopol
 |metric first = yes
@@ -54,20 +61,6 @@ La zità à n tlima bëndebo tiebe d'inviern y ciaut d'instà, cie che n'en fej 
 | hmokt = 	17.8
 | hmnov = 	12.3
 | hmdez = 	8.1
-|year high C =
-|Jan mean C = 2.9
-|Feb mean C = 2.8
-|Mar mean C = 5.4
-|Apr mean C = 9.8
-|May mean C = 15.1
-|Jun mean C = 19.5
-|Jul mean C = 22.4
-|Aug mean C = 22.1
-|Sep mean C = 18.1
-|Oct mean C = 13.8
-|Nov mean C = 8.8
-|Dec mean C = 5.0
-|year mean C =
 
 | lmjan = -0.2
 | lmfeb = -0.4
@@ -82,32 +75,32 @@ La zità à n tlima bëndebo tiebe d'inviern y ciaut d'instà, cie che n'en fej 
 | lmnov = 5.4
 | lmdez = 2.0
 
-|precipitation colour = green
-|Jan precipitation mm = 26
-|Feb precipitation mm = 25
-|Mar precipitation mm = 24
-|Apr precipitation mm = 27
-|May precipitation mm = 18
-|Jun precipitation mm = 26
-|Jul precipitation mm = 32
-|Aug precipitation mm = 33
-|Sep precipitation mm = 42
-|Oct precipitation mm = 32
-|Nov precipitation mm = 42
-|Dec precipitation mm = 52
-|year precipitation mm =
-|Jan precipitation days= 6
-|Feb precipitation days= 3
-|Mar precipitation days= 4
-|Apr precipitation days= 2
-|May precipitation days= 2
-|Jun precipitation days= 1
-|Jul precipitation days= 2
-|Aug precipitation days= 0
-|Sep precipitation days= 1
-|Oct precipitation days= 3
-|Nov precipitation days= 2
-|Dec precipitation days= 5
+| nbjan = 	26
+| nbfeb = 	25
+| nbmär = 	24
+| nbapr = 	27
+| nbmai = 	18
+| nbjun = 	26
+| nbjul = 	32
+| nbaug = 	33
+| nbsep = 	42
+| nbokt = 	32
+| nbnov = 	42
+| nbdez = 	52
+
+| rdjan = 	6
+| rdfeb = 	3
+| rdmär = 	4
+| rdapr = 	2
+| rdmai = 	2
+| rdjun = 	1
+| rdjul = 	2
+| rdaug = 	0
+| rdsep = 	1
+| rdokt = 	3
+| rdnov = 	2
+| rddez = 	5
+
 |year precipitation days=
 |Jan sun =  72
 |Feb sun =  75
