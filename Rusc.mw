@@ -41,85 +41,85 @@
 | ref9             = <ref>{{cite web|url=http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=01&Geo2=&Code2=&Data=Count&SearchText=Canada&SearchType=Begins&SearchPR=01&B1=All&TABID=1|title=Census Profile, 2016 Census|publisher=statcan.gc.ca}}</ref>
 {{collapsed infobox section begin|'''Autri stac'''}}
 | region10         = {{LVA}}
-| pop10            = 487,250 <small>(2018)</small>
+| pop10            = {{formatnum:487,250 <small>(2018)</small>
 | ref10            = <ref>{{cite web|url=http://data1.csb.gov.lv/pxweb/en/iedz/iedz__iedzrakst/IRG070.px/table/tableViewLayout1/?rxid=d8284c56-0641-451c-8b70-b6297b58f464|title=Meklēt &#124; Oficiālās statistikas portāls|access-date=6 January 2019|archive-date=20 July 2020|archive-url=https://web.archive.org/web/20200720063902/http://data1.csb.gov.lv/pxweb/en/iedz/iedz__iedzrakst/IRG070.px/?rxid=d8284c56-0641-451c-8b70-b6297b58f464|url-status=dead}}</ref>
 | region11         = {{flag|Kyrgyzstan}}
-| pop11            = 352,960 <small>(2018)</small>
+| pop11            = {{formatnum:352,960 <small>(2018)</small>
 | ref11            = <ref>{{cite web |url=http://www.stat.kg/ru/statistics/download/operational/729/ |title=Archived copy |access-date=18 January 2019 |archive-url=https://web.archive.org/web/20181227230442/http://www.stat.kg/ru/statistics/download/operational/729/ |archive-date=27 December 2018 |url-status=dead }}</ref>
 | region13         = {{flag|Estonia}}
-| pop13            = 322,700 <small>(2021)</small>
+| pop13            = {{formatnum:322,700 <small>(2021)</small>
 | ref13            = <ref>{{cite web |url=http://andmebaas.stat.ee/Index.aspx?DataSetCode=RV0222U |title=Archived copy |access-date=1 February 2020 |archive-url=https://web.archive.org/web/20190611131932/http://pub.stat.ee/px-web.2001/Dialog/varval.asp?ma=PO0222U&ti=POPULATION+BY+SEX%2C+ETHNIC+NATIONALITY+AND+COUNTY%2C+1+JANUARY.+ADMINISTRATIVE+DIVISION+AS+AT+01.01.2018&path=..%2FI_Databas%2FPopulation%2F01Population_indicators_and_composition%2F04Population_figure_and_composition%2F&lang=1 |archive-date=11 June 2019 |url-status=dead }}</ref>
 | region14         = {{ARG}}
-| pop14            = 300,000 <small>(2018)</small>
+| pop14            = {{formatnum:300,000 <small>(2018)</small>
 | ref14            = <ref>{{cite web|url=https://www.ellitoral.com/index.php/diarios/2018/02/25/informaciongeneral/INFO-02.html|title = Los rusos en Argentina constituyen la mayor comunidad de Latinoamérica – Edición Impresa – Información General}}</ref>
 | region15         = {{flag|Moldova}}
-| pop15            = 201,218 <small>(2014)</small>
+| pop15            = {{formatnum:201,218 <small>(2014)</small>
 | ref15            = <ref>{{cite web|url=https://statistica.gov.md/public/files/Recensamint/Recensamint_pop_2014/Rezultate/Tabele/Caracteristici_populatie_RPL_2014_rom_rus_eng.xls|title=Moldovan Population Census from 2014|work=Moldovan National Bureau of Statistics}}</ref>
 | region16         = {{FRA}}
 | Pop16            = 
 | ref16            = da {{formatnum:200000}}<ref name="russieinfo.com">{{cite web|url=http://www.russieinfo.com/la-communaute-russe-en-france-est-eclectique-2014-10-30|title=La communauté russe en France est "éclectique"|access-date=27 November 2014|archive-date=22 November 2019|archive-url=https://web.archive.org/web/20191122143216/http://www.russieinfo.com/la-communaute-russe-en-france-est-eclectique-2014-10-30|url-status=dead}}</ref> a {{formatnum:500000}}<ref name="russieinfo.com"/><ref>{{cite web |url= http://vestnik.spbu.ru/html14/s02/s02v3/02.pdf |title= communauté russe en France |access-date= 19 January 2019 |archive-url= https://web.archive.org/web/20190412044628/http://vestnik.spbu.ru/html14/s02/s02v3/02.pdf |archive-date= 12 April 2019 |url-status= dead }}</ref>
 | region17         = {{nowrap|{{TKM}}}}
-| pop17            = 150,000 <small>(2012)</small>
+| pop17            = {{formatnum:150000}} <small>(2012)</small>
 | ref17            = <ref>{{cite web |url=http://repin.info/nacionalnyy-otvet/russkie-v-turkmenii-lyudi-vtorogo-sorta |title=Archived copy |access-date=19 January 2019 |archive-url=https://web.archive.org/web/20190119121541/http://repin.info/nacionalnyy-otvet/russkie-v-turkmenii-lyudi-vtorogo-sorta |archive-date=19 January 2019 |url-status=dead }}</ref>
 | region18         = {{LTU}}
-| pop18            = 129,797 <small>(2017)</small>
+| pop18            = {{formatnum:129797}} <small>(2017)</small>
 | ref18            = <ref>{{cite web|url=https://osp.stat.gov.lt/statistiniu-rodikliu-analize?theme=all#/|title=Gyventojų pagal tautybę dalis, palyginti su bendru nuolatinių gyventojų skaičiumi|publisher=osp.stat.gov.lt|access-date=13 August 2017}}</ref>
 | region19         = {{ITA}}
-| pop19            = 120,459
+| pop19            = {{formatnum:120459}}
 | ref19            = <ref>{{cite web|url=http://demo.istat.it/str2006/index.html|title=2006 census|access-date=6 March 2019|archive-date=23 June 2013|archive-url=https://www.webcitation.org/6Ha5Py8W4?url=http://demo.istat.it/str2006/index.html|url-status=dead}}</ref>
 | region20         = {{Flag|Azerbaijan}}
-| pop20            = 119,300 <small>(2009)</small>
+| pop20            = {{formatnum:119300}} <small>(2009)</small>
 | ref20            = <ref>{{cite web|url=http://www.azstat.org/statinfo/demoqraphic/en/AP_/AP_1.shtml|archive-url=https://web.archive.org/web/20120107000309/http://www.azstat.org/statinfo/demoqraphic/en/AP_/AP_1.shtml|title=The State Statistical Committee of the Republic of Azerbaijan|archive-date=7 January 2012|publisher=azstat.org}}</ref>
 | region21         = {{FIN}}
-| pop21            = 90,801 <small>(2020)</small>
+| pop21            = {{formatnum:90801}} <small>(2020)</small>
 | ref21            = <ref>{{cite web|url=https://pxnet2.stat.fi/PXWeb/pxweb/sv/StatFin/StatFin__vrm__vaerak/statfin_vaerak_pxt_11rv.px/|title = Befolkning 31.12. Efter Område, Bakgrundsland, Kön, År och Uppgifter}}</ref>
 | region22         = {{Flagcountry|Australia}}
-| pop22            = 67,055 <small>(2006)</small>
+| pop22            = {{formatnum:67055}} <small>(2006)</small>
 | ref22            = <ref>{{cite web|url=http://www.abs.gov.au/|title=Australian Bureau of Statistics|publisher=Abs.gov.au|access-date=22 July 2012}}</ref>
 | region23         = {{TUR}}
-| pop23            = 50,000<br /><small>(Russian ancestry)</small>
+| pop23            = {{formatnum:50000}}<br /><small>(Russian ancestry)</small>
 | ref23            = <ref>{{cite web|url=http://archive.mid.ru//ns_publ.nsf/cb8e241d18a8904ec3256fc7002ddc0e/a26c797ba51042d2c32576800031670a?OpenDocument|title=МИД России &#124; 12/02/2009 &#124; Интервью Посла России в Турции В.Е.Ивановского, опубликованное в журнале "Консул" № 4 /19/, декабрь 2009 года|publisher=Mid.ru|access-date=22 July 2012|archive-url=https://web.archive.org/web/20160102074707/http://archive.mid.ru//ns_publ.nsf/cb8e241d18a8904ec3256fc7002ddc0e/a26c797ba51042d2c32576800031670a?OpenDocument|archive-date=2 January 2016|url-status=dead}}</ref>
 | region24         = {{POL}}
-| pop24            = 40,000 <small>(2019)</small>
+| pop24            = {{formatnum:40000}} <small>(2019)</small>
 | ref24            = <ref>{{cite web|url=https://www.migrationpolicy.org/programs/data-hub/charts/immigrant-and-emigrant-populations-country-origin-and-destination|title=Immigrant and Emigrant Populations by Country of Origin and Destination|date=10 February 2014|publisher=Migration Policy Institute|access-date=20 September 2020}}</ref>
 | region25         = {{ROU}}
-| pop25            = 36,397 <small>(2002)</small><br /><small> ([[Lipovans]])</small>
+| pop25            = {{formatnum:36397}} <small>(2002)</small><br /><small> ([[Lipovans]])</small>
 | ref25            = <ref>[https://web.archive.org/web/20070513211550/http://mimmc.ro/info_util/formulare_1294/ Informatii utile | Agentia Nationala pentru Intreprinderi Mici si Mijlocii] (2002 census) {{in lang|ro}}</ref>
 | region26         = {{flag|Czech Republic}}
-| pop26            = 35,759 <small>(2016)</small>
+| pop26            = {{formatnum:35759}} <small>(2016)</small>
 | ref26            = <ref>{{cite web|url=https://www.czso.cz/documents/11292/27914491/1612_c01t02.pdf/fb43eb2d-e0b2-4692-ba3f-cc696b3b2b70?version=1.0|title=(number of foreigners in the Czech Republic)|format=PDF|language=cs|date=31 December 2016 |access-date=6 October 2017}}</ref>
 | region27         = {{flag|Tajikistan}}
-| pop27            = 35,000 <small>(2010)</small>
+| pop27            = {{formatnum:35000}} <small>(2010)</small>
 | ref27            = <ref>{{cite web|url=http://www.demoscope.ru/weekly/2013/0559/barom02.php|title = Доля титульной национальности возрастает во всех странах СНГ, кроме России}}</ref>
 | region28         = {{flag|South Korea}}
-| pop28            = 30,098 <small>(2016)</small>
+| pop28            = {{formatnum:30098}} <small>(2016)</small>
 | ref28            = <ref>{{cite web|url=http://www.immigration.go.kr/doc_html/attach/imm/f2016//20160830263386_1_1.hwp.files/Sections1.html|title=출입국·외국인정책 통계월보|work=출입국·외국인정책 본부 이민정보과}}</ref><ref>The source is not Russian but Russian Koreans.</ref>
 | region29         = {{flag|Georgia}}
-| pop29            = 26,453 <small>(2014)</small>
+| pop29            = {{formatnum:26453}} <small>(2014)</small>
 | ref29            = <ref>http://census.ge/files/results/english/17_Total%20population%20by%20regions%20and%20ethnicity.xls {{Bare URL inline|date=February 2022}}</ref>
 | region30         = {{HUN}}
-| pop30            = 21,518 <small>(2016)</small>
+| pop30            = {{formatnum:21518}} <small>(2016)</small>
 | ref30            = <ref name="KSH">{{cite book|last=Vukovich|first=Gabriella|url=http://www.ksh.hu/docs/hun/xftp/idoszaki/mikrocenzus2016/mikrocenzus_2016_12.pdf|title=Mikrocenzus 2016 – 12. Nemzetiségi adatok|trans-title=2016 microcensus – 12. Ethnic data|language=hu|work=Hungarian Central Statistical Office|location=Budapest|year=2018|access-date=9 January 2019|isbn=978-963-235-542-9}}</ref>
 | region31         = {{flag|Sweden}}
-| pop31            = 20,187 <small>(2016)</small>
+| pop31            = {{formatnum:20,187}} <small>(2016)</small>
 | ref31            = <ref>{{cite web|title=Utrikes födda efter födelseland, kön och år|url=http://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0101__BE0101E/UtrikesFoddaR/table/tableViewLayout1/?rxid=f45f90b6-7345-4877-ba25-9b43e6c6e299|website=www.scb.se|publisher=Statistiska Centralbyrån|access-date=25 May 2017}}{{Dead link|date=November 2019 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
 | region32         = {{flag|China}}
-| pop32            = 15,609 <small>(2000)</small>
+| pop32            = {{formatnum:15,609}} <small>(2000)</small>
 | ref32            = <ref>{{cite web|url=http://www.stats.gov.cn/tjsj/ndsj/renkoupucha/2000pucha/html/t0106.htm|title=(2000 census)|publisher=Stats.gov.cn|access-date=22 July 2012|archive-date=26 August 2018|archive-url=https://web.archive.org/web/20180826143557/http://www.stats.gov.cn/tjsj/ndsj/renkoupucha/2000pucha/html/t0106.htm|url-status=dead}}</ref>
 | region33         = {{flag|Bulgaria}}
-| pop33            = 15,595 <small>(2002)</small>
+| pop33            = {{formatnum:15,595}} <small>(2002)</small>
 | ref33            = <ref>{{cite web|url=http://www.nsi.bg/Census/Ethnos.htm|title=(2002 census)|publisher=Nsi.bg|access-date=22 July 2012}}</ref>
 | region34         = {{flag|Armenia}}
-| pop34            = 14,660 <small>(2002)</small>
+| pop34            = {{formatnum:14,660}} <small>(2002)</small>
 | ref34            = <ref>{{cite web|url=http://docs.armstat.am/census/pdfs/51.pdf|title=(2002 census)|access-date=22 July 2012|archive-date=30 January 2010|archive-url=https://www.webcitation.org/5nAoWfeZT?url=http://docs.armstat.am/census/pdfs/51.pdf|url-status=dead}}</ref>
 | region35         = {{flag|Greece}}
-| pop35            = 13,635 <small>(2002)</small>
+| pop35            = {{formatnum:13,635}} <small>(2002)</small>
 | ref35            = <ref>{{cite web|url=http://www.rcnk.gr/pdflink|title=rcnk.gr|date=April 2020}}{{Dead link|date=April 2020}}</ref>
 | region36         = {{flag|India}}
-| pop36            = 6,000–15,000 {{small|(2011)}}
+| pop36            = {{formatnum:6,000}}–15,000}} {{small|(2011)}}
 | ref36            = <ref>{{cite web|title=Центральная избирательная комиссия Российской Федерации|url=http://www.foreign-countries.vybory.izbirkom.ru/region/region/foreign-countries?action=show&root=1000182&tvd=100100022111493&vrn=100100021960181&region=99&global=true&sub_region=99&prver=0&pronetvd=null&vibid=100100022111493&type=233|access-date=2021-06-17|website=www.foreign-countries.vybory.izbirkom.ru}}</ref>
 | region37         = {{flag|Denmark}}
-| pop37            = 7,686 <small>(2019)</small>
+| pop37            = {{formatnum:7,686}} <small>(2019)</small>
 | ref37            = <ref>{{cite web|url=https://www.statistikbanken.dk/statbank5a/Graphics/MapAnalyser.asp?Maintable=FOLK1C&PLanguage=0&HERKOMST=TOT&IELAND=5700&OMR%C3%85DE=000&K%C3%98N=TOT&ALDER=IALT |title=Statistics Denmark 2019 K4: Russian |publisher=Statistics Denmark}}</ref>
 | region38         = {{nowrap|{{flag|New Zealand}}}}
 | pop38            = 5,979 <small>(2013)</small>
