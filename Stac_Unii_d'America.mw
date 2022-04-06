@@ -1,56 +1,36 @@
-{{Gherdëina}}{| border="1" cellpadding="2" cellspacing="0" align="right" width="300"
-! colspan="2" bgcolor="lightgray" style="font-size:120%"|Stac Unii de l'America<br>''United States of America''
-|-
-|[[File:Flag_of_the_United_States.svg|160px|border|center]]
-|[[File:Greater_coat_of_arms_of_the_United_States.svg|100px|border|center]]
-|- 
-| valign="top"|'''Inuem ufiziel'''
-|United States of America
-|-
-| valign="top"|'''Lingaz ufiziel'''
-|<small>Deguna rujeneda ie ufiziela al livel federel, l [[Lingaz nglëisc|nglëisc]] ie de fat la rujeneda plu adurveda.</small>
-|-
-| valign="top"|'''Capitela'''
-|[[Washington, D.C.]] 
-|-
-| valign="top"|'''Majera zità'''
-|[[New York]] 
-|-
-| valign="top"|'''Abitanc'''
-|331 449 281 ab. <small> (2020)</small> 
-|-
-| valign="top"|'''Spersa'''
-|9 833 520 km² <small> (de ndut)</small> <br> 9 147 590 km² <small> (tiera)</small> 
-|-
-| valign="top"|'''Ega'''
-|4,66%
-|-
-| valign="top"|'''Densità'''
-|33,6 ab./km²
-|-
-! colspan="2" bgcolor="lightgray"|Guviern
-|-
-| valign="top"|'''President'''
-| [[Joe Biden]] 
-|-
-| valign="top"|'''Vize-president'''
-| valign="top"|[[Kamala Harris]]
-|-
-! colspan="2" bgcolor="lightgray"|Auter
-|-
-| valign="top"|'''Munëida'''
-|[[Dollar american]]
-|-
-| valign="top"|'''TLD Internet'''
-| .com
-|-
-| valign="top"|'''Prefis dl telefon'''
-| +1
-|-
-! colspan="2" bgcolor="lightgray"|Cherta
-|-
-| colspan="2"  valign="top"|[[File:USA_orthographic.svg|300px|border|center]]
-|}
+{{gherdëina}}{{Infobox Stat
+|Bandiera                 = Flag_of_the_United_States.svg
+|Blason                   = Greater_coat_of_arms_of_the_United_States.svg
+|Inuem                    = Stac Unii d'America
+|Inuem ufiziel            = United States of America
+|Capitela                 = [[Washington, D.C.]] 
+|Sënta guviern            = [[New York]]
+|Majera zità              =
+|Inuem inn                = The Star-Spangled Banner<ref>{{cite act |date=March 3, 1931 |article=14 |article-type=H.R. |legislature=[[71st United States Congress]] |title=An Act To make The Star-Spangled Banner the national anthem of the United States of America |url=https://uscode.house.gov/statviewer.htm?volume=46&page=1508}}</ref>
+|Inn                      = Star_Spangled_Banner_instrumental.ogg
+|Lingaz 1                 = <small>Deguna rujeneda ie ufiziela al livel federel, l [[nglëisc]] ie de fat la rujeneda plu adurveda.</small>
+|Lingaz 2                 = 
+|Lingaz 3                 = 
+|Lingaz 4                 = 
+|Lingaz 5                 = 
+|Abitanc                  = 331449281
+|Data abitanc             = 2020
+|Spersa                   = 9833520
+|Spersa tiera             = 9147590 
+|Ega                      = 4,66
+|Monarch                  =
+|Presidënt                = [[Joe Biden]]
+|Vize-Presidënt           = [[Kamala Harris]]
+|Prim minister            =
+|Canzelier                = 
+|Ann PIB                  = 2022
+|PIB numinel              = 24800   <!--valor te miliarc-->
+|PIB VPC                  = 24800   <!--valor te miliarc-->
+|Munëida                  = [[Dollar American]]  ($)
+|TLD Internet             = .com
+|Prefis dl telefon        = +1
+|Cherta                   = USA_orthographic.svg
+}}
 '''I Stac Unii d'America''' ([[Lingaz nglëisc|nglëisc]]: ''United States of America''), te la rujeneda da uni di suënza scurtà a '''i Stac Unii''' ([[Lingaz nglëisc|nglëisc]]: ''the United States''), '''l'America''' o '''l'USA''', ie n [[stat federal]] te l'[[America dl Nord]]. Si capitela ie [[Washington, D.C.]], si majera zità ie [[New York]].
 
 == Geografia ==
@@ -64,6 +44,8 @@ L ie na [[republica]] federala presidenziela.
 
 == Storia ==
 
+== Notes ==
+<references/>
 
 == Liams ==
 [[America]]
