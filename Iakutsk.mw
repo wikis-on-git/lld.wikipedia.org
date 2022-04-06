@@ -35,6 +35,121 @@
 
 == Geografia ==
 
+=== Tlima ===
+{{Tlima
+| TABELLE = 
+| DIAGRAMM TEMPERATURA = 
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 250
+| QUELLE = [http://wetterkontor.de/de/klima/klima2.asp?land=ru&stat=24959 wetterkontor.de]
+| Titul = 
+| Luech = Iakutsk
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −36.0
+| hmfeb = −30.4
+| hmmär = −13.8
+| hmapr =   0.7
+| hmmai =  12.9
+| hmjun =  21.7
+| hmjul =  25.2
+| hmaug =  21.7
+| hmsep =  11.6
+| hmokt =  −4.1
+| hmnov = −25.0
+| hmdez = −34.6
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −44.9
+| lmfeb = −41.7
+| lmmär = −29.5
+| lmapr = −13.5
+| lmmai =   0.4
+| lmjun =   8.1
+| lmjul =  11.7
+| lmaug =   8.6
+| lmsep =   0.2
+| lmokt = −12.9
+| lmnov = −33.8
+| lmdez = −42.8
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 
+| avfeb = 
+| avmär = 
+| avapr = 
+| avmai = 
+| avjun = 
+| avjul = 
+| avaug = 
+| avsep = 
+| avokt = 
+| avnov = 
+| avdez = 
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan =  9
+| nbfeb =  7
+| nbmär =  6
+| nbapr = 10
+| nbmai = 18
+| nbjun = 37
+| nbjul = 39
+| nbaug = 37
+| nbsep = 29
+| nbokt = 20
+| nbnov = 16
+| nbdez = 12
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan =  0.6
+| shfeb =  3.4
+| shmär =  7.5
+| shapr =  9.1
+| shmai =  9.8
+| shjun = 11.1
+| shjul = 11.2
+| shaug =  8.8
+| shsep =  5.8
+| shokt =  3.4
+| shnov =  2.0
+| shdez =  0.4
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 
+| wtfeb = 
+| wtmär = 
+| wtapr = 
+| wtmai = 
+| wtjun = 
+| wtjul = 
+| wtaug = 
+| wtsep = 
+| wtokt = 
+| wtnov = 
+| wtdez = 
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 2
+| rdfeb = 2
+| rdmär = 2
+| rdapr = 3
+| rdmai = 4
+| rdjun = 7
+| rdjul = 7
+| rdaug = 6
+| rdsep = 5
+| rdokt = 6
+| rdnov = 6
+| rddez = 4
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 74
+| lffeb = 75
+| lfmär = 73
+| lfapr = 64
+| lfmai = 57
+| lfjun = 60
+| lfjul = 62
+| lfaug = 69
+| lfsep = 72
+| lfokt = 80
+| lfnov = 78
+| lfdez = 75
+}}
+
 ==Notes==
 <references/>
 
