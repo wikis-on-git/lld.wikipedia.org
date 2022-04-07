@@ -9,25 +9,25 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 
 {|class="wikitable sortable"
 ! rowspan="2" scope="col" style="width:50px;" | Rank
-! rowspan="2" |City / Town
-! rowspan="2" |[[Russian language|Russian]]
-! rowspan="2" |[[Federal subjects of Russia|Federal subject]]
-! rowspan="2" |[[Federal districts of Russia|Federal district]]
-! colspan="2" |Population<br />
-! rowspan="2" |Change
+! rowspan="2" |Zità
+! rowspan="2" |Inuem [[lingaz rus|rus]]
+! rowspan="2" |[[Partida de la Ruscia|Soget Federel]]
+! rowspan="2" |[[Raions federei de la Ruscia|Raion Federel]]
+! colspan="2" |Populazion<br />
+! rowspan="2" |Mudazion
 |-
-!2021 estimate<ref>{{cite web|url=http://citypopulation.de/en/russia|title=Russia|publisher=Citypopulation.de|access-date=19 May 2021}}</ref>
-![[Russian Census (2010)|2010 Census]]<ref name="2010Census">{{ru-pop-ref|2010Census}}</ref>
+!Stima dl 2021<ref>{{cite web|url=http://citypopulation.de/en/russia|title=Russia|publisher=Citypopulation.de|access-date=19 May 2021}}</ref>
+!Cumpededa dl 2010<ref name="2010Census">{{ru-pop-ref|2010Census}}</ref>
 |-
 !align=center|1
-|'''[[Moscow]]'''
+|'''[[Moscau]]'''
 |{{lang|ru|Москва}}
 |{{flag|Moscow|name=Moscow (federal city)}}<ref>The city of Moscow, though a separate entity from the surrounding [[Moscow Oblast]], also serves as its capital</ref>
 |[[Central Federal District|Central]]
 |{{change|invert=on|12655050|11503501}}
 |-
 !align=center|2
-|'''[[Saint Petersburg]]'''
+|'''[[San Petersburg]]'''
 |{{lang|ru|Санкт-Петербург}}
 |{{flag|Saint Petersburg|name=Saint Petersburg (federal city)}}<ref>The city of Saint Petersburg, though a separate entity from the surrounding [[Leningrad Oblast]], also serves as its capital</ref>
 |[[Northwestern Federal District|Northwest]]
@@ -41,28 +41,28 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 |{{change|invert=on|1620162|1473754}}
 |-
 !align=center|4
-|'''[[Yekaterinburg]]'''
+|'''[[Iekaterinburg]]'''
 |{{lang|ru|Екатеринбург}}
 |{{flag|Sverdlovsk Oblast}}
 |[[Ural Federal District|Ural]]
 |{{change|invert=on|1495066|1349772}}
 |-
 !align=center|5
-|'''[[Kazan]]'''
+|'''[[Kasan]]'''
 |{{lang|ru|Казань}}
 |{{flag|Tatarstan|name=Republic of Tatarstan}}
 |[[Volga Federal District|Volga]]
 |{{change|invert=on|1257341|1143535}}
 |-
 !align=center|6
-|'''[[Nizhny Novgorod]]'''
+|'''[[Nijni Novgorod]]'''
 |{{lang|ru|Нижний Новгород}}
 |{{flag|Nizhny Novgorod Oblast}}
 |Volga
 |{{change|invert=on|1244254|1250619}}
 |-
 !align=center|7
-|'''[[Chelyabinsk]]'''
+|'''[[Celiabinsk]]'''
 |{{lang|ru|Челябинск}}
 |{{flag|Chelyabinsk Oblast}}
 |Ural
@@ -83,7 +83,7 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 |{{change|invert=on|1139897|1154119}}
 |-
 !align=center|10
-|'''[[Rostov-on-Don]]'''
+|'''[[Rostov sul Don]]'''
 |{{lang|ru|Ростов-на-Дону}}
 |{{flag|Rostov Oblast}}
 |[[Southern Federal District|South]]<ref>Includes [[Crimea]], [[Annexation of Crimea by the Russian Federation|annexed by Russia in 2014]]; recognized as a part of [[Ukraine]] by most of the international community.</ref>
@@ -97,14 +97,14 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 |{{change|invert=on|1125933|1062319}}
 |-
 !align=center|12
-|'''[[Krasnoyarsk]]'''
+|'''[[Krasnoiarsk]]'''
 |{{lang|ru|Красноярск}}
 |{{flag|Krasnoyarsk Krai}}
 |Siberia
 |{{change|invert=on|1092851|973826}}
 |-
 !align=center|13
-|'''[[Voronezh]]'''
+|'''[[Voronej]]'''
 |{{lang|ru|Воронеж}}
 |{{flag|Voronezh Oblast}}
 |Central
@@ -139,21 +139,21 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 |{{change|invert=on|830155|837900}}
 |-
 !align=center|18
-|'''[[Tyumen]]'''
+|'''[[Tiumen]]'''
 |{{lang|ru|Тюмень}}
 |{{flag|Tyumen Oblast}}
 |Ural
 |{{change|invert=on|816700|581907}}
 |-
 !align=center|19
-|[[Tolyatti]]
+|[[Toliatti]]
 |{{lang|ru|Тольятти}}
 |{{flagu|Samara Oblast}}
 |Volga
 |{{change|invert=on|693072|719632}}
 |-
 !align=center|20
-|'''[[Izhevsk]]'''
+|'''[[Ijevsk]]'''
 |{{lang|ru|Ижевск}}
 |{{flag|Udmurtia|name=Udmurt Republic}}
 |Volga
@@ -167,7 +167,7 @@ Cities in '''bold''' symbolize the capital city of its respective [[Federal subj
 |{{change|invert=on|631124|612401}}
 |-
 !align=center|22
-|'''[[Ulyanovsk]]'''
+|'''[[Ulianovsk]]'''
 |{{lang|ru|Ульяновск}}
 |{{flag|Ulyanovsk Oblast}}
 |Volga
