@@ -34,6 +34,120 @@
 == Storia ==
 
 == Geografia ==
+=== Tlima ===
+{{Tlima
+| TABELA = 
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 250
+| FUNTANA = [http://wetterkontor.de/de/klima/klima2.asp?land=ru&stat=30710 wetterkontor.de]
+| Titul= 
+| luech = Irkutsk
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −14.3
+| hmfeb = −10.6
+| hmmär =  −0.1
+| hmapr =   8.0
+| hmmai =  16.9
+| hmjun =  22.8
+| hmjul =  24.7
+| hmaug =  22.1
+| hmsep =  15.7
+| hmokt =   7.5
+| hmnov =  −2.9
+| hmdez = −11.1
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −24.3
+| lmfeb = −22.8
+| lmmär = −14.8
+| lmapr =  −5.3
+| lmmai =   1.9
+| lmjun =   7.6
+| lmjul =  11.0
+| lmaug =   9.1
+| lmsep =   2.7
+| lmokt =  −4.4
+| lmnov = −13.7
+| lmdez = −21.2
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 
+| avfeb = 
+| avmär = 
+| avapr = 
+| avmai = 
+| avjun = 
+| avjul = 
+| avaug = 
+| avsep = 
+| avokt = 
+| avnov = 
+| avdez = 
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan =  12
+| nbfeb =   9
+| nbmär =  13
+| nbapr =  19
+| nbmai =  33
+| nbjun =  62
+| nbjul = 120
+| nbaug =  83
+| nbsep =  50
+| nbokt =  30
+| nbnov =  18
+| nbdez =  19
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 3.0
+| shfeb = 4.9
+| shmär = 6.7
+| shapr = 7.4
+| shmai = 8.6
+| shjun = 8.8
+| shjul = 7.8
+| shaug = 7.0
+| shsep = 6.1
+| shokt = 4.9
+| shnov = 3.1
+| shdez = 2.0
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 
+| wtfeb = 
+| wtmär = 
+| wtapr = 
+| wtmai = 
+| wtjun = 
+| wtjul = 
+| wtaug = 
+| wtsep = 
+| wtokt = 
+| wtnov = 
+| wtdez = 
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan =  4
+| rdfeb =  3
+| rdmär =  3
+| rdapr =  5
+| rdmai =  7
+| rdjun =  8
+| rdjul = 11
+| rdaug = 10
+| rdsep =  8
+| rdokt =  6
+| rdnov =  6
+| rddez =  5
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 84
+| lffeb = 79
+| lfmär = 72
+| lfapr = 64
+| lfmai = 58
+| lfjun = 67
+| lfjul = 78
+| lfaug = 80
+| lfsep = 78
+| lfokt = 76
+| lfnov = 82
+| lfdez = 86
+}}
 
 ==Notes==
 <references/>
