@@ -19,15 +19,15 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|1
 |'''[[Moscau]]'''
 |{{lang|ru|Москва}}
-|{{flag|Moscau|name=Moscau (zità federela)}}<ref>The city of Moscow, though a separate entity from the surrounding [[Moscow Oblast]], also serves as its capital</ref>
-|[[Central Federal District|Central]]
+|{{flag|Moscau|name=Moscau (zità federela)}}
+|[[Zentrel Federal District|Zentrel]]
 |{{change|invert=on|12655050|11503501}}
 |-
 !align=center|2
 |'''[[San Petersburg]]'''
 |{{lang|ru|Санкт-Петербург}}
-|{{flag|San Petersburg|name=San Petersburg (federal city)}}<ref>The city of Saint Petersburg, though a separate entity from the surrounding [[Leningrad Oblast]], also serves as its capital</ref>
-|[[Northwestern Federal District|Northwest]]
+|{{flag|San Petersburg|name=San Petersburg (zità federela)}}
+|[[Nord-vestern Federal District|Nord-vest]]
 |{{change|invert=on|5384342|4879566}}
 |-
 !align=center|3
@@ -83,7 +83,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Rostov sul Don]]'''
 |{{lang|ru|Ростов-на-Дону}}
 |{{flag|Rostov Oblast}}
-|[[Southern Federal District|South]]<ref>Includes [[Crimea]], [[Annexation of Crimea by the Russian Federation|annexed by Russia in 2014]]; recognized as a part of [[Ukraine]] by most of the international community.</ref>
+|[[Sudern Federal District|Sud]]<ref>Includes [[Crimea]], [[Annexation of Crimea by the Russian Federation|annexed by Russia in 2014]]; recognized as a part of [[Ukraine]] by most of the international community.</ref>
 |{{change|invert=on|1137704|1089261}}
 |-
 !align=center|11
@@ -96,21 +96,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|12
 |'''[[Krasnoiarsk]]'''
 |{{lang|ru|Красноярск}}
-|{{flag|Krasnoyarsk Krai}}
+|{{flag|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|1092851|973826}}
 |-
 !align=center|13
 |'''[[Voronej]]'''
 |{{lang|ru|Воронеж}}
-|{{flag|Voronezh Oblast}}
-|Central
+|{{flag|Oblast de Voronej}}
+|Zentrel
 |{{change|invert=on|1050602|889680}}
 |-
 !align=center|14
 |'''[[Perm, Russia|Perm]]'''
 |{{lang|ru|Пермь}}
-|{{flag|Perm Krai}}
+|{{flag|Krai de Perm}}
 |Volga
 |{{change|invert=on|1049199|991162}}
 |-
@@ -118,20 +118,20 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Volgograd]]'''
 |{{lang|ru|Волгоград}}
 |{{flag|Volgograd Oblast}}
-|South
+|Sud
 |{{change|invert=on|1004763|1021215}}
 |-
 !align=center|16
 |'''[[Krasnodar]]'''
 |{{lang|ru|Краснодар}}
-|{{flag|Krasnodar Krai}}
-|South
+|{{flag|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|948827|744995}}
 |-
 !align=center|17
 |'''[[Saratov]]'''
 |{{lang|ru|Саратов}} 
-|{{flag|Saratov Oblast}}
+|{{flag|Oblast de Saratov}}
 |Volga
 |{{change|invert=on|830155|837900}}
 |-
@@ -166,7 +166,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|22
 |'''[[Ulianovsk]]'''
 |{{lang|ru|Ульяновск}}
-|{{flag|Ulyanovsk Oblast}}
+|{{flag|Oblast de Ulianovsk}}
 |Volga
 |{{change|invert=on|625462|614786}}
 |-
@@ -192,10 +192,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|604266|572076}}
 |-
 !align=center|26
-|'''[[Yaroslavl]]'''
+|'''[[Iaroslavl]]'''
 |{{lang|ru|Ярославль}}
-|{{flag|Yaroslavl Oblast}}
-|Central
+|{{flag|Oblast de Iaroslavl}}
+|Zentrel
 |{{change|invert=on|601403|591486}}
 |-
 !align=center|27
@@ -237,7 +237,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Ryazan]]'''
 |{{lang|ru|Рязань}}
 |{{flag|Ryazan Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|534801|524927}}
 |-
 !align=center|33
@@ -251,7 +251,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Astrakhan]]'''
 |{{lang|ru|Астрахань}}
 |{{flag|Astrakhan Oblast}}
-|South
+|Sud
 |{{change|invert=on|524371|520339}}
 |-
 !align=center|35
@@ -271,15 +271,15 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|37
 |[[Balashikha]]
 |{{lang|ru|Балашиха}}
-|{{flag|Moscow Oblast}}
-|Central
+|{{flag|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|507307|215494}}
 |-
 !align=center|38
 |'''[[Lipetsk]]'''
 |{{lang|ru|Липецк}}
 |{{flag|Lipetsk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|503216|508887}}
 |-
 !align=center|39
@@ -293,21 +293,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Kaliningrad]]'''
 |{{lang|ru|Калининград}}
 |{{flag|Kaliningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|493256|431902}}
 |-
 !align=center|41
 |'''[[Tula, Russia|Tula]]'''
 |{{lang|ru|Тула}}
 |{{flag|Tula Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|467955|501169}}
 |-
 !align=center|42
 |'''[[Sevastopol]]'''
 |{{lang|ru|Севастополь}}
 |{{flag|Sevastopol|name=Sevastopol (zità federela)}} {{efn|name=Crimea|[[Annexation of Crimea by the Russian Federation|Annexed by Russia in 2014]]; recognized as a part of [[Ukraine]] by most of the international community.}}
-|South
+|Sud
 |{{change|invert=on|464349|342451}} {{efn|name=Census|Census figure is from [[Ukrainian Census (2001)|2001 Ukrainian Census]]}}
 |-
 !align=center|42
@@ -321,7 +321,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Kursk]]'''
 |{{lang|ru|Курск}}
 |{{flag|Kursk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|450977|415159}}
 |-
 !align=center|44
@@ -334,15 +334,15 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|45
 |[[Sochi]]
 |{{lang|ru|Сочи}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|432322|343334}}
 |-
 !align=center|46
 |'''[[Tver]]'''
 |{{lang|ru|Тверь}}
 |{{flag|Tver Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|424969|403606}}
 |-
 !align=center|47
@@ -356,21 +356,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Ivanovo]]'''
 |{{lang|ru|Иваново}}
 |{{flag|Ivanovo Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|401505|408330}}
 |-
 !align=center|49
 |'''[[Bryansk]]'''
 |{{lang|ru|Брянск}}
 |{{flag|Bryansk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|399579|415721}}
 |-
 !align=center|50
 |'''[[Belgorod]]'''
 |{{lang|ru|Белгород}}
 |{{flag|Belgorod Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|391702|356402}}
 |-
 !align=center|51
@@ -384,7 +384,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Vladimir, Russia|Vladimir]]'''
 |{{lang|ru|Владимир}}
 |{{flag|Vladimir Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|352347|345373}}
 |-
 !align=center|53
@@ -398,7 +398,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Arkhangelsk]]'''
 |{{lang|ru|Архангельск}}
 |{{flag|Arkhangelsk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|344927|348783}}
 |-
 !align=center|55
@@ -412,14 +412,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Simferopol]]'''
 |{{lang|ru|Симферопoль}}
 |{{flag|Republica de la Crim}} {{efn|name=Crim}}
-|South
+|Sud
 |{{change|invert=on|336212|343644}} {{efn|name=Census}}
 |-
 !align=center|56
 |'''[[Kaluga]]'''
 |{{lang|ru|Калуга}}
 |{{flag|Kaluga Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|331842|324698}}
 |-
 !align=center|57
@@ -440,14 +440,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Volzhsky, Volgograd Oblast|Volzhsky]]
 |{{lang|ru|Волжский}}
 |{{flagu|Volgograd Oblast}}
-|South
+|Sud
 |{{change|invert=on|323853|314255}}
 |-
 !align=center|60
 |'''[[Smolensk]]'''
 |{{lang|ru|Смоленск}}
 |{{flag|Smolensk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|320170|326861}}
 |-
 !align=center|61
@@ -461,7 +461,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Cherepovets]]
 |{{lang|ru|Череповец}}
 |{{flag|Vologda Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|312091|312310}}
 |-
 !align=center|63
@@ -474,22 +474,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|64
 |[[Podolsk]]
 |{{lang|ru|Подольск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|309250|187961}}
 |-
 !align=center|65
 |'''[[Vologda]]'''
 |{{lang|ru|Вологда}}
 |{{flagu|Vologda Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|308530|301755}}
 |-
 !align=center|66
 |'''[[Oryol]]'''
 |{{lang|ru|Орёл}}
 |{{flag|Oryol Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|303696|317747}}
 |-
 !align=center|67
@@ -503,21 +503,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Tambov]]'''
 |{{lang|ru|Тамбов}}
 |{{flag|Tambov Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|289701|280161}}
 |-
 !align=center|69
 |'''[[Murmansk]]'''
 |{{lang|ru|Мурманск}}
 |{{flag|Murmansk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|282851|307257}}
 |-
 !align=center|70
 |'''[[Petrozavodsk]]'''
 |{{lang|ru|Петрозаводск}}
 |{{flag|Karelia|name=Republic of Karelia}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|280711|261987}}
 |-
 !align=center|71
@@ -531,7 +531,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Kostroma]]'''
 |{{lang|ru|Кострома}}
 |{{flag|Kostroma Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|277393|268742}}
 |-
 !align=center|73
@@ -544,8 +544,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|74
 |[[Novorossiysk]]
 |{{lang|ru|Новороссийск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|275795|241952}}
 |-
 !align=center|75
@@ -558,29 +558,29 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|76
 |[[Khimki]]
 |{{lang|ru|Химки}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|257757|207425}}
 |-
 !align=center|77
 |[[Taganrog]]
 |{{lang|ru|Таганрог}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|248269|257681}}
 |-
 !align=center|78
 |[[Mytishchi]]
 |{{lang|ru|Мытищи}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|245643|173160}}
 |-
 !align=center|79
 |'''[[Syktyvkar]]'''
 |{{lang|ru|Сыктывкар}}
 |{{flag|Komi Republic}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|243926|235006}}
 |-
 !align=center|80
@@ -608,7 +608,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Shakhty]]
 |{{lang|ru|Шахты}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|228816|239987}}
 |-
 !align=center|84
@@ -619,9 +619,9 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|227326|240742}}
 |-
 !align=center|85
-|[[Engels, Saratov Oblast|Engels]]
+|[[Engels, Oblast de Saratov|Engels]]
 |{{lang|ru|Энгельс}}
-|{{flagu|Saratov Oblast}}
+|{{flagu|Oblast de Saratov}}
 |Volga
 |{{change|invert=on|226143|202419}}
 |-
@@ -633,10 +633,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|225757|214390}}
 |-
 !align=center|87
-|[[Korolyov, Moscow Oblast|Korolyov]]
+|[[Korolyov, Oblast de Moscau|Korolyov]]
 |{{lang|ru|Королёв}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|225299|183402}}
 |-
 !align=center|88
@@ -650,7 +650,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Veliky Novgorod]]'''
 |{{lang|ru|Великий Новгород}}
 |{{flag|Novgorod Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|225019|218717}}
 |-
 !align=center|90
@@ -664,7 +664,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Stary Oskol]]
 |{{lang|ru|Старый Оскол}}
 |{{flagu|Belgorod Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|223711|221085}}
 |-
 !align=center|92
@@ -678,14 +678,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Pskov]]'''
 |{{lang|ru|Псков}}
 |{{flag|Pskov Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|209426|203279}}
 |-
 !align=center|94
 |[[Lyubertsy]]
 |{{lang|ru|Люберцы}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|208397|172525}}
 |-
 !align=center|95
@@ -719,36 +719,36 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|99
 |[[Armavir, Russia|Armavir]]
 |{{lang|ru|Армавир}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|187215|188832}}
 |-
 !align=center|100
 |[[Balakovo]]
 |{{lang|ru|Балаково}}
-|{{flagu|Saratov Oblast}}
+|{{flagu|Oblast de Saratov}}
 |Volga
 |{{change|invert=on|186012|199690}}
 |-
 !align=center|101
 |[[Norilsk]]
 |{{lang|ru|Норильск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|182701|175365}}
 |-
 !align=center|102
 |[[Rybinsk]]
 |{{lang|ru|Рыбинск}}
-|{{flagu|Yaroslavl Oblast}}
-|Central
+|{{flagu|Oblast de Iaroslavl}}
+|Zentrel
 |{{change|invert=on|182383|200771}}
 |-
 !align=center|103
 |[[Severodvinsk]]
 |{{lang|ru|Северодвинск}}
 |{{flagu|Arkhangelsk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|180806|192353}}
 |-
 !align=center|104
@@ -759,10 +759,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|179367|179780}}
 |-
 !align=center|105
-|[[Krasnogorsk, Moscow Oblast|Krasnogorsk]]
+|[[Krasnogorsk, Oblast de Moscau|Krasnogorsk]]
 |{{lang|ru|Красногорск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|175812|116896}}
 |-
 !align=center|106
@@ -776,14 +776,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Volgodonsk]]
 |{{lang|ru|Волгодонск}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|169953|170841}}
 |-
 !align=center|108
 |[[Novocherkassk]]
 |{{lang|ru|Новочеркасск}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|166312|168746}}
 |-
 !align=center|109
@@ -817,15 +817,15 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|113
 |[[Elektrostal]]
 |{{lang|ru|Электросталь}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|152607|155196}}
 |-
 !align=center; style="background:#ccc;"|—
 |style="background:#ccc;"|[[Kerch]]
 |style="background:#ccc;"|{{lang|ru|Керчь}}
 |style="background:#ccc;"|{{flagu|Republic of Crimea}} {{efn|name=Crimea}}
-|style="background:#ccc;"|South
+|style="background:#ccc;"|Sud
 |{{change|invert=on|151996|157007}} {{efn|name=Census}}
 |-
 !align=center|114
@@ -881,42 +881,42 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Maykop]]'''
 |{{lang|ru|Майкоп}}
 |{{flag|Adygea|name=Republic of Adygea}}
-|South
+|Sud
 |{{change|invert=on|139084|144249}}
 |-
 !align=center|122
 |[[Kolomna]]
 |{{lang|ru|Коломна}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|138693|144589}}
 |-
 !align=center|123
 |[[Berezniki]]
 |{{lang|ru|Березники}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|137091|156466}}
 |-
 !align=center|124
 |[[Odintsovo]]
 |{{lang|ru|Одинцово}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|135867|138930}}
 |-
 !align=center|125
 |[[Domodedovo (town)|Domodedovo]]
 |{{lang|ru|Домодедово}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|135070|96145}}
 |-
 !align=center|126
 |[[Kovrov]]
 |{{lang|ru|Ковров}}
 |{{flagu|Vladimir Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|134074|145214}}
 |-
 !align=center|127
@@ -958,14 +958,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Bataysk]]
 |{{lang|ru|Батайск}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|127444|111843}}
 |-
 !align=center|133
 |[[Shchyolkovo]]
 |{{lang|ru|Щёлково}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|127292|110411}}
 |-
 !align=center|134
@@ -978,8 +978,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|135
 |[[Serpukhov]]
 |{{lang|ru|Серпухов}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|125473|127041}}
 |-
 !align=center|136
@@ -990,10 +990,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|124169|93335}}
 |-
 !align=center|137
-|[[Ramenskoye, Moscow Oblast|Ramenskoye]]
+|[[Ramenskoye, Oblast de Moscau|Ramenskoye]]
 |{{lang|ru|Раменское}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|123590|96317}}
 |-
 !align=center|138
@@ -1007,7 +1007,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Novomoskovsk, Russia|Novomoskovsk]]
 |{{lang|ru|Новомосковск}}
 |{{flagu|Tula Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|121674|131386}}
 |-
 !align=center|140
@@ -1034,22 +1034,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|143
 |[[Orekhovo-Zuyevo]]
 |{{lang|ru|Орехово-Зуево}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|117966|120670}}
 |-
 !align=center|144
 |[[Dolgoprudny]]
 |{{lang|ru|Долгопрудный}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|117778|90956}}
 |-
 !align=center|145
 |[[Obninsk]]
 |{{lang|ru|Обнинск}}
 |{{flagu|Kaluga Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|116179|104739}}
 |-
 !align=center|146
@@ -1076,22 +1076,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|149
 |[[Dimitrovgrad, Russia|Dimitrovgrad]]
 |{{lang|ru|Димитровград}}
-|{{flagu|Ulyanovsk Oblast}}
+|{{flagu|Oblast de Ulianovsk}}
 |Volga
 |{{change|invert=on|112388|122580}}
 |-
 !align=center|150
-|[[Pushkino, Pushkinsky District, Moscow Oblast|Pushkino]]
+|[[Pushkino, Pushkinsky District, Oblast de Moscau|Pushkino]]
 |{{lang|ru|Пушкино}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|108741|102874}}
 |-
 !align=center|151
 |[[Kamyshin]]
 |{{lang|ru|Камышин}}
 |{{flagu|Volgograd Oblast}}
-|South
+|Sud
 |{{change|invert=on|108665|119565}}
 |-
 !align=center|152
@@ -1105,21 +1105,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |style="background:#ccc;"|[[Yevpatoria]]
 |style="background:#ccc;"|{{lang|ru|Евпатория}}
 |style="background:#ccc;"|{{flagu|Republic of Crimea}} {{efn|name=Crimea}}
-|style="background:#ccc;"|South
+|style="background:#ccc;"|Sud
 |{{change|invert=on|108149|105915}} {{efn|name=Census}}
 |-
 !align=center|153
 |[[Reutov]]
 |{{lang|ru|Реутов}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|108000|87314}}
 |-
 !align=center|154
-|[[Zhukovsky, Moscow Oblast|Zhukovsky]]
+|[[Zhukovsky, Oblast de Moscau|Zhukovsky]]
 |{{lang|ru|Жуковский}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|107558|104736}}
 |-
 !align=center|155
@@ -1133,14 +1133,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Murom]]
 |{{lang|ru|Муром}}
 |{{flagu|Vladimir Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|105572|116075}}
 |-
 !align=center|157
 |[[Novoshakhtinsk]]
 |{{lang|ru|Новошахтинск}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|105038|111075}}
 |-
 !align=center|158
@@ -1153,7 +1153,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|159
 |[[Achinsk]]
 |{{lang|ru|Ачинск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|104850|109155}}
 |-
@@ -1168,7 +1168,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |'''[[Elista]]'''
 |{{lang|ru|Элиста}}
 |{{flag|Kalmykia|name=Republic of Kalmykia}}
-|South
+|Sud
 |{{change|invert=on|103535|103749}}
 |-
 !align=center|162
@@ -1188,22 +1188,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|164
 |[[Noginsk]]
 |{{lang|ru|Ногинск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|103063|100072}}
 |-
 !align=center|165
 |[[Yelets]]
 |{{lang|ru|Елец}}
 |{{flagu|Lipetsk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|101306|108404}}
 |-
 !align=center|166
 |[[Zheleznogorsk, Kursk Oblast|Zheleznogorsk]]
 |{{lang|ru|Железногорск}}
 |{{flagu|Kursk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|100554|95049}}
 |-
 !align=center|167
@@ -1223,8 +1223,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|169
 |[[Sergiyev Posad]]
 |{{lang|ru|Сергиев Посад}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|98784|111179}}
 |-
 !align=center|170
@@ -1279,8 +1279,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|177
 |[[Anapa]]
 |{{lang|ru|Анапа}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|94340|58990}}
 |-
 !align=center|178
@@ -1294,20 +1294,20 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Ukhta]]
 |{{lang|ru|Ухта}}
 |{{flagu|Komi Republic}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|92479|99591}}
 |-
 !align=center|180
-|[[Voskresensk, Moscow Oblast|Voskresensk]]
+|[[Voskresensk, Oblast de Moscau|Voskresensk]]
 |{{lang|ru|Воскресенск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|92196|91464}}
 |-
 !align=center|181
 |[[Solikamsk]]
 |{{lang|ru|Соликамск}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|91959|97384}}
 |-
@@ -1329,34 +1329,34 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Velikiye Luki]]
 |{{lang|ru|Великие Луки}}
 |{{flagu|Pskov Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|90485|98778}}
 |-
 !align=center|185
 |[[Michurinsk]]
 |{{lang|ru|Мичуринск}}
 |{{flagu|Tambov Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|89876|98758}}
 |-
 !align=center|186
 |[[Lobnya]]
 |{{lang|ru|Лобня}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|89522|74252}}
 |-
 !align=center|187
 |[[Gatchina]]
 |{{lang|ru|Гатчина}}
 |{{flag|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|89311|92937}}
 |-
 !align=center|188
 |[[Kansk]]
 |{{lang|ru|Канск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|88362|94226}}
 |-
@@ -1364,14 +1364,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Kamensk-Shakhtinsky]]
 |{{lang|ru|Каменск-Шахтинский}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|87113|95296}}
 |-
 !align=center|190
 |[[Gubkin]]
 |{{lang|ru|Губкин}}
 |{{flagu|Belgorod Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|86073|88560}}
 |-
 !align=center|191
@@ -1391,15 +1391,15 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|193
 |[[Yeysk]]
 |{{lang|ru|Ейск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|83127|87769}}
 |-
 !align=center|194
-|[[Ivanteyevka, Moscow Oblast|Ivanteyevka]]
+|[[Ivanteyevka, Oblast de Moscau|Ivanteyevka]]
 |{{lang|ru|Ивантеевка}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|82779|58626}}
 |-
 !align=center|195
@@ -1410,9 +1410,9 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|82463|98173}}
 |-
 !align=center|196
-|[[Chaykovsky, Perm Krai|Chaykovsky]]
+|[[Chaykovsky, Krai de Perm|Chaykovsky]]
 |{{lang|ru|Чайковский}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|81855|82895}}
 |-
@@ -1424,9 +1424,9 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|81678|89204}}
 |-
 !align=center|198
-|[[Zheleznogorsk, Krasnoyarsk Krai|Zheleznogorsk]]
+|[[Zheleznogorsk, Krai de Krasnoiarsk|Zheleznogorsk]]
 |{{lang|ru|Железногорск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|81619|84795}}
 |-
@@ -1441,14 +1441,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Kineshma]]
 |{{lang|ru|Кинешма}}
 |{{flagu|Ivanovo Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|79936|88164}}
 |-
 !align=center|201
 |[[Azov]]
 |{{lang|ru|Азов}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|79857|82937}}
 |-
 !align=center|202
@@ -1473,31 +1473,31 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|79638|85522}}
 |-
 !align=center|205
-|[[Klin, Klinsky District, Moscow Oblast|Klin]]
+|[[Klin, Klinsky District, Oblast de Moscau|Klin]]
 |{{lang|ru|Клин}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|79635|80585}}
 |-
 !align=center|206
-|[[Vidnoye, Moscow Oblast|Vidnoye]]
+|[[Vidnoye, Oblast de Moscau|Vidnoye]]
 |{{lang|ru|Видное}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|78635|56752}}
 |-
 !align=center|207
 |[[Murino, Leningrad Oblast|Murino]]
 |{{lang|ru|Мурино}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|78184|7949}}
 |-
 !align=center; style="background:#ccc;"|—
 |style="background:#ccc;"|[[Yalta]]
 |style="background:#ccc;"|{{lang|ru|Ялта}}
 |style="background:#ccc;"|{{flagu|Republic of Crimea}} {{efn|name=Crimea}}
-|style="background:#ccc;"|South
+|style="background:#ccc;"|Sud
 |{{change|invert=on|78171|81654}} {{efn|name=Census}}
 |-
 !align=center|208
@@ -1508,10 +1508,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|78128|82164}}
 |-
 !align=center|209
-|[[Kropotkin, Krasnodar Krai|Kropotkin]]
+|[[Kropotkin, Krai de Krasnodar|Kropotkin]]
 |{{lang|ru|Кропоткин}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|77074|80765}}
 |-
 !align=center|210
@@ -1525,14 +1525,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Vsevolozhsk]]
 |{{lang|ru|Всеволожск}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|75660|59704}}
 |-
 !align=center|212
 |[[Gelendzhik]]
 |{{lang|ru|Геленджик}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|75504|54980}}
 |-
 !align=center|213
@@ -1552,7 +1552,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|215
 |[[Balashov (town)|Balashov]]
 |{{lang|ru|Балашов}}
-|{{flagu|Saratov Oblast}}
+|{{flagu|Oblast de Saratov}}
 |Volga
 |{{change|invert=on|74981|82227}}
 |-
@@ -1566,8 +1566,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|217
 |[[Dubna]]
 |{{lang|ru|Дубна}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|74499|70663}}
 |-
 !align=center|218
@@ -1588,7 +1588,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Vyborg]]
 |{{lang|ru|Выборг}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|74054|79962}}
 |-
 !align=center|221
@@ -1608,8 +1608,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|223
 |[[Yegoryevsk]]
 |{{lang|ru|Егорьевск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|73046|70081}}
 |-
 !align=center|224
@@ -1620,10 +1620,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|72723|78372}}
 |-
 !align=center|225
-|[[Chekhov, Moscow Oblast|Chekhov]]
+|[[Chekhov, Oblast de Moscau|Chekhov]]
 |{{lang|ru|Чехов}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|71077|60720}}
 |-
 !align=center|226
@@ -1664,8 +1664,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|231
 |[[Dmitrov]]
 |{{lang|ru|Дмитров}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|68397|61305}}
 |-
 !align=center|232
@@ -1678,21 +1678,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|233
 |[[Slavyansk-na-Kubani]]
 |{{lang|ru|Славянск-на-Кубани}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|67777|63842}}
 |-
 !align=center; style="background:#ccc;"|—
 |style="background:#ccc;"|[[Feodosia]]
 |style="background:#ccc;"|{{lang|ru|Феодосия}}
 |style="background:#ccc;"|{{flagu|Republic of Crimea}} {{efn|name=Crimea}}
-|style="background:#ccc;"|South
+|style="background:#ccc;"|Sud
 |{{change|invert=on|67750|74669}} {{efn|name=Census}}
 |-
 !align=center|234
 |[[Minusinsk]]
 |{{lang|ru|Минусинск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|67234|71170}}
 |-
@@ -1700,14 +1700,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Sosnovy Bor, Leningrad Oblast|Sosnovy Bor]]
 |{{lang|ru|Сосновый Бор}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|67054|65788}}
 |-
 !align=center|236
 |[[Naro-Fominsk]]
 |{{lang|ru|Наро-Фоминск}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|67009|64665}}
 |-
 !align=center|237
@@ -1739,10 +1739,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|66422|62623}}
 |-
 !align=center|241
-|[[Stupino, Stupinsky District, Moscow Oblast|Stupino]]
+|[[Stupino, Stupinsky District, Oblast de Moscau|Stupino]]
 |{{lang|ru|Ступино}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|65660|66816}}
 |-
 !align=center|242
@@ -1783,7 +1783,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|247
 |[[Kungur]]
 |{{lang|ru|Кунгур}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|64259|66074}}
 |-
@@ -1811,29 +1811,29 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|251
 |[[Pavlovsky Posad]]
 |{{lang|ru|Павловский Посад}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|62718|63711}}
 |-
 !align=center|252
 |[[Klintsy]]
 |{{lang|ru|Клинцы}}
 |{{flagu|Bryansk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|62704|62510}}
 |-
 !align=center|253
 |[[Gukovo]]
 |{{lang|ru|Гуково}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|62658|67278}}
 |-
 !align=center|254
-|[[Rossosh, Rossoshansky District, Voronezh Oblast|Rossosh]]
+|[[Rossosh, Rossoshansky District, Oblast de Voronej|Rossosh]]
 |{{lang|ru|Россошь}}
-|{{flagu|Voronezh Oblast}}
-|Central
+|{{flagu|Oblast de Voronej}}
+|Zentrel
 |{{change|invert=on|62290|62865}}
 |-
 !align=center|255
@@ -1847,13 +1847,13 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Kotlas]]
 |{{lang|ru|Котлас}}
 |{{flagu|Arkhangelsk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|62284|60562}}
 |-
 !align=center|257
-|[[Zelenogorsk, Krasnoyarsk Krai|Zelenogorsk]]
+|[[Zelenogorsk, Krai de Krasnoiarsk|Zelenogorsk]]
 |{{lang|ru|Зеленогорск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|61821|66056}}
 |-
@@ -1861,7 +1861,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Donskoy, Tula Oblast|Donskoy]]
 |{{lang|ru|Донской}}
 |{{flagu|Tula Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|61477|64552}}
 |-
 !align=center|259
@@ -1881,14 +1881,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|261
 |[[Tuapse]]
 |{{lang|ru|Туапсе}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|60987|63292}}
 |-
 !align=center|262
 |[[Volsk]]
 |{{lang|ru|Вольск}}
-|{{flagu|Saratov Oblast}}
+|{{flagu|Oblast de Saratov}}
 |Volga
 |{{change|invert=on|60948|66508}}
 |-
@@ -1930,14 +1930,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|268
 |[[Lytkarino]]
 |{{lang|ru|Лыткарино}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|59937|55237}}
 |-
 !align=center|269
 |[[Lysva]]
 |{{lang|ru|Лысьва}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|59610|65918}}
 |-
@@ -1965,22 +1965,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|273
 |[[Lesosibirsk]]
 |{{lang|ru|Лесосибирск}}
-|{{flagu|Krasnoyarsk Krai}}
+|{{flagu|Krai de Krasnoiarsk}}
 |Siberia
 |{{change|invert=on|58949|61139}}
 |-
 !align=center|274
 |[[Fryazino]]
 |{{lang|ru|Фрязино}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|58938|55369}}
 |-
 !align=center|275
 |[[Sertolovo]]
 |{{lang|ru|Сертолово}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|58802|47457}}
 |-
 !align=center|276
@@ -2000,8 +2000,8 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|278
 |[[Borisoglebsk]]
 |{{lang|ru|Борисоглебск}}
-|{{flagu|Voronezh Oblast}}
-|Central
+|{{flagu|Oblast de Voronej}}
+|Zentrel
 |{{change|invert=on|58742|65585}}
 |-
 !align=center|279
@@ -2014,22 +2014,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|280
 |[[Labinsk]]
 |{{lang|ru|Лабинск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|58498|62864}}
 |-
 !align=center|281
 |[[Krymsk]]
 |{{lang|ru|Крымск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|58051|57382}}
 |-
 !align=center|282
 |[[Tikhvin]]
 |{{lang|ru|Тихвин}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|57327|58459}}
 |-
 !align=center|283
@@ -2043,49 +2043,49 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Aleksin]]
 |{{lang|ru|Алексин}}
 |{{flagu|Tula Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|57102|61732}}
 |-
 !align=center|285
 |[[Alexandrov, Vladimir Oblast|Alexandrov]]
 |{{lang|ru|Александров}}
 |{{flagu|Vladimir Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|57073|61551}}
 |-
 !align=center|286
 |[[Mikhaylovka, Volgograd Oblast|Mikhaylovka]]
 |{{lang|ru|Михайловка}}
 |{{flagu|Volgograd Oblast}}
-|South
+|Sud
 |{{change|invert=on|56981|59132}}
 |-
 !align=center|287
 |[[Rzhev]]
 |{{lang|ru|Ржев}}
 |{{flagu|Tver Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|56399|61982}}
 |-
 !align=center|288
 |[[Shchyokino (town), Tula Oblast|Shchyokino]]
 |{{lang|ru|Щёкино}}
 |{{flagu|Tula Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|56263|58139}}
 |-
 !align=center|289
 |[[Tikhoretsk]]
 |{{lang|ru|Тихорецк}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|56262|61823}}
 |-
 !align=center|290
 |[[Salsk]]
 |{{lang|ru|Сальск}}
 |{{flagu|Rostov Oblast}}
-|South
+|Sud
 |{{change|invert=on|56247|61316}}
 |-
 !align=center|291
@@ -2106,7 +2106,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Shuya, Ivanovo Oblast|Shuya]]
 |{{lang|ru|Шуя}}
 |{{flagu|Ivanovo Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|56041|58486}}
 |-
 !align=center|294
@@ -2134,14 +2134,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Severomorsk]]
 |{{lang|ru|Североморск}}
 |{{flagu|Murmansk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|54473|50060}}
 |-
 !align=center|298
 |[[Apatity]]
 |{{lang|ru|Апатиты}}
 |{{flagu|Murmansk Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|53847|59672}}
 |-
 !align=center|299
@@ -2159,17 +2159,17 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|52892|56201}}
 |-
 !align=center|301
-|[[Liski, Voronezh Oblast|Liski]]
+|[[Liski, Oblast de Voronej|Liski]]
 |{{lang|ru|Лиски}}
-|{{flagu|Voronezh Oblast}}
-|Central
+|{{flagu|Oblast de Voronej}}
+|Zentrel
 |{{change|invert=on|52823|55864}}
 |-
 !align=center|302
-|[[Dzerzhinsky, Moscow Oblast|Dzerzhinsky]]
+|[[Dzerzhinsky, Oblast de Moscau|Dzerzhinsky]]
 |{{lang|ru|Дзержинский}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|52797|47163}}
 |-
 !align=center|303
@@ -2183,21 +2183,21 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |[[Vyazma]]
 |{{lang|ru|Вязьма}}
 |{{flagu|Smolensk Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|52434|57101}}
 |-
 !align=center|305
 |[[Vorkuta]]
 |{{lang|ru|Воркута}}
 |{{flagu|Komi Republic}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|52292|70548}}
 |-
 !align=center|306
 |[[Gus-Khrustalny (town)|Gus-Khrustalny]]
 |{{lang|ru|Гусь-Хрустальный}}
 |{{flagu|Vladimir Oblast}}
-|Central
+|Zentrel
 |{{change|invert=on|51998|60784}}
 |-
 !align=center|307
@@ -2210,7 +2210,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|308
 |[[Krasnokamsk]]
 |{{lang|ru|Краснокамск}}
-|{{flagu|Perm Krai}}
+|{{flagu|Krai de Perm}}
 |Volga
 |{{change|invert=on|51815|51916}}
 |-
@@ -2229,10 +2229,10 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 |{{change|invert=on|51451|55666}}
 |-
 !align=center|311
-|[[Belorechensk, Krasnodar Krai|Belorechensk]]
+|[[Belorechensk, Krai de Krasnodar|Belorechensk]]
 |{{lang|ru|Белореченск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|51405|53892}}
 |-
 !align=center|312
@@ -2252,22 +2252,22 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|314
 |[[Kotelniki]]
 |{{lang|ru|Котельники}}
-|{{flagu|Moscow Oblast}}
-|Central
+|{{flagu|Oblast de Moscau}}
+|Zentrel
 |{{change|invert=on|50723|32338}}
 |-
 !align=center|315
 |[[Timashyovsk]]
 |{{lang|ru|Тимашёвск}}
-|{{flagu|Krasnodar Krai}}
-|South
+|{{flagu|Krai de Krasnodar}}
+|Sud
 |{{change|invert=on|50566|53924}}
 |-
 !align=center|316
 |[[Kirishi]]
 |{{lang|ru|Кириши}}
 |{{flagu|Leningrad Oblast}}
-|Northwest
+|Nord-vest
 |{{change|invert=on|50079|52309}}
 |}
 
