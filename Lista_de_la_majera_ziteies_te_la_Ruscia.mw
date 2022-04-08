@@ -181,14 +181,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|24
 |'''[[Habarovsk]]'''
 |{{lang|ru|Хабаровск}}
-|{{flag|Khabarovsk Krai}}
+|{{flag|Krai de Habarovsk}}
 |[[Raion Federel de Urient Dalonc|Urient Dalonc]]
 |{{change|invert=on|610305|577441}}
 |-
 !align=center|25
 |'''[[Mahachkala]]'''
 |{{lang|ru|Махачкала}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |[[North Caucasian Federal District|North Caucasus]]
 |{{change|invert=on|604266|572076}}
 |-
@@ -237,7 +237,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|32
 |'''[[Riasan]]'''
 |{{lang|ru|Рязань}}
-|{{flag|Ryazan Oblast}}
+|{{flag|Oblast de Riasan}}
 |Zentrel
 |{{change|invert=on|534801|524927}}
 |-
@@ -251,14 +251,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|34
 |'''[[Astrahan]]'''
 |{{lang|ru|Астрахань}}
-|{{flag|Astrakhan Oblast}}
+|{{flag|Oblast de Astrahan}}
 |Sud
 |{{change|invert=on|524371|520339}}
 |-
 !align=center|35
 |'''[[Kirov|Kirov]]'''
 |{{lang|ru|Киров}}
-|{{flag|Kirov Oblast}}
+|{{flag|Oblast de Kirov}}
 |Volga
 |{{change|invert=on|521091|473695}}
 |-
@@ -293,7 +293,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|40
 |'''[[Kaliningrad]]'''
 |{{lang|ru|Калининград}}
-|{{flag|Kaliningrad Oblast}}
+|{{flag|Oblast de Kaliningrad}}
 |Nord-vest
 |{{change|invert=on|493256|431902}}
 |-
@@ -461,7 +461,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|62
 |[[Cerepovets]]
 |{{lang|ru|Череповец}}
-|{{flag|Vologda Oblast}}
+|{{flag|Oblast de Vologda}}
 |Nord-vest
 |{{change|invert=on|312091|312310}}
 |-
@@ -482,14 +482,14 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|65
 |'''[[Vologda]]'''
 |{{lang|ru|Вологда}}
-|{{flag|Vologda Oblast}}
+|{{flag|Oblast de Vologda}}
 |Nord-vest
 |{{change|invert=on|308530|301755}}
 |-
 !align=center|66
 |'''[[Oriol]]'''
 |{{lang|ru|Орёл}}
-|{{flag|Oryol Oblast}}
+|{{flag|Oblast de Oriol}}
 |Zentrel
 |{{change|invert=on|303696|317747}}
 |-
@@ -587,7 +587,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|80
 |[[Komsomolsk sul Amur]]
 |{{lang|ru|Комсомольск-на-Амуре}}
-|{{flag|Khabarovsk Krai}}
+|{{flag|Krai de Habarovsk}}
 |Urient Dalonc
 |{{change|invert=on|241072|263906}}
 |-
@@ -846,7 +846,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|116
 |[[Khasavyurt]]
 |{{lang|ru|Хасавюрт}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |North Caucasus
 |{{change|invert=on|146394|131187}}
 |-
@@ -930,7 +930,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|128
 |[[Kaspiysk]]
 |{{lang|ru|Каспийск}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |North Caucasus
 |{{change|invert=on|128663|100129}}
 |-
@@ -972,7 +972,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|134
 |[[Derbent]]
 |{{lang|ru|Дербент}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |North Caucasus
 |{{change|invert=on|126606|119200}}
 |-
@@ -1658,7 +1658,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|230
 |[[Kirovo-Chepetsk]]
 |{{lang|ru|Кирово-Чепецк}}
-|{{flag|Kirov Oblast}}
+|{{flag|Oblast de Kirov}}
 |Volga
 |{{change|invert=on|68588|80921}}
 |-
@@ -1735,7 +1735,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|240
 |[[Buynaksk]]
 |{{lang|ru|Буйнакск}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |North Caucasus
 |{{change|invert=on|66422|62623}}
 |-
@@ -1875,7 +1875,7 @@ Ziteies scrites tl format '''gros''' ie la capiteles de n [[Partida de la Ruscia
 !align=center|260
 |[[Izberbash]]
 |{{lang|ru|Избербаш}}
-|{{flag|Dagestan|name=Republic of Dagestan}}
+|{{flag|Daghestan|name=Republica de Daghestan}}
 |North Caucasus
 |{{change|invert=on|61296|55646}}
 |-
