@@ -1,9 +1,1 @@
-{{Dokumentazion/Plata dessot}}
 
-<onlyinclude><includeonly>{{#if:{{{1|}}}|{{#switch: {{#expr: floor ({{{1}}} /10 )}} |9=828BD9|8=4169E1|7=6495ED|6=8AB0FF|5=B9D3FF|4=CFE8FF|3=F0F8FF|2=FFFFFF|1=FFF8DC|0=EED8AE
-|#default=607CD2}}|E5E5E5}}</includeonly></onlyinclude>
-
-
-{{Tlima/Culeures}}
-
-Tlo vën definei i culëures per [[{{NAMESPACE}}:Tlima]].
