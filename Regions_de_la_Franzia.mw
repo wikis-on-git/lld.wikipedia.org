@@ -17,7 +17,7 @@
 |[[Auvergne-Rhône-Alpes]] <br />(Auvergne-Rhône-Elpes)
 |{{lang-oc|Auvèrnhe-Ròse-Aups}}<br /> {{lang-frp|Ôvèrgne-Rôno-Arpes}}
 |[[Lyon]]
-| align="right" | 69,711
+| align="right" | {{formatnum:69711}}
 | {{right|{{nts|8042936}}}}
 |204
 | align="center" | 84
@@ -28,7 +28,7 @@
 |[[Bourgogne-Franche-Comté]] <br />(Borgonia- Franche-Comté)
 |{{lang-frp|Borgogne-Franche-Comtât}}
 |[[Dijon]]
-| align="right" | 47,784
+| align="right" | {{formatnum:47784}}
 | {{right|{{nts|2805580}}}}
 |100
 | align="center" | 27
@@ -39,7 +39,7 @@
 |[[ Bretania (region)|Bretagne]]<br />(Bretania)
 |{{lang-br|Breizh}}<br />[[Gallo language|Gallo]]: ''Bertaèyn''
 |[[Rennes]]
-| align="right" | 27,208
+| align="right" | {{formatnum:27208}}
 | {{right|{{nts|3354854}}}}
 |83
 | align="center" | 53
@@ -50,7 +50,7 @@
 |[[Centre-Val de Loire]]<ref name="ReferenceA" /><br />(Zënter-Valeda de la Loire)
 | 
 |[[Orléans]]
-| align="right" | 39,151
+| align="right" | {{formatnum:39151}}
 | {{right|{{nts|2573180}}}}
 |77
 | align="center" | 24
@@ -61,7 +61,7 @@
 |[[Corsica|Corse]]<br />(Corsica)
 |{{lang-co|Corsica}}
 |[[Ajaccio]]
-| align="right" | 8,680
+| align="right" | {{formatnum:8680}}
 | {{right|{{nts|340440}}}}
 |63
 | align="center" | 94
@@ -72,7 +72,7 @@
 |[[Grand Est]]<br />(Gran Est)
 |{{lang-de|Großer Osten}}
 |[[Strasbourg]]
-| align="right" | 57,441
+| align="right" | {{formatnum:57441}}
 | {{right|{{nts|5556219}}}}
 |169
 | align="center" | 44
@@ -83,7 +83,7 @@
 |[[Hauts-de-France]]<br />(Franzia Auta)
 | 
 |[[Lille]]
-| align="right" | 31,806
+| align="right" | {{formatnum:31806}}
 | {{right|{{nts|6004947}}}}
 |170
 | align="center" | 32
@@ -94,7 +94,7 @@
 |[[Île-de-France]]<br />(Ijula de Franzia)
 | 
 |[[Paris]]
-| align="right" | 12,011
+| align="right" | {{formatnum:12011}}
 | {{right|{{nts|12262544}}}}
 |209   
 | align="center" | 11
@@ -106,7 +106,7 @@
 |[[Normandia (egion)|Normandie]]<br />(Normandia)
 |[[Norman language|Norman]]: ''Normaundie''
 |[[Rouen]]
-| align="right" | 29,907
+| align="right" | {{formatnum:29907}}
 | {{right|{{nts|3325032}}}}
 |102
 | align="center" | 28
@@ -117,7 +117,7 @@
 |[[Nouvelle-Aquitaine]]<br />(Nueva Aquitania)
 |{{lang-oc|Nòva Aquitània / Nava Aquitània / Novela Aquitània}}<br />{{lang-eu|Akitania Berria}}<br />
 |[[Bordeaux]]
-| align="right" | 84,036
+| align="right" | {{formatnum:84036}}
 | {{right|{{nts|6010289}}}}
 |183
 | align="center" | 75
@@ -129,7 +129,7 @@
 (Occitania)
 |{{lang-oc|Occitània}}<br />{{lang-ca|Occitània}}
 |[[Toulouse]]
-| align="right" | 72,724
+| align="right" | {{formatnum:72724}}
 | {{right|{{nts|5933185}}}}
 |158
 | align="center" | 76
@@ -140,7 +140,7 @@
 |[[Pays de la Loire]]<br />(Paesc de la Loire)
 |{{lang-br|Broioù al Liger}}
 |[[Nantes]]
-| align="right" | 32,082
+| align="right" | {{formatnum:32082}}
 | {{right|{{nts|3806461}}}}
 |93
 | align="center" | 52
@@ -151,7 +151,7 @@
 |[[Provence-Alpes-Côte d'Azur]]<br />(Provënza-Elpes-Costa Bruma)
 |[[Provençal dialect|Provençal]]: ''Provença-Aups-Còsta d'Azur''<br />(''Prouvènço-Aup-Costo d'Azur'')
 |[[Marseille]]
-| align="right" | 31,400
+| align="right" | {{formatnum:31400}}
 | {{right|{{nts|5081101}}}}
 |123
 | align="center" | 93
@@ -162,7 +162,7 @@
 |[[Guadeloupe]]
 |[[Antillean Creole]]: ''Gwadloup''
 |[[Basse-Terre]]
-| align="right" | 1,628
+| align="right" | {{formatnum:1628}}
 | {{right|{{nts|384239}}}}
 |41
 | align="center" | 01
@@ -173,7 +173,7 @@
 |[[Guiana Franzëusa|Guyane]]<br />(Guiana Franzëusa)
 | 
 |[[Cayenne]]
-| align="right" | 83,534
+| align="right" | {{formatnum:83534}}
 | {{right|{{nts|281678}}}}
 |51
 | align="center" | 03
@@ -184,7 +184,7 @@
 |[[Réunion|La Réunion]]<br />(Réunion)
 |[[Reunion Creole]]: ''La Rényon''
 |[[Saint-Denis, Réunion|Saint-Denis]]
-| align="right" | 2,504
+| align="right" | {{formatnum:2504}}
 | {{right|{{nts|861210}}}}
 |45
 | align="center" | 04
@@ -195,7 +195,7 @@
 |[[Martinique]]
 |[[Antillean Creole]]: ''Matinik''
 |[[Fort-de-France]]
-| align="right" | 1,128
+| align="right" | {{formatnum:1128}}
 | {{right|{{nts|364508}}}}
 |51
 | align="center" | 02
@@ -217,9 +217,9 @@
 !
 !
 !
-!<big>632,734</big>
-!<big>67,251,298</big>
-!<big>1,910</big>
+!<big>{{formatnum:632734}}</big>
+!<big>{{formatnum:67251298}}</big>
+!<big>{{formatnum:1910}}</big>
 !
 !
 !
