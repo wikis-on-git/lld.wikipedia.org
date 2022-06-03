@@ -17,7 +17,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 ! class="unsortable" | Posizion
 |-
 | bgcolor="lightgray" |[[Franzia metropolitana|Region metropolitana]]
-|[[Auvergne-Rhône-Alpes]] <br />(Auvergne-Rhône-Elpes)
+||{{flag|Auvergne-Rhône-Alpes}} <br />(Auvergne-Rhône-Elpes)
 |{{lang-oc|Auvèrnhe-Ròse-Aups}}<br /> {{lang-frp|Ôvèrgne-Rôno-Arpes}}
 |[[Lyon]]
 | align="right" | {{formatnum:69711}}
@@ -61,7 +61,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Centre-Val de Loire in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Corsica|Corse]]<br />(Corsica)
+||{{flag|Corsica]]<br />(Corsica)
 |{{lang-co|Corsica}}
 |[[Ajaccio]]
 | align="right" | {{formatnum:8680}}
@@ -72,7 +72,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Corsica in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Grand Est]]<br />(Gran Est)
+||{{flag|Grand Est}}<br />(Gran Est)
 |{{lang-de|Großer Osten}}
 |[[Strasbourg]]
 | align="right" | {{formatnum:57441}}
@@ -83,7 +83,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Grand Est in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Hauts-de-France]]<br />(Franzia Auta)
+||{{flag|Hauts-de-France}}<br />(Franzia Auta)
 | 
 |[[Lille]]
 | align="right" | {{formatnum:31806}}
@@ -94,7 +94,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Hauts-de-France in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Île-de-France]]<br />(Ijula de Franzia)
+||{{flag|Île-de-France}}<br />(Ijula de Franzia)
 | 
 |[[Paris]]
 | align="right" | {{formatnum:12011}}
@@ -106,7 +106,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Normandia (egion)|Normandie]]<br />(Normandia)
+||{{flag|Normandia}}]<br />(Normandia)
 |[[Norman language|Norman]]: ''Normaundie''
 |[[Rouen]]
 | align="right" | {{formatnum:29907}}
@@ -117,7 +117,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Normandy in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Nouvelle-Aquitaine]]<br />(Nueva Aquitania)
+||{{flag|Nouvelle-Aquitaine}}<br />(Nueva Aquitania)
 |{{lang-oc|Nòva Aquitània / Nava Aquitània / Novela Aquitània}}<br />{{lang-eu|Akitania Berria}}<br />
 |[[Bordeaux]]
 | align="right" | {{formatnum:84036}}
@@ -128,7 +128,7 @@ La [[Franzia]] ie spartida su te 18 '''regions''' aministratives ([[franzëus]]:
 |[[File:Nouvelle-Aquitaine in France 2016.svg|105px]]
 |-
 | bgcolor="lightgray" | Region metropolitana
-|[[Occitania (region)|Occitanie]]
+||{{flag|Occitanie}}
 (Occitania)
 |{{lang-oc|Occitània}}<br />{{lang-ca|Occitània}}
 |[[Toulouse]]
