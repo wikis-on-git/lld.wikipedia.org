@@ -14,7 +14,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
 |- style="background: #ddd"
 |  style="text-align:center" | [[File:Oberoesterreich_Wappen.svg|40px]]
  | [[Austria Auta]]<br />(''Oberösterreich'')
- |[[Linz]]
+ |{{Blason|Linz}}
  | style="text-align:right" | {{formatnum:11982}}
  | style="text-align:right" | {{formatnum:1490392}}
  | style="text-align:right" | {{formatnum:124.4}}
@@ -22,7 +22,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
 
 | style="text-align:center" | [[File:Niederösterreich_CoA.svg|40px]]
  | [[Austria Bassa]]<br />(''Niederösterreich'')
- |[[Sankt Pölten]]
+ |{{Blason|Sankt Pölten}}
  | style="text-align:right" | {{formatnum:19178}}
  | style="text-align:right" | {{formatnum:1684623}}
  | style="text-align:right" | {{formatnum:87.8}}
@@ -30,7 +30,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
  |- style="background: #ddd"
 |  style="text-align:center" | [[File:Burgenland_Wappen.svg|40px]]
  | [[Burgenland]]
- | [[Eisenstadt]]
+ | {{Blason|Eisenstadt}}
  | style="text-align:right" | {{formatnum:3965}}
  | style="text-align:right" | {{formatnum:294466}}
  | style="text-align:right" | {{formatnum:74.3}}
@@ -38,7 +38,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
 |- style="background: #eee"
 | style="text-align:center" | [[File:Kaernten_CoA.svg|40px]]
  | [[Ciarënzia]]<br />(''Kärnten'')
- |[[Klagenfurt]]
+ |{{Blason|Klagenfurt}}
  | style="text-align:right" | {{formatnum:9536}}
  | style="text-align:right" | {{formatnum:561390}}
  | style="text-align:right" | {{formatnum:58.9}}
@@ -46,7 +46,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
  |- style="background: #ddd"
 |  style="text-align:center" | [[File:Salzburg_Wappen.svg|40px]]
  | [[Salzburg (stat)|Salzburg]]
- | [[Salzburg]]
+ | {{Blason|Salzburg}}
  | style="text-align:right" | {{formatnum:7154}}
  | style="text-align:right" | {{formatnum:558479}}
  | style="text-align:right" | {{formatnum:78.1}}
@@ -54,7 +54,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
  |- style="background: #eee"
 | style="text-align:center" | [[File:Steiermark_Wappen.svg|40px]]
  | [[Steiermark]]
- |[[Graz]]
+ |{{Blason|Graz}}
  | style="text-align:right" | {{formatnum:16401}}
  | style="text-align:right" | {{formatnum:1246576}}
  | style="text-align:right" | {{formatnum:76.0}}
@@ -63,14 +63,14 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
 |- style="background: #ddd"
 | style="text-align:center" | [[File:AUT_Tirol_COA.svg|40px]]
  | [[Tirol (stat)|Tirol]]
- |[[Dispruch]]<br />(''Innsbruck'')
+ |{{Blason|Dispruch}}<br />(''Innsbruck'')
  | style="text-align:right" | {{formatnum:12648}}
  | style="text-align:right" | {{formatnum:757852}}
  | style="text-align:right" | {{formatnum:59.9}}
 
 |- style="background: #eee"
 | style="text-align:center" | [[File:Wien_3_Wappen.svg|40px]]
- | [[Viena]]<br />(''Wien'')
+ | {{Blason|Viena}}<br />(''Wien'')
  | style="text-align:center" | –<!-- Nia mudé, la zità-stat de Viena ne à nia na capitela -->
  | style="text-align:right" | {{formatnum:415}}
  | style="text-align:right" | {{formatnum:1911728}}
@@ -79,7 +79,7 @@ L majer stat per populazion ie [[Viena]] cun 1.911.728 abitanc, ma l ie l mënde
 
 |  style="text-align:center" | [[File:Vorarlberg_CoA.svg|40px]]
  | [[Vorarlberg]]
- | [[Bregenz]]
+ | {{Blason|Bregenz}}
  | style="text-align:right" | {{formatnum:2601}}
  | style="text-align:right" | {{formatnum:397094}}
  | style="text-align:right" | {{formatnum:152.7}}
