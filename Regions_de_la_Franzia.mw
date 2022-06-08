@@ -33,7 +33,7 @@
 | bgcolor="lightgray" |[[Franzia metropolitana|Region metropolitana]]
 ||{{flag|Auvergne-Rhône-Alpes}} <br />(Auvergne-Rhône-Elpes)
 |[[Lingaz occitan|Occitan]]: ''Auvèrnhe-Ròse-Aups''<br /> [[Lingaz arpitan|Arpitan]]: ''Ôvèrgne-Rôno-Arpes''
-|[[Lyon]]
+|{{Blason|Lyon}}
 | align="right" | {{formatnum:69711}}
 | {{right|{{nts|8042936}}}}
 |204
@@ -44,7 +44,7 @@
 | bgcolor="lightgray" |Region metropolitana
 |{{flag|Bourgogne-Franche-Comté}} <br />(Borgonia- Franche-Comté)
 |{{lang-frp|Borgogne-Franche-Comtât}}
-|[[Dijon]]
+|{{Blason|Dijon}}
 | align="right" | {{formatnum:47784}}
 | {{right|{{nts|2805580}}}}
 |100
@@ -55,7 +55,7 @@
 | bgcolor="lightgray" | Region metropolitana
 |{{flagicon|Bretania}} [[Bretania (region aministrativa)|Bretagne]]<br />(Bretania)
 |{{lang-br|Breizh}}<br />[[Gallo language|Gallo]]: ''Bertaèyn''
-|[[Rennes]]
+|{{Blason|Rennes}}
 | align="right" | {{formatnum:27208}}
 | {{right|{{nts|3354854}}}}
 |83
@@ -66,7 +66,7 @@
 | bgcolor="lightgray" | Region metropolitana
 |{{flag|Centre-Val de Loire}}<br />(Zënter-Valeda de la Loire)
 | 
-|[[Orléans]]
+|{{Blason|Orléans}}
 | align="right" | {{formatnum:39151}}
 | {{right|{{nts|2573180}}}}
 |77
@@ -77,7 +77,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flagicon|Corsica}} [[Corsica|Corse]]<br />(Corsica)
 |[[Lingaz cors|Cors]]: ''Corsica''
-|[[Ajaccio]]
+|{{Blason|Ajaccio}}
 | align="right" | {{formatnum:8680}}
 | {{right|{{nts|340440}}}}
 |63
@@ -88,7 +88,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flag|Grand Est}}<br />(Gran Est)
 |[[Tudësch]]: ''Großer Osten''
-|[[Strasbourg]]
+|{{Blason|Strasbourg}}
 | align="right" | {{formatnum:57441}}
 | {{right|{{nts|5556219}}}}
 |169
@@ -99,7 +99,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flag|Hauts-de-France}}<br />(Franzia Auta)
 | 
-|[[Lille]]
+|{{Blason|Lille}}
 | align="right" | {{formatnum:31806}}
 | {{right|{{nts|6004947}}}}
 |170
@@ -110,7 +110,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flag|Île-de-France}}<br />(Ijula de Franzia)
 | 
-|[[Paris]]
+|{{Blason|Paris}}
 | align="right" | {{formatnum:12011}}
 | {{right|{{nts|12262544}}}}
 |209   
@@ -122,7 +122,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flagicon|Normandia}} [[Normandia|Normandie]]<br />(Normandia)
 |[[Lingaz norman|Norman]]: ''Normaundie''
-|[[Rouen]]
+|{{Blason|Rouen}}
 | align="right" | {{formatnum:29907}}
 | {{right|{{nts|3325032}}}}
 |102
@@ -133,7 +133,7 @@
 | bgcolor="lightgray" | Region metropolitana
 ||{{flag|Nouvelle-Aquitaine}}<br />(Nueva Aquitania)
 |[[Lingaz occitan|Occitan]]: ''Nòva Aquitània''<br />[[Lingaz basch|Basch]]: ''Akitania Berria''<br />
-|[[Bordeaux]]
+|{{Blason|Bordeaux}}
 | align="right" | {{formatnum:84036}}
 | {{right|{{nts|6010289}}}}
 |183
@@ -145,7 +145,7 @@
 ||{{flagicon|Occitania}} [[Occitania|Occitanie]]
 (Occitania)
 |[[Lingaz occitan|Occitan]]: ''Occitània''<br />[[Lingaz catalan|Catalan]]: ''Occitània''
-|[[Toulouse]]
+|{{Blason|Toulouse}}
 | align="right" | {{formatnum:72724}}
 | {{right|{{nts|5933185}}}}
 |158
@@ -156,7 +156,7 @@
 | bgcolor="lightgray" | Region metropolitana
 |{{flag|Pays de la Loire}}<br />(Paesc de la Loire)
 |[[Lingaz breton|Breton]]: ''Broioù al Liger''
-|[[Nantes]]
+|{{Blason|Nantes}}
 | align="right" | {{formatnum:32082}}
 | {{right|{{nts|3806461}}}}
 |93
@@ -167,7 +167,7 @@
 | bgcolor="lightgray" | Region metropolitana
 |{{flag|Provence-Alpes-Côte d'Azur}}<br />(Provënza-Elpes-Costa Bruma)
 |[[Lingaz provençal dialect|Provençal]]: ''Provença-Aups-Còsta d'Azur''<br />(''Prouvènço-Aup-Costo d'Azur'')
-|[[Marseille]]
+|{{Blason|Marseille}}
 | align="right" | {{formatnum:31400}}
 | {{right|{{nts|5081101}}}}
 |123
