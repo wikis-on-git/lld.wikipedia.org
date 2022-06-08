@@ -44,79 +44,92 @@ Chisc stac possa fé leges che resta laite te la costituzion y uni stat à rapre
 L majer stat per populazion ie [[Viena]] cun 1.920.949 abitanc, ma l ie l mënder per spersa cun 415&nbsp;km². L majer per spersa ie l'[[Austria Bassa]] cun 19.180&nbsp;km², l mënder per populazion ie l [[Burgenland]] cun 296.010 abitanc.
 
 ===Lista de i stac federei===
-{| style="clear:left" class="sortable wikitable"
+{| style="clear:both" class="sortable wikitable"
 |- style="background:#bbb"
-! Blason !! Stat !! Capitela
-! data-sort-type="number"|Spersa<br />(km<sup>2</sup>)
-! data-sort-type="number"|Populazion<br />(jen. 2020)
-! data-sort-type="number"|Pop.<br />per km<sup>2</sup>
+ ! Blason
+ ! Stat
+ ! Capitela
+ ! data-sort-type="number"|Spersa<br>(km<sup>2</sup>)
+ ! data-sort-type="number"|Populazion<br />(jen. 2020)
+ ! data-sort-type="number"|Pop.<br />per km<sup>2</sup>
 |- style="background: #ddd"
-| style="text-align:center" | [[File:Oberoesterreich_Wappen.svg|40px]]
-| [[Austria Auta]]<br />(''Oberösterreich'')
-| [[Linz]]
-| style="text-align:right" | {{formatnum:11983}}
-| style="text-align:right" | {{formatnum:1495608}}
-| style="text-align:right" | 125
+|  style="text-align:center" | [[File:Oberoesterreich_Wappen.svg|40px]]
+ | [[Austria Auta]]<br />(''Oberösterreich'')
+ |{{Blason|Linz}}
+ | style="text-align:right" | {{formatnum:11982}}
+ | style="text-align:right" | {{formatnum:1490392}}
+ | style="text-align:right" | {{formatnum:124.4}}
 |- style="background: #eee"
+
 | style="text-align:center" | [[File:Niederösterreich_CoA.svg|40px]]
-| [[Austria Bassa]]<br />(''Niederösterreich'')
-| [[Sankt Pölten]]
-| style="text-align:right" | {{formatnum:19180}}
-| style="text-align:right" | {{formatnum:1690879}}
-| style="text-align:right" | 88
-|- style="background: #ddd"
-| style="text-align:center" | [[File:Burgenland_Wappen.svg|40px]]
-| [[Burgenland]]
-| [[Eisenstadt]]
-| style="text-align:right" | {{formatnum:3965}}
-| style="text-align:right" | {{formatnum:296010}}
-| style="text-align:right" | 75
+ | [[Austria Bassa]]<br />(''Niederösterreich'')
+ |{{Blason|Sankt Pölten}}
+ | style="text-align:right" | {{formatnum:19178}}
+ | style="text-align:right" | {{formatnum:1684623}}
+ | style="text-align:right" | {{formatnum:87.8}}
+
+ |- style="background: #ddd"
+|  style="text-align:center" | [[File:Burgenland_Wappen.svg|40px]]
+ | [[Burgenland]]
+ | {{Blason|Eisenstadt}}
+ | style="text-align:right" | {{formatnum:3965}}
+ | style="text-align:right" | {{formatnum:294466}}
+ | style="text-align:right" | {{formatnum:74.3}}
+
 |- style="background: #eee"
 | style="text-align:center" | [[File:Kaernten_CoA.svg|40px]]
-| [[Ciarënzia]]<br />(''Kärnten'')
-| [[Klagenfurt]]
-| style="text-align:right" | {{formatnum:9537}}
-| style="text-align:right" | {{formatnum:562089}}
-| style="text-align:right" | 59
-|- style="background: #ddd"
-| style="text-align:center" | [[File:Salzburg_Wappen.svg|40px]]
-| [[Salzburg (stat)|Salzburg]]
-| [[Salzburg]]
-| style="text-align:right" | {{formatnum:7155}}
-| style="text-align:right" | {{formatnum:560710}}
-| style="text-align:right" | 78
-|- style="background: #eee"
+ | [[Ciarënzia]]<br />(''Kärnten'')
+ |{{Blason|Klagenfurt}}
+ | style="text-align:right" | {{formatnum:9536}}
+ | style="text-align:right" | {{formatnum:561390}}
+ | style="text-align:right" | {{formatnum:58.9}}
+
+ |- style="background: #ddd"
+|  style="text-align:center" | [[File:Salzburg_Wappen.svg|40px]]
+ | [[Salzburg (stat)|Salzburg]]
+ | {{Blason|Salzburg}}
+ | style="text-align:right" | {{formatnum:7154}}
+ | style="text-align:right" | {{formatnum:558479}}
+ | style="text-align:right" | {{formatnum:78.1}}
+
+ |- style="background: #eee"
 | style="text-align:center" | [[File:Steiermark_Wappen.svg|40px]]
-| [[Steiermark]]
-| [[Graz]]
-| style="text-align:right" | {{formatnum:16399}}
-| style="text-align:right" | {{formatnum:1247077}}
-| style="text-align:right" | 76
-|- style="background: #ddd"
+ | [[Steiermark]]
+ |{{Blason|Graz}}
+ | style="text-align:right" | {{formatnum:16401}}
+ | style="text-align:right" | {{formatnum:1246576}}
+ | style="text-align:right" | {{formatnum:76.0}}
+ |- style="background: #ddd"
+
 |- style="background: #ddd"
 | style="text-align:center" | [[File:AUT_Tirol_COA.svg|40px]]
-| [[Tirol (stat)|Tirol]]
-| [[Dispruch]]<br />(''Innsbruck'')
-| style="text-align:right" | {{formatnum:12648}}
-| style="text-align:right" | {{formatnum:760105}}
-| style="text-align:right" | 60
+ | [[Tirol (stat)|Tirol]]
+ |{{Blason|Dispruch}}<br />(''Innsbruck'')
+ | style="text-align:right" | {{formatnum:12648}}
+ | style="text-align:right" | {{formatnum:757852}}
+ | style="text-align:right" | {{formatnum:59.9}}
+
 |- style="background: #eee"
 | style="text-align:center" | [[File:Wien_3_Wappen.svg|40px]]
-| [[Viena]]<br />(''Wien'')
-| style="text-align:center" | –<!-- Nia mudé, la zità-stat de Viena ne à nia na capitela -->
-| style="text-align:right" | {{formatnum:415}}
-| style="text-align:right" | {{formatnum:1920949}}
-| style="text-align:right" | {{formatnum:4631}}
+ | [[Viena]]<br />(''Wien'')
+ | style="text-align:center" | –<!-- Nia mudé, la zità-stat de Viena ne à nia na capitela -->
+ | style="text-align:right" | {{formatnum:415}}
+ | style="text-align:right" | {{formatnum:1911728}}
+ | style="text-align:right" | {{formatnum:4606.6}}
 |- style="background: #ddd"
+
 |  style="text-align:center" | [[File:Vorarlberg_CoA.svg|40px]]
-| [[Vorarlberg]]
-| [[Bregenz]]
-| style="text-align:right" | {{formatnum:2602}}
-| style="text-align:right" | {{formatnum:399237}}
-| style="text-align:right" | 153
+ | [[Vorarlberg]]
+ | {{Blason|Bregenz}}
+ | style="text-align:right" | {{formatnum:2601}}
+ | style="text-align:right" | {{formatnum:397094}}
+ | style="text-align:right" | {{formatnum:152.7}}
+
+|- style="background: #eee"
 |}
 
 [[File:Flag of Austria (state).svg|thumb|upright]]
+
 == Lians ==
 * [[Geografia]]
 * [[Tirol]]
