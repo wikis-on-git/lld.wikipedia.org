@@ -2,13 +2,16 @@
 |Bandiera                 = Flag_of_Switzerland.svg
 |Blason                   = Coat_of_arms_of_Switzerland.svg
 |Inuem                    = Confederazion svizra
-|Inuem ufiziel            = <small>Schweizerische Eidgenossenschaft ([[lingaz tudësch|tudësch]])<br>Confédération suisse ([[lingaz franzëus|franzëus]])<br>Confederazione Svizzera ([[lingaz talian|talian]])<br>Confederaziun svizra ([[lingaz rumanc|rumanc]])<br>Confoederatio Helvetica ([[lingaz latin|latin]])</small>
+|Inuem ufiziel            = 
+{{Collapsible list |titlestyle=font-weight:normal; background:transparent; text-align:center;|title=5 inuemes ufiziei|
+|''Schweizerische Eidgenossenschaft ([[lingaz tudësch|tudësch]])<br>Confédération suisse ([[lingaz franzëus|franzëus]])<br>Confederazione Svizzera ([[lingaz talian|talian]])<br>Confederaziun svizra ([[lingaz rumanc|rumanc]])<br>Confoederatio Helvetica ([[lingaz latin|latin]]''}}
 |Capitela                 = deguna (''de jure'')<br>{{Blason|Bern}} (''de facto'')
 |Sënta guviern            =
 |Majera zità              =
 |Inuem inn                = Psalm Svizer
 |Inn                      = Swiss Psalm.ogg
-|Lingaz 1                 = <small>[[lingaz tudësch|tudësch]]<br>[[lingaz franzëus|franzëus]]<br>[[lingaz talian|talian]]<br>[[lingaz rumanc|rumanc]] (recunesciù coche lingaz naziunel)</small>
+|Lingaz 1                 = {{Collapsible list |titlestyle=font-weight:normal; background:transparent; text-align:left;|title=4 rujenedes ufizieles|
+|[[lingaz tudësch|tudësch]]<br>[[lingaz franzëus|franzëus]]<br>[[lingaz talian|talian]]<br>[[lingaz rumanc|rumanc]] (recunesciù coche lingaz naziunel)}}
 |Lingaz 2                 = 
 |Abitanc                  = 8570146
 |Data abitanc             = 2019
