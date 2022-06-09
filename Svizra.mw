@@ -1,56 +1,30 @@
-{{gherdëina}}{| border="1" cellpadding="2" cellspacing="0" align="right" width="350"
-! colspan="2" bgcolor="lightgray" style="font-size:120%"|Svizra
-|-
-|[[File:Flag_of_Switzerland.svg|160px|border|center]]
-|[[File:Coat_of_arms_of_Switzerland.svg|100px|border|center]]
-|- 
-| valign="top"|'''Inuem ufiziel'''
-|<small>Schweizerische Eidgenossenschaft ([[lingaz tudësch|tudësch]])<br>Confédération suisse ([[lingaz franzëus|franzëus]])<br>Confederazione Svizzera ([[lingaz talian|talian]])<br>Confederaziun svizra ([[lingaz rumanc|rumanc]])<br>Confoederatio Helvetica ([[lingaz latin|latin]])</small>
-|-
-| valign="top"|'''Lingaz ufiziel'''
-|<small>[[lingaz tudësch|tudësch]]<br>[[lingaz franzëus|franzëus]]<br>[[lingaz talian|talian]]<br>[[lingaz rumanc|rumanc]] (recunesciù coche lingaz naziunel)</small>
-|-
-| valign="top"|'''Capitela'''
-|deguna (''de jure'')<br>[[Berna|Bern]] (''de facto'')
-|-
-| valign="top"|'''Majera zità'''
-|[[Zürich]] 
-|-
-| valign="top"|'''Abitanc'''
-|8 570 146 ab. <small> (2019)</small> 
-|-
-| valign="top"|'''Spersa'''
-|41 285 km² <small> (de ndut)</small>
-|-
-| valign="top"|'''Ega'''
-|4,34%
-|-
-| valign="top"|'''Densità'''
-|207 ab./km²
-|-
-! colspan="2" bgcolor="lightgray"|Guviern
-|-
-| valign="top"|'''President'''
-| [[Guy Parmelin]] 
-|-
-| valign="top"|'''Vize-president'''
-| valign="top"|[[Ignazio Cassis]]
-|-
-! colspan="2" bgcolor="lightgray"|Auter
-|-
-| valign="top"|'''Munëida'''
-|[[Franch svizer]]
-|-
-| valign="top"|'''TLD Internet'''
-| .ch
-|-
-| valign="top"|'''Prefis dl telefon'''
-| +41
-|-
-! colspan="2" bgcolor="lightgray"|Cherta
-|-
-| colspan="2"  valign="top"|[[File:Switzerland_in_Europe.svg|300px|border|center]]
-|}La '''Svizra''' ([[lingaz tudësch|tudësch]] ''Schweiz'', [[lingaz franzëus|franzëus]]: ''Suisse'', [[lingaz talian|talian]] ''Svizzera'', [[lingaz rumanc|rumanc]] ''Svizra'') ie n [[stat]] de l'[[Europa zentrela]]. La ie na cunfederazion de [[Ciantons de la Svizra|26 ciantons]] che cunfina a nord cun la [[Germania]], a est cun l [[Liechtenstein]] y l'[[Austria]], a sud cun la [[Talia]] y a vest cun la [[Franzia]].
+{{gherdëina}}{{Infobox Stat
+|Bandiera                 = Flag_of_Switzerland.svg
+|Blason                   = Coat_of_arms_of_Switzerland.svg
+|Inuem                    = Confederazion svizra
+|Inuem ufiziel            = <small>Schweizerische Eidgenossenschaft ([[lingaz tudësch|tudësch]])<br>Confédération suisse ([[lingaz franzëus|franzëus]])<br>Confederazione Svizzera ([[lingaz talian|talian]])<br>Confederaziun svizra ([[lingaz rumanc|rumanc]])<br>Confoederatio Helvetica ([[lingaz latin|latin]])</small>
+|Capitela                 = deguna (''de jure'')<br>{{Blason|Bern}} (''de facto'')
+|Sënta guviern            =
+|Majera zità              =
+|Inuem inn                = Psalm Svizer
+|Inn                      = Swiss Psalm.ogg
+|Lingaz 1                 = <small>[[lingaz tudësch|tudësch]]<br>[[lingaz franzëus|franzëus]]<br>[[lingaz talian|talian]]<br>[[lingaz rumanc|rumanc]] (recunesciù coche lingaz naziunel)</small>
+|Lingaz 2                 = 
+|Abitanc                  = 8570146
+|Data abitanc             = 2019
+|Spersa                   = 41285
+|Spersa tiera             = 
+|Ega                      = 4,34
+|Presidënt                = [[Ignazio Cassis]]
+|Prim minister            = [[Élisabeth Borne]]
+|Ann PIB                  = 2020
+|PIB numinel              = 749    <!--valor te miliarc-->
+|PIB VPC                  = 584    <!--valor te miliarc-->
+|Munëida                  = [[Franch svizer]]  (CHF)
+|TLD Internet             = .ch
+|Prefis dl telefon        = +41
+|Cherta                   = Europe-Switzerland.svg
+}}La '''Svizra''' ([[lingaz tudësch|tudësch]] ''Schweiz'', [[lingaz franzëus|franzëus]]: ''Suisse'', [[lingaz talian|talian]] ''Svizzera'', [[lingaz rumanc|rumanc]] ''Svizra'') ie n [[stat]] de l'[[Europa zentrela]]. La ie na cunfederazion de [[Ciantons de la Svizra|26 ciantons]] che cunfina a nord cun la [[Germania]], a est cun l [[Liechtenstein]] y l'[[Austria]], a sud cun la [[Talia]] y a vest cun la [[Franzia]].
 
 L inuem ufiziel ie '''Cunfederazion elvetica''' (per tudësch '''''Schweizerische Eidgenossenschaft''''', per franzëus '''''Confédération Helvétique''''', per talian '''''Confederazione Svizzera''''' y per rumanc '''''Confederaziun Svizra''''', la sigla CH vën dal latin '''''Confoederatio Helvetica'''''). La capitela ie [[Berna]], che ie al medem tëmp ence l cë-luech dl [[Cianton de Berna|cianton omonim]].
 
