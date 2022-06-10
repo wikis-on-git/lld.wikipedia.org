@@ -1,0 +1,2327 @@
+L '''ISO 3166''' ie n standard publicà da l'[[Organisazion Nternaziunela per la Standardisazion]] (ISO) de codesc per [[stat|stac]] y raions.
+
+==Current ISO 3166 country codes==
+The sortable table below contains the three sets of [[ISO 3166-1]] country codes for each of its 249 countries, links to the [[ISO 3166-2]] country subdivision codes, and the Internet [[country code top-level domain]]s (ccTLD) which are based on the [[ISO 3166-1 alpha-2]] standard with the few exceptions noted.  See the [[ISO 3166-3]] standard for former country codes.
+
+{| class="wikitable sortable"
+|-
+!colspan=1|[[ISO 3166]]<ref name=ISO_3166/>
+!colspan=2|
+!colspan=3|[[ISO 3166-1]]<ref name=ISO_3166-1/>
+!colspan=1|[[ISO 3166-2]]<ref name=ISO_3166-2/>
+!colspan=1|
+|-
+![[Country|Country name]]<ref name=OBP>{{cite web|url=https://www.iso.org/obp/ui/#search&3166|title=Country Codes on the Online Browsing Platform (OBP)|publisher=[[International Organization for Standardization]]|access-date=18 September 2018}}</ref>
+![[State (polity)|Official state name]]<ref name=CIA>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook|title=The World Factbook|archive-url=https://web.archive.org/web/20200615013613/https://www.cia.gov/library/publications/the-world-factbook|archive-date=2020-06-15|publisher=[[United States]] [[Central Intelligence Agency]]|access-date=18 September 2018}}</ref>
+![[Sovereign state|Sovereignty]]<ref name=CIA/><ref name=UN>{{cite web|url=http://www.un.org/en/member-states/|title=Member States|publisher=[[United Nations]]|access-date=18 September 2018}}</ref><ref name=NSG>{{cite web|url=https://www.un.org/dppa/decolonization/en/nsgt|title=Non-Self-Governing Territories|publisher=[[United Nations]]|access-date=6 June 2021}}</ref>
+![[ISO 3166-1 alpha-2#Officially assigned code elements|Alpha-2 code]]<ref name=OBP/>
+![[ISO 3166-1 alpha-3#Officially assigned code elements|Alpha-3 code]]<ref name=OBP/>
+![[ISO 3166-1 numeric#Officially assigned code elements|Numeric code]]<ref name=OBP/>
+![[ISO 3166-2|Subdivision code links]]<ref name=ISO_3166-2/>
+![[Country code top-level domain|Internet ccTLD]]<ref name=ccTLD>{{cite web|url=https://www.iana.org/domains/root/db|title=Root Zone Database|publisher=[[Internet Assigned Numbers Authority]]|access-date=18 September 2018}}</ref>
+|-style="background-color:white;"
+|id=AFGH|{{flagicon|Islamic Republic of Afghanistan}}&nbsp;[[Islamic Republic of Afghanistan|Afghanistan]]
+|[[Islamic Republic of Afghanistan|The Islamic Republic of Afghanistan]]
+|align=center|[[Member states of the United Nations|UN member state]]
+|align=center|[[ISO 3166-1 alpha-2#AF|{{mono|AF}}]]
+|align=center|[[ISO 3166-1 alpha-3#AFG|{{mono|AFG}}]]
+|align=center|[[ISO 3166-1 numeric#004|{{mono|004}}]]
+|align=center|[[ISO 3166-2:AF]]
+|align=center|[[.af]]
+|-
+|id=AKRO data-sort-value=AKRO colspan=8|{{flagicon|Akrotiri and Dhekelia}}&nbsp;[[Akrotiri and Dhekelia]] – See [[#UNI2|United Kingdom, The]].
+|-
+|id=ALAN data-sort-value=ALAN|{{flagicon|Åland Islands}}&nbsp;[[Åland Islands]]
+|data-sort-value=Aland|[[Åland]]
+|align=center|[[#FINL|Finland]]
+|align=center|[[ISO 3166-1 alpha-2#AX|{{mono|AX}}]]
+|align=center|[[ISO 3166-1 alpha-3#ALA|{{mono|ALA}}]]
+|align=center|[[ISO 3166-1 numeric#248|{{mono|248}}]]
+|align=center|[[ISO 3166-2:AX]]
+|align=center|[[.ax]]
+|-style="background-color:white;"
+|id=ALBA|{{flagicon|Albania}}&nbsp;[[Albania]]
+|[[Albania|The Republic of Albania]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AL|{{mono|AL}}]]
+|align=center|[[ISO 3166-1 alpha-3#ALB|{{mono|ALB}}]]
+|align=center|[[ISO 3166-1 numeric#008|{{mono|008}}]]
+|align=center|[[ISO 3166-2:AL]]
+|align=center|[[.al]]
+|-style="background-color:white;"
+|id=ALGE|{{flagicon|Algeria}}&nbsp;[[Algeria]]
+|[[Algeria|The People's Democratic Republic of Algeria]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DZ|{{mono|DZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#DZA|{{mono|DZA}}]]
+|align=center|[[ISO 3166-1 numeric#012|{{mono|012}}]]
+|align=center|[[ISO 3166-2:DZ]]
+|align=center|[[.dz]]
+|-
+|id=AMER|{{flagicon|American Samoa}}&nbsp;[[American Samoa]]
+|[[American Samoa|The Territory of American Samoa]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#AS|{{mono|AS}}]]
+|align=center|[[ISO 3166-1 alpha-3#ASM|{{mono|ASM}}]]
+|align=center|[[ISO 3166-1 numeric#016|{{mono|016}}]]
+|align=center|[[ISO 3166-2:AS]]
+|align=center|[[.as]]
+|-style="background-color:white;"
+|id=ANDO|{{flagicon|Andorra}}&nbsp;[[Andorra]]
+|[[Andorra|The Principality of Andorra]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AD|{{mono|AD}}]]
+|align=center|[[ISO 3166-1 alpha-3#AND|{{mono|AND}}]]
+|align=center|[[ISO 3166-1 numeric#020|{{mono|020}}]]
+|align=center|[[ISO 3166-2:AD]]
+|align=center|[[.ad]]
+|-style="background-color:white;"
+|id=ANGO|{{flagicon|Angola}}&nbsp;[[Angola]]
+|[[Angola|The Republic of Angola]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AO|{{mono|AO}}]]
+|align=center|[[ISO 3166-1 alpha-3#AGO|{{mono|AGO}}]]
+|align=center|[[ISO 3166-1 numeric#024|{{mono|024}}]]
+|align=center|[[ISO 3166-2:AO]]
+|align=center|[[.ao]]
+|-
+|id=ANGU|{{flagicon|Anguilla}}&nbsp;[[Anguilla]]
+|[[Anguilla]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#AI|{{mono|AI}}]]
+|align=center|[[ISO 3166-1 alpha-3#AIA|{{mono|AIA}}]]
+|align=center|[[ISO 3166-1 numeric#660|{{mono|660}}]]
+|align=center|[[ISO 3166-2:AI]]
+|align=center|[[.ai]]
+|-
+|id=ANTA|{{flagicon|Antarctica}}&nbsp;[[Antarctica]] {{efn|The [[ISO 3166]] country name [[Antarctica]] comprises the [[Antarctica|continent of Antarctica]] and all land and ice shelves south of the [[60th parallel south]].}}
+|All land and ice shelves south of the [[60th parallel south]]
+|align=center|[[Antarctic Treaty System|Antarctic Treaty]]
+|align=center|[[ISO 3166-1 alpha-2#AQ|{{mono|AQ}}]]
+|align=center|[[ISO 3166-1 alpha-3#ATA|{{mono|ATA}}]]
+|align=center|[[ISO 3166-1 numeric#010|{{mono|010}}]]
+|align=center|[[ISO 3166-2:AQ]]
+|align=center|[[.aq]]
+|-style="background-color:white;"
+|id=ANTI|{{flagicon|Antigua and Barbuda}}&nbsp;[[Antigua and Barbuda]]
+|[[Antigua and Barbuda]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AG|{{mono|AG}}]]
+|align=center|[[ISO 3166-1 alpha-3#ATG|{{mono|ATG}}]]
+|align=center|[[ISO 3166-1 numeric#028|{{mono|028}}]]
+|align=center|[[ISO 3166-2:AG]]
+|align=center|[[.ag]]
+|-style="background-color:white;"
+|id=ARGE|{{flagicon|Argentina}}&nbsp;[[Argentina]]
+|[[Argentina|The Argentine Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AR|{{mono|AR}}]]
+|align=center|[[ISO 3166-1 alpha-3#ARG|{{mono|ARG}}]]
+|align=center|[[ISO 3166-1 numeric#032|{{mono|032}}]]
+|align=center|[[ISO 3166-2:AR]]
+|align=center|[[.ar]]
+|-style="background-color:white;"
+|id=ARME|{{flagicon|Armenia}}&nbsp;[[Armenia]]
+|[[Armenia|The Republic of Armenia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AM|{{mono|AM}}]]
+|align=center|[[ISO 3166-1 alpha-3#ARM|{{mono|ARM}}]]
+|align=center|[[ISO 3166-1 numeric#051|{{mono|051}}]]
+|align=center|[[ISO 3166-2:AM]]
+|align=center|[[.am]]
+|-
+|id=ARUB|{{flagicon|Aruba}}&nbsp;[[Aruba]]
+|[[Aruba]]
+|align=center|[[#NETH|Netherlands]]
+|align=center|[[ISO 3166-1 alpha-2#AW|{{mono|AW}}]]
+|align=center|[[ISO 3166-1 alpha-3#ABW|{{mono|ABW}}]]
+|align=center|[[ISO 3166-1 numeric#533|{{mono|533}}]]
+|align=center|[[ISO 3166-2:AW]]
+|align=center|[[.aw]]
+|-
+|id=ASHM data-sort-value=ASHM colspan=8|{{flagicon|Australia}}&nbsp;[[Ashmore and Cartier Islands]] – See [[#AUS1|Australia]].
+|-style="background-color:white;"
+|id=AUS1|{{flagicon|Australia}}&nbsp;[[Australia]] {{efn|The [[ISO 3166]] country name [[Australia]] includes the [[Ashmore and Cartier Islands]] and the [[Coral Sea Islands]].}}
+|[[Australia|The Commonwealth of Australia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AU|{{mono|AU}}]]
+|align=center|[[ISO 3166-1 alpha-3#AUS|{{mono|AUS}}]]
+|align=center|[[ISO 3166-1 numeric#036|{{mono|036}}]]
+|align=center|[[ISO 3166-2:AU]]
+|align=center|[[.au]]
+|-style="background-color:white;"
+|id=AUS2|{{flagicon|Austria}}&nbsp;[[Austria]]
+|[[Austria|The Republic of Austria]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AT|{{mono|AT}}]]
+|align=center|[[ISO 3166-1 alpha-3#AUT|{{mono|AUT}}]]
+|align=center|[[ISO 3166-1 numeric#040|{{mono|040}}]]
+|align=center|[[ISO 3166-2:AT]]
+|align=center|[[.at]]
+|-style="background-color:white;"
+|id=AZER|{{flagicon|Azerbaijan}}&nbsp;[[Azerbaijan]]
+|[[Azerbaijan|The Republic of Azerbaijan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AZ|{{mono|AZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#AZE|{{mono|AZE}}]]
+|align=center|[[ISO 3166-1 numeric#031|{{mono|031}}]]
+|align=center|[[ISO 3166-2:AZ]]
+|align=center|[[.az]]
+|-style="background-color:white;"
+|id=BAHA data-sort-value=BAHA|{{flagicon|Bahamas}}&nbsp;[[The Bahamas|Bahamas (the)]]
+|[[The Bahamas|The Commonwealth of The Bahamas]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BS|{{mono|BS}}]]
+|align=center|[[ISO 3166-1 alpha-3#BHS|{{mono|BHS}}]]
+|align=center|[[ISO 3166-1 numeric#044|{{mono|044}}]]
+|align=center|[[ISO 3166-2:BS]]
+|align=center|[[.bs]]
+|-style="background-color:white;"
+|id=BAHR|{{flagicon|Bahrain}}&nbsp;[[Bahrain]]
+|[[Bahrain|The Kingdom of Bahrain]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BH|{{mono|BH}}]]
+|align=center|[[ISO 3166-1 alpha-3#BHR|{{mono|BHR}}]]
+|align=center|[[ISO 3166-1 numeric#048|{{mono|048}}]]
+|align=center|[[ISO 3166-2:BH]]
+|align=center|[[.bh]]
+|-style="background-color:white;"
+|id=BANG|{{flagicon|Bangladesh}}&nbsp;[[Bangladesh]]
+|[[Bangladesh|The People's Republic of Bangladesh]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BD|{{mono|BD}}]]
+|align=center|[[ISO 3166-1 alpha-3#BGD|{{mono|BGD}}]]
+|align=center|[[ISO 3166-1 numeric#050|{{mono|050}}]]
+|align=center|[[ISO 3166-2:BD]]
+|align=center|[[.bd]]
+|-style="background-color:white;"
+|id=BARB|{{flagicon|Barbados}}&nbsp;[[Barbados]]
+|[[Barbados]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BB|{{mono|BB}}]]
+|align=center|[[ISO 3166-1 alpha-3#BRB|{{mono|BRB}}]]
+|align=center|[[ISO 3166-1 numeric#052|{{mono|052}}]]
+|align=center|[[ISO 3166-2:BB]]
+|align=center|[[.bb]]
+|-style="background-color:white;"
+|id=BELA|{{flagicon|Belarus}}&nbsp;[[Belarus]]
+|[[Belarus|The Republic of Belarus]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BY|{{mono|BY}}]]
+|align=center|[[ISO 3166-1 alpha-3#BLR|{{mono|BLR}}]]
+|align=center|[[ISO 3166-1 numeric#112|{{mono|112}}]]
+|align=center|[[ISO 3166-2:BY]]
+|align=center|[[.by]]
+|-style="background-color:white;"
+|id=BELG|{{flagicon|Belgium}}&nbsp;[[Belgium]]
+|[[Belgium|The Kingdom of Belgium]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BE|{{mono|BE}}]]
+|align=center|[[ISO 3166-1 alpha-3#BEL|{{mono|BEL}}]]
+|align=center|[[ISO 3166-1 numeric#056|{{mono|056}}]]
+|align=center|[[ISO 3166-2:BE]]
+|align=center|[[.be]]
+|-style="background-color:white;"
+|id=BELI|{{flagicon|Belize}}&nbsp;[[Belize]]
+|[[Belize]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BZ|{{mono|BZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#BLZ|{{mono|BLZ}}]]
+|align=center|[[ISO 3166-1 numeric#084|{{mono|084}}]]
+|align=center|[[ISO 3166-2:BZ]]
+|align=center|[[.bz]]
+|-style="background-color:white;"
+|id=BENI|{{flagicon|Benin}}&nbsp;[[Benin]]
+|[[Benin|The Republic of Benin]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BJ|{{mono|BJ}}]]
+|align=center|[[ISO 3166-1 alpha-3#BEN|{{mono|BEN}}]]
+|align=center|[[ISO 3166-1 numeric#204|{{mono|204}}]]
+|align=center|[[ISO 3166-2:BJ]]
+|align=center|[[.bj]]
+|-
+|id=BERM|{{flagicon|Bermuda}}&nbsp;[[Bermuda]]
+|[[Bermuda]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#BM|{{mono|BM}}]]
+|align=center|[[ISO 3166-1 alpha-3#BMU|{{mono|BMU}}]]
+|align=center|[[ISO 3166-1 numeric#060|{{mono|060}}]]
+|align=center|[[ISO 3166-2:BM]]
+|align=center|[[.bm]]
+|-style="background-color:white;"
+|id=BHUT|{{flagicon|Bhutan}}&nbsp;[[Bhutan]]
+|[[Bhutan|The Kingdom of Bhutan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BT|{{mono|BT}}]]
+|align=center|[[ISO 3166-1 alpha-3#BTN|{{mono|BTN}}]]
+|align=center|[[ISO 3166-1 numeric#064|{{mono|064}}]]
+|align=center|[[ISO 3166-2:BT]]
+|align=center|[[.bt]]
+|-style="background-color:white;"
+|id=BOLI|{{flagicon|Bolivia|state}}&nbsp;[[Bolivia|Bolivia (Plurinational State of)]]
+|[[Bolivia|The Plurinational State of Bolivia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BO|{{mono|BO}}]]
+|align=center|[[ISO 3166-1 alpha-3#BOL|{{mono|BOL}}]]
+|align=center|[[ISO 3166-1 numeric#068|{{mono|068}}]]
+|align=center|[[ISO 3166-2:BO]]
+|align=center|[[.bo]]
+|-
+|id=BONA|{{flagicon|Bonaire}}&nbsp;[[Bonaire]]<br/>{{flagicon|Sint Eustatius}}&nbsp;[[Sint Eustatius]]<br/>{{flagicon|Saba}}&nbsp;[[Saba]]
+|[[Caribbean Netherlands|Bonaire, Sint Eustatius and Saba]]
+|align=center|[[#NETH|Netherlands]]
+|align=center|[[ISO 3166-1 alpha-2#BQ|{{mono|BQ}}]]
+|align=center|[[ISO 3166-1 alpha-3#BES|{{mono|BES}}]]
+|align=center|[[ISO 3166-1 numeric#535|{{mono|535}}]]
+|align=center|[[ISO 3166-2:BQ]]
+|align=center|[[.bq]] [[.nl]] {{efn|Although the [[country code top-level domain]] [[.bq]] is reserved for the [[Caribbean Netherlands]], these islands use the [[Kingdom of the Netherlands|Netherlands]] country code top-level domain [[.nl]] instead.}}
+|-style="background-color:white;"
+|id=BOSN|{{flagicon|Bosnia and Herzegovina}}&nbsp;[[Bosnia and Herzegovina]]
+|[[Bosnia and Herzegovina]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BA|{{mono|BA}}]]
+|align=center|[[ISO 3166-1 alpha-3#BIH|{{mono|BIH}}]]
+|align=center|[[ISO 3166-1 numeric#070|{{mono|070}}]]
+|align=center|[[ISO 3166-2:BA]]
+|align=center|[[.ba]]
+|-style="background-color:white;"
+|id=BOTS|{{flagicon|Botswana}}&nbsp;[[Botswana]]
+|[[Botswana|The Republic of Botswana]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BW|{{mono|BW}}]]
+|align=center|[[ISO 3166-1 alpha-3#BWA|{{mono|BWA}}]]
+|align=center|[[ISO 3166-1 numeric#072|{{mono|072}}]]
+|align=center|[[ISO 3166-2:BW]]
+|align=center|[[.bw]]
+|-
+|id=BOUV|{{flagicon|Bouvet Island}}&nbsp;[[Bouvet Island]]
+|[[Bouvet Island]]
+|align=center|[[#NOR6|Norway]]
+|align=center|[[ISO 3166-1 alpha-2#BV|{{mono|BV}}]]
+|align=center|[[ISO 3166-1 alpha-3#BVT|{{mono|BVT}}]]
+|align=center|[[ISO 3166-1 numeric#074|{{mono|074}}]]
+|align=center|[[ISO 3166-2:BV]]
+|align=center|{{efn|The [[country code top-level domain]] [[.bv]] has not been implemented.}}
+|-style="background-color:white;"
+|id=BRAZ|{{flagicon|Brazil}}&nbsp;[[Brazil]]
+|[[Brazil|The Federative Republic of Brazil]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BR|{{mono|BR}}]]
+|align=center|[[ISO 3166-1 alpha-3#BRA|{{mono|BRA}}]]
+|align=center|[[ISO 3166-1 numeric#076|{{mono|076}}]]
+|align=center|[[ISO 3166-2:BR]]
+|align=center|[[.br]]
+|-
+|id=BRI1 data-sort-value=BRI1|{{flagicon|British Indian Ocean Territory}}&nbsp;[[British Indian Ocean Territory|British Indian Ocean Territory (the)]]
+|[[British Indian Ocean Territory|The British Indian Ocean Territory]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#IO|{{mono|IO}}]]
+|align=center|[[ISO 3166-1 alpha-3#IOT|{{mono|IOT}}]]
+|align=center|[[ISO 3166-1 numeric#086|{{mono|086}}]]
+|align=center|[[ISO 3166-2:IO]]
+|align=center|[[.io]]
+|-
+|id=BRI2 data-sort-value=BRI2 colspan=8|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands]] – See [[#VIR1|Virgin Islands (British)]].
+|-style="background-color:white;"
+|id=BRUN|{{flagicon|Brunei}}&nbsp;[[Brunei|Brunei Darussalam]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the country name [[Brunei|Brunei Darussalam]] for [[Brunei]].}}
+|[[Brunei|The Nation of Brunei, the Abode of Peace]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BN|{{mono|BN}}]]
+|align=center|[[ISO 3166-1 alpha-3#BRN|{{mono|BRN}}]]
+|align=center|[[ISO 3166-1 numeric#096|{{mono|096}}]]
+|align=center|[[ISO 3166-2:BN]]
+|align=center|[[.bn]]
+|-style="background-color:white;"
+|id=BULG|{{flagicon|Bulgaria}}&nbsp;[[Bulgaria]]
+|[[Bulgaria|The Republic of Bulgaria]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BG|{{mono|BG}}]]
+|align=center|[[ISO 3166-1 alpha-3#BGR|{{mono|BGR}}]]
+|align=center|[[ISO 3166-1 numeric#100|{{mono|100}}]]
+|align=center|[[ISO 3166-2:BG]]
+|align=center|[[.bg]]
+|-style="background-color:white;"
+|id=BURK|{{flagicon|Burkina Faso}}&nbsp;[[Burkina Faso]]
+|[[Burkina Faso]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BF|{{mono|BF}}]]
+|align=center|[[ISO 3166-1 alpha-3#BFA|{{mono|BFA}}]]
+|align=center|[[ISO 3166-1 numeric#854|{{mono|854}}]]
+|align=center|[[ISO 3166-2:BF]]
+|align=center|[[.bf]]
+|-
+|id=BURM data-sort-value=BURM colspan=8|{{flagicon|Burma}}&nbsp;[[Myanmar|Burma]] – See [[#MYAN|Myanmar]].
+|-style="background-color:white;"
+|id=BURU|{{flagicon|Burundi}}&nbsp;[[Burundi]]
+|[[Burundi|The Republic of Burundi]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#BI|{{mono|BI}}]]
+|align=center|[[ISO 3166-1 alpha-3#BDI|{{mono|BDI}}]]
+|align=center|[[ISO 3166-1 numeric#108|{{mono|108}}]]
+|align=center|[[ISO 3166-2:BI]]
+|align=center|[[.bi]]
+|-style="background-color:white;"
+|id=CABO data-sort-value=CABO|{{flagicon|Cape Verde}}&nbsp;[[Cape Verde|Cabo Verde]] {{efn|[[Cape Verde|Cabo Verde]] was previously known as [[Cape Verde]].}}
+|[[Cape Verde|The Republic of Cabo Verde]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CV|{{mono|CV}}]]
+|align=center|[[ISO 3166-1 alpha-3#CPV|{{mono|CPV}}]]
+|align=center|[[ISO 3166-1 numeric#132|{{mono|132}}]]
+|align=center|[[ISO 3166-2:CV]]
+|align=center|[[.cv]]
+|-style="background-color:white;"
+|id=CAMB|{{flagicon|Cambodia}}&nbsp;[[Cambodia]]
+|[[Cambodia|The Kingdom of Cambodia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KH|{{mono|KH}}]]
+|align=center|[[ISO 3166-1 alpha-3#KHM|{{mono|KHM}}]]
+|align=center|[[ISO 3166-1 numeric#116|{{mono|116}}]]
+|align=center|[[ISO 3166-2:KH]]
+|align=center|[[.kh]]
+|-style="background-color:white;"
+|id=CAME|{{flagicon|Cameroon}}&nbsp;[[Cameroon]]
+|[[Cameroon|The Republic of Cameroon]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CM|{{mono|CM}}]]
+|align=center|[[ISO 3166-1 alpha-3#CMR|{{mono|CMR}}]]
+|align=center|[[ISO 3166-1 numeric#120|{{mono|120}}]]
+|align=center|[[ISO 3166-2:CM]]
+|align=center|[[.cm]]
+|-style="background-color:white;"
+|id=CANA|{{flagicon|Canada}}&nbsp;[[Canada]]
+|[[Canada]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CA|{{mono|CA}}]]
+|align=center|[[ISO 3166-1 alpha-3#CAN|{{mono|CAN}}]]
+|align=center|[[ISO 3166-1 numeric#124|{{mono|124}}]]
+|align=center|[[ISO 3166-2:CA]]
+|align=center|[[.ca]]
+|-style="background-color:white;"
+|id=CAPE data-sort-value=CAPE colspan=8|{{flagicon|Cape Verde}}&nbsp;[[Cape Verde]] – See [[#CABO|Cabo Verde]].
+|-
+|id=CARI data-sort-value=CARI colspan=8|{{flagicon|Netherlands}}&nbsp;[[Caribbean Netherlands]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|-
+|id=CAYM|{{flagicon|Cayman Islands}}&nbsp;[[Cayman Islands|Cayman Islands (the)]]
+|[[Cayman Islands|The Cayman Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#KY|{{mono|KY}}]]
+|align=center|[[ISO 3166-1 alpha-3#CYM|{{mono|CYM}}]]
+|align=center|[[ISO 3166-1 numeric#136|{{mono|136}}]]
+|align=center|[[ISO 3166-2:KY]]
+|align=center|[[.ky]]
+|-style="background-color:white;"
+|id=CENT|{{flagicon|Central African Republic}}&nbsp;[[Central African Republic|Central African Republic (the)]]
+|[[Central African Republic|The Central African Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CF|{{mono|CF}}]]
+|align=center|[[ISO 3166-1 alpha-3#CAF|{{mono|CAF}}]]
+|align=center|[[ISO 3166-1 numeric#140|{{mono|140}}]]
+|align=center|[[ISO 3166-2:CF]]
+|align=center|[[.cf]]
+|-style="background-color:white;"
+|id=CHAD|{{flagicon|Chad}}&nbsp;[[Chad]]
+|[[Chad|The Republic of Chad]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TD|{{mono|TD}}]]
+|align=center|[[ISO 3166-1 alpha-3#TCD|{{mono|TCD}}]]
+|align=center|[[ISO 3166-1 numeric#148|{{mono|148}}]]
+|align=center|[[ISO 3166-2:TD]]
+|align=center|[[.td]]
+|-style="background-color:white;"
+|id=CHI1 data-sort-value=CHI1|{{flagicon|Chile}}&nbsp;[[Chile]]
+|[[Chile|The Republic of Chile]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CL|{{mono|CL}}]]
+|align=center|[[ISO 3166-1 alpha-3#CHL|{{mono|CHL}}]]
+|align=center|[[ISO 3166-1 numeric#152|{{mono|152}}]]
+|align=center|[[ISO 3166-2:CL]]
+|align=center|[[.cl]]
+|-style="background-color:white;"
+|id=CHI2 data-sort-value=CHI2|{{flagicon|China}}&nbsp;[[China]]
+|[[China|The People's Republic of China]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CN|{{mono|CN}}]]
+|align=center|[[ISO 3166-1 alpha-3#CHN|{{mono|CHN}}]]
+|align=center|[[ISO 3166-1 numeric#156|{{mono|156}}]]
+|align=center|[[ISO 3166-2:CN]]
+|align=center|[[.cn]]
+|-
+|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|China, The Republic of]] – See [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|-
+|id=CHRI|{{flagicon|Christmas Island}}&nbsp;[[Christmas Island]]
+|[[Christmas Island|The Territory of Christmas Island]]
+|align=center|[[#AUS1|Australia]]
+|align=center|[[ISO 3166-1 alpha-2#CX|{{mono|CX}}]]
+|align=center|[[ISO 3166-1 alpha-3#CXR|{{mono|CXR}}]]
+|align=center|[[ISO 3166-1 numeric#162|{{mono|162}}]]
+|align=center|[[ISO 3166-2:CX]]
+|align=center|[[.cx]]
+|-
+|id=CLIP data-sort-value=CLIP colspan=8|{{flagicon|France}}&nbsp;[[Clipperton Island]] – See [[#FRAN|France]].
+|-
+|id=COCO|{{flagicon|Cocos (Keeling) Islands}}&nbsp;[[Cocos (Keeling) Islands|Cocos (Keeling) Islands (the)]]
+|[[Cocos (Keeling) Islands|The Territory of Cocos (Keeling) Islands]]
+|align=center|[[#AUS1|Australia]]
+|align=center|[[ISO 3166-1 alpha-2#CC|{{mono|CC}}]]
+|align=center|[[ISO 3166-1 alpha-3#CCK|{{mono|CCK}}]]
+|align=center|[[ISO 3166-1 numeric#166|{{mono|166}}]]
+|align=center|[[ISO 3166-2:CC]]
+|align=center|[[.cc]]
+|-style="background-color:white;"
+|id=COLO|{{flagicon|Colombia}}&nbsp;[[Colombia]]
+|[[Colombia|The Republic of Colombia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CO|{{mono|CO}}]]
+|align=center|[[ISO 3166-1 alpha-3#COL|{{mono|COL}}]]
+|align=center|[[ISO 3166-1 numeric#170|{{mono|170}}]]
+|align=center|[[ISO 3166-2:CO]]
+|align=center|[[.co]]
+|-style="background-color:white;"
+|id=COMO|{{flagicon|Comoros}}&nbsp;[[Comoros|Comoros (the)]]
+|[[Comoros|The Union of the Comoros]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KM|{{mono|KM}}]]
+|align=center|[[ISO 3166-1 alpha-3#COM|{{mono|COM}}]]
+|align=center|[[ISO 3166-1 numeric#174|{{mono|174}}]]
+|align=center|[[ISO 3166-2:KM]]
+|align=center|[[.km]]
+|-style="background-color:white;"
+|id=CON1 data-sort-value=CON1|{{flagicon|Democratic Republic of the Congo}}&nbsp;[[Democratic Republic of the Congo|Congo (the Democratic Republic of the)]]
+|[[Democratic Republic of the Congo|The Democratic Republic of the Congo]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CD|{{mono|CD}}]]
+|align=center|[[ISO 3166-1 alpha-3#COD|{{mono|COD}}]]
+|align=center|[[ISO 3166-1 numeric#180|{{mono|180}}]]
+|align=center|[[ISO 3166-2:CD]]
+|align=center|[[.cd]]
+|-style="background-color:white;"
+|id=CON2 data-sort-value=CON2|{{flagicon|Congo}}&nbsp;[[Republic of the Congo|Congo (the)]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the [[United Nations]] ([[United Nations|UN]]) country name [[Republic of the Congo|The Congo]] for the [[Republic of the Congo]].}}
+|[[Republic of the Congo|The Republic of the Congo]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CG|{{mono|CG}}]]
+|align=center|[[ISO 3166-1 alpha-3#COG|{{mono|COG}}]]
+|align=center|[[ISO 3166-1 numeric#178|{{mono|178}}]]
+|align=center|[[ISO 3166-2:CG]]
+|align=center|[[.cg]]
+|-
+|id=COOK|{{flagicon|Cook Islands}}&nbsp;[[Cook Islands|Cook Islands (the)]]
+|[[Cook Islands|The Cook Islands]]
+|align=center|[[#NEWZ|New Zealand]]
+|align=center|[[ISO 3166-1 alpha-2#CK|{{mono|CK}}]]
+|align=center|[[ISO 3166-1 alpha-3#COK|{{mono|COK}}]]
+|align=center|[[ISO 3166-1 numeric#184|{{mono|184}}]]
+|align=center|[[ISO 3166-2:CK]]
+|align=center|[[.ck]]
+|-
+|id=CORA  data-sort-value=CORA colspan=8|{{flagicon|Australia}}&nbsp;[[Coral Sea Islands]] – See [[#AUS1|Australia]].
+|-style="background-color:white;"
+|id=COST|{{flagicon|Costa Rica|state}}&nbsp;[[Costa Rica]]
+|[[Costa Rica|The Republic of Costa Rica]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CR|{{mono|CR}}]]
+|align=center|[[ISO 3166-1 alpha-3#CRI|{{mono|CRI}}]]
+|align=center|[[ISO 3166-1 numeric#188|{{mono|188}}]]
+|align=center|[[ISO 3166-2:CR]]
+|align=center|[[.cr]]
+|-style="background-color:white;"
+|id=COTE data-sort-value=COTE|{{flagicon|Ivory Coast}}&nbsp;[[Ivory Coast|Côte d'Ivoire]] {{efn|[[Ivory Coast|Côte d'Ivoire]] was previously known as [[Ivory Coast]].}}
+|data-sort-value="The Republic of Cote"|[[Ivory Coast|The Republic of Côte d'Ivoire]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CI|{{mono|CI}}]]
+|align=center|[[ISO 3166-1 alpha-3#CIV|{{mono|CIV}}]]
+|align=center|[[ISO 3166-1 numeric#384|{{mono|384}}]]
+|align=center|[[ISO 3166-2:CI]]
+|align=center|[[.ci]]
+|-style="background-color:white;"
+|id=CROA|{{flagicon|Croatia}}&nbsp;[[Croatia]]
+|[[Croatia|The Republic of Croatia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#HR|{{mono|HR}}]]
+|align=center|[[ISO 3166-1 alpha-3#HRV|{{mono|HRV}}]]
+|align=center|[[ISO 3166-1 numeric#191|{{mono|191}}]]
+|align=center|[[ISO 3166-2:HR]]
+|align=center|[[.hr]]
+|-style="background-color:white;"
+|id=CUBA|{{flagicon|Cuba}}&nbsp;[[Cuba]]
+|[[Cuba|The Republic of Cuba]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CU|{{mono|CU}}]]
+|align=center|[[ISO 3166-1 alpha-3#CUB|{{mono|CUB}}]]
+|align=center|[[ISO 3166-1 numeric#192|{{mono|192}}]]
+|align=center|[[ISO 3166-2:CU]]
+|align=center|[[.cu]]
+|-
+|id=CURA|{{flagicon|Curaçao}}&nbsp;[[Curaçao]]
+|[[Curaçao|The Country of Curaçao]]
+|align=center|[[#NETH|Netherlands]]
+|align=center|[[ISO 3166-1 alpha-2#CW|{{mono|CW}}]]
+|align=center|[[ISO 3166-1 alpha-3#CUW|{{mono|CUW}}]]
+|align=center|[[ISO 3166-1 numeric#531|{{mono|531}}]]
+|align=center|[[ISO 3166-2:CW]]
+|align=center|[[.cw]]
+|-style="background-color:white;"
+|id=CYPR|{{flagicon|Cyprus}}&nbsp;[[Cyprus]]
+|[[Cyprus|The Republic of Cyprus]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CY|{{mono|CY}}]]
+|align=center|[[ISO 3166-1 alpha-3#CYP|{{mono|CYP}}]]
+|align=center|[[ISO 3166-1 numeric#196|{{mono|196}}]]
+|align=center|[[ISO 3166-2:CY]]
+|align=center|[[.cy]]
+|-style="background-color:white;"
+|id=CZEC|{{flagicon|Czech Republic}}&nbsp;[[Czech Republic|Czechia]] {{efn|[[Czech Republic|Czechia]] was previously known by its state name [[Czech Republic]].}}
+|[[Czech Republic|The Czech Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CZ|{{mono|CZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#CZE|{{mono|CZE}}]]
+|align=center|[[ISO 3166-1 numeric#203|{{mono|203}}]]
+|align=center|[[ISO 3166-2:CZ]]
+|align=center|[[.cz]]
+|-style="background-color:white;"
+|id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea|Democratic People's Republic of Korea]] – See [[#KOR1|Korea, The Democratic People's Republic of]].
+|-style="background-color:white;"
+|id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Democratic Republic of the Congo}}&nbsp;[[Democratic Republic of the Congo]] – See [[#CON1|Congo, The Democratic Republic of the]].
+|-style="background-color:white;"
+|id=DENM|{{flagicon|Denmark}}&nbsp;[[Denmark]]
+|[[Denmark|The Kingdom of Denmark]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DK|{{mono|DK}}]]
+|align=center|[[ISO 3166-1 alpha-3#DNK|{{mono|DNK}}]]
+|align=center|[[ISO 3166-1 numeric#208|{{mono|208}}]]
+|align=center|[[ISO 3166-2:DK]]
+|align=center|[[.dk]]
+|-style="background-color:white;"
+|id=DJIB|{{flagicon|Djibouti}}&nbsp;[[Djibouti]]
+|[[Djibouti|The Republic of Djibouti]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DJ|{{mono|DJ}}]]
+|align=center|[[ISO 3166-1 alpha-3#DJI|{{mono|DJI}}]]
+|align=center|[[ISO 3166-1 numeric#262|{{mono|262}}]]
+|align=center|[[ISO 3166-2:DJ]]
+|align=center|[[.dj]]
+|-style="background-color:white;"
+|id=DOM1 data-sort-value=DOM1|{{flagicon|Dominica}}&nbsp;[[Dominica]]
+|[[Dominica|The Commonwealth of Dominica]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DM|{{mono|DM}}]]
+|align=center|[[ISO 3166-1 alpha-3#DMA|{{mono|DMA}}]]
+|align=center|[[ISO 3166-1 numeric#212|{{mono|212}}]]
+|align=center|[[ISO 3166-2:DM]]
+|align=center|[[.dm]]
+|-style="background-color:white;"
+|id=DOM2 data-sort-value=DOM2|{{flagicon|Dominican Republic}}&nbsp;[[Dominican Republic|Dominican Republic (the)]]
+|[[Dominican Republic|The Dominican Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DO|{{mono|DO}}]]
+|align=center|[[ISO 3166-1 alpha-3#DOM|{{mono|DOM}}]]
+|align=center|[[ISO 3166-1 numeric#214|{{mono|214}}]]
+|align=center|[[ISO 3166-2:DO]]
+|align=center|[[.do]]
+|-style="background-color:white;"
+|id=EAST data-sort-value=EAST colspan=8|{{flagicon|East Timor}}&nbsp;[[East Timor]] – See [[#TIMO|Timor-Leste]].
+|-style="background-color:white;"
+|id=ECUA|{{flagicon|Ecuador}}&nbsp;[[Ecuador]]
+|[[Ecuador|The Republic of Ecuador]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#EC|{{mono|EC}}]]
+|align=center|[[ISO 3166-1 alpha-3#ECU|{{mono|ECU}}]]
+|align=center|[[ISO 3166-1 numeric#218|{{mono|218}}]]
+|align=center|[[ISO 3166-2:EC]]
+|align=center|[[.ec]]
+|-style="background-color:white;"
+|id=EGYP|{{flagicon|Egypt}}&nbsp;[[Egypt]]
+|[[Egypt|The Arab Republic of Egypt]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#EG|{{mono|EG}}]]
+|align=center|[[ISO 3166-1 alpha-3#EGY|{{mono|EGY}}]]
+|align=center|[[ISO 3166-1 numeric#818|{{mono|818}}]]
+|align=center|[[ISO 3166-2:EG]]
+|align=center|[[.eg]]
+|-style="background-color:white;"
+|id=ELSA|{{flagicon|El Salvador}}&nbsp;[[El Salvador]]
+|[[El Salvador|The Republic of El Salvador]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SV|{{mono|SV}}]]
+|align=center|[[ISO 3166-1 alpha-3#SLV|{{mono|SLV}}]]
+|align=center|[[ISO 3166-1 numeric#222|{{mono|222}}]]
+|align=center|[[ISO 3166-2:SV]]
+|align=center|[[.sv]]
+|-
+|id=ENGL colspan=8|{{flagicon|England}}&nbsp;[[England]] – See [[#UNI2|United Kingdom, The]].
+|-style="background-color:white;"
+|id=EQUA|{{flagicon|Equatorial Guinea}}&nbsp;[[Equatorial Guinea]]
+|[[Equatorial Guinea|The Republic of Equatorial Guinea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GQ|{{mono|GQ}}]]
+|align=center|[[ISO 3166-1 alpha-3#GNQ|{{mono|GNQ}}]]
+|align=center|[[ISO 3166-1 numeric#226|{{mono|226}}]]
+|align=center|[[ISO 3166-2:GQ]]
+|align=center|[[.gq]]
+|-style="background-color:white;"
+|id=ERIT|{{flagicon|Eritrea}}&nbsp;[[Eritrea]]
+|[[Eritrea|The State of Eritrea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ER|{{mono|ER}}]]
+|align=center|[[ISO 3166-1 alpha-3#ERI|{{mono|ERI}}]]
+|align=center|[[ISO 3166-1 numeric#232|{{mono|232}}]]
+|align=center|[[ISO 3166-2:ER]]
+|align=center|[[.er]]
+|-style="background-color:white;"
+|id=ESTO|{{flagicon|Estonia}}&nbsp;[[Estonia]]
+|[[Estonia|The Republic of Estonia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#EE|{{mono|EE}}]]
+|align=center|[[ISO 3166-1 alpha-3#EST|{{mono|EST}}]]
+|align=center|[[ISO 3166-1 numeric#233|{{mono|233}}]]
+|align=center|[[ISO 3166-2:EE]]
+|align=center|[[.ee]]
+|-style="background-color:white;"
+|id=ESWA data-sort-value=ESWA|{{flagicon|Eswatini}}&nbsp;[[Eswatini]] {{efn|[[Eswatini]] was previously known as  [[Eswatini|Swaziland]].}}
+|[[Eswatini|The Kingdom of Eswatini]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SZ|{{mono|SZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#SWZ|{{mono|SWZ}}]]
+|align=center|[[ISO 3166-1 numeric#748|{{mono|748}}]]
+|align=center|[[ISO 3166-2:SZ]]
+|align=center|[[.sz]]
+|-style="background-color:white;"
+|id=ETHI|{{flagicon|Ethiopia}}&nbsp;[[Ethiopia]]
+|[[Ethiopia|The Federal Democratic Republic of Ethiopia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ET|{{mono|ET}}]]
+|align=center|[[ISO 3166-1 alpha-3#ETH|{{mono|ETH}}]]
+|align=center|[[ISO 3166-1 numeric#231|{{mono|231}}]]
+|align=center|[[ISO 3166-2:ET]]
+|align=center|[[.et]]
+|-
+|id=FALK|{{flagicon|Falkland Islands}}&nbsp;[[Falkland Islands|Falkland Islands (the) <nowiki>[Malvinas]</nowiki>]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[Falkland Islands|The Falkland Islands <nowiki>[Malvinas]</nowiki>]] for the [[Falkland&nbsp;Islands]].}}
+|[[Falkland Islands|The Falkland Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#FK|{{mono|FK}}]]
+|align=center|[[ISO 3166-1 alpha-3#FLK|{{mono|FLK}}]]
+|align=center|[[ISO 3166-1 numeric#238|{{mono|238}}]]
+|align=center|[[ISO 3166-2:FK]]
+|align=center|[[.fk]]
+|-
+|id=FARO|{{flagicon|Faroe Islands}}&nbsp;[[Faroe Islands|Faroe Islands (the)]]
+|[[Faroe Islands|The Faroe Islands]]
+|align=center|[[#DENM|Denmark]]
+|align=center|[[ISO 3166-1 alpha-2#FO|{{mono|FO}}]]
+|align=center|[[ISO 3166-1 alpha-3#FRO|{{mono|FRO}}]]
+|align=center|[[ISO 3166-1 numeric#234|{{mono|234}}]]
+|align=center|[[ISO 3166-2:FO]]
+|align=center|[[.fo]]
+|-style="background-color:white;"
+|id=FIJI|{{flagicon|Fiji}}&nbsp;[[Fiji]]
+|[[Fiji|The Republic of Fiji]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#FJ|{{mono|FJ}}]]
+|align=center|[[ISO 3166-1 alpha-3#FJI|{{mono|FJI}}]]
+|align=center|[[ISO 3166-1 numeric#242|{{mono|242}}]]
+|align=center|[[ISO 3166-2:FJ]]
+|align=center|[[.fj]]
+|-style="background-color:white;"
+|id=FINL|{{flagicon|Finland}}&nbsp;[[Finland]]
+|[[Finland|The Republic of Finland]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#FI|{{mono|FI}}]]
+|align=center|[[ISO 3166-1 alpha-3#FIN|{{mono|FIN}}]]
+|align=center|[[ISO 3166-1 numeric#246|{{mono|246}}]]
+|align=center|[[ISO 3166-2:FI]]
+|align=center|[[.fi]]
+|-style="background-color:white;"
+|id=FRAN|{{flagicon|France}}&nbsp;[[France]] {{efn|The [[ISO 3166]] country name [[France]] includes [[Clipperton Island]].}}
+|[[France|The French Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#FR|{{mono|FR}}]]
+|align=center|[[ISO 3166-1 alpha-3#FRA|{{mono|FRA}}]]
+|align=center|[[ISO 3166-1 numeric#250|{{mono|250}}]]
+|align=center|[[ISO 3166-2:FR]]
+|align=center|[[.fr]]
+|-
+|id=FRE1|{{flagicon|French Guiana|local}}&nbsp;[[French Guiana]]
+|[[French Guiana|Guyane]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#GF|{{mono|GF}}]]
+|align=center|[[ISO 3166-1 alpha-3#GUF|{{mono|GUF}}]]
+|align=center|[[ISO 3166-1 numeric#254|{{mono|254}}]]
+|align=center|[[ISO 3166-2:GF]]
+|align=center|[[.gf]]
+|-
+|id=FRE2|{{flagicon|French Polynesia}}&nbsp;[[French Polynesia]]
+|[[French Polynesia]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#PF|{{mono|PF}}]]
+|align=center|[[ISO 3166-1 alpha-3#PYF|{{mono|PYF}}]]
+|align=center|[[ISO 3166-1 numeric#258|{{mono|258}}]]
+|align=center|[[ISO 3166-2:PF]]
+|align=center|[[.pf]]
+|-
+|id=FRE3|{{flagicon|French Southern Territories}}&nbsp;[[French Southern and Antarctic Lands|French Southern Territories (the)]] {{efn|The [[ISO 3166]] country name [[French Southern Territories|The French Southern Territories]] comprises all of the [[French Southern and Antarctic Lands]] except [[Adélie Land]] which is included in the [[ISO 3166]] country name [[Antarctica]].}}
+|[[French Southern and Antarctic Lands|The French Southern and Antarctic Lands]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#TF|{{mono|TF}}]]
+|align=center|[[ISO 3166-1 alpha-3#ATF|{{mono|ATF}}]]
+|align=center|[[ISO 3166-1 numeric#260|{{mono|260}}]]
+|align=center|[[ISO 3166-2:TF]]
+|align=center|[[.tf]]
+|-style="background-color:white;"
+|id=GABO|{{flagicon|Gabon}}&nbsp;[[Gabon]]
+|[[Gabon|The Gabonese Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GA|{{mono|GA}}]]
+|align=center|[[ISO 3166-1 alpha-3#GAB|{{mono|GAB}}]]
+|align=center|[[ISO 3166-1 numeric#266|{{mono|266}}]]
+|align=center|[[ISO 3166-2:GA]]
+|align=center|[[.ga]]
+|-style="background-color:white;"
+|id=GAMB data-sort-value=GAMB|{{flagicon|Gambia}}&nbsp;[[The Gambia|Gambia (the)]]
+|[[The Gambia|The Republic of The Gambia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GM|{{mono|GM}}]]
+|align=center|[[ISO 3166-1 alpha-3#GMB|{{mono|GMB}}]]
+|align=center|[[ISO 3166-1 numeric#270|{{mono|270}}]]
+|align=center|[[ISO 3166-2:GM]]
+|align=center|[[.gm]]
+|-style="background-color:white;"
+|id=GEOR|{{flagicon|Georgia}}&nbsp;[[Georgia (country)|Georgia]]
+|[[Georgia (country)|Georgia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GE|{{mono|GE}}]]
+|align=center|[[ISO 3166-1 alpha-3#GEO|{{mono|GEO}}]]
+|align=center|[[ISO 3166-1 numeric#268|{{mono|268}}]]
+|align=center|[[ISO 3166-2:GE]]
+|align=center|[[.ge]]
+|-style="background-color:white;"
+|id=GERM|{{flagicon|Germany}}&nbsp;[[Germany]]
+|[[Germany|The Federal Republic of Germany]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#DE|{{mono|DE}}]]
+|align=center|[[ISO 3166-1 alpha-3#DEU|{{mono|DEU}}]]
+|align=center|[[ISO 3166-1 numeric#276|{{mono|276}}]]
+|align=center|[[ISO 3166-2:DE]]
+|align=center|[[.de]]
+|-style="background-color:white;"
+|id=GHAN|{{flagicon|Ghana}}&nbsp;[[Ghana]]
+|[[Ghana|The Republic of Ghana]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GH|{{mono|GH}}]]
+|align=center|[[ISO 3166-1 alpha-3#GHA|{{mono|GHA}}]]
+|align=center|[[ISO 3166-1 numeric#288|{{mono|288}}]]
+|align=center|[[ISO 3166-2:GH]]
+|align=center|[[.gh]]
+|-
+|id=GIBR|{{flagicon|Gibraltar}}&nbsp;[[Gibraltar]]
+|[[Gibraltar]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#GI|{{mono|GI}}]]
+|align=center|[[ISO 3166-1 alpha-3#GIB|{{mono|GIB}}]]
+|align=center|[[ISO 3166-1 numeric#292|{{mono|292}}]]
+|align=center|[[ISO 3166-2:GI]]
+|align=center|[[.gi]]
+|-style="background-color:white;"
+|id=GRE1 data-sort-value=GRE1 colspan=8|{{flagicon|United Kingdom}}&nbsp;[[United Kingdom|Great Britain]] – See [[#UNI2|United Kingdom, The]].
+|-style="background-color:white;"
+|id=GRE2 data-sort-value=GRE2|{{flagicon|Greece}}&nbsp;[[Greece]]
+|[[Greece|The Hellenic Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GR|{{mono|GR}}]]
+|align=center|[[ISO 3166-1 alpha-3#GRC|{{mono|GRC}}]]
+|align=center|[[ISO 3166-1 numeric#300|{{mono|300}}]]
+|align=center|[[ISO 3166-2:GR]]
+|align=center|[[.gr]]
+|-
+|id=GRE3 data-sort-value=GRE3|{{flagicon|Greenland}}&nbsp;[[Greenland]]
+|[[Greenland|Kalaallit Nunaat]]
+|align=center|[[#DENM|Denmark]]
+|align=center|[[ISO 3166-1 alpha-2#GL|{{mono|GL}}]]
+|align=center|[[ISO 3166-1 alpha-3#GRL|{{mono|GRL}}]]
+|align=center|[[ISO 3166-1 numeric#304|{{mono|304}}]]
+|align=center|[[ISO 3166-2:GL]]
+|align=center|[[.gl]]
+|-style="background-color:white;"
+|id=GRE4 data-sort-value=GRE4|{{flagicon|Grenada}}&nbsp;[[Grenada]]
+|[[Grenada]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GD|{{mono|GD}}]]
+|align=center|[[ISO 3166-1 alpha-3#GRD|{{mono|GRD}}]]
+|align=center|[[ISO 3166-1 numeric#308|{{mono|308}}]]
+|align=center|[[ISO 3166-2:GD]]
+|align=center|[[.gd]]
+|-
+|id=GUAD|{{flagicon|Guadeloupe|local}}&nbsp;[[Guadeloupe]]
+|[[Guadeloupe]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#GP|{{mono|GP}}]]
+|align=center|[[ISO 3166-1 alpha-3#GLP|{{mono|GLP}}]]
+|align=center|[[ISO 3166-1 numeric#312|{{mono|312}}]]
+|align=center|[[ISO 3166-2:GP]]
+|align=center|[[.gp]]
+|-
+|id=GUAM|{{flagicon|Guam}}&nbsp;[[Guam]]
+|[[Guam|The Territory of Guam]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#GU|{{mono|GU}}]]
+|align=center|[[ISO 3166-1 alpha-3#GUM|{{mono|GUM}}]]
+|align=center|[[ISO 3166-1 numeric#316|{{mono|316}}]]
+|align=center|[[ISO 3166-2:GU]]
+|align=center|[[.gu]]
+|-style="background-color:white;"
+|id=GUAT|{{flagicon|Guatemala}}&nbsp;[[Guatemala]]
+|[[Guatemala|The Republic of Guatemala]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GT|{{mono|GT}}]]
+|align=center|[[ISO 3166-1 alpha-3#GTM|{{mono|GTM}}]]
+|align=center|[[ISO 3166-1 numeric#320|{{mono|320}}]]
+|align=center|[[ISO 3166-2:GT]]
+|align=center|[[.gt]]
+|-
+|id=GUER data-sort-value=GUER|{{flagicon|Bailiwick of Guernsey}}&nbsp;[[Bailiwick of Guernsey|Guernsey]]
+|[[Bailiwick of Guernsey|The Bailiwick of Guernsey]]
+|align=center|[[Crown Dependencies|British Crown]]
+|align=center|[[ISO 3166-1 alpha-2#GG|{{mono|GG}}]]
+|align=center|[[ISO 3166-1 alpha-3#GGY|{{mono|GGY}}]]
+|align=center|[[ISO 3166-1 numeric#831|{{mono|831}}]]
+|align=center|[[ISO 3166-2:GG]]
+|align=center|[[.gg]]
+|-style="background-color:white;"
+|id=GUI1|{{flagicon|Guinea}}&nbsp;[[Guinea]]
+|[[Guinea|The Republic of Guinea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GN|{{mono|GN}}]]
+|align=center|[[ISO 3166-1 alpha-3#GIN|{{mono|GIN}}]]
+|align=center|[[ISO 3166-1 numeric#324|{{mono|324}}]]
+|align=center|[[ISO 3166-2:GN]]
+|align=center|[[.gn]]
+|-style="background-color:white;"
+|id=GUI2|{{flagicon|Guinea-Bissau}}&nbsp;[[Guinea-Bissau]]
+|[[Guinea-Bissau|The Republic of Guinea-Bissau]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GW|{{mono|GW}}]]
+|align=center|[[ISO 3166-1 alpha-3#GNB|{{mono|GNB}}]]
+|align=center|[[ISO 3166-1 numeric#624|{{mono|624}}]]
+|align=center|[[ISO 3166-2:GW]]
+|align=center|[[.gw]]
+|-style="background-color:white;"
+|id=GUYA|{{flagicon|Guyana}}&nbsp;[[Guyana]]
+|[[Guyana|The Co-operative Republic of Guyana]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GY|{{mono|GY}}]]
+|align=center|[[ISO 3166-1 alpha-3#GUY|{{mono|GUY}}]]
+|align=center|[[ISO 3166-1 numeric#328|{{mono|328}}]]
+|align=center|[[ISO 3166-2:GY]]
+|align=center|[[.gy]]
+|-style="background-color:white;"
+|id=HAIT|{{flagicon|Haiti}}&nbsp;[[Haiti]]
+|[[Haiti|The Republic of Haiti]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#HT|{{mono|HT}}]]
+|align=center|[[ISO 3166-1 alpha-3#HTI|{{mono|HTI}}]]
+|align=center|[[ISO 3166-1 numeric#332|{{mono|332}}]]
+|align=center|[[ISO 3166-2:HT]]
+|align=center|[[.ht]]
+|-
+|id=HAWA data-sort-value=HAWA colspan=8|{{flagicon|United States}}&nbsp;[[Hawaiian Islands]] – See [[#UNI4|United States of America, The]].
+|-
+|id=HEAR|{{flagicon|Heard Island and McDonald Islands}}&nbsp;[[Heard Island and McDonald Islands]]
+|[[Heard Island and McDonald Islands|The Territory of Heard Island and McDonald Islands]]
+|align=center|[[#AUS1|Australia]]
+|align=center|[[ISO 3166-1 alpha-2#HM|{{mono|HM}}]]
+|align=center|[[ISO 3166-1 alpha-3#HMD|{{mono|HMD}}]]
+|align=center|[[ISO 3166-1 numeric#334|{{mono|334}}]]
+|align=center|[[ISO 3166-2:HM]]
+|align=center|[[.hm]]
+|-
+|id=HOLY data-sort-value=HOLY|{{flagicon|Holy See}}&nbsp;[[Holy See|Holy See (the)]] {{efn|The [[Holy See]] governs and represents the [[Vatican City|Vatican City State]].}}
+|[[Holy See|The Holy See]]
+|align=center|UN observer state
+|align=center|[[ISO 3166-1 alpha-2#VA|{{mono|VA}}]]
+|align=center|[[ISO 3166-1 alpha-3#VAT|{{mono|VAT}}]]
+|align=center|[[ISO 3166-1 numeric#336|{{mono|336}}]]
+|align=center|[[ISO 3166-2:VA]]
+|align=center|[[.va]]
+|-style="background-color:white;"
+|id=HOND|{{flagicon|Honduras}}&nbsp;[[Honduras]]
+|[[Honduras|The Republic of Honduras]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#HN|{{mono|HN}}]]
+|align=center|[[ISO 3166-1 alpha-3#HND|{{mono|HND}}]]
+|align=center|[[ISO 3166-1 numeric#340|{{mono|340}}]]
+|align=center|[[ISO 3166-2:HN]]
+|align=center|[[.hn]]
+|-
+|id=HONG|{{flagicon|Hong Kong}}&nbsp;[[Hong Kong]]
+|[[Hong Kong|The Hong Kong Special Administrative Region of China]]<ref>{{Cite web|url=https://www.iso.org/obp/ui/#iso:code:3166:HK|access-date=2021-06-11|website=www.iso.org}}</ref>
+|align=center|[[#CHI2|China]]
+|align=center|[[ISO 3166-1 alpha-2#HK|{{mono|HK}}]]
+|align=center|[[ISO 3166-1 alpha-3#HKG|{{mono|HKG}}]]
+|align=center|[[ISO 3166-1 numeric#344|{{mono|344}}]]
+|align=center|[[ISO 3166-2:HK]]
+|align=center|[[.hk]]
+|-style="background-color:white;"
+|id=HUNG|{{flagicon|Hungary}}&nbsp;[[Hungary]]
+|[[Hungary]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#HU|{{mono|HU}}]]
+|align=center|[[ISO 3166-1 alpha-3#HUN|{{mono|HUN}}]]
+|align=center|[[ISO 3166-1 numeric#348|{{mono|348}}]]
+|align=center|[[ISO 3166-2:HU]]
+|align=center|[[.hu]]
+|-style="background-color:white;"
+|id=ICEL|{{flagicon|Iceland}}&nbsp;[[Iceland]]
+|[[Iceland]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IS|{{mono|IS}}]]
+|align=center|[[ISO 3166-1 alpha-3#ISL|{{mono|ISL}}]]
+|align=center|[[ISO 3166-1 numeric#352|{{mono|352}}]]
+|align=center|[[ISO 3166-2:IS]]
+|align=center|[[.is]]
+|-style="background-color:white;"
+|id=INDI|{{flagicon|India}}&nbsp;[[India]]
+|[[India|The Republic of India]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IN|{{mono|IN}}]]
+|align=center|[[ISO 3166-1 alpha-3#IND|{{mono|IND}}]]
+|align=center|[[ISO 3166-1 numeric#356|{{mono|356}}]]
+|align=center|[[ISO 3166-2:IN]]
+|align=center|[[.in]]
+|-style="background-color:white;"
+|id=INDO|{{flagicon|Indonesia}}&nbsp;[[Indonesia]]
+|[[Indonesia|The Republic of Indonesia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ID|{{mono|ID}}]]
+|align=center|[[ISO 3166-1 alpha-3#IDN|{{mono|IDN}}]]
+|align=center|[[ISO 3166-1 numeric#360|{{mono|360}}]]
+|align=center|[[ISO 3166-2:ID]]
+|align=center|[[.id]]
+|-style="background-color:white;"
+|id=IRAN|{{flagicon|Iran}}&nbsp;[[Iran (Islamic Republic of)]]
+|[[Iran|The Islamic Republic of Iran]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IR|{{mono|IR}}]]
+|align=center|[[ISO 3166-1 alpha-3#IRN|{{mono|IRN}}]]
+|align=center|[[ISO 3166-1 numeric#364|{{mono|364}}]]
+|align=center|[[ISO 3166-2:IR]]
+|align=center|[[.ir]]
+|-style="background-color:white;"
+|id=IRAQ|{{flagicon|Iraq}}&nbsp;[[Iraq]]
+|[[Iraq|The Republic of Iraq]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IQ|{{mono|IQ}}]]
+|align=center|[[ISO 3166-1 alpha-3#IRQ|{{mono|IRQ}}]]
+|align=center|[[ISO 3166-1 numeric#368|{{mono|368}}]]
+|align=center|[[ISO 3166-2:IQ]]
+|align=center|[[.iq]]
+|-style="background-color:white;"
+|id=IREL data-sort-value=IREL|{{flagicon|Ireland}}&nbsp;[[Republic of Ireland|Ireland]]
+|[[Republic of Ireland|Ireland]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IE|{{mono|IE}}]]
+|align=center|[[ISO 3166-1 alpha-3#IRL|{{mono|IRL}}]]
+|align=center|[[ISO 3166-1 numeric#372|{{mono|372}}]]
+|align=center|[[ISO 3166-2:IE]]
+|align=center|[[.ie]]
+|-
+|id=ISLE|{{flagicon|Isle of Man}}&nbsp;[[Isle of Man]]
+|[[Isle of Man|The Isle of Man]]
+|align=center|[[Crown Dependencies|British Crown]]
+|align=center|[[ISO 3166-1 alpha-2#IM|{{mono|IM}}]]
+|align=center|[[ISO 3166-1 alpha-3#IMN|{{mono|IMN}}]]
+|align=center|[[ISO 3166-1 numeric#833|{{mono|833}}]]
+|align=center|[[ISO 3166-2:IM]]
+|align=center|[[.im]]
+|-style="background-color:white;"
+|id=ISRA|{{flagicon|Israel}}&nbsp;[[Israel]]
+|[[Israel|The State of Israel]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IL|{{mono|IL}}]]
+|align=center|[[ISO 3166-1 alpha-3#ISR|{{mono|ISR}}]]
+|align=center|[[ISO 3166-1 numeric#376|{{mono|376}}]]
+|align=center|[[ISO 3166-2:IL]]
+|align=center|[[.il]]
+|-style="background-color:white;"
+|id=ITAL|{{flagicon|Talia}}&nbsp;[[Talia]]
+|[[Talia|Republica Taliana]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#IT|{{mono|IT}}]]
+|align=center|[[ISO 3166-1 alpha-3#ITA|{{mono|ITA}}]]
+|align=center|[[ISO 3166-1 numeric#380|{{mono|380}}]]
+|align=center|[[ISO 3166-2:IT]]
+|align=center|[[.it]]
+|-style="background-color:white;"
+|id=IVOR data-sort-value=IVOR colspan=8|{{flagicon|Ivory Coast}}&nbsp;[[Ivory Coast]] – See [[#COTE|Côte d'Ivoire]].
+|-style="background-color:white;"
+|id=JAMA|{{flagicon|Jamaica}}&nbsp;[[Jamaica]]
+|[[Jamaica]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#JM|{{mono|JM}}]]
+|align=center|[[ISO 3166-1 alpha-3#JAM|{{mono|JAM}}]]
+|align=center|[[ISO 3166-1 numeric#388|{{mono|388}}]]
+|align=center|[[ISO 3166-2:JM]]
+|align=center|[[.jm]]
+|-
+|id=JANM colspan=8|{{flagicon|Jan Mayen}}&nbsp;[[Jan Mayen]] – See [[#SVAL|Svalbard and Jan Mayen]].
+|-style="background-color:white;"
+|id=JAPA|{{flagicon|Japan}}&nbsp;[[Japan]]
+|[[Japan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#JP|{{mono|JP}}]]
+|align=center|[[ISO 3166-1 alpha-3#JPN|{{mono|JPN}}]]
+|align=center|[[ISO 3166-1 numeric#392|{{mono|392}}]]
+|align=center|[[ISO 3166-2:JP]]
+|align=center|[[.jp]]
+|-
+|id=JERS|{{flagicon|Jersey}}&nbsp;[[Jersey]]
+|[[Jersey|The Bailiwick of Jersey]]
+|align=center|[[Crown Dependencies|British Crown]]
+|align=center|[[ISO 3166-1 alpha-2#JE|{{mono|JE}}]]
+|align=center|[[ISO 3166-1 alpha-3#JEY|{{mono|JEY}}]]
+|align=center|[[ISO 3166-1 numeric#832|{{mono|832}}]]
+|align=center|[[ISO 3166-2:JE]]
+|align=center|[[.je]]
+|-style="background-color:white;"
+|id=JORD|{{flagicon|Jordan}}&nbsp;[[Jordan]]
+|[[Jordan|The Hashemite Kingdom of Jordan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#JO|{{mono|JO}}]]
+|align=center|[[ISO 3166-1 alpha-3#JOR|{{mono|JOR}}]]
+|align=center|[[ISO 3166-1 numeric#400|{{mono|400}}]]
+|align=center|[[ISO 3166-2:JO]]
+|align=center|[[.jo]]
+|-style="background-color:white;"
+|id=KAZA|{{flagicon|Kazakhstan}}&nbsp;[[Kazakhstan]]
+|[[Kazakhstan|The Republic of Kazakhstan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KZ|{{mono|KZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#KAZ|{{mono|KAZ}}]]
+|align=center|[[ISO 3166-1 numeric#398|{{mono|398}}]]
+|align=center|[[ISO 3166-2:KZ]]
+|align=center|[[.kz]]
+|-style="background-color:white;"
+|id=KENY|{{flagicon|Kenya}}&nbsp;[[Kenya]]
+|[[Kenya|The Republic of Kenya]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KE|{{mono|KE}}]]
+|align=center|[[ISO 3166-1 alpha-3#KEN|{{mono|KEN}}]]
+|align=center|[[ISO 3166-1 numeric#404|{{mono|404}}]]
+|align=center|[[ISO 3166-2:KE]]
+|align=center|[[.ke]]
+|-style="background-color:white;"
+|id=KIRI|{{flagicon|Kiribati}}&nbsp;[[Kiribati]]
+|[[Kiribati|The Republic of Kiribati]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KI|{{mono|KI}}]]
+|align=center|[[ISO 3166-1 alpha-3#KIR|{{mono|KIR}}]]
+|align=center|[[ISO 3166-1 numeric#296|{{mono|296}}]]
+|align=center|[[ISO 3166-2:KI]]
+|align=center|[[.ki]]
+|-style="background-color:white;"
+|id=KOR1 data-sort-value=KOR1|{{flagicon|North Korea}}&nbsp;[[North Korea|Korea (the Democratic People's Republic of)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[North Korea|The Democratic People's Republic of Korea]] for [[North Korea]].}}
+|[[North Korea|The Democratic People's Republic of Korea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KP|{{mono|KP}}]]
+|align=center|[[ISO 3166-1 alpha-3#PRK|{{mono|PRK}}]]
+|align=center|[[ISO 3166-1 numeric#408|{{mono|408}}]]
+|align=center|[[ISO 3166-2:KP]]
+|align=center|[[.kp]]
+|-style="background-color:white;"
+|id=KOR2 data-sort-value=KOR2|{{flagicon|South Korea}}&nbsp;[[South Korea|Korea (the Republic of)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[South Korea|The Republic of Korea]] for [[South Korea]].}}
+|[[South Korea|The Republic of Korea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KR|{{mono|KR}}]]
+|align=center|[[ISO 3166-1 alpha-3#KOR|{{mono|KOR}}]]
+|align=center|[[ISO 3166-1 numeric#410|{{mono|410}}]]
+|align=center|[[ISO 3166-2:KR]]
+|align=center|[[.kr]]
+|-style="background-color:white;"
+|id=KUWA|{{flagicon|Kuwait}}&nbsp;[[Kuwait]]
+|[[Kuwait|The State of Kuwait]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KW|{{mono|KW}}]]
+|align=center|[[ISO 3166-1 alpha-3#KWT|{{mono|KWT}}]]
+|align=center|[[ISO 3166-1 numeric#414|{{mono|414}}]]
+|align=center|[[ISO 3166-2:KW]]
+|align=center|[[.kw]]
+|-style="background-color:white;"
+|id=KYRG|{{flagicon|Kyrgyzstan}}&nbsp;[[Kyrgyzstan]]
+|[[Kyrgyzstan|The Kyrgyz Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KG|{{mono|KG}}]]
+|align=center|[[ISO 3166-1 alpha-3#KGZ|{{mono|KGZ}}]]
+|align=center|[[ISO 3166-1 numeric#417|{{mono|417}}]]
+|align=center|[[ISO 3166-2:KG]]
+|align=center|[[.kg]]
+|-style="background-color:white;"
+|id=LAOS|{{flagicon|Laos}}&nbsp;[[Laos|Lao People's Democratic Republic (the)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[Laos|The Lao People's Democratic Republic]] for [[Laos]].}}
+|[[Laos|The Lao People's Democratic Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LA|{{mono|LA}}]]
+|align=center|[[ISO 3166-1 alpha-3#LAO|{{mono|LAO}}]]
+|align=center|[[ISO 3166-1 numeric#418|{{mono|418}}]]
+|align=center|[[ISO 3166-2:LA]]
+|align=center|[[.la]]
+|-style="background-color:white;"
+|id=LATV|{{flagicon|Latvia}}&nbsp;[[Latvia]]
+|[[Latvia|The Republic of Latvia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LV|{{mono|LV}}]]
+|align=center|[[ISO 3166-1 alpha-3#LVA|{{mono|LVA}}]]
+|align=center|[[ISO 3166-1 numeric#428|{{mono|428}}]]
+|align=center|[[ISO 3166-2:LV]]
+|align=center|[[.lv]]
+|-style="background-color:white;"
+|id=LEBA|{{flagicon|Lebanon}}&nbsp;[[Lebanon]]
+|[[Lebanon|The Lebanese Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LB|{{mono|LB}}]]
+|align=center|[[ISO 3166-1 alpha-3#LBN|{{mono|LBN}}]]
+|align=center|[[ISO 3166-1 numeric#422|{{mono|422}}]]
+|align=center|[[ISO 3166-2:LB]]
+|align=center|[[.lb]]
+|-style="background-color:white;"
+|id=LESO|{{flagicon|Lesotho}}&nbsp;[[Lesotho]]
+|[[Lesotho|The Kingdom of Lesotho]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LS|{{mono|LS}}]]
+|align=center|[[ISO 3166-1 alpha-3#LSO|{{mono|LSO}}]]
+|align=center|[[ISO 3166-1 numeric#426|{{mono|426}}]]
+|align=center|[[ISO 3166-2:LS]]
+|align=center|[[.ls]]
+|-style="background-color:white;"
+|id=LIBE|{{flagicon|Liberia}}&nbsp;[[Liberia]]
+|[[Liberia|The Republic of Liberia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LR|{{mono|LR}}]]
+|align=center|[[ISO 3166-1 alpha-3#LBR|{{mono|LBR}}]]
+|align=center|[[ISO 3166-1 numeric#430|{{mono|430}}]]
+|align=center|[[ISO 3166-2:LR]]
+|align=center|[[.lr]]
+|-style="background-color:white;"
+|id=LIBY|{{flagicon|Libya}}&nbsp;[[Libya]]
+|[[Libya|The State of Libya]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LY|{{mono|LY}}]]
+|align=center|[[ISO 3166-1 alpha-3#LBY|{{mono|LBY}}]]
+|align=center|[[ISO 3166-1 numeric#434|{{mono|434}}]]
+|align=center|[[ISO 3166-2:LY]]
+|align=center|[[.ly]]
+|-style="background-color:white;"
+|id=LIEC|{{flagicon|Liechtenstein}}&nbsp;[[Liechtenstein]]
+|[[Liechtenstein|The Principality of Liechtenstein]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LI|{{mono|LI}}]]
+|align=center|[[ISO 3166-1 alpha-3#LIE|{{mono|LIE}}]]
+|align=center|[[ISO 3166-1 numeric#438|{{mono|438}}]]
+|align=center|[[ISO 3166-2:LI]]
+|align=center|[[.li]]
+|-style="background-color:white;"
+|id=LITH|{{flagicon|Lithuania}}&nbsp;[[Lithuania]]
+|[[Lithuania|The Republic of Lithuania]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LT|{{mono|LT}}]]
+|align=center|[[ISO 3166-1 alpha-3#LTU|{{mono|LTU}}]]
+|align=center|[[ISO 3166-1 numeric#440|{{mono|440}}]]
+|align=center|[[ISO 3166-2:LT]]
+|align=center|[[.lt]]
+|-style="background-color:white;"
+|id=LUXE|{{flagicon|Luxembourg}}&nbsp;[[Luxembourg]]
+|[[Luxembourg|The Grand Duchy of Luxembourg]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LU|{{mono|LU}}]]
+|align=center|[[ISO 3166-1 alpha-3#LUX|{{mono|LUX}}]]
+|align=center|[[ISO 3166-1 numeric#442|{{mono|442}}]]
+|align=center|[[ISO 3166-2:LU]]
+|align=center|[[.lu]]
+|-
+|id=MACA|{{flagicon|Macao}}&nbsp;[[Macau|Macao]] {{efn|[[Macau|Macao]] may be spelt either [[Macau|Macao]] or [[Macau]].}}
+|[[Macau|The Macao Special Administrative Region of China]]<ref>{{Cite web|url=https://www.iso.org/obp/ui/#iso:code:3166:MO|access-date=2021-06-11|website=www.iso.org}}</ref>
+|align=center|[[#CHI2|China]]
+|align=center|[[ISO 3166-1 alpha-2#MO|{{mono|MO}}]]
+|align=center|[[ISO 3166-1 alpha-3#MAC|{{mono|MAC}}]]
+|align=center|[[ISO 3166-1 numeric#446|{{mono|446}}]]
+|align=center|[[ISO 3166-2:MO]]
+|align=center|[[.mo]]
+|-style="background-color:white;"
+|id=MACE data-sort-value=MACE|{{flagicon|North Macedonia}}&nbsp;[[North Macedonia]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) used ''The former Yugoslav Republic of Macedonia'' as the country name prior to February 2019 when the [[Macedonia naming dispute|naming dispute]] with [[Greece]] was settled.}}
+|[[North Macedonia|The Republic of North Macedonia]]<ref>{{Cite news|url=https://www.bbc.com/news/world-europe-47002865|title=Greece vote settles 27-year Macedonia row|date=25 January 2019|access-date=14 February 2019}}</ref>
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MK|{{mono|MK}}]]
+|align=center|[[ISO 3166-1 alpha-3#MKD|{{mono|MKD}}]]
+|align=center|[[ISO 3166-1 numeric#807|{{mono|807}}]]
+|align=center|[[ISO 3166-2:MK]]
+|align=center|[[.mk]]
+|-style="background-color:white;"
+|id=MADA|{{flagicon|Madagascar}}&nbsp;[[Madagascar]]
+|[[Madagascar|The Republic of Madagascar]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MG|{{mono|MG}}]]
+|align=center|[[ISO 3166-1 alpha-3#MDG|{{mono|MDG}}]]
+|align=center|[[ISO 3166-1 numeric#450|{{mono|450}}]]
+|align=center|[[ISO 3166-2:MG]]
+|align=center|[[.mg]]
+|-style="background-color:white;"
+|id=MAL1|{{flagicon|Malawi}}&nbsp;[[Malawi]]
+|[[Malawi|The Republic of Malawi]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MW|{{mono|MW}}]]
+|align=center|[[ISO 3166-1 alpha-3#MWI|{{mono|MWI}}]]
+|align=center|[[ISO 3166-1 numeric#454|{{mono|454}}]]
+|align=center|[[ISO 3166-2:MW]]
+|align=center|[[.mw]]
+|-style="background-color:white;"
+|id=MAL2|{{flagicon|Malaysia}}&nbsp;[[Malaysia]]
+|[[Malaysia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MY|{{mono|MY}}]]
+|align=center|[[ISO 3166-1 alpha-3#MYS|{{mono|MYS}}]]
+|align=center|[[ISO 3166-1 numeric#458|{{mono|458}}]]
+|align=center|[[ISO 3166-2:MY]]
+|align=center|[[.my]]
+|-style="background-color:white;"
+|id=MAL3|{{flagicon|Maldives}}&nbsp;[[Maldives]]
+|[[Maldives|The Republic of Maldives]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MV|{{mono|MV}}]]
+|align=center|[[ISO 3166-1 alpha-3#MDV|{{mono|MDV}}]]
+|align=center|[[ISO 3166-1 numeric#462|{{mono|462}}]]
+|align=center|[[ISO 3166-2:MV]]
+|align=center|[[.mv]]
+|-style="background-color:white;"
+|id=MAL4|{{flagicon|Mali}}&nbsp;[[Mali]]
+|[[Mali|The Republic of Mali]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ML|{{mono|ML}}]]
+|align=center|[[ISO 3166-1 alpha-3#MLI|{{mono|MLI}}]]
+|align=center|[[ISO 3166-1 numeric#466|{{mono|466}}]]
+|align=center|[[ISO 3166-2:ML]]
+|align=center|[[.ml]]
+|-style="background-color:white;"
+|id=MAL5|{{flagicon|Malta}}&nbsp;[[Malta]]
+|[[Malta|The Republic of Malta]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MT|{{mono|MT}}]]
+|align=center|[[ISO 3166-1 alpha-3#MLT|{{mono|MLT}}]]
+|align=center|[[ISO 3166-1 numeric#470|{{mono|470}}]]
+|align=center|[[ISO 3166-2:MT]]
+|align=center|[[.mt]]
+|-style="background-color:white;"
+|id=MARS|{{flagicon|Marshall Islands}}&nbsp;[[Marshall Islands|Marshall Islands (the)]]
+|[[Marshall Islands|The Republic of the Marshall Islands]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MH|{{mono|MH}}]]
+|align=center|[[ISO 3166-1 alpha-3#MHL|{{mono|MHL}}]]
+|align=center|[[ISO 3166-1 numeric#584|{{mono|584}}]]
+|align=center|[[ISO 3166-2:MH]]
+|align=center|[[.mh]]
+|-
+|id=MART|{{flagicon|Martinique|local}}&nbsp;[[Martinique]]
+|[[Martinique]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#MQ|{{mono|MQ}}]]
+|align=center|[[ISO 3166-1 alpha-3#MTQ|{{mono|MTQ}}]]
+|align=center|[[ISO 3166-1 numeric#474|{{mono|474}}]]
+|align=center|[[ISO 3166-2:MQ]]
+|align=center|[[.mq]]
+|-style="background-color:white;"
+|id=MAU1|{{flagicon|Mauritania}}&nbsp;[[Mauritania]]
+|[[Mauritania|The Islamic Republic of Mauritania]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MR|{{mono|MR}}]]
+|align=center|[[ISO 3166-1 alpha-3#MRT|{{mono|MRT}}]]
+|align=center|[[ISO 3166-1 numeric#478|{{mono|478}}]]
+|align=center|[[ISO 3166-2:MR]]
+|align=center|[[.mr]]
+|-style="background-color:white;"
+|id=MAU2|{{flagicon|Mauritius}}&nbsp;[[Mauritius]]
+|[[Mauritius|The Republic of Mauritius]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MU|{{mono|MU}}]]
+|align=center|[[ISO 3166-1 alpha-3#MUS|{{mono|MUS}}]]
+|align=center|[[ISO 3166-1 numeric#480|{{mono|480}}]]
+|align=center|[[ISO 3166-2:MU]]
+|align=center|[[.mu]]
+|-
+|id=MAYO|{{flagicon|Mayotte|local}}&nbsp;[[Mayotte]]
+|[[Mayotte|The Department of Mayotte]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#YT|{{mono|YT}}]]
+|align=center|[[ISO 3166-1 alpha-3#MYT|{{mono|MYT}}]]
+|align=center|[[ISO 3166-1 numeric#175|{{mono|175}}]]
+|align=center|[[ISO 3166-2:YT]]
+|align=center|[[.yt]]
+|-style="background-color:white;"
+|id=MEXI|{{flagicon|Mexico}}&nbsp;[[Mexico]]
+|[[Mexico|The United Mexican States]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MX|{{mono|MX}}]]
+|align=center|[[ISO 3166-1 alpha-3#MEX|{{mono|MEX}}]]
+|align=center|[[ISO 3166-1 numeric#484|{{mono|484}}]]
+|align=center|[[ISO 3166-2:MX]]
+|align=center|[[.mx]]
+|-style="background-color:white;"
+|id=MICR data-sort-value=MICR|{{flagicon|Federated States of Micronesia}}&nbsp;[[Federated States of Micronesia|Micronesia (Federated States of)]]
+|[[Federated States of Micronesia|The Federated States of Micronesia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#FM|{{mono|FM}}]]
+|align=center|[[ISO 3166-1 alpha-3#FSM|{{mono|FSM}}]]
+|align=center|[[ISO 3166-1 numeric#583|{{mono|583}}]]
+|align=center|[[ISO 3166-2:FM]]
+|align=center|[[.fm]]
+|-style="background-color:white;"
+|id=MOLD|{{flagicon|Moldova}}&nbsp;[[Moldova|Moldova (the Republic of)]]
+|[[Moldova|The Republic of Moldova]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MD|{{mono|MD}}]]
+|align=center|[[ISO 3166-1 alpha-3#MDA|{{mono|MDA}}]]
+|align=center|[[ISO 3166-1 numeric#498|{{mono|498}}]]
+|align=center|[[ISO 3166-2:MD]]
+|align=center|[[.md]]
+|-style="background-color:white;"
+|id=MON1|{{flagicon|Monaco}}&nbsp;[[Monaco]]
+|[[Monaco|The Principality of Monaco]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MC|{{mono|MC}}]]
+|align=center|[[ISO 3166-1 alpha-3#MCO|{{mono|MCO}}]]
+|align=center|[[ISO 3166-1 numeric#492|{{mono|492}}]]
+|align=center|[[ISO 3166-2:MC]]
+|align=center|[[.mc]]
+|-style="background-color:white;"
+|id=MON2|{{flagicon|Mongolia}}&nbsp;[[Mongolia]]
+|[[Mongolia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MN|{{mono|MN}}]]
+|align=center|[[ISO 3166-1 alpha-3#MNG|{{mono|MNG}}]]
+|align=center|[[ISO 3166-1 numeric#496|{{mono|496}}]]
+|align=center|[[ISO 3166-2:MN]]
+|align=center|[[.mn]]
+|-style="background-color:white;"
+|id=MON3|{{flagicon|Montenegro}}&nbsp;[[Montenegro]]
+|[[Montenegro]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ME|{{mono|ME}}]]
+|align=center|[[ISO 3166-1 alpha-3#MNE|{{mono|MNE}}]]
+|align=center|[[ISO 3166-1 numeric#499|{{mono|499}}]]
+|align=center|[[ISO 3166-2:ME]]
+|align=center|[[.me]]
+|-
+|id=MON4|{{flagicon|Montserrat}}&nbsp;[[Montserrat]]
+|[[Montserrat]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#MS|{{mono|MS}}]]
+|align=center|[[ISO 3166-1 alpha-3#MSR|{{mono|MSR}}]]
+|align=center|[[ISO 3166-1 numeric#500|{{mono|500}}]]
+|align=center|[[ISO 3166-2:MS]]
+|align=center|[[.ms]]
+|-style="background-color:white;"
+|id=MORO|{{flagicon|Morocco}}&nbsp;[[Morocco]]
+|[[Morocco|The Kingdom of Morocco]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MA|{{mono|MA}}]]
+|align=center|[[ISO 3166-1 alpha-3#MAR|{{mono|MAR}}]]
+|align=center|[[ISO 3166-1 numeric#504|{{mono|504}}]]
+|align=center|[[ISO 3166-2:MA]]
+|align=center|[[.ma]]
+|-style="background-color:white;"
+|id=MOZA|{{flagicon|Mozambique}}&nbsp;[[Mozambique]]
+|[[Mozambique|The Republic of Mozambique]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MZ|{{mono|MZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#MOZ|{{mono|MOZ}}]]
+|align=center|[[ISO 3166-1 numeric#508|{{mono|508}}]]
+|align=center|[[ISO 3166-2:MZ]]
+|align=center|[[.mz]]
+|-style="background-color:white;"
+|id=MYAN|{{flagicon|Myanmar}}&nbsp;[[Myanmar]] {{efn|[[Myanmar]] was previously known as [[Myanmar|Burma]].}}
+|[[Myanmar|The Republic of the Union of Myanmar]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#MM|{{mono|MM}}]]
+|align=center|[[ISO 3166-1 alpha-3#MMR|{{mono|MMR}}]]
+|align=center|[[ISO 3166-1 numeric#104|{{mono|104}}]]
+|align=center|[[ISO 3166-2:MM]]
+|align=center|[[.mm]]
+|-style="background-color:white;"
+|id=NAMI|{{flagicon|Namibia}}&nbsp;[[Namibia]]
+|[[Namibia|The Republic of Namibia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NA|{{mono|NA}}]]
+|align=center|[[ISO 3166-1 alpha-3#NAM|{{mono|NAM}}]]
+|align=center|[[ISO 3166-1 numeric#516|{{mono|516}}]]
+|align=center|[[ISO 3166-2:NA]]
+|align=center|[[.na]]
+|-style="background-color:white;"
+|id=NAUR|{{flagicon|Nauru}}&nbsp;[[Nauru]]
+|[[Nauru|The Republic of Nauru]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NR|{{mono|NR}}]]
+|align=center|[[ISO 3166-1 alpha-3#NRU|{{mono|NRU}}]]
+|align=center|[[ISO 3166-1 numeric#520|{{mono|520}}]]
+|align=center|[[ISO 3166-2:NR]]
+|align=center|[[.nr]]
+|-style="background-color:white;"
+|id=NEPA|{{flagicon|Nepal}}&nbsp;[[Nepal]]
+|[[Nepal|The Federal Democratic Republic of Nepal]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NP|{{mono|NP}}]]
+|align=center|[[ISO 3166-1 alpha-3#NPL|{{mono|NPL}}]]
+|align=center|[[ISO 3166-1 numeric#524|{{mono|524}}]]
+|align=center|[[ISO 3166-2:NP]]
+|align=center|[[.np]]
+|-style="background-color:white;"
+|id=NETH data-sort-value=NETH|{{flagicon|Netherlands}}&nbsp;[[Kingdom of the Netherlands|Netherlands (the)]]
+|[[Kingdom of the Netherlands|The Kingdom of the Netherlands]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NL|{{mono|NL}}]]
+|align=center|[[ISO 3166-1 alpha-3#NLD|{{mono|NLD}}]]
+|align=center|[[ISO 3166-1 numeric#528|{{mono|528}}]]
+|align=center|[[ISO 3166-2:NL]]
+|align=center|[[.nl]]
+|-
+|id=NEWC|{{flagicon|New Caledonia|local}}&nbsp;[[New Caledonia]]
+|[[New Caledonia]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#NC|{{mono|NC}}]]
+|align=center|[[ISO 3166-1 alpha-3#NCL|{{mono|NCL}}]]
+|align=center|[[ISO 3166-1 numeric#540|{{mono|540}}]]
+|align=center|[[ISO 3166-2:NC]]
+|align=center|[[.nc]]
+|-style="background-color:white;"
+|id=NEWZ|{{flagicon|New Zealand}}&nbsp;[[New Zealand]]
+|[[New Zealand]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NZ|{{mono|NZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#NZL|{{mono|NZL}}]]
+|align=center|[[ISO 3166-1 numeric#554|{{mono|554}}]]
+|align=center|[[ISO 3166-2:NZ]]
+|align=center|[[.nz]]
+|-style="background-color:white;"
+|id=NICA|{{flagicon|Nicaragua}}&nbsp;[[Nicaragua]]
+|[[Nicaragua|The Republic of Nicaragua]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NI|{{mono|NI}}]]
+|align=center|[[ISO 3166-1 alpha-3#NIC|{{mono|NIC}}]]
+|align=center|[[ISO 3166-1 numeric#558|{{mono|558}}]]
+|align=center|[[ISO 3166-2:NI]]
+|align=center|[[.ni]]
+|-style="background-color:white;"
+|id=NIG1 data-sort-value=NIG1|{{flagicon|Niger}}&nbsp;[[Niger|Niger (the)]]
+|[[Niger|The Republic of the Niger]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NE|{{mono|NE}}]]
+|align=center|[[ISO 3166-1 alpha-3#NER|{{mono|NER}}]]
+|align=center|[[ISO 3166-1 numeric#562|{{mono|562}}]]
+|align=center|[[ISO 3166-2:NE]]
+|align=center|[[.ne]]
+|-style="background-color:white;"
+|id=NIG2 data-sort-value=NIG2|{{flagicon|Nigeria}}&nbsp;[[Nigeria]]
+|[[Nigeria|The Federal Republic of Nigeria]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NG|{{mono|NG}}]]
+|align=center|[[ISO 3166-1 alpha-3#NGA|{{mono|NGA}}]]
+|align=center|[[ISO 3166-1 numeric#566|{{mono|566}}]]
+|align=center|[[ISO 3166-2:NG]]
+|align=center|[[.ng]]
+|-
+|id=NIUE|{{flagicon|Niue}}&nbsp;[[Niue]]
+|[[Niue]]
+|align=center|[[#NEWZ|New Zealand]]
+|align=center|[[ISO 3166-1 alpha-2#NU|{{mono|NU}}]]
+|align=center|[[ISO 3166-1 alpha-3#NIU|{{mono|NIU}}]]
+|align=center|[[ISO 3166-1 numeric#570|{{mono|570}}]]
+|align=center|[[ISO 3166-2:NU]]
+|align=center|[[.nu]]
+|-
+|id=NOR1 data-sort-value=NOR1|{{flagicon|Norfolk Island}}&nbsp;[[Norfolk Island]]
+|[[Norfolk Island|The Territory of Norfolk Island]]
+|align=center|[[#AUS1|Australia]]
+|align=center|[[ISO 3166-1 alpha-2#NF|{{mono|NF}}]]
+|align=center|[[ISO 3166-1 alpha-3#NFK|{{mono|NFK}}]]
+|align=center|[[ISO 3166-1 numeric#574|{{mono|574}}]]
+|align=center|[[ISO 3166-2:NF]]
+|align=center|[[.nf]]
+|-style="background-color:white;"
+|id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea]] – See [[#KOR1|Korea, The Democratic People's Republic of]].
+|-
+|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – See [[#UNI2|United Kingdom, The]].
+|-
+|id=NOR4 data-sort-value=NOR4|{{flagicon|Northern Mariana Islands}}&nbsp;[[Northern Mariana Islands|Northern Mariana Islands (the)]]
+|[[Northern Mariana Islands|The Commonwealth of the Northern Mariana Islands]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#MP|{{mono|MP}}]]
+|align=center|[[ISO 3166-1 alpha-3#MNP|{{mono|MNP}}]]
+|align=center|[[ISO 3166-1 numeric#580|{{mono|580}}]]
+|align=center|[[ISO 3166-2:MP]]
+|align=center|[[.mp]]
+|-style="background-color:white;"
+|id=NOR5 data-sort-value=NOR5|{{flagicon|Norway}}&nbsp;[[Norway]]
+|[[Norway|The Kingdom of Norway]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#NO|{{mono|NO}}]]
+|align=center|[[ISO 3166-1 alpha-3#NOR|{{mono|NOR}}]]
+|align=center|[[ISO 3166-1 numeric#578|{{mono|578}}]]
+|align=center|[[ISO 3166-2:NO]]
+|align=center|[[.no]]
+|-style="background-color:white;"
+|id=OMAN|{{flagicon|Oman}}&nbsp;[[Oman]]
+|[[Oman|The Sultanate of Oman]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#OM|{{mono|OM}}]]
+|align=center|[[ISO 3166-1 alpha-3#OMN|{{mono|OMN}}]]
+|align=center|[[ISO 3166-1 numeric#512|{{mono|512}}]]
+|align=center|[[ISO 3166-2:OM]]
+|align=center|[[.om]]
+|-style="background-color:white;"
+|id=PAKI|{{flagicon|Pakistan}}&nbsp;[[Pakistan]]
+|[[Pakistan|The Islamic Republic of Pakistan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PK|{{mono|PK}}]]
+|align=center|[[ISO 3166-1 alpha-3#PAK|{{mono|PAK}}]]
+|align=center|[[ISO 3166-1 numeric#586|{{mono|586}}]]
+|align=center|[[ISO 3166-2:PK]]
+|align=center|[[.pk]]
+|-style="background-color:white;"
+|id=PAL1 data-sort-value=PAL1|{{flagicon|Palau}}&nbsp;[[Palau]]
+|[[Palau|The Republic of Palau]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PW|{{mono|PW}}]]
+|align=center|[[ISO 3166-1 alpha-3#PLW|{{mono|PLW}}]]
+|align=center|[[ISO 3166-1 numeric#585|{{mono|585}}]]
+|align=center|[[ISO 3166-2:PW]]
+|align=center|[[.pw]]
+|-
+|id=PAL2 data-sort-value=PAL2|{{flagicon|State of Palestine}}&nbsp;[[State of Palestine|Palestine, State of]]
+|[[State of Palestine|The State of Palestine]]
+|align=center|UN observer state
+|align=center|[[ISO 3166-1 alpha-2#PS|{{mono|PS}}]]
+|align=center|[[ISO 3166-1 alpha-3#PSE|{{mono|PSE}}]]
+|align=center|[[ISO 3166-1 numeric#275|{{mono|275}}]]
+|align=center|[[ISO 3166-2:PS]]
+|align=center|[[.ps]]
+|-style="background-color:white;"
+|id=PANA|{{flagicon|Panama}}&nbsp;[[Panama]]
+|[[Panama|The Republic of Panamá]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PA|{{mono|PA}}]]
+|align=center|[[ISO 3166-1 alpha-3#PAN|{{mono|PAN}}]]
+|align=center|[[ISO 3166-1 numeric#591|{{mono|591}}]]
+|align=center|[[ISO 3166-2:PA]]
+|align=center|[[.pa]]
+|-style="background-color:white;"
+|id=PAPU|{{flagicon|Papua New Guinea}}&nbsp;[[Papua New Guinea]]
+|[[Papua New Guinea|The Independent State of Papua New Guinea]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PG|{{mono|PG}}]]
+|align=center|[[ISO 3166-1 alpha-3#PNG|{{mono|PNG}}]]
+|align=center|[[ISO 3166-1 numeric#598|{{mono|598}}]]
+|align=center|[[ISO 3166-2:PG]]
+|align=center|[[.pg]]
+|-style="background-color:white;"
+|id=PARA|{{flagicon|Paraguay}}&nbsp;[[Paraguay]]
+|[[Paraguay|The Republic of Paraguay]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PY|{{mono|PY}}]]
+|align=center|[[ISO 3166-1 alpha-3#PRY|{{mono|PRY}}]]
+|align=center|[[ISO 3166-1 numeric#600|{{mono|600}}]]
+|align=center|[[ISO 3166-2:PY]]
+|align=center|[[.py]]
+|-style="background-color:white;"
+|id=PEOP data-sort-value=PEOP colspan=8|{{flagicon|China}}&nbsp;[[China|People's Republic of China]] – See [[#CHI2|China]].
+|-style="background-color:white;"
+|id=PERU|{{flagicon|Peru}}&nbsp;[[Peru]]
+|[[Peru|The Republic of Perú]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PE|{{mono|PE}}]]
+|align=center|[[ISO 3166-1 alpha-3#PER|{{mono|PER}}]]
+|align=center|[[ISO 3166-1 numeric#604|{{mono|604}}]]
+|align=center|[[ISO 3166-2:PE]]
+|align=center|[[.pe]]
+|-style="background-color:white;"
+|id=PHIL|{{flagicon|Philippines}}&nbsp;[[Philippines|Philippines (the)]]
+|[[Philippines|The Republic of the Philippines]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PH|{{mono|PH}}]]
+|align=center|[[ISO 3166-1 alpha-3#PHL|{{mono|PHL}}]]
+|align=center|[[ISO 3166-1 numeric#608|{{mono|608}}]]
+|align=center|[[ISO 3166-2:PH]]
+|align=center|[[.ph]]
+|-
+|id=PITC|{{flagicon|Pitcairn Islands}}&nbsp;[[Pitcairn Islands|Pitcairn]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the [[United Nations]] ([[United Nations|UN]]) country name [[Pitcairn Islands|Pitcairn]] for  the [[Pitcairn Islands|Pitcairn, Henderson, Ducie and Oeno Islands]].}}
+|[[Pitcairn Islands|The Pitcairn, Henderson, Ducie and Oeno Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#PN|{{mono|PN}}]]
+|align=center|[[ISO 3166-1 alpha-3#PCN|{{mono|PCN}}]]
+|align=center|[[ISO 3166-1 numeric#612|{{mono|612}}]]
+|align=center|[[ISO 3166-2:PN]]
+|align=center|[[.pn]]
+|-style="background-color:white;"
+|id=POLA|{{flagicon|Poland}}&nbsp;[[Poland]]
+|[[Poland|The Republic of Poland]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PL|{{mono|PL}}]]
+|align=center|[[ISO 3166-1 alpha-3#POL|{{mono|POL}}]]
+|align=center|[[ISO 3166-1 numeric#616|{{mono|616}}]]
+|align=center|[[ISO 3166-2:PL]]
+|align=center|[[.pl]]
+|-style="background-color:white;"
+|id=PORT|{{flagicon|Portugal}}&nbsp;[[Portugal]]
+|[[Portugal|The Portuguese Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#PT|{{mono|PT}}]]
+|align=center|[[ISO 3166-1 alpha-3#PRT|{{mono|PRT}}]]
+|align=center|[[ISO 3166-1 numeric#620|{{mono|620}}]]
+|align=center|[[ISO 3166-2:PT]]
+|align=center|[[.pt]]
+|-
+|id=PUER|{{flagicon|Puerto Rico}}&nbsp;[[Puerto Rico]]
+|[[Puerto Rico|The Commonwealth of Puerto Rico]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#PR|{{mono|PR}}]]
+|align=center|[[ISO 3166-1 alpha-3#PRI|{{mono|PRI}}]]
+|align=center|[[ISO 3166-1 numeric#630|{{mono|630}}]]
+|align=center|[[ISO 3166-2:PR]]
+|align=center|[[.pr]]
+|-style="background-color:white;"
+|id=QATA|{{flagicon|Qatar}}&nbsp;[[Qatar]]
+|[[Qatar|The State of Qatar]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#QA|{{mono|QA}}]]
+|align=center|[[ISO 3166-1 alpha-3#QAT|{{mono|QAT}}]]
+|align=center|[[ISO 3166-1 numeric#634|{{mono|634}}]]
+|align=center|[[ISO 3166-2:QA]]
+|align=center|[[.qa]]
+|-
+|id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – See [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|-style="background-color:white;"
+|id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – See [[#KOR2|Korea, The Republic of]].
+|-style="background-color:white;"
+|id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republic of the Congo}}&nbsp;[[Republic of the Congo]] – See [[#CON2|Congo, The]].
+|-
+|id=REUN data-sort-value=REUN|{{flagicon|Réunion|local}}&nbsp;[[Réunion]]
+|data-sort-value=REUN|[[Réunion]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#RE|{{mono|RE}}]]
+|align=center|[[ISO 3166-1 alpha-3#REU|{{mono|REU}}]]
+|align=center|[[ISO 3166-1 numeric#638|{{mono|638}}]]
+|align=center|[[ISO 3166-2:RE]]
+|align=center|[[.re]]
+|-style="background-color:white;"
+|id=ROMA|{{flagicon|Romania}}&nbsp;[[Romania]]
+|[[Romania]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#RO|{{mono|RO}}]]
+|align=center|[[ISO 3166-1 alpha-3#ROU|{{mono|ROU}}]]
+|align=center|[[ISO 3166-1 numeric#642|{{mono|642}}]]
+|align=center|[[ISO 3166-2:RO]]
+|align=center|[[.ro]]
+|-style="background-color:white;"
+|id=RUSS|{{flagicon|Russia}}&nbsp;[[Russia|Russian Federation (the)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[Russia|The Russian Federation]] for [[Russia]].}}
+|[[Russia|The Russian Federation]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#RU|{{mono|RU}}]]
+|align=center|[[ISO 3166-1 alpha-3#RUS|{{mono|RUS}}]]
+|align=center|[[ISO 3166-1 numeric#643|{{mono|643}}]]
+|align=center|[[ISO 3166-2:RU]]
+|align=center|[[.ru]]
+|-style="background-color:white;"
+|id=RWAN|{{flagicon|Rwanda}}&nbsp;[[Rwanda]]
+|[[Rwanda|The Republic of Rwanda]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#RW|{{mono|RW}}]]
+|align=center|[[ISO 3166-1 alpha-3#RWA|{{mono|RWA}}]]
+|align=center|[[ISO 3166-1 numeric#646|{{mono|646}}]]
+|align=center|[[ISO 3166-2:RW]]
+|align=center|[[.rw]]
+|-
+|id=SABA data-sort-value=SABA colspan=8|{{flagicon|Saba}}&nbsp;[[Saba]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|-
+|id=SAHR colspan=8|{{flagicon|Sahrawi Arab Democratic Republic}}&nbsp;[[Sahrawi Arab Democratic Republic]] – See [[#WEST|Western Sahara]].
+|-
+|id=SAI1 data-sort-value=SAI1|{{flagicon|Saint Barthélemy|local}}&nbsp;[[Saint Barthélemy]]
+|[[Saint Barthélemy|The Collectivity of Saint-Barthélemy]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#BL|{{mono|BL}}]]
+|align=center|[[ISO 3166-1 alpha-3#BLM|{{mono|BLM}}]]
+|align=center|[[ISO 3166-1 numeric#652|{{mono|652}}]]
+|align=center|[[ISO 3166-2:BL]]
+|align=center|[[.bl]]
+|-
+|id=SAI2|{{flagicon|Saint Helena}}&nbsp;[[Saint Helena]]<br/>{{flagicon|Ascension Island}}&nbsp;[[Ascension Island]]<br/>{{flagicon|Tristan da Cunha}}&nbsp;[[Tristan da Cunha]]
+|[[Saint Helena, Ascension and Tristan da Cunha]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#SH|{{mono|SH}}]]
+|align=center|[[ISO 3166-1 alpha-3#SHN|{{mono|SHN}}]]
+|align=center|[[ISO 3166-1 numeric#654|{{mono|654}}]]
+|align=center|[[ISO 3166-2:SH]]
+|align=center|[[.sh]]
+|-style="background-color:white;"
+|id=SAI3 data-sort-value=SAI3|{{flagicon|Saint Kitts and Nevis}}&nbsp;[[Saint Kitts and Nevis]]
+|[[Saint Kitts and Nevis]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#KN|{{mono|KN}}]]
+|align=center|[[ISO 3166-1 alpha-3#KNA|{{mono|KNA}}]]
+|align=center|[[ISO 3166-1 numeric#659|{{mono|659}}]]
+|align=center|[[ISO 3166-2:KN]]
+|align=center|[[.kn]]
+|-style="background-color:white;"
+|id=SAI4 data-sort-value=SAI4|{{flagicon|Saint Lucia}}&nbsp;[[Saint Lucia]]
+|[[Saint Lucia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LC|{{mono|LC}}]]
+|align=center|[[ISO 3166-1 alpha-3#LCA|{{mono|LCA}}]]
+|align=center|[[ISO 3166-1 numeric#662|{{mono|662}}]]
+|align=center|[[ISO 3166-2:LC]]
+|align=center|[[.lc]]
+|-
+|id=SAI5 data-sort-value=SAI5|{{flagicon|Collectivity of Saint Martin|local}}&nbsp;[[Collectivity of Saint Martin|Saint Martin (French part)]]
+|[[Collectivity of Saint Martin|The Collectivity of Saint-Martin]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#MF|{{mono|MF}}]]
+|align=center|[[ISO 3166-1 alpha-3#MAF|{{mono|MAF}}]]
+|align=center|[[ISO 3166-1 numeric#663|{{mono|663}}]]
+|align=center|[[ISO 3166-2:MF]]
+|align=center|[[.mf]]
+|-
+|id=SAI6 data-sort-value=SAI6|{{flagicon|Saint Pierre and Miquelon|local}}&nbsp;[[Saint Pierre and Miquelon]]
+|[[Saint Pierre and Miquelon|The Overseas Collectivity of Saint-Pierre and Miquelon]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#PM|{{mono|PM}}]]
+|align=center|[[ISO 3166-1 alpha-3#SPM|{{mono|SPM}}]]
+|align=center|[[ISO 3166-1 numeric#666|{{mono|666}}]]
+|align=center|[[ISO 3166-2:PM]]
+|align=center|[[.pm]]
+|-style="background-color:white;"
+|id=SAI7 data-sort-value=SAI7|{{flagicon|Saint Vincent and the Grenadines}}&nbsp;[[Saint Vincent and the Grenadines]]
+|[[Saint Vincent and the Grenadines]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#VC|{{mono|VC}}]]
+|align=center|[[ISO 3166-1 alpha-3#VCT|{{mono|VCT}}]]
+|align=center|[[ISO 3166-1 numeric#670|{{mono|670}}]]
+|align=center|[[ISO 3166-2:VC]]
+|align=center|[[.vc]]
+|-style="background-color:white;"
+|id=SAMO|{{flagicon|Samoa}}&nbsp;[[Samoa]]
+|[[Samoa|The Independent State of Samoa]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#WS|{{mono|WS}}]]
+|align=center|[[ISO 3166-1 alpha-3#WSM|{{mono|WSM}}]]
+|align=center|[[ISO 3166-1 numeric#882|{{mono|882}}]]
+|align=center|[[ISO 3166-2:WS]]
+|align=center|[[.ws]]
+|-style="background-color:white;"
+|id=SAN |{{flagicon|San Marino}}&nbsp;[[San Marino]]
+|[[San Marino|The Republic of San Marino]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SM|{{mono|SM}}]]
+|align=center|[[ISO 3166-1 alpha-3#SMR|{{mono|SMR}}]]
+|align=center|[[ISO 3166-1 numeric#674|{{mono|674}}]]
+|align=center|[[ISO 3166-2:SM]]
+|align=center|[[.sm]]
+|-style="background-color:white;"
+|id=SAOT data-sort-value=SAOT|{{flagicon|São Tomé and Príncipe}}&nbsp;[[São Tomé and Príncipe|Sao Tome and Principe]]
+|[[São Tomé and Príncipe|The Democratic Republic of São Tomé and Príncipe]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ST|{{mono|ST}}]]
+|align=center|[[ISO 3166-1 alpha-3#STP|{{mono|STP}}]]
+|align=center|[[ISO 3166-1 numeric#678|{{mono|678}}]]
+|align=center|[[ISO 3166-2:ST]]
+|align=center|[[.st]]
+|-style="background-color:white;"
+|id=SAUD|{{flagicon|Saudi Arabia}}&nbsp;[[Saudi Arabia]]
+|[[Saudi Arabia|The Kingdom of Saudi Arabia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SA|{{mono|SA}}]]
+|align=center|[[ISO 3166-1 alpha-3#SAU|{{mono|SAU}}]]
+|align=center|[[ISO 3166-1 numeric#682|{{mono|682}}]]
+|align=center|[[ISO 3166-2:SA]]
+|align=center|[[.sa]]
+|-
+|id=SCOT colspan=8|{{flagicon|Scotland}}&nbsp;[[Scotland]] – See [[#UNI2|United Kingdom, The]].
+|-style="background-color:white;"
+|id=SENE|{{flagicon|Senegal}}&nbsp;[[Senegal]]
+|[[Senegal|The Republic of Senegal]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SN|{{mono|SN}}]]
+|align=center|[[ISO 3166-1 alpha-3#SEN|{{mono|SEN}}]]
+|align=center|[[ISO 3166-1 numeric#686|{{mono|686}}]]
+|align=center|[[ISO 3166-2:SN]]
+|align=center|[[.sn]]
+|-style="background-color:white;"
+|id=SERB|{{flagicon|Serbia}}&nbsp;[[Serbia]]
+|[[Serbia|The Republic of Serbia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#RS|{{mono|RS}}]]
+|align=center|[[ISO 3166-1 alpha-3#SRB|{{mono|SRB}}]]
+|align=center|[[ISO 3166-1 numeric#688|{{mono|688}}]]
+|align=center|[[ISO 3166-2:RS]]
+|align=center|[[.rs]]
+|-style="background-color:white;"
+|id=SEYC|{{flagicon|Seychelles}}&nbsp;[[Seychelles]]
+|[[Seychelles|The Republic of Seychelles]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SC|{{mono|SC}}]]
+|align=center|[[ISO 3166-1 alpha-3#SYC|{{mono|SYC}}]]
+|align=center|[[ISO 3166-1 numeric#690|{{mono|690}}]]
+|align=center|[[ISO 3166-2:SC]]
+|align=center|[[.sc]]
+|-style="background-color:white;"
+|id=SIER|{{flagicon|Sierra Leone}}&nbsp;[[Sierra Leone]]
+|[[Sierra Leone|The Republic of Sierra Leone]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SL|{{mono|SL}}]]
+|align=center|[[ISO 3166-1 alpha-3#SLE|{{mono|SLE}}]]
+|align=center|[[ISO 3166-1 numeric#694|{{mono|694}}]]
+|align=center|[[ISO 3166-2:SL]]
+|align=center|[[.sl]]
+|-style="background-color:white;"
+|id=SIN1|{{flagicon|Singapore}}&nbsp;[[Singapore]]
+|[[Singapore|The Republic of Singapore]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SG|{{mono|SG}}]]
+|align=center|[[ISO 3166-1 alpha-3#SGP|{{mono|SGP}}]]
+|align=center|[[ISO 3166-1 numeric#702|{{mono|702}}]]
+|align=center|[[ISO 3166-2:SG]]
+|align=center|[[.sg]]
+|-
+|id=SIN2 colspan=8|{{flagicon|Sint Eustatius}}&nbsp;[[Sint Eustatius]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|-
+|id=SIN3|{{flagicon|Sint Maarten}}&nbsp;[[Sint Maarten|Sint Maarten (Dutch part)]]
+|[[Sint Maarten]]
+|align=center|[[#NETH|Netherlands]]
+|align=center|[[ISO 3166-1 alpha-2#SX|{{mono|SX}}]]
+|align=center|[[ISO 3166-1 alpha-3#SXM|{{mono|SXM}}]]
+|align=center|[[ISO 3166-1 numeric#534|{{mono|534}}]]
+|align=center|[[ISO 3166-2:SX]]
+|align=center|[[.sx]]
+|-style="background-color:white;"
+|id=SLO1|{{flagicon|Slovakia}}&nbsp;[[Slovakia]]
+|[[Slovakia|The Slovak Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SK|{{mono|SK}}]]
+|align=center|[[ISO 3166-1 alpha-3#SVK|{{mono|SVK}}]]
+|align=center|[[ISO 3166-1 numeric#703|{{mono|703}}]]
+|align=center|[[ISO 3166-2:SK]]
+|align=center|[[.sk]]
+|-style="background-color:white;"
+|id=SLO2|{{flagicon|Slovenia}}&nbsp;[[Slovenia]]
+|[[Slovenia|The Republic of Slovenia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SI|{{mono|SI}}]]
+|align=center|[[ISO 3166-1 alpha-3#SVN|{{mono|SVN}}]]
+|align=center|[[ISO 3166-1 numeric#705|{{mono|705}}]]
+|align=center|[[ISO 3166-2:SI]]
+|align=center|[[.si]]
+|-style="background-color:white;"
+|id=SOLO|{{flagicon|Solomon Islands}}&nbsp;[[Solomon Islands]]
+|[[Solomon Islands|The Solomon Islands]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SB|{{mono|SB}}]]
+|align=center|[[ISO 3166-1 alpha-3#SLB|{{mono|SLB}}]]
+|align=center|[[ISO 3166-1 numeric#090|{{mono|090}}]]
+|align=center|[[ISO 3166-2:SB]]
+|align=center|[[.sb]]
+|-style="background-color:white;"
+|id=SOMA|{{flagicon|Somalia}}&nbsp;[[Somalia]]
+|[[Somalia|The Federal Republic of Somalia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SO|{{mono|SO}}]]
+|align=center|[[ISO 3166-1 alpha-3#SOM|{{mono|SOM}}]]
+|align=center|[[ISO 3166-1 numeric#706|{{mono|706}}]]
+|align=center|[[ISO 3166-2:SO]]
+|align=center|[[.so]]
+|-style="background-color:white;"
+|id=SOU1 data-sort-value=SOU1|{{flagicon|South Africa}}&nbsp;[[South Africa]]
+|[[South Africa|The Republic of South Africa]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ZA|{{mono|ZA}}]]
+|align=center|[[ISO 3166-1 alpha-3#ZAF|{{mono|ZAF}}]]
+|align=center|[[ISO 3166-1 numeric#710|{{mono|710}}]]
+|align=center|[[ISO 3166-2:ZA]]
+|align=center|[[.za]]
+|-
+|id=SOU2 data-sort-value=SOU2|{{flagicon|South Georgia and the South Sandwich Islands}}&nbsp;[[South Georgia and the South Sandwich Islands]]
+|[[South Georgia and the South Sandwich Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#GS|{{mono|GS}}]]
+|align=center|[[ISO 3166-1 alpha-3#SGS|{{mono|SGS}}]]
+|align=center|[[ISO 3166-1 numeric#239|{{mono|239}}]]
+|align=center|[[ISO 3166-2:GS]]
+|align=center|[[.gs]]
+|-style="background-color:white;"
+|id=SOU3 data-sort-value=SOU3 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea]] – See [[#KOR2|Korea, The Republic of]].
+|-style="background-color:white;"
+|id=SOU4 data-sort-value=SOU4|{{flagicon|South Sudan}}&nbsp;[[South Sudan]]
+|[[South Sudan|The Republic of South Sudan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SS|{{mono|SS}}]]
+|align=center|[[ISO 3166-1 alpha-3#SSD|{{mono|SSD}}]]
+|align=center|[[ISO 3166-1 numeric#728|{{mono|728}}]]
+|align=center|[[ISO 3166-2:SS]]
+|align=center|[[.ss]]
+|-style="background-color:white;"
+|id=SPAI|{{flagicon|Spain}}&nbsp;[[Spain]]
+|[[Spain|The Kingdom of Spain]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ES|{{mono|ES}}]]
+|align=center|[[ISO 3166-1 alpha-3#ESP|{{mono|ESP}}]]
+|align=center|[[ISO 3166-1 numeric#724|{{mono|724}}]]
+|align=center|[[ISO 3166-2:ES]]
+|align=center|[[.es]]
+|-style="background-color:white;"
+|id=SRIL|{{flagicon|Sri Lanka}}&nbsp;[[Sri Lanka]]
+|[[Sri Lanka|The Democratic Socialist Republic of Sri Lanka]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#LK|{{mono|LK}}]]
+|align=center|[[ISO 3166-1 alpha-3#LKA|{{mono|LKA}}]]
+|align=center|[[ISO 3166-1 numeric#144|{{mono|144}}]]
+|align=center|[[ISO 3166-2:LK]]
+|align=center|[[.lk]]
+|-style="background-color:white;"
+|id=SUDA|{{flagicon|Sudan}}&nbsp;[[Sudan|Sudan (the)]]
+|[[Sudan|The Republic of the Sudan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SD|{{mono|SD}}]]
+|align=center|[[ISO 3166-1 alpha-3#SDN|{{mono|SDN}}]]
+|align=center|[[ISO 3166-1 numeric#729|{{mono|729}}]]
+|align=center|[[ISO 3166-2:SD]]
+|align=center|[[.sd]]
+|-style="background-color:white;"
+|id=SURI|{{flagicon|Suriname}}&nbsp;[[Suriname]]
+|[[Suriname|The Republic of Suriname]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SR|{{mono|SR}}]]
+|align=center|[[ISO 3166-1 alpha-3#SUR|{{mono|SUR}}]]
+|align=center|[[ISO 3166-1 numeric#740|{{mono|740}}]]
+|align=center|[[ISO 3166-2:SR]]
+|align=center|[[.sr]]
+|-
+|id=SVAL|{{flagicon|Svalbard}}&nbsp;[[Svalbard]]<br/>{{flagicon|Jan Mayen}}&nbsp;[[Jan Mayen]]
+|[[Svalbard and Jan Mayen]]
+|align=center|[[#NOR6|Norway]]
+|align=center|[[ISO 3166-1 alpha-2#SJ|{{mono|SJ}}]]
+|align=center|[[ISO 3166-1 alpha-3#SJM|{{mono|SJM}}]]
+|align=center|[[ISO 3166-1 numeric#744|{{mono|744}}]]
+|align=center|[[ISO 3166-2:SJ]]
+|align=center|{{efn|The [[country code top-level domain]] [[.sj]] has not been implemented.}}
+|-style="background-color:white;"
+|id=SWED|{{flagicon|Sweden}}&nbsp;[[Sweden]]
+|[[Sweden|The Kingdom of Sweden]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SE|{{mono|SE}}]]
+|align=center|[[ISO 3166-1 alpha-3#SWE|{{mono|SWE}}]]
+|align=center|[[ISO 3166-1 numeric#752|{{mono|752}}]]
+|align=center|[[ISO 3166-2:SE]]
+|align=center|[[.se]]
+|-style="background-color:white;"
+|id=SWIT|{{flagicon|Switzerland}}&nbsp;[[Switzerland]]
+|[[Switzerland|The Swiss Confederation]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#CH|{{mono|CH}}]]
+|align=center|[[ISO 3166-1 alpha-3#CHE|{{mono|CHE}}]]
+|align=center|[[ISO 3166-1 numeric#756|{{mono|756}}]]
+|align=center|[[ISO 3166-2:CH]]
+|align=center|[[.ch]]
+|-style="background-color:white;"
+|id=SYRI|{{flagicon|Syria}}&nbsp;[[Syria|Syrian Arab Republic (the)]] {{efn|The [[Syria|Syrian Arab Republic]] is also known by its common country name [[Syria]].}}
+|[[Syria|The Syrian Arab Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#SY|{{mono|SY}}]]
+|align=center|[[ISO 3166-1 alpha-3#SYR|{{mono|SYR}}]]
+|align=center|[[ISO 3166-1 numeric#760|{{mono|760}}]]
+|align=center|[[ISO 3166-2:SY]]
+|align=center|[[.sy]]
+|-
+|id=TAIW|{{flagicon|Taiwan}} [[Taiwan|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as a part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[Taiwan (Province of China)]] for [[Taiwan]].}}
+|[[Taiwan|The Republic of China]]
+|align=center|[[Political status of Taiwan|Disputed]] {{efn|The [[Taiwan|Republic of China]] controls [[Taiwan]]. The [[China|People's Republic of China]] claims Taiwan as its [[Taiwan Province, People's Republic of China|Taiwan Province]]. In deference to the People's Republic of China, the [[United Nations]] refers to Taiwan as [[Taiwan, China|Taiwan, Province of China]].}}
+|align=center|[[ISO 3166-1 alpha-2#TW|{{mono|TW}}]]
+|align=center|[[ISO 3166-1 alpha-3#TWN|{{mono|TWN}}]]
+|align=center|[[ISO 3166-1 numeric#158|{{mono|158}}]]
+|align=center|[[ISO 3166-2:TW]]
+|align=center|[[.tw]]
+|-style="background-color:white;"
+|id=TAJI|{{flagicon|Tajikistan}}&nbsp;[[Tajikistan]]
+|[[Tajikistan|The Republic of Tajikistan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TJ|{{mono|TJ}}]]
+|align=center|[[ISO 3166-1 alpha-3#TJK|{{mono|TJK}}]]
+|align=center|[[ISO 3166-1 numeric#762|{{mono|762}}]]
+|align=center|[[ISO 3166-2:TJ]]
+|align=center|[[.tj]]
+|-style="background-color:white;"
+|id=TANZ|{{flagicon|Tanzania}}&nbsp;[[Tanzania|Tanzania, the United Republic of]]
+|[[Tanzania|The United Republic of Tanzania]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TZ|{{mono|TZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#TZA|{{mono|TZA}}]]
+|align=center|[[ISO 3166-1 numeric#834|{{mono|834}}]]
+|align=center|[[ISO 3166-2:TZ]]
+|align=center|[[.tz]]
+|-style="background-color:white;"
+|id=THAI|{{flagicon|Thailand}}&nbsp;[[Thailand]]
+|[[Thailand|The Kingdom of Thailand]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TH|{{mono|TH}}]]
+|align=center|[[ISO 3166-1 alpha-3#THA|{{mono|THA}}]]
+|align=center|[[ISO 3166-1 numeric#764|{{mono|764}}]]
+|align=center|[[ISO 3166-2:TH]]
+|align=center|[[.th]]
+|-style="background-color:white;"
+|id=TIMO data-sort-value=TIMO|{{flagicon|East Timor}}&nbsp;[[East Timor|Timor-Leste]] {{efn|[[East Timor|Timor-Leste]] was previously known as [[East Timor]].}}
+|[[East Timor|The Democratic Republic of Timor-Leste]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TL|{{mono|TL}}]]
+|align=center|[[ISO 3166-1 alpha-3#TLS|{{mono|TLS}}]]
+|align=center|[[ISO 3166-1 numeric#626|{{mono|626}}]]
+|align=center|[[ISO 3166-2:TL]]
+|align=center|[[.tl]]
+|-style="background-color:white;"
+|id=TOGO|{{flagicon|Togo}}&nbsp;[[Togo]]
+|[[Togo|The Togolese Republic]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TG|{{mono|TG}}]]
+|align=center|[[ISO 3166-1 alpha-3#TGO|{{mono|TGO}}]]
+|align=center|[[ISO 3166-1 numeric#768|{{mono|768}}]]
+|align=center|[[ISO 3166-2:TG]]
+|align=center|[[.tg]]
+|-
+|id=TOKE|{{flagicon|Tokelau}}&nbsp;[[Tokelau]]
+|[[Tokelau]]
+|align=center|[[#NEWZ|New Zealand]]
+|align=center|[[ISO 3166-1 alpha-2#TK|{{mono|TK}}]]
+|align=center|[[ISO 3166-1 alpha-3#TKL|{{mono|TKL}}]]
+|align=center|[[ISO 3166-1 numeric#772|{{mono|772}}]]
+|align=center|[[ISO 3166-2:TK]]
+|align=center|[[.tk]]
+|-style="background-color:white;"
+|id=TONG|{{flagicon|Tonga}}&nbsp;[[Tonga]]
+|[[Tonga|The Kingdom of Tonga]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TO|{{mono|TO}}]]
+|align=center|[[ISO 3166-1 alpha-3#TON|{{mono|TON}}]]
+|align=center|[[ISO 3166-1 numeric#776|{{mono|776}}]]
+|align=center|[[ISO 3166-2:TO]]
+|align=center|[[.to]]
+|-style="background-color:white;"
+|id=TRIN|{{flagicon|Trinidad and Tobago}}&nbsp;[[Trinidad and Tobago]]
+|[[Trinidad and Tobago|The Republic of Trinidad and Tobago]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TT|{{mono|TT}}]]
+|align=center|[[ISO 3166-1 alpha-3#TTO|{{mono|TTO}}]]
+|align=center|[[ISO 3166-1 numeric#780|{{mono|780}}]]
+|align=center|[[ISO 3166-2:TT]]
+|align=center|[[.tt]]
+|-style="background-color:white;"
+|id=TUNI|{{flagicon|Tunisia}}&nbsp;[[Tunisia]]
+|[[Tunisia|The Republic of Tunisia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TN|{{mono|TN}}]]
+|align=center|[[ISO 3166-1 alpha-3#TUN|{{mono|TUN}}]]
+|align=center|[[ISO 3166-1 numeric#788|{{mono|788}}]]
+|align=center|[[ISO 3166-2:TN]]
+|align=center|[[.tn]]
+|-style="background-color:white;"
+|id=TUR1|{{flagicon|Turkey}}&nbsp;[[Turkey]]
+|[[Turkey|The Republic of Turkey]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TR|{{mono|TR}}]]
+|align=center|[[ISO 3166-1 alpha-3#TUR|{{mono|TUR}}]]
+|align=center|[[ISO 3166-1 numeric#792|{{mono|792}}]]
+|align=center|[[ISO 3166-2:TR]]
+|align=center|[[.tr]]
+|-style="background-color:white;"
+|id=TUR2|{{flagicon|Turkmenistan}}&nbsp;[[Turkmenistan]]
+|[[Turkmenistan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TM|{{mono|TM}}]]
+|align=center|[[ISO 3166-1 alpha-3#TKM|{{mono|TKM}}]]
+|align=center|[[ISO 3166-1 numeric#795|{{mono|795}}]]
+|align=center|[[ISO 3166-2:TM]]
+|align=center|[[.tm]]
+|-
+|id=TUR3|{{flagicon|Turks and Caicos Islands}}&nbsp;[[Turks and Caicos Islands|Turks and Caicos Islands (the)]]
+|[[Turks and Caicos Islands|The Turks and Caicos Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#TC|{{mono|TC}}]]
+|align=center|[[ISO 3166-1 alpha-3#TCA|{{mono|TCA}}]]
+|align=center|[[ISO 3166-1 numeric#796|{{mono|796}}]]
+|align=center|[[ISO 3166-2:TC]]
+|align=center|[[.tc]]
+|-style="background-color:white;"
+|id=TUVA|{{flagicon|Tuvalu}}&nbsp;[[Tuvalu]]
+|[[Tuvalu]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#TV|{{mono|TV}}]]
+|align=center|[[ISO 3166-1 alpha-3#TUV|{{mono|TUV}}]]
+|align=center|[[ISO 3166-1 numeric#798|{{mono|798}}]]
+|align=center|[[ISO 3166-2:TV]]
+|align=center|[[.tv]]
+|-style="background-color:white;"
+|id=UGAN|{{flagicon|Uganda}}&nbsp;[[Uganda]]
+|[[Uganda|The Republic of Uganda]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#UG|{{mono|UG}}]]
+|align=center|[[ISO 3166-1 alpha-3#UGA|{{mono|UGA}}]]
+|align=center|[[ISO 3166-1 numeric#800|{{mono|800}}]]
+|align=center|[[ISO 3166-2:UG]]
+|align=center|[[.ug]]
+|-style="background-color:white;"
+|id=UKRA|{{flagicon|Ukraine}}&nbsp;[[Ukraine]]
+|[[Ukraine]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#UA|{{mono|UA}}]]
+|align=center|[[ISO 3166-1 alpha-3#UKR|{{mono|UKR}}]]
+|align=center|[[ISO 3166-1 numeric#804|{{mono|804}}]]
+|align=center|[[ISO 3166-2:UA]]
+|align=center|[[.ua]]
+|-style="background-color:white;"
+|id=UNI1 data-sort-value=UNI1|{{flagicon|United Arab Emirates}}&nbsp;[[United Arab Emirates|United Arab Emirates (the)]]
+|[[United Arab Emirates|The United Arab Emirates]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#AE|{{mono|AE}}]]
+|align=center|[[ISO 3166-1 alpha-3#ARE|{{mono|ARE}}]]
+|align=center|[[ISO 3166-1 numeric#784|{{mono|784}}]]
+|align=center|[[ISO 3166-2:AE]]
+|align=center|[[.ae]]
+|-style="background-color:white;"
+|id=UNI2 data-sort-value=UNI2|{{flagicon|United Kingdom}}&nbsp;[[United Kingdom|United Kingdom of Great Britain and Northern Ireland (the)]]
+|[[United Kingdom|The United Kingdom of Great Britain and Northern Ireland]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#GB|{{mono|GB}}]]
+|align=center|[[ISO 3166-1 alpha-3#GBR|{{mono|GBR}}]]
+|align=center|[[ISO 3166-1 numeric#826|{{mono|826}}]]
+|align=center|[[ISO 3166-2:GB]]
+|align=center|[[.gb]] [[.uk]] {{efn|Although the [[country code top-level domain]] [[.gb]] is reserved for the [[United Kingdom]], the country uses the [[.uk]] country code top-level domain instead.}}
+|-
+|id=UNI3 data-sort-value=UNI3|{{flagicon|United States}}&nbsp;[[United States Minor Outlying Islands|United States Minor Outlying Islands (the)]] {{efn|The [[ISO 3166]] country name [[United States Minor Outlying Islands|The United States Minor Outlying Islands]] comprises [[Baker&nbsp;Island]], [[Howland&nbsp;Island]], [[Jarvis&nbsp;Island]], [[Johnston&nbsp;Atoll]], [[Kingman&nbsp;Reef]], [[Midway&nbsp;Atoll]], [[Navassa&nbsp;Island]], [[Palmyra&nbsp;Atoll]], and [[Wake&nbsp;Island]].}}
+|[[Baker&nbsp;Island]], [[Howland&nbsp;Island]], [[Jarvis&nbsp;Island]], [[Johnston&nbsp;Atoll]], [[Kingman&nbsp;Reef]], [[Midway&nbsp;Atoll]], [[Navassa&nbsp;Island]], [[Palmyra&nbsp;Atoll]], and [[Wake&nbsp;Island]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#UM|{{mono|UM}}]]
+|align=center|[[ISO 3166-1 alpha-3#UMI|{{mono|UMI}}]]
+|align=center|[[ISO 3166-1 numeric#581|{{mono|581}}]]
+|align=center|[[ISO 3166-2:UM]]
+|align=center|{{efn|The [[country code top-level domain]] [[.um]] has not been implemented.}}
+|-style="background-color:white;"
+|id=UNI4 data-sort-value=UNI4|{{flagicon|United States}}&nbsp;[[United States|United States of America (the)]]
+|[[United States|The United States of America]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#US|{{mono|US}}]]
+|align=center|[[ISO 3166-1 alpha-3#USA|{{mono|USA}}]]
+|align=center|[[ISO 3166-1 numeric#840|{{mono|840}}]]
+|align=center|[[ISO 3166-2:US]]
+|align=center|[[.us]]
+|-
+|id=UNI5 data-sort-value=UNI5 colspan=8|{{flagicon|United States Virgin Islands}}&nbsp;[[United States Virgin Islands]] – See [[#VIR2|Virgin Islands (U.S.)]].
+|-style="background-color:white;"
+|id=URUG|{{flagicon|Uruguay}}&nbsp;[[Uruguay]]
+|[[Uruguay|The Oriental Republic of Uruguay]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#UY|{{mono|UY}}]]
+|align=center|[[ISO 3166-1 alpha-3#URY|{{mono|URY}}]]
+|align=center|[[ISO 3166-1 numeric#858|{{mono|858}}]]
+|align=center|[[ISO 3166-2:UY]]
+|align=center|[[.uy]]
+|-style="background-color:white;"
+|id=UZBE|{{flagicon|Uzbekistan}}&nbsp;[[Uzbekistan]]
+|[[Uzbekistan|The Republic of Uzbekistan]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#UZ|{{mono|UZ}}]]
+|align=center|[[ISO 3166-1 alpha-3#UZB|{{mono|UZB}}]]
+|align=center|[[ISO 3166-1 numeric#860|{{mono|860}}]]
+|align=center|[[ISO 3166-2:UZ]]
+|align=center|[[.uz]]
+|-style="background-color:white;"
+|id=VANU|{{flagicon|Vanuatu}}&nbsp;[[Vanuatu]]
+|[[Vanuatu|The Republic of Vanuatu]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#VU|{{mono|VU}}]]
+|align=center|[[ISO 3166-1 alpha-3#VUT|{{mono|VUT}}]]
+|align=center|[[ISO 3166-1 numeric#548|{{mono|548}}]]
+|align=center|[[ISO 3166-2:VU]]
+|align=center|[[.vu]]
+|-
+|id=VATI data-sort-value=VATI colspan=8|{{flagicon|Vatican City}}&nbsp;[[Vatican City]] – See [[#HOLY|Holy See, The]].
+|-style="background-color:white;"
+|id=VENE|{{flagicon|Venezuela|state}}&nbsp;[[Venezuela|Venezuela (Bolivarian Republic of)]]
+|[[Venezuela|The Bolivarian Republic of Venezuela]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#VE|{{mono|VE}}]]
+|align=center|[[ISO 3166-1 alpha-3#VEN|{{mono|VEN}}]]
+|align=center|[[ISO 3166-1 numeric#862|{{mono|862}}]]
+|align=center|[[ISO 3166-2:VE]]
+|align=center|[[.ve]]
+|-style="background-color:white;"
+|id=VIET|{{flagicon|Vietnam}}&nbsp;[[Vietnam|Viet Nam]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the [[United Nations]] ([[United Nations|UN]]) country name [[Vietnam|Viet Nam]] for [[Vietnam]].}}
+|[[Vietnam|The Socialist Republic of Viet Nam]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#VN|{{mono|VN}}]]
+|align=center|[[ISO 3166-1 alpha-3#VNM|{{mono|VNM}}]]
+|align=center|[[ISO 3166-1 numeric#704|{{mono|704}}]]
+|align=center|[[ISO 3166-2:VN]]
+|align=center|[[.vn]]
+|-
+|id=VIR1 data-sort-value=VIR1|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands|Virgin Islands (British)]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[British Virgin Islands|Virgin Islands (British)]] for the [[British Virgin Islands|Virgin Islands]] of the [[United Kingdom]].}}
+|[[British Virgin Islands|The Virgin Islands]]
+|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[ISO 3166-1 alpha-2#VG|{{mono|VG}}]]
+|align=center|[[ISO 3166-1 alpha-3#VGB|{{mono|VGB}}]]
+|align=center|[[ISO 3166-1 numeric#092|{{mono|092}}]]
+|align=center|[[ISO 3166-2:VG]]
+|align=center|[[.vg]]
+|-
+|id=VIR2 data-sort-value=VIR2|{{flagicon|United States Virgin Islands}}&nbsp;[[United States Virgin Islands|Virgin Islands (U.S.)]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[United States Virgin Islands|Virgin Islands (U.S.)]] for the [[United States Virgin Islands|Virgin Islands of the United States]].}}
+|[[United States Virgin Islands|The Virgin Islands of the United States]]
+|align=center|[[#UNI4|United States]]
+|align=center|[[ISO 3166-1 alpha-2#VI|{{mono|VI}}]]
+|align=center|[[ISO 3166-1 alpha-3#VIR|{{mono|VIR}}]]
+|align=center|[[ISO 3166-1 numeric#850|{{mono|850}}]]
+|align=center|[[ISO 3166-2:VI]]
+|align=center|[[.vi]]
+|-
+|id=WALE colspan=8|{{flagicon|Wales}}&nbsp;[[Wales]] – See [[#UNI2|United Kingdom, The]].
+|-
+|id=WALL|{{flagicon|Wallis and Futuna|local}}&nbsp;[[Wallis and Futuna]]
+|[[Wallis and Futuna|The Territory of the Wallis and Futuna Islands]]
+|align=center|[[#FRAN|France]]
+|align=center|[[ISO 3166-1 alpha-2#WF|{{mono|WF}}]]
+|align=center|[[ISO 3166-1 alpha-3#WLF|{{mono|WLF}}]]
+|align=center|[[ISO 3166-1 numeric#876|{{mono|876}}]]
+|align=center|[[ISO 3166-2:WF]]
+|align=center|[[.wf]]
+|-
+|id=WEST|{{flagicon|Western Sahara}}&nbsp;[[Western Sahara]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) has designated [[Western Sahara]] as the provisional country name for the region of the [[Maghreb]] claimed by both the [[Morocco|Kingdom of Morocco]] and the [[Sahrawi Arab Democratic Republic]].}}
+|[[Sahrawi Arab Democratic Republic|The Sahrawi Arab Democratic Republic]]
+|align=center|[[Political status of Western Sahara|Disputed]] {{efn|Both the [[Morocco|Kingdom of Morocco]] and the [[Sahrawi Arab Democratic Republic]] claim the region known as [[Western Sahara]]. Morocco currently (2018) controls most of the coastal region while the Sahrawis control the interior.}}
+|align=center|[[ISO 3166-1 alpha-2#EH|{{mono|EH}}]]
+|align=center|[[ISO 3166-1 alpha-3#ESH|{{mono|ESH}}]]
+|align=center|[[ISO 3166-1 numeric#732|{{mono|732}}]]
+|align=center|[[ISO 3166-2:EH]]
+|align=center|{{efn|The [[country code top-level domain]] [[.eh]] has not been implemented.}}
+|-style="background-color:white;"
+|id=YEME|{{flagicon|Yemen}}&nbsp;[[Yemen]]
+|[[Yemen|The Republic of Yemen]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#YE|{{mono|YE}}]]
+|align=center|[[ISO 3166-1 alpha-3#YEM|{{mono|YEM}}]]
+|align=center|[[ISO 3166-1 numeric#887|{{mono|887}}]]
+|align=center|[[ISO 3166-2:YE]]
+|align=center|[[.ye]]
+|-style="background-color:white;"
+|id=ZAMB|{{flagicon|Zambia}}&nbsp;[[Zambia]]
+|[[Zambia|The Republic of Zambia]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ZM|{{mono|ZM}}]]
+|align=center|[[ISO 3166-1 alpha-3#ZMB|{{mono|ZMB}}]]
+|align=center|[[ISO 3166-1 numeric#894|{{mono|894}}]]
+|align=center|[[ISO 3166-2:ZM]]
+|align=center|[[.zm]]
+|-style="background-color:white;"
+|id=ZIMB|{{flagicon|Zimbabwe}}&nbsp;[[Zimbabwe]]
+|[[Zimbabwe|The Republic of Zimbabwe]]
+|align=center|UN member state
+|align=center|[[ISO 3166-1 alpha-2#ZW|{{mono|ZW}}]]
+|align=center|[[ISO 3166-1 alpha-3#ZWE|{{mono|ZWE}}]]
+|align=center|[[ISO 3166-1 numeric#716|{{mono|716}}]]
+|align=center|[[ISO 3166-2:ZW]]
+|align=center|[[.zw]]
+|}
+
+For user-assigned codes used by certain organizations, see {{section link|ISO 3166-1 alpha-2|User-assigned code elements}} and {{section link|ISO 3166-1 alpha-3|User-assigned code elements}}.
