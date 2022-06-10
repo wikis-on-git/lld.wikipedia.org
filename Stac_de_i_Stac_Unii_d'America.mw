@@ -206,7 +206,7 @@
 |{{cvt|519.64|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
 |{{right|4}}
 |-
-!scope="row"|{{flag|Kentucky}}{{efn-ua|name=statenomenclature|Uses the [[nomenclature|term]] ''[[Commonwealth (U.S. state)|commonwealth]]'' rather than ''state'' in its full official name}}
+!scope="row"|{{flag|Kentucky}}
 |KY
 |[[Frankfort, Kentucky|Frankfort]]
 |[[Louisville, Kentucky|Louisville]]
@@ -250,7 +250,7 @@
 |{{cvt|2698.69|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
 |{{right|8}}
 |-
-!scope="row"|{{nowrap|{{flag|Massachusetts}}{{efn-ua|name=statenomenclature}}}}
+!scope="row"|{{nowrap|{{flag|Massachusetts}}
 |MA
 |colspan=2|[[Boston]]
 |{{dts|Feb 6, 1788}}
@@ -433,7 +433,7 @@
 |{{cvt|2390.53|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
 |{{right|5}}
 |-
-!scope="row"|{{flag|Pennsylvania}}{{efn-ua|name=statenomenclature}}
+!scope="row"|{{flag|Pennsylvania}}
 |PA
 |[[Harrisburg, Pennsylvania|Harrisburg]]
 |[[Philadelphia]]
@@ -518,7 +518,7 @@
 |{{cvt|399.71|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
 |{{right|1}}
 |-
-!scope="row"|{{flag|Virginia}}{{efn-ua|name=statenomenclature}}
+!scope="row"|{{flag|Virginia}}
 |VA
 |[[Richmond, Virginia|Richmond]]
 |[[Virginia Beach, Virginia|Virginia Beach]]
