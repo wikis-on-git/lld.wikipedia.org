@@ -62,7 +62,7 @@
 |-
 !scope="row"|{{flag|Arizona}}
 |AZ
-|colspan=2|[[Phoenix, Arizona|Phoenix]]
+|colspan=2|[[Phoenix (Arizona)|Phoenix]]
 |{{dts|14 fau 1912}}
 |{{right|7,151,502}}
 |{{cvt|113990.3|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -82,7 +82,7 @@
 |-
 !scope="row"|{{flag|California}}
 |CA
-|[[Sacramento, California|Sacramento]]
+|[[Sacramento (California)|Sacramento]]
 |[[Los Angeles]]
 |{{dts|9 set 1850}}
 |{{right|39,538,223}}
@@ -166,7 +166,7 @@
 |-
 !scope="row"|{{flag|Illinois}}
 |IL
-|[[Springfield, Illinois|Springfield]]
+|[[Springfield (Illinois)|Springfield]]
 |[[Chicago]]
 |{{dts|3 dez 1818}}
 |{{right|12,812,508}}
@@ -197,8 +197,8 @@
 |-
 !scope="row"|{{flag|Kansas}}
 |KS
-|[[Topeka, Kansas|Topeka]]
-|[[Wichita, Kansas|Wichita]]
+|[[Topeka (Kansas)|Topeka]]
+|[[Wichita (Kansas)|Wichita]]
 |{{dts|29 jen 1861}}
 |{{right|2,937,880}}
 |{{cvt|82278.36|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -208,7 +208,7 @@
 |-
 !scope="row"|{{flag|Kentucky}}
 |KY
-|[[Frankfort, Kentucky|Frankfort]]
+|[[Frankfort (Kentucky)|Frankfort]]
 |[[Louisville (Kentucky)|Louisville]]
 |{{dts|1 jun 1792}}
 |{{right|4,505,836}}
@@ -230,8 +230,8 @@
 |-
 !scope="row"|{{flag|Maine}}
 |ME
-|[[Augusta, Maine|Augusta]]
-|[[Portland, Maine|Portland]]
+|[[Augusta (Maine)|Augusta]]
+|[[Portland (Maine)|Portland]]
 |{{dts|15 mer 1820}}
 |{{right|1,362,359}}
 |{{cvt|35379.74|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -241,7 +241,7 @@
 |-
 !scope="row"|{{flag|Maryland}}
 |MD
-|[[Annapolis, Maryland|Annapolis]]
+|[[Annapolis (Maryland)|Annapolis]]
 |[[Baltimore]]
 |{{dts|28 aur 1788}}
 |{{right|6,177,224}}
@@ -273,7 +273,7 @@
 |-
 !scope="row"|{{flag|Minnesota}}
 |MN
-|[[Saint Paul, Minnesota|St. Paul]]
+|[[Saint Paul (Minnesota)|St. Paul]]
 |[[Minneapolis]]
 |{{dts|11 mei 1858}}
 |{{right|5,706,494}}
@@ -349,7 +349,7 @@
 |-
 !scope="row"|{{flag|New Jersey}}
 |NJ
-|[[Trenton, New Jersey|Trenton]]
+|[[Trenton (New Jersey)|Trenton]]
 |[[Newark]]
 |{{dts|18 dez 1787}}
 |{{right|9,288,994}}
@@ -371,7 +371,7 @@
 |-
 !scope="row"|{{flag|New York}}
 |NY
-|[[Albany, New York|Albany]]
+|[[Albany (New York)|Albany]]
 |[[New York City]]
 |{{dts|26 lug 1788}}
 |{{right|20,201,249}}
@@ -394,7 +394,7 @@
 !scope="row"|{{flag|North Dakota}}
 |ND
 |[[Bismarck (North Dakota)|Bismarck]]
-|[[Fargo, North Dakota|Fargo]]
+|[[Fargo (North Dakota)|Fargo]]
 |{{dts|2 nuv 1889}}
 |{{right|779,094}}
 |{{cvt|70698.32|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -424,8 +424,8 @@
 |-
 !scope="row"|{{flag|Oregon}}
 |OR
-|[[Salem, Oregon|Salem]]
-|[[Portland, Oregon|Portland]]
+|[[Salem (Oregon)|Salem]]
+|[[Portland (Oregon)|Portland]]
 |{{dts|14 fau 1859}}
 |{{right|4,237,256}}
 |{{cvt|98378.54|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -446,7 +446,7 @@
 |-
 !scope="row"|{{flag|Rhode Island}}
 |RI
-|colspan=2|[[Providence, Rhode Island|Providence]]
+|colspan=2|[[Providence (Rhode Island)|Providence]]
 |{{dts|29 mei 1790}}
 |{{right|1,097,379}}
 |{{cvt|1544.89|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -467,8 +467,8 @@
 |-
 !scope="row"|{{flag|South Dakota}}
 |SD
-|[[Pierre, South Dakota|Pierre]]
-|[[Sioux Falls, South Dakota|Sioux Falls]]
+|[[Pierre (South Dakota)|Pierre]]
+|[[Sioux Falls (South Dakota)|Sioux Falls]]
 |{{dts|2 nuv 1889}}
 |{{right|886,667}}
 |{{cvt|77115.68|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -478,7 +478,7 @@
 |-
 !scope="row"|{{flag|Tennessee}}
 |TN
-|colspan=2|[[Nashville, Tennessee|Nashville]]
+|colspan=2|[[Nashville]]
 |{{dts|1 jun 1796}}
 |{{right|6,910,840}}
 |{{cvt|42144.25|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
@@ -509,7 +509,7 @@
 |-
 !scope="row"|{{flag|Vermont}}
 |VT
-|[[Montpelier, Vermont|Montpelier]]
+|[[Montpelier (Vermont)|Montpelier]]
 |[[Burlington (Vermont)|Burlington]]
 |{{dts|4 mer 1791}}
 |{{right|643,077}}
@@ -520,8 +520,8 @@
 |-
 !scope="row"|{{flag|Virginia}}
 |VA
-|[[Richmond, Virginia|Richmond]]
-|[[Virginia Beach, Virginia|Virginia Beach]]
+|[[Richmond (Virginia)|Richmond]]
+|[[Virginia Beach (Virginia)|Virginia Beach]]
 |{{dts|25 jun 1788}}
 |{{right|8,631,393}}
 |{{cvt|42774.93|mi2|km2|0|adj=ri0|abbr=values|sortable=on|disp=table}}
