@@ -11,17 +11,17 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 !colspan=1|[[ISO 3166-2]]<ref name=ISO_3166-2/>
 !colspan=1|
 |-
-![[Country|Country name]]<ref name=OBP>{{cite web|url=https://www.iso.org/obp/ui/#search&3166|title=Country Codes on the Online Browsing Platform (OBP)|publisher=[[International Organization for Standardization]]|access-date=18 September 2018}}</ref>
-![[State (polity)|Official state name]]<ref name=CIA>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook|title=The World Factbook|archive-url=https://web.archive.org/web/20200615013613/https://www.cia.gov/library/publications/the-world-factbook|archive-date=2020-06-15|publisher=[[United States]] [[Central Intelligence Agency]]|access-date=18 September 2018}}</ref>
-![[Sovereign state|Sovereignty]]<ref name=CIA/><ref name=UN>{{cite web|url=http://www.un.org/en/member-states/|title=Member States|publisher=[[United Nations]]|access-date=18 September 2018}}</ref><ref name=NSG>{{cite web|url=https://www.un.org/dppa/decolonization/en/nsgt|title=Non-Self-Governing Territories|publisher=[[United Nations]]|access-date=6 June 2021}}</ref>
+![[Country|Stat]]<ref name=OBP>{{cite web|url=https://www.iso.org/obp/ui/#search&3166|title=Country Codes on the Online Browsing Platform (OBP)|publisher=[[International Organization for Standardization]]|access-date=18 September 2018}}</ref>
+![[Inuem ufiziel dl stat]]<ref name=CIA>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook|title=The World Factbook|archive-url=https://web.archive.org/web/20200615013613/https://www.cia.gov/library/publications/the-world-factbook|archive-date=2020-06-15|publisher=[[United States]] [[Central Intelligence Agency]]|access-date=18 September 2018}}</ref>
+![[Stat sovran|Sovranità]]<ref name=CIA/><ref name=UN>{{cite web|url=http://www.un.org/en/member-states/|title=Member States|publisher=[[United Nations]]|access-date=18 September 2018}}</ref><ref name=NSG>{{cite web|url=https://www.un.org/dppa/decolonization/en/nsgt|title=Non-Self-Governing Territories|publisher=[[United Nations]]|access-date=6 June 2021}}</ref>
 ![[ISO 3166-1 alpha-2#Officially assigned code elements|Alpha-2 code]]<ref name=OBP/>
 ![[ISO 3166-1 alpha-3#Officially assigned code elements|Alpha-3 code]]<ref name=OBP/>
 ![[ISO 3166-1 numeric#Officially assigned code elements|Numeric code]]<ref name=OBP/>
 ![[ISO 3166-2|Subdivision code links]]<ref name=ISO_3166-2/>
-![[Country code top-level domain|Internet ccTLD]]<ref name=ccTLD>{{cite web|url=https://www.iana.org/domains/root/db|title=Root Zone Database|publisher=[[Internet Assigned Numbers Authority]]|access-date=18 September 2018}}</ref>
+![[Internet ccTLD]]<ref name=ccTLD>{{cite web|url=https://www.iana.org/domains/root/db|title=Root Zone Database|publisher=[[Internet Assigned Numbers Authority]]|access-date=18 September 2018}}</ref>
 |-style="background-color:white;"
-|id=AFGH|{{flagicon|Islamic Republic of Afghanistan}}&nbsp;[[Islamic Republic of Afghanistan|Afghanistan]]
-|[[Islamic Republic of Afghanistan|The Islamic Republic of Afghanistan]]
+|id=AFGH|{{flagicon|Republica Islamica de Afghanistan}}&nbsp;[[Republica Islamica de Afghanistan|Afghanistan]]
+|[[Republica Islamica de Afghanistan]]
 |align=center|[[Member states of the United Nations|UN member state]]
 |align=center|[[ISO 3166-1 alpha-2#AF|{{mono|AF}}]]
 |align=center|[[ISO 3166-1 alpha-3#AFG|{{mono|AFG}}]]
