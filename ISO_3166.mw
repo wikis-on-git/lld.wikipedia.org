@@ -29,7 +29,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:AF]]
 |align=center|[[.af]]
 |-
-|id=AKRO data-sort-value=AKRO colspan=8|{{flagicon|Akrotiri and Dhekelia}}&nbsp;[[Akrotiri and Dhekelia]] – See [[#UNI2|United Kingdom, The]].
+|id=AKRO data-sort-value=AKRO colspan=8|{{flagicon|Akrotiri and Dhekelia}}&nbsp;[[Akrotiri and Dhekelia]] – See [[#UNI2|Riam Unì]].
 |-
 |id=ALAN data-sort-value=ALAN|{{flagicon|Åland Islands}}&nbsp;[[Åland Islands]]
 |data-sort-value=Aland|[[Åland]]
@@ -87,7 +87,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=ANGU|{{flagicon|Anguilla}}&nbsp;[[Anguilla]]
 |[[Anguilla]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#AI|{{mono|AI}}]]
 |align=center|[[ISO 3166-1 alpha-3#AIA|{{mono|AIA}}]]
 |align=center|[[ISO 3166-1 numeric#660|{{mono|660}}]]
@@ -242,7 +242,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=BERM|{{flagicon|Bermuda}}&nbsp;[[Bermuda]]
 |[[Bermuda]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#BM|{{mono|BM}}]]
 |align=center|[[ISO 3166-1 alpha-3#BMU|{{mono|BMU}}]]
 |align=center|[[ISO 3166-1 numeric#060|{{mono|060}}]]
@@ -314,7 +314,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=BRI1 data-sort-value=BRI1|{{flagicon|British Indian Ocean Territory}}&nbsp;[[British Indian Ocean Territory|British Indian Ocean Territory (the)]]
 |[[British Indian Ocean Territory|The British Indian Ocean Territory]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#IO|{{mono|IO}}]]
 |align=center|[[ISO 3166-1 alpha-3#IOT|{{mono|IOT}}]]
 |align=center|[[ISO 3166-1 numeric#086|{{mono|086}}]]
@@ -403,7 +403,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=CAYM|{{flagicon|Cayman Islands}}&nbsp;[[Cayman Islands|Cayman Islands (the)]]
 |[[Cayman Islands|The Cayman Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#KY|{{mono|KY}}]]
 |align=center|[[ISO 3166-1 alpha-3#CYM|{{mono|CYM}}]]
 |align=center|[[ISO 3166-1 numeric#136|{{mono|136}}]]
@@ -647,7 +647,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SV]]
 |align=center|[[.sv]]
 |-
-|id=ENGL colspan=8|{{flagicon|England}}&nbsp;[[England]] – See [[#UNI2|United Kingdom, The]].
+|id=ENGL colspan=8|{{flagicon|England}}&nbsp;[[England]] – See [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=EQUA|{{flagicon|Equatorial Guinea}}&nbsp;[[Equatorial Guinea]]
 |[[Equatorial Guinea|The Republic of Equatorial Guinea]]
@@ -696,7 +696,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=FALK|{{flagicon|Falkland Islands}}&nbsp;[[Falkland Islands|Falkland Islands (the) <nowiki>[Malvinas]</nowiki>]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[Falkland Islands|The Falkland Islands <nowiki>[Malvinas]</nowiki>]] for the [[Falkland&nbsp;Islands]].}}
 |[[Falkland Islands|The Falkland Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#FK|{{mono|FK}}]]
 |align=center|[[ISO 3166-1 alpha-3#FLK|{{mono|FLK}}]]
 |align=center|[[ISO 3166-1 numeric#238|{{mono|238}}]]
@@ -793,7 +793,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:GE]]
 |align=center|[[.ge]]
 |-style="background-color:white;"
-|id=GERM|{{flagicon|Germany}}&nbsp;[[Germany]]
+|id=GERM|{{flagicon|Germania}}&nbsp;[[Germania]]
 |[[Germany|The Federal Republic of Germany]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#DE|{{mono|DE}}]]
@@ -813,14 +813,14 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=GIBR|{{flagicon|Gibraltar}}&nbsp;[[Gibraltar]]
 |[[Gibraltar]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#GI|{{mono|GI}}]]
 |align=center|[[ISO 3166-1 alpha-3#GIB|{{mono|GIB}}]]
 |align=center|[[ISO 3166-1 numeric#292|{{mono|292}}]]
 |align=center|[[ISO 3166-2:GI]]
 |align=center|[[.gi]]
 |-style="background-color:white;"
-|id=GRE1 data-sort-value=GRE1 colspan=8|{{flagicon|United Kingdom}}&nbsp;[[United Kingdom|Great Britain]] – See [[#UNI2|United Kingdom, The]].
+|id=GRE1 data-sort-value=GRE1 colspan=8|{{flagicon|Riam Unì}}&nbsp;[[Riam Unì|Gran Bretania]] – See [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=GRE2 data-sort-value=GRE2|{{flagicon|Greece}}&nbsp;[[Greece]]
 |[[Greece|The Hellenic Republic]]
@@ -1406,7 +1406,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=MON4|{{flagicon|Montserrat}}&nbsp;[[Montserrat]]
 |[[Montserrat]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#MS|{{mono|MS}}]]
 |align=center|[[ISO 3166-1 alpha-3#MSR|{{mono|MSR}}]]
 |align=center|[[ISO 3166-1 numeric#500|{{mono|500}}]]
@@ -1541,7 +1541,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-style="background-color:white;"
 |id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea]] – See [[#KOR1|Korea, The Democratic People's Republic of]].
 |-
-|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – See [[#UNI2|United Kingdom, The]].
+|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – See [[#UNI2|Riam Unì]].
 |-
 |id=NOR4 data-sort-value=NOR4|{{flagicon|Northern Mariana Islands}}&nbsp;[[Northern Mariana Islands|Northern Mariana Islands (the)]]
 |[[Northern Mariana Islands|The Commonwealth of the Northern Mariana Islands]]
@@ -1646,7 +1646,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=PITC|{{flagicon|Pitcairn Islands}}&nbsp;[[Pitcairn Islands|Pitcairn]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the [[United Nations]] ([[United Nations|UN]]) country name [[Pitcairn Islands|Pitcairn]] for  the [[Pitcairn Islands|Pitcairn, Henderson, Ducie and Oeno Islands]].}}
 |[[Pitcairn Islands|The Pitcairn, Henderson, Ducie and Oeno Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#PN|{{mono|PN}}]]
 |align=center|[[ISO 3166-1 alpha-3#PCN|{{mono|PCN}}]]
 |align=center|[[ISO 3166-1 numeric#612|{{mono|612}}]]
@@ -1746,7 +1746,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=SAI2|{{flagicon|Saint Helena}}&nbsp;[[Saint Helena]]<br/>{{flagicon|Ascension Island}}&nbsp;[[Ascension Island]]<br/>{{flagicon|Tristan da Cunha}}&nbsp;[[Tristan da Cunha]]
 |[[Saint Helena, Ascension and Tristan da Cunha]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#SH|{{mono|SH}}]]
 |align=center|[[ISO 3166-1 alpha-3#SHN|{{mono|SHN}}]]
 |align=center|[[ISO 3166-1 numeric#654|{{mono|654}}]]
@@ -1834,7 +1834,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SA]]
 |align=center|[[.sa]]
 |-
-|id=SCOT colspan=8|{{flagicon|Scotland}}&nbsp;[[Scotland]] – See [[#UNI2|United Kingdom, The]].
+|id=SCOT colspan=8|{{flagicon|Scotland}}&nbsp;[[Scotland]] – See [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=SENE|{{flagicon|Senegal}}&nbsp;[[Senegal]]
 |[[Senegal|The Republic of Senegal]]
@@ -1939,7 +1939,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=SOU2 data-sort-value=SOU2|{{flagicon|South Georgia and the South Sandwich Islands}}&nbsp;[[South Georgia and the South Sandwich Islands]]
 |[[South Georgia and the South Sandwich Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#GS|{{mono|GS}}]]
 |align=center|[[ISO 3166-1 alpha-3#SGS|{{mono|SGS}}]]
 |align=center|[[ISO 3166-1 numeric#239|{{mono|239}}]]
@@ -1957,7 +1957,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SS]]
 |align=center|[[.ss]]
 |-style="background-color:white;"
-|id=SPAI|{{flagicon|Spain}}&nbsp;[[Spain]]
+|id=SPAI|{{flagicon|Spania}}&nbsp;[[Spania]]
 |[[Spain|The Kingdom of Spain]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#ES|{{mono|ES}}]]
@@ -2139,7 +2139,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=TUR3|{{flagicon|Turks and Caicos Islands}}&nbsp;[[Turks and Caicos Islands|Turks and Caicos Islands (the)]]
 |[[Turks and Caicos Islands|The Turks and Caicos Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#TC|{{mono|TC}}]]
 |align=center|[[ISO 3166-1 alpha-3#TCA|{{mono|TCA}}]]
 |align=center|[[ISO 3166-1 numeric#796|{{mono|796}}]]
@@ -2182,8 +2182,8 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:AE]]
 |align=center|[[.ae]]
 |-style="background-color:white;"
-|id=UNI2 data-sort-value=UNI2|{{flagicon|United Kingdom}}&nbsp;[[United Kingdom|United Kingdom of Great Britain and Northern Ireland (the)]]
-|[[United Kingdom|The United Kingdom of Great Britain and Northern Ireland]]
+|id=UNI2 data-sort-value=UNI2|{{flagicon|Riam Unì}}&nbsp;[[Riam Unì|United Kingdom of Great Britain and Northern Ireland (the)]]
+|[[Riam Unì|The United Kingdom of Great Britain and Northern Ireland]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#GB|{{mono|GB}}]]
 |align=center|[[ISO 3166-1 alpha-3#GBR|{{mono|GBR}}]]
@@ -2258,9 +2258,9 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:VN]]
 |align=center|[[.vn]]
 |-
-|id=VIR1 data-sort-value=VIR1|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands|Virgin Islands (British)]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[British Virgin Islands|Virgin Islands (British)]] for the [[British Virgin Islands|Virgin Islands]] of the [[United Kingdom]].}}
+|id=VIR1 data-sort-value=VIR1|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands|Virgin Islands (British)]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[British Virgin Islands|Virgin Islands (British)]] per la [[British Virgin Islands|Virgin Islands]] dl [[Riam Unì]].}}
 |[[British Virgin Islands|The Virgin Islands]]
-|align=center|[[#UNI2|United Kingdom]]
+|align=center|[[#UNI2|Riam Unì]]
 |align=center|[[ISO 3166-1 alpha-2#VG|{{mono|VG}}]]
 |align=center|[[ISO 3166-1 alpha-3#VGB|{{mono|VGB}}]]
 |align=center|[[ISO 3166-1 numeric#092|{{mono|092}}]]
@@ -2276,7 +2276,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:VI]]
 |align=center|[[.vi]]
 |-
-|id=WALE colspan=8|{{flagicon|Wales}}&nbsp;[[Wales]] – See [[#UNI2|United Kingdom, The]].
+|id=WALE colspan=8|{{flagicon|Wales}}&nbsp;[[Wales]] – See [[#UNI2|Riam Unì]].
 |-
 |id=WALL|{{flagicon|Wallis and Futuna|local}}&nbsp;[[Wallis and Futuna]]
 |[[Wallis and Futuna|The Territory of the Wallis and Futuna Islands]]
