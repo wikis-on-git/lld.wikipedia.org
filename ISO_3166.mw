@@ -2191,17 +2191,17 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:GB]]
 |align=center|[[.gb]] [[.uk]] {{efn|Although the [[country code top-level domain]] [[.gb]] is reserved for the [[United Kingdom]], the country uses the [[.uk]] country code top-level domain instead.}}
 |-
-|id=UNI3 data-sort-value=UNI3|{{flagicon|United States}}&nbsp;[[United States Minor Outlying Islands|United States Minor Outlying Islands (the)]] {{efn|The [[ISO 3166]] country name [[United States Minor Outlying Islands|The United States Minor Outlying Islands]] comprises [[Baker&nbsp;Island]], [[Howland&nbsp;Island]], [[Jarvis&nbsp;Island]], [[Johnston&nbsp;Atoll]], [[Kingman&nbsp;Reef]], [[Midway&nbsp;Atoll]], [[Navassa&nbsp;Island]], [[Palmyra&nbsp;Atoll]], and [[Wake&nbsp;Island]].}}
+|id=UNI3 data-sort-value=UNI3|{{flagicon|Stac Unii}}&nbsp;[[United States Minor Outlying Islands|United States Minor Outlying Islands (the)]] {{efn|The [[ISO 3166]] country name [[United States Minor Outlying Islands|The United States Minor Outlying Islands]] comprises [[Baker&nbsp;Island]], [[Howland&nbsp;Island]], [[Jarvis&nbsp;Island]], [[Johnston&nbsp;Atoll]], [[Kingman&nbsp;Reef]], [[Midway&nbsp;Atoll]], [[Navassa&nbsp;Island]], [[Palmyra&nbsp;Atoll]], and [[Wake&nbsp;Island]].}}
 |[[Baker&nbsp;Island]], [[Howland&nbsp;Island]], [[Jarvis&nbsp;Island]], [[Johnston&nbsp;Atoll]], [[Kingman&nbsp;Reef]], [[Midway&nbsp;Atoll]], [[Navassa&nbsp;Island]], [[Palmyra&nbsp;Atoll]], and [[Wake&nbsp;Island]]
-|align=center|[[#UNI4|United States]]
+|align=center|[[#UNI4|Stac Unii]]
 |align=center|[[ISO 3166-1 alpha-2#UM|{{mono|UM}}]]
 |align=center|[[ISO 3166-1 alpha-3#UMI|{{mono|UMI}}]]
 |align=center|[[ISO 3166-1 numeric#581|{{mono|581}}]]
 |align=center|[[ISO 3166-2:UM]]
 |align=center|{{efn|The [[country code top-level domain]] [[.um]] has not been implemented.}}
 |-style="background-color:white;"
-|id=UNI4 data-sort-value=UNI4|{{flagicon|United States}}&nbsp;[[United States|United States of America (the)]]
-|[[United States|The United States of America]]
+|id=UNI4 data-sort-value=UNI4|{{flagicon|Stac Unii}}&nbsp;[[Stac Unii]]
+|[[Stac Unii|The United States of America]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#US|{{mono|US}}]]
 |align=center|[[ISO 3166-1 alpha-3#USA|{{mono|USA}}]]
