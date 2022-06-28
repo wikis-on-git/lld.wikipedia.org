@@ -1,0 +1,135 @@
+{{Documentation subpage}}
+<!-- Categories at the end of this page, please; interwikis links at Wikidata. -->
+{{distinguish|Template:Confusing}}
+
+Use this template in the body of an article as a request for other editors to clarify text that is difficult to understand. When the problem is not with the wording, but the sourcing, one may use {{tl|specify}} instead. For dealing with dubious information, please use one of the following: {{tl|citation needed}}, {{tl|verify source}}, {{tl|dubious}} or {{tl|disputed inline}}. For sentences that are simply ungrammatical or awkwardly written, rather than unclear in their content, use {{tl|copy edit inline}}. This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopedic content.
+
+== Usage ==
+This is an [[Wikipedia:WikiProject Inline Templates|inline template]] which should be placed immediately after the material in question, as with a footnote. For example:
+: <code> This sentence needs clarification.{{tlp|clarify|date{{=}}{{CURRENTMONTHNAME}}&nbsp;{{CURRENTYEAR}}}} </code> → This sentence needs clarification.{{clarify|date={{CURRENTMONTHNAME}}&nbsp;{{CURRENTYEAR}}}}
+::The wikilink on "clarification needed" is set to [[Wikipedia:Please clarify]]. 
+
+==Parameters==
+;Abbreviated parameter sets: 
+:{{tlx|Clarify|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|3=reason=&nbsp;}}
+:{{tlx|Clarify|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|3=reason=&nbsp;|4=text=&nbsp;}}
+
+;Full parameter set: 
+:{{tlx|Clarify|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|3=reason=&nbsp;|4=text=&nbsp;|5=pre-text=&nbsp;|6=post-text=&nbsp;}}
+
+;Parameter descriptions
+;{{Para|date}}
+:Like all inline templates, this Clarify template allows a date parameter which records when the clarify tag was added.  If the date parameter was not included when this template was added, the date parameter will automatically be added soon after by a [[WP:BOT|bot]].  Alternatively, you may add the date automatically (without requiring bot intervention) by [[WP:SUBST|substituting]] the template.  That is: {{tlxs|Clarify}} is equivalent to {{tlx|Clarify|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}.  This substitution technique also works if other parameters{{snd}} {{para|reason}} {{para|pre-text}} {{para|post-text}}{{snd}} are included.
+
+;{{Para|reason}}
+:Because it may not be immediately apparent to other readers and / or editors what the specific reason the tagged passage is in need of clarification, it is generally helpful to add a brief reason for the Clarify tag: <code><nowiki>{{Clarify|reason=</nowiki><var>What the problem is</var><nowiki>}}</nowiki></code> (this is preferable to using an HTML <code>&lt;!-- comment --&gt;</code> after the tag, as it is tidier to keep all of the {{Tlx|Clarify}}-related code inside the template).  If the request reason would be lengthy, use the article's talk page to address the issue in detail.
+:As well as being visible in the source code for readers and editors' benefit, the <code>reason</code> parameter is, if provided, displayed as a pop-up when the mouse is hovered over the 'clarification needed' link in the article.<!--  For technical reasons, this mouse-over pop-up feature does not work if the reason text contains double quotes.  Use single quotes instead, or use the code <code>&amp;quot;</code> if it is essential to include a double quote.  (Seems to no longer be a problem, since ca. 2015)-->
+
+;{{Para|text}}
+:The particular text needing clarification may be highlighted within the prose by wrapping this Clarify template around it:
+::As an example:
+:::''Understandable text preceding the template'', <code>{{tlp|Clarify|text{{=}}unclear or ambiguous text,|date{{=}}{{CURRENTMONTHNAME}}&nbsp;{{CURRENTYEAR}}}}</code> ''understandable text following the template''. 
+::produces: 
+:::''Understandable text preceding the template'', {{Clarify|text=unclear or ambiguous text,|date={{CURRENTMONTHNAME}}&nbsp;{{CURRENTYEAR}}}} ''understandable text following the template''.
+:Please note: when using this <code>text=</code> parameter, please ensure you leave a '''space''' before starting the template code.
+
+;{{Para|pre-text}}
+;{{Para|post-text}}
+:One can specify additional text to appear before and / or after the displayed 'clarification needed' tag using either (or both) the two parameters listed above. 
+::Examples follow:
+:#<code><nowiki>{{Clarify|pre-text=remove or}}</nowiki></code>
+:#:will cause the text 'remove or' to appear <u>before</u> 'clarification needed' like this:{{Clarify|pre-text=remove or}}
+:#<code><nowiki>{{Clarify|post-text=(complicated jargon)}}</nowiki></code>
+:#:will cause '(complicated jargon)' to appear <u>after</u> 'clarification needed' like this:{{Clarify|post-text=(complicated jargon)}}
+:#<code><nowiki>{{Clarify|post-text=(see [[Talk:Example#Clarification needed|talk]])}}</nowiki></code>
+:#:can be used to link to a discussion on the article's [[talk page]]; this example produces:{{Clarify|post-text=(see [[Talk:Example#Clarification needed|talk]])}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Use this inline template as a request for other editors to clarify text that is difficult to understand. Place immediately after the material in question.",
+	"params": {
+		"reason": {
+			"label": "Reason",
+			"type": "string",
+			"description": "A brief reason for the tag. Avoid using wikilinks, as they will be converted to plain text in the output.",
+			"suggested": true
+		},
+		"text": {
+			"label": "Text",
+			"type": "string",
+			"description": "Text fragment containing concerns the tag is supposed to address."
+		},
+		"date": {
+			"label": "Date",
+			"type": "string",
+			"description": "The date the tag was added (this will be added automatically soon by a bot if not added manually).",
+			"autovalue": "{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}",
+			"suggested": true
+		},
+		"pre-text": {
+			"label": "Pre-text",
+			"type": "string",
+			"description": "Any string to be added before the \"Clarify\" tag, such as \"?\"",
+			"autovalue": ""
+		},
+		"post-text": {
+			"label": "Post-text",
+			"type": "string",
+			"description": "Any string to be added after the \"Clarify\" tag, such as \"complicated jargon\"."
+		}
+	}
+}
+</templatedata>
+
+== Categorization ==
+Adding this template to an article will automatically place the article into [[:Category:Wikipedia articles needing clarification]], or a dated subcategory thereof.
+
+== Redirects ==
+{{startflatlist}}
+* {{tlf|Clarification needed}}
+* {{tlf|Clarify me}}
+* {{tlf|Confusing-inline}}
+* {{tlf|Confusing-short}}
+* {{tlf|Define?}}
+* {{tlf|How?}}
+* {{tlf|Huh}}
+* {{tlf|What?}}
+* {{tlf|What}}
+{{endflatlist}}
+
+== See also ==
+{{colbegin|colwidth=25em}}
+{|
+|'''Related inline templates'''
+* {{tl|Clarify span}}
+* {{tl|Ambiguous}}
+* {{tl|Definition}}
+* {{Tl|Examples}}
+* {{tl|Explain}}
+* {{tl|Non sequitur}}
+* {{tl|Vague}}
+* {{tl|Which one}}
+|}
+{|
+|'''Message-box templates'''
+* {{tl|Confusing}}
+* {{tl|Confusing section}}
+* {{Tl|Expand section}}
+* {{Tl|Missing information}}
+|}
+{|
+|'''Related pages'''
+* [[Wikipedia:Citing sources]]
+* [[Wikipedia:Explain jargon]]
+* [[Wikipedia:Please clarify]]
+|}
+{{colend}}
+{{Inline tags}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories after this line, please; interwikis links at Wikidata. -->
+[[Category:Coherency templates]]
+[[Category:Inline cleanup templates]]
+}}</includeonly>
