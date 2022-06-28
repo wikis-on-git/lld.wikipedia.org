@@ -1,0 +1,10 @@
+<includeonly>{{ombox
+|style=border:#38C400 1px solid;
+|image=[[File:Edit-copy purple-wikit.svg|48px|alt=|link=]]
+|text=This is a candidate to have a [[Help:Transwiki guide|transwiki guide]]. Due to the complexity of the project or template, this guide will help editors adapt it to a remote wiki when this cannot be done by simply copying the codes of one single template. If you know this template syntax very well, feel free to start the guide in {{#if:{{{1|}}}|[[{{{1}}}]]|[[{{FULLPAGENAME}}/Transwiki guide]]}}. Once the transwiki guide page is complete, replace this tag by {{tl|Transwiki guide}}.
+}}[[Category:Transwiki guide candidate|{{{2|{{PAGENAME}}}}}]]</includeonly><noinclude>
+{{doc|content=
+{{Transwiki guide candidate||*}}
+
+Adding this tag to the page will automatically include it in [[:Category:Transwiki guide candidate]]. If the template has a document page, you should add it inside the <code><nowiki><includeonly></nowiki></code> tag in the document. Parameter {{{1}}} provides the option to change the page name of the transwiki guide if desired, <nowiki>[[{{FULLPAGENAME}}/Transwiki guide]]</nowiki> by default. Parameter {{{2}}} is for changing the category sorting, <nowiki>{{PAGENAME}}</nowiki> by default.
+}}
