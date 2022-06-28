@@ -1,0 +1,91 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{High-risk}}
+{{Lua|Module:Side box}}
+
+This is a meta-template used for creating interwiki links to other [[Wikipedia:Wikimedia sister projects|sister projects]] of Wikipedia.  Note that links to other ''language'' Wikipedias should ''not'' use links in this form, instead use interwiki links to add them to the sidebar.
+
+== Usage ==
+
+*{{para|text}} &ndash; text of the message
+*{{para|project}} &ndash; the sister project to link to.  Used to select which project logo is displayed.
+*{{para|below}} &ndash; optional text to display in a full-width row below the main content.  Use sparingly
+*{{para|position}} &ndash; set to <kbd>left</kbd> for a left-floating box or, ideally, pass through with {{nowrap|<kbd><nowiki>|position={{{position|}}}</nowiki></kbd>}} to let this be set on a per-page basis. 
+
+'''Example'''
+<syntaxhighlight lang="moin">
+{{Sister project
+|project=commons
+|text=[[Wikimedia Commons]] has media related to: '''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]'''''
+}}
+</syntaxhighlight>
+{{Sister project
+|project=commons
+|text=[[Wikimedia Commons]] has media related to: '''''[[Commons:{{{1|Special:Search/{{PAGENAME}}}}}|{{{2|{{{1|{{PAGENAME}}}}}}}}]]''''' }}
+
+===Location===
+This template should normally be placed at the top of the ''External links'' section at the end of an article, if the article has a section for [[WP:EL|external links]].  If no such section exists, then please place it at the top of the last section in <nowiki>the article</nowiki>. 
+
+On [[WP:DAB|disambiguation pages]], this template should be listed above other text, but below any cleanup templates, images, infoboxes or navboxes.<!-- Per WP:ACCESS, cleanup templates, images, infoboxes, and navboxes are always<nowiki> first</nowiki>. -->
+
+==Template data==
+{{TemplateDataHeader}}
+<templatedata>{
+"description": "Creates a small box with a links to an article on a sister project of wikipedia.",
+"params": {
+  "project": {
+    "label": "Project",
+    "description": "The project to link to e.g. commons, meta, wikibooks, wikidata, wikiquote, wikipedia, wikisource, wiktionary, wikinews, wikispecies, wikiversity, wikivoyage, mediawiki, outreachwiki, or incubator. The default displays the Wikimedia logo.",
+    "type": "string",
+    "required": true
+  },
+  "text": {
+    "label": "Text",
+    "description": "Text of the message e.g. [[Wikimedia Commons]] has media related to: '''''[[Commons:Alcatraz]]'''''",
+    "type": "string",
+    "required": true
+  },
+  "below": {
+    "label": "Below",
+    "description": "Optional text to display in a full-width row below the main content. Use sparingly.",
+    "type": "string",
+    "required": false
+  },
+  "position": {
+    "label": "Position",
+    "description": "Position to display the box: 'left' floats the box to the left rather than the default, which is on the right.",
+    "type": "string",
+    "required": false
+  }
+}}</templatedata>
+
+==Images used==
+This template potentially displays the following images.
+* [[File:Commons-logo.svg|27x27px|link=|alt=]] [[:File:Commons-logo.svg|Wikimedia Commons logo]] <code>commons</code>
+* [[File:Wikimedia Community Logo.svg|27x27px|link=|alt=]] [[:File:Wikimedia Community Logo.svg|Meta-Wiki logo]] <code>meta</code>, <code>metawiki</code>, or <code>m</code>
+* [[File:Wikibooks-logo-en-noslogan.svg|27x27px|link=|alt=]] [[:File:Wikibooks-logo-en-noslogan.svg|Wikibooks logo]] <code>wikibooks</code>, <code>wbk</code>, <code>wb</code>, or <code>b</code>
+* [[File:Wikidata-logo.svg|27x27px|link=|alt=]] [[:File:Wikidata-logo.svg|Wikidata logo]] <code>wikidata</code> or <code>data</code>
+* [[File:Wikiquote-logo.svg|27x27px|link=|alt=]] [[:File:Wikiquote-logo.svg|Wikiquote logo]] <code>wikiquote</code>, <code>quote</code>, <code>wqt</code>, or <code>q</code>
+* [[File:Wikipedia-logo-v2.svg|27x27px|link=|alt=]] [[:File:Wikipedia-logo-v2.svg|Wikipedia logo]] <code>wikipedia</code>, <code>wp</code>, or <code>w</code>
+* [[File:Wikisource-logo.svg|27x27px|link=|alt=]] [[:File:Wikisource-logo.svg|Wikisource logo]] <code>wikisource</code>, <code>source</code>, <code>ws</code>, or <code>s</code>
+* [[File:Wiktionary-logo-v2.svg|27x27px|link=|alt=]] [[:File:Wiktionary-logo-v2.svg|Wiktionary logo]] <code>wiktionary</code>, <code>wkt</code>, <code>wdy</code>, or <code>d</code>
+* [[File:Wikinews-logo.svg|27x27px|link=|alt=]] [[:File:Wikinews-logo.svg|Wikinews logo]] <code>wikinews</code>, <code>news</code>, <code>wnw</code>, or <code>n</code>
+* [[File:Wikispecies-logo.svg|27x27px|link=|alt=]] [[:File:Wikispecies-logo.svg|Wikispecies logo]] <code>wikispecies</code> or <code>species</code>
+* [[File:Wikiversity logo 2017.svg|27x27px|link=|alt=]] [[:File:Wikiversity logo 2017.svg|Wikiversity logo]] <code>wikiversity</code>, <code>wvy</code>, or <code>v</code>
+* [[File:Wikivoyage-Logo-v3-icon.svg|27x27px|link=|alt=]] [[:File:Wikivoyage-Logo-v3-icon.svg|Wikivoyage logo]] <code>wikivoyage</code>, <code>voyage</code>, or <code>voy</code>
+* [[File:MediaWiki-2020-icon.svg|27x27px|link=|alt=]] [[:File:MediaWiki-2020-icon.svg|MediaWiki logo]] <code>mediawiki</code> or <code>mw</code>
+* [[File:Wikimedia Outreach.png|27x27px|link=|alt=]] [[:File:Wikimedia Outreach.png|Wikimedia Outreach logo]] <code>outreachwiki</code> or <code>outreach</code>
+* [[File:Incubator-notext.svg|27x27px|link=|alt=]] [[:File:Incubator-notext.svg|Wikimedia Incubator logo]] <code>incubator</code>
+* [[File:Wikimedia-logo.svg|27x27px|link=|alt=]] [[:File:Wikimedia-logo.svg|Wikimedia logo]] default
+
+== See also ==
+* {{tl|Sister-inline}}, compatible template for inline use with preceding bullets or indentation
+* {{tl|Sister project links}}
+* {{tl|Side box}}, the meta-template used for floated side boxes like {{tl|sister project}}
+* {{tl|Subject bar}}, a comprehensive horizontal template
+
+<includeonly>{{Sandbox other||
+[[Category:Interwiki link templates| ]]
+[[Category:Exclude in print|{{PAGENAME}}]]
+
+}}</includeonly>
