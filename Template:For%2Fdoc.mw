@@ -1,0 +1,88 @@
+{{for|the template to create a for loop|Template:For loop}}
+{{documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+{{high-use| 149560 }}
+{{Lua|Module:For}}
+
+== Usage ==
+This template yields a [[WP:Hatnote|hatnote]] similar to {{tl|Other uses}}, but allowing more flexible text with links to multiple articles or disambiguation pages. It accepts one or more parameters (zero is not allowed).
+
+=== With one parameter (rare) ===
+The first parameter sets the hatnote itself and should be plain text. Without any further parameter, it will link to a default disambiguation page for the article title, e.g. {{tlc|For|other entities}} yields on page Foo:
+{{hatnote|For other entities, see [[:Foo (disambiguation)]].}}
+
+This kind of usage with exactly one parameter is rare, as in most instances {{tl|Other uses}} (and in this case, {{tl|About}} with the same result) can be used more easily, and without any parameter. But it makes sense in some cases for disambiguation pages with the same type of other meanings, e.g. in [[Treaty of Lisbon]]:
+{{hatnote|For earlier treaties known as Treaty of Lisbon, see [[Treaty of Lisbon (disambiguation)]].}}
+However, for many such cases specific new templates have been implemented, like {{tl|Other people}}, {{tl|Other places}} etc. - see hatnote template overview box below.
+
+=== With two parameters ===
+The second parameter is used to change the resultant link, e.g. {{tlc|For|the acronym|FOO}} yields (wherever it is set, now independent of the article title):
+{{For|the acronym|FOO}}
+
+=== With more parameters ===
+The third, fourth and fifth parameters are used to give one, two, or three additional resultant links:
+{{For|similar terms|Foobar|Bar}}
+{{For|similar terms|Foobar|Bar|Baz}}
+{{For|similar terms|Foobar|Bar|Baz|Quux}}
+the last being produced by e.g. {{tlc|For|similar terms|Foobar|Bar|Baz|Quux}}.
+
+This template supports {{para|selfref}} (see {{tl|self reference}} and [[MOS:SELFREF]] for details).
+
+==Tracking category==
+Pages with errors reported by this template are added to [[:Category:Hatnote templates using unusual parameters]].
+
+==See also==
+* {{tl|About}}
+* {{tl|For-text}}
+* {{tl|For multi}}
+* {{tl|See also}}
+
+==TemplateData==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "This template lists up to four articles on alternative meanings of a term. For further details and examples see the template documentation.",
+	"params": {
+		"1": {
+			"label": "Description",
+			"description": "a phrase describing the major alternative, or a general term for all alternative meanings",
+			"type": "string",
+			"required": true,
+			"example": "other people with the surname Smith"
+		},
+		"2": {
+			"label": "First link",
+			"description": "A page to link to; usually a disambiguation page or the most likely other meaning.",
+			"default": "{{PAGENAME}} (disambiguation)",
+			"type": "wiki-page-name",
+			"required": false
+		},
+		"3": {
+			"label": "Second link",
+			"description": "A page to link to for another meaning, if any.",
+			"type": "wiki-page-name",
+			"required": false
+		},
+		"4": {
+			"label": "Third link",
+			"description": "A page to link to for another meaning, if any.",
+			"type": "wiki-page-name",
+			"required": false
+		},
+		"5": {
+			"label": "Fourth link",
+			"description": "A page to link to for another meaning, if any.",
+			"type": "wiki-page-name",
+			"required": false
+		}
+	},
+	"format": "inline"
+}
+</templatedata>
+{{Hatnote templates}}
+<includeonly>{{Sandbox other||
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Disambiguation and redirection templates|For]]
+[[Category:Hatnote templates]]
+
+}}</includeonly>
