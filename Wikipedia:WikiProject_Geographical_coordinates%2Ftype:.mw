@@ -1,0 +1,108 @@
+The <code>type:</code> parameter specifies the type of location for reverse mapping (for instance, to select a marker icon in the [[Wikipedia:WikiMiniAtlas|WikiMiniAtlas]]).
+
+It also sets the [[Scale (map)|map scale]], which can however be overridden by ''[[#dim:D|dim:]]'' or ''[[#scale:N|scale:]]''. 
+
+Valid types are:
+
+{| align="center" class="wikitable"
+! T
+! Description
+! Map scale
+|-
+| '''adm1st''' 
+| Administrative unit of country, 1st level (province, state), see [[List of administrative divisions by country|table]], e.g. [[U.S. state]]s
+|align="right" | 1:1,000,000
+|-
+| '''adm2nd'''
+| Administrative unit of country, 2nd level, see [[List of administrative divisions by country|table]], e.g. [[county (United States)]]
+|align="right" | 1:300,000
+|-
+| '''adm3rd'''
+| Administrative unit of country, 3rd level, see [[List of administrative divisions by country|table]]
+|align="right" | 1:100,000
+|-
+| '''airport'''
+| airports and airbases
+|align="right" | 1:30,000
+|-
+| '''city('''''pop''''')'''
+| cities, towns, villages, hamlets, suburbs, subdivisions, neighborhoods, and other human settlements (including unincorporated and/or abandoned ones) with known population<br/>Please replace ''pop'' with a number. Commas in ''pop'' will be ignored. There should be no blanks.
+|align="right" | 1:30,000 ... 1:300,000
+|-
+| '''city'''
+| cities, towns, villages, hamlets, suburbs, subdivisions, neighborhoods, and other human settlements (including unincorporated and/or abandoned ones) with unspecified population</br>These are treated as minor cities.
+|align="right" | 1:100,000
+|-
+| '''country'''
+| (e.g. "type:country")
+|align="right" | 1:10,000,000
+|-
+| '''edu'''
+| schools, colleges, and universities
+|align="right" | 1:10,000
+|-
+| '''event'''
+| one-time or regular events and incidents that occurred at a specific location, including battles, earthquakes, festivals, and shipwrecks
+|align="right" | 1:50,000
+|-
+| '''forest'''
+| forests and woodlands
+|align="right" | 1:50,000
+|-
+| '''glacier'''
+| glaciers and icecaps
+|align="right" | 1:50,000
+|-
+| '''isle'''
+| islands and isles
+|align="right" | 1:100,000
+|-
+| '''landmark'''
+| buildings (including churches, factories, museums, theatres, and power plants but excluding schools and railway stations), caves, cemeteries, cultural landmarks, geologic faults, headlands, intersections, mines, ranches, roads, structures (including antennas, bridges, castles, dams, lighthouses, monuments, and stadiums), tourist attractions, valleys, and other points of interest
+|align="right" | 1:10,000
+|-
+| '''mountain'''
+| peaks, mountain ranges, hills, submerged reefs, and seamounts
+|align="right" | 1:100,000
+|-
+| '''pass'''
+| mountain passes
+|align="right" | 1:10,000
+|-
+| '''railwaystation'''
+| stations, stops, and maintenance areas of railways and trains, including railroad, metro, rapid transit, underground, subway, elevated railway, etc.
+|align="right" | 1:10,000
+|-
+| '''river'''
+| rivers, canals, creeks, brooks, and streams, including intermittent ones
+|align="right" | 1:100,000
+|-
+| '''satellite'''
+| geo-stationary satellites
+|align="right" | 1:10,000,000
+|-
+| '''waterbody'''
+| bays, fjords, lakes, reservoirs, ponds, lochs, loughs, meres, lagoons, estuaries, inland seas, and waterfalls
+|align="right" | 1:100,000
+|-
+| '''camera'''
+| To indicate the location of where a specific image was taken. This type is used by coordinate templates on File pages.
+|align="right" | 1:10,000
+|-
+| 
+| ''Default scale: if no type is used or the type is not defined in the GeoHack extension''
+|align="right" | 1:300,000
+|}
+
+{| class="wikitable"
+|+ Samples
+! T
+! Markup
+! Result
+|-
+| '''waterbody'''
+| <code><nowiki>{{coord|46|43|N|7|58|E|type:waterbody}}</nowiki></code>
+| {{coord|46|43|N|7|58|E|type:waterbody}}
+|}
+
+[[Category:WikiProject Geographical coordinates]]
