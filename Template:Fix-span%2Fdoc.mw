@@ -1,0 +1,22 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION AFTER THIS LINE -->
+{{high-use| 41252 }}
+
+This meta-template for inline cleanup/dispute template has the same purpose and parameters as {{tl|fix}}. with three exceptions:
+* It takes a <kbd>content</kbd> parameter containing wikitext to be placed within a {{tag|span}} element before the superscripted notice.
+* It takes a <kbd>span-class</kbd> parameter specifying the [[HTML]] class name for the [[Span element in HTML|{{tag|span|o}} element]].
+* It gives <kbd>special</kbd> priority over <kbd>text</kbd> rather than the other way around.
+
+The spanned content is displayed <span class="cleanup-needed-content" style="background:#fff9f9;color:DarkSlateGray;">like this</span>.
+
+This is a separate template for now because this is an idea imported from the Italian Wikipedia ([[:it:template:cn|{{lang|la|{{abbr|q.v.|quod vide}}}}]]). Eventually, if this idea takes off, this mechanism could be folded into {{tl|fix}}.
+
+===See also===
+* [[Wikipedia:Cleanup process]]
+
+<includeonly>{{Sandbox other|
+| <!-- ADD CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Inline cleanup templates| ]]
+[[Category:Wikipedia metatemplates]]
+[[Category:Exclude in print]]
+}}</includeonly>
