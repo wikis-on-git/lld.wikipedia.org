@@ -1,0 +1,49 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+<pre>{{Template rating |1= |nocat= }}</pre>
+This template marks the status of a template as one of five levels:
+* {{tlx|Template rating|pre-alpha}}
+* {{tlx|Template rating|alpha}}
+* {{tlx|Template rating|beta}}
+* {{tlx|Template rating|release}}
+* {{tlx|Template rating|protected}}
+
+All parameter values are case-sensitive.
+
+* <code>prealpha</code> and <code>pa</code> are aliases for <code>pre-alpha</code>.
+* <code>a</code> is an alias for <code>alpha</code>.
+* <code>b</code> is an alias for <code>beta</code>.
+* <code>r</code>, <code>general</code> and <code>g</code> are aliases for <code>release</code>.
+* <code>protect</code> and <code>p</code> are aliases for <code>protected</code>.
+
+It also adds the template to one of five categories (unless the parameter <code>nocat</code> is set to <code>true</code>):
+* {{clc|Templates in pre-alpha development}}
+* {{clc|Templates in alpha}}
+* {{clc|Templates in beta}}
+* {{clc|Wikipedia template-protected templates}}
+
+== TemplateData==
+<templatedata>
+{
+	"description": "Used to mark the status of a template as one of pre-alpha, alpha, beta, release, or protected",
+	"params": {
+		"1": {
+			"label": "Rating",
+			"description": "The rating level of the template",
+			"type": "string",
+			"required": true
+		},
+		"nocat": {
+			"label": "Nocat",
+			"description": "Suppress categories",
+			"type": "boolean",
+			"default": "no"
+		}
+	}
+}
+</templatedata>
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Template namespace templates|Rating]]
+}}</includeonly>
