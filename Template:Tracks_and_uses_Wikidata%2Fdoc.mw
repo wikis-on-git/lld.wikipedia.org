@@ -1,0 +1,18 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{Lua|Module:Uses Wikidata}}
+This template combines {{tl|Uses Wikidata}} and {{tl|Tracks Wikidata}}, resulting in a cleaner-looking template.{{clear}}
+
+== Usage ==
+=== One module ===
+{{Tracks and uses Wikidata|P4081}}
+{{vad|Markup:}} {{spaces|2}} <code>{{((}}{{BASEPAGENAME}}{{!}}P4081{{))}}</code>
+{{clear}}
+
+=== Two modules ===
+{{Tracks and uses Wikidata|P648|P4081}}
+{{vad|Markup:}} {{spaces|2}} <code>{{((}}{{BASEPAGENAME}}{{!}}P648{{!}}P4081{{))}}</code>
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Template namespace templates]]
+}}</includeonly>
