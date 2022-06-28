@@ -1,0 +1,64 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Lua|Module:Side box|Module:Uses Wikidata}}
+
+This template may be used in the documentation of another template or module, to indicate that that template or module tracks the data in or missing from one or more [[Wikidata]] properties.
+__NOTOC__
+== Usage ==
+===Standard usage===
+<code><nowiki>{{</nowiki>Tracks Wikidata|''P1''|''P2''|''P3''...|cat=<nowiki>}}</nowiki></code>
+
+*Replace ''P1'', ''P2'', ''P3'', etc. with the actual property numbers – including the "P". As many or as few as necessary may be specified.
+*{{para|cat}} the name a category for the word "tracks" to link to – excluding the "Category:" prefix. Optional parameter; may be a single tracking category (if the template only has one), or a container category (such as [[:Category:MusicBrainz Wikidata tracking categories]]) which lists all of the template's Wikidata tracking categories. If not specified, the default is [[:Category:Wikidata tracking categories]].
+===Section link===
+If the documentation has a section describing and listing the Wikidata properties used, then a [[Help:section link|section link]] may be specified instead:
+
+<code><nowiki>{{</nowiki>Tracks Wikidata|section=''name of section''<nowiki>}}</nowiki></code>
+
+==Examples==
+For a single property (e.g. [[d:Property:P496]]):
+{{markup
+|<nowiki>{{Tracks Wikidata|P496}}</nowiki>
+|{{Tracks Wikidata|P496}}
+}}
+
+For multiple properties (as many properties as needed can be specified):
+{{markup
+|<nowiki>{{Tracks Wikidata|P10|P20|P30}}</nowiki>
+|{{Tracks Wikidata|P10|P20|P30}}
+}}
+
+With a custom category link:
+{{markup
+|<nowiki>{{Tracks Wikidata|P40|P50|P101|cat=MusicBrainz Wikidata tracking categories}}</nowiki>
+|{{Tracks Wikidata|P40|P50|P101|cat=MusicBrainz Wikidata tracking categories}}
+}}
+
+If the properties/tracking are described in a section of the documentation (e.g. <code><nowiki>===Wikidata===</nowiki></code>):
+{{markup
+|<nowiki>{{Tracks Wikidata|section=Wikidata}}</nowiki>
+|{{Tracks Wikidata|section=Wikidata}}
+}}
+
+== Supporting templates and modules ==
+* {{tl|Sister project}}, implemented using {{ml|Side box|main}} via {{tl|Side box}}
+* {{ml|Uses Wikidata|usesProperty}}
+* {{tl|Template other}}
+* {{tl|Module other}}
+* {{tl|Category other}}
+
+== Tracking categories ==
+The following categories are populated by this template:
+* {{clc|Templates tracking Wikidata}}
+* {{clc|Modules tracking Wikidata}}
+
+== See also ==
+* {{tl|Wikidata property}}
+* {{tl|Uses Wikidata}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikidata templates]]
+[[Category:Templates that add a tracking category]]
+[[Category:Templates tracking Wikidata|*]]
+}}</includeonly>
