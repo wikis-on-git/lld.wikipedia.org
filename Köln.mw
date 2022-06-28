@@ -26,6 +26,31 @@
 |}}'''Köln''' ie na [[zità]] te la [[Germania]]. L ie la majera zità tl [[Stac federei de la Germania|stat federel]] [[Nordrhein-Westfalen]], ma nia si [[capitela]], che ie [[Düsseldorf]]. Cun na populazion de {{formatnum:1083498}} tl 2020 iela la [[Lista de la majera ziteies te la Germania|cuarta majera zità de la Germania]].
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM NIEDERSCHLAG HÖHE = 200
+| FUNTANA = DWD, Daten: 1961–1990<ref>{{Internetquelle |autor=Deutscher Wetterdienst |url=https://www.dwd.de/DWD/klima/beratung/ak/ak_105130_kt.pdf |titel=Klimainformationen Köln |hrsg=Deutscher Wetterdienst |format=PDF |abruf=2021-06-16}}</ref>
+| Überschrift = Klimadaten Köln<br /><small>Station Köln/Bonn (Flugh.), 91 m über NHN</small>
+| Ort = Köln
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 4.5 | hmfeb = 6.2 | hmmär = 9.8 | hmapr = 13.8 | hmmai = 18.5 | hmjun = 21.4 | hmjul = 23.1 | hmaug = 23.0 | hmsep = 19.7 | hmokt = 15.0 | hmnov = 8.9 | hmdez = 5.5
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1.3 | lmfeb = −1.2 | lmmär = 1.1 | lmapr = 3.6 | lmmai = 7.6 | lmjun = 10.7 | lmjul = 12.4 | lmaug = 12.1 | lmsep = 9.5 | lmokt = 6.3 | lmnov = 2.4 | lmdez = -0.2
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 1.8 | avfeb = 2.5 | avmär = 5.3 | avapr = 8.8 | avmai = 13.3 | avjun = 16.4 | avjul = 18.0 | avaug = 17.5 | avsep = 14.3 | avokt = 10.4 | avnov = 5.7 | avdez = 2.9
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 62.0 | nbfeb = 48.0 | nbmär = 64.0 | nbapr = 55.0 | nbmai = 74.0 | nbjun = 86.0 | nbjul = 84.0 | nbaug = 77.0 | nbsep = 62.0 | nbokt = 55.0 | nbnov = 66.0 | nbdez = 72.0
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.5 | shfeb = 2.8 | shmär = 3.5 | shapr = 5.2 | shmai = 6.2 | shjun = 6.2 | shjul = 6.3 | shaug = 5.9 | shsep = 4.8 | shokt = 3.6 | shnov = 2.0 | shdez = 1.4
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 13.0 | rdfeb = 10.0 | rdmär = 13.0 | rdapr = 11.0 | rdmai = 12.0 | rdjun = 12.0 | rdjul = 11.0 | rdaug = 10.0 | rdsep = 10.0 | rdokt = 9.0 | rdnov = 12.0 | rddez = 13.0
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 82 | lffeb = 78 | lfmär = 75 | lfapr = 70 | lfmai = 69 | lfjun = 70 | lfjul = 71 | lfaug = 73 | lfsep = 78 | lfokt = 80 | lfnov = 82 | lfdez = 83
+}}
+
 ==Storia==
 ==Cëla nce ==
 * [[Lista de la majera ziteies te la Germania]]
