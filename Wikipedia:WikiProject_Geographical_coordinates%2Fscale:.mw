@@ -1,0 +1,33 @@
+The <code>scale:</code> parameter specifies the desired [[scale (map)|map scale]] as 1:''N'', overriding the scale implied by any <code>[[#type:T|type:]]</code> parameter. 
+
+[[tswiki:GeoHack|GeoHack]] uses <code>scale:</code> to select a map scale for a 72 [[Dots per inch|dpi]] computer monitor.  If no <code>dim:</code>, <code>type:</code>, or <code>scale:</code> parameters are provided, GeoHack uses its default scale of 1:300,000.
+
+{| class="wikitable"
+|+ Samples
+! Subject
+! Scale
+! Markup
+! Result
+|-
+|[[Big Ben]]
+|align=right|1:500
+|<code><nowiki>{{coord|51.500611|N|0.124611|W|scale:500}}</nowiki></code>
+|{{coord|51.500611|N|0.124611|W|scale:500}}
+|-
+|[[Palace of Westminster]]
+|align=right|1:5,000
+|<code><nowiki>{{coord|51.5006|N|0.1246|W|scale:5000}}</nowiki></code>
+|{{coord|51.5006|N|0.1246|W|scale:5000}}
+|-
+|[[City of Westminster]]
+|align=right|1:50,000
+|<code><nowiki>{{coord|51.501|N|0.125|W|scale:50000}}</nowiki></code>
+|{{coord|51.501|N|0.125|W|scale:50000}}
+|-
+|[[Greater London]]
+|align=right|1:500,000
+|<code><nowiki>{{coord|51.50|N|0.12|W|scale:500000}}</nowiki></code>
+|{{coord|51.50|N|0.12|W|scale:500000}}
+|}
+
+[[Category:WikiProject Geographical coordinates]]
