@@ -1,0 +1,34 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Template rating|beta}}
+The desktop and mobile browsing interfaces on Wikipedia differ substantially, and sometimes different templates are more or less suitable for a specific interface. For this reason certain templates do not display in mobile view, using the <code>class =  "nomobile"</code>
+:'''As of March 2017, only the <code>"nomobile"</code>-class is implemented, and <code>"nodesktop"</code> / <code>"mobileonly"</code> classes do nothing because they are not enabled in [[MediaWiki:Common.css]] or [[MediaWiki:Mobile.css]]''' — this means only the {{tlx|Template display|nomobile}} or {{tlx|Template display|desktoponly}} have any use.
+
+This template does not itself control where content is displayed. It is only intended for template documentation to say where another template displays.
+
+== Usage ==
+=== Adaptive templates ===
+{{Template display|adaptive}}
+<pre>{{Template display|adaptive}}</pre>
+
+=== Desktop only templates === 
+{{Template display|nomobile}}
+<pre>{{Template display|nomobile}}</pre>
+<!--<pre>{{Template display|desktoponly}}</pre>-->
+
+=== Mobile only templates ===
+{{Template display|nodesktop}}
+<pre>{{Template display|nodesktop}}</pre>
+<!-- <pre>{{Template display|mobileonly}}</pre> -->
+
+==Images used==
+* [[File:Different devices simple.svg|x22px|link=|alt=]] [[:File:Different devices simple.svg]]
+* [[File:Handheld devices no.svg|x22px|link=|alt=]] [[:File:Handheld devices no.svg]]
+* [[File:Desktop devices no.svg|x22px|link=|alt=]] [[:File:Desktop devices no.svg]]
+
+==See also==
+*
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+}}</includeonly>
