@@ -1,0 +1,12 @@
+<onlyinclude><includeonly>{{sister project
+ |position = {{{position|}}}
+ |image    = [[File:Wikidata-logo-without-paddings.svg|30px|class=noviewer|alt=|link=]]
+ |text     = This {{module other|module|template}} [[:Category:{{{cat|Wikidata tracking categories}}}|tracks]] and uses<!--
+--> {{#if:{{{section|}}} | one or more [[Wikidata]] properties; see [[#{{{section}}}|§&nbsp;{{{section}}}]] for details.<!--
+                     --> | [[Wikidata]] propert{{#if:{{{2|}}}|ies|y}}: {{#invoke:Uses Wikidata|tuProperty}} }}
+}}{{#switch:{{SUBPAGENAME}}|sandbox|testcases|doc=<!--nocat-->|#default={{#ifeq:{{PAGENAME}}|Uses Wikidata|<!--
+-->|{{module other|[[Category:Modules using data from Wikidata]] [[Category:Modules tracking Wikidata]]<!--
+-->|{{template other|[[Category:Templates using data from Wikidata]] [[Category:Templates tracking Wikidata]]}} }}
+  }}
+}}</includeonly></onlyinclude>
+{{Documentation}}
