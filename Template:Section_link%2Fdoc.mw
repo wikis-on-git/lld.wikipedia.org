@@ -1,0 +1,144 @@
+{{documentation subpage}}
+{{Redirect|Template:Slink|the template that links to search results|Template:Search link}}
+{{template shortcuts|seclink|slink|§l}}
+{{used in system|in [[MediaWiki:Abusefilter-warning-notwallofshame]]}}
+{{lua|Module:Section link}}
+{{Bot use warning|bots=[[Wikipedia:Bots/Requests for approval/Cewbot 6|cewbot]]}}
+
+== Usage ==
+This template is appropriate for use in [[Wikipedia:Hatnote|hatnotes]] and [[Wikipedia:Manual of Style/Layout#"See also" section|See also]] sections, or to reference sections within the same article.  When using in article body text, consider whether an overt link to a specific section in another article may be confusing to readers who cannot follow links, such as those viewing a printed version of the material, or a version republished without links (see [[WP:LINKSTYLE]]).
+
+=== Syntax (overview) ===
+* <code><nowiki>{{section link|Article|Section}}</nowiki></code> or <code><nowiki>{{section link|Article#Section}}</nowiki></code>, link to section of other article. → Example: {{section link|Albert Einstein|Scientific career}}
+* <code><nowiki>{{section link|Article|Section|nopage=y}}</nowiki></code>, link to section of other article, only displaying the section's title → Example: {{section link|Albert Einstein|Scientific career|nopage=y}}
+* <code><nowiki>{{section link||Section}}</nowiki></code>, for usage within the same page, supply an empty first parameter → Example: {{section link||Scientific career}}
+
+=== Single section ===
+This template, {{tl|section link}}, or its shortcut, {{tl|slink}}, is used to generate a link to a certain section of a local wiki page and render an appropriate section mark ([[§]]).
+
+Instead of:
+
+<code><nowiki>[[Albert Einstein#Scientific career]]</nowiki></code>
+
+[[Albert Einstein#Scientific career]]
+
+...you can write:
+
+<code><nowiki>{{section link|Albert Einstein|Scientific career}}</nowiki></code>
+
+{{section link|Albert Einstein|Scientific career}}
+
+...or
+
+<code><nowiki>{{section link|Albert Einstein#Scientific career}}</nowiki></code>
+
+{{section link|Albert Einstein#Scientific career}}
+
+=== Multiple sections ===
+This template may generate consecutive links to several sections of the same page. You can write:
+<syntaxhighlight lang=moin>{{section link|History of IBM|1880s–1924: The origin of IBM|1969: Antitrust, the Unbundling of software and services|1993–present: IBM's near disaster and rebirth}}</syntaxhighlight>
+:{{section link|History of IBM|1880s–1924: The origin of IBM|1969: Antitrust, the Unbundling of software and services|1993–present: IBM's near disaster and rebirth}}
+
+...or:
+
+<syntaxhighlight lang=moin>{{section link|History of IBM#1880s–1924: The origin of IBM|1969: Antitrust, the Unbundling of software and services|1993–present: IBM's near disaster and rebirth}}</syntaxhighlight>
+:{{section link|History of IBM#1880s–1924: The origin of IBM|1969: Antitrust, the Unbundling of software and services|1993–present: IBM's near disaster and rebirth}}
+
+===Suppressing page name===
+Sometimes the page name needs not to appear (e.g. to avoid redundancy and wordiness). For the page on which the template is used, not specifying a page name creates a section link only. The following:
+<pre>{{Section link||Suppressing page name}}</pre>
+...is the equivalent of:
+<pre>[[#Suppressing page name|§&amp;nbsp;Suppressing page name]]</pre>
+...and renders as:
+:{{section link||Suppressing page name}}
+
+Use {{para|nopage|y}} for the same visual effect. 
+
+When discussing an article from its talk page, {{tlx|Article link}}—or its alias, {{tlx|alink}}—is preferable to the longer {{tlc|Section link|{<nowiki/>{[[Help:Magic_words#Variables|ARTICLEPAGENAME]]}<nowiki/>}|Section|4=nopage=y}}.
+
+Comparison of displayed results:
+*<code><nowiki>{{section link|WP:Manual of Style|Quotations}}</nowiki></code> → {{section link|WP:Manual of Style|Quotations}}
+*<code><nowiki>{{section link|WP:Manual of Style|Quotations|nopage=y}}</nowiki></code> → {{section link|WP:Manual of Style|Quotations|nopage=y}}
+*<code><nowiki>{{section link|WP:Manual of Style|Quotations|Quotation marks|Commas}}</nowiki></code> → {{section link|WP:Manual of Style|Quotations|Quotation marks|Commas}}
+*<code><nowiki>{{section link|WP:Manual of Style|Quotations|Quotation marks|Commas|nopage=y}}</nowiki></code> → {{section link|WP:Manual of Style|Quotations|Quotation marks|Commas|nopage=y}}
+
+=== Styling page name ===
+For titles of films and short stories, [[MOS:DABPIPING|always]] present the core part of the page's name (without any parenthetic disambiguation) in italics, quotation marks, or some other markup (per [[MOS:TITLES]]).  The {{para|display}} parameter can be used for this purpose:
+*<code><nowiki>{{section link|The Last Temptation of Christ (film)|General controversy|display=''The Last Temptation of Christ'' (film)}}</nowiki></code> → {{section link|The Last Temptation of Christ (film)|General controversy|display=''The Last Temptation of Christ'' (film)}}
+
+=== Underscores ===
+It is common practice to copy article and section name from the browser's address bar.  When doing that, the article and section names may contain underscores:
+:<code><nowiki>Albert_Einstein#Scientific_career</nowiki></code>
+This template automatically replaces the underscores with space characters:
+:<code><nowiki>{{section link|Albert_Einstein#Scientific_career}}</nowiki></code> → {{section link|Albert_Einstein#Scientific_career}}
+There are articles that have underscores (see {{cl|Articles with underscores in the title}}).  To retain the underscores in the rendered output, use {{para|keep-underscores|yes}}:
+::article and section copied from browser address bar:
+:::<code>Dual_EC_DRBG#Timeline_of_Dual_EC_DRBG</code>
+::manual removal of extraneous underscores:
+:::<code>Dual_EC_DRBG#Timeline of Dual_EC_DRBG</code>
+::::<code><nowiki>{{section link|Dual_EC_DRBG#Timeline of Dual_EC_DRBG|keep-underscores=yes}}</nowiki></code> → {{section link|Dual_EC_DRBG#Timeline of Dual_EC_DRBG|keep-underscores=yes}}
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"description": "This template is used to generate a link to a certain section of a local wiki page and render an appropriate section mark (§). This template may generate consecutive links to several sections of the same page.",
+	"params": {
+		"1": {
+			"label": "Page name",
+			"description": "Name of the page to which the link must be created. Leave empty to link to the current page. Doing so causes no page name to appear.",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"2": {
+			"label": "Section name 1",
+			"description": "Name of the (first) section to which the link must be created. This parameter is mandatory.",
+			"type": "string",
+			"required": true
+		},
+		"3": {
+			"label": "Section name 2",
+			"description": "This template can link to additional sections within one page. You can supply another section name in this field.",
+			"type": "string"
+		},
+		"4": {
+			"label": "Section name 3",
+			"description": "This template can link to additional sections within one page. You can supply another section name in this field.",
+			"type": "string"
+		},
+		"5": {
+			"label": "Section name 4",
+			"description": "This template can link to additional sections within one page. You can supply another section name in this field.",
+			"type": "string"
+		},
+		"nopage": {
+			"label": "Hide page name",
+			"description": "If set to \"yes\", \"y\" or \"true\", hides the page name (only section names are displayed).",
+			"type": "boolean"
+		},
+		"keep-underscores" : {
+			"label": "Keep underscores",
+			"description": "If set to \"yes\", \"y\" or \"true\", doesn't replace underscores with spaces in the page name and section names.",
+			"type": "boolean"                       
+		},
+		"display": {
+			"label": "Displayed page name",
+			"description": "If the page name must be displayed differently (e.g. in italics), enter it here.",
+			"type": "string"
+		}
+	}
+}
+</templatedata>
+
+==See also==
+*{{tl|Anchor}}
+*{{tl|Article link}}{{snd}}for linking to a mainspace section from its talk page
+*{{tl|Multi-section link}}{{snd}}for linking to a section listing nested section names
+*{{tl|Pslink}}{{snd}}for linking to a section without displaying the section sign (§)
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES HERE, THANKS -->
+[[Category:Section and anchor link formatting templates]]
+[[Category:Wikipedia section templates]]
+
+}}</includeonly>
