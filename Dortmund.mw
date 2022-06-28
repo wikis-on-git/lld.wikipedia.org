@@ -29,6 +29,27 @@
 |}}'''Dortmund''' ie na [[zità]] te la [[Germania]] tl [[Stac federei de la Germania|stat federel]] [[Nordrhein-Westfalen]]. Tl 2020 ovela na populazion de {{formatnum:587696}} sun na spersa de {{formatnum:280.71}} km².<ref>https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html Statistisches Bundesamt – Gemeindeverzeichnis</ref>
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR =
+| DIAGRAMM NIEDERSCHLAG =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| QUELLE = <ref>[http://www.wetterkontor.de/de/klima/klima2.asp?land=de&stat=10416 wetterkontor.de]</ref>
+| Überschrift =
+| Ort = Dortmund
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 4 | hmfeb = 5 | hmmär = 9 | hmapr = 13 | hmmai = 18 | hmjun = 21 | hmjul = 22 | hmaug = 22 | hmsep = 19 | hmokt = 15 | hmnov = 9 | hmdez = 5
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1 | lmfeb = −1 | lmmär = 2 | lmapr = 4 | lmmai = 8 | lmjun = 11 | lmjul = 13 | lmaug = 13 | lmsep = 10 | lmokt = 7 | lmnov = 3 | lmdez = 1
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 65 | nbfeb = 56 | nbmär = 53 | nbapr = 57 | nbmai = 68 | nbjun = 78 | nbjul = 93 | nbaug = 93 | nbsep = 67 | nbokt = 60 | nbnov = 71 | nbdez = 77
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 19 | rdfeb = 17 | rdmär = 14 | rdapr = 16 | rdmai = 14 | rdjun = 14 | rdjul = 17 | rdaug = 16 | rdsep = 15 | rdokt = 17 | rdnov = 19 | rddez = 19
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 85 | lffeb = 80 | lfmär = 77 | lfapr = 72 | lfmai = 70 | lfjun = 73 | lfjul = 73 | lfaug = 74 | lfsep = 79 | lfokt = 81 | lfnov = 84 | lfdez = 85
+}}
+
 ==Storia==
 ==Cëla nce ==
 * [[Lista de la majera ziteies te la Germania]]
