@@ -1,0 +1,19 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__|$B=
+{{Ambox
+| name  = Confusing
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| small = {{{small|}}}
+| type  = style
+| class = ambox-confusing
+| sect  = {{{1|}}}
+| issue = '''may be [[Wikipedia:Vagueness|confusing or unclear]] to readers'''. {{#if:{{{reason|}}}|In particular, {{{reason}}}.}}
+| fix   = Please help [[Wikipedia:Please clarify|clarify the {{{1|article}}}]]. There {{#if:{{{talk|{{{2|}}}}}}|is|might be}} a discussion about this on {{#if:{{{talk|{{{2|}}}}}}|{{format link|{{{talk|{{{2|}}}}}}}}|[[{{TALKPAGENAME}}|the talk page]]}}.
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = Wikipedia articles needing clarification
+| all   = All Wikipedia articles needing clarification
+}}
+}}<noinclude>
+{{Documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>
