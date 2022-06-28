@@ -29,6 +29,51 @@
 |}}'''Leipzig''' ie na [[zità]] te la [[Germania]]. La ie la majera zità tl [[Stac federei de la Germania|stat federel]] [[Sachsen]], ma nia si [[capitela]], che ie [[Dresden]]. Tl 2020 ovela na populazion de {{formatnum:597493}} sun na spersa de {{formatnum:297.8}} km².<ref>https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html Statistisches Bundesamt – Gemeindeverzeichnis</ref>
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM NIEDERSCHLAG = deaktiviert
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = DWD, Daten: 2015–2020<ref>[https://www.wetterdienst.de/Deutschlandwetter/Leipzig/Klima/ DWD]; [http://wetterkontor.de/de/klima/klima2.asp?land=de&stat=10469 wetterkontor.de]</ref>
+| Überschrift =
+| Ort = Leipzig
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 4.4| hmfeb = 7.0| hmmär = 10.0| hmapr = 15.2| hmmai = 19.8| hmjun = 23.1| hmjul = 24.9| hmaug = 25.6| hmsep = 20.9| hmokt = 14.7| hmnov = 9.3| hmdez = 7.2
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −1.2| lmfeb = −0.3| lmmär = 1.4| lmapr = 3.8| lmmai = 7.9| lmjun = 12.0| lmjul = 13.6| lmaug = 13.4| lmsep = 10.1| lmokt = 6.5| lmnov = 2.7| lmdez = 1.8
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 46| nbfeb = 37| nbmär = 43| nbapr = 25| nbmai = 32| nbjun = 52| nbjul = 58| nbaug = 53| nbsep = 40| nbokt = 54| nbnov = 44| nbdez = 37
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 17| rdfeb = 12| rdmär = 17| rdapr = 11| rdmai = 9| rdjun = 11| rdjul = 13| rdaug = 12| rdsep = 12| rdokt = 15| rdnov = 17| rddez = 17
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.5
+| shfeb = 2.1
+| shmär = 3.2
+| shapr = 4.6
+| shmai = 6.4
+| shjun = 6.2
+| shjul = 6.7
+| shaug = 6.1
+| shsep = 4.3
+| shokt = 3.5
+| shnov = 1.5
+| shdez = 1.2
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 86
+| lffeb = 84
+| lfmär = 79
+| lfapr = 74
+| lfmai = 71
+| lfjun = 73
+| lfjul = 70
+| lfaug = 70
+| lfsep = 77
+| lfokt = 82
+| lfnov = 84
+| lfdez = 86
+}}
+
 ==Storia==
 ==Cëla nce ==
 * [[Lista de la majera ziteies te la Germania]]
