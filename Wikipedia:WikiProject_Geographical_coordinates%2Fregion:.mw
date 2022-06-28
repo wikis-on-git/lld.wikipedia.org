@@ -1,0 +1,54 @@
+The <code>region:</code> parameter specifies the political region for terrestrial coordinates.  It is used to select appropriate map resources. If no <code>region:</code> parameter is provided, [[tswiki:GeoHack|GeoHack]] attempts to determine the region from the coordinates.
+
+The region should be supplied as either a two character [[ISO 3166-1 alpha-2]] country code or an [[ISO 3166-2]] region code.
+
+Examples of [[ISO 3166-1 alpha-2]] codes:
+{{columns-list|
+* '''AQ''' Antarctica
+* '''AU''' Australia
+* '''BR''' Brazil
+* '''DE''' Germany
+* '''GB''' United Kingdom
+* '''HK''' Hong Kong
+* '''IN''' India
+* '''LK''' Sri Lanka
+* '''RU''' Russia
+* '''US''' United States}}
+
+Examples of [[ISO 3166-2]] region codes:
+{{columns-list|
+* '''DE-TH''' Thuringia, Germany
+* '''GB-BIR''' Birmingham, England
+* '''NO-03''' Oslo, Norway
+* '''US-NY''' New York state, US}}
+
+The oceans have the following Wiki assigned code elements per [[:de:Vorlage:Coordinate#Ozeane]].
+* '''XN''' Arctic Ocean
+* '''XA''' Atlantic Ocean
+* '''XI''' Indian Ocean
+* '''XP''' Pacific Ocean
+* '''XS''' Southern Ocean
+
+In addition, two Wiki assigned code elements can be used with {{tl|coord}}:
+* '''XZ''' for objects in or above international waters (similar to [[UN/LOCODE]]).
+* '''ZZ''' for use in examples.
+
+{| class="wikitable" cellpadding="20"
+|+ Samples
+! Focus region
+! Region
+! Markup
+! Result
+|- 
+| Switzerland
+| <code>CH</code>
+| <code><nowiki>{{coord|46.9524|N|7.4396|E|region:CH}}</nowiki></code>
+| {{coord|46.9524|N|7.4396|E|region:CH}}
+|-
+| Berlin, Germany
+| <code>DE-BE</code>
+| <code><nowiki>{{coord|52.5164|N|13.3775|E|region:DE-BE}}</nowiki></code>
+| {{coord|52.5164|N|13.3775|E|region:DE-BE}}
+|}
+
+[[Category:WikiProject Geographical coordinates]]
