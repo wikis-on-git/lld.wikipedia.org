@@ -1,0 +1,32 @@
+The <code>dim:</code> parameter defines the [[diameter]] of a viewing circle centered on the coordinate. While the default unit of measurement is metres, the <code>km</code> suffix may be appended to indicate kilometres.
+
+[[tswiki:GeoHack|GeoHack]] uses <code>dim:</code> to select a [[Scale (map)|map scale]] such that the viewing circle appears roughly {{convert|10|cm|in|0}} in diameter on a 72 [[Dots per inch|dpi]] computer monitor.  If no <code>dim:</code>, <code>type:</code>, or <code>scale:</code> parameters are provided, GeoHack uses its default viewing circle of {{convert|30|km|mi}}.
+
+{| class="wikitable"
+|+ Samples
+! Subject
+! View diameter
+! Markup
+! Result
+|-
+| [[Western Hemisphere]]
+| style="text-align:right;" | {{convert|10000|km|mi}}
+| <code><nowiki>{{coord|0|N|90|W|dim:10000km}}</nowiki></code>
+| {{coord|0|N|90|W|dim:10000km}}
+|-
+| [[Ohio]]
+| style="text-align:right;" | {{convert|400|km|mi}}
+| <code><nowiki>{{coord|40.5|-82.5|dim:400km}}</nowiki></code>
+| {{coord|40.5|-82.5|dim:400km}}
+|-
+| [[Dresden]]
+| style="text-align:right;" | {{convert|20000|m|mi}}
+| <code><nowiki>{{coord|51.03|13.73|dim:20000}}</nowiki></code>
+| {{coord|51.03|13.73|dim:20000}}
+|-
+| [[Statue of Liberty]]
+| style="text-align:right;" | {{convert|100|m|ft}}
+| <code><nowiki>{{coord|40.6892|-74.0445|dim:100}}</nowiki></code>
+| {{coord|40.6892|-74.0445|dim:100}}
+|-
+|}
