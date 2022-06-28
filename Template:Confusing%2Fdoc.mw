@@ -1,0 +1,88 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{Redirect|Template:Unclear||Template:Clarify}}
+{{Twinkle standard installation}}
+== Usage ==
+* This template categorises tagged articles into [[:Category:Wikipedia articles needing clarification]].
+* You can specify whether the template applies to an article (default) or section by adding <code>|article</code> or <code>|section</code> after the template's name. There is also the [[Template:Confusing section]] template for the sections.
+* It is recommended to use the <code>reason</code> parameter to explain what is confusing. For example:
+:{{Tlx|Confusing|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|3=reason=the Wangler is referred to in the plural but the diagram shows only one}}
+{{Confusing|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|reason=the Wangler is referred to in the plural but the diagram shows only one}}
+*When a talk page discussion is held, a direct link to that discussion can be added via the {{para|talk}} parameter. For example:
+:{{Tlx|Confusing|2=date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|3=talk=Template talk:Confusing#Talk parameter please!}}
+{{Confusing|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|talk=Template talk:Confusing#Talk parameter please!}}
+*Do not capitalize the beginning of the reason, since it is preceded by "In particular, ".
+*Do not add a full stop/period at the end of the reason because the template automatically puts a full stop/period in.
+* Please do not [[Wikipedia:Substitution|subst:]] this template.
+
+{{Tlx|Confusing|small{{=}}left}} generates:
+{{Confusing|small=left}}
+
+{{Tlx|Confusing|small{{=}}left|reason{{=}}the tensing of the article is ambiguous}} generates:
+{{Confusing|small=left|reason=the tensing of the article is ambiguous}}
+
+==Template data==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"description": "This template is used to mark an article or section as confusing and in need of clarification.",
+	"params": {
+		"1": {
+			"label": "Article or section?",
+			"type": "string",
+			"description": "Set to 'section' to specify that you are referring to the section",
+			"default": "article"
+		},
+		"talk": {
+			"label": "Discussion location",
+			"description": "The location at which the discussion on the issue is being held. Should be full page name, followed by #, followed by section name. Please do not enclose between [[ and ]]. The link will be automatically formatted using the section sign (§).",
+			"example": "Template talk:Confusing#Talk parameter please!",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"reason": {
+			"label": "What is confusing?",
+			"type": "string",
+			"description": "Explain what part of the text needs to be clarified."
+		},
+		"date": {
+			"label": "Date",
+			"type": "date",
+			"description": "The date this template was added, in the format [full month name] [full year].",
+			"example": "January 2015",
+			"autovalue": "{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}",
+			"required": true
+		},
+		"small": {
+			"type": "string",
+			"description": "Set to 'left' if a small version should be shown instead of the default",
+			"label": "Small?"
+		}
+	},
+	"paramOrder": [
+		"1",
+		"talk",
+		"reason",
+		"date",
+		"small"
+	],
+	"format": "inline"
+}
+</templatedata>
+
+
+==See also==
+* [[Template:Clarify]], an in-line version of this template 
+* [[Template:Confusing section]], a section version of this template
+
+* [[Template:Technical]]
+* [[Template:Context]]
+* [[Template:Vague]]
+
+* [[Wikipedia:Template messages/Cleanup]] for an overview of cleanup templates.
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Cleanup templates]]
+[[Category:Coherency templates]]
+}}</includeonly>
