@@ -1,0 +1,80 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+|colspan="2" align="center" | [[File:{{{Foto}}}|250px|center]]
+|-
+!colspan="2" bgcolor="#E3E3E3" | {{{Inuem}}}
+|-
+| {{#if:{{{Bandiera|}}}|{{#if: {{{Bandiera|}}} = " "|[[File:{{{Bandiera|}}}|100px|center|Bandiera de {{{Inuem}}}]]|}}|}}
+|| {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|90px|center|Blason de {{{Inuem}}}]]|}}|}}
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Nfurmazions prinzipeles
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{NLD}}
+|- valign="top" 
+|style="width:130px;font-size:90%" | '''Provinzia''' || style="width:170px;font-size:90%" | {{{Provinzia}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Abitanc''' || style="width:170px;font-size:90%" | {{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Densità''' || style="width:170px;font-size:90%" | {{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 1 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Geografia
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" | {{{Coordinates}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Autëza''' ||  style="width:180px;font-size:90%" | {{{Autëza}}}&nbsp;m
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Spersa''' || style="width:180px;font-size:90%" | {{{Seuraspersa}}}&nbsp;km²
+|- valign="top"
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Auter
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Codesc CBS''' ||  style="width:180px;font-size:90%" | {{{CBS}}}
+|- valign="top"
+|colspan="2" style="width:130px;font-size:90%" | '''Populazion de uriginn imigreda''' 
+|- valign="top"
+|-
+| valign="top" style="font-size:90%"| &bullet;&nbsp;de ndut<br>&bullet;&nbsp;dl uzidënt<br>&bullet;&nbsp;nia-uzidënt|| valign="top" style="font-size:90%"|  {{{imi_total}}}<br>{{{imi_west}}}<br>{{{imi_nonwest}}}
+|-
+{{#if:{{{davani_familia|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Davani mesan per familia'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{davani_familia}}}&nbsp;€&nbsp;({{{davani_familia_ann}}})  | 
+{{!}}-}}
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Cherta
+|-
+|colspan="2" align="center" | {{{Cherta}}}
+|-
+|}</includeonly>
+
+<noinclude>
+{{Infobox chemun Paejes Basc
+|Foto              = OPSTANDINGSKERK_(32647029656).jpg
+|Inuem             = Leiden
+|Bandiera          = Flag_of_Leiden.svg
+|Blason            = Leiden_wapen.svg
+|Provinzia         = {{NL-ZH}}
+|Seuraspersa       = 21.91
+|Abitanc           = 125167
+|Autëza            = 0
+|Data abitanc      = 2020
+|CBS               = 546
+|imi_total         = 32,2%
+|imi_west          = 15,2%
+|imi_nonwest       = 17,0%
+|davani_familia    = 34000
+|davani_familia_ann  = 2012
+|Coordinates       = {{coord|52|11|N|4|31|E|display=inline}}   <!--mantenì genau chësc format-->
+|Cherta            = {{Mappa di localizzazione
+|NED
+|label = Leiden
+|latitudineGradi = 52
+|latitudinePrimi = 11
+|longitudineGradi = 4
+|longitudinePrimi = 31
+|position = left
+|relief = yes
+|width = 300
+|float = center
+}}
+|}}
+
+[[Categoria:Wikipedia:Templates]]</noinclude>
