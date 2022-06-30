@@ -10,7 +10,7 @@
 |-valign="top"
 | style="width:130px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{NLD}}
 |- valign="top" 
-|style="width:130px;font-size:90%" | '''Provinzia''' || style="width:170px;font-size:90%" | {{{Provinzia}}}
+|style="width:130px;font-size:90%" | '''[[Provinzies de i Paejes Basc|Provinzia]]''' || style="width:170px;font-size:90%" | {{{Provinzia}}}
 |- valign="top"
 |style="width:130px;font-size:90%" | '''Abitanc''' || style="width:170px;font-size:90%" | {{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
