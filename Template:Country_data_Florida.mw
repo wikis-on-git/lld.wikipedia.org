@@ -1,0 +1,37 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Florida
+| flag alias = Flag of Florida.svg
+| flag alias-1837 = US flag 26 stars.svg
+| flag alias-1845 = US flag 27 stars.svg
+| flag alias-1846 = US flag 28 stars.svg
+| flag alias-1847 = US flag 29 stars.svg
+| flag alias-1848 = US flag 30 stars.svg
+| flag alias-1851 = US flag 31 stars.svg
+| flag alias-1858 = US flag 32 stars.svg
+| flag alias-1859 = US flag 33 stars.svg
+| flag alias-1861 = Flag of Florida (1861).svg
+| flag alias-1868 = Flag of Florida (1868-1900).svg
+| flag alias-1900 = Flag of Florida (1900-1985).svg
+| flag alias-1985 = Flag of Florida.svg
+| link alias-army = Florida Army National Guard
+| link alias-air force = Florida Air National Guard
+| link alias-naval = Florida Naval Militia
+| link alias-navy = Florida Naval Militia
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1837  
+| var2 = 1845  
+| var3 = 1846   
+| var4 = 1847   
+| var5 = 1848  
+| var6 = 1851  
+| var7 = 1858  
+| var8 = 1859
+| var9 = 1861
+| var10 = 1868
+| var11 = 1900
+| var12 = 1985
+</noinclude>
+}}
