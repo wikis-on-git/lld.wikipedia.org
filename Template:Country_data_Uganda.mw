@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Uganda
+| flag alias = Flag of Uganda.svg
+| flag alias-colonial = Flag of the Uganda Protectorate.svg
+| flag alias-1962 = Flag of Uganda 1962.svg
+| link alias-army = Uganda People's Defence Force{{!}}Ugandan Land Forces
+| flag alias-air force = Flag of the Uganda People's Defence Air Force.svg
+| link alias-air force = Uganda Air Force{{!}}Ugandan Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| var2 = 1962
+| redir1 = UGA
+</noinclude>
+}}
