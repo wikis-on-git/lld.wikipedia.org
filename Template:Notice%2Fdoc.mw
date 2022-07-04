@@ -1,0 +1,106 @@
+<!--
+********************************************************************
+****  This documentation is shared between multiple templates,  ****
+****  using {{BASEPAGENAME}} and {{#switch:...}} to customize.  ****
+********************************************************************
+-->
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE AND INTERWIKIS TO WIKIDATA -->
+{{Used in system}}
+{{Never substitute}}
+This is the {{tl|{{BASEPAGENAME}}}} message box. It should be used '''sparingly''' and only for {{#switch:{{BASEPAGENAME}}
+  |Warning='''important''' warnings about an article or a user that cannot be shown using a more specific template. Please only use it when something is seriously wrong and other people might not otherwise know about it.
+  |<!--DEFAULT:-->'''significant''' information for which a more specific template doesn't exist.
+  }} Less important comments should be put as regular text on the page's talk page instead.
+==Usage==
+'''<code><nowiki>{{</nowiki>{{BASEPAGENAME}}|1=Place notice text here. |heading=Optional heading above the text<nowiki>}}</nowiki></code>'''
+
+This box automatically changes its style depending on what kind of page it appears; see {{tl|Mbox}} for details, and view the examples below for demonstrations.
+
+===Use in talk and userspace===
+Outside "important" locations like mainspace, policy pages, and noticeboards, this message box can also be used on other pages in a more relaxed way, such as on the top of talk page alerts, wikiproject pages, userspace pages, etc. Talk and noticeboard cases should probably include your [[WP:Signature|signature]] at the end of the template's main content.
+
+===Optional parameters ===
+The box can be titled with an optional {{para|heading}} (or {{para|header}} or {{para|title}}). This is left-aligned by default. This:<br />
+{{in5}}<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |heading=Heading |[[Lorem ipsum|Lorem ipsum]] dolor sit amet...<nowiki>}}</nowiki></code>
+produces an all-left notice:
+{{{{BASEPAGENAME}}|demospace=main |heading=Heading |style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+It can be hard to notice or read short heading and/or message on a wide monitor when they centered. For long content, it can be centered with {{para|align|center}}.<br />{{small|1=[While {{para|align|right}} is a valid value, it will only be useful when this template is ported to right-to-left language Wikipedias, and shouldn't be used on English Wikipedia or it will be difficult to read.]}}<br />
+This:<br />
+{{in5}}<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |heading=Heading |align=center |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code>
+produces:
+{{{{BASEPAGENAME}}|demospace=main |heading=Heading |style=margin-bottom:2.0em; |align=center |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+A shorthand parameter to center the heading and main text at the same time is {{para|center|y}}. This:<br />
+{{in5}}<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |heading=Heading |center=y |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code>
+produces:
+{{{{BASEPAGENAME}}|demospace=main |heading=Heading |style=margin-bottom:2.0em; |center=y |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+The parameter {{para|textstyle}} can be used to pass arbitrary inline CSS to the main note content. For example, one could center small-caps text below a left-aligned heading; this:<br />
+{{in5}}<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |heading=Heading |textstyle=text-align:center; font-variant:small-caps; |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code>
+produces:
+{{{{BASEPAGENAME}}|demospace=main |heading=Heading |style=margin-bottom:2.0em; |textstyle=text-align:center; font-variant:small-caps;|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+Similarly, the parameter {{para|headstyle}} can be used to pass arbitrary inline CSS to the heading content. For example, one could center a red heading above a left-aligned message; this:<br />
+{{in5}}<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |heading=Heading |headstyle=text-align:center; color:red; |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code>
+produces:
+{{{{BASEPAGENAME}}|demospace=main |heading=Heading |style=margin-bottom:2.0em; |headstyle=text-align:center; color:red;|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+The message box can also take an {{para|image}} parameter (with a value of just the bare filename of the image, without <code>File:...</code>, <code>Image:...</code>, or markup), but this is discouraged in articles. For an example of its use, see below.
+
+See [[#Talk pages]], below for the talkpage-only {{para|small|y}} parameter. See also [[#Adding an image, shortcuts, etc., on the righthand side]] for additional parameters that work in talk and project pages but not articles.
+
+===Articles===
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<nowiki>}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|demospace=main|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+===Talk pages===
+On talk pages, <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|demospace=talk|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+You may also set the talkpage-only parameter {{para|small|yes}}, which alters the template's appearance thus:
+{{{{BASEPAGENAME}}|demospace=talk |small=yes |header=Header |style=text-align:center;<!--margin-bottom:2.0em;--> |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |small=yes |header=Header |style=text-align:center; |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code>&nbsp;produces&nbsp;......
+{{clear}}
+
+Setting the {{para|image}} parameter changes the image shown on the lefthand side of the template.
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |image=Stop hand nuvola.svg |heading=Heading |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|demospace=talk<!--|style=margin-bottom:2.0em;--> |image=Stop hand nuvola.svg |heading=Heading |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+(Note the effect of omitting {{para|style|text-align:center;}} here)
+
+===File and category pages===
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code> on a File: page would produce... {{{{BASEPAGENAME}}|demospace=file|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}} ... and, on a Category: page, would produce: {{{{BASEPAGENAME}}|demospace=category|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+===Other pages===
+On other pages, such as those in the [[Wikipedia:User pages|User:]], [[Wikipedia:Wikipedia namespace|Wikipedia:]] and [[Wikipedia:Help namespace|Help:]] [[Wikipedia:Namespaces|namespaces]], <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code> would produce:
+{{{{BASEPAGENAME}}|demospace=wikipedia|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+===External links and equals signs===
+In most cases, external links can be used in the template without any complications. If a link &ndash;&nbsp;or any text&nbsp;&ndash; contains one or more equals signs (" &#61; "), however, everything before the first sign will be interpreted as the name of a parameter. To prevent this, name the text carrying the link as the first numbered parameter:
+: <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |1=Any text/links including "=" should now be interpreted correctly.<nowiki>}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|style=margin-bottom:2.0em; |1=Any text/links including "=" should now be interpreted correctly.}}
+
+===Adding an image, shortcuts, etc., on the righthand side===
+To add shortcuts, images, other templates, etc. to the righthand side of the template, use {{para|imageright}}. This does not work in articles. For example,<br /><code><nowiki>{{</nowiki>{{BASEPAGENAME}} |imageright=<nowiki>[[File:Wiki letter w.svg|40px]] |Lorem ipsum dolor sit amet...}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|style=margin-bottom:2.0em; |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |imageright=[[File:Wiki letter w.svg|40px]]}}
+
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}} |imageright=<nowiki>{{Shortcuts|You|Me}} |Lorem ipsum dolor sit amet...}}</nowiki></code> includes the {{tl|Shortcut}}s template providing links to [[You]] and [[Me]]:
+{{{{BASEPAGENAME}}|style=margin-bottom:2.0em; |imageright={{Shortcut|You|Me}} |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+====Alternate shortcut option====
+As an alternative to imageright, the {{para|shortcut}} (or {{para|shortcut1}}) and {{para|shortcut''N''}} parameters (where {{nowrap|''N'' {{=}} 2}} to 5) may be used to display shortcuts. For instance, <code><nowiki>{{</nowiki>{{BASEPAGENAME}} |shortcut1=Me |shortcut2=You |shortcut3=Them |shortcut4=Us |shortcut5=Everyone |Lorem ipsum dolor sit amet...<nowiki>}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|style=margin-bottom:2.0em; |shortcut1=Me |shortcut2=You |shortcut3=Them |shortcut4=Us |shortcut5=Everyone |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+''Note: If both imageright and any of the shorcut parameters are used, the contents of imageright will override the shortcut/s.'' For example,<br /><code><nowiki>{{</nowiki>{{BASEPAGENAME}} |imageright=<nowiki>[[File:Wiki letter w.svg|40px]] |shortcut1=Me |shortcut2=You |shortcut3=Them |shortcut4=Us |shortcut5=Everyone |Lorem ipsum dolor sit amet...}}</nowiki></code> produces:
+{{{{BASEPAGENAME}}|style=margin-bottom:2.0em; |imageright=[[File:Wiki letter w.svg|40px]] |shortcut1=Me |shortcut2=You |shortcut3=Them |shortcut4=Us |shortcut5=Everyone |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}}
+
+{{{{BASEPAGENAME}} and warning templates}}
+
+<includeonly>{{Sandbox other|
+| <!-- CATEGORIES BELOW THIS LINE PLEASE; INTERWIKIS AT WIKIDATA -->
+[[Category:Notice and warning templates]]
+[[Category:Talk header templates]]
+<!--[[labconsole:Template:Notice]]-->
+
+}}</includeonly>
