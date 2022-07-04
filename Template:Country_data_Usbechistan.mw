@@ -1,0 +1,22 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Usbechistan
+| flag alias = Flag of Uzbekistan.svg
+| flag alias-military=Uzbekistan Armed Forces (Latin script).svg
+| link alias-military=Armed Forces of the Republic of Uzbekistan
+| flag alias-naval = Naval flag of Uzbekistan.svg
+| link alias-naval = Uzbek River Force
+| flag alias-army = Uzbekistan Armed Forces (Latin script).svg
+| link alias-army = Uzbek Ground Forces
+| flag alias-air force= Uzbekistan Armed Forces (Latin script).svg
+| link alias-air force=Uzbekistan Air and Air Defence Forces
+| flag alias-navy = Naval flag of Uzbekistan.svg
+| link alias-navy = Uzbek River Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = UZB
+| related1 = Uzbek SSR
+</noinclude>
+}}
