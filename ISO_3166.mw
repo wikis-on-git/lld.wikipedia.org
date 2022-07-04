@@ -1,7 +1,7 @@
 L '''ISO 3166''' ie n standard publicà da l'[[Organisazion Nternaziunela per la Standardisazion]] (ISO) de codesc per [[stat|stac]] y raions.
 
 == Lista di codesc ISO 3166 di stac==
-The sortable table below contains the three sets of [[ISO 3166-1]] country codes for each of its 249 countries, links to the [[ISO 3166-2]] country subdivision codes, and the Internet [[country code top-level domain]]s (ccTLD) which are based on the [[ISO 3166-1 alpha-2]] standard with the few exceptions noted.  See the [[ISO 3166-3]] standard for former country codes.
+Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 stac, liams ai codesc [[ISO 3166-2]] de la sudivijions, y i codesc internet [[country code top-level domain]]s (ccTLD) which are based on the [[ISO 3166-1 alpha-2]] standard with the few exceptions noted.  See the [[ISO 3166-3]] standard for former country codes.
 
 {| class="wikitable sortable"
 |-
@@ -29,7 +29,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:AF]]
 |align=center|[[.af]]
 |-
-|id=AKRO data-sort-value=AKRO colspan=8|{{flagicon|Akrotiri y Dhekelia}}&nbsp;[[Akrotiri y Dhekelia]] – See [[#UNI2|Riam Unì]].
+|id=AKRO data-sort-value=AKRO colspan=8|{{flagicon|Akrotiri y Dhekelia}}&nbsp;[[Akrotiri y Dhekelia]] – Cëla [[#UNI2|Riam Unì]].
 |-
 |id=ALAN data-sort-value=ALAN|{{flagicon|Ijules Åland}}&nbsp;[[Ijules Åland]]
 |data-sort-value=Aland|[[Åland]]
@@ -139,7 +139,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:AW]]
 |align=center|[[.aw]]
 |-
-|id=ASHM data-sort-value=ASHM colspan=8|{{flagicon|Australia}}&nbsp;[[Ashmore and Cartier Islands]] – See [[#AUS1|Australia]].
+|id=ASHM data-sort-value=ASHM colspan=8|{{flagicon|Australia}}&nbsp;[[Ashmore and Cartier Islands]] – Cëla [[#AUS1|Australia]].
 |-style="background-color:white;"
 |id=AUS1|{{flagicon|Australia}}&nbsp;[[Australia]] {{efn|The [[ISO 3166]] country name [[Australia]] includes the [[Ashmore and Cartier Islands]] and the [[Coral Sea Islands]].}}
 |[[Australia|The Commonwealth of Australia]]
@@ -321,7 +321,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:IO]]
 |align=center|[[.io]]
 |-
-|id=BRI2 data-sort-value=BRI2 colspan=8|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands]] – See [[#VIR1|Virgin Islands (British)]].
+|id=BRI2 data-sort-value=BRI2 colspan=8|{{flagicon|British Virgin Islands}}&nbsp;[[British Virgin Islands]] – Cëla [[#VIR1|Virgin Islands (British)]].
 |-style="background-color:white;"
 |id=BRUN|{{flagicon|Brunei}}&nbsp;[[Brunei|Brunei Darussalam]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the country name [[Brunei|Brunei Darussalam]] for [[Brunei]].}}
 |[[Brunei|The Nation of Brunei, the Abode of Peace]]
@@ -350,7 +350,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:BF]]
 |align=center|[[.bf]]
 |-
-|id=BURM data-sort-value=BURM colspan=8|{{flagicon|Burma}}&nbsp;[[Myanmar|Burma]] – See [[#MYAN|Myanmar]].
+|id=BURM data-sort-value=BURM colspan=8|{{flagicon|Burma}}&nbsp;[[Myanmar|Burma]] – Cëla [[#MYAN|Myanmar]].
 |-style="background-color:white;"
 |id=BURU|{{flagicon|Burundi}}&nbsp;[[Burundi]]
 |[[Burundi|La Republica de Burundi]]
@@ -397,9 +397,9 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:CA]]
 |align=center|[[.ca]]
 |-style="background-color:white;"
-|id=CAPE data-sort-value=CAPE colspan=8|{{flagicon|Cape Verde}}&nbsp;[[Cape Verde]] – See [[#CABO|Cabo Verde]].
+|id=CAPE data-sort-value=CAPE colspan=8|{{flagicon|Cape Verde}}&nbsp;[[Cape Verde]] – Cëla [[#CABO|Cabo Verde]].
 |-
-|id=CARI data-sort-value=CARI colspan=8|{{flagicon|Paejes Basc}}&nbsp;[[Caribbean Netherlands]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|id=CARI data-sort-value=CARI colspan=8|{{flagicon|Paejes Basc}}&nbsp;[[Caribbean Netherlands]] – Cëla [[#BONA|Bonaire, Sint Eustatius and Saba]].
 |-
 |id=CAYM|{{flagicon|Cayman Islands}}&nbsp;[[Cayman Islands|Cayman Islands (the)]]
 |[[Cayman Islands|The Cayman Islands]]
@@ -446,7 +446,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:CN]]
 |align=center|[[.cn]]
 |-
-|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|China, La Republica de]] – See [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|China, La Republica de]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-
 |id=CHRI|{{flagicon|Christmas Island}}&nbsp;[[Christmas Island]]
 |[[Christmas Island|The Territory of Christmas Island]]
@@ -457,7 +457,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:CX]]
 |align=center|[[.cx]]
 |-
-|id=CLIP data-sort-value=CLIP colspan=8|{{flagicon|France}}&nbsp;[[Clipperton Island]] – See [[#FRAN|France]].
+|id=CLIP data-sort-value=CLIP colspan=8|{{flagicon|France}}&nbsp;[[Clipperton Island]] – Cëla [[#FRAN|Franzia]].
 |-
 |id=COCO|{{flagicon|Cocos (Keeling) Islands}}&nbsp;[[Cocos (Keeling) Islands|Cocos (Keeling) Islands (the)]]
 |[[Cocos (Keeling) Islands|The Territory of Cocos (Keeling) Islands]]
@@ -513,7 +513,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:CK]]
 |align=center|[[.ck]]
 |-
-|id=CORA  data-sort-value=CORA colspan=8|{{flagicon|Australia}}&nbsp;[[Coral Sea Islands]] – See [[#AUS1|Australia]].
+|id=CORA  data-sort-value=CORA colspan=8|{{flagicon|Australia}}&nbsp;[[Coral Sea Islands]] – Cëla [[#AUS1|Australia]].
 |-style="background-color:white;"
 |id=COST|{{flagicon|Costa Rica|state}}&nbsp;[[Costa Rica]]
 |[[Costa Rica|La Republica de Costa Rica]]
@@ -578,9 +578,9 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:CZ]]
 |align=center|[[.cz]]
 |-style="background-color:white;"
-|id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea|Democratic People's Republic of Korea]] – See [[#KOR1|Korea, The Democratic People's Republic of]].
+|id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea|Democratic People's Republic of Korea]] – Cëla [[#KOR1|Korea, The Democratic People's Republic of]].
 |-style="background-color:white;"
-|id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Democratic Republic of the Congo}}&nbsp;[[Democratic Republic of the Congo]] – See [[#CON1|Congo, The Democratic Republic of the]].
+|id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Democratic Republic of the Congo}}&nbsp;[[Democratic Republic of the Congo]] – Cëla [[#CON1|Congo, The Democratic Republic of the]].
 |-style="background-color:white;"
 |id=DENM|{{flagicon|Denmark}}&nbsp;[[Denmark]]
 |[[Denmark|La Rëni de Denmark]]
@@ -618,7 +618,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:DO]]
 |align=center|[[.do]]
 |-style="background-color:white;"
-|id=EAST data-sort-value=EAST colspan=8|{{flagicon|East Timor}}&nbsp;[[East Timor]] – See [[#TIMO|Timor-Leste]].
+|id=EAST data-sort-value=EAST colspan=8|{{flagicon|East Timor}}&nbsp;[[East Timor]] – Cëla [[#TIMO|Timor-Leste]].
 |-style="background-color:white;"
 |id=ECUA|{{flagicon|Ecuador}}&nbsp;[[Ecuador]]
 |[[Ecuador|La Republica de Ecuador]]
@@ -647,7 +647,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SV]]
 |align=center|[[.sv]]
 |-
-|id=ENGL colspan=8|{{flagicon|England}}&nbsp;[[England]] – See [[#UNI2|Riam Unì]].
+|id=ENGL colspan=8|{{flagicon|England}}&nbsp;[[England]] – Cëla [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=EQUA|{{flagicon|Equatorial Guinea}}&nbsp;[[Equatorial Guinea]]
 |[[Equatorial Guinea|La Republica de Equatorial Guinea]]
@@ -820,7 +820,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:GI]]
 |align=center|[[.gi]]
 |-style="background-color:white;"
-|id=GRE1 data-sort-value=GRE1 colspan=8|{{flagicon|Riam Unì}}&nbsp;[[Riam Unì|Gran Bretania]] – See [[#UNI2|Riam Unì]].
+|id=GRE1 data-sort-value=GRE1 colspan=8|{{flagicon|Riam Unì}}&nbsp;[[Riam Unì|Gran Bretania]] – Cëla [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=GRE2 data-sort-value=GRE2|{{flagicon|Greece}}&nbsp;[[Greece]]
 |[[Greece|The Hellenic Republic]]
@@ -921,7 +921,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:HT]]
 |align=center|[[.ht]]
 |-
-|id=HAWA data-sort-value=HAWA colspan=8|{{flagicon|United States}}&nbsp;[[Hawaiian Islands]] – See [[#UNI4|United States of America, The]].
+|id=HAWA data-sort-value=HAWA colspan=8|{{flagicon|United States}}&nbsp;[[Hawaiian Islands]] – Cëla [[#UNI4|United States of America, The]].
 |-
 |id=HEAR|{{flagicon|Heard Island and McDonald Islands}}&nbsp;[[Heard Island and McDonald Islands]]
 |[[Heard Island and McDonald Islands|The Territory of Heard Island and McDonald Islands]]
@@ -1049,7 +1049,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:IT]]
 |align=center|[[.it]]
 |-style="background-color:white;"
-|id=IVOR data-sort-value=IVOR colspan=8|{{flagicon|Ivory Coast}}&nbsp;[[Ivory Coast]] – See [[#COTE|Côte d'Ivoire]].
+|id=IVOR data-sort-value=IVOR colspan=8|{{flagicon|Ivory Coast}}&nbsp;[[Ivory Coast]] – Cëla [[#COTE|Côte d'Ivoire]].
 |-style="background-color:white;"
 |id=JAMA|{{flagicon|Jamaica}}&nbsp;[[Jamaica]]
 |[[Jamaica]]
@@ -1060,7 +1060,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:JM]]
 |align=center|[[.jm]]
 |-
-|id=JANM colspan=8|{{flagicon|Jan Mayen}}&nbsp;[[Jan Mayen]] – See [[#SVAL|Svalbard and Jan Mayen]].
+|id=JANM colspan=8|{{flagicon|Jan Mayen}}&nbsp;[[Jan Mayen]] – Cëla [[#SVAL|Svalbard and Jan Mayen]].
 |-style="background-color:white;"
 |id=JAPA|{{flagicon|Japan}}&nbsp;[[Japan]]
 |[[Japan]]
@@ -1539,9 +1539,9 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:NF]]
 |align=center|[[.nf]]
 |-style="background-color:white;"
-|id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea]] – See [[#KOR1|Korea, The Democratic People's Republic of]].
+|id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea]] – Cëla [[#KOR1|Korea, The Democratic People's Republic of]].
 |-
-|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – See [[#UNI2|Riam Unì]].
+|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – Cëla [[#UNI2|Riam Unì]].
 |-
 |id=NOR4 data-sort-value=NOR4|{{flagicon|Northern Mariana Islands}}&nbsp;[[Northern Mariana Islands|Northern Mariana Islands (the)]]
 |[[Northern Mariana Islands|The Commonwealth of the Northern Mariana Islands]]
@@ -1624,7 +1624,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:PY]]
 |align=center|[[.py]]
 |-style="background-color:white;"
-|id=PEOP data-sort-value=PEOP colspan=8|{{flagicon|China}}&nbsp;[[China|People's Republic of China]] – See [[#CHI2|China]].
+|id=PEOP data-sort-value=PEOP colspan=8|{{flagicon|China}}&nbsp;[[China|People's Republic of China]] – Cëla [[#CHI2|China]].
 |-style="background-color:white;"
 |id=PERU|{{flagicon|Peru}}&nbsp;[[Peru]]
 |[[Peru|La Republica de Perú]]
@@ -1689,11 +1689,11 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:QA]]
 |align=center|[[.qa]]
 |-
-|id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – See [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-style="background-color:white;"
-|id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – See [[#KOR2|Korea, La Republica de]].
+|id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
 |-style="background-color:white;"
-|id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republic of the Congo}}&nbsp;[[Republic of the Congo]] – See [[#CON2|Congo, The]].
+|id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republic of the Congo}}&nbsp;[[Republic of the Congo]] – Cëla [[#CON2|Congo, The]].
 |-
 |id=REUN data-sort-value=REUN|{{flagicon|Réunion|local}}&nbsp;[[Réunion]]
 |data-sort-value=REUN|[[Réunion]]
@@ -1731,9 +1731,9 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:RW]]
 |align=center|[[.rw]]
 |-
-|id=SABA data-sort-value=SABA colspan=8|{{flagicon|Saba}}&nbsp;[[Saba]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|id=SABA data-sort-value=SABA colspan=8|{{flagicon|Saba}}&nbsp;[[Saba]] – Cëla [[#BONA|Bonaire, Sint Eustatius and Saba]].
 |-
-|id=SAHR colspan=8|{{flagicon|Sahrawi Arab Democratic Republic}}&nbsp;[[Sahrawi Arab Democratic Republic]] – See [[#WEST|Western Sahara]].
+|id=SAHR colspan=8|{{flagicon|Sahrawi Arab Democratic Republic}}&nbsp;[[Sahrawi Arab Democratic Republic]] – Cëla [[#WEST|Western Sahara]].
 |-
 |id=SAI1 data-sort-value=SAI1|{{flagicon|Saint Barthélemy|local}}&nbsp;[[Saint Barthélemy]]
 |[[Saint Barthélemy|The Collectivity of Saint-Barthélemy]]
@@ -1834,7 +1834,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SA]]
 |align=center|[[.sa]]
 |-
-|id=SCOT colspan=8|{{flagicon|Scotland}}&nbsp;[[Scotland]] – See [[#UNI2|Riam Unì]].
+|id=SCOT colspan=8|{{flagicon|Scotland}}&nbsp;[[Scotland]] – Cëla [[#UNI2|Riam Unì]].
 |-style="background-color:white;"
 |id=SENE|{{flagicon|Senegal}}&nbsp;[[Senegal]]
 |[[Senegal|La Republica de Senegal]]
@@ -1881,7 +1881,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:SG]]
 |align=center|[[.sg]]
 |-
-|id=SIN2 colspan=8|{{flagicon|Sint Eustatius}}&nbsp;[[Sint Eustatius]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|id=SIN2 colspan=8|{{flagicon|Sint Eustatius}}&nbsp;[[Sint Eustatius]] – Cëla [[#BONA|Bonaire, Sint Eustatius and Saba]].
 |-
 |id=SIN3|{{flagicon|Sint Maarten}}&nbsp;[[Sint Maarten|Sint Maarten (Dutch part)]]
 |[[Sint Maarten]]
@@ -1946,7 +1946,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:GS]]
 |align=center|[[.gs]]
 |-style="background-color:white;"
-|id=SOU3 data-sort-value=SOU3 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea]] – See [[#KOR2|Korea, La Republica de]].
+|id=SOU3 data-sort-value=SOU3 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
 |-style="background-color:white;"
 |id=SOU4 data-sort-value=SOU4|{{flagicon|South Sudan}}&nbsp;[[South Sudan]]
 |[[South Sudan|La Republica de South Sudan]]
@@ -2209,7 +2209,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:US]]
 |align=center|[[.us]]
 |-
-|id=UNI5 data-sort-value=UNI5 colspan=8|{{flagicon|Ijules Vergins di Stac Unii}}&nbsp;[[Ijules Vergins di Stac Unii]] – See [[#VIR2|Virgin Islands (U.S.)]].
+|id=UNI5 data-sort-value=UNI5 colspan=8|{{flagicon|Ijules Vergins di Stac Unii}}&nbsp;[[Ijules Vergins di Stac Unii]] – Cëla [[#VIR2|Virgin Islands (U.S.)]].
 |-style="background-color:white;"
 |id=URUG|{{flagicon|Uruguay}}&nbsp;[[Uruguay]]
 |[[Uruguay|The Oriental Republic of Uruguay]]
@@ -2238,7 +2238,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:VU]]
 |align=center|[[.vu]]
 |-
-|id=VATI data-sort-value=VATI colspan=8|{{flagicon|Vatican City}}&nbsp;[[Vatican City]] – See [[#HOLY|Holy See, The]].
+|id=VATI data-sort-value=VATI colspan=8|{{flagicon|Vatican City}}&nbsp;[[Vatican City]] – Cëla [[#HOLY|Holy See, The]].
 |-style="background-color:white;"
 |id=VENE|{{flagicon|Venezuela|state}}&nbsp;[[Venezuela|Venezuela (Republica Bolivaria )]]
 |[[Venezuela|Republica Bolivaria de Venezuela]]
@@ -2276,7 +2276,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:VI]]
 |align=center|[[.vi]]
 |-
-|id=WALE colspan=8|{{flagicon|Wales}}&nbsp;[[Wales]] – See [[#UNI2|Riam Unì]].
+|id=WALE colspan=8|{{flagicon|Wales}}&nbsp;[[Wales]] – Cëla [[#UNI2|Riam Unì]].
 |-
 |id=WALL|{{flagicon|Wallis and Futuna|local}}&nbsp;[[Wallis and Futuna]]
 |[[Wallis and Futuna|The Territory of the Wallis and Futuna Islands]]
