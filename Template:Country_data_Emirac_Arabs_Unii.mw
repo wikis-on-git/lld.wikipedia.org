@@ -1,0 +1,21 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Emirac Arabs Unii
+| flag alias = Flag of the United Arab Emirates.svg
+| flag alias-civil = Civil Ensign of the United Arab Emirates.svg
+| link alias-naval = United Arab Emirates Navy
+| link alias-air force = United Arab Emirates Air Force
+| flag alias-army = Flag of the UAE Army.svg
+| link alias-army = United Arab Emirates Army
+| flag alias-air force = Flag of the United Arab Emirates Air Force.svg
+| link alias-navy = United Arab Emirates Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| redir1 = ARE
+| redir2 = UAE
+| related1 = Trucial States
+</noinclude>
+}}
