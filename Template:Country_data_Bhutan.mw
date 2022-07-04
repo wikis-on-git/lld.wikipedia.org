@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bhutan
+| flag alias = Flag of Bhutan.svg
+| flag alias-1949 = Flag of Bhutan (1949-1956).svg
+| flag alias-1956 = Flag of Bhutan (1956–1969).svg
+| flag alias-army = Flag of Royal Bhutan Army.gif
+| link alias-army = Royal Bhutan Army
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = 1949
+| var2 = 1956
+| redir1 = BTN
+| redir2 = BHU
+</noinclude>
+}}
