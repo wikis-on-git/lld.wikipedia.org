@@ -437,8 +437,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:CL]]
 |align=center|[[.cl]]
 |-style="background-color:white;"
-|id=CHI2 data-sort-value=CHI2|{{flagicon|China}}&nbsp;[[China]]
-|[[China|The People's Republic of China]]
+|id=CHI2 data-sort-value=CHI2|{{flagicon|Cina}}&nbsp;[[Cina]]
+|[[Cina|La Republica Populera de la Cina]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#CN|{{mono|CN}}]]
 |align=center|[[ISO 3166-1 alpha-3#CHN|{{mono|CHN}}]]
@@ -446,7 +446,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:CN]]
 |align=center|[[.cn]]
 |-
-|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|China, La Republica de]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|Cina, La Republica de]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-
 |id=CHRI|{{flagicon|Christmas Island}}&nbsp;[[Christmas Island]]
 |[[Christmas Island|The Territory of Christmas Island]]
