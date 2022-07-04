@@ -1,0 +1,79 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+|colspan="2" align="center" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|310px|center]]}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:120%" | {{{Inuem luech}}}
+|-
+!colspan="2" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|90px|center|Blason de {{{Inuem luech}}}]]|}}|}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Nfurmazions prinzipeles
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Stat''' || style="width:180px;font-size:90%" | {{DEU}}
+|- valign="top" 
+|style="width:130px;font-size:90%" |'''[[Stac federei de la Germania|Stat federel]]''' || style="width:180px;font-size:90%" | {{{Stat federal}}}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Landkreis|}}}|'''[[Landkreis]]'''}} || style="width:180px;font-size:90%" |{{#if:{{{Landkreis|}}}| {{{Landkreis}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Abitanc|}}}|'''Populazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Abitanc|}}}|{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Abitanc|}}}|'''Densità'''}} || style="width:180px;font-size:90%" | {{#if:{{{Abitanc|}}}|{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²}}
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Geografia
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" | {{{Coordinates}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Autëza|}}}|'''Autëza'''}} ||  style="width:180px;font-size:90%" | {{#if:{{{Autëza|}}}|{{{Autëza}}} m <small>sëura l livel dl mer</small>}}
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Spersa''' || style="width:180px;font-size:90%" | {{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Auter
+|- valign="top"
+| style="width:130px;font-size:90%" | '''Codesc targa de l'auto''' ||  style="width:180px;font-size:90%" | {{{Codesc targa de l'auto}}}
+|-
+| style="width:130px;font-size:90%" | {{#if:{{{Codesc posta|}}}|'''Codesc de la posta'''}}  ||  style="width:180px;font-size:90%" | {{#if:{{{Codesc posta|}}}|{{{Codesc posta}}}}}
+|-
+| style="width:130px;font-size:90%" | {{#if:{{{Gemeindeschlüssel|}}}|'''Gemeindeschlüssel'''}}  ||  style="width:180px;font-size:90%" | {{#if:{{{Gemeindeschlüssel|}}}|{{{Gemeindeschlüssel}}}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
+|-
+|colspan="2" align="center" | {{{Cherta}}}
+|-
+|}</includeonly>
+<noinclude>
+{{Infobox chemun Germania
+|Foto                   =
+|Inuem luech            = hoila
+|Bandiera               =
+|Blason                 =
+|Stat federal           = {{DE-BY}}
+|Landkreis              = Paiern Aut
+|Fundazion              =
+|Capitela               = prova1
+|Rujeneda                 = prova2
+|Govern                 = prova3
+|Seuraspersa            = 15.3
+|Coordinates            = {{coord|53|33|55|N|10|00|05|E|display=inline}}   <!--mantenì genau chësc format-->
+|Abitanc                = 500
+|Abitanc densità           = {{EWZ|DE-BY|9162000}}
+|Codesc targa de l'auto      = S
+|Codesc posta   = 525654
+|Gemeindeschlüssel = 0015654
+|Cherta            = {{Mappa di localizzazione
+|DEU
+|label = Minca
+|latitudineGradi = 48
+|latitudinePrimi = 08
+|longitudineGradi = 11
+|longitudinePrimi = 34
+|position = top
+|width = 300
+|float = center
+|relief = yes
+}}
+}}[[Categoria:Templates Germania]]</noinclude>
