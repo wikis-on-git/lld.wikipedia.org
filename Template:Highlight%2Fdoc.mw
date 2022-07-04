@@ -1,0 +1,48 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{Template shortcut|hl|hilite}}
+For adding yellow highlight to specified text. The highlight color can be changed, and the highlight can also be set to expire at a certain date. Please keep template usage to talk pages only.
+
+=== Usage ===
+
+<code><nowiki>{{highlight | text | color (optional) | expiration (optional) }}</nowiki></code>
+
+'''Parameters'''
+*'''text''' (parameter 1): Enter the text to be highlighted.
+
+'''Optional parameters'''
+
+These parameters are optional, but unused parameters must be separated by a pipe (see examples below):
+
+*'''color''' (parameter 2): Colors may be specified by word (e.g., "red", "blue", "lightgreen") or in [[Web colors|hexadecimal]] format (e.g., "#FF0066", "#C0C0C0"). If no value is given for the color, the template defaults to yellow.
+
+*'''expiration''' (parameter 3): Highlights may be set to expire on a certain date, which leaves the text as-is, but removes the highlight color. The expiration value can be specified in any format.
+
+===Examples===
+{| class="wikitable"
+|-
+! code !! output !! notes
+|-
+| <nowiki>{{highlight | text }}</nowiki> || {{highlight | text }} || The default highlight color is yellow
+|-
+| <nowiki>{{highlight | text | lightblue }}</nowiki> || {{highlight | text | lightblue }} || The second parameter is the highlight color
+|-
+| <nowiki>{{highlight | text | lightblue | 2011-01-01 }}</nowiki> || {{highlight | text | lightblue | 2011-01-01 }} || This is not highlighted since 1 January 2011 is in the past
+|-
+| <nowiki>{{highlight | text | lightblue |</nowiki> {{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}} <nowiki>}}</nowiki> || {{highlight | text || {{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}} || There is no highlighting on the expiration date ({{Purge|purge this page's server cache}} if today's date is not shown)
+|-
+| <nowiki>{{highlight | text | #00FF00 | 1 January 2099 }}</nowiki> || {{highlight | text | #00FF00 | 1 January 2099 }} || This is highlighted since 1 January 2099 is in the future
+|-
+| <nowiki>{{highlight | text || January 1, 2099 }}</nowiki> || {{highlight | text || January 1, 2099 }} || Note the color parameter, left blank, is still represented<br> with a pipe (followed by the expiration parameter pipe)
+|}
+
+=== See also ===
+* {{tl|Highlight round}} – highlights the included text using a rounded box {{Highlight round|with shadows}}
+* {{tl|tq}} – for quoting text on talk pages
+* {{tl|font color}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Typing-aid templates]]
+[[Category:Text color templates]]
+}}</includeonly>
