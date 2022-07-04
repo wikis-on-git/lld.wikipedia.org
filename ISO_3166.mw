@@ -446,7 +446,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:CN]]
 |align=center|[[.cn]]
 |-
-|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|Cina, La Republica de]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|id=CHI3 data-sort-value=CHI3 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Taiwan|Cina, La Republica de]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--The UN considers Taiwan as part of China, so "Taiwan, Provinzia de la Cina" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-
 |id=CHRI|{{flagicon|Christmas Island}}&nbsp;[[Christmas Island]]
 |[[Christmas Island|The Territory of Christmas Island]]
@@ -1689,7 +1689,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:QA]]
 |align=center|[[.qa]]
 |-
-|id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--The UN considers Taiwan as part of China, so "Taiwan, Province of China" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
+|id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--The UN considers Taiwan as part of China, so "Taiwan, Provinzia de la Cina" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-style="background-color:white;"
 |id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
 |-style="background-color:white;"
@@ -2029,7 +2029,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:SY]]
 |align=center|[[.sy]]
 |-
-|id=TAIW|{{flagicon|Taiwan}} [[Taiwan|Taiwan<!--DO NOT CHANGE--> (Province of China)<!--La UNO vëij Taiwan coche pert de la Cina, perchël vën "Taiwan, Provinzia de la Cina" adurvà tl ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[Taiwan (Provinzia de la Cina)]] for [[Taiwan]].}}
+|id=TAIW|{{flagicon|Taiwan}} [[Taiwan|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--La UNO vëij Taiwan coche pert de la Cina, perchël vën "Taiwan, Provinzia de la Cina" adurvà tl ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]] {{efn|The [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) uses the country name [[Taiwan (Provinzia de la Cina)]] for [[Taiwan]].}}
 |[[Taiwan|La Republica de Cina]]
 |align=center|[[Political status of Taiwan|Disputed]] {{efn|The [[Taiwan|Republica de Cina]] controls [[Taiwan]]. The [[China|People's Republic of China]] claims Taiwan as its [[Taiwan Province, People's Republic of China|Taiwan Province]]. In deference to the People's Republic of China, the [[United Nations]] refers to Taiwan as [[Taiwan, Cina|Taiwan, Provinzia de la Cina]].}}
 |align=center|[[ISO 3166-1 alpha-2#TW|{{mono|TW}}]]
