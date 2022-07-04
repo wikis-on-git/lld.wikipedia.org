@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Antartis
+| flag alias = True South Antarctic Flag.svg
+| flag alias-ats = Flag of the Antarctic Treaty.svg 
+| flag alias-alt = Flag of Antarctica.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = ats
+| var2 = alt
+| redir1 = ATA
+</noinclude>
+}}
