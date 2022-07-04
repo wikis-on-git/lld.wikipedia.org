@@ -1,0 +1,107 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+<noinclude>{{DISPLAYTITLE:Template:DISPLAYTITLE/''doc''}}</noinclude>
+{{For|changing words and letters|Wikipedia:Moving a page}}
+{{Nutshell|DISPLAYTITLE enables an article to display a main title which does not match the title in the address bar. See [[Wikipedia:Page name#Changing the displayed title]]}}
+{{important|Please use <kbd><nowiki>{{DISPLAYTITLE</nowiki>{{highlight round|bc=lightgreen|''':'''}}<nowiki>Pagetitle}}</nowiki></kbd>, rather than <kbd><nowiki>{{DISPLAYTITLE</nowiki>{{highlight round|bc=lightsalmon|'''&#124;'''}}<nowiki>Pagetitle}}</nowiki></kbd>. {{nowrap|This invokes the [[m:magic word|magic word]] directly instead of using the template. ''See {{section link||Instructions}} and {{section link|Help:Magic words|Behavior switches}}''.}}}}
+{{transclusionless}}
+'''[[Template:DISPLAYTITLE]]''' is a [[Help:Magic words#Behavior_switches|behaviour switch]] for [[MediaWiki]] code. Use <nowiki>{{DISPLAYTITLE:}}</nowiki> to format the title of an article without changing the address of the page. All or part of a page title can be shown in ''italics'', with '''[[Subscript and superscript|<sub>subscript</sub> and <sup>superscript</sup>]]''', or any formatting required by article guidelines.
+
+== Examples ==
+{|class=wikitable
+!Actual title
+!Displayed title
+!colspan=2|Variable
+|-
+| Lorem ipsum dolor
+| Lorem ipsum dolor
+| <code><nowiki>{{DISPLAYTITLE:Lorem ''ipsum'' do</nowiki>{{hl|L}}<nowiki>or}}</nowiki></code> 
+| {{strongbad|Invalid; does not match title.}}
+|-
+|Lorem ipsum dolor
+|Lorem ''ipsum'' dolor
+|colspan=2| {{code|lang=html|code=<nowiki>{{DISPLAYTITLE:Lorem ''ipsum'' dolor}}</nowiki>}}
+|-
+| Lorem ipsum dolor
+| Lorem ipsum <sup>dolor</sup>
+|colspan=2| {{code|lang=HTML|code=<nowiki>{{DISPLAYTITLE:Lorem ipsum </nowiki><sup>dolor</sup><nowiki>}}</nowiki>}}
+|-
+|Lorum ipsum dolor
+| Lorum <span style="position:absolute; top:-9999px;">ipsum </span> dolor
+|colspan=2| {{code|lang=HTML|code=<nowiki>{{DISPLAYTITLE:</nowiki>Lorum <span style="position:absolute; top:-9999px;">ipsum</span> dolor<nowiki>}}</nowiki>}}
+|-
+| Lorem ipsum dolor
+| Lorem <span style="color:#9400D3;">ipsum</span> dolor
+|colspan=2| {{code|lang=HTML|code=<nowiki>{{DISPLAYTITLE:</nowiki>Lorem <span style="color:#9400D3;">ipsum</span> dolor<nowiki>}}</nowiki>}}
+|-
+| Lorem ipsum dolor
+| Lorem <span style="color:#9400D3;">ipsum</span> <span style="color:#F4A460;">dolor</span>
+|colspan=2| {{code|lang=HTML|code=<nowiki>{{DISPLAYTITLE:</nowiki>Lorem <span style="color:#9400D3;">ipsum</span> <span style="color:#F4A460;">dolor</span><nowiki>}}</nowiki>}}
+|-
+|Portal:Lorem ipsum dolor
+| :  _ Portal _ _ : _ Lorem ipsum dolor
+|colspan=2| {{code|lang=HTML|code=<nowiki>{{DISPLAYTITLE::  _ Portal _ _ : _ Lorem ipsum dolor}}</nowiki>}}
+|}
+
+== Introduction ==
+The title of a [[WP:Page name|page name]] can always be [[copy and paste|copied and pasted]] to affect links, inclusions, and categories.  DISPLAYTITLE enforces this, so then only changes that will [[Help:Link#Conversion to canonical form|convert to canonical form]] (standard format) will actually change the displayed title. It is possible to preview the changed title while on the edit page.  One invalid change, such as the capitalization of a pagename letter ''after'' the first letter will invalidate any other allowed changes, and the whole title will display unchanged.
+
+The title of a [[WP:page name|named page]] is the fullpagename, denoted "namespace:pagename". The namespace of an [[WP:article|article]] is nameless, so it does not display, and the fullpagename is ''pagename''.
+
+It is important to note the warning sign at the top of this page preferring that the template form of DISPLAYTITLE not be used,
+but that rather the magic variable form of <code><nowiki>{{DISPLAYTITLE:}}</nowiki></code> be used '''''directly''''' as documented next.
+The template would simply call the magic word "DISPLAYTITLE:" anyway, so using ''template'' ''DISPLAYTITLE'' creates an (acceptable but) unnecessary step in page processing.
+
+Magic variables use colon ":" but templates use bar/pipe "|" as the separator to indicate the page name to process here.  Use the magic variable.
+If "|" is used instead of ":", it places the page in ''[[:Category:Pages which use a template in place of a magic word]]'', which may cause distractions.
+
+== Description ==
+The title (the fullpagename) is changed using <code><nowiki>{{</nowiki>[[Help:Magic words|DISPLAYTITLE''':'''namespace:pagename]]<nowiki>}}</nowiki></code> anywhere in the wikitext.  As usual in markup, multiple spaces are made singular. The allowed visual changes are simply:
+* lower-case the initial letter of the [[WP:page name|pagename]] (example page [[eBay]])
+* change the case of any letter of the namespace
+* add an initial colon to the title (the fullpagename)
+* change any space to an underscore "_" character or any underscore character to a space (example page [[mod perl|mod_perl]])
+* add any number or mixture of spaces and underscores
+** around the separator character ":" (between the namespace and pagename), or
+** between words in the pagename
+** before or after the title (where spaces alone are ignored) (example page [[_NSAKEY]])
+* add bold or italic character formatting to any letters in the fullpagename (example page ''[[Allosaurus]]'')
+These possibilities exist because of the definition of a [[WP:page name|page ''name'']], which allows for the ''[[WP:canonicalization|canonicalization]]'' of any title by copying and pasting the title into links, inclusions, and category names.
+
+If there is more than one instance of DISPLAYTITLE in the wikitext, the last one overrides the previous ones. This means that if the DISPLAYTITLE automatically generated by something like some bookbox template needs to be overridden, then an explicit DISPLAYTITLE must be placed ''after'' that template to make your version display. If all efforts to change the title (with canonicalization compliance) fail, try looking at the bottom of the page for some stray magic variable DISPLAYTITLE.
+
+== Instructions ==
+{{see also|Help:Magic words#Parser functions}}
+Template ''DISPLAYTITLE'' has the same instructions as magic variable DISPLAYTITLE.  Please use ":" instead of "|".
+
+# Type <code><nowiki>{{</nowiki>DISPLAYTITLE:</code> anywhere in the wikitext.
+# Type the wikitext for the fullpagename after that last "''':'''" character. (See the [[#Description|description]] above.)
+# After that changed title type the closing "<code><nowiki>}}</nowiki></code>". (See the examples above.)
+# Preview the page and check the results.
+
+If there is more than one instance of DISPLAYTITLE and they do not all specify the same title, only the last instance is enacted with an error message generated. For example:
+
+<span class="error"><nowiki>Warning: Display title "<i>Desired title</i>" overrides earlier display title "<i>Desired</i> title".</nowiki></span>
+
+The preferred solution to this problem is to remove or disable one of the instances of DISPLAYTITLE. If this is not possible due to template limitations, etc., then the error message may be suppressed by using the "noerror" parameter, i.e. <code><nowiki>{{DISPLAYTITLE:</nowiki><var>Desired Title</var><nowiki>|noerror}}</nowiki></code>. If you use this technique, you should be aware that the last instance of DISPLAYTITLE overrides the previous ones. This means that if the DISPLAYTITLE automatically generated by an infobox template needs to be overridden, then an explicit DISPLAYTITLE must be placed ''after'' the infobox to make it work.
+
+== Tracking categories ==
+* {{clc|Pages which use a template in place of a magic word}}
+* [[:Category:Pages with disallowed DISPLAYTITLE modifications]]
+* {{clc|Pages with DISPLAYTITLE conflicts}}
+
+== See also ==
+{{align|right|{{Correct title examples}}}}
+* {{tl|DEFAULTSORT}}
+* [[Help:Magic words]]
+* [[Help:Parser functions]]
+* [[Wikipedia:Naming conventions (technical restrictions)#Forbidden characters|Wikipedia:Forbidden title characters]]
+* [[Wikipedia:Moving a page]]
+* [[Wikipedia:Page name]]
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikipedia magic word templates]]
+[[Category:Templates that add a tracking category]]
+[[Category:Wikipedia article titles]]
+}}</includeonly>
