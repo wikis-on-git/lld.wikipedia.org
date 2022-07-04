@@ -294,9 +294,9 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:BW]]
 |align=center|[[.bw]]
 |-
-|id=BOUV|{{flagicon|Bouvet Island}}&nbsp;[[Bouvet Island]]
-|[[Bouvet Island]]
-|align=center|[[#NOR6|Norway]]
+|id=BOUV|{{flagicon|Ijula Bouvet}}&nbsp;[[Ijula Bouvet]]
+|[[Ijula Bouvet]]
+|align=center|[[#NOR6|Norvegia]]
 |align=center|[[ISO 3166-1 alpha-2#BV|{{mono|BV}}]]
 |align=center|[[ISO 3166-1 alpha-3#BVT|{{mono|BVT}}]]
 |align=center|[[ISO 3166-1 numeric#074|{{mono|074}}]]
@@ -1552,8 +1552,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:MP]]
 |align=center|[[.mp]]
 |-style="background-color:white;"
-|id=NOR5 data-sort-value=NOR5|{{flagicon|Norway}}&nbsp;[[Norway]]
-|[[Norway|La Rëni de Norway]]
+|id=NOR5 data-sort-value=NOR5|{{flagicon|Norvegia}}&nbsp;[[Norvegia]]
+|[[Norvegia|La Rëni de Norvegia]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#NO|{{mono|NO}}]]
 |align=center|[[ISO 3166-1 alpha-3#NOR|{{mono|NOR}}]]
@@ -1995,7 +1995,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-
 |id=SVAL|{{flagicon|Svalbard}}&nbsp;[[Svalbard]]<br/>{{flagicon|Jan Mayen}}&nbsp;[[Jan Mayen]]
 |[[Svalbard and Jan Mayen]]
-|align=center|[[#NOR6|Norway]]
+|align=center|[[#NOR6|Norvegia]]
 |align=center|[[ISO 3166-1 alpha-2#SJ|{{mono|SJ}}]]
 |align=center|[[ISO 3166-1 alpha-3#SJM|{{mono|SJM}}]]
 |align=center|[[ISO 3166-1 numeric#744|{{mono|744}}]]
