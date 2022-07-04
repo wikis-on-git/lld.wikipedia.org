@@ -1,0 +1,9 @@
+<includeonly>{{Country data Myanmar
+|1={{{1}}}
+|shortname alias={{#if:{{{altlink|}}}|Myanmar|Burma}}
+|size={{{size|}}}
+|name={{#if:{{{name|}}}|{{{name}}}|{{#if:{{{altlink|}}}|Burma}}}}
+|altlink={{{altlink|}}}
+|altvar={{{altvar|}}}
+|variant={{{variant|}}}
+}}</includeonly><noinclude>{{Documentation}}</noinclude>
