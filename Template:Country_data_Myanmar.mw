@@ -1,0 +1,35 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Myanmar
+| shortname alias = {{{shortname alias|Myanmar}}}
+| flag alias = Flag of Myanmar.svg
+| flag alias-1937 = British Burma 1937 flag.svg
+| flag alias-1943 = Flag of the State of Burma (1943-45).svg
+| flag alias-1948 = Flag of Burma (1948–1974).svg
+| flag alias-1974 = Flag of Myanmar (1974–2010).svg
+| flag alias-military = Flag of the Armed Forces (Tatmadaw) of Myanmar.svg
+| link alias-military = Tatmadaw
+| flag alias-naval = Naval Ensign of Myanmar.svg
+| link alias-air force = Myanmar Air Force
+| flag alias-army = Army Flag of Myanmar.svg
+| flag alias-air force = Air Force Ensign of Myanmar.svg
+| link alias-army = Myanmar Army
+| link alias-naval = Myanmar Navy
+| flag alias-navy = Naval Ensign of Myanmar.svg
+| link alias-navy = Myanmar Navy
+| flag alias-coast guard = Myanmar Coast Guard Ensign.svg
+| link alias-coast guard = Myanmar Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1937
+| var2 = 1943
+| var3 = 1948
+| var4 = 1974
+| related1 = Burma
+| related2 = British Burma
+| related3 = Konbaung Dynasty
+</noinclude>
+}}
