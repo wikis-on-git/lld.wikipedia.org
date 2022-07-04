@@ -1,0 +1,22 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{hatnote|The following also '''applies''' to this template, so this template should '''never''' be substituted:}}
+{{Never substitute}}
+
+=== Usage ===
+<code><nowiki>{{Never substitute}}</nowiki></code>
+
+This template should be placed on the <big>[[Wikipedia:Template documentation|documentation]] [[Wikipedia:Subpage|subpage]]</big> (not the template page itself) of any template that should '''not''' be substituted (and [[Wikipedia:Transclusion|transcluded]] instead).
+
+'''Parameters'''
+* This template accepts one optional parameter, which can be used to give a more detailed description of why the template in question should not be substituted. For example, <code><nowiki>{{Never substitute|Example text.}}</nowiki></code> produces:
+{{Never substitute|Example text.}}
+
+{{List of subst helper templates}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+{{DEFAULTSORT:Substitute, Never}}
+[[Category:Documentation header templates]]
+
+}}</includeonly>
