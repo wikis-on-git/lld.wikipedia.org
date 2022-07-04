@@ -12,7 +12,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 !colspan=1|
 |-
 ![[Stat]]<ref name=OBP>{{cite web|url=https://www.iso.org/obp/ui/#search&3166|title=Country Codes on the Online Browsing Platform (OBP)|publisher=[[International Organization for Standardization]]|access-date=18 September 2018}}</ref>
-![[Inuem ufiziel dl stat]]<ref name=CIA>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook|title=The World Factbook|archive-url=https://web.archive.org/web/20200615013613/https://www.cia.gov/library/publications/the-world-factbook|archive-date=2020-06-15|publisher=[[United States]] [[Central Intelligence Agency]]|access-date=18 September 2018}}</ref>
+![[Inuem ufiziel dl stat]]<ref name=CIA>{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook|title=The World Factbook|archive-url=https://web.archive.org/web/20200615013613/https://www.cia.gov/library/publications/the-world-factbook|archive-date=2020-06-15|publisher=[[Stac Unii]] [[Central Intelligence Agency]]|access-date=18 September 2018}}</ref>
 ![[Stat sovran|Sovranità]]<ref name=CIA/><ref name=UN>{{cite web|url=http://www.un.org/en/member-states/|title=Member States|publisher=[[United Nations]]|access-date=18 September 2018}}</ref><ref name=NSG>{{cite web|url=https://www.un.org/dppa/decolonization/en/nsgt|title=Non-Self-Governing Territories|publisher=[[United Nations]]|access-date=6 June 2021}}</ref>
 !Codesc Alpha-2<ref name=OBP/>
 !Codesc Alpha-3<ref name=OBP/>
@@ -60,7 +60,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-
 |id=AMER|{{flagicon|Samoa Americana}}&nbsp;[[Samoa Americana]]
 |[[Samoa Americana|L raion de la Samoa Americana]]
-|align=center|[[#UNI4|United States]]
+|align=center|[[#UNI4|Stac Unii]]
 |align=center|[[ISO 3166-1 alpha-2#AS|{{mono|AS}}]]
 |align=center|[[ISO 3166-1 alpha-3#ASM|{{mono|ASM}}]]
 |align=center|[[ISO 3166-1 numeric#016|{{mono|016}}]]
@@ -860,7 +860,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-
 |id=GUAM|{{flagicon|Guam}}&nbsp;[[Guam]]
 |[[Guam|The Territory of Guam]]
-|align=center|[[#UNI4|United States]]
+|align=center|[[#UNI4|Stac Unii]]
 |align=center|[[ISO 3166-1 alpha-2#GU|{{mono|GU}}]]
 |align=center|[[ISO 3166-1 alpha-3#GUM|{{mono|GUM}}]]
 |align=center|[[ISO 3166-1 numeric#316|{{mono|316}}]]
@@ -921,7 +921,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:HT]]
 |align=center|[[.ht]]
 |-
-|id=HAWA data-sort-value=HAWA colspan=8|{{flagicon|United States}}&nbsp;[[Hawaiian Islands]] – Cëla [[#UNI4|United States of America, The]].
+|id=HAWA data-sort-value=HAWA colspan=8|{{flagicon|Stac Unii}}&nbsp;[[Ijules de Hawaii]] – Cëla [[#UNI4|Stac Unii d'America]].
 |-
 |id=HEAR|{{flagicon|Heard Island and McDonald Islands}}&nbsp;[[Heard Island and McDonald Islands]]
 |[[Heard Island and McDonald Islands|The Territory of Heard Island and McDonald Islands]]
