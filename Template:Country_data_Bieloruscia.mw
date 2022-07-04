@@ -1,0 +1,23 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Bieloruscia
+| flag alias = Flag of Belarus.svg
+| flag alias-1991 = Flag of Belarus (1918, 1991–1995).svg
+| flag alias-1995 = Flag of Belarus (1995–2012).svg
+| flag alias-air force = Flag of Belarusian Air Force.svg
+| link alias-air force = Belarusian Air Force
+| flag alias-army = Flag of the Belarusian Ground Forces.png
+| link alias-army = Belarusian Ground Forces
+| flag alias-military = Flag of the Armed Forces of Belarus.png 
+| link alias-military = Armed Forces of Belarus
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1991
+| var2 = 1995
+| redir1 = BLR
+| related1 = Byelorussian SSR
+| related2 = Belarusian People's Republic
+</noinclude>
+}}
