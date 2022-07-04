@@ -132,7 +132,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=ARUB|{{flagicon|Aruba}}&nbsp;[[Aruba]]
 |[[Aruba]]
-|align=center|[[#NETH|Netherlands]]
+|align=center|[[#NETH|Paejes Basc]]
 |align=center|[[ISO 3166-1 alpha-2#AW|{{mono|AW}}]]
 |align=center|[[ISO 3166-1 alpha-3#ABW|{{mono|ABW}}]]
 |align=center|[[ISO 3166-1 numeric#533|{{mono|533}}]]
@@ -268,16 +268,16 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[.bo]]
 |-
 |id=BONA|{{flagicon|Bonaire}}&nbsp;[[Bonaire]]<br/>{{flagicon|Sint Eustatius}}&nbsp;[[Sint Eustatius]]<br/>{{flagicon|Saba}}&nbsp;[[Saba]]
-|[[Caribbean Netherlands|Bonaire, Sint Eustatius and Saba]]
-|align=center|[[#NETH|Netherlands]]
+|[[Paejes Basc de la Caribich|Bonaire, Sint Eustatius y Saba]]
+|align=center|[[#NETH|Paejes Basc]]
 |align=center|[[ISO 3166-1 alpha-2#BQ|{{mono|BQ}}]]
 |align=center|[[ISO 3166-1 alpha-3#BES|{{mono|BES}}]]
 |align=center|[[ISO 3166-1 numeric#535|{{mono|535}}]]
 |align=center|[[ISO 3166-2:BQ]]
 |align=center|[[.bq]] [[.nl]] {{efn|Although the [[country code top-level domain]] [[.bq]] is reserved for the [[Caribbean Netherlands]], these islands use the [[Kingdom of the Netherlands|Netherlands]] country code top-level domain [[.nl]] instead.}}
 |-style="background-color:white;"
-|id=BOSN|{{flagicon|Bosnia and Herzegovina}}&nbsp;[[Bosnia and Herzegovina]]
-|[[Bosnia and Herzegovina]]
+|id=BOSN|{{flagicon|Bosnia y Herzegovina}}&nbsp;[[Bosnia y Herzegovina]]
+|[[Bosnia y Herzegovina]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#BA|{{mono|BA}}]]
 |align=center|[[ISO 3166-1 alpha-3#BIH|{{mono|BIH}}]]
@@ -399,7 +399,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-style="background-color:white;"
 |id=CAPE data-sort-value=CAPE colspan=8|{{flagicon|Cape Verde}}&nbsp;[[Cape Verde]] – See [[#CABO|Cabo Verde]].
 |-
-|id=CARI data-sort-value=CARI colspan=8|{{flagicon|Netherlands}}&nbsp;[[Caribbean Netherlands]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
+|id=CARI data-sort-value=CARI colspan=8|{{flagicon|Paejes Basc}}&nbsp;[[Caribbean Netherlands]] – See [[#BONA|Bonaire, Sint Eustatius and Saba]].
 |-
 |id=CAYM|{{flagicon|Cayman Islands}}&nbsp;[[Cayman Islands|Cayman Islands (the)]]
 |[[Cayman Islands|The Cayman Islands]]
@@ -553,7 +553,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=CURA|{{flagicon|Curaçao}}&nbsp;[[Curaçao]]
 |[[Curaçao|The Country of Curaçao]]
-|align=center|[[#NETH|Netherlands]]
+|align=center|[[#NETH|Paejes Basc]]
 |align=center|[[ISO 3166-1 alpha-2#CW|{{mono|CW}}]]
 |align=center|[[ISO 3166-1 alpha-3#CUW|{{mono|CUW}}]]
 |align=center|[[ISO 3166-1 numeric#531|{{mono|531}}]]
@@ -1467,8 +1467,8 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |align=center|[[ISO 3166-2:NP]]
 |align=center|[[.np]]
 |-style="background-color:white;"
-|id=NETH data-sort-value=NETH|{{flagicon|Netherlands}}&nbsp;[[Kingdom of the Netherlands|Netherlands (the)]]
-|[[Kingdom of the Netherlands|La Rëni de the Netherlands]]
+|id=NETH data-sort-value=NETH|{{flagicon|Paejes Basc}}&nbsp;[[Rëni di Paejes Basc|Paejes Basc]]
+|[[Rëni di Paejes Basc|La Rëni di Paejes Basc]]
 |align=center|UN member state
 |align=center|[[ISO 3166-1 alpha-2#NL|{{mono|NL}}]]
 |align=center|[[ISO 3166-1 alpha-3#NLD|{{mono|NLD}}]]
@@ -1885,7 +1885,7 @@ The sortable table below contains the three sets of [[ISO 3166-1]] country codes
 |-
 |id=SIN3|{{flagicon|Sint Maarten}}&nbsp;[[Sint Maarten|Sint Maarten (Dutch part)]]
 |[[Sint Maarten]]
-|align=center|[[#NETH|Netherlands]]
+|align=center|[[#NETH|Paejes Basc]]
 |align=center|[[ISO 3166-1 alpha-2#SX|{{mono|SX}}]]
 |align=center|[[ISO 3166-1 alpha-3#SXM|{{mono|SXM}}]]
 |align=center|[[ISO 3166-1 numeric#534|{{mono|534}}]]
