@@ -17,7 +17,7 @@
 |- valign="top"
 | valign="top" style="font-size:90%"|'''Populazion''' || valign="top" style="font-size:90%"| ({{{Data abitanc}}})
 |-
-| valign="top" style="font-size:90%"| {{#if: {{{Abitanc metro|}}} |  &bullet;&nbsp;chemun<br>&bullet;&nbsp;raion metropolitan | &bullet;&nbsp;chemun }} || {{#if: {{{Abitanc metro|}}} |  {{formatnum:{{{Abitanc chemun}}}}} ab.<br>{{formatnum:{{{Abitanc metro}}}}} ab. | {{formatnum:{{{Abitanc chemun}}}}} ab. }}
+| valign="top" style="font-size:90%"| {{#if: {{{Abitanc metro|}}} |  &bullet;&nbsp;chemun<br>&bullet;&nbsp;raion metropolitan | &bullet;&nbsp;chemun }} ||  style="width:180px;font-size:90%" | {{#if: {{{Abitanc metro|}}} |  {{formatnum:{{{Abitanc chemun}}}}} ab.<br>{{formatnum:{{{Abitanc metro}}}}} ab. | {{formatnum:{{{Abitanc chemun}}}}} ab. }}
 |-
 |style="width:130px;font-size:90%" | {{#if:{{{Abitanc|}}}|'''Densità'''}} || style="width:180px;font-size:90%" | {{#if:{{{Abitanc|}}}|{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²}}
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
