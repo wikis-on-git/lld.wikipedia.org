@@ -1,0 +1,3 @@
+<onlyinclude><span style="display:none">{{{3|Riam Unì}}}</span>[[File:Flag of the United Kingdom.svg|{{{WIDTH|20}}}px|class=noviewer|link={{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}||#=Riam Unì|#default={{{1}}}}}}}|{{{3|Riam Unì}}}]]{{#ifeq:{{{1|}}}|#|<!-- nix -->|&nbsp;{{#if:{{{Ziel|}}}|[[{{{Ziel}}}]]|[[{{{1|Riam Unì}}}|{{{2|Riam Unì}}}]]}}}}</onlyinclude>
+
+[[Categoria:Template de stac cun bandiera]]
