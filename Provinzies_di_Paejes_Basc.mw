@@ -61,28 +61,28 @@
 | {{#expr:1115895/2150.87 round 0 }} ab./km²
 | 2.209,84 km²<br />5,32 %
 |-
-| [[Olanda dl Nord]] || Noord-Holland || {{Blason|Haarlem}} || {{Blason|Amsterdam]}}
+| [[Olanda dl Nord]] || Noord-Holland || {{Blason|Haarlem}} || {{Blason|Amsterdam}}
 | [[File:Flag North-Holland, Netherlands.svg|border|80px|]]
 | [[File:Noord Holland-Position.png|50px|]]
 | {{formatnum:2887906}}
 | {{#expr:2887906/2671.03 round 0 }} ab./km²
 | 4.091,93 km²<br />9,85 %
 |-
-| [[Olanda dl Sud]] || Zuid-Holland || [[Den Haag]] || [[Rotterdam]]
+| [[Olanda dl Sud]] || Zuid-Holland || {{Blason|Den Haag}} || {{Blason|Rotterdam}}
 | [[File:Flag Zuid-Holland.svg|border|80px|]]
 | [[File:Zuid Holland-Position.png|50px|]]
 | {{formatnum:3726173}}
 | {{#expr:3726173/2814.69 round 0 }} ab./km²
 | 3.418,78 km²<br />8,23 %
 |-
-| [[Overijssel]] || Overijssel || [[Zwolle]] || [[Enschede]]
+| [[Overijssel]] || Overijssel || {{Blason|Zwolle}} || {{Blason|Enschede}}
 | [[File:Flag Overijssel.svg|border|80px|]]
 | [[File:Overijssel-Position.png|50px|]]
 | {{formatnum:1166478}}
 | {{#expr:1166478/3325.62 round 0 }} ab./km²
 | 3.420,74 km²<br />8,23 %
 |-
-| [[Provinzia de Utrecht|Utrecht]] || Utrecht || [[Utrecht]] || Utrecht
+| [[Provinzia de Utrecht|Utrecht]] || Utrecht || {{Blason|Utrecht}} || Utrecht
 | [[File:Utrecht (province)-Flag.svg|border|80px|]]
 | [[File:Utrecht-Position.png|50px|]]
 | {{formatnum:1361093}}
