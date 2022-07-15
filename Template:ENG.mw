@@ -1,3 +1,3 @@
-<onlyinclude><span style="display:none">{{{3|Nghiltiera}}}</span>[[File:Flag of the United Kingdom.svg|{{{WIDTH|20}}}px|class=noviewer|link={{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}||#=Nghiltiera|#default={{{1}}}}}}}|{{{3|Nghiltiera}}}]]{{#ifeq:{{{1|}}}|#|<!-- nix -->|&nbsp;{{#if:{{{Ziel|}}}|[[{{{Ziel}}}]]|[[{{{1|Nghiltiera}}}|{{{2|Nghiltiera}}}]]}}}}</onlyinclude>
+<onlyinclude><span style="display:none">{{{3|Nghiltiera}}}</span>[[File:Flag_of_England.svg|{{{WIDTH|20}}}px|class=noviewer|link={{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}||#=Nghiltiera|#default={{{1}}}}}}}|{{{3|Nghiltiera}}}]]{{#ifeq:{{{1|}}}|#|<!-- nix -->|&nbsp;{{#if:{{{Ziel|}}}|[[{{{Ziel}}}]]|[[{{{1|Nghiltiera}}}|{{{2|Nghiltiera}}}]]}}}}</onlyinclude>
 
 [[Categoria:Template de stac cun bandiera]]
