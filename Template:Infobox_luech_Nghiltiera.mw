@@ -15,7 +15,7 @@
 |- valign="top"
 |colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;font-size:1%" | 
 |- valign="top"
-|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}}}
+|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}&nbsp;do Gejù Crist}}
 |- valign="top"
 | valign="top" style="font-size:90%"|'''Populazion''' || valign="top" style="font-size:90%"| {{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})
 |-
