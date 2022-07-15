@@ -36,7 +36,7 @@
 |- 
 {{#if:{{{Autëza|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Autëza'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Autëza}}} m <small>sëura l livel dl mer</small>  |  }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Autëza'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Autëza}}} m  |  }}
 |-
 {{#if:{{{Codesc posta|}}}  | 
 {{!}}- 
