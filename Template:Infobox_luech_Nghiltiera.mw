@@ -1,0 +1,89 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" style="font-size:120%" | {{{Inuem luech}}}
+|-
+|colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|310px|center]]}}
+|-
+!colspan="2" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inuem luech}}}]]|}}|}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Nfurmazions prinzipeles
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Stat''' || style="width:180px;font-size:90%" | {{GBR}}
+|- valign="top" 
+|style="width:130px;font-size:90%" |'''[[Nazions dl Riam Unì|Nazion]]''' || style="width:180px;font-size:90%" | {{ENG}}
+|- valign="top"
+|style="width:130px;font-size:90%;" |'''[[Contées zeremonieles de l'Nghiltiera|Contea zeremoniela]]''' || style="width:180px;font-size:90%" | {{{Contea}}}
+|- valign="top"
+|colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;font-size:1%" | 
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}}}
+|- valign="top"
+| valign="top" style="font-size:90%"|'''Populazion''' || valign="top" style="font-size:90%"| ({{{Data abitanc}}})
+|-
+| valign="top" style="font-size:90%"| {{#if: {{{Abitanc metro|}}} |  &bullet;&nbsp;chemun<br>&bullet;&nbsp;raion metropolitan | &bullet;&nbsp;chemun }} ||  style="width:180px;font-size:90%" | {{#if: {{{Abitanc metro|}}} |  {{formatnum:{{{Abitanc chemun}}}}} ab.<br>{{formatnum:{{{Abitanc metro}}}}} ab. | {{formatnum:{{{Abitanc chemun}}}}} ab. }}
+|-
+|style="width:130px;font-size:90%" | {{#if:{{{Abitanc|}}}|'''Densità'''}} || style="width:180px;font-size:90%" | {{#if:{{{Abitanc|}}}|{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²}}
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Geografia
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" | {{{Coordinates}}}
+|- 
+{{#if:{{{Autëza|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Autëza'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Autëza}}} m <small>sëura l livel dl mer</small>  |  }}
+{{#if:{{{Spersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Spersa'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{{Spersa}}}}}&nbsp;km²   |  }}
+{{#if:{{{Spersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Densità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{#expr: {{{Abitanc chemun}}} / {{{Spersa}}} round 2 }}&nbsp;ab./km²}}  |    }}
+|-
+{{#if:{{{INSEE|}}}  | 
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" {{!}} Auter
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''[[INSEE]]'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{INSEE}}}  |  }}
+{{#if:{{{Codesc posta|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Codesc de la posta'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Codesc posta}}}  |  
+{{!}}-  }}
+{{#if:{{{Plata internet|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Plata internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} [{{{Codesc posta}}}]  |  
+{{!}}-  }}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
+|-
+|colspan="2" align="center" | {{{Cherta}}}
+|-
+|}</includeonly>
+<noinclude>
+{{Infobox luech Nghiltiera
+|Foto                   = Oxford_Montage_2012.png
+|Inuem luech            = Oxford
+|Blason                 = Coat_of_arms_for_the_City_of_Oxford.svg
+|Contea                = [[Oxfordshire]]
+|Dipartimënt            = [[Lyon Metropolis]]
+|Fundazion              = 8ejim secul
+|Spersa                 = 45.59
+|Coordinates            = {{coord|51|45|N|1|15|E|display=inline}}   <!--mantenì chësc format--> 
+|Data abitanc           = 2017
+|Abitanc chemun         = 151584
+|Abitanc metro          = 244000
+|Codesc posta           = OX1, OX2, OX3, OX4
+|Plata internet         = www.oxford.gov.uk
+|Cherta                 = {{Mappa di localizzazione
+|ENG
+|label = Oxford
+|latitudineGradi = 51
+|latitudinePrimi = 45
+|longitudineGradi = 1
+|longitudinePrimi = 15
+|position = top
+|width = 300
+|float = center
+|relief = yes
+}}
+}}[[Categoria:Templates Riam Unì]]</noinclude>
