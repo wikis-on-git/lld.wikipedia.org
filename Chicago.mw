@@ -29,6 +29,107 @@
 
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATUR = 
+| DIAGRAMM PREZIPITAZIONS = 
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = WMO: [http://worldweather.wmo.int/093/c00274.htm World Weather Information Service]
+| Überschrift =
+| Luech = Chicago
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = -1.7
+| hmfeb = 0.8
+| hmmär = 7.7
+| hmapr = 14.8
+| hmmai = 21.2
+| hmjun = 26.4
+| hmjul = 28.7
+| hmaug = 27.7
+| hmsep = 23.8
+| hmokt = 17.4
+| hmnov = 9.1
+| hmdez = 1.1
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = -10.6
+| lmfeb = -8.2
+| lmmär = -1.9
+| lmapr = 3.7
+| lmmai = 8.7
+| lmjun = 14.2
+| lmjul = 17.0
+| lmaug = 16.4
+| lmsep = 12.2
+| lmokt = 5.7
+| lmnov = -0.2
+| lmdez = -7.2
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan =
+| avfeb =
+| avmär =
+| avapr =
+| avmai =
+| avjun =
+| avjul =
+| avaug =
+| avsep =
+| avokt =
+| avnov =
+| avdez =
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 38.9
+| nbfeb = 34.5
+| nbmär = 68.3
+| nbapr = 92.5
+| nbmai = 84.3
+| nbjun = 96.0
+| nbjul = 93.0
+| nbaug = 107.2
+| nbsep = 97.0
+| nbokt = 61.2
+| nbnov = 74.2
+| nbdez = 62.7
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan =
+| shfeb =
+| shmär =
+| shapr =
+| shmai =
+| shjun =
+| shjul =
+| shaug =
+| shsep =
+| shokt =
+| shnov =
+| shdez =
+<!-- durchschnittliche Wassertemperatur (Meere. Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan =
+| wtfeb =
+| wtmär =
+| wtapr =
+| wtmai =
+| wtjun =
+| wtjul =
+| wtaug =
+| wtsep =
+| wtokt =
+| wtnov =
+| wtdez =
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 7.3
+| rdfeb = 6.2
+| rdmär = 9.0
+| rdapr = 9.5
+| rdmai = 8.9
+| rdjun = 8.0
+| rdjul = 8.0
+| rdaug = 7.5
+| rdsep = 7.7
+| rdokt = 6.6
+| rdnov = 7.9
+| rddez = 7.8
+}}
 
 == Storia ==
 
