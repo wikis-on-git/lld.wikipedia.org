@@ -127,30 +127,30 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{DoppelBilanz|}}}{{{AnzahlDoppelTitel|}}}{{{HoechsteDoppelPlatzierung|}}}{{{AktuelleDoppelPlatzierung|}}}{{{WochenNr1Doppel|}}}{{{AnzahlGrandSlamTitelDoppel|}}}{{{AustralianOpenErgebnisDoppel|}}}{{{FrenchOpenErgebnisDoppel|}}}{{{WimbledonErgebnisDoppel|}}}{{{USOpenErgebnisDoppel|}}}|
-{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Doppel
+{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Dopl
 {{!}}-
 {{#if:{{{DoppelBilanz|}}}|
-{{!}} '''Karrierebilanz:'''
+{{!}} '''Bilanz de cariera:'''
 {{!}} {{{DoppelBilanz}}}
 }}
 {{!}}- style="vertical-align:top"
 {{#if:{{{AnzahlDoppelTitel|}}}|
-{{!}} '''Karrieretitel:'''
+{{!}} '''Tituli de cariera:'''
 {{!}} {{{AnzahlDoppelTitel}}}
 }}
 {{!}}-
 {{#if:{{{HoechsteDoppelPlatzierung|}}}|
-{{!}} '''Höchste Platzierung:'''
+{{!}} '''Plazamënt plu aut:'''
 {{!}} {{{HoechsteDoppelPlatzierung}}}
 }}
 {{!}}-
 {{#if:{{{AktuelleDoppelPlatzierung|}}}|
-{{!}} '''Aktuelle Platzierung:'''
+{{!}} '''Plazamënt atuel:'''
 {{!}} [[Tennisweltrangliste|{{{AktuelleDoppelPlatzierung}}}]]
 }}
 {{!}}-
 {{#if:{{{WochenNr1Doppel|}}}|
-{{!}} '''Wochen als Nr. 1:'''
+{{!}} '''Enes coche numer 1:'''
 {{!}} {{{WochenNr1Doppel}}}
 }}
 {{!}}-
