@@ -5,9 +5,9 @@ min-width:1.6em; text-align:center;" aria-hidden="true" role="presentation">[[Fi
 |S|s=&nbsp;– Culezion de fotos
 |1|=&nbsp;– Culezion de fotos{{#if: {{{video|}}}{{{audio|}}} 
      | {{#switch: {{#invoke:TemplUtl|faculty|{{{video|1}}}}}/{{#invoke:TemplUtl|faculty|{{{audio|1}}}}}
-         |1/= &#32;y Videos
-         |1/1=, Videos y Audios
-         |/1= &#32;y Audios}}
+         |1/= &#32;y videos
+         |1/1=, videos y audios
+         |/1= &#32;y audios}}
      | , Videos y Audios
    }}
 |#default=&nbsp;– {{{suffix|{{{3|}}}}}}
