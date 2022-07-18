@@ -109,7 +109,7 @@
 {{!}} width="295" style="background-color:#DCDCDC; text-align:center;" colspan="2" {{!}} Bilanz ti Grand-Slam
 {{!}}-
 {{!}} colspan="2" {{!}}
-<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavFrame" style="font-size:0px; border:none;align:center;">
 <div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Tituli ti Grand-Slam:'''{{0|00000}}&thinsp;{{#if:{{{AnzahlGrandSlamTitelEinzel|}}}|{{{AnzahlGrandSlamTitelEinzel|}}}|0}}</div>
 <div class="NavContent" style="text-align:left; font-size:12px;">
 {{{!}} width=100% style="text-align:left; border-color:#FFFFFF; border-style:solid; border-width:0px;"
