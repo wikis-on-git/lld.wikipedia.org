@@ -200,7 +200,7 @@
 
 == Kopiervorlage ==
 <pre style="white-space:pre-wrap;">
-{{Infobox Tennisspieler
+{{Infobox jugadëur tennis
 | Name                         = 
 | Bild                         = 
 | Bildbreite                   = 
@@ -301,7 +301,7 @@
 ; Updated = :Datum der letzten Aktualisierung der Infobox in der Form TT. Monat JJJJ
 
 == Beispiele ==
-{{Infobox Tennisspieler
+{{Infobox jugadëur tennis
 | Name                         = Max Mustermann
 | Bild                         = Smiley.svg
 | Bildbeschriftung             = Smiley bei den US-Open (2010)
@@ -352,7 +352,7 @@
 | OlympischeMedaille3Jahr      = 2008
 }}
 <pre style="white-space:pre-wrap; overflow:auto;">
-{{Infobox Tennisspieler
+{{Infobox jugadëur tennis
 | Name                         = Max Mustermann
 | Bild                         = Smiley.svg
 | Bildbeschriftung             = Smiley bei den US-Open (2010)
