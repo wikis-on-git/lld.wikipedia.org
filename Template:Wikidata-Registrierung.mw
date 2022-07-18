@@ -1,0 +1,3 @@
+<onlyinclude><includeonly>{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#if: {{#invoke:Wikidata|pageId}} ||{{#if:{{#invoke:PageUtil|isRedirect}}||[[Kategorie:Wikipedia:Artikel ohne Wikidata-Datenobjekt]]}} }} }}</includeonly></onlyinclude>
+
+{{Documentazion}}
