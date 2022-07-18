@@ -1,0 +1,302 @@
+<onlyinclude><includeonly>{| class="infobox toccolours float-right" style="margin:0 0 0.5em 1em; font-size: 85%;"
+|-
+| colspan="2" style="text-align:center; background: #B0C4DE; line-height:24px; font-size: 120%; font-weight:bold;"| {{{kurzname}}} {{#if: {{{kurzname|<noinclude>-</noinclude>}}} | {{SportPicto|Skispringen}}}}
+|-
+{{#if: {{{bild|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} [[Datei:{{{bild}}}|{{#if:{{{bildgroesse|<noinclude>-</noinclude>}}} |
+{{{bildgroesse}}}|240px}}|{{{bildbeschreibung}}}]]
+<small>{{{bildbeschreibung|<noinclude>{{{bildbeschreibung}}}</noinclude>}}}</small>}}
+|-
+{{#if: {{{langname|<noinclude>-</noinclude>}}} |
+{{!}} '''Voller Name'''
+{{!}} {{{langname}}}
+{{!}}-
+}}
+| '''Nation'''
+| {{{nation}}}
+|-
+| '''Geburtstag'''
+| {{{geburtstag}}}
+|-
+{{#if: {{{geburtsland|<noinclude>-</noinclude>}}}{{{geburtsort|<noinclude>-</noinclude>}}} |
+{{!}} '''Geburtsort'''
+{{!}} {{#if:{{{geburtsort| }}}|
+{{{geburtsort}}}
+}}{{#if:{{{geburtsland| }}}|
+{{#if:{{{geburtsort| }}}|,&nbsp;}}}}{{{geburtsland}}}
+{{!}}-
+}}
+{{#if: {{{groesse|<noinclude>-</noinclude>}}} |
+{{!}} '''Größe'''
+{{!}} {{{groesse}}} cm
+{{!}}-
+}}
+{{#if: {{{gewicht|<noinclude>-</noinclude>}}} |
+{{!}} '''Gewicht'''
+{{!}} {{{gewicht}}} kg
+{{!}}-
+}}
+{{#if: {{{beruf|<noinclude>-</noinclude>}}} |
+{{!}} '''Beruf'''
+{{!}} {{{beruf}}}
+{{!}}-
+}}
+{{#if: {{{sterbedatum|<noinclude>-</noinclude>}}} |
+{{!}} '''Sterbedatum'''
+{{!}} {{{sterbedatum}}}
+{{!}}-
+}}
+{{#if: {{{sterbeland|<noinclude>-</noinclude>}}}{{{sterbeort|<noinclude>-</noinclude>}}} |
+{{!}} '''Sterbeort'''
+{{!}} {{#if:{{{sterbeort| }}}|{{{sterbeort}}}
+}}{{#if:{{{sterbeland| }}}|
+{{#if:{{{sterbeort| }}}|,&nbsp;}}}}{{{sterbeland}}}
+{{!}}-
+}}
+! style="background: #B0C4DE; text-align: center;" colspan="2" | Karriere
+|-
+{{#if: {{{verein|<noinclude>-</noinclude>}}} |
+{{!}} '''Verein'''
+{{!}} {{{verein}}}
+{{!}}-
+}}
+{{#if: {{{trainer|<noinclude>-</noinclude>}}} |
+{{!}} '''Trainer'''
+{{!}} {{{trainer}}}
+{{!}}-
+}}
+{{#if: {{{nationalkader|<noinclude>-</noinclude>}}} |
+{{!}} '''Nationalkader'''
+{{!}} seit&nbsp;{{{nationalkader}}}
+{{!}}-
+}}
+{{#if: {{{bestweite|<noinclude>-</noinclude>}}} |
+ {{!}} '''Pers. Bestweite'''
+{{!}} {{{bestweite}}}
+{{!}}-
+}}
+{{#ifeq: {{Status Sportler|1={{{status}}}|2={{{sterbedatum}}}}}|verstorben||
+{{!}} '''Status'''
+{{!}} {{Status Sportler|1={{{status}}}}}
+{{!}}-
+}}
+{{#if: {{{karriereende|<noinclude>-</noinclude>}}} |
+{{!}} '''Karriereende'''
+{{!}} {{{karriereende}}}
+{{!}}-
+}}
+{{#if: {{{Medaillenspiegel|<noinclude>-</noinclude>}}}{{{medaillen|<noinclude>-</noinclude>}}} |
+! style="background: #B0C4DE; text-align: center;" colspan="2" {{!}} Medaillenspiegel
+{{!}}-
+}}
+{{#if: {{{Medaillenspiegel|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} style="width:100%" {{!}}
+{{{Medaillenspiegel}}}
+{{!}}}
+{{!}}-
+}}
+{{#if: {{{medaillen|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} style="width:100%" {{!}}
+{{{medaillen}}}
+{{!}}}
+{{!}}-
+}}
+{{#if: {{{weltcupdebuet|<noinclude>-</noinclude>}}}{{{weltcupsiege|<noinclude>-</noinclude>}}}{{{wcsiegeteam|<noinclude>-</noinclude>}}}{{{wcgesamt|<noinclude>-</noinclude>}}}{{{sfwcgesamt|<noinclude>-</noinclude>}}}{{{spwcgesamt|<noinclude>-</noinclude>}}}{{{4schanzen|<noinclude>-</noinclude>}}}{{{rawair|<noinclude>-</noinclude>}}}{{{nordictour|<noinclude>-</noinclude>}}}{{{bluebirdtour|<noinclude>-</noinclude>}}}{{{wctop3springen|<noinclude>-</noinclude>}}}{{{wctop3fliegen|<noinclude>-</noinclude>}}}{{{wctop3team|<noinclude>-</noinclude>}}}{{{wctop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} '''[[Skisprung-Weltcup]] / A-Klasse-Springen'''
+{{!}}-
+}}
+{{#if: {{{weltcupdebuet|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Debüt im Weltcup'''
+{{!}} {{{weltcupdebuet}}}
+{{!}}-
+}}
+{{#if: {{{weltcupsiege|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Weltcupsiege (Einzel)'''
+{{!}} {{{weltcupsiege}}}&nbsp;&nbsp;([[#Weltcupsiege im Einzel|Details]])
+{{!}}-
+}}
+{{#if: {{{wcsiegeteam|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Weltcupsiege (Team)'''
+{{!}} {{{wcsiegeteam}}}&nbsp;&nbsp;([[#Weltcupsiege im Team|Details]])
+{{!}}-
+}}
+{{#if: {{{wcgesamt|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Skisprung-Weltcup|Gesamtweltcup]]'''
+{{!}} {{{wcgesamt}}}
+{{!}}-
+}}
+{{#if: {{{sfwcgesamt|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;Skiflug-Weltcup'''
+{{!}} {{{sfwcgesamt}}}
+{{!}}-
+}}
+{{#if: {{{spwcgesamt|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;Sprung-Weltcup'''
+{{!}} {{{spwcgesamt}}}
+{{!}}-
+}}
+{{#if: {{{4schanzen|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Vierschanzentournee]]'''
+{{!}} {{{4schanzen}}}
+{{!}}-
+}}
+{{#if: {{{rawair|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Raw Air]]'''
+{{!}} {{{rawair}}}
+{{!}}-
+}}
+{{#if: {{{nordictour|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Nordic Tournament]]'''
+{{!}} {{{nordictour}}}
+{{!}}-
+}}
+{{#if: {{{bluebirdtour|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Blue Bird Tour]]'''
+{{!}} {{{bluebirdtour}}}
+{{!}}-
+}}
+{{#if: {{{wctop3springen|<noinclude>-</noinclude>}}}{{{wctop3fliegen|<noinclude>-</noinclude>}}}{{{wctop3team|<noinclude>-</noinclude>}}}{{{wctop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" {{!}}
+{{{!}} border="1" cellpadding="2" cellspacing="0" style="border:1px solid #C0C0C0; border-collapse:collapse; text-align:center; width:100%" {{!}}
+! class="hintergrundfarbe5" style="width:70%; text-align:left;" {{!}} &nbsp;Podiumsplatzierungen
+! style="background:gold; width:10%" {{!}} 1.
+! style="background:silver; width:10%" {{!}} 2.
+! style="background:#CC9966; width:10%" {{!}} 3.
+{{!}}-
+{{#if: {{{wctop3springen|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Einzelspringen'''
+{{{wctop3springen}}}
+{{!}}-
+}}
+{{#if: {{{wctop3fliegen|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Skifliegen'''
+{{{wctop3fliegen}}}
+{{!}}-
+}}
+{{#if: {{{wctop3team|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Teamspringen'''
+{{{wctop3team}}}
+{{!}}-
+}}
+{{#if: {{{wctop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Mixed-Teamspringen'''
+{{{wctop3mixedteam}}}
+{{!}}-
+}}
+{{!}}}
+{{!}}-
+}}
+{{#if: {{{gpdebuet|<noinclude>-</noinclude>}}}{{{gpsiege|<noinclude>-</noinclude>}}}{{{gpsiegeteam|<noinclude>-</noinclude>}}}{{{grandprix|<noinclude>-</noinclude>}}}{{{gptop3|<noinclude>-</noinclude>}}}{{{gptop3team|<noinclude>-</noinclude>}}}{{{gptop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} '''[[Skisprung-Grand-Prix]]'''
+{{!}}-
+}}
+{{#if: {{{gpdebuet|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Debüt im Grand Prix'''
+{{!}} {{{gpdebuet}}}
+{{!}}-
+}}
+{{#if: {{{gpsiege|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Grand-Prix-Siege (Einzel)'''
+{{!}} {{{gpsiege}}}&nbsp;&nbsp;([[#Grand-Prix-Siege im Einzel|Details]])
+{{!}}-
+}}
+{{#if: {{{gpsiegeteam|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Grand-Prix-Siege (Team)'''
+{{!}} {{{gpsiegeteam}}}&nbsp;&nbsp;([[#Grand-Prix-Siege im Team|Details]])
+{{!}}-
+}}
+{{#if: {{{grandprix|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;Gesamtwertung Grand Prix'''
+{{!}} {{{grandprix}}}
+{{!}}-
+}}
+{{#if: {{{gptop3|<noinclude>-</noinclude>}}}{{{gptop3team|<noinclude>-</noinclude>}}}{{{gptop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" {{!}}
+{{{!}} border="1" cellpadding="2" cellspacing="0" style="border:1px solid #C0C0C0; border-collapse:collapse; text-align:center; width:100%" {{!}}
+! class="hintergrundfarbe5" style="width:70%; text-align:left;" {{!}} &nbsp;Podiumsplatzierungen
+! style="background:gold; width:10%" {{!}} 1.
+! style="background:silver; width:10%" {{!}} 2.
+! style="background:#CC9966; width:10%" {{!}} 3.
+{{!}}-
+{{#if: {{{gptop3|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Einzelspringen'''
+{{{gptop3}}}
+{{!}}-
+}}
+{{#if: {{{gptop3team|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Teamspringen'''
+{{{gptop3team}}}
+{{!}}-
+}}
+{{#if: {{{gptop3mixedteam|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Mixed-Teamspringen'''
+{{{gptop3mixedteam}}}
+{{!}}-
+}}
+{{!}}}
+{{!}}-
+}}
+{{#if: {{{cocdebuet|<noinclude>-</noinclude>}}}{{{cocsiege|<noinclude>-</noinclude>}}}{{{cocsiegeteam|<noinclude>-</noinclude>}}}{{{coc|<noinclude>-</noinclude>}}}{{{ladiesgp|<noinclude>-</noinclude>}}}{{{beskidentour|<noinclude>-</noinclude>}}}{{{coctop3springen|<noinclude>-</noinclude>}}}{{{coctop3team|<noinclude>-</noinclude>}}} |
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} '''[[Skisprung-Continental-Cup]] (COC)'''
+{{!}}-
+}}
+{{#if: {{{cocdebuet|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;Debüt im COC'''
+{{!}} {{{cocdebuet}}}
+{{!}}-
+}}
+{{#if: {{{cocsiege|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;COC-Siege (Einzel)'''
+{{!}} {{{cocsiege}}}&nbsp;&nbsp;([[#Continental-Cup-Siege im Einzel|Details]])
+{{!}}-
+}}
+{{#if: {{{cocsiegeteam|<noinclude>-</noinclude>}}} |
+{{!}} '''&nbsp;COC-Siege (Team)'''
+{{!}} {{{cocsiegeteam}}}&nbsp;&nbsp;([[#Continental-Cup-Siege im Team|Details]])
+{{!}}-
+}}
+{{#if: {{{coc|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;Gesamtwertung COC'''
+{{!}} {{{coc}}}
+{{!}}-
+}}
+{{#if: {{{ladiesgp|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[FIS-Ladies-Winter-Tournee|Ladies-Grand-Prix]]'''
+{{!}} {{{ladiesgp}}}
+{{!}}-
+}}
+{{#if: {{{beskidentour|<noinclude>-</noinclude>}}} |
+{{!}} style="vertical-align: top;" {{!}} '''&nbsp;[[Beskiden-Tour]]'''
+{{!}} {{{beskidentour}}}
+{{!}}-
+}}
+{{#if: {{{coctop3springen|<noinclude>-</noinclude>}}}{{{coctop3team|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" {{!}}
+{{{!}} border="1" cellpadding="2" cellspacing="0" style="border:1px solid #C0C0C0; border-collapse:collapse; text-align:center; width:100%" {{!}}
+! class="hintergrundfarbe5" style="width:70%; text-align:left;" {{!}} &nbsp;Podiumsplatzierungen
+! style="background:gold; width:10%" {{!}} 1.
+! style="background:silver; width:10%" {{!}} 2.
+! style="background:#CC9966; width:10%" {{!}} 3.
+{{!}}-
+{{#if: {{{coctop3springen|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Einzelspringen'''
+{{{coctop3springen}}}
+{{!}}-
+}}
+{{#if: {{{coctop3team|<noinclude>-</noinclude>}}} |
+{{!}} style="text-align:left;" {{!}} '''&nbsp;Teamspringen'''
+{{{coctop3team}}}
+{{!}}-
+}}
+{{!}}}
+{{!}}-
+}}
+{{#if: {{{update|<noinclude>-</noinclude>}}} |
+{{!}} style="background: #B0C4DE; text-align: center;" colspan="2" {{!}} <small>'''letzte Änderung: {{#iferror:{{FormatDate|{{{update}}}}}|{{{update}}}}}'''</small> |
+{{!}} style="background: #B0C4DE; text-align: center;" colspan="2" {{!}} &nbsp;
+}}
+|}{{Wikidata image|1={{{bild|}}} }}</includeonly></onlyinclude>
+
+{{Documentazion}}
