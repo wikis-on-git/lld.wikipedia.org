@@ -27,12 +27,12 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Größe|}}}|
-{{!}} '''Pëis:'''
+{{!}} '''Grandëza:'''
 {{!}} {{{Größe}}} cm
 }}
 |- style="vertical-align: top;" <!-- für schweizbezogene Artikel -->
 {{#if:{{{Grösse|}}}|
-{{!}} '''Pëis:'''
+{{!}} '''Grandëza:'''
 {{!}} {{{Grösse}}} cm
 }}
 |- style="vertical-align: top;"
