@@ -41,7 +41,7 @@
 }}
 |-
 {{#if: {{{beruf|<noinclude>-</noinclude>}}} |
-{{!}} '''Beruf'''
+{{!}} '''Prufescion'''
 {{!}} {{{beruf}}}
 }}
 |-
@@ -228,7 +228,7 @@
 {{Documentazion}}
 
 <noinclude>
-{{Infobox atlet schi
+{{Infobox atlet saut schi
 <!-- Allgemeine Informationen -->
 | inuem = Isolde Kostner
 | foto = [[File:Isolde Kostner.jpg|220px]]
