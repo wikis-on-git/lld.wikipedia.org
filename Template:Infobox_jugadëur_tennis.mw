@@ -311,10 +311,10 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Updated|}}}|
-{{!}} colspan="2" style="text-align:center; border-top:solid 1px #DCDCDC; padding:0.4em 1em 0.4em 0; vertical-align:top" {{!}} <small>Letzte Aktualisierung der Infobox:<br />{{{Updated}}}</small>
+{{!}} colspan="2" style="text-align:center; border-top:solid 1px #DCDCDC; padding:0.4em 1em 0.4em 0; vertical-align:top" {{!}} <small>Ultim mudamënt de la infobox:<br />{{{Updated}}}</small>
 }}
 |- style="vertical-align: top;"
-| colspan="2" style="text-align:center; padding:0.4em 1em 0.4em 0; vertical-align:top" | <small>Quellen: offizielle Spielerprofile bei der ATP/WTA (siehe [[#Weblinks|Weblinks]])</small>
+| colspan="2" style="text-align:center; padding:0.4em 1em 0.4em 0; vertical-align:top" | <small>Funtanes: Profii ufiziei di jugadëures pra la ATP/WTA (cëla [[#Weblinks|Weblinks]])</small>
 |}</includeonly><includeonly>{{Wikidata image|1={{{Bild|}}} }}</includeonly></onlyinclude>
 
 {{Documentazion}}
