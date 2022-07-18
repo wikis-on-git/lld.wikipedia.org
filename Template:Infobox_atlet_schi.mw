@@ -1,0 +1,284 @@
+<onlyinclude><includeonly>{| border="0" class="toccolours infobox float-right" style="float:right;clear:right;margin:0 0 0.5em 1em; font-size: 90%;" width="295"
+|-
+| colspan="2" style="text-align:center; background: #b0c4de; line-height:24px; font-size: 120%" | '''{{{inuem}}}''' {{#if: {{{inuem|<noinclude>-</noinclude>}}} |{{SportPicto|Schi Alpin}}}}
+|-
+{{#if: {{{foto|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} {{{foto}}}
+}}
+|-
+{{#if: {{{descrizion foto|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" align="center" {{!}} {{{descrizion foto}}}
+}}
+|-
+{{#if: {{{langname|<noinclude>-</noinclude>}}} |
+{{!}} '''Voller Name'''
+{{!}} {{{langname}}}
+}}
+|-
+| '''Nazion'''
+| {{{nazion}}}
+|-
+| '''Data de nasciuda'''
+| {{{nasciuda}}}
+|-
+{{#if: {{{stat nasciuda|<noinclude>-</noinclude>}}}{{{luech nasciuda|<noinclude>-</noinclude>}}} |
+{{!}} '''Luech nasciuda'''
+{{!}} {{#if:{{{luech nasciuda| }}}|
+{{{luech nasciuda}}}
+}}{{#if:{{{stat nasciuda| }}}|
+{{#if:{{{luech nasciuda| }}}|,&nbsp;
+}}}}{{{stat nasciuda}}}
+}}
+|-
+{{#if: {{{grandëza|<noinclude>-</noinclude>}}} |
+{{!}} '''Grandëza'''
+{{!}} {{{grandëza}}} cm
+}}
+|-
+{{#if: {{{pëis|<noinclude>-</noinclude>}}} |
+{{!}} '''Pëis'''
+{{!}} {{{pëis}}} kg
+}}
+|-
+{{#if: {{{beruf|<noinclude>-</noinclude>}}} |
+{{!}} '''Beruf'''
+{{!}} {{{beruf}}}
+}}
+|-
+{{#if: {{{sterbedatum|<noinclude>-</noinclude>}}} |
+{{!}} '''Sterbedatum'''
+{{!}} {{{sterbedatum}}}
+}}
+|-
+{{#if: {{{sterbeland|<noinclude>-</noinclude>}}}{{{sterbeort|<noinclude>-</noinclude>}}} |
+{{!}} '''Sterbeort'''
+{{!}} {{#if:{{{sterbeort| }}}|{{{sterbeort}}}
+}}{{#if:{{{sterbeland| }}}|
+{{#if:{{{sterbeort| }}}|,&nbsp;}}}}{{{sterbeland}}}
+}}
+|-
+! style="background: #b0c4de;" colspan="2" | Cariera
+|-
+{{#if: {{{disciplina|<noinclude>-</noinclude>}}} |
+{{!}} '''Disciplina'''
+{{!}} {{{disciplina}}}
+}}
+|-
+{{#if: {{{lia|<noinclude>-</noinclude>}}} |
+{{!}} '''Lia'''
+{{!}} {{{lia}}}
+}}
+|-
+{{#if: {{{trainer|<noinclude>-</noinclude>}}} |
+ {{!}} '''Trainer'''
+{{!}} {{{trainer}}}
+}}
+|-
+{{#if: {{{nationalkader|<noinclude>-</noinclude>}}} |
+ {{!}} '''Nationalkader'''
+{{!}} seit&nbsp;{{{nationalkader}}}
+}}
+|-
+{{#if: {{{status|<noinclude>-</noinclude>}}} |
+ {{!}} '''Status'''
+{{!}} {{{status}}}
+}}
+|-
+{{#if: {{{fin carriera|<noinclude>-</noinclude>}}} |
+ {{!}} '''Fin de carriera'''
+{{!}} {{{fin carriera}}}
+}}
+|-
+{{#if: {{{Bedaies|<noinclude>-</noinclude>}}}{{{bedaia|<noinclude>-</noinclude>}}}|
+! style="background: #b0c4de;" colspan="2" {{!}} Bedaies
+}}
+|-
+{{#if: {{{Bedaies|<noinclude>-</noinclude>}}}|
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} style="width:100%" {{!}}
+{{{Bedaies}}}
+{{!}}}
+}}
+|-
+{{#if: {{{bedaia|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} style="width:100%" {{!}}
+{{{bedaia}}}
+{{!}}}
+}}
+|-
+{{#if: {{{vëntes copa dl mond|<noinclude>-</noinclude>}}}{{{weltcupdebuet|<noinclude>-</noinclude>}}}{{{wcgesamt|<noinclude>-</noinclude>}}}{{{wcslalom|<noinclude>-</noinclude>}}}{{{wcriesenslalom|<noinclude>-</noinclude>}}}{{{wcabfahrt|<noinclude>-</noinclude>}}}{{{wcsuperg|<noinclude>-</noinclude>}}}{{{kombi|<noinclude>-</noinclude>}}}{{{wcparallel|<noinclude>-</noinclude>}}}{{{wctop3slalom|<noinclude>-</noinclude>}}}{{{wctop3parallel|<noinclude>-</noinclude>}}}{{{wctop3riesenslalom|<noinclude>-</noinclude>}}}{{{wctop3abfahrt|<noinclude>-</noinclude>}}}{{{wctop3superg|<noinclude>-</noinclude>}}}{{{wctop3kombi|<noinclude>-</noinclude>}}}{{{wctop3superkombi|<noinclude>-</noinclude>}}}{{{wctop3mannschaft|<noinclude>-</noinclude>}}}{{{wctop3ko|<noinclude>-</noinclude>}}}|
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} '''Plazamënc te la [[Copa dl Mond de schi alpin]]'''
+}}
+|-
+{{#if: {{{vëntes copa dl mond|<noinclude>-</noinclude>}}}{{{weltcupdebuet|<noinclude>-</noinclude>}}}{{{wcgesamt|<noinclude>-</noinclude>}}}{{{wcslalom|<noinclude>-</noinclude>}}}{{{wcriesenslalom|<noinclude>-</noinclude>}}}{{{wcabfahrt|<noinclude>-</noinclude>}}}{{{wcsuperg|<noinclude>-</noinclude>}}}{{{wckombi|<noinclude>-</noinclude>}}}{{{wcparallel|<noinclude>-</noinclude>}}} |
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} style="width:100%"
+{{#if: {{{weltcupdebuet|<noinclude>-</noinclude>}}} |
+ {{!}} '''&nbsp;Einzel-Weltcupdebüt'''
+{{!}} {{{weltcupdebuet}}}
+}}
+{{!}}-
+{{#if: {{{vëntes copa dl mond|<noinclude>-</noinclude>}}} |
+ {{!}} '''&nbsp;Vëntes Copa dl Mond'''
+{{!}} {{{vëntes copa dl mond}}}
+}}
+{{!}}-
+<!-- einzelne Parameter für Weltcups -->
+{{#if: {{{wcgesamt|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond ntiera'''
+{{!}} {{{wcgesamt}}}
+}}
+{{!}}-
+{{#if: {{{wcabfahrt|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond de libra'''
+{{!}} {{{wcabfahrt}}}
+}}
+{{!}}-
+{{#if: {{{wcsuperg|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond de Super-G'''
+{{!}} {{{wcsuperg}}}
+}}
+{{!}}-
+{{#if: {{{wcriesenslalom|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond de slalom lerch'''
+{{!}} {{{wcriesenslalom}}}
+}}
+{{!}}-
+{{#if: {{{wcslalom|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond de slalom'''
+{{!}} {{{wcslalom}}}
+}}
+{{!}}-
+{{#if: {{{wckombi|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Copa dl Mond de combinazion'''
+{{!}} {{{wckombi}}}
+}}
+{{!}}-
+{{#if: {{{wcparallel|<noinclude>-</noinclude>}}} |
+{{!}} valign="top" {{!}} '''&nbsp;Parallelweltcup'''
+{{!}} {{{wcparallel}}}
+}}
+{{!}}}
+}}
+|-
+{{#if: {{{wctop3slalom|<noinclude>-</noinclude>}}}{{{wctop3parallel|<noinclude>-</noinclude>}}}{{{wctop3riesenslalom|<noinclude>-</noinclude>}}}{{{wctop3abfahrt|<noinclude>-</noinclude>}}}{{{wctop3superg|<noinclude>-</noinclude>}}}{{{wctop3kombi|<noinclude>-</noinclude>}}}{{{wctop3superkombi|<noinclude>-</noinclude>}}}{{{wctop3mannschaft|<noinclude>-</noinclude>}}}{{{wctop3ko|<noinclude>-</noinclude>}}}|
+{{!}} colspan="2" cellpadding="0" cellspacing="0" {{!}}
+{{{!}} border="1" cellpadding="2" cellspacing="0" style="border:1px solid #C0C0C0; border-collapse:collapse; text-align:center; width:100%" {{!}}
+! align="left" class="hintergrundfarbe5" {{!}} &nbsp;Plazamënc sul podium
+! bgcolor="gold" {{!}} 1.
+! bgcolor="silver" {{!}} 2.
+! bgcolor="#CC9966" {{!}} 3.
+{{!}}-
+{{#if: {{{wctop3abfahrt|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Libra'''
+{{{wctop3abfahrt}}}
+}}
+{{!}}-
+{{#if: {{{wctop3superg|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Super-G'''
+{{{wctop3superg}}}
+}}
+{{!}}-
+{{#if: {{{wctop3riesenslalom|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Slalom lerch'''
+{{{wctop3riesenslalom}}}
+}}
+{{!}}-
+{{#if: {{{wctop3slalom|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Slalom'''
+{{{wctop3slalom}}}
+}}
+{{!}}-
+{{#if: {{{wctop3kombi|<noinclude>-</noinclude>}}}{{{wctop3superkombi|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Kombination'''
+{{Wettbewerbsbilanz
+ |{{ #expr: {{str ≥ len|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|1}}|1|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|1}}|0}} +
+            {{str ≥ len|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|1}}|1|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|1}}|0}} }}
+ |{{ #expr: {{str ≥ len|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|2}}|1|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|2}}|0}} +
+            {{str ≥ len|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|2}}|1|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|2}}|0}} }}
+ |{{ #expr: {{str ≥ len|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|3}}|1|{{Str match|{{{wctop3kombi}}}|.+ (%d+).+ (%d+).+ (%d+)|3}}|0}} +
+            {{str ≥ len|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|3}}|1|{{Str match|{{{wctop3superkombi}}}|.+ (%d+).+ (%d+).+ (%d+)|3}}|0}} }}
+}}
+}}
+{{!}}-
+{{#if: {{{wctop3parallel|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Parallel-Rennen'''
+{{{wctop3parallel}}}
+}}
+{{!}}-
+{{#if: {{{wctop3ko|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;K.-o.-Rennen'''
+{{{wctop3ko}}}
+}}
+{{!}}-
+{{#if: {{{wctop3mannschaft|<noinclude>-</noinclude>}}} |
+{{!}} align="left" {{!}} '''&nbsp;Mannschaft'''
+{{{wctop3mannschaft}}}
+}}
+{{!}}}
+}}
+|-
+{{#if: {{{update|<noinclude>-</noinclude>}}} |
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} <small>'''Ultim mudamënt: {{{update}}}'''</small> |
+{{!}} style="background: #b0c4de; text-align: center;" colspan="2" {{!}} &nbsp;
+}}
+|}</includeonly></onlyinclude>
+
+{{Documentazion}}
+
+<noinclude>
+{{Infobox atlet schi
+<!-- Allgemeine Informationen -->
+| inuem = Isolde Kostner
+| foto = [[File:Isolde Kostner.jpg|220px]]
+| descrizion foto = Isolde Kostner a Milan 2014
+| langname = 
+| nazion = {{ITA}}
+| nasciuda = 20 merz 1975 ({{Età|1975|03|20}} ani)
+| luech nasciuda = [[Bulsan]]
+| stat nasciuda = Talia
+| grandëza = 171
+| pëis = 66
+| beruf =
+| sterbedatum =
+| sterbeort =
+| sterbeland =
+<!-- Karriere -->
+| disciplina = [[Libra]], [[Super-G]],<br />[[Slalom lerch]], [[Combinazion alpina|Combinazion]]
+| lia = G.S. Fiamme Gialle
+| trainer =
+| nationalkader =
+<!-- Status-Kürzel: a für aktiv, g für gesperrt, n für nicht aktiv, v für verstorben, z für zurückgetreten -->
+| status = tirà zeruch
+| fin carriera = 18 dezëmber 2005
+<!-- Medaillen -->
+| Bedaies = 
+{{Bedaies |Juesc Olimpics |0|1|2}}
+{{Bedaies |Copes dl Mond |2|1|0}}
+{{Bedaies |Copes dl Mond iuniores |1|0|0}}
+| bedaia =
+{{Bedaies sport inviern| Wo = Olympia
+| Bront | [[Juesc Olimpics da d'inviern 1994|Lillehammer 1994]] | Libra 
+| Bront | Lillehammer 1994 | Super-G
+| Arjënt | [[Juesc Olimpics da d'inviern 2002|Salt Lake City 2002]] | Libra}}
+{{Bedaies sport inviern| Wo = Copa dl Mond de schi alpin 
+| Or | [[Copa dl Mond de schi alpin 1996|Sierra Nevada 1996]] | Super-G
+| Or | [[Copa dl Mond de schi alpin 1997|Sestriere 1997]] | Super-G
+| Arjënt | [[Copa dl Mond de schi alpin 2001|St. Anton 2001]] | Super-G}}
+{{Bedaies sport inviern| Wo = Copa dl Mond de schi alpin
+| Or | [[Copa dl Mond de schi alpin iuniores 1993|Monte Campione 1993]] | Super-G}}
+<!-- Weltcup -->
+| mëterman = 28. März 1993
+| vëntes copa dl mond = 15
+| wcgesamt = 4. ([[Alpiner Skiweltcup 1995/96|1995/96]], [[Alpiner Skiweltcup 1999/2000|1999/2000]])
+| wcabfahrt = '''1.''' ([[Alpiner Skiweltcup 2000/01|2000/01]], [[Alpiner Skiweltcup 2001/02|2001/02]])
+| wcsuperg = 3. ([[Alpiner Skiweltcup 1997/98|1997/98]])
+| wcriesenslalom = 11. (1995/96)
+| wckombi = 11. (1999/2000)
+<!-- Podiumsplatzierungen mit {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}} anzugeben. Bitte keine Parameter mit {{Wettbewerbsbilanz|0|0|0}} füllen, weil unnötige Info!-->
+| wctop3abfahrt = {{Wettbewerbsbilanz|12|13|10}}
+| wctop3superg = {{Wettbewerbsbilanz|3|5|7}}
+| wctop3riesenslalom = {{Wettbewerbsbilanz|0|0|1}}
+}}
+</noinclude>
