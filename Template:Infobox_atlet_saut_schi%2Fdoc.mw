@@ -1,0 +1,317 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+== Kopiervorlage ==
+
+<pre>
+{{Infobox Skispringer
+<!-- Allgemeine Informationen -->
+| kurzname = 
+| bild = 
+| bildgroesse = 
+| bildbeschreibung = 
+| langname = 
+| nation = 
+| geburtstag = 
+| geburtsort = 
+| geburtsland = 
+| groesse = 
+| gewicht = 
+| beruf = 
+| sterbedatum = 
+| sterbeort = 
+| sterbeland = 
+<!-- Karriere -->
+| verein = 
+| trainer = 
+| nationalkader = 
+| bestweite = 
+<!-- Status-Kürzel: a für aktiv, g für gesperrt, n für nicht aktiv, u für unbekannt, v für verstorben, z für zurückgetreten -->
+| status = 
+| karriereende = 
+<!-- Medaillen -->
+| Medaillenspiegel = 
+{{Medaillenspiegel |Art der Medaillen |Anzahl Gold|Anzahl Silber|Anzahl Bronze}}
+| medaillen = 
+{{Medaillen Wintersport| Wo = Veranstaltung | Gold/Silber/Bronze | Ort | Wettkampf}}
+<!-- Weltcup -->
+| weltcupdebuet = 
+| weltcupsiege = 
+| wcsiegeteam = 
+| wcgesamt = 
+| sfwcgesamt = 
+| spwcgesamt = 
+<!-- Grand Prix -->
+| gpdebuet = 
+| gpsiege = 
+| gpsiegeteam = 
+| grandprix = 
+<!-- Continental Cup -->
+| cocdebuet = 
+| cocsiege = 
+| cocsiegeteam = 
+| coc = 
+<!-- Tourneen -->
+| 4schanzen = 
+| rawair = 
+| nordictour = 
+| bluebirdtour = 
+| ladiesgp = 
+| beskidentour = 
+<!-- Podiumsplatzierungen Weltcup
+Bitte keine Parameter mit {{Wettbewerbsbilanz|0|0|0}} füllen, weil unnötige Info!
+-->
+| wctop3springen = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| wctop3fliegen = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| wctop3team = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| wctop3mixedteam = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+<!-- Podiumsplatzierungen Grand Prix
+Bitte keine Parameter mit {{Wettbewerbsbilanz|0|0|0}} füllen, weil unnötige Info!
+-->
+| gptop3 = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| gptop3team = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| gptop3mixedteam = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+<!-- Podiumsplatzierungen Continental Cup
+Bitte keine Parameter mit {{Wettbewerbsbilanz|0|0|0}} füllen, weil unnötige Info!
+-->
+| coctop3springen = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| coctop3team = {{Wettbewerbsbilanz |Anzahl 1. Plätze|Anzahl 2. Plätze|Anzahl 3. Plätze}}
+| update = 
+}}
+
+</pre>
+
+== Beschreibung ==
+Pflichtparameter sind fett markiert. Selbsterklärende Begriffe werden nicht weiter erläutert.
+
+{| class="wikitable" |
+|-
+! Parameter
+! angezeigte Beschriftung
+! Beschreibung
+|-
+| colspan="3" style="text-align:center; background:#DCE5E5;" | allgemeine Informationen
+|-
+| '''kurzname'''&nbsp;=
+| 
+| Überschrift der Infobox = Name, unter dem der Athlet bekannt ist
+|-
+| bild&nbsp;=
+| 
+| Dateiname, z.&nbsp;B. Georg hettich 290804 2.jpg
+|-
+| bildgroesse&nbsp;=
+| 
+| z.&nbsp;B. 200px
+|-
+| bildbeschreibung&nbsp;=
+| 
+| z.&nbsp;B. Georg Hettich 2004 während des Sommer-Grand-Prix in Steinbach-Hallenberg
+|-
+| langname&nbsp;=
+| Voller Name
+| vollständiger Name des Athleten
+|-
+| '''nation'''&nbsp;=
+| Nation
+| Nation des Athleten; wenn möglich, bitte Ländervorlagen benutzen, z.&nbsp;B. <nowiki>{{DEU}}</nowiki>
+|-
+| geburtstag&nbsp;=
+| Geburtstag
+| 
+|-
+| geburtsort&nbsp;=
+| Geburtsort
+| 
+|-
+| geburtsland&nbsp;=
+| 
+| Geburtsland, falls abweichend zur Nation bzw. falls wichtig für den Geburtsort
+|-
+| groesse&nbsp;=
+| Größe
+| 
+|-
+| gewicht&nbsp;=
+| Gewicht
+| 
+|-
+| beruf&nbsp;=
+| Beruf
+| 
+|-
+| sterbedatum&nbsp;=
+| Sterbedatum
+| 
+|-
+| sterbeort&nbsp;=
+| Sterbeort
+| 
+|-
+| sterbeland&nbsp;=
+| 
+| Land, in dem der Athlet verstorben ist, falls abweichend zur Nation
+|-
+| colspan="3" style="text-align:center; background:#DCE5E5;" | Karriereinformationen
+|-
+| verein&nbsp;=
+| Verein
+| 
+|-
+| trainer&nbsp;=
+| Trainer
+| 
+|-
+| nationalkader&nbsp;=
+| Nationalkader
+| Jahr (Datum), ab dem der Athlet Mitglied im Nationalkader ist
+|-
+| bestweite&nbsp;=
+| Pers. Bestweite
+| 
+|-
+| '''status'''&nbsp;=
+| Status
+| Hier muss angegeben werden, ob der Athlet aktiv ist oder ob es sich um einen Athleten handelt, der seine Karriere beendet hat (aktiv, gesperrt, nicht aktiv, unbekannt, verstorben, zurückgetreten). Auch Eingabe von Kürzeln möglich: a für aktiv, g für gesperrt, n für nicht aktiv, u für unbekannt, v für verstorben, z für zurückgetreten. Für verstorbene Sportler wird der Status nicht angezeigt. Siehe auch [[Vorlage:Status Sportler]]
+|-
+| karriereende&nbsp;=
+| Karriereende
+| Jahr (Datum), in dem der Athlet seine Karriere beendet hat
+|-
+| colspan="3" style="text-align:center; background:#DCE5E5;" | Medailleninformationen
+|-
+| Medaillenspiegel&nbsp;=
+| 
+| zu füllen mittels [[Vorlage:Medaillenspiegel]], z.&nbsp;B. <nowiki>{{Medaillenspiegel | WM-Medaillen | 2 | 3 | 4}}</nowiki>
+|-
+| medaillen&nbsp;=
+| 
+| zu füllen mittels [[Vorlage:Medaillen Wintersport]], z.&nbsp;B. <nowiki>{{Medaillen Wintersport| Wo = Olympische Winterspiele | Silber | [[Olympische Winterspiele 2002/Ski Nordisch|2002 Salt Lake City]] | 4 × 5 km}}</nowiki>
+|-
+| colspan="3" style="text-align:center; background:#DCE5E5;" | Informationen über Wettkampfserien
+|-
+| weltcupdebuet&nbsp;=
+| Debüt im Weltcup<br />('''Damen & Herren''')
+| Jahr (Datum), in dem der Athlet das erste mal an Weltcupwettbewerben teilgenommen hat
+|-
+| weltcupsiege&nbsp;=
+| Weltcupsiege (Einzel)<br />('''Damen & Herren''')
+| Siege in Weltcup-Einzelwettbewerben
+|-
+| wcsiegeteam&nbsp;=
+| Weltcupsiege (Team)<br />('''Damen & Herren''')
+| Siege in Weltcup-Team- und Mixed-Teamwettbewerben
+|-
+| wcgesamt&nbsp;=
+| [[Skisprung-Weltcup|Gesamtweltcup]]<br />('''Damen & Herren''')
+| bestes Ergebnis im Gesamtweltcup, z.&nbsp;B. 2. (1998/99)
+|-
+| sfwcgesamt&nbsp;=
+| Skiflug-Weltcup<br />('''nur Herren''')
+| bestes Ergebnis im Skiflug-Weltcup, z.&nbsp;B. 2. (1998/99)
+|-
+| spwcgesamt&nbsp;=
+| Sprung-Weltcup<br />('''nur Herren''')
+| bestes Ergebnis im Sprungweltcup (1995–2000), z.&nbsp;B. 2. (1998/99)
+|-
+| 4schanzen&nbsp;=
+| [[Vierschanzentournee]]<br />('''nur Herren''')
+| bestes Ergebnis bei der Vierschanzentournee, z.&nbsp;B. 2. (1998/99)
+|-
+| rawair&nbsp;=
+| [[Raw Air]]<br />('''Damen & Herren''')
+| bestes Ergebnis bei der Raw Air, z.&nbsp;B. 2. (2017)
+|-
+| nordictour&nbsp;=
+| [[Nordic Tournament]]<br />('''nur Herren''')
+| bestes Ergebnis beim Nordic Tournament (1997–2010), z.&nbsp;B. 2. (1998)
+|-
+| bluebirdtour&nbsp;=
+| [[Blue Bird Tour]]<br />('''nur Damen''')
+| bestes Ergebnis bei der Blue Bird Tour, z.&nbsp;B. 2. (2019)
+|-
+| gpdebuet&nbsp;=
+| Debüt im Grand Prix<br />('''Damen & Herren''')
+| Jahr (Datum), in dem der Athlet das erste mal an Grand-Prix-Wettbewerben teilgenommen hat
+|-
+| gpsiege&nbsp;=
+| Grand-Prix-Siege (Einzel)<br />('''Damen & Herren''')
+| Siege in Grand-Prix-Einzelwettbewerben
+|-
+| gpsiegeteam&nbsp;=
+| Grand-Prix-Siege (Team)<br />('''nur Herren''')
+| Siege in Grand-Prix-Team- und Mixed-Teamwettbewerben
+|-
+| grandprix&nbsp;=
+| Gesamtwertung Grand Prix<br />('''Damen & Herren''')
+| bestes Ergebnis im Sommer-Grand-Prix, z.&nbsp;B. 2. (1998)
+|-
+| cocdebuet&nbsp;=
+| Debüt im COC<br />('''Damen & Herren''')
+| Jahr (Datum), in dem der Athlet das erste mal an Continental-Cup-Wettbewerben teilgenommen hat
+|-
+| cocsiege&nbsp;=
+| COC-Siege (Einzel)<br />('''Damen & Herren''')
+| Siege in Continental-Cup-Einzelwettbewerben
+|-
+| cocsiegeteam&nbsp;=
+| COC-Siege (Team)<br />('''Damen & Herren''')
+| Siege in Continental-Cup-Teamwettbewerben
+|-
+| coc&nbsp;=
+| Gesamtwertung COC<br />('''Damen & Herren''')
+| bestes Ergebnis im Gesamt-Continental-Cup, z.&nbsp;B. 2. (1998/99)
+|-
+| ladiesgp&nbsp;=
+| [[FIS-Ladies-Winter-Tournee|Ladies-Grand-Prix]]<br />('''nur Damen''')
+| bestes Ergebnis bei FIS-Ladies-Winter-Tournee/FIS-Ladies-Grand-Prix (1999–2011), z.&nbsp;B. 2. (1999)
+|-
+| beskidentour&nbsp;=
+| [[Beskiden-Tour]]<br />('''nur Herren''')
+| bestes Ergebnis bei der Beskiden-Tour (2017–2018), z.&nbsp;B. 2. (2017)
+|-
+| wctop3springen&nbsp;=
+| Weltcup-/A-Klasse-Podium<br />Einzelspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Skisprung-Einzelwettbewerben im Weltcup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| wctop3fliegen&nbsp;=
+| Weltcup-/A-Klasse-Podium<br />Skifliegen<br />('''nur Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Skiflug-Einzelwettbewerben im Weltcup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| wctop3team&nbsp;=
+| Weltcup-/A-Klasse-Podium<br />Teamspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Teamwettbewerben im Weltcup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| wctop3mixedteam&nbsp;=
+| Weltcup-/A-Klasse-Podium<br />Mixed-Teamspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Mixed-Teamwettbewerben im Weltcup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| gptop3&nbsp;=
+| Grand-Prix-Podium<br />Einzelspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Einzelwettbewerben im Grand Prix; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| gptop3team&nbsp;=
+| Grand-Prix-Podium<br />Teamspringen<br />('''nur Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Teamwettbewerben im Grand Prix; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| gptop3mixedteam&nbsp;=
+| Grand-Prix-Podium<br />Mixed-Teamspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Mixed-Teamwettbewerben im Grand Prix; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| coctop3springen&nbsp;=
+| Continental-Cup-Podium<br />Einzelspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Einzelwettbewerben im Continental Cup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| coctop3team&nbsp;=
+| Continental-Cup-Podium<br />Teamspringen<br />('''Damen & Herren''')
+| Anzahl erster, zweiter und dritter Plätze in Teamwettbewerben im Continental Cup; zu füllen mittels [[Vorlage:Wettbewerbsbilanz]], z.&nbsp;B. <nowiki>{{Wettbewerbsbilanz|3|4|5}}</nowiki>
+|-
+| update&nbsp;=
+| letzte Änderung
+| Bei aktiven Athleten ist hier das Datum der letzten Änderung bezogen auf Medaillen und Platzierungen anzugeben.
+|}
+
+<includeonly>
+
+{{SORTIERUNG:Skispringer}}
+[[Kategorie:Vorlage:Infobox Wintersport]]
+[[Kategorie:Vorlage:Infobox Sportler]]
+</includeonly>
