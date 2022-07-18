@@ -85,7 +85,7 @@
 }}
 |-
 {{#if: {{{fin carriera|<noinclude>-</noinclude>}}} |
- {{!}} '''Fin de carriera'''
+ {{!}} '''Fin de cariera'''
 {{!}} {{{fin carriera}}}
 }}
 |-
