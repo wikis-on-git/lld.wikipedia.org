@@ -1,6 +1,6 @@
 <onlyinclude><includeonly>{| border="0" class="toccolours infobox float-right" style="float:right;clear:right;margin:0 0 0.5em 1em; font-size: 90%;" width="295"
 |- style="vertical-align: top;"
-| colspan="2" style="text-align:center; background:#00BEFF; line-height:24px; font-size: 120%" | '''{{{Name}}}''' {{#if: {{{Name|<noinclude>-</noinclude>}}} |{{SportPicto|Tennis}}}}
+| colspan="2" style="text-align:center; background:#76EE00; line-height:24px; font-size: 120%" | '''{{{Name}}}''' {{#if: {{{Name|<noinclude>-</noinclude>}}} |{{SportPicto|Tennis}}}}
 |-
 | colspan="2" style="text-align:center;" | {{#if:{{{Bild|}}}|[[File:{{{Bild}}}|{{#if:{{{Bildbreite|}}}|{{{Bildbreite|}}}|250px}}|rahmenlos|{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}]]}}
 |- style="vertical-align: top;"
