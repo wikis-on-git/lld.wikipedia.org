@@ -2,6 +2,12 @@
 |- style="vertical-align: top;"
 {{#ifeq:{{str find|{{#property:P106}}|Rollstuhltennisspieler}}|-1|{{!}} colspan="2" style="text-align:center; background-color:#76EE00; line-height:24px; font-size:120%; width:100%" {{!}} '''{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}''' [[File:Tennis pictogram.svg|20px|Tennisspieler|verweis=Tennis]]|{{!}} colspan="2" style="text-align:center; background-color:#00BEFF; line-height:24px; font-size:120%; width:100%" {{!}} '''{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}''' [[File:Wheelchair tennis - Paralympic pictogram.svg|20px|Tennisspieler|verweis=Tennis]]}}
 |-
+
+|-
+| colspan="2" style="text-align:center; background: #b0c4de; line-height:24px; font-size: 120%" | '''{{{inuem}}}''' {{#if: {{{inuem|<noinclude>-</noinclude>}}} |{{SportPicto|Tennis}}}}
+|-
+
+
 | colspan="2" style="text-align:center;" | {{#if:{{{Bild|}}}|[[File:{{{Bild}}}|{{#if:{{{Bildbreite|}}}|{{{Bildbreite|}}}|250px}}|rahmenlos|{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}]]}}
 |- style="vertical-align: top;"
 {{#if:{{{Bildbeschriftung|}}}|
