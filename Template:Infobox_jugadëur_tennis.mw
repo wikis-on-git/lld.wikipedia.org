@@ -105,7 +105,7 @@
 |- style="vertical-align: top;"
 {{#if:{{{AnzahlGrandSlamTitelEinzel|}}}{{{AustralianOpenErgebnisEinzel|}}}{{{FrenchOpenErgebnisEinzel|}}}{{{WimbledonErgebnisEinzel|}}}{{{USOpenErgebnisEinzel|}}}|
 {{!}} colspan="2" {{!}}
-{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;align:center"
 {{!}} width="295" style="background-color:#DCDCDC; text-align:center;" colspan="2" {{!}} Bilanz ti Grand-Slam
 {{!}}-
 {{!}} colspan="2" {{!}}
