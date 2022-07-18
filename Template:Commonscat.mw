@@ -1,0 +1,16 @@
+<onlyinclude><div class="sisterproject" style="margin:0.1em 0 0 0;"><div class="noviewer" style="display:inline-block; line-height:10px;
+min-width:1.6em; text-align:center;" aria-hidden="true" role="presentation">[[Datei:Commons-logo.svg|x16px|alt=|link=|Commons]]</div>'''<span class="plainlinks">[{{canonicalurl:Commons:Category:{{#if:{{{1|}}}|{{{1}}}|{{PAGENAME}}}}|uselang={{int:lang}}}} <span lang="en">Commons</span>: {{#if:{{{2|}}}|{{{2}}}|{{#if:{{{1|}}}|{{{1}}}|{{#invoke:WLink|getArticleBase}}}}}}]</span>'''{{#switch:{{{suffix|{{{3|1}}}}}}
+|X|x=
+|0|-=
+|S|s=&nbsp;– Sammlung von Bildern
+|1|=&nbsp;– Sammlung von Bildern{{#if: {{{video|}}}{{{audio|}}} 
+     | {{#switch: {{#invoke:TemplUtl|faculty|{{{video|1}}}}}/{{#invoke:TemplUtl|faculty|{{{audio|1}}}}}
+         |1/= &#32;und Videos
+         |1/1=, Videos und Audiodateien
+         |/1= &#32;und Audiodateien}}
+     | , Videos und Audiodateien
+   }}
+|#default=&nbsp;– {{{suffix|{{{3|}}}}}}
+}}</div>{{Wikidata-Registrierung}}</onlyinclude>
+
+{{Dokumentation}}
