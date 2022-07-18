@@ -17,8 +17,13 @@
 | width="50%" | {{{Nationalität|}}}
 |- style="vertical-align: top;"
 {{#if:{{{Geburtstag|}}}|
-{{!}} '''data de nasciuda:'''
+{{!}} '''Data de nasciuda:'''
 {{!}} {{{Geburtstag}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Geburtsort|}}}|
+{{!}} '''Luech de nasciuda:'''
+{{!}} {{{Geburtsort}}}
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Todestag|}}}|
