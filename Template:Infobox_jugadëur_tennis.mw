@@ -27,22 +27,22 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Größe|}}}|
-{{!}} '''Größe:'''
+{{!}} '''Pëis:'''
 {{!}} {{{Größe}}} cm
 }}
 |- style="vertical-align: top;" <!-- für schweizbezogene Artikel -->
 {{#if:{{{Grösse|}}}|
-{{!}} '''Grösse:'''
+{{!}} '''Pëis:'''
 {{!}} {{{Grösse}}} cm
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Gewicht|}}}|
-{{!}} '''Gewicht:'''
+{{!}} '''Pëis:'''
 {{!}} {{{Gewicht}}} kg
 }}
 |- style="vertical-align: top;"
 {{#if:{{{ErsteProfisaison|}}}|
-{{!}} '''1. Profisaison:'''
+{{!}} '''Prima sajon da profi:'''
 {{!}} {{{ErsteProfisaison}}}
 }}
 |- style="vertical-align: top;"
@@ -52,7 +52,7 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Spielhand|}}}|
-{{!}} '''Spielhand:'''
+{{!}} '''Man:'''
 {{!}} {{{Spielhand}}}
 }}
 |- style="vertical-align: top;"
@@ -67,7 +67,7 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Preisgeld|}}}|
-{{!}} '''Preisgeld:'''
+{{!}} '''Pest de scioldi:'''
 {{!}} {{{Preisgeld}}} [[Dollar Americans]]
 }}
 |- style="vertical-align: top;"
