@@ -1,0 +1,320 @@
+<onlyinclude><includeonly>{| border="0" class="infobox toccolours float-right" style="margin:0 0 0.5em 1em;" width="295"
+|- style="vertical-align: top;"
+{{#ifeq:{{str find|{{#property:P106}}|Rollstuhltennisspieler}}|-1|{{!}} colspan="2" style="text-align:center; background-color:#76EE00; line-height:24px; font-size:120%; width:100%" {{!}} '''{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}''' [[Datei:Tennis pictogram.svg|20px|Tennisspieler|verweis=Tennis]]|{{!}} colspan="2" style="text-align:center; background-color:#00BEFF; line-height:24px; font-size:120%; width:100%" {{!}} '''{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}''' [[Datei:Wheelchair tennis - Paralympic pictogram.svg|20px|Tennisspieler|verweis=Tennis]]}}
+|-
+| colspan="2" style="text-align:center;" | {{#if:{{{Bild|}}}|[[Datei:{{{Bild}}}|{{#if:{{{Bildbreite|}}}|{{{Bildbreite|}}}|250px}}|rahmenlos|{{#if:{{{Name|}}}|{{{Name}}}|{{SEITENNAME}}}}]]}}
+|- style="vertical-align: top;"
+{{#if:{{{Bildbeschriftung|}}}|
+{{!}} colspan="2" style="text-align:center; font-size: 85%;" {{!}} {{{Bildbeschriftung}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Spitzname|}}}|
+{{!}} '''Spitzname:'''
+{{!}} {{{Spitzname}}}
+}}
+|- style="vertical-align: top;"
+| width="50%" | '''Nation:'''
+| width="50%" | {{{Nationalität|}}}
+|- style="vertical-align: top;"
+{{#if:{{{Geburtstag|}}}|
+{{!}} '''Geburtstag:'''
+{{!}} {{{Geburtstag}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Todestag|}}}|
+{{!}} '''Todestag:'''
+{{!}} {{{Todestag}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Größe|}}}|
+{{!}} '''Größe:'''
+{{!}} {{{Größe}}} cm
+}}
+|- style="vertical-align: top;" <!-- für schweizbezogene Artikel -->
+{{#if:{{{Grösse|}}}|
+{{!}} '''Grösse:'''
+{{!}} {{{Grösse}}} cm
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Gewicht|}}}|
+{{!}} '''Gewicht:'''
+{{!}} {{{Gewicht}}} kg
+}}
+|- style="vertical-align: top;"
+{{#if:{{{ErsteProfisaison|}}}|
+{{!}} '''1. Profisaison:'''
+{{!}} {{{ErsteProfisaison}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Rücktritt|}}}|
+{{!}} '''Rücktritt:'''
+{{!}} {{{Rücktritt}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Spielhand|}}}|
+{{!}} '''Spielhand:'''
+{{!}} {{{Spielhand}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Trainer|}}}|
+{{!}} '''Trainer:'''
+{{!}} {{{Trainer}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Trainerin|}}}|
+{{!}} '''Trainerin:'''
+{{!}} {{{Trainerin}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Preisgeld|}}}|
+{{!}} '''Preisgeld:'''
+{{!}} {{{Preisgeld}}} US-Dollar
+}}
+|- style="vertical-align: top;"
+| style="background-color:#C0C0C0; text-align:center;" colspan="2" | Einzel
+|- style="vertical-align: top;"
+{{#if:{{{EinzelBilanz|}}}|
+{{!}} '''Karrierebilanz:'''
+{{!}} {{{EinzelBilanz}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{AnzahlEinzelTitel|}}}|
+{{!}} '''Karrieretitel:'''
+{{!}} {{{AnzahlEinzelTitel}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{HoechsteEinzelPlatzierung|}}}|
+{{!}} '''Höchste Platzierung:'''
+{{!}} {{{HoechsteEinzelPlatzierung}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{AktuelleEinzelPlatzierung|}}}|
+{{!}} '''Aktuelle Platzierung:'''
+{{!}} [[Tennisweltrangliste|{{{AktuelleEinzelPlatzierung}}}]]
+}}
+|- style="vertical-align: top;"
+{{#if:{{{WochenNr1|}}}|
+{{!}} '''Wochen als Nr. 1:'''
+{{!}} {{{WochenNr1}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{AnzahlGrandSlamTitelEinzel|}}}{{{AustralianOpenErgebnisEinzel|}}}{{{FrenchOpenErgebnisEinzel|}}}{{{WimbledonErgebnisEinzel|}}}{{{USOpenErgebnisEinzel|}}}|
+{{!}} colspan="2" {{!}}
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{!}} width="295" style="background-color:#DCDCDC; text-align:center;" colspan="2" {{!}} Grand-Slam-Bilanz
+{{!}}-
+{{!}} colspan="2" {{!}}
+<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Grand-Slam-Titel:'''{{0|00000}}&thinsp;{{#if:{{{AnzahlGrandSlamTitelEinzel|}}}|{{{AnzahlGrandSlamTitelEinzel|}}}|0}}</div>
+<div class="NavContent" style="text-align:left; font-size:12px;">
+{{{!}} width=100% style="text-align:left; border-color:#FFFFFF; border-style:solid; border-width:0px;"
+{{!}}-
+{{!}} width=50% {{!}} [[Australian Open]]
+{{!}} width=50% {{!}} {{#if:{{{AustralianOpenErgebnisEinzel|}}}|{{{AustralianOpenErgebnisEinzel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[French Open]]
+{{!}} {{#if:{{{FrenchOpenErgebnisEinzel|}}}|{{{FrenchOpenErgebnisEinzel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[Wimbledon Championships|Wimbledon]]
+{{!}} {{#if:{{{WimbledonErgebnisEinzel|}}}|{{{WimbledonErgebnisEinzel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[US Open]]
+{{!}} {{#if:{{{USOpenErgebnisEinzel|}}}|{{{USOpenErgebnisEinzel|}}}|<nowiki>—</nowiki>}}
+{{!}}}
+</div>
+</div>
+{{!}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{DoppelBilanz|}}}{{{AnzahlDoppelTitel|}}}{{{HoechsteDoppelPlatzierung|}}}{{{AktuelleDoppelPlatzierung|}}}{{{WochenNr1Doppel|}}}{{{AnzahlGrandSlamTitelDoppel|}}}{{{AustralianOpenErgebnisDoppel|}}}{{{FrenchOpenErgebnisDoppel|}}}{{{WimbledonErgebnisDoppel|}}}{{{USOpenErgebnisDoppel|}}}|
+{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Doppel
+{{!}}-
+{{#if:{{{DoppelBilanz|}}}|
+{{!}} '''Karrierebilanz:'''
+{{!}} {{{DoppelBilanz}}}
+}}
+{{!}}- style="vertical-align:top"
+{{#if:{{{AnzahlDoppelTitel|}}}|
+{{!}} '''Karrieretitel:'''
+{{!}} {{{AnzahlDoppelTitel}}}
+}}
+{{!}}-
+{{#if:{{{HoechsteDoppelPlatzierung|}}}|
+{{!}} '''Höchste Platzierung:'''
+{{!}} {{{HoechsteDoppelPlatzierung}}}
+}}
+{{!}}-
+{{#if:{{{AktuelleDoppelPlatzierung|}}}|
+{{!}} '''Aktuelle Platzierung:'''
+{{!}} [[Tennisweltrangliste|{{{AktuelleDoppelPlatzierung}}}]]
+}}
+{{!}}-
+{{#if:{{{WochenNr1Doppel|}}}|
+{{!}} '''Wochen als Nr. 1:'''
+{{!}} {{{WochenNr1Doppel}}}
+}}
+{{!}}-
+{{#if:{{{AnzahlGrandSlamTitelDoppel|}}}{{{AustralianOpenErgebnisDoppel|}}}{{{FrenchOpenErgebnisDoppel|}}}{{{WimbledonErgebnisDoppel|}}}{{{USOpenErgebnisDoppel|}}}|
+{{!}} colspan="2" {{!}}
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{!}} width="295" style="background-color:#DCDCDC; text-align:center;" colspan="2" {{!}} Grand-Slam-Bilanz
+{{!}}-
+{{!}} colspan="2" {{!}}
+<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Grand-Slam-Titel:'''{{0|00000}}&thinsp;{{#if:{{{AnzahlGrandSlamTitelDoppel|}}}|{{{AnzahlGrandSlamTitelDoppel|}}}|0}}</div>
+<div class="NavContent" style="text-align:left; font-size:12px;">
+{{{!}} width=100% style="text-align:left; border-color:#FFFFFF; border-style:solid; border-width:0px;"
+{{!}}-
+{{!}} width=50% {{!}} [[Australian Open]]
+{{!}} width=50% {{!}} {{#if:{{{AustralianOpenErgebnisDoppel|}}}|{{{AustralianOpenErgebnisDoppel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[French Open]]
+{{!}} {{#if:{{{FrenchOpenErgebnisDoppel|}}}|{{{FrenchOpenErgebnisDoppel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[Wimbledon Championships|Wimbledon]]
+{{!}} {{#if:{{{WimbledonErgebnisDoppel|}}}|{{{WimbledonErgebnisDoppel|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[US Open]]
+{{!}} {{#if:{{{USOpenErgebnisDoppel|}}}|{{{USOpenErgebnisDoppel|}}}|<nowiki>—</nowiki>}}
+{{!}}}
+</div>
+</div>
+{{!}}}
+}}}}
+|- style="vertical-align: top;"
+{{#if:{{{AnzahlGrandSlamTitelMixed|}}}{{{AustralianOpenErgebnisMixed|}}}{{{FrenchOpenErgebnisMixed|}}}{{{WimbledonErgebnisMixed|}}}{{{USOpenErgebnisMixed|}}}|
+{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Mixed
+{{!}}-
+{{!}} colspan="2" {{!}}
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{!}} width="295" style="background-color:#DCDCDC; text-align:center;" colspan="2" {{!}} Grand-Slam-Bilanz
+{{!}}-
+{{!}} colspan="2" {{!}}
+<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Grand-Slam-Titel:'''{{0|00000}}&thinsp;{{#if:{{{AnzahlGrandSlamTitelMixed|}}}|{{{AnzahlGrandSlamTitelMixed|}}}|0}}</div>
+<div class="NavContent" style="text-align:left; font-size:12px;">
+{{{!}} width=100% style="text-align:left; border-color:#FFFFFF; border-style:solid; border-width:0px;"
+{{!}}-
+{{!}} width=50% {{!}} [[Australian Open]]
+{{!}} width=50% {{!}} {{#if:{{{AustralianOpenErgebnisMixed|}}}|{{{AustralianOpenErgebnisMixed|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[French Open]]
+{{!}} {{#if:{{{FrenchOpenErgebnisMixed|}}}|{{{FrenchOpenErgebnisMixed|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[Wimbledon Championships|Wimbledon]]
+{{!}} {{#if:{{{WimbledonErgebnisMixed|}}}|{{{WimbledonErgebnisMixed|}}}|<nowiki>—</nowiki>}}
+{{!}}-
+{{!}} [[US Open]]
+{{!}} {{#if:{{{USOpenErgebnisMixed|}}}|{{{USOpenErgebnisMixed|}}}|<nowiki>—</nowiki>}}
+{{!}}}
+</div>
+</div>
+{{!}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{OlympischeMedaille1|}}}|
+{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Olympische Spiele
+{{!}}-
+{{!}} colspan="2" {{!}}
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{!}} style="width:295px" colspan="2" {{!}}
+<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Olympische Medaillen:'''</div>
+<div class="NavContent" style="text-align:left; font-size:12px;">
+{{{!}} style="width:100%; text-align:center; border-color:#FFFFFF; border-style:solid; border-width:0px;"
+{{!}}-
+{{Medaillen|Wo =
+|{{{OlympischeMedaille1|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille1Jahr|}}}}}
+|{{{OlympischeMedaille1Modus|}}}
+|{{{OlympischeMedaille2|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille2Jahr|}}}}}
+|{{{OlympischeMedaille2Modus|}}}
+|{{{OlympischeMedaille3|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille3Jahr|}}}}}
+|{{{OlympischeMedaille3Modus|}}}
+|{{{OlympischeMedaille4|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille4Jahr|}}}}}
+|{{{OlympischeMedaille4Modus|}}}
+|{{{OlympischeMedaille5|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille5Jahr|}}}}}
+|{{{OlympischeMedaille5Modus|}}}
+|{{{OlympischeMedaille6|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille6Jahr|}}}}}
+|{{{OlympischeMedaille6Modus|}}}
+|{{{OlympischeMedaille7|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille7Jahr|}}}}}
+|{{{OlympischeMedaille7Modus|}}}
+|{{{OlympischeMedaille8|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille8Jahr|}}}}}
+|{{{OlympischeMedaille8Modus|}}}
+|{{{OlympischeMedaille9|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille9Jahr|}}}}}
+|{{{OlympischeMedaille9Modus|}}}
+|{{{OlympischeMedaille10|}}}
+|{{Infobox Tennisspieler/+|{{{OlympischeMedaille10Jahr|}}}}}
+|{{{OlympischeMedaille10Modus|}}}
+}}
+{{!}}}
+</div>
+</div>
+{{!}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{ParalympischeMedaille1|}}}|
+{{!}} style="background-color:#C0C0C0; text-align:center;" colspan="2" {{!}} Paralympische Spiele
+{{!}}-
+{{!}} colspan="2" {{!}}
+{{{!}} style="border-color:#DCDCDC; border-style:solid; border-width:1px;"
+{{!}} style="width:295px" colspan="2" {{!}}
+<div class="NavFrame" style="font-size:0px; border:none;">
+<div class="NavHead" style="background-color:#FFFFFF; font-size:12px; text-align:left;">'''Paralympische Medaillen:'''</div>
+<div class="NavContent" style="text-align:left; font-size:12px;">
+{{{!}} style="width:100%; text-align:center; border-color:#FFFFFF; border-style:solid; border-width:0px;"
+{{!}}-
+{{Medaillen|Wo =
+|{{{ParalympischeMedaille1|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille1Jahr|}}}}}
+|{{{ParalympischeMedaille1Modus|}}}
+|{{{ParalympischeMedaille2|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille2Jahr|}}}}}
+|{{{ParalympischeMedaille2Modus|}}}
+|{{{ParalympischeMedaille3|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille3Jahr|}}}}}
+|{{{ParalympischeMedaille3Modus|}}}
+|{{{ParalympischeMedaille4|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille4Jahr|}}}}}
+|{{{ParalympischeMedaille4Modus|}}}
+|{{{ParalympischeMedaille5|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille5Jahr|}}}}}
+|{{{ParalympischeMedaille5Modus|}}}
+|{{{ParalympischeMedaille6|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille6Jahr|}}}}}
+|{{{ParalympischeMedaille6Modus|}}}
+|{{{ParalympischeMedaille7|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille7Jahr|}}}}}
+|{{{ParalympischeMedaille7Modus|}}}
+|{{{ParalympischeMedaille8|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille8Jahr|}}}}}
+|{{{ParalympischeMedaille8Modus|}}}
+|{{{ParalympischeMedaille9|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille9Jahr|}}}}}
+|{{{ParalympischeMedaille9Modus|}}}
+|{{{ParalympischeMedaille10|}}}
+|{{Infobox Tennisspieler/+|{{{ParalympischeMedaille10Jahr|}}}}}
+|{{{ParalympischeMedaille10Modus|}}}
+}}
+{{!}}}
+</div>
+</div>
+{{!}}}
+}}
+|- style="vertical-align: top;"
+{{#if:{{{Updated|}}}|
+{{!}} colspan="2" style="text-align:center; border-top:solid 1px #DCDCDC; padding:0.4em 1em 0.4em 0; vertical-align:top" {{!}} <small>Letzte Aktualisierung der Infobox:<br />{{{Updated}}}</small>
+}}
+|- style="vertical-align: top;"
+| colspan="2" style="text-align:center; padding:0.4em 1em 0.4em 0; vertical-align:top" | <small>Quellen: offizielle Spielerprofile bei der ATP/WTA (siehe [[#Weblinks|Weblinks]])</small>
+|}</includeonly><includeonly>{{Wikidata image|1={{{Bild|}}} }}</includeonly></onlyinclude>
+
+{{Dokumentation}}
