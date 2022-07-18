@@ -1,0 +1,412 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+{{TemplateData|JSON=
+{ "description": "'''Infobox''' für einen Artikel über einen '''Tennisspieler'''",
+  "params": {
+     "Name":
+        { "description": "Name des Spielers",
+          "type":        "line",
+          "required":    false,
+          "default":     "Lemma des Wikipedia-Artikels" },
+     "Bild":
+        { "description": "Name einer Bilddatei ohne <code>Datei:</code>",
+          "type":        "wiki-file-name",
+          "required":    false },
+     "Bildbreite":
+        { "description": "Breite des Bildes",
+          "type":        "line",
+          "required":    false,
+          "default":     "250px" },
+     "Bildbeschriftung":
+        { "description": "Was ist auf dem Bild zu sehen?",
+          "type":        "content",
+          "required":    false },
+     "Spitzname":
+        { "description": "Falls der Spieler einen Spitznamen hat, kann dieser hier angegeben werden.",
+          "type":        "line",
+          "required":    false },
+     "Nationalität":
+        { "description": "",
+          "type":        "content",
+          "required":    false },
+     "Geburtstag":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "Todestag":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "Größe":
+        { "label":       "Körpergröße",
+          "description": "",
+          "type":        "number",
+          "required":    false },
+     "Gewicht":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "ErsteProfisaison":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "Rücktritt":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "Spielhand":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "Trainer":
+        { "description": "",
+          "type":        "content",
+          "required":    false },
+     "Preisgeld":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "EinzelBilanz":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "AnzahlEinzelTitel":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "HoechsteEinzelPlatzierung":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AktuelleEinzelPlatzierung":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "WochenNr1":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AnzahlGrandSlamTitelEinzel":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AustralianOpenErgebnisEinzel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "FrenchOpenErgebnisEinzel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "WimbledonErgebnisEinzel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "USOpenErgebnisEinzel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "DoppelBilanz":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "AnzahlDoppelTitel":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "HoechsteDoppelPlatzierung":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AktuelleDoppelPlatzierung":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "WochenNr1Doppel":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AnzahlGrandSlamTitelDoppel":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AustralianOpenErgebnisDoppel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "FrenchOpenErgebnisDoppel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "WimbledonErgebnisDoppel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "USOpenErgebnisDoppel":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "AnzahlGrandSlamTitelMixed":
+        { "description": "",
+          "type":        "number",
+          "required":    false },
+     "AustralianOpenErgebnisMixed":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "FrenchOpenErgebnisMixed":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "WimbledonErgebnisMixed":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "USOpenErgebnisMixed":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "OlympischeMedaille1":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "OlympischeMedaille1Modus":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "OlympischeMedaille1Jahr":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "ParalympischeMedaille1":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "ParalympischeMedaille1Modus":
+        { "description": "",
+          "type":        "line",
+          "required":    false },
+     "ParalympischeMedaille1Jahr":
+        { "description": "",
+          "type":        "date",
+          "required":    false },
+     "Updated":
+        { "description": "",
+          "type":        "date",
+          "required":    false }
+  },
+  "format": "block lead align"
+}
+|TOC=1}}
+
+== Kopiervorlage ==
+<pre style="white-space:pre-wrap;">
+{{Infobox Tennisspieler
+| Name                         = 
+| Bild                         = 
+| Bildbreite                   = 
+| Bildbeschriftung             = 
+| Spitzname                    = 
+| Nationalität                 = 
+| Geburtstag                   = 
+| Todestag                     = 
+| Größe                        = 
+| Gewicht                      = 
+| ErsteProfisaison             = 
+| Rücktritt                    = 
+| Spielhand                    = 
+| Trainer                      = 
+| Preisgeld                    = 
+| EinzelBilanz                 = 
+| AnzahlEinzelTitel            = 
+| HoechsteEinzelPlatzierung    = 
+| AktuelleEinzelPlatzierung    = 
+| WochenNr1                    = 
+| AnzahlGrandSlamTitelEinzel   = 
+| AustralianOpenErgebnisEinzel = 
+| FrenchOpenErgebnisEinzel     = 
+| WimbledonErgebnisEinzel      = 
+| USOpenErgebnisEinzel         = 
+| DoppelBilanz                 = 
+| AnzahlDoppelTitel            = 
+| HoechsteDoppelPlatzierung    = 
+| AktuelleDoppelPlatzierung    = 
+| WochenNr1Doppel              = 
+| AnzahlGrandSlamTitelDoppel   = 
+| AustralianOpenErgebnisDoppel = 
+| FrenchOpenErgebnisDoppel     = 
+| WimbledonErgebnisDoppel      = 
+| USOpenErgebnisDoppel         = 
+| AnzahlGrandSlamTitelMixed    = 
+| AustralianOpenErgebnisMixed  = 
+| FrenchOpenErgebnisMixed      = 
+| WimbledonErgebnisMixed       = 
+| USOpenErgebnisMixed          = 
+| OlympischeMedaille1          = 
+| OlympischeMedaille1Modus     = 
+| OlympischeMedaille1Jahr      = 
+| ParalympischeMedaille1       = 
+| ParalympischeMedaille1Modus  = 
+| ParalympischeMedaille1Jahr   = 
+| Updated                      = 
+}}
+</pre>
+== Parameter-Details ==
+
+; Name = :Vorname und Name des Spielers (falls dies mit dem Lemmanamen übereinstimmt, kann der Parameter leer gelassen werden)
+; Bild = :Dateiname eines Spielerbildes auf [http://commons.wikipedia.org Wikipedia Commons], beispielsweise <code>Boris Becker.jpg</code>. Bitte '''ohne''' <code><nowiki>[[Datei:</nowiki></code> oder sonstige Zusatzinformationen oder Bildmaße eingeben!
+; Bildbreite = :hier kann die Bildbreite eingetragen werden. Standard ist 250px
+; Bildbeschriftung = :ergänzende Angaben zum Bild, beispielsweise die Angabe des Jahres
+; Spitzname = :hier können aus den Medien bekannte Spitznamen eingetragen werden
+; Nationalität = :entsprechende Vorlage aus [[Wikipedia:Ländervorlagen mit Flagge]] auswählen, beispielsweise <code><nowiki>{{DEU}}</nowiki></code> für Deutschland
+; Geburtstag = :Geburtsdatum der Form TT. Monat JJJJ, beispielsweise <code>1. Januar 1980</code>
+; Todestag = :optionales Sterbedatum der Form TT. Monat JJJJ, beispielsweise <code>1. Januar 1990</code>
+; Größe = :optionale Angabe in cm, die Einheit ''cm'' wird automatisch ergänzt
+; Grösse = :optionale Angabe in cm, die Einheit ''cm'' wird automatisch ergänzt (für schweizbezogene Artikel)
+; Gewicht = :optionale Angabe in kg, die Einheit ''kg'' wird automatisch ergänzt
+; ErsteProfisaison = :Angabe des Jahres in der Form JJJJ
+; Rücktritt = :Angabe des Jahres in der Form JJJJ
+; Spielhand = :Rechts oder Links, beidhändige oder einhändige Rückhand
+; Trainer = :Vorname und Name des Trainers, ggf. auf vorhandenen Artikel verlinken
+; Preisgeld = :Angabe in US-Dollar mit einem Punkt als [[Zifferngruppierung|Tausendertrennzeichen]], die Einheit ''US-Dollar'' wird automatisch ergänzt
+; EinzelBilanz = :Anzahl gewonnener und verlorener Matches bei den [[Association of Tennis Professionals|ATP]]- und [[Women’s Tennis Association|WTA]]-Turnieren, getrennt durch einen [[Doppelpunkt]], beispielsweise <code>104:56</code>
+; AnzahlEinzelTitel = :gibt die Anzahl der im Einzel gewonnenen Turniere an
+; HoechsteEinzelPlatzierung = :gibt die höchste Ranglistenposition an, zusätzlich das Datum (TT. Monat JJJJ) des ersten Erreichens dieser Ranglistenposition, beispielsweise <code>1 (1. Januar 2000)</code>
+; AktuelleEinzelPlatzierung = :gibt lediglich die Ranglistenposition an, auf Angabe des Datums wird verzichtet, da dieses dem Parameter <code>Updated</code> entnommen werden kann
+; WochenNr1 = :gibt die Gesamtdauer in Wochen an, die der Spieler (auch mit Unterbrechungen) die Spitzenposition der Weltrangliste belegte, die Einheit ''Wochen'' wird automatisch ergänzt
+; AnzahlGrandSlamTitelEinzel = :gibt (im Gegensatz zu <code>AnzahlEinzelTitel</code> nur) die Anzahl der im Einzel gewonnenen Grand-Slam-Turniere an
+; AustralianOpenErgebnisEinzel = :gibt das beste Ergebnis gefolgt von der in Klammern befindlichen Jahreszahl an, das der Spieler bei diesem Turnier erzielen konnte. Dabei finden folgende Abkürzungen Verwendung: <code><nowiki>'''S'''</nowiki></code> = Sieg, <code>F</code> = Finale, <code>HF</code> = Halbfinale, <code>VF</code> = Viertelfinale, <code>AF</code> = Achtelfinale, <code>1R</code>/<code>2R</code>/<code>3R</code> = Erreichen der 1./2./3. Runde. Die Jahreszahl wird im Format JJJJ angegeben; falls ein Ergebnis mehrmals erreicht wurde, so werden die Jahreszahlen jeweils durch Kommata getrennt, drei oder mehr aufeinander folgende Jahre können mit dem [[Halbgeviertstrich]] zusammengefasst werden, also beispielsweise <code><nowiki>'''S''' (2000, 2002–2004, 2007)</nowiki></code>
+; FrenchOpenErgebnisEinzel = :analog zu den anderen Grand-Slam-Turnieren
+; WimbledonErgebnisEinzel = :analog zu den anderen Grand-Slam-Turnieren
+; USOpenErgebnisEinzel = :analog zu den anderen Grand-Slam-Turnieren
+; DoppelBilanz = :analog zum Einzel
+; AnzahlDoppelTitel = :analog zum Einzel
+; HoechsteDoppelPlatzierung = :analog zum Einzel
+; AktuelleDoppelPlatzierung = :analog zum Einzel
+; WochenNr1Doppel = :analog zum Einzel
+; AnzahlGrandSlamTitelDoppel = :analog zum Einzel
+; AustralianOpenErgebnisDoppel = :analog zum Einzel
+; FrenchOpenErgebnisDoppel = :analog zum Einzel
+; WimbledonErgebnisDoppel = :analog zum Einzel
+; USOpenErgebnisDoppel = :analog zum Einzel
+; AnzahlGrandSlamTitelMixed = :analog zum Einzel
+; AustralianOpenErgebnisMixed = :analog zum Einzel
+; FrenchOpenErgebnisMixed = :analog zum Einzel
+; WimbledonErgebnisMixed = :analog zum Einzel
+; USOpenErgebnisMixed = :analog zum Einzel
+; OlympischeMedaille1 = :Art der (chronologisch) ersten olympischen Medaille, also <code>Gold</code>, <code>Silber</code> oder <code>Bronze</code>
+; OlympischeMedaille1Modus = :Der Modus, in dem die erste Medaille gewonnen wurde, also <code>Einzel</code>, <code>Doppel</code> oder <code>Mixed</code>
+; OlympischeMedaille1Jahr = :Das Jahr, in welchem die erste Medaille gewonnen wurde, in der Form JJJJ
+; OlympischeMedaille2 = :Falls eine oder mehrere weitere olympische Medaillen gewonnen wurden, werden diese mit den vier obigen Parametern eingetragen, wobei die <code>1</code> jeweils durch eine <code>2</code>, <code>3</code> usw. ersetzt wird
+; ParalympischeMedaille1 = :Wie bei <code>OlympischeMedaille</code>
+; Updated = :Datum der letzten Aktualisierung der Infobox in der Form TT. Monat JJJJ
+
+== Beispiele ==
+{{Infobox Tennisspieler
+| Name                         = Max Mustermann
+| Bild                         = Smiley.svg
+| Bildbeschriftung             = Smiley bei den US-Open (2010)
+| Spitzname                    = 
+| Nationalität                 = {{DEU}}
+| Geburtstag                   = 21. Juni 1983
+| Größe                        = 182
+| Gewicht                      = 77
+| ErsteProfisaison             = 2002
+| Rücktritt                    = 
+| Spielhand                    = Rechts, beidhändige Rückhand
+| Trainer                      = Otto Normalverbraucher
+| Preisgeld                    = 3.237.222
+| EinzelBilanz                 = 68:107
+| AnzahlEinzelTitel            = 3
+| HoechsteEinzelPlatzierung    = 27 (24. November 2009)
+| AktuelleEinzelPlatzierung    = 68
+| WochenNr1                    = 
+| AnzahlGrandSlamTitelEinzel   = 
+| AustralianOpenErgebnisEinzel = 2R (2008)
+| FrenchOpenErgebnisEinzel     = 
+| WimbledonErgebnisEinzel      = 1R (2007–2010)
+| USOpenErgebnisEinzel         = 3R (2009)
+| DoppelBilanz                 = 350:178
+| AnzahlDoppelTitel            = 23
+| HoechsteDoppelPlatzierung    = 1 (21. Juli 2009)
+| AktuelleDoppelPlatzierung    = 5
+| WochenNr1Doppel              = 37
+| AnzahlGrandSlamTitelDoppel   = 5
+| AustralianOpenErgebnisDoppel = F (2006)
+| FrenchOpenErgebnisDoppel     = '''S''' (2007, 2009)
+| WimbledonErgebnisDoppel      = '''S''' (2009)
+| USOpenErgebnisDoppel         = '''S''' (2006, 2009)
+| AnzahlGrandSlamTitelMixed    = 2
+| AustralianOpenErgebnisMixed  = '''S''' (2009)
+| FrenchOpenErgebnisMixed      = VF (2006)
+| WimbledonErgebnisMixed       = '''S''' (2007)
+| USOpenErgebnisMixed          = AF (2008)
+| OlympischeMedaille1          = Bronze
+| OlympischeMedaille1Modus     = Einzel
+| OlympischeMedaille1Jahr      = 2004
+| Updated                      = 16. Oktober 2010
+| OlympischeMedaille2          = Gold
+| OlympischeMedaille2Modus     = Doppel
+| OlympischeMedaille2Jahr      = 2008
+| OlympischeMedaille3          = Silber
+| OlympischeMedaille3Modus     = Mixed
+| OlympischeMedaille3Jahr      = 2008
+}}
+<pre style="white-space:pre-wrap; overflow:auto;">
+{{Infobox Tennisspieler
+| Name                         = Max Mustermann
+| Bild                         = Smiley.svg
+| Bildbeschriftung             = Smiley bei den US-Open (2010)
+| Spitzname                    = 
+| Nationalität                 = {{DEU}}
+| Geburtstag                   = 21. Juni 1983
+| Größe                        = 182
+| Gewicht                      = 77
+| ErsteProfisaison             = 2002
+| Rücktritt                    = 
+| Spielhand                    = Rechts, beidhändige Rückhand
+| Trainer                      = Otto Normalverbraucher
+| Preisgeld                    = 3.237.222
+| EinzelBilanz                 = 68:107
+| AnzahlEinzelTitel            = 3
+| HoechsteEinzelPlatzierung    = 27 (24. November 2009)
+| AktuelleEinzelPlatzierung    = 68
+| WochenNr1                    = 
+| AnzahlGrandSlamTitelEinzel   = 
+| AustralianOpenErgebnisEinzel = 2R (2008)
+| FrenchOpenErgebnisEinzel     = 
+| WimbledonErgebnisEinzel      = 1R (2007–2010)
+| USOpenErgebnisEinzel         = 3R (2009)
+| DoppelBilanz                 = 350:178
+| AnzahlDoppelTitel            = 23
+| HoechsteDoppelPlatzierung    = 1 (21. Juli 2009)
+| AktuelleDoppelPlatzierung    = 5
+| WochenNr1Doppel              = 37
+| AnzahlGrandSlamTitelDoppel   = 5
+| AustralianOpenErgebnisDoppel = F (2006)
+| FrenchOpenErgebnisDoppel     = '''S''' (2007, 2009)
+| WimbledonErgebnisDoppel      = '''S''' (2009)
+| USOpenErgebnisDoppel         = '''S''' (2006, 2009)
+| AnzahlGrandSlamTitelMixed    = 2
+| AustralianOpenErgebnisMixed  = '''S''' (2009)
+| FrenchOpenErgebnisMixed      = VF (2006)
+| WimbledonErgebnisMixed       = '''S''' (2007)
+| USOpenErgebnisMixed          = AF (2008)
+| OlympischeMedaille1          = Bronze
+| OlympischeMedaille1Modus     = Einzel
+| OlympischeMedaille1Jahr      = 2004
+| Updated                      = 16. Oktober 2010
+| OlympischeMedaille2          = Gold
+| OlympischeMedaille2Modus     = Doppel
+| OlympischeMedaille2Jahr      = 2008
+| OlympischeMedaille3          = Silber
+| OlympischeMedaille3Modus     = Mixed
+| OlympischeMedaille3Jahr      = 2008
+}}
+</pre>
+
+<includeonly>
+{{SORTIERUNG:Tennisspieler}}
+[[Kategorie:Vorlage:Infobox Sportler]]
+[[Kategorie:Vorlage:Tennis]]
+[[Kategorie:Vorlage:verwendet Daten aus Wikidata]]
+</includeonly>
