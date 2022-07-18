@@ -1,0 +1,92 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+{{TemplateData|JSON=
+{ "description": "Zuordnung unseres gesamten Artikels (im Abschnitt „Weblinks“) zu einer Kategorie auf [[Wikimedia Commons]] – mehr unter <noexport>[[Wikipedia:Textbausteine/Schwesterprojekte]]:</noexport> [[WP:TB/S]]",
+  "params": {
+     "1": {
+             "label": "Commons-Kategorie",
+             "description": "Titel der zuzuordnenden Commons-Kategorie",
+             "type": "wiki-page-name",
+             "required": false,
+             "default": "Titel der aktuellen Wikipedia-Seite <!-- (ohne Klammerzusatz) -->"
+      },
+      "2": {
+             "label": "Linktext",
+             "description": "alternativer Linktext, z.&nbsp;B. Name der Kategorie auf Deutsch",
+             "type": "line",
+             "default": "(Parameter 1)",
+             "required": false
+      },
+      "suffix": {
+             "label": "Beschreibung",
+             "description": "alternativer Beschreibungstext bzw. <code>-</code> oder <code>X</code>, um diesen zu deaktivieren, oder veraltet: <code>S</code> für „Sammlung von Bildern“",
+             "type": "line",
+             "required": false,
+             "default": "Sammlung von Bildern, Videos und Audiodateien",
+             "aliases": [ "3" ]
+      },
+      "audio": {
+             "label": "Audio",
+             "description": "Audiodateien erwähnen (alternative Vereinbarung zur [[#templatedata:suffix|suffix]]-Beschreibung)",
+             "type": "boolean",
+             "required": false,
+             "default": "1",
+             "example": "0"
+      },
+      "video": {
+             "label": "Video",
+             "description": "Videodateien erwähnen (alternative Vereinbarung zur [[#templatedata:suffix|suffix]]-Beschreibung)",
+             "type": "boolean",
+             "required": false,
+             "default": "1",
+             "example": "0"
+      }
+  },
+  "format": "inline"
+}
+|TOC=1}}
+
+== Kopiervorlagen ==
+<pre>
+{{Commonscat}}
+</pre>
+
+<pre>
+{{Commonscat|||audio=0|video=0}}
+</pre>
+
+== Beispiele ==
+Die nachstehenden Quelltext-Beispiele liefern das jeweilige Ergebnis, wobei es eine solche Kategorie auf Commons nicht gibt.
+
+<pre>
+{{Commonscat}}
+</pre>
+{{Commonscat}}
+
+<pre>
+{{Commonscat|audio=0|video=0}}
+</pre>
+{{Commonscat|audio=0|video=0}}
+
+<pre>
+{{Commonscat|suffix=Diese Kategorie gibt es nicht}}
+</pre>
+{{Commonscat|suffix=Diese Kategorie gibt es nicht}}
+
+== Modernisierte Parameter ==
+Historisch wurde im Quelltext die Beschreibung über <code>3=S</code> verkürzt&nbsp;– eine Vereinbarung von kryptischer Unverständlichkeit.
+* Zu einer Zeit, als es einige Hundert Vorlagen gab, diese mit nur wenigen Parametern ausgestattet waren,   die Bearbeiter den Quelltext sahen und sich noch alle Vorlagen und Parameter auswendig merken konnten, war das einmal üblich gewesen.
+* Heutzutage wird zu einem nennenswerten Anteil mit [[Hilfe:VisualEditor|VisualEditor]] gearbeitet, insbesondere von neuen Benutzern. Für diese ist eine solche Notation unzugänglich.
+* Weil die Parameter <code>1</code> und <code>2</code> nicht angegeben werden müssten, tritt häufiger die Situation auf, dass die Option für den Beschreibungstext durch Abzählen von Pipe-Symbolen festgelegt werden soll&nbsp;– ein fehlerträchtiges und unanschauliches Vorgehen. Deshalb wird strategisch wie bei vielen anderen Vorlagen auch für typische Optionen nach und nach auf den benannten Parameter <code>suffix</code> migriert.
+* Für die Bedienung mit dem VisualEditor sind ankreuzbare Parameter günstiger; sie lassen sich schnell im Formular entscheiden. Deshalb liefern derartige Parameter <code>audio=0</code> und <code>video=0</code> die gleiche Aussage wie <code>3=S</code>.
+* Die neuen Parameterwerte hinterlassen im Quelltext selbsterklärende Aussagen, die auch ohne Kenntnis der Dokumentation oder nach Transfer in ein anderes Wiki verständlich sind.
+
+== Wikidata-Wartung ==
+Wird diese Vorlage in einem Artikel im ANR verwendet, dem kein Datenobjekt bei Wikidata zugeordnet ist, wird die [[:Kategorie:Wikipedia:Artikel ohne Wikidata-Datenobjekt]] gesetzt.
+
+== Siehe auch ==
+* [[Vorlage:Commons]] – für eine Galerie mit einer bestimmten Auswahl
+<includeonly>
+<!-- {{Lua-Vorlage|WLink #getArticleBase}} -->
+
+[[Kategorie:Vorlage:Schwesterprojektverweis]]
+</includeonly>
