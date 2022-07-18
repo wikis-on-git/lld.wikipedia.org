@@ -41,7 +41,7 @@
 }}
 |-
 {{#if: {{{beruf|<noinclude>-</noinclude>}}} |
-{{!}} '''Beruf'''
+{{!}} '''Prufescion'''
 {{!}} {{{beruf}}}
 }}
 |-
