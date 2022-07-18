@@ -13,16 +13,16 @@
 {{!}} {{{Spitzname}}}
 }}
 |- style="vertical-align: top;"
-| width="50%" | '''Nation:'''
+| width="50%" | '''Nazion:'''
 | width="50%" | {{{Nationalität|}}}
 |- style="vertical-align: top;"
 {{#if:{{{Geburtstag|}}}|
-{{!}} '''Geburtstag:'''
+{{!}} '''data de nasciuda:'''
 {{!}} {{{Geburtstag}}}
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Todestag|}}}|
-{{!}} '''Todestag:'''
+{{!}} '''Data de mort:'''
 {{!}} {{{Todestag}}}
 }}
 |- style="vertical-align: top;"
@@ -47,7 +47,7 @@
 }}
 |- style="vertical-align: top;"
 {{#if:{{{Rücktritt|}}}|
-{{!}} '''Rücktritt:'''
+{{!}} '''Tirà zeruch:'''
 {{!}} {{{Rücktritt}}}
 }}
 |- style="vertical-align: top;"
