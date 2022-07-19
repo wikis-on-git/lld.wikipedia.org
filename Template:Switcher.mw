@@ -20,5 +20,5 @@
 --></noinclude>{{safesubst<noinclude />:#if:{{{38|}}}|<div>{{{37|}}}<span class="switcher-label" style="display:none" {{safesubst<noinclude />:#ifeq:{{{default|}}}|19|data-switcher-default=""}}>{{safesubst<noinclude />:trim|{{{38|}}}}}</span></div>}}<noinclude><!--
 --></noinclude>{{safesubst<noinclude />:#if:{{{40|}}}|<div>{{{39|}}}<span class="switcher-label" style="display:none" {{safesubst<noinclude />:#ifeq:{{{default|}}}|20|data-switcher-default=""}}>{{safesubst<noinclude />:trim|{{{40|}}}}}</span></div>}}<noinclude><!--
 --></noinclude></div><noinclude>
-{{Documentation}}
+{{Documentazion}}
 </noinclude>
