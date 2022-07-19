@@ -1,0 +1,45 @@
+{{Documentation subpage}}
+{{High-risk|844000+|all-pages = yes}}
+{{notice|This template is for trimming whitespace from strings. For the maintenance tag for images, see {{tl|trimming}}}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template trims leading and trailing (but not interior) whitespace from a string. The string should be passed as the first unnamed parameter. The parameter must be named {{para|1}} if its value contains a <code>=</code> character.
+
+You may [[WP:SUBST|substitute]] this template - that is, if used as {{tlxs|trim}}, the resulting wikicode is "clean".
+
+== Usage ==
+{{tlx|trim|<var>text</var>}} = <var>text</var> with any leading or trailing whitespace removed.
+
+== Examples ==
+*"{{tlx|trim|&nbsp;abc}}" produces "{{trim| abc}}"
+*"{{tlx|trim|xyz&nbsp;}}" produces "{{trim|xyz }}"
+*"{{tlx|trim|&nbsp;abc xyz&nbsp;}}" produces "{{trim| abc xyz }}"
+
+== Template data ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+        "description": "The template trims whitespace from a string.",
+        "params": {
+                "1": {
+                        "label": "String",
+                        "description": "The string to be trimmed of whitespace",
+                        "type": "string",
+                        "required": true
+                }
+        }
+}
+</templatedata>
+
+== See also ==
+* {{tl|remove border}}
+
+
+{{String-handling templates |trim}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:String manipulation templates]]
+[[Category:Parameter handling templates]]
+
+}}</includeonly>
