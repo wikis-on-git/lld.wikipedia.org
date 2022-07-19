@@ -1,0 +1,109 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{Used in system|in [[MediaWiki:Titleblacklist-custom-URL]]}}
+{{for|encoding URLs|Help:Magic words#urlencode}}
+{{Lua|Module:URL}}
+
+This template creates a formatted external link. It formats the appearance of '''''displayed''''' URLs, while making them ''machine-readable'' as part of emitted [[microformat]] meta-data, inside templates such as infoboxes.
+
+{{Anchor|Parm2}}'''Note:''' If you wish to display text instead of the URL (e.g. [https://example.com website] instead of {{URL|example.com}}), please '''do not use this template'''. Instead, consider using normal [[Help:Link#External_links|wiki markup]] or [[Template:Official website]]. Displaying text instead of the url will render the microformat data invalid.
+
+For web-based references, please see [[Wikipedia:Citation templates]].
+
+== Usage ==
+* <code><nowiki>{{URL|</nowiki>''example.com''<nowiki>}}</nowiki></code>
+** The first parameter is parsed to decide whether it is a complete URL. If it doesn't start with a URI scheme (such as "http:", "https:", or "ftp:"), the prefix "http://" is prepended to the specified generated target URL of the link.
+** Parameter 2 (<code><nowiki>{{URL|</nowiki>''url name''<nowiki>|</nowiki>'''''optional display text'''''<nowiki>}}</nowiki></code>) is '''deprecated'''. See [[#Parm2|note]] above for more information and alternative templates.
+
+=== URL with {{=}} character should use numbered parameters ===
+If the URL contains an equals sign, as is common in a query string, the parameter {{para|1}} should be used for the URL (<code><nowiki>{{URL|</nowiki>1=''example.com''<nowiki>}}</nowiki></code>). This applies when the value of the URL is unknown, for example, when this template is used in another template specifying the effective URL as a variable value
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | 1=https://example.com/?id=42 }}</nowiki>}}
+
+The template attempts to handle simple cases where a URL containing an equals sign is specified without the necessary {{para|1}}, but it is still better practice to pass it in.
+
+The '''deprecated''' second parameter for the displayed text, if present in legacy uses, '''must''' also be explicitly numbered if the first parameter is explicitly numbered (<code><nowiki>{{URL|</nowiki>1=''url name''<nowiki>|</nowiki>2=''optional display text''<nowiki>}}</nowiki></code>); otherwise it will override the value of the first parameter:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | 1=https://example.com/?id=42 | 2=Title }}</nowiki>}}
+
+=== Examples ===
+The template displays an instructional message if there is no input:
+{{nowiki template demo|format=inline|code=<nowiki>{{URL| }}</nowiki>}}
+
+The template wraps the output in {{tag|span|attribs=class="url"}} (see {{Section link||Microformat}}) and adds [[HTML element#wbr|&lt;wbr/&gt;]] before displayed periods:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | www.example.com }}</nowiki>}}
+
+The use of [[HTTP|http://]], [[HTTPS|https://]], a [[URL#prurl|protocol-relative URL]], or a different protocol is preserved in the URL but is not shown in the [[link text]]:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | http://www.example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | https://www.example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | //www.example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | ftp://www.example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | ftp://ftp.example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | irc://irc.example.com/channel }}</nowiki>}}
+
+If the path is only a slash (<code>/</code>) it is not displayed in the link text:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | http://example.com/ }}</nowiki>}}
+
+The template also adds [[HTML element#wbr|&lt;wbr/&gt;]] before any displayed slashes (<code>/</code>) in the path:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | example.com/path }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | https://example.com/path }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | www.example.com/path/ }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | https://www.example.com/path/ }}</nowiki>}}
+
+Upper case in the [[domain name]] is preserved in the URL, but not in the link text (upper case in the path is not changed):
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | EXAMPLE.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | ExampleExample.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | ExampleExample.com/PathPath }}</nowiki>}}
+
+For a URL containing an equal sign (<code>=</code>), use {{para|1}}:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL |1= example.com/path?page=42 }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL |1= https://example.com/path?page=42  }}</nowiki>}}
+
+The template currently supports an optional second parameter which is used as the link text, though its use is discouraged (see [[#Parm2|note]]):
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | www.example.com | example.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | exampleexample.com | ExampleExample.com }}</nowiki>}}
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL |1= example.com/path?page=42 |2= example.com }}</nowiki>}}
+
+The URL may be obtained from [[Wikidata]] as shown in this example for {{Q|23317}}, where the property {{Prop|856}} contains {{Wikidata|property|Q23317|P856}}:
+{{nowiki template demo|format=inline|output=nowiki+|code=<nowiki>{{URL | {{Wikidata|property|Q23317|P856}} }}</nowiki>}}
+
+== Microformat ==
+The template wraps the ''displayed'' URL with a <code>class="url"</code> so that it is included in any parent [[microformat]] which takes a URL parameter{{Snd}} see [[WP:UF|our microformats project]].
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "A template to display and format a URL, inside other tempates",
+	"params": {
+		"1": {
+			"label": "URL",
+			"description": "The URL to be linked",
+			"type": "string",
+			"required": true
+		},
+		"2": {
+			"label": "Display text",
+			"description": "The text to be displayed instead of the URL. Deprecated",
+			"type": "string",
+			"required": false,
+			"deprecated": true
+		}
+	}
+}
+</templatedata>
+
+== Maintenance categories ==
+* {{clc|Pages using URL template with unknown parameters}}
+
+== See also ==
+* {{Tl|URL2}}
+* {{ml|WikidataIB|url2}}
+* {{Tl|Official URL}}
+* {{Tl|Official website}}
+* {{Tl|Plain link}}
+* {{Tl|Wbr}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:External link templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>
