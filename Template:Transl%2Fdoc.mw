@@ -1,0 +1,117 @@
+{{Documentation subpage}}
+{{Redirect|Template:Transl|the template for translated text|Template:Translation}}
+{{High use}}
+{{COinS safe|n}}
+{{Lua|Module:Lang}}
+{{Language templates}}
+
+This template is used to mark up text '''[[transliteration|transliterated]] or [[romanisation|romanised]]''' from a non-Latin alphabet script to Latin alphabet script.
+
+This template should only be used for the transliterations of non-Latin scripts; for non-English language text displayed in its native script (such as Greek, Cyrillic and Arabic), {{tl|lang}} should be used, which tags non-transliterated text (written in original script). Transl often used alongside that template, to allow non-readers of the script to interpret the text.
+
+This template adds a [[tooltip]] label naming the transliteration scheme, and renders text in [[italics]] by default. This template is important for [[MOS:ACCESSIBILITY]], as it invisibly tags text with the correct language, allowing for screenreaders to the correct style of pronunciation.
+
+It also displays text in an appropriate font; romanisations marked up in {{tl|lang}} may display in fonts designed for that language's native text, whereas the transl template displays text in the same font as the rest of the article.
+
+Some languages, such as [[Chinese language|Chinese]], have more than one style of transliteration (such as [[Wade-Giles]], [[pinyin]], etc). This template can be used for these different transliteration schemes, though Wikipedia has a number of [[:Category:Wikipedia multilingual support templates|language-specific templates]], some of which support more than one transliteration styles in their parameters, that may be better suited for marking up transliterations.
+
+==Example==
+The following code tags a Ukrainian name and its transliteration according to the Ukrainian National scheme.
+
+{{markup |
+<nowiki>{{lang|uk|Ярослав Рудницький}} ({{transliteration|uk|ukrainian|Yaroslav Rudnytskyi}})</nowiki>
+|
+{{lang|uk|Ярослав Рудницький}} ({{transliteration|uk|ukrainian|Yaroslav Rudnytskyi}})
+}}
+
+==Rationale==
+This template is intended to unify all "transliteration" templates, such as {{tl|IAST}} and {{tl|ISOtranslit}}. These templates are still usable, but they just transclude or are redirected back to <nowiki>{{transl}}</nowiki>. For example, (e.g. <code><nowiki>{{IAST|saṃskṛtam}}</nowiki></code> is a shortcut for <code><nowiki>{{transliteration|sa|IAST|saṃskṛtam}}</nowiki></code>. Other transliteration templates that once existed, such as {{tl|ArabDIN}}, are now handled natively by this template: <code><nowiki>{{transliteration|ar|DIN|...}}</nowiki></code>).
+
+This template is kept separate from {{tl|lang}} to address formatting issues (via CSS classes) and identification of transliteration schemes used. Ultimately, if these concerns are smartly addressed in the CSS file and/or in {{tl|lang}}, using <code><nowiki>{{transliteration|xx|...}}</nowiki></code> should be equivalent to using <code><nowiki>{{lang|xx-Latn|...}}</nowiki></code>.
+
+==Usage==
+There are two ways of using this template: with or without specifying the [[romanization|transliteration scheme]] used:
+*two parameters, with [[ISO 639]] language code: <code><nowiki>{{transliteration|ar|al-Khwarizmi}}</nowiki></code> means that "al-Khwarizmi" is a transliteration from the Arabic in a loose or unspecified scheme.
+*two parameters, with [[ISO 15924]] script code: <code><nowiki>{{transliteration|Ogam|MAQI}}</nowiki></code> means that "MAQI" transliterates an [[Ogham]] inscription without specifying the language. Potentially useful when writing systems themselves are under discussion, e.g.  <code><nowiki>{{transliteration|Cyrl|š}}</nowiki></code>, not <code><nowiki>{{transliteration|cu|š}}</nowiki></code> or <code><nowiki>{{transliteration|ru|š}}</nowiki></code> when discussing the letter {{script|Cyrl|[[Ш]]}}.
+*three parameters, with [[ISO 639]] language code: <code><nowiki>{{transliteration|ar|DIN|al-Ḫawārizmī}} / {{transliteration|ar|ALA|al-Khawārizmī}}</nowiki></code> the second parameter specifies the scheme used (DIN vs. ALA).
+*three parameters, with [[ISO 15924]] script code: <code><nowiki>{{transliteration|Arab|DIN|Ḫ}} vs {{transliteration|Arab|ALA|Kh}}</nowiki></code> for {{script|Arab|[[ﺥ]]}}.
+
+{{para|italic|no}} can be added to suppress the default italicization of Latin scripts; however, proper nouns – the names of people and places – are typically not italicized, and as such, generally do not require the use of a transliteration template. Note that there is no need to add italic markup (<code><nowiki>''</nowiki></code>) to transliteration templates.
+
+Note that the language code is ISO 639, not the [[IETF BCP 47 language tag]]s that allow variants.
+
+===Transliteration scheme codes===
+Codes for supported transliteration schemes can be seen by viewing the source of [[:Module:Lang/data]] – the {{code|translit_title_table}} data-structure lists for each such code the corresponding transliteration schemes. These may vary by language – e.g. code "ISO" means scheme [[ISO 233]] for Arabic but [[ISO 11940]] for Thai.
+
+===Examples===
+Inputting:
+*<code><nowiki>{{transliteration|ar|[[al-Khwarizmi]]}} / [[DIN 31635]]: {{transliteration|ar|DIN|al-Ḫawārizmī}} / [[ISO 233]]: {{transliteration|ar|ISO|al-H̱awārizmī}}  / [[ALA-LC Romanization|ALA]]: {{transliteration|ar|ALA|al-Khawārizmī}}</nowiki></code>
+*<code><nowiki>[[Royal Thai General System of Transcription|RTGS]]: {{transliteration|th|phasa thai}} / [[ISO 11940]]: {{transliteration|th|ISO|p̣hās̄ʹāthịy}}</nowiki></code>
+*<code><nowiki>{{cuneiform|[[Sumerian language|&#x12174;&#x120a0;]]}} {{transliteration|sux|EME.GIR<sub>15</sub>}} / {{cuneiform|6|[[Hittite language|𒉈𒅆𒇷]]}} {{transliteration|hit|ne-ši-li}}</nowiki></code>
+Results in:
+*{{transliteration|ar|[[al-Khwarizmi]]}} / [[DIN 31635]]: {{transliteration|ar|DIN|al-Ḫawārizmī}} / [[ISO 233]]: {{transliteration|ar|ISO|al-H̱awārizmī}}  / [[ALA-LC Romanization|ALA]]: {{transliteration|ar|ALA|al-Khawārizmī}}
+* [[Royal Thai General System of Transcription|RTGS]]: {{transliteration|th|phasa thai}} / [[ISO 11940]]: {{transliteration|th|ISO|p̣hās̄ʹāthịy}}
+*{{cuneiform|[[Sumerian language|&#x12174;&#x120a0;]]}} {{transliteration|sux|EME.GIR<sub>15</sub>}} / {{cuneiform|6|[[Hittite language|𒉈𒅆𒇷]]}} {{transliteration|hit|ne-ši-li}}
+
+'''ISO''':
+*{{lang|ru|[[Russian language|русский]]}} <code><nowiki>{{transliteration|ru|ISO|russkij}}</nowiki></code>:  {{transliteration|ru|ISO|russkij}}
+*{{lang|ab|[[Abkhaz language|Аҧсуа]]}} <code><nowiki>{{transliteration|ab|ISO|aṗsua}}</nowiki></code>: {{transliteration|ab|ISO|aṗsua}}
+*{{lang|ar|[[Arabic| عربي ]]}} <code><nowiki>{{transliteration|ar|ISO|ʿarabī}}</nowiki></code>:  {{transliteration|ar|ISO|ʿarabī}}
+*: ISO has huge issues transliterating {{transliteration|ar|alif}}, so it's better to use the Library of Congress transliteration, the [[DIN 31635|German Institute for Standardization]] or [[Hans Wehr transliteration]]; see [[Arabic transliteration]] and [[MOS:APOSTROPHE]]
+*{{lang|ta|[[Tamil language|தமிழ் ]]}} <code><nowiki>{{transliteration|ta|ISO|tamiḻ}}</nowiki></code>: {{transliteration|ta|ISO|tamiḻ}}
+*{{lang|bn|[[Bengali language|বাংলা ]]}} <code><nowiki>{{transliteration|bn|ISO|baṅla}}</nowiki></code>: {{transliteration|bn|ISO|baṅla}}
+*{{lang|el|[[Greek language|ελληνικά ]]}} <code><nowiki>{{transliteration|el|ISO|ellēniká}}</nowiki></code>: {{transliteration|el|ISO|ellēniká}}
+*{{lang|ka|[[Georgian language|ქართული]]}}  <code><nowiki>{{transliteration|ka|ISO|k'art'uli}}</nowiki></code>: {{transliteration|ka|ISO|k'art'uli}}
+*{{lang|zh|[[Pinyin|漢語拼音]]}} <code><nowiki>{{transliteration|zh|ISO|hànyǔ pīnyīn}}</nowiki></code>: {{transliteration|zh|ISO|hànyǔ pīnyīn}}
+*{{lang|th|[[Thai language|ภาษาไทย]]}} <code><nowiki>{{transliteration|th|ISO|p̣hās̄ʹāthịy}}</nowiki></code>: {{transliteration|th|ISO|p̣hās̄ʹāthịy}}
+
+==CSS==
+In order to apply a style to all text marked as transliteration, use a CSS selector that chooses all text with <code>transliteration</code> in the title attribute (tooltip). For instance, if you add the following to [[Special:MyPage/common.css|your common.css]], all transliterations will be colored {{color|teal}}:
+<syntaxhighlight lang="CSS">
+[title~=transliteration] { color: teal; }
+</syntaxhighlight>
+
+==Tracking category==
+* {{clc|Transl template errors}}
+
+==TemplateData==
+{{templatedata header}}
+<templatedata>
+{
+	"description": "Marks a text span transliterated from a particular language or writing system, and, optionally, according to a specific transliteration system.",
+	"params": {
+		"1": {
+			"label": "Language or script code",
+			"description": "ISO 639 language code (e.g., uk) or ISO 15924 script code (e.g., Cyrl)",
+			"required": true,
+			"type": "line"
+		},
+		"2": {
+			"label": "Text or transliteration scheme",
+			"description": "Source text to be transliterated, or, optionally, transliteration scheme (e.g., bgn/pcgn)",
+			"required": true,
+			"type": "string"
+		},
+		"3": {
+			"label": "Text",
+			"description": "Source text to be transliterated (required if a transliteration scheme is entered above)",
+			"required": false,
+			"suggested": true,
+			"type": "string"
+		}
+	}
+}
+</templatedata>
+
+==See also==
+*{{tl|lang}}, {{tl|language}}
+*{{tl|script}}
+* {{tl|trans}}, {{tl|translation}}
+*[[Romanization]]
+*[[List of ISO transliterations]]
+{{ISO 15924 script codes and related Unicode data|state=collapsed}}
+<includeonly>{{Sandbox other||
+[[Category:Wikipedia multilingual support templates]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>
