@@ -1,0 +1,43 @@
+{{Sidebar
+ | name       = Language templates
+ | width      = 238px
+ | bodystyle  = border-spacing:0;background:#f7f7f7;padding:2px;
+ 
+ | titlestyle = background:#ccccff;
+ | title      = Language templates
+ 
+ | contentclass = plainlist
+ | contentstyle = padding:0.25em;background:#fdfdfd;
+
+ | navbarstyle  = background:#fdfdfd;padding:0 5px
+ 
+ | heading1     = Language names ([[ISO 639]])
+ | content1     = 
+* {{tl|ISO 639 name}}
+
+ | heading2     = Interwiki links
+ | content2     =
+* {{tl|Wikt-lang}}
+* [[Module:Language]]
+* {{tl|Interlanguage link}}
+
+ | heading5     = Foreign-language text
+ | content5     =
+* {{tl|Lang}}
+* [[Module:Lang]]
+* {{tl|Transliteration}}
+* {{tl|Title language}}
+* {{tl|PIE}} ([[Proto-Indo-European language]] content)
+
+ | heading6     = Other
+ | content6     = 
+* {{tl|IPA}} ([[International Phonetic Alphabet]] transcriptions)
+* [[Module:Language/data]]
+* [[:Category:Wikipedia multilingual support templates]]
+}}<noinclude>
+{{Documentation|content=
+[[WP:SIDEBAR|Sidebar]] listing language [[WP:templates|templates]].
+
+}}
+[[Category:Documentation see also templates]]
+</noinclude>
