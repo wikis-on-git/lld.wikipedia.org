@@ -8,32 +8,32 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{bg<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Bulgarian language|Bulgarian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz bulgar|Bulgar]]:
 {{!}} {{lang|bg|{{{bg}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{hr<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Croatian language|Croatian]]:
+! style="padding-left:0.5em" {{!}} <br>:
 {{!}} {{lang|hr|{{{hr}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{cs<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Czech language|Czech]]:
+! style="padding-left:0.5em" {{!}} [[lingaz cech|Cech]]:
 {{!}} {{lang|cs|{{{cs}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{da<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Danish language|Danish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz danesc|Danesc]]:
 {{!}} {{lang|da|{{{da}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{nl<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Dutch language|Dutch]]:
+! style="padding-left:0.5em" {{!}} [[lingaz olandesc|Olandesc]]:
 {{!}} {{lang|nl|{{{nl}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{en<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[English language|English]]:
+! style="padding-left:0.5em" {{!}} [[lingaz nglëisc|Nglëisc]]:
 {{!}} {{lang|en|{{{en}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
@@ -43,27 +43,27 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{fi<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Finnish language|Finnish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz finlandesc|Finlandesc]]:
 {{!}} {{lang|fi|{{{fi}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{fr<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[French language|French]]:
+! style="padding-left:0.5em" {{!}} [[lingaz franzëus|Franzëus]]:
 {{!}} {{lang|fr|{{{fr}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{de<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[German language|German]]:
+! style="padding-left:0.5em" {{!}} [[lingaz tudësch|Tudësch]]:
 {{!}} {{lang|de|{{{de}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{el<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Greek language|Greek]]:
+! style="padding-left:0.5em" {{!}} [[lingaz grech|Grech]]:
 {{!}} {{lang|el|{{{el}}}}} }} 
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{hu<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Hungarian language|Hungarian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz ungaresc|Ungaresc]]:
 {{!}} {{lang|hu|{{{hu}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
@@ -73,22 +73,22 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{ga<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Irish language|Irish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz gaelich|Gaelich]]:
 {{!}} {{lang|ga|{{{ga}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{it<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Italian language|Italian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz talian|Talian]]:
 {{!}} {{lang|it|{{{it}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{lv<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Latvian language|Latvian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz letton|Letton]]:
 {{!}} {{lang|lv|{{{lv}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{lt<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Lithuanian language|Lithuanian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz lituan|Lituan]]:
 {{!}} {{lang|lt|{{{lt}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
@@ -98,7 +98,7 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{mt<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Maltese language|Maltese]]:
+! style="padding-left:0.5em" {{!}} [[lingaz maltesc|Maltesc]]:
 {{!}} {{lang|mt|{{{mt}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
@@ -108,17 +108,17 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{pl<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Polish language|Polish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz polach|Polach]]:
 {{!}} {{lang|pl|{{{pl}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{pt<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Portuguese language|Portuguese]]:
+! style="padding-left:0.5em" {{!}} [[lingaz portughesc|Portughesc]]:
 {{!}} {{lang|pt|{{{pt}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{ro<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Romanian language|Romanian]]:
+! style="padding-left:0.5em" {{!}} [[lingaz romen|Romen]]:
 {{!}} {{lang|ro|{{{ro}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
@@ -128,32 +128,32 @@
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{sk<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Slovak language|Slovak]]:
+! style="padding-left:0.5em" {{!}} [[lingaz slovach|Slovach]]:
 {{!}} {{lang|sk|{{{sk}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{sl<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Slovene language|Slovene]]:
+! style="padding-left:0.5em" {{!}} [[lingaz sloven|Sloven]]:
 {{!}} {{lang|sl|{{{sl}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{es<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Spanish language|Spanish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz spanuel|Spanuel]]:
 {{!}} {{lang|es|{{{es}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{sv<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Swedish language|Swedish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz svedesc|Svedesc]]:
 {{!}} {{lang|sv|{{{sv}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{tr<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Turkish language|Turkish]]:
+! style="padding-left:0.5em" {{!}} [[lingaz turc|Turch]]:
 {{!}} {{lang|tr|{{{tr}}}}} }}
 
 |- style="border-bottom:1px solid #aaa"
 {{#if:{{{sw<includeonly>|</includeonly>}}} |
-! style="padding-left:0.5em" {{!}} [[Swahili language|Swahili]]:
+! style="padding-left:0.5em" {{!}} [[lingaz Swahili|Swahili]]:
 {{!}} {{lang|sw|{{{sw}}}}} }}
 
 |}
