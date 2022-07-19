@@ -1,0 +1,275 @@
+{{Documentation subpage}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+
+This is the {{tl|Namespace detect showall}} meta-template.
+
+It helps other templates detect what type of page they are on. It is an extended version of {{tl|Namespace detect}}.
+
+This template detects and groups all the different [[Wikipedia:Namespace#Enumeration|namespaces]] used on Wikipedia into several types:
+
+: '''main''' = Main/article space, as in normal Wikipedia articles.
+: '''talk''' = Any talk space, such as page names that start with "Talk:", "User talk:", "File talk:" and so on.
+: '''user, wikipedia, file, mediawiki, template, help, category''', '''portal''' = The other namespaces except the talk pages.
+: '''other''' = Any namespaces that were not specified as a parameter to the template. See explanation below.
+
+; ''Note'' : ''In many cases, one of the simpler namespace-detection templates is likely to suffice (and will be less prone to errors made in its use). For links to these alternatives, see the navigation template at the end of this documentation ({{tl|Namespace and pagename-detecting templates}}).''
+
+== Usage ==
+<!-- This template takes one or more numbered parameters that takes the data that should be returned. It also takes one or more parameters named after the different page types as listed above. The named parameters specifies which data should be returned on what type of page. Like this: -->
+This template takes one or more parameters named after the different page types as listed above. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| 3 = Other pages text.
+| main  = 1
+| talk  = 2
+| other = 3
+}}
+</pre>
+
+If the template is on a main (article) page, it will return this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| 3 = Other pages text.
+| main  = 1
+| talk  = 2
+| other = 3
+| demospace = main
+}}
+
+If the template is on any ''other'' page than an article or a talk page it will return this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| 3 = Other pages text.
+| main  = 1
+| talk  = 2
+| other = 3
+}}
+
+Since we feed the data to the numbered parameters we can reuse the same data on several types of pages. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = File (image) and category text.
+| 3 = Other pages text.
+| main     = 1
+| file     = 2
+| category = 2
+| other    = 3
+}}
+</pre>
+
+By using an empty parameter you can make it so the template doesn't render anything for some specific page type, instead of returning what was fed to the '''other''' parameter. (Notice that the '''main''' parameter doesn't get any data in the example below.) Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = File (image) page text.
+| 2 = Other pages text.
+| main  = 
+| file  = 1
+| other = 2
+}}
+</pre>
+
+The code above will render nothing when on mainspace (article) pages. 
+<!-- Do not remove this one. It is supposed to render nothing, but we have it here for testing purposes. -->
+:{{namespace detect showall
+| 1 = File (image) page text.
+| 2 = Other pages text.
+| main  = 
+| file  = 1
+| other = 2
+| demospace = main
+}}
+
+The same goes for the '''other''' type, if it is omitted or fed no data then the template will not return any data for the page types that were not explicitly specified. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = File page text.
+| 2 = Talk page text.
+| file  = 1
+| talk  = 2
+| other = 
+}}
+</pre>
+
+<!-- Do not remove this one. It is supposed to render nothing, but we have it here for testing purposes. -->
+:{{namespace detect showall
+| 1 = File page text.
+| 2 = Talk page text.
+| file  = 1
+| talk  = 2
+| other = 
+}}
+
+== Showall ==
+This template also understands a special value called '''showall'''. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = showall
+}}
+</pre>
+
+If the template is on a main (article) page, it will as usual return this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = showall
+| demospace = main
+}}
+
+If the template is on any other page than an article or a talk page it will ''show all'' the data that was fed to the numbered parameters, like this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = showall
+}}
+
+The purpose of the '''showall''' parameter is to automatically demonstrate all variations of a message when it is shown on other pages than the pages it normally is used on.
+
+== Demospace and page ==
+For testing and demonstration purposes this template can take two parameters named '''demospace''' and '''page'''. 
+
+Demospace understands any of the page type names used by this template, including the '''other''' type. It tells the template to behave like it is on some specific type of page. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| demospace = main
+}}
+</pre>
+
+No matter on what kind of page the code above is used it will return this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| demospace = main
+}}
+
+The '''demospace''' parameter also understands the '''showall''' value. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| demospace = showall
+}}
+</pre>
+
+Then no matter on what kind of page the code above is used it will ''show all'' the data that was fed to the numbered parameters, like this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| demospace = showall
+}}
+
+The '''page''' parameter instead takes a normal pagename. It makes this template behave exactly as if on that page. The pagename doesn't have to be an existing page. Like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| page  = User talk:Example
+}}
+</pre>
+
+No matter on what kind of page the code above is used it will return this:
+
+:{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| page  = User talk:Example
+}}
+
+It can be convenient to let your template understand the demospace and/or page parameter and send it on to the {{tl|namespace detect showall}} template. Then do like this:
+
+<pre>
+{{namespace detect showall
+| 1 = Article text.
+| 2 = Talk page text.
+| main  = 1
+| talk  = 2
+| other = 
+| demospace = {{{demospace|}}}
+| page  = {{{page|}}}
+}}
+</pre>
+
+If both the '''demospace''' and '''page''' parameters are empty or undefined then the template will detect page types as usual.
+
+== Parameters ==
+List of all parameters:
+
+<pre>
+{{namespace detect showall
+| 1 = Text one.
+...
+| 6 = Text six.
+| main  = 1 / 2 / 3 / 4 / 5 / 6 / showall
+...
+| other = 1 / 2 / 3 / 4 / 5 / 6 / showall
+| demospace = {{{demospace|}}} / showall /
+              main / talk / user / wikipedia / file / mediawiki / 
+              template / help / category / portal / other
+| page  = {{{page|}}} / User:Example
+}}
+</pre>
+
+Note: Empty values to the "main" ... "other" parameters do have special meaning.
+
+== Technical details ==
+Namespace "Image" was renamed to "File" on 11 December 2008. This template has been updated to understand both names, thus it still works fine. For backwards compatibility it still understands "image" both as a parameter name, such as "image = 1", and as a value "demospace = image". But using "image" is now deprecated.
+
+If you intend to feed tables as content to the numbered parameters of this template, then you need to know this: 
+
+[[Help:Template|Templates]] do have a problem to handle parameter data that contains pipes "<code>|</code>", unless the pipe is inside another template <code><nowiki>{{name|param1}}</nowiki></code> or inside a piped link <code><nowiki>[[Help:Template|help]]</nowiki></code>. Thus templates can not handle [[Help:Table|wikitables]] as input unless you escape them by using the {{tn|!}} template. This makes it hard to use wikitables as parameters to templates. Instead the usual solution is to use "[[Help:HTML in wikitext|HTML wikimarkup]]" for the table code, which is more robust.
+
+For more technical details such as about "copying to other projects" and "CSS based namespace detection", see {{tl|main talk other}} and its talk page.
+
+
+{{Namespace and pagename-detecting templates}}
+
+<includeonly>{{Sandbox other|
+| <!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Namespace manipulation templates]]
+}}</includeonly>
