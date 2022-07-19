@@ -1,0 +1,24 @@
+{{Documentation subpage}}
+{{Lua|Module:String}}
+<!-- PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE -->
+{{template shortcut|br|brk|crlf}}
+Replaces <code><nowiki><br /></nowiki></code> where this is unsuitable, for example the rare cases where it is necessary to duplicate <code><nowiki><br /><br /></nowiki></code> which will be "fixed" by bots.
+
+Also avoids HTML mark-up in articles.
+
+== Usage ==
+* {{tlx|break}} = one <code><nowiki><br /></nowiki></code>
+* {{tlx|break|5}} = <code><nowiki><br /><br /><br /><br /><br /></nowiki></code>
+
+The parameter can be any integer.
+
+{{tlc|br}}, {{tlc|brk}} and {{tlc|crlf}} are also redirects (shortcuts), and may be used instead.
+
+== See also ==
+* {{tlx|clear}} (shortcuts: {{tlc|-}} and {{tlc|clr}})
+* [[Help:Line-break handling]]
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Line-handling templates]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+}}</includeonly>
