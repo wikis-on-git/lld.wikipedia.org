@@ -29,12 +29,15 @@
   | sv = Europeiska unionen
   }}
 |- 
-| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;" | [[File:Flag_of_Europe.svg|220px|center|Bandiera de l'Union Europea.]]
+| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;" | {{Switcher
+  | [[File:Europe and the European Union.svg|upright=1.25|frameless]]
+  | Show globe
+  | [[File:Special member state territories and the European Union.svg|upright=1.25|frameless]]
+  | Show [[Special member state territories and the European Union|special territories]]
+  }}
 |- 
 | colspan="2"  valign="top" style="text-align: center;font-size:90%;" |L blason dl Tribunel Nternaziunel de Giustizia.
 |- 
-
-|-
 | colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"|  '''Inn'''<br>''Inn de l'Europa''
 |-
 | colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| [[File:Anthem of Europe (US Navy instrumental short version).ogg]]
