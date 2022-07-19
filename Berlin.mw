@@ -285,22 +285,22 @@ The {{lang|de|[[Berliner Verkehrsbetriebe]]}} (BVG) and the {{lang|de|Deutsche B
 |-
 ! scope="row" | {{lang|de|[[S-Bahn de Berlin|S-Bahn]]|italic=no}}
 | 166 / 16 / {{cvt|331|km}}
-| 431,000,000 <small>(2016)</small>
+| {{formatnum:431000000}} <small>(2016)</small>
 | [[Deutsche Bahn|DB]] / Mainly overground [[rapid transit]] rail system with suburban stops
 |-
 ! scope="row" | {{lang|de|[[U-Bahn de Berlin|U-Bahn]]|italic=no}}
 | 173 / 10 / {{cvt|146|km}}
-| 563,000,000 <small>(2017)</small>
+| {{formatnum:563000000}} <small>(2017)</small>
 | [[Berliner Verkehrsbetriebe|BVG]] / Mainly underground rail system / 24h-service on weekends
 |-
 ! scope="row" | [[Trams de Berlin|Tram]]
 | 404 / 22 / {{cvt|194|km}}
-| 197,000,000 <small>(2017)</small>
+| {{formatnum:197000000}} <small>(2017)</small>
 | BVG / Operates predominantly in eastern boroughs
 |-
 ! scope="row" | [[Curieres a Berlin|Curiera]]
 | 3227 / 198 / {{cvt|1675|km}}
-| 440,000,000 <small>(2017)</small>
+| {{formatnum:440000000}} <small>(2017)</small>
 | BVG / Extensive services in all boroughs / 62 Night Lines
 |-
 ! scope="row" | [[Bastimënc a Berlin|Bastimënt]]
