@@ -5,21 +5,21 @@ This template is used to create a switchable image with caption, for use in info
 == Parameters ==
 Odd numbered parameters provide the image in wikitext; even numbered parameters provide the captions.
 
-== Example ==
+== Ejëmpl==
 <pre>
 {{Switcher
 | [[File:Example.png|300px]]
-| An example
+| N ejëmpl
 | [[File:Example image not to be used in article namespace.jpg|300px]]
-| A different example
+| N auter ejëmpl
 }}
 </pre>
 Output:
 {{Switcher
 | [[File:Example.png|300px]]
-| An example
+| N ejëmpl
 | [[File:Example image not to be used in article namespace.jpg|300px]]
-| A different example
+| N auter ejëmpl
 }}
 
 ==TemplateData==
