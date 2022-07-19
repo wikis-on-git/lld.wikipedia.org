@@ -1,0 +1,34 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Svezia
+| flag alias = Flag of Sweden.svg
+| flag alias-army = Naval Ensign of Sweden.svg
+| flag alias-air force =Naval Ensign of Sweden.svg
+| flag alias-1562 = Sweden-Flag-1562.svg
+| border-1562 =
+| flag alias-1818 = Swedish and Norwegian merchant flag 1818-1844.svg
+| flag alias-1844 = Swedish civil ensign (1844–1905).svg
+| flag alias-naval = Naval Ensign of Sweden.svg
+| flag alias-naval-1844 = Naval Ensign of Sweden (1844-1905).svg
+| flag alias-naval-1815 = Swedish and Norwegian naval ensign (1815-1844).svg
+| link alias-army = Swedish Army
+| border-army=
+| border-air force=
+| link alias-air force = Swedish Air Force
+| border-naval =
+| link alias-naval = Swedish Navy
+| flag alias-navy = Naval Ensign of Sweden.svg
+| link alias-navy = Swedish Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1562
+| var2 = 1818
+| var3 = 1844
+| var4 = naval-1844
+| var5 = naval-1815
+| redir1 = SWE
+</noinclude>
+}}
