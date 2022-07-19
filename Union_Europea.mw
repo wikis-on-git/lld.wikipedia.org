@@ -29,30 +29,56 @@
   | sv = Europeiska unionen
   }}
 |- 
-| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;" | {{Switcher
+| colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"|  [[File:Flag_of_Europe.svg|160px|center]]
+|- 
+| colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"|  '''Inn'''<br>''Inn de l'Europa''
+|-
+| colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| [[File:Anthem of Europe (US Navy instrumental short version).ogg]]
+|-
+| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;border-bottom: 1px solid #a2a9b1;" | {{Switcher
   | [[File:Europe and the European Union.svg|upright=1.25|frameless]]
   | Show globe
   | [[File:Special member state territories and the European Union.svg|upright=1.25|frameless]]
   | Show [[Special member state territories and the European Union|special territories]]
   }}
 |- 
-| colspan="2"  valign="top" style="text-align: center;font-size:90%;" |L blason dl Tribunel Nternaziunel de Giustizia.
-|- 
-| colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"|  '''Inn'''<br>''Inn de l'Europa''
+| valign="top" style="font-size:90%"|'''Sëntes istituzioneles'''   ||   valign="top" style="font-size:90%"| {{Collapsible list
+  | framestyle="border: none; padding: 0;"<!--Hides borders and improves row spacing-->
+  | title = {{Nowrap|[[Bruxelles]]}}
+  | bullets = true
+  | [[Commiscion Europea|Commiscion]]
+  | [[European Council]] <!-- Do not shorten to "Council". That is the official title of the Council of the EU in the treaties, so its confusing. -->
+  | [[Council of the European Union|Council of the EU]]
+  | [[Parlamënt Europeich|Parlamënt]] (secondary)
+  }}
+  {{Collapsible list
+  | framestyle="border: none; padding: 0;"<!--Hides borders and improves row spacing-->
+  | title = {{Nowrap|[[Frankfurt]]}}
+  | bullets = true
+  | [[Banca Zentrela Europea|Banca Zentrela]]
+  }}
+  {{Collapsible list
+  | framestyle="border: none; padding: 0;"<!--Hides borders and improves row spacing-->
+  | title = {{Nowrap|[[Zità de Luxemburg]]}}
+  | bullets = true
+  | [[European Court of Auditors|Court of Auditors]] 
+  | [[Court of Justice of the European Union|Court of Justice]]
+  | Council of the EU (April, June and October sessions)
+  | [[Secretariat of the European Parliament|Secretariat of the Parliament]]
+  | Commission (various departments and services)
+  }}
+  {{Collapsible list
+  | framestyle="border: none; padding: 0;"<!--Hides borders and improves row spacing-->
+  | title = {{Nowrap|[[Strasbourg]]}}
+  | bullets = true
+  | Parliament
+  }}
 |-
-| colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| [[File:Anthem of Europe (US Navy instrumental short version).ogg]]
-|-
-| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;" | [[File:La_haye_palais_paix_jardin_face.JPG|300px|L [[Palaz de la Pesc]] a Den Haag, sënta dl Tribunel Nternaziunel de Giustizia.]]
-|- 
-| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;text-align: center;font-size:90%;" |L [[Palaz de la Pesc]] a Den Haag, sënta dl Tribunel Nternaziunel de Giustizia.
-|- 
-| valign="top" style="font-size:90%"|'''Metù su'''   ||   valign="top" style="font-size:90%"| 1945
-|-
-| valign="top" style="font-size:90%"|'''Giurisdizion'''  ||   valign="top" style="font-size:90%"| Dut l mond, 193 stac
+| valign="top" style="font-size:90%"|'''Majer raion metropolitan'''  ||   valign="top" style="font-size:90%"| [[Paris]]
 |-
 | valign="top" style="font-size:90%"| '''Sënta''' || valign="top" style="font-size:90%"| [[Den Haag]], [[Paejes Basc]]
 |-
-| valign="top" style="font-size:90%"| '''Coordinedes''' || valign="top" style="font-size:90%"|  {{nowrap|{{coord|52|05|11.8|N|4|17|43.8|E|region:NL-ZH_type:landmark|display=inline}}}}
+| valign="top" style="font-size:90%"| '''Rujenedes ufizieles''' || valign="top" style="font-size:90%"|  [[24 rujenedes]]<br>'''3 rujenedes prinzipeles'''<br>[[Franzëus]]&bullet;&nbsp; [[Nglëisc]]&bullet;&nbsp; [[Tudësch]]
 |-
 | valign="top" style="font-size:90%"| '''Plata internet''' || valign="top" style="font-size:90%"| {{url|https://www.icj-cij.org/}}
 |-
