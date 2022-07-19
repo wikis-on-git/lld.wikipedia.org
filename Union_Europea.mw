@@ -1,4 +1,4 @@
-{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:300px;"
+{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:330px;"
 ! colspan="2"  style="font-size:120%"|Union Europea
 |-
 | colspan="2"  style="font-size:100%;text-align:center"|
@@ -35,7 +35,7 @@
 |-
 | colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| [[File:Anthem of Europe (US Navy instrumental short version).ogg]]
 |-
-| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;border-bottom: 1px solid #a2a9b1;" | {{Switcher
+| colspan="2"  valign="top" align="center" style="border-top: 1px solid #a2a9b1;border-bottom: 1px solid #a2a9b1;" | {{Switcher
   | [[File:Europe and the European Union.svg|upright=1.25|frameless]]
   | Show globe
   | [[File:Special member state territories and the European Union.svg|upright=1.25|frameless]]
@@ -101,7 +101,13 @@
 |- 
 | valign="top" style="font-size:90%"| '''Sort''' || valign="top" style="font-size:90%"|  Union supranaziunela
 |-
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;text-align: center;font-size:90%;" |
+|- 
 | valign="top" style="font-size:90%"| '''Cumëmbri''' || valign="top" style="font-size:90%"| [[27 cumëmbri]]
+|-
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;text-align: center;font-size:90%;" |
+|- 
+| valign="top" style="font-size:90%"| '''Furmazion'''<br>{{bulleted list |[[Tratat de Paris]]|[[Tratat de Roma]]|[[At Sëul Europeich]]|[[Tratat de Maastricht]]|[[Tratat de Lisbona]]|}} || valign="top" style="font-size:90%"| 18 auril 1951<br>1 jené 1958<br>1 lugio 1987<br>1 novëmber 1993<br>1 dezëmber 2009
 |-
 |}L''''Union Europea''' ie n'union sëuranaziunela y anterguviernativa de 27 [[stat|stac]] mëmbri independënc democratics [[Europa|européesc]].
 
