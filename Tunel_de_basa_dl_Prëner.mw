@@ -2,8 +2,8 @@
 {{BS-header|Streckenführung}}
 {{BS-daten
 | BILDPFAD_KARTE = Karte Brennerbasistunnel.png
-| PIXEL_KARTE =
-| TEXT_KARTE = Verlauf des Brennerbasistunnels (blau)
+| PIXEL_KARTE = 5px
+| TEXT_KARTE = Trata dl Tunel de basa dl Prëner (brum)
 | SPURWEITE= 1435
 }}
 {{BS-table}}
