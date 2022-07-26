@@ -1,0 +1,88 @@
+<onlyinclude>{{#if: {{{BILDPFAD_FOTO|}}}|<tr><td style="vertical-align:top;" colspan="2">[[File:{{{BILDPFAD_FOTO}}}|center|{{#invoke:FileMedia|setParSize|{{{PIXEL_FOTO|}}}|270px}}|{{{TEXT_FOTO|}}}]]{{#if: {{{TEXT_FOTO|}}}|<div class="centered" style="text-align:center;line-height:1em;"><small>{{{TEXT_FOTO}}}</small></div>}}</td></tr>
+}}{{#if: {{{BILDPFAD_KARTE|}}}|<tr><td style="vertical-align:top;" colspan="2">[[File:{{{BILDPFAD_KARTE}}}|center|{{#invoke:FileMedia|setParSize|{{{PIXEL_KARTE|}}}|270px}}|Trata de {{PAGENAME}}]]{{#if: {{{TEXT_KARTE|}}}|<div class="centered" style="text-align:center;line-height:1em;"><small>{{{TEXT_KARTE}}}</small></div>}}</td></tr>
+}}{{#if: {{{VORLAGENPFAD_KARTE|}}}|<tr><td style="vertical-align:top;" colspan="2">{{ {{{VORLAGENPFAD_KARTE}}}|center|{{#invoke:FileMedia|setParSize|{{{PIXEL_KARTE|}}}|270px}}|Trata de {{PAGENAME}}}}{{#if: {{{TEXT_KARTE|}}}|<div class="centered" style="text-align:center;line-height:1em;"><small>{{{TEXT_KARTE}}}</small></div>}}</td></tr>
+}}{{#if: {{{DE-STRECKENNR|}}}|<tr><td style="vertical-align:top;">Numer de trata&nbsp;(DB):</td><td>{{{DE-STRECKENNR}}}</td></tr>
+}}{{#if: {{{AT-STRECKENNR|}}}|<tr><td style="vertical-align:top;">Numer de trata&nbsp;(ÖBB):</td><td>{{{AT-STRECKENNR}}}</td></tr>
+}}{{#if: {{{FR-STRECKENNR|}}}|<tr><td style="vertical-align:top;">Numer de trata&nbsp;(SNCF):</td><td>{{{FR-STRECKENNR}}}</td></tr>
+}}{{#if: {{{IT-STRECKENNR|}}}|<tr><td style="vertical-align:top;">Numer de trata&nbsp;(RFI):</td><td>{{{IT-STRECKENNR}}}</td></tr>
+}}{{#if: {{{STRECKENNR|}}}|<tr><td style="vertical-align:top;">Numer de trata:</td><td>{{{STRECKENNR}}}</td></tr>
+}}{{#if: {{{DE-KBS|}}}|<tr><td style="vertical-align:top;">[[Kursbuch (Deutschland)|Kursbuchstrecke&nbsp;(DB)]]:</td><td>{{{DE-KBS}}}</td></tr>
+}}{{#if: {{{AT-KBS|}}}|<tr><td style="vertical-align:top;">[[Österreichisches Eisenbahn-Kursbuch#Fahrplanbilder|Kursbuchstrecke&nbsp;(ÖBB)]]:</td><td>{{{AT-KBS}}}</td></tr>
+}}{{#if: {{{CH-FPF|}}}|<tr><td style="vertical-align:top;">[[Liste der Fahrplanfelder|Fahrplanfeld]]:</td><td>{{{CH-FPF}}}</td></tr>
+}}{{#if: {{{CZ-KBS|}}}|<tr><td style="vertical-align:top;">[[Liste der Kursbuchstrecken in Tschechien|Kursbuchstrecke&nbsp;(SŽDC)]]:</td><td>{{{CZ-KBS}}}</td></tr>
+}}{{#if: {{{FR-KBS|}}}|<tr><td style="vertical-align:top;">[[Liste der Kursbuchstrecken in Frankreich|Kursbuchstrecke&nbsp;(SNCF)]]:</td><td>{{{FR-KBS}}}</td></tr>
+}}{{#if: {{{IT-KBS|}}}|<tr><td style="vertical-align:top;">[[Liste der italienischen Eisenbahnstrecken#Bahnstrecken von RFI|Kursbuchstrecke&nbsp;(IT)]]:</td><td>{{{IT-KBS}}}</td></tr>
+}}{{#if: {{{RO-KBS|}}}|<tr><td style="vertical-align:top;">[[Liste der Kursbuchstrecken in Rumänien|Kursbuchstrecke&nbsp;(CFR)]]:</td><td>{{{RO-KBS}}}</td></tr>
+}}{{#if: {{{SK-KBS|}}}|<tr><td style="vertical-align:top;">[[Liste der Kursbuchstrecken in der Slowakei|Kursbuchstrecke&nbsp;(ZSSK)]]:</td><td>{{{SK-KBS}}}</td></tr>
+}}{{#if: {{{KBS|}}}|<tr><td style="vertical-align:top;">[[Kursbuch]]strecke:</td><td>{{{KBS}}}</td></tr>
+}}{{#if: {{{LÄNGE|}}}|<tr><td style="vertical-align:top;">Lunghëza de la trata:</td><td>{{{LÄNGE}}}&nbsp;km</td></tr>
+}}{{#if: {{{SPURWEITE|}}}|{{#switch: {{{SPURWEITE}}}
+ | keine
+ | nein
+ | ohne = <!-- hier steht absichtlich nichts! -->
+ |#default = <tr><td style="vertical-align:top;">[[Destenduda de la scines]]:</td><td>{{{SPURWEITE}}}&nbsp;mm <small>{{#switch: {{{SPURWEITE}}}
+ | 1676 = ([[Indische Breitspur|Kolonialspur]])
+ | 1668 = ([[Iberische Breitspur|Iberische Spur]])
+ | 1600 = ([[Irische Breitspur|Irische Spur]])
+ | 1581 = ([[Breitspur]])
+ | 1524 = ([[Russische Breitspur|Russische Spur]])
+ | 1520 = ([[Russische Breitspur|Russische Spur]])
+ | 1435 = ([[Destenduda normala]])
+ | 1372 = ([[Schmalspurbahn|Schottische Spur]])
+ | 1291 = ([[Schmalspurbahn|4-Fuß-Spur]])
+ | 1067 = ([[Kapspur]])
+ | 1000 = ([[Meterspur]])
+ | 950 = ([[Schmalspurbahn#Italien|ital. Meterspur]])
+ | 914 = ([[Schmalspurbahn|engl. 3-Fuß-Spur]])
+ | 900 = ([[Schmalspurbahn|Schmalspur]])
+ | 891 = ([[Schmalspurbahn#Schweden|schwed. 3-Fuß-Spur]])
+ | 802 = ([[Schmalspurbahn|Schmalspur (Schweden)]])
+ | 800 = ([[Schmalspurbahn|Schmalspur]])
+ | 762 = ([[Schmalspurbahn|Schmalspur]])
+ | 760 = (destenduda bosniaca)
+ | 750 = ([[Schmalspurbahn|Schmalspur]])
+ | 692 = ([[Schmalspurbahn|Schmalspur]])
+ | 610 = ([[Schmalspurbahn|2-Fuß-Spur]])
+ | 603 = ([[Schmalspurbahn|Schmalspur]])
+ | 600 = ([[Schmalspurbahn|Schmalspur]])
+ | 597 = ([[Schmalspurbahn|Schmalspur]])
+ | 500 = ([[Schmalspurbahn|Schmalspur]])
+ | 381 = ([[Liliputbahn]])
+ | #default = <!--kein Text-->
+}}</small><!--Ende switch 2 SPURWEITE
+-->{{#if: {{NAMESPACE}} || {{#if:{{{SPURWEITENKATEGORIE|}}}|{{#switch: {{{SPURWEITENKATEGORIE}}}
+ | keine
+ | nein
+ | ohne = <!-- hier steht absichtlich nichts! -->
+ |#default = [[Categoria:Destenduda de la scines {{{SPURWEITENKATEGORIE}}} mm]]
+}}<!--Ende switch SPURWEITENKATEGORIE
+-->|{{#ifexist:Categoria:Destenduda de la scines {{{SPURWEITE}}} mm|[[Categoria:Destenduda de la scines {{{SPURWEITE}}} mm]]|[[Categoria:Wikipedia:Destenduda de la scines mo nia categoriseda]]}}<!-- Ende ifexist ...
+-->}}<!-- Ende if SPURWEITEKATEGORIE
+-->}}<!-- Ende if NAMESPACE
+-->}}<!-- Ende switch 1 SPURWEITE
+--></td></tr>|<!-- Beginn Else SPURWEITE
+
+Parameterwartung
+
+-->{{#ifeq: {{NAMESPACENUMBER}} | 0 | <tr class="editoronly" style="display:none;"><td colspan="2"><!--
+-->{{#invoke:TemplatePar|check
+| all = SPURWEITE=
+| opt = BILDPFAD_KARTE= PIXEL_KARTE= TEXT_KARTE= BILDPFAD_FOTO= PIXEL_FOTO= TEXT_FOTO= DE-STRECKENNR= AT-STRECKENNR= FR-STRECKENNR= IT-STRECKENNR= STRECKENNR= DE-KBS= AT-KBS= CH-FPF= CZ-KBS= FR-KBS= IT-KBS= RO-KBS= SK-KBS= KBS= LÄNGE= SPURWEITENKATEGORIE= NETZKATEGORIE= STRECKENKLASSE= STROMG= STROMW= STROMD= ZAHNSTANGE= NEIGUNGA= NEIGUNG= RADIUS= V-MAX= V-MAX-NT= ZSS= ZWEIGLEISIG=
+| cat = Wikipedia:Vorlagenfehler/Vorlage:BS-daten
+| template = [[Template:BS-daten]]
+}}</td></tr> }}<!-- Ende Else SPURWEITE
+-->}}{{#if: {{{NETZKATEGORIE|}}}|<tr><td style="vertical-align:top;">[[Netzkategorie]]:</td><td>{{{NETZKATEGORIE}}}</td></tr>
+}}{{#if: {{{STRECKENKLASSE|}}}|<tr><td style="vertical-align:top;">[[Streckenklasse]]:</td><td>{{{STRECKENKLASSE}}}</td></tr>
+}}{{#if: {{{STROMG|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMG}}}&nbsp;[[Gleichspannung|=]]</td></tr>
+}}{{#if: {{{STROMW|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMW}}}&nbsp;[[Wechselspannung|~]]</td></tr>
+}}{{#if: {{{STROMD|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMD}}}&nbsp;[[Dreiphasenwechselstrom|∆]]</td></tr>
+}}{{#if: {{{NEIGUNGA|}}}{{{NEIGUNG|}}}|<tr><td style="vertical-align:top;">[[Pendënza]] mascima:</td><td>{{#if: {{{NEIGUNGA|}}}|<small>Adhäsion</small> {{{NEIGUNGA|}}}&nbsp;[[Permile|‰]]<br /><small>Zahnstange</small>}} {{{NEIGUNG|}}}&nbsp;[[Permile|‰]]</td></tr>
+}}{{#if: {{{RADIUS|}}}|<tr><td style="vertical-align:top;">Mënder [[Radius]]:</td><td>{{{RADIUS}}}&nbsp;m</td></tr>
+}}{{#if: {{{ZAHNSTANGE|}}}|<tr><td style="vertical-align:top;">[[Zahnradbahn#Systeme|Zahnstangensystem]]:</td><td>{{{ZAHNSTANGE}}}</td></tr>
+}}{{#if: {{{V-MAX|}}}|<tr><td style="vertical-align:top;">Velozità mascima:</td><td>{{{V-MAX}}}&nbsp;km/h</td></tr>
+}}{{#if: {{{V-MAX-NT|}}}|<tr><td style="vertical-align:top;">Velozità mascima<br/>cun Neigetechnik:</td><td>{{{V-MAX-NT}}}&nbsp;km/h</td></tr>
+}}{{#if: {{{ZSS|}}}|<tr><td style="vertical-align:top;">[[Zugbeeinflussung]]:</td><td>{{{ZSS}}}</td></tr>
+}}{{#if: {{{ZWEIGLEISIG|}}}|<tr><td style="vertical-align:top;">[[Mehrgleisigkeit|Zweigleisigkeit]]:</td><td>{{{ZWEIGLEISIG}}}</td></tr>
+}}</onlyinclude>
+
+{{Documentation}}
