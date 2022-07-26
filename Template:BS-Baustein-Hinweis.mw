@@ -3,7 +3,4 @@
 | '''Diese Vorlage ist Teil der [[Wikipedia:Formatvorlage Bahnstrecke|Formatvorlage Bahnstrecke]] '''
 
 Lies Dir bitte vor der Verwendung die Anleitung dort durch. Insbesondere sollten diese Vorlagen nur in Infoboxen und sonstigen grafischen Elementen verwendet werden. '''Eine Verwendung im Fließtext ist zu vermeiden.'''
-|}{{#ifeq:{{NAMESPACE}}|{{ns:10}}|
-[[Kategorie:Vorlage:Infobox Bahnstrecke|{{PAGENAME}}]]
-}}<noinclude>
-</noinclude>
+|}
