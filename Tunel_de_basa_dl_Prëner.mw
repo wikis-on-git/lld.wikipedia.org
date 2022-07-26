@@ -1,8 +1,8 @@
 {{gherdëina}}{| class="wikitable float-right"
-{{BS-header|Streckenführung}}
+{{BS-header|Trata}}
 {{BS-daten
 | BILDPFAD_KARTE = Karte Brennerbasistunnel.png
-| PIXEL_KARTE = 5px
+| PIXEL_KARTE = 250px
 | TEXT_KARTE = Trata dl Tunel de basa dl Prëner (brum)
 | SPURWEITE= 1435
 }}
