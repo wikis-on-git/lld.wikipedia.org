@@ -12,8 +12,8 @@
 |verbania|verbano|cusio|ossola|verbano/cusio/ossola|verbano-cusio-ossola=Provincia del Verbano-Cusio-Ossola
 |monza|monza e brianza=Provincia di Monza e della Brianza
 |bolzano|trento=Provincia autonoma di {{{1}}}
-|bari|bologna|cagliari|catania|firenze|genova|messina|milano|napoli|palermo|torino|reggio calabria|venezia=Città metropolitana di {{{1}}}
-|roma=Città metropolitana di Roma Capitale
+|bari|bologna|cagliari|catania|firenze|genova|messina|milano|napoli|palermo|torino|reggio calabria|venezia=Zità metropolitana de {{{1}}}
+|roma=Zità metropolitana de Roma Capitela
 |agrigento|caltanissetta|enna|ragusa|siracusa|trapani=Libero consorzio comunale di {{{1}}}
 |trieste|udine|gorizia|pordenone=Ente di decentramento regionale di {{{1}}}
 |#default = Provinzia de {{ucfirst:{{{1}}}}} 
