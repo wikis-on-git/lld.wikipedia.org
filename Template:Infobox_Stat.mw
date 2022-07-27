@@ -34,18 +34,18 @@
 |-
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Guviern
 {{#if:{{{Forma de guviern|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Forma de guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Forma de guviern}}}  | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Forma de guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Forma de guviern}}}  | {{!}}- }}
 {{#if:{{{Monarch|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Monarch''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Monarch}}} | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Monarch''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Monarch}}} | {{!}}- }}
 {{#if:{{{Presidënt|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Presidënt}}} | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Presidënt}}} | {{!}}- }}
 {{#if:{{{Vize-Presidënt|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Vize-Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Vize-Presidënt}}} | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Vize-Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Vize-Presidënt}}} | {{!}}- }}
 {{#if:{{{Prim minister|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Prim minister''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Prim minister}}} | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Prim minister''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Prim minister}}} | {{!}}- }}
 {{#if:{{{Canzelier|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | }}
-|-
+{{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | {{!}}- }}
+|- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Economia
 {{#if:{{{PIB numinel|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''[[Prudot intern brutto|PIB]]''' (numinel)<br>&bull; de ndut<br>&bull; a persona {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} ({{{Ann PIB}}})<br>${{formatnum:{{{PIB numinel}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB numinel}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} | }}
