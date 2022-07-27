@@ -21,4 +21,23 @@
 --></noinclude>{{safesubst<noinclude />:#if:{{{40|}}}|<div>{{{39|}}}<span class="switcher-label" style="display:none" {{safesubst<noinclude />:#ifeq:{{{default|}}}|20|data-switcher-default=""}}>{{safesubst<noinclude />:trim|{{{40|}}}}}</span></div>}}<noinclude><!--
 --></noinclude></div><noinclude>
 {{Documentation}}
+
+
+
+== Example ==
+<pre>
+{{Switcher
+| [[File:Example.png|300px]]
+| Un exemple
+| [[File:Example image not to be used in article namespace.jpg|300px]]
+| Un altre exemple
+}}
+</pre>
+Resultat:
+{{Switcher
+| [[File:Example.png|300px]]
+| Un exemple
+| [[File:Example image not to be used in article namespace.jpg|300px]]
+| Un altre exemple
+}}
 </noinclude>
