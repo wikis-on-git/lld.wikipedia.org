@@ -1,0 +1,6 @@
+<includeonly>{{#ifexist:Template:Divisione amministrativa/Stemmi/{{{1}}}|{{Divisione amministrativa/Stemmi/{{{1}}}|{{{2}}}|{{{3}}}}}}}</includeonly><noinclude>
+{{Protetta}}
+{{man}}
+
+[[Categoria:Template Divisione amministrativa|Stemmi]]
+</noinclude>
