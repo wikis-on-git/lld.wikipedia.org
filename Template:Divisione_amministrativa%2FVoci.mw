@@ -1,6 +1,6 @@
 <includeonly>{{#ifexist:Template:Divisione amministrativa/Voci/{{{1}}}|{{Divisione amministrativa/Voci/{{{1}}}|{{{2}}}|{{{3}}}}}}}</includeonly><noinclude>
-{{Protetta}}
-{{man}}
+
+{{Documentation}}
 
 [[Categoria:Template Divisione amministrativa|Voci]]
 </noinclude>
