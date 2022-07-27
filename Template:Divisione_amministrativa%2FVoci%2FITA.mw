@@ -2,13 +2,13 @@
 |1=
 |2={{#switch: {{lc:{{{1|}}}}}
 |spezia
-|la spezia=Provincia della Spezia
+|la spezia=Provinzia de La Spezia
 |aquila
-|l'aquila=Provincia dell'Aquila
-|medio campidano=Provincia del Medio Campidano
-|sud sardegna=Provincia del Sud Sardegna
+|l'aquila=Provinzia de L'Aquila
+|medio campidano=Provinzia dl Medio Campidano
+|sud sardegna=Provinzia dl Sud Sardegna
 |l'ogliastra
-|ogliastra=Provincia dell'Ogliastra
+|ogliastra=Provinzia de l'Ogliastra
 |verbania|verbano|cusio|ossola|verbano/cusio/ossola|verbano-cusio-ossola=Provincia del Verbano-Cusio-Ossola
 |monza|monza e brianza=Provincia di Monza e della Brianza
 |bolzano|trento=Provincia autonoma di {{{1}}}
@@ -16,7 +16,7 @@
 |roma=Città metropolitana di Roma Capitale
 |agrigento|caltanissetta|enna|ragusa|siracusa|trapani=Libero consorzio comunale di {{{1}}}
 |trieste|udine|gorizia|pordenone=Ente di decentramento regionale di {{{1}}}
-|#default = Provincia di {{ucfirst:{{{1}}}}} 
+|#default = Provinzia de {{ucfirst:{{{1}}}}} 
 }}
 |3 = {{#switch: {{lc:{{{1|}}}}}
 <!-- |brione = Brione (Lombardia)
