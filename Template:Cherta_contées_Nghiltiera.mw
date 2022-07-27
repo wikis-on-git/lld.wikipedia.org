@@ -1,0 +1,152 @@
+<includeonly>{{#if:{{{caption|}}}|
+<div class="thumb {{#switch:{{{float|}}}
+  | left = tleft
+  | none = tnone
+  | center = center tnone
+  | #default = tright
+  }}">
+<div class="thumbinner noresize" style="width:{{#expr:{{{width|515}}}+2}}px">
+<div class="thumbimage">
+}}{{Image label begin
+|image={{#switch:{{{year|1998}}}
+   |1851=English counties 1851
+   |1889=English geographical counties 1889
+   |1965=English geographical counties 1965
+   |1974=English counties 1974
+   |1996=English ceremonial counties 1996
+   |1997=English ceremonial counties 1997
+   |1998=English ceremonial counties 1998
+   }}{{#if:{{{showridings|}}}|{{sp}}with ridings|}}.svg
+|link=
+|width={{{width|515}}}
+|float={{{float|none}}}
+}}
+{{Image label small|x=.955|y=.035|scale={{{width|515}}}
+|text=[[File:Circle-information.svg|20px|image attribution|link=File:{{#switch:{{{year|1998}}}
+   |1851=English counties 1851
+   |1889=English geographical counties 1889
+   |1965=English geographical counties 1965
+   |1974=English counties 1974
+   |1996=English ceremonial counties 1996
+   |1997=English ceremonial counties 1997
+   |1998=English ceremonial counties 1998
+   }}{{#if:{{{showridings|}}}|{{sp}}with ridings|}}.svg]]
+}} 
+<!-- THE FOLLOWING COUNTIES ARE IN ALL MAPS -->
+{{Image label small|x=.49 |y=.16 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Northumberland {{{suffix|}}}|Northumberland]]}}
+{{Image label small|x=.54 |y=.26 |scale={{{width|515}}}|text={{Alternative links|1={{{ns|}}}{{{prefix|}}} {{{hash|}}}County Durham {{{suffix|}}}|2={{{ns|}}}{{{prefix|}}} {{{hash|}}}Durham {{{suffix|}}}|title=Durham}}}}
+{{Image label small|x=.437|y=.43 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Lancashire {{{suffix|}}}|Lancashire]]}}
+{{Image label small|x=.455|y=.545|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cheshire {{{suffix|}}}| Cheshire]]}}
+{{Image label small|x=.575|y=.55 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Derbyshire {{{suffix|}}}|Derbs.]]}}
+{{Image label small|x=.64 |y=.57 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Nottinghamshire {{{suffix|}}}|Notts.]]}}
+{{Image label small|x=.705|y=.555|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Lincolnshire {{{suffix|}}}| Lincolnshire]]}}
+{{Image label small|x=.63 |y=.65 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Leicestershire {{{suffix|}}}|Leics.]]}}
+{{Image label small|x=.515|y=.61 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Staffordshire {{{suffix|}}}|Staffs.]]}}
+{{Image label small|x=.435|y=.66 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Shropshire {{{suffix|}}}| Shropshire]]}}
+{{Image label small|x=.575|y=.73 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Warwickshire {{{suffix|}}}|Warks.]]}}
+{{Image label small|x=.64 |y=.72 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Northamptonshire {{{suffix|}}}|Northants.]]}}
+{{Image label small|x=.85 |y=.65 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Norfolk {{{suffix|}}}| Norfolk]]}}
+{{Image label small|x=.87 |y=.74 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Suffolk {{{suffix|}}}| Suffolk]]}}
+{{Image label small|x=.81 |y=.83 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Essex {{{suffix|}}}| Essex]]}}
+{{Image label small|x=.73 |y=.825|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Hertfordshire {{{suffix|}}}|Herts.]]}}
+{{Image label small|x=.715|y=.765|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Bedfordshire {{{suffix|}}}|Beds.]]}}
+{{Image label small|x=.66 |y=.805|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Buckinghamshire {{{suffix|}}}|Bucks.]]}}
+{{Image label small|x=.597|y=.815|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Oxfordshire {{{suffix|}}}|Oxon.]]}}
+{{Image label small|x=.52 |y=.82 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Gloucestershire {{{suffix|}}}|Glos.]]}}
+{{Image label small|x=.41 |y=.96 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Somerset {{{suffix|}}}| Somerset]]}}
+{{Image label small|x=.525|y=.91 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Wiltshire {{{suffix|}}}| Wiltshire]]}}
+{{Image label small|x=.62 |y=.895|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Berkshire {{{suffix|}}}| Berkshire]]}}
+{{Image label small|x=.83 |y=.93 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Kent {{{suffix|}}}| Kent]]}}
+{{Image label small|x=.71 |y=.93 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Surrey {{{suffix|}}}| Surrey]]}}
+{{Image label small|x=.597|y=.955|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Hampshire {{{suffix|}}}| Hampshire]]}}
+{{Image label small|x=.49 |y=1.01|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Dorset {{{suffix|}}}| Dorset]]}}
+{{Image label small|x=.32 |y=1.02|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Devon {{{suffix|}}}| Devon]]}}
+{{Image label small|x=.21 |y=1.08|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cornwall {{{suffix|}}} | Cornwall]]}}
+<!-- HEREFORDSHIRE AND WORCESTERSHIRE -->
+{{#switch:{{{year|1998}}}
+ |1974
+ |1996
+ |1997={{Image label small|x=.45 |y=.74|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Hereford and Worcester {{{suffix|}}}|Hereford & <br />Worcester]]}}
+ |#default={{Image label small|x=.44 |y=.76|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Herefordshire {{{suffix|}}}|Heref.]]}}
+           {{Image label small|x=.507|y=.73|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Worcestershire {{{suffix|}}}|Worcs.]]}}
+}}
+<!-- AVON, CLEVELAND, HUMBERSIDE, BRISTOL, EAST RIDING -->
+{{#switch:{{{year|1998}}}
+ |1974={{Image label small|x=.47 |y=.89|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Avon (county) {{{suffix|}}}|Avon]]}}
+       {{Image label small|x=.63 |y=.28|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cleveland, England {{{suffix|}}}|Cleveland]]}}
+       {{Image label small|x=.68 |y=.43|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Humberside {{{suffix|}}}|Humberside]]}}
+ |1996
+ |1997
+ |1998={{Image label small|x=.43 |y=.88|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Bristol {{{suffix|}}}|Bristol]]}}
+       {{Image label small|x=.68 |y=.41|scale={{{width|515}}}|text=[[{{{ns|}}}{{{ERYprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}East Riding of Yorkshire {{{suffix|}}}|East Riding<br />of Yorkshire]]}}
+}}
+<!-- RUTLAND -->
+{{#switch:{{{year|1998}}}
+ |1974
+ |1996=
+ |#default={{Image label small|x=.695|y=.645|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Rutland {{{suffix|}}}|Rutland]]}}
+}}
+<!-- CAMBRIDGESHIRE -->
+{{#switch:{{{year|1998}}}
+ |1851
+ |1889    ={{Image label small|x=.77 |y=.745|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cambridgeshire {{{suffix|}}}|Cambs.]]}}
+           {{Image label small|x=.73 |y=.71|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Huntingdonshire {{{suffix|}}}|Hunts.]]}}
+ |1965    ={{Image label small|x=.78 |y=.71|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cambridgeshire and Isle of Ely {{{suffix|}}}|Cambs.<br />& Isle<br />of Ely]]|text-align=left}}
+           {{Image label small|x=.73 |y=.67|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Huntingdon and Peterborough {{{suffix|}}}|Hunt.<br />& Pet.]]}}
+ |#default={{Image label small|x=.75 |y=.71|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cambridgeshire {{{suffix|}}}|Cambs.]]}}
+}}
+<!-- LONDON -->
+{{#switch:{{{year|1998}}}
+ |1851    ={{Image label small|x=.73 |y=.87 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Middlesex {{{suffix|}}}|Middx.]]}}
+ |1889    ={{Image label small|x=.76 |y=.88 |scale={{{width|515}}}|text=[[{{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}County of London {{{suffix|}}}|London]]}}
+           {{Image label small|x=.73 |y=.86 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Middlesex {{{suffix|}}}|Middx.]]}}
+ |#default={{Image label small|x=.732|y=.867|scale={{{width|515}}}|text=[[{{{ns|}}}{{{Londonprefix|{{{prefix|}}}}}} {{{hash|}}}London {{{suffix|}}}|Greater<br />London]]}}
+}}
+{{#switch:{{{showcity|auto}}}
+ |yes = {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Not shown: [[{{{ns|}}}{{{CityPrefix|{{#if: {{{prefix|}}} | {{{prefix|}}} the |}}}}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
+ |no =
+ |auto
+ |#default={{#ifexist: {{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}City of London {{{suffix|}}}
+             | {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Not shown: [[{{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
+             |
+           }} 
+}}
+<!-- ALL OTHER 1974 CHANGES -->
+{{#switch:{{{year|1998}}}
+ |1851
+ |1889
+ |1965={{Image label small|x=.395|y=.245|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cumberland {{{suffix|}}}|Cumberland]]}}
+       {{Image label small|x=.42 |y=.30 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Westmorland {{{suffix|}}}|Westmorland]]}}
+       {{Image label small|x=.73 |y=.98 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Sussex|Sussex]]}}
+       {{#if:{{{showridings|}}}
+        | {{Image label|x=.60 |y=.37 |scale={{{width|515}}}|text={{Alternative links|1={{{ns|}}}{{{prefix|}}} {{{hash|}}}Yorkshire {{{suffix|}}}|title=Yorkshire|alt=Yorkshire}}}}
+          {{Image label small|x=.66 |y=.42|scale={{{width|515}}}|text=[[{{{ns|}}}{{{ERYprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}East Riding of Yorkshire {{{suffix|}}}|''East Riding'']]}}
+          {{Image label small|x=.56 |y=.33 |scale={{{width|515}}}|text=[[{{{ns|}}}{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} {{{hash|}}}North Riding of Yorkshire {{{suffix|}}}|''North Riding'']]}}
+          {{Image label small|x=.57 |y=.43 |scale={{{width|515}}}|text=[[{{{ns|}}}{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} {{{hash|}}}West Riding of Yorkshire {{{suffix|}}}|''West<br />Riding'']]}}
+        | {{Image label small|x=.58 |y=.40 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Yorkshire {{{suffix|}}}|Yorkshire]]}}
+       }}
+ |1974
+ |1996
+ |1997
+ |1998={{Image label small|x=.59 |y=.20 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Tyne and Wear {{{suffix|}}}|Tyne &<br />Wear]]|text-align=right}}
+       {{Image label small|x=.41 |y=.28 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cumbria {{{suffix|}}}|Cumbria]]}}
+       {{Image label small|x=.56 |y=.35 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}North Yorkshire {{{suffix|}}}|North Yorkshire]]}}
+       {{Image label small|x=.60 |y=.49 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}South Yorkshire {{{suffix|}}}|South<br />Yorks.]]}}
+       {{Image label small|x=.55 |y=.43 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}West Yorkshire {{{suffix|}}}|West<br />Yorkshire]]}}
+       {{Image label small|x=.487|y=.48 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Greater Manchester {{{suffix|}}}|Greater<br />Manc.]]|text-align=right}}
+       {{Image label small|x=.375|y=.50 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Merseyside {{{suffix|}}}|Merseyside]]}}
+       {{Image label small|x=.78 |y=.975|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}East Sussex {{{suffix|}}}|East<br />Sussex]]}}
+       {{Image label small|x=.69 |y=.975|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}West Sussex {{{suffix|}}}|West<br />Sussex]]}}
+       {{Image label small|x=.605|y=1.05|scale={{{width|515}}}|text=[[{{{ns|}}}{{{IOWprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}Isle of Wight {{{suffix|}}}| Isle of<br />Wight]]}}
+       {{Image label small|x=.54 |y=.68 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{WMprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}West Midlands {{{WMsuffix|{{{suffix|}}}}}}|West<br />Midlands]]|text-align=left}}
+}}
+{{Image label end}}{{#if:{{{caption|}}}|</div>
+<div class="thumbcaption">{{{caption}}}</div></div></div>
+}}</includeonly><noinclude>
+{{England Ceremonial Counties Labelled Map|WMsuffix=(county)|Londonprefix=Greater}}
+The result of {{tlx|England Ceremonial Counties Labelled Map|WMsuffix{{=}}(county)|Londonprefix{{=}}Greater}}
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+
+</noinclude>
