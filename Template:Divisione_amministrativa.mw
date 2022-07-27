@@ -1,0 +1,245 @@
+<includeonly>{{Infobox
+|NomeTemplate    = Divisione amministrativa
+|LinkWikidata    = sì
+|TitoloInt       = {{Pipetrick||{{{Nome|}}}}}
+|StileTitoloInt  = {{Divisione amministrativa/Colore|{{{Grado amministrativo|}}}}}
+|StileGruppo     = {{Divisione amministrativa/Colore|{{{Grado amministrativo|}}}}}
+|StileNome       = width:80px;
+
+<!-- Sottotitolo: automatico se Grado>0 e DivAmm presente, manuale se indicato Tipo -->
+|SottoTitolo     = {{#if:{{{Tipo|}}}|{{{Tipo}}}|{{#if:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}|{{#if:{{{Data soppressione|}}}|ex&nbsp;}}{{Minuscola|{{DivAmmW|{{{Stato}}}|{{{Grado amministrativo}}}|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}} }} }} }} }}
+
+<!-- Messaggio di errore se Grado amministrativo presenta un valore che non corrisponde a un numero o non è compilato -->
+|Valore1   = {{#if:{{{Grado amministrativo|}}}
+  |{{#if:{{IsNumber|{{{Grado amministrativo}}}}}||{{Errore template|Grado amministrativo|Divisioni amministrative|man=Template:Divisione amministrativa/man|t=r}}}}
+  |{{Errore template|Grado amministrativo|Divisioni amministrative|man=Template:Divisione amministrativa/man}}
+ }}
+
+|Valore2   = {{{Nome ufficiale|}}}
+|Valore3   = {{#if:{{{Stemma|}}}{{{Bandiera|}}}{{WikidataValido|P41}}{{WikidataValido|P94}}
+  |<table style="margin:auto; padding:0px; border-spacing:5px 0px;"><tr>{{#if:{{{Stemma|}}}{{WikidataValido|P94}}
+    |<td style="max-width:80px; vertical-align:middle;">[[File:{{Wikidata|P94|{{{Stemma|}}}|n=1}}|80x125px|{{Pipetrick||{{{Nome|}}}}} – Stemma]]</td>
+   }}
+   {{#if:{{{Bandiera|}}}{{WikidataValido|P41}}
+    |<td style="max-width:125px; vertical-align:middle">[[File:{{Wikidata|P41|{{{Bandiera|}}}|n=1}}|125x125px{{#ifeq:{{{Bordo bandiera|}}}|no||{{!}}border}}|{{Pipetrick||{{{Nome|}}}}} – Bandiera]]</td>
+   }}</tr>
+   {{#if:{{{Voce stemma|}}}{{{Voce bandiera|}}}|<tr>{{#if:{{{Stemma|}}}{{WikidataValido|P94}}
+    |<td>{{#if:{{{Voce stemma|}}}|([[{{{Voce stemma}}}|dettagli]])}}</td>
+   }}
+   {{#if:{{{Bandiera|}}}{{WikidataValido|P41}}
+    |<td>{{#if:{{{Voce bandiera|}}}|([[{{{Voce bandiera}}}|dettagli]])}}</td>
+   }}</tr>}}</table>
+ }}
+|Valore4   = {{Immagine sinottico|{{{Panorama|}}}|{{{Didascalia|}}}|proprietà={{#ifexpr:{{{Grado amministrativo}}}>={{Divisione amministrativa/Grado città|{{{Stato}}}}}|P18}}|desc={{Pipetrick||{{{Nome|}}}}} – Veduta|dim_vert_max=250}}
+|Gruppo8   = Localizzazione
+|Nome9     = [[Stato]]
+|Valore9   = {{#if:{{{Stato|}}}
+  |{{#ifexist:Template:Naz/{{{Stato}}}
+    |{{band dip|{{{Stato}}}}}{{#ifeq:{{{Stato}}}|{{da CIO a ISO|{{{Stato}}}}}||{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative con Stato non riconosciuto]]}}}}
+    |{{Errore template|Stato|Divisioni amministrative|t=r|man=Template:Divisione amministrativa/man}} }}
+  |{{Errore template|Stato|Divisioni amministrative|man=Template:Divisione amministrativa/man}} }}{{{Note stato|}}}
+
+|Nome10    = {{DivAmmW|{{{Stato}}}|1|d1={{{Divisione amm grado 1|}}}}}
+|Valore10  = {{#ifexpr:{{{Grado amministrativo}}} > 1|{{#if:{{{Divisione amm grado 1|}}}|{{#invoke:String|arraytostring
+  |altpar1 = Divisione amm grado 1
+  |altpar2 = Voce divisione amm grado 1
+  |altpar3 = Stemma divisione amm grado 1
+  |par1 = Divisione amm grado 1-#
+  |par2 = Voce divisione amm grado 1-#
+  |par3 = Stemma divisione amm grado 1-#
+  |msg = \{\{Divisione amministrativa/DA{{!}}$1{{!}}$2{{!}}$3{{!}}{{{Stato}}}{{!}}1\}\}
+  |separatore = <br>
+  |Nmax = 5
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Divisione amm grado 1]]}}}}}}
+|Nome11    = {{DivAmmW|{{{Stato}}}|2|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+|Valore11  = {{#ifexpr:{{{Grado amministrativo}}} > 2|{{#if:{{{Divisione amm grado 2|}}}|{{#invoke:String|arraytostring
+  |altpar1 = Divisione amm grado 2
+  |altpar2 = Voce divisione amm grado 2
+  |altpar3 = Stemma divisione amm grado 2
+  |par1 = Divisione amm grado 2-#
+  |par2 = Voce divisione amm grado 2-#
+  |par3 = Stemma divisione amm grado 2-#
+  |msg = \{\{Divisione amministrativa/DA{{!}}$1{{!}}$2{{!}}$3{{!}}{{{Stato}}}{{!}}2\}\}
+  |separatore = <br>
+  |Nmax = 5
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Divisione amm grado 2]]}}}}}}
+|Nome12    = {{DivAmmW|{{{Stato}}}|3|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+|Valore12  = {{#ifexpr:{{{Grado amministrativo}}} > 3|{{#if:{{{Divisione amm grado 3|}}}|{{#invoke:String|arraytostring
+  |altpar1 = Divisione amm grado 3
+  |altpar2 = Voce divisione amm grado 3
+  |altpar3 = Stemma divisione amm grado 3
+  |par1 = Divisione amm grado 3-#
+  |par2 = Voce divisione amm grado 3-#
+  |par3 = Stemma divisione amm grado 3-#
+  |msg = \{\{Divisione amministrativa/DA{{!}}$1{{!}}$2{{!}}$3{{!}}{{{Stato}}}{{!}}3\}\}
+  |separatore = <br>
+  |Nmax = 5
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Divisione amm grado 3]]}}}}}}
+|Nome13    = {{DivAmmW|{{{Stato}}}|4|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+|Valore13  = {{#ifexpr:{{{Grado amministrativo}}} > 4|{{#if:{{{Divisione amm grado 4|}}}|{{#invoke:String|arraytostring
+  |altpar1 = Divisione amm grado 4
+  |altpar2 = Voce divisione amm grado 4
+  |altpar3 = Stemma divisione amm grado 4
+  |par1 = Divisione amm grado 4-#
+  |par2 = Voce divisione amm grado 4-#
+  |par3 = Stemma divisione amm grado 4-#
+  |msg = \{\{Divisione amministrativa/DA{{!}}$1{{!}}$2{{!}}$3{{!}}{{{Stato}}}{{!}}4\}\}
+  |separatore = <br>
+  |Nmax = 5
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Divisione amm grado 4]]}}}}}}
+|Nome14    = {{DivAmmW|{{{Stato}}}|5|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+|Valore14  = {{#ifexpr:{{{Grado amministrativo}}} > 5|{{#if:{{{Divisione amm grado 5|}}}|{{#invoke:String|arraytostring
+  |altpar1 = Divisione amm grado 5
+  |altpar2 = Voce divisione amm grado 5
+  |altpar3 = Stemma divisione amm grado 5
+  |par1 = Divisione amm grado 5-#
+  |par2 = Voce divisione amm grado 5-#
+  |par3 = Stemma divisione amm grado 5-#
+  |msg = \{\{Divisione amministrativa/DA{{!}}$1{{!}}$2{{!}}$3{{!}}{{{Stato}}}{{!}}5\}\}
+  |separatore = <br>
+  |Nmax = 5
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Divisione amm grado 5]]}}}}}}
+
+|GruppoOpzionale18  = Amministrazione
+|Nome19    = [[Capoluogo]]
+|Valore19  = {{{Capoluogo|}}}
+|Nome20    = {{#if:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}A|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+  |{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}A|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+  |Amministratore locale
+ }}
+|Valore20  = {{#if:{{{Amministratore locale|}}}|{{{Amministratore locale}}}<small>{{#if:{{{Partito|}}}|&#32;({{{Partito}}})}}{{#if:{{{Data elezione|}}}|&#32;{{articolo data|{{{Data elezione}}}|dal&#32;|dall'}}{{{Data elezione}}}{{#if:{{{Data rielezione|}}}|&#32;({{#ifexpr:0 + {{{Mandato|0}}} + 0 > 2|{{{Mandato}}}|2}}º mandato {{articolo data|{{{Data rielezione}}}|dal&#32;|dall'}}{{{Data rielezione}}})}}}}</small> }}
+|Nome21    = {{#if:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}A'|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+  |{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}A'|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}
+  |Amministratore locale
+ }}
+|Valore21  = {{#if:{{{Amministratore locale 2|}}}|{{{Amministratore locale 2}}}<small>{{#if:{{{Partito 2|}}}|&#32;({{{Partito 2}}})}}{{#if:{{{Data elezione 2|}}}|&#32;{{articolo data|{{{Data elezione 2}}}|dal&#32;|dall'}}{{{Data elezione 2}}}{{#if:{{{Data rielezione 2|}}}|&#32;({{#ifexpr:0 + {{{Mandato 2|0}}} + 0 > 2|{{{Mandato 2}}}|2}}º mandato {{articolo data|{{{Data rielezione 2}}}|dal&#32;|dall'}}{{{Data rielezione 2}}})}}}}</small> }}
+|Nome22    = [[Lingua ufficiale|Lingue ufficiali]]
+|Valore22  = {{{Lingue ufficiali|}}}
+|Nome23    = Data di istituzione
+|Valore23  = {{{Data istituzione|}}}
+|Nome24    = Data di soppressione
+|Valore24  = {{{Data soppressione|}}}
+|Gruppo28  = Territorio
+|Nome29    = [[Coordinate geografiche|Coordinate]]{{#if:{{{Capoluogo|}}}|<br><small>del capoluogo</small>}}
+|Valore29  = {{#if:{{{Latitudine gradi|}}}{{{Latitudine decimale|}}}{{#property:P625}}|{{Coord
+  |{{{Latitudine gradi|}}}
+  |{{{Latitudine minuti|}}}
+  |{{{Latitudine secondi|}}}
+  |{{{Latitudine NS|}}}
+  |{{{Longitudine gradi|}}}
+  |{{{Longitudine minuti|}}}
+  |{{{Longitudine secondi|}}}
+  |{{{Longitudine EW|}}}
+  |latdec = {{{Latitudine decimale|}}}
+  |longdec = {{{Longitudine decimale|}}}
+  |{{Divisione amministrativa/Type|{{{Grado amministrativo}}}|{{{Stato}}}}}
+  |catuguali = 1
+  |display = inline,title
+  |format = dms
+  |name = {{{Nome|}}}
+ }}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza coordinate]]}} }}
+|Nome30    = [[Altitudine]]
+<!-- Spesso viene passato come altitudine un intervallo o altro valore non strettamente numerico. Usiamo temporaneamente il formatnum retrocompatibile per sondare gli utilizzi -->
+|Valore30  = {{#if:{{{Altitudine|}}}{{#property:P2044}}|{{Wikidata|P2044|{{#invoke:Formatnum retrocompatibile|main|{{{Altitudine|}}}}}|unit=metro|rounding=2|formatnum=sì}}&nbsp;{{mslm}}}}
+|Nome31    = [[Area|Superficie]]
+|Valore31  = {{#if:{{{Superficie|}}}{{#property:P2046}}|{{Wikidata|P2046|{{formatnum:{{{Superficie|}}}}}|unit=chilometro quadrato|formatnum=sì|n=1|rounding=2}}{{#if:{{{Note superficie|}}}|{{#tag:ref|{{{Note superficie}}}|name=template divisione amministrativa-superficie}}}} [[Chilometro quadrato|km²]]}}
+|Nome32    = [[Acque interne]]
+|Valore32  = {{#if:{{{Acque interne|}}}|{{#ifeq:{{lc:{{padleft:|1|{{{Acque interne}}}}}}}|t|Trascurabili|{{formatnum:{{{Acque interne}}}}} [[Chilometro quadrato|km²]] {{#if:{{Wikidata|P2046|{{{Superficie|}}}}}|({{formatnum:{{#expr: {{{Acque interne}}} / {{Wikidata|P2046|{{{Superficie|}}}|unit=sqkm|n=1}} * 100 round 2 }}}}%)}} }} }}
+|Nome33    = [[Popolazione|Abitanti]]
+|Valore33  = {{#if:{{{Abitanti|}}}|{{formatnum:{{#invoke:String|replace|{{{Abitanti}}}|.|}}}}{{#if:{{{Note abitanti|}}}|{{#tag:ref|{{{Note abitanti}}}|name=template divisione amministrativa-abitanti}}}}{{#if:{{{Aggiornamento abitanti|}}}|&#32;<small>({{{Aggiornamento abitanti}}})</small>}}|{{#if:{{NAMESPACE}}||[[Categoria:Divisioni amministrative senza Abitanti]]}}}}
+|Nome34    = [[Densità di popolazione|Densità]]
+|Valore34  = {{#if:{{#if:{{Wikidata|P2046|{{{Superficie|}}}}}|{{{Abitanti|}}}}}|{{formatnum:{{#expr: {{#invoke:String|replace|{{{Abitanti}}}|.|}} / {{Wikidata|P2046|{{{Superficie|}}}|unit=sqkm|n=1}} round 2 }}}} ab./[[Chilometro quadrato|km²]] }}
+|Nome35    = {{#if:{{#if:{{{Grado amministrativo|}}}|{{#ifexpr:{{{Grado amministrativo}}}>0|{{DivAmm|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 1)}}P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}} }}}}|{{DivAmmW|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 1)}}|P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}| Sottodivisioni}}
+|Valore35  = {{{Sottodivisioni|}}}
+|Nome36    = {{#if:{{#if:{{{Grado amministrativo|}}}|{{#ifexpr:{{{Grado amministrativo}}}>0|{{DivAmm|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 2)}}P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}} }}}}|{{DivAmmW|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 2)}}|P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}| Sottodivisioni ulteriori}}
+|Valore36  = {{{Sottosottodivisioni|}}}
+|Nome37    = {{#if:{{#if:{{{Grado amministrativo|}}}|{{#ifexpr:{{{Grado amministrativo}}}>0|{{DivAmm|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 3)}}P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}} }}}}|{{DivAmmW|{{{Stato}}}|{{#expr:trunc({{{Grado amministrativo}}} + 3)}}|P|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}| Sottodivisioni ulteriori}}
+|Valore37  = {{{Sottosottosottodivisioni|}}}
+|Nome38    = {{#if:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}P}}|{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}P|d1={{#ifexpr:{{{Grado amministrativo}}}>1|{{{Divisione amm grado 1|}}}}}|d2={{#ifexpr:{{{Grado amministrativo}}}>2|{{{Divisione amm grado 2|}}}}}}}|Divisioni}} confinanti
+|Valore38  = {{{Divisioni confinanti|}}}
+|Gruppo44  = Altre informazioni
+|Nome45    = Lingue
+|Valore45  = {{{Lingue|}}}
+|Nome46    = [[Codice postale|Cod. postale]]
+|Valore46  = {{Wikidata|P281|{{{Codice postale|}}}}}
+|Nome47    = [[Prefisso telefonico|Prefisso]]
+|Valore47  = {{Prefisso telefonico|{{{Prefisso|}}}}}
+|Nome48    = [[Fuso orario]]
+|Valore48  = {{Determina fuso orario|{{{Fuso orario|}}}|stato={{{Stato|}}}|div1={{#if:{{{Divisione amm grado 1-2|}}}||{{{Divisione amm grado 1|}}}}}|multiplo=no|cat=Divisioni amministrative senza Fuso orario|errmsg={{Errore template|Fuso orario|Divisioni amministrative|t=r|man=Template:Divisione amministrativa/man}} }}{{{Altri fusi|}}}
+|Nome49    = [[ISO 3166-2]]
+|Valore49  = {{Wikidata|P300|{{{Codice ISO|}}}}}
+|Nome50    = Codice {{#if:{{DivAmm|{{{Stato}}}|S}}|{{DivAmm|{{{Stato}}}|S}}|statistico}}
+|Valore50  = {{Codice statistico|{{{Codice statistico|}}}|iso3166={{{Stato}}}|grado={{{Grado amministrativo}}}}}
+|Nome51    = [[Codice catastale|Cod. catastale]]
+|Valore51  = {{Wikidata|P806|{{{Codice catastale|}}}}}
+|Nome55    = [[Targa d'immatricolazione|Targa]]
+|Valore55  = {{Wikidata|P395|{{{Targa|}}}}}
+|Nome56    = [[Classificazione sismica dell'Italia|Cl. sismica]]
+|Valore56  = {{#if:{{{Zona sismica|}}}|{{#ifexist:Template:Divisione amministrativa/Sismica/{{{Stato}}}|{{Divisione amministrativa/Sismica/{{{Stato}}}|{{{Zona sismica}}}}}|{{{Zona sismica}}} }} }}
+|Nome57    = [[Classificazione climatica {{#switch:{{{Stato}}}|ITA=dei comuni italiani}}|Cl. climatica]]
+|Valore57  = {{#if:{{{Gradi giorno|}}}|{{#ifexist:Template:Divisione amministrativa/Climatica/{{{Stato}}}|{{Divisione amministrativa/Climatica/{{{Stato}}}|{{{Gradi giorno}}}}}|{{{Gradi giorno}}} }} }}
+|Nome58    = [[Etnico (onomastica)|Nome abitanti]]
+|Valore58  = {{{Nome abitanti|}}}
+|Nome59    = [[Santo patrono|Patrono]]
+|Valore59  = {{{Patrono|}}}
+|Nome60    = [[Giorno festivo]]
+|Valore60  = {{{Festivo|}}}
+|Nome65    = [[Prodotto interno lordo|PIL]]
+|Valore65  = {{#if:{{{PIL|}}}|(nominale) {{{PIL}}}}}{{#if:{{{PIL PPA|}}}|{{#if:{{{PIL|}}}|<br>}}([[Parità di potere d'acquisto|PPA]]) {{{PIL PPA}}}}}
+|Nome66    = [[Reddito pro capite|PIL procapite]]
+|Valore66  = {{#if:{{{PIL procapite|}}}|(nominale) {{{PIL procapite}}}}}{{#if:{{{PIL procapite PPA|}}}|{{#if:{{{PIL procapite|}}}|<br>}}([[Parità di potere d'acquisto|PPA]]) {{{PIL procapite PPA}}}}}
+|Nome67    = Rappresentanza parlamentare
+|Valore67  = {{{Parlamentari|}}}
+|Nome68    = {{#if:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}R|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}|{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}R|d1={{{Divisione amm grado 1|}}}|d2={{{Divisione amm grado 2|}}}}}|Parte di}}
+|Valore68  = {{{Raggruppamento|}}}{{{Divisione amm grado 3.5|}}}
+|Nome69    = [[Inno]]
+|Valore69  = {{{Inno|}}}
+|Nome70    = Soprannome
+|Valore70  = {{{Soprannome|}}}
+|Nome71    = [[Motto]]
+|Valore71  = {{{Motto|}}}
+|GruppoOpzionale75 = Cartografia
+|Valore76  = {{#if:{{{Immagine localizzazione|}}}
+  |{{Immagine sinottico|{{{Immagine localizzazione|}}}|desc={{Pipetrick||{{{Nome|}}}}} – Localizzazione}}
+  |{{#if:{{{Latitudine decimale|}}}{{{Latitudine gradi|}}}{{#property:P625}}|{{Mappa di localizzazione
+    |{{Divisione amministrativa/Mappe speciali|{{{Stato}}}|{{{Divisione amm grado 1}}}}}
+    |label = {{#if:{{{Capoluogo|}}} | {{{Capoluogo}}} | {{Pipetrick||{{{Nome|}}}}} }}
+    |lat = {{#if:{{{Latitudine gradi|}}}|{{gms-dec|{{{Latitudine gradi|}}}|{{{Latitudine minuti|}}}|{{{Latitudine secondi|}}}|{{{Latitudine NS|}}}}}|{{{Latitudine decimale|}}}}}
+    |long = {{#if:{{{Longitudine gradi|}}}|{{gms-dec|{{{Longitudine gradi|}}}|{{{Longitudine minuti|}}}|{{{Longitudine secondi|}}}|{{{Longitudine EW|}}}}}|{{{Longitudine decimale|}}}}}
+    |sinottico = sì
+  }} }}
+ }}
+|Valore77  = {{Immagine sinottico|{{{Mappa|}}}|{{{Didascalia mappa|}}}|desc={{Pipetrick||{{{Nome|}}}}} – Mappa|dim_vert_max=250}}
+|Gruppo78  = {{Wikidata|P856|{{{Sito|}}}|pattern=[$1 Sito istituzionale]|n=1}}
+}}<!--
+
+        incipit automatico
+
+-->{{#ifeq:{{{Incipit}}}|si|'''{{#if:{{{Nome|}}}|{{{Nome}}}|{{PAGENAME}}}}''' è {{#ifeq:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}G}}|m|un|una}} [[{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}L}}|{{lc:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}}}}}]]{{#ifeq:{{#expr:{{#if:{{{Stato|}}}|1|0}} and {{#ifeq:{{AggNaz|{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}G}}s|{{{Stato}}}}}||0|1}}}}|1|&#32;{{AggNaz|{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}G}}s|{{{Stato}}}}}}}{{#if:{{{Abitanti|}}}|&#32;di {{formatnum:{{{Abitanti}}}}} abitanti{{#if:{{{Note abitanti|}}}|{{#tag:ref||name=template divisione amministrativa-abitanti}}|{{cn2}}[[Categoria:Divisioni amministrative con abitanti senza fonte]]}}}}{{#ifeq:{{#expr:{{#if:{{{Grado amministrativo|}}}|1|0}} and {{#ifeq:{{{Grado amministrativo|}}}|1|0|1}} and {{#if:{{{Stato|}}}|1|0}} and {{#if:{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}|}}}|1|0}} and {{#ifexist:Template:Divisione amministrativa/Preposizioni/{{{Stato|}}}|1|0}} and {{#ifeq:{{Divisione amministrativa/Preposizioni{{!}}{{{Stato|}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo|}}}-1}}}}}{{!}}{{#expr:{{{Grado amministrativo|}}}-1}}}}||0|1}} }}|1|&#32;{{#ifeq:{{DivAmm|{{{Stato}}}|{{#expr:{{{Grado amministrativo}}}-1}}G}}|m|del|della}} [[{{#if:{{{Voce divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}|}}}|{{{Voce divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#if:{{Divisione amministrativa/Voci|{{{Stato}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}|{{Divisione amministrativa/Voci|{{{Stato}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}}}}}|{{lc:{{DivAmm|{{{Stato}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}}} {{Divisione amministrativa/Preposizioni|{{{Stato}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}]]}}. }}<!--
+
+        autocategorizzazione
+
+-->{{#if:{{NAMESPACE}}||{{#ifeq:{{{Categoria}}}|si|{{#ifeq:{{#expr:{{#if:{{{Stato|}}}|0|1}} or {{#if:{{{Grado amministrativo|}}}|0|1}} or {{#if:{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}|}}}|0|1}} or {{#ifexist:Template:Divisione amministrativa/Preposizioni/{{{Stato}}}|0|1}} or {{#ifeq:{{Divisione amministrativa/Preposizioni|{{{Stato}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}||1|0}} }} |0|[[Categoria:{{DivAmm|{{{Stato}}}|{{{Grado amministrativo}}}P}} {{lc:{{#ifeq:{{DivAmm|{{{Stato}}}|{{#expr:{{{Grado amministrativo}}}-1}}G}}|m|del|della}} {{DivAmm|{{{Stato}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}}} {{Divisione amministrativa/Preposizioni|{{{Stato}}}|{{{Divisione amm grado {{#expr:{{{Grado amministrativo}}}-1}}}}}|{{#expr:{{{Grado amministrativo}}}-1}}}}{{#if:{{{Nome|}}}|{{!}}{{{Nome}}}}}]]}}}}}}<!--
+
+        categorie Wikidata
+
+-->{{Controllo Wikidata|P18|{{{Panorama|}}}|diff=no|uguale=no}}<!--
+-->{{Controllo Wikidata|P41|{{{Bandiera|}}}}}<!--
+-->{{Controllo Wikidata|P94|{{{Stemma|}}}}}<!--
+-->{{Controllo Wikidata|P281|{{{Codice postale|}}}}}<!--
+-->{{Controllo Wikidata|P300|{{{Codice ISO|}}}|diff=no}}<!--
+-->{{Controllo Wikidata|P395|{{{Targa|}}}}}<!--
+-->{{Controllo Wikidata|P806|{{{Codice catastale|}}}}}<!--
+-->{{Controllo Wikidata|P856|{{{Sito|}}}}}<!--
+-->{{Controllo Wikidata|P2044|{{{Altitudine|}}}|unit=metro}}<!--
+-->{{Controllo Wikidata|P2046|{{{Superficie|}}}|unit=chilometro quadrato}}<!--
+--></includeonly><noinclude>
+{{protetta}}
+{{Template complesso}}
+{{man}}
+{{TemplateData}}
+
+[[Categoria:Template Divisione amministrativa]]
+[[Categoria:Template sinottici che usano dati di Wikidata]]
+[[Categoria:Template sinottici che leggono le coordinate da Wikidata]]
+</noinclude>
