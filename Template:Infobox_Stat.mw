@@ -47,19 +47,12 @@
 {{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | }}
 |-
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Economia
-|- valign="top"
-|style="width:160px;font-size:90%" |'''[[Prudot intern brutto|PIB]]''' (numinel)<br>&bull; de ndut<br>&bull; a persona ||style="width:160px;font-size:90%" align="left" |({{{Ann PIB}}})<br>${{formatnum:{{{PIB numinel}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB numinel}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
-|-
-|style="width:160px;font-size:90%" |'''[[Prudot intern brutto|PIB]]''' ([[Valivanza dl pudëi de compra|VPC]])<br>&bull; de ndut<br>&bull; a persona ||style="width:160px;font-size:90%" align="left" | ({{{Ann PIB}}})<br>${{formatnum:{{{PIB VPC}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB VPC}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
-|- valign="top"
-
 {{#if:{{{PIB numinel|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''[[Prudot intern brutto|PIB]]''' (numinel)<br>&bull; de ndut<br>&bull; a persona {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} ({{{Ann PIB}}})<br>${{formatnum:{{{PIB numinel}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB numinel}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} | }}
 {{#if:{{{PIB VPC|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''[[Prudot intern brutto|PIB]]''' ([[Valivanza dl pudëi de compra|VPC]])<br>&bull; de ndut<br>&bull; a persona {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} ({{{Ann PIB}}})<br>${{formatnum:{{{PIB VPC}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB VPC}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} | }}
 |- valign="top"
 |style="width:160px;font-size:90%" |'''Munëida'''||style="width:160px;font-size:90%" align="left" |{{{Munëida}}}
-|- valign="top"
 |-
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Auter
 {{#if:{{{TLD Internet|}}} | {{!}}- valign="top"
