@@ -1,0 +1,11 @@
+{{Avviso
+|tipo = importante
+|immagine = [[Immagine:Transmission.png|40px|Avviso importante!]]
+|testo = Questo [[Aiuto:Template|template]] ha un [[codice sorgente]] piuttosto '''complesso'''.
+|testo secondario = La sua modifica può richiedere buona conoscenza delle [[Aiuto:Funzioni parser|funzioni parser]]. Per favore tenta di modificarlo solo se sei certo di '''capirne la funzione''' e sei preparato a '''riparare ogni conseguente danno collaterale''' nel caso in cui i risultati fossero diversi da quanto avevi in mente. Tutti gli esperimenti devono essere prima condotti in una <span class="plainlinks">'''[{{fullurl:{{FULLPAGENAME}}/Sandbox|action=edit&preload={{FULLPAGENAMEE}}&editintro=Template:Template_complesso/editintro}} pagina di prova]'''</span>.
+|sempre = sì
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|Utente||[[Categoria:Template complessi]]}}</includeonly><noinclude>
+{{man}}
+
+[[Categoria:Template di avviso template]]
+</noinclude>
