@@ -1,0 +1,6 @@
+<includeonly>[[File:{{{1}}}|{{#if:{{{2|}}}|{{{2}}}|20}}px|class=noviewer{{#ifeq:{{{link}}}|no|{{!}}link=}}|{{{3|}}}]]</includeonly><noinclude>{{Protetta}}
+{{man}}
+{{TemplateData}}
+
+[[Categoria:Template strumenti di layout immagini]]
+</noinclude>
