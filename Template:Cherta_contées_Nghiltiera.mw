@@ -143,8 +143,8 @@
 {{Image label end}}{{#if:{{{caption|}}}|</div>
 <div class="thumbcaption">{{{caption}}}</div></div></div>
 }}</includeonly><noinclude>
-{{England Ceremonial Counties Labelled Map|WMsuffix=(county)|Londonprefix=Greater}}
-The result of {{tlx|England Ceremonial Counties Labelled Map|WMsuffix{{=}}(county)|Londonprefix{{=}}Greater}}
+{{Cherta contées Nghiltiera|WMsuffix=(county)|Londonprefix=Greater}}
+The result of {{tlx|Cherta contées Nghiltiera|WMsuffix{{=}}(county)|Londonprefix{{=}}Greater}}
 
 {{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
