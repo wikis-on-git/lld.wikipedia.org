@@ -1,0 +1,11 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Oxfordshire
+| flag alias = County Flag of Oxfordshire.svg
+| flag alias-historic = Flag of Oxfordshire.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = historic
+</noinclude>
+}}
