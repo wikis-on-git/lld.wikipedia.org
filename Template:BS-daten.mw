@@ -74,7 +74,7 @@ Parameterwartung
 -->}}{{#if: {{{NETZKATEGORIE|}}}|<tr><td style="vertical-align:top;">[[Netzkategorie]]:</td><td>{{{NETZKATEGORIE}}}</td></tr>
 }}{{#if: {{{STRECKENKLASSE|}}}|<tr><td style="vertical-align:top;">[[Streckenklasse]]:</td><td>{{{STRECKENKLASSE}}}</td></tr>
 }}{{#if: {{{STROMG|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMG}}}&nbsp;[[Gleichspannung|=]]</td></tr>
-}}{{#if: {{{STROMW|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMW}}}&nbsp;[[Wechselspannung|~]]</td></tr>
+}}{{#if: {{{STROMW|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMW}}}&nbsp;[[Strom mudà ju|~]]</td></tr>
 }}{{#if: {{{STROMD|}}}|<tr><td style="vertical-align:top;">Sistem de strom:</td><td>{{{STROMD}}}&nbsp;[[Dreiphasenwechselstrom|∆]]</td></tr>
 }}{{#if: {{{NEIGUNGA|}}}{{{NEIGUNG|}}}|<tr><td style="vertical-align:top;">[[Pendënza]] mascima:</td><td>{{#if: {{{NEIGUNGA|}}}|<small>Adhäsion</small> {{{NEIGUNGA|}}}&nbsp;[[Permile|‰]]<br /><small>Zahnstange</small>}} {{{NEIGUNG|}}}&nbsp;[[Permile|‰]]</td></tr>
 }}{{#if: {{{RADIUS|}}}|<tr><td style="vertical-align:top;">Mënder [[Radius]]:</td><td>{{{RADIUS}}}&nbsp;m</td></tr>
