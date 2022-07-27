@@ -1,0 +1,12 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Leicestershire
+| flag alias = flag of Leicestershire.svg
+| flag alias-council = County flag of Leicestershire.svg
+| size = {{{size|}}}
+| name = {{{name|GB-LEC}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|council}}}
+<noinclude>
+| var1 = council
+</noinclude>
+}}
