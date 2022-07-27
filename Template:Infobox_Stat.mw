@@ -1,0 +1,149 @@
+<includeonly>{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:300px;"
+! colspan="2" bgcolor="lightgray" style="font-size:120%"|{{{Inuem}}}
+|-
+| colspan="2" bgcolor="lightgray" style="font-size:120%" align="center" |''{{{Inuem ufiziel}}}''
+|-
+| {{#if: {{{Blason|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Bandiera}}}|160px|border|center]] }}
+|-
+| colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"| {{#if:{{{Inn|}}} | '''Inn'''<br>''{{{Inuem inn}}}'' }}
+|-
+| colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| {{#if:{{{Inn|}}} |[[File:{{{Inn}}}]] }}
+|-
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;| [[File:{{{Cherta}}}|300px|border|center]]
+|-
+|style="width:160px;font-size:90%" |'''Inuem ufiziel''' || style="width:160px;font-size:90%" align="left" |{{{Inuem ufiziel}}}
+|-
+|style="width:160px;font-size:90%" |'''Rujeneda ufiziela'''|| style="width:160px;font-size:90%" align="left" |{{#if:{{{Lingaz 1|}}}|{{{Lingaz 1}}}}}{{#if:{{{Lingaz 2|}}}|&comma;&nbsp;{{{Lingaz 2}}}}}{{#if:{{{Lingaz 3|}}}|&comma;&nbsp;{{{Lingaz 3}}}}}{{#if:{{{Lingaz 4|}}}|&comma;&nbsp;{{{Lingaz 4}}}}}{{#if:{{{Lingaz 5|}}}|&comma;&nbsp;{{{Lingaz 5}}}}}
+|-
+|style="width:160px;font-size:90%" |'''Capitela''' || style="width:160px;font-size:90%" align="left" |{{{Capitela}}}
+|-
+{{#if:{{{Sënta guviern|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Sënta dl guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Sënta guviern}}}    |  }}
+{{#if:{{{Majera zità|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Majera zità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Majera zità}}}  |    }}
+|-
+|style="width:160px;font-size:90%" |'''Abitanc''' || style="width:160px;font-size:90%" align="left" |{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})
+|- valign="top" 
+|style="width:160px;font-size:90%"  |'''Spersa''' || style="width:160px;font-size:90%" align="left" | {{formatnum:{{{Spersa}}}&nbsp;km²}}{{#if:{{{Spersa tiera|}}}|<br>{{formatnum:{{{Spersa tiera}}} }}&nbsp;km²&nbsp;(tiera)}}
+|- valign="top"
+|style="width:160px;font-size:90%" | {{#if:{{{Ega|}}} | '''Ega'''}}  ||style="width:160px;font-size:90%" align="left" | {{#if:{{{Ega|}}}|{{{Ega}}}&percnt;}}
+|- valign="top"
+|style="width:160px;font-size:90%" |'''Densità''' || style="width:160px;font-size:90%" align="left" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Spersa}}} round 1 }}}}&nbsp;ab./km²
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Guviern
+{{#if:{{{Forma de guviern|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Forma de guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Forma de guviern}}}  | }}
+{{#if:{{{Monarch|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Monarch''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Monarch}}} | }}
+{{#if:{{{Presidënt|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Presidënt}}} | }}
+{{#if:{{{Vize-Presidënt|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Vize-Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Vize-Presidënt}}} | }}
+{{#if:{{{Prim minister|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Prim minister''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Prim minister}}} | }}
+{{#if:{{{Canzelier|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | }}
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Economia
+|- valign="top"
+|style="width:160px;font-size:90%" |'''[[Prudot intern brutto|PIB]]''' (numinel)<br>&bull; de ndut<br>&bull; a persona ||style="width:160px;font-size:90%" align="left" |({{{Ann PIB}}})<br>${{formatnum:{{{PIB numinel}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB numinel}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
+|-
+|style="width:160px;font-size:90%" |'''[[Prudot intern brutto|PIB]]''' ([[Valivanza dl pudëi de compra|VPC]])<br>&bull; de ndut<br>&bull; a persona ||style="width:160px;font-size:90%" align="left" | ({{{Ann PIB}}})<br>${{formatnum:{{{PIB VPC}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB VPC}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
+|- valign="top"
+
+{{#if:{{{PIB numinel|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''[[Prudot intern brutto|PIB]]''' (numinel)<br>&bull; de ndut<br>&bull; a persona {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} ({{{Ann PIB}}})<br>${{formatnum:{{{PIB numinel}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB numinel}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} | }}
+{{#if:{{{PIB VPC|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''[[Prudot intern brutto|PIB]]''' ([[Valivanza dl pudëi de compra|VPC]])<br>&bull; de ndut<br>&bull; a persona {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} ({{{Ann PIB}}})<br>${{formatnum:{{{PIB VPC}}}}} miliarc<br>${{formatnum:{{#expr: ({{{PIB VPC}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} | }}
+|- valign="top"
+|style="width:160px;font-size:90%" |'''Munëida'''||style="width:160px;font-size:90%" align="left" |{{{Munëida}}}
+|- valign="top"
+|-
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Auter
+{{#if:{{{TLD Internet|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''TLD Internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{TLD Internet}}}  | }}
+{{#if:{{{Prefis dl telefon|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Prefis dl telefon'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Prefis dl telefon}}}  | }}
+|- valign="top"
+|style="width:160px;font-size:90%"|'''Furnea a'''||style="width:160px;font-size:90%" align="left" | {{{Furnea a}}}
+|- valign="top"
+|style="width:160px;font-size:90%"|'''[[Codesc ISO 3166]]'''||style="width:160px;font-size:90%" align="left" | {{{Codesc ISO 3166}}}
+|-
+! colspan="2" bgcolor="lightgray" style="font-size:90%"|{{#if:{{{Cherta2|}}} | Cherta }}
+|-
+| colspan="2"  valign="top"| {{#if:{{{Cherta2|}}} | [[File:{{{Cherta2}}}|300px|border|center]] }}
+|-
+| colspan="2"  style="font-size:90%" valign="top"| {{#if:{{{p1|}}}{{{s1|}}}
+              |{{Infobox Stat/formernext|flag_p1={{{flag_p1|}}}|image_p1={{{image_p1|}}}|p1={{{p1|}}}|border_p1={{{border_p1|}}}|flag_p2={{{flag_p2|}}}|image_p2={{{image_p2|}}}|p2={{{p2|}}}|border_p2={{{border_p2|}}}|flag_p3={{{flag_p3|}}}|image_p3={{{image_p3|}}}|p3={{{p3|}}}|border_p3={{{border_p3|}}}|flag_p4={{{flag_p4|}}}|image_p4={{{image_p4|}}}|p4={{{p4|}}}|border_p4={{{border_p4|}}}|flag_p5={{{flag_p5|}}}|image_p5={{{image_p5|}}}|p5={{{p5|}}}|border_p5={{{border_p5|}}}|flag_p6={{{flag_p6|}}}|image_p6={{{image_p6|}}}|p6={{{p6|}}}|border_p6={{{border_p6|}}}|flag_p7={{{flag_p7|}}}|image_p7={{{image_p7|}}}|p7={{{p7|}}}|border_p7={{{border_p7|}}}|flag_p8={{{flag_p8|}}}|image_p8={{{image_p8|}}}|p8={{{p8|}}}|border_p8={{{border_p8|}}}|flag_p9={{{flag_p9|}}}|image_p9={{{image_p9|}}}|p9={{{p9|}}}|border_p9={{{border_p9|}}}|flag_p10={{{flag_p10|}}}|image_p10={{{image_p10|}}}|p10={{{p10|}}}|border_p10={{{border_p10|}}}|flag_p11={{{flag_p11|}}}|image_p11={{{image_p11|}}}|p11={{{p11|}}}|border_p11={{{border_p11|}}}|flag_p12={{{flag_p12|}}}|image_p12={{{image_p12|}}}|p12={{{p12|}}}|border_p12={{{border_p12|}}}|flag_p13={{{flag_p13|}}}|image_p13={{{image_p13|}}}|p13={{{p13|}}}|border_p13={{{border_p13|}}}|flag_p14={{{flag_p14|}}}|image_p14={{{image_p14|}}}|p14={{{p14|}}}|border_p14={{{border_p14|}}}|flag_p15={{{flag_p15|}}}|image_p15={{{image_p15|}}}|p15={{{p15|}}}|border_p15={{{border_p15|}}}|flag_p16={{{flag_p16|}}}|image_p16={{{image_p16|}}}|p16={{{p16|}}}|border_p16={{{border_p16|}}}|flag_p17={{{flag_p17|}}}|image_p17={{{image_p17|}}}|p17={{{p17|}}}|border_p17={{{border_p17|}}}|flag_p18={{{flag_p18|}}}|image_p18={{{image_p18|}}}|p18={{{p18|}}}|border_p18={{{border_p18|}}}|flag_p19={{{flag_p19|}}}|image_p19={{{image_p19|}}}|p19={{{p19|}}}|border_p19={{{border_p19|}}}|flag_p20={{{flag_p20|}}}|image_p20={{{image_p20|}}}|p20={{{p20|}}}|border_p20={{{border_p20|}}}|flag_p21={{{flag_p21|}}}|image_p21={{{image_p21|}}}|p21={{{p21|}}}|border_p21={{{border_p21|}}}|flag_s1={{{flag_s1|}}}|image_s1={{{image_s1|}}}|s1={{{s1|}}}|border_s1={{{border_s1|}}}|flag_s2={{{flag_s2|}}}|image_s2={{{image_s2|}}}|s2={{{s2|}}}|border_s2={{{border_s2|}}}|flag_s3={{{flag_s3|}}}|image_s3={{{image_s3|}}}|s3={{{s3|}}}|border_s3={{{border_s3|}}}|flag_s4={{{flag_s4|}}}|image_s4={{{image_s4|}}}|s4={{{s4|}}}|border_s4={{{border_s4|}}}|flag_s5={{{flag_s5|}}}|image_s5={{{image_s5|}}}|s5={{{s5|}}}|border_s5={{{border_s5|}}}|flag_s6={{{flag_s6|}}}|image_s6={{{image_s6|}}}|s6={{{s6|}}}|border_s6={{{border_s6|}}}|flag_s7={{{flag_s7|}}}|image_s7={{{image_s7|}}}|s7={{{s7|}}}|border_s7={{{border_s7|}}}|flag_s8={{{flag_s8|}}}|image_s8={{{image_s8|}}}|s8={{{s8|}}}|border_s8={{{border_s8|}}}|flag_s9={{{flag_s9|}}}|image_s9={{{image_s9|}}}|s9={{{s9|}}}|border_s9={{{border_s9|}}}|flag_s10={{{flag_s10|}}}|image_s10={{{image_s10|}}}|s10={{{s10|}}}|border_s10={{{border_s10|}}}|flag_s11={{{flag_s11|}}}|image_s11={{{image_s11|}}}|s11={{{s11|}}}|border_s11={{{border_s11|}}}|flag_s12={{{flag_s12|}}}|image_s12={{{image_s12|}}}|s12={{{s12|}}}|border_s12={{{border_s12|}}}|flag_s13={{{flag_s13|}}}|image_s13={{{image_s13|}}}|s13={{{s13|}}}|border_s13={{{border_s13|}}}|flag_s14={{{flag_s14|}}}|image_s14={{{image_s14|}}}|s14={{{s14|}}}|border_s14={{{border_s14|}}}|flag_s15={{{flag_s15|}}}|image_s15={{{image_s15|}}}|s15={{{s15|}}}|border_s15={{{border_s15|}}}|flag_s16={{{flag_s16|}}}|image_s16={{{image_s16|}}}|s16={{{s16|}}}|border_s16={{{border_s16|}}}|flag_s17={{{flag_s17|}}}|image_s17={{{image_s17|}}}|s17={{{s17|}}}|border_s17={{{border_s17|}}}|flag_s18={{{flag_s18|}}}|image_s18={{{image_s18|}}}|s18={{{s18|}}}|border_s18={{{border_s18|}}}|flag_s19={{{flag_s19|}}}|image_s19={{{image_s19|}}}|s19={{{s19|}}}|border_s19={{{border_s19|}}}|flag_s20={{{flag_s20|}}}|image_s20={{{image_s20|}}}|s20={{{s20|}}}|border_s20={{{border_s20|}}}|flag_s21={{{flag_s21|}}}|image_s21={{{image_s21|}}}|s21={{{s21|}}}|border_s21={{{border_s21|}}}}}
+}}
+|- 
+| colspan="2"  valign="top" style="font-size:80%" | {{#if:{{{footnote_a|}}}{{{footnote_b|}}}{{{footnote_c|}}}{{{footnote_d|}}}{{{footnote_e|}}}{{{footnote_f|}}}{{{footnote_g|}}}{{{footnote_h|}}}
+  |<div class="ib-country-fn"><ol class="ib-country-fn-alpha">
+{{#if:{{{footnote_a|}}}|<li value=1>{{{footnote_a|}}}</li>
+}}{{#if:{{{footnote_b|}}}|<li value=2>{{{footnote_b|}}}</li>
+}}{{#if:{{{footnote_c|}}}|<li value=3>{{{footnote_c|}}}</li>
+}}{{#if:{{{footnote_d|}}}|<li value=4>{{{footnote_d|}}}</li>
+}}{{#if:{{{footnote_e|}}}|<li value=5>{{{footnote_e|}}}</li>
+}}{{#if:{{{footnote_f|}}}|<li value=6>{{{footnote_f|}}}</li>
+}}{{#if:{{{footnote_g|}}}|<li value=7>{{{footnote_g|}}}</li>
+}}{{#if:{{{footnote_h|}}}|<li value=8>{{{footnote_h|}}}</li>}}
+</ol></div>}}
+|}</includeonly>
+
+<noinclude>
+{{Infobox Stat
+|Bandiera                 = Flag_of_Austria.svg
+|Blason                   = Austria_Bundesadler.svg
+|Inuem                    = Republica de l'Austria
+|Inuem ufiziel            = Republik Österreich
+|Capitela                 = [[Viena]]
+|Inuem inn                = Государственный гимн Российской Федерации
+|Inn                      = National Anthem of Russia (2000), instrumental, one verse.ogg
+|Sënta guviern            = dasda
+|Majera zità              = 
+|Lingaz 1                 = [[Tudësch]]<sup>a</sup> <!--prima rujeneda ufiziela-->
+|Lingaz 2                 = Tudësch   <!--prima rujeneda ufiziela-->
+|Lingaz 3                 = 
+|Lingaz 4                 = 
+|Lingaz 5                 =
+|Abitanc                  = 8935112
+|Data abitanc             = 2020
+|Spersa                   = 83879
+|Spersa tiera             = 
+|Ega                      =
+|Forma de guviern         = Republica presidenziela
+|Monarch                  =                                <!--mé sce l da n monarch-->
+|Presidënt                = Alexander Van der Bellen       <!--mé sce l da n presidënt-->
+|Prim minister            =                                <!--mé sce l da n prim minister-->
+|Canzelier                = Alexander Schallenberg (ÖVP)   <!--mé sce l da n canzelier-->
+|Vize-Presidënt           =                                <!--mé sce l da n Vize-Presidënt-->
+|Munëida                  = [[Euro]] (€)
+|TLD Internet             = .at
+|Prefis dl telefon        = +43
+|Ann PIB                  = 2020
+|PIB numinel              = 2106    <!--valor te miliarc-->
+|PIB VPC                  = 2610    <!--valor te miliarc-->
+|Furnea a                  = man drëta
+|Codesc ISO 3166          = AT
+|Cherta                   = EU-Austria.svg
+|Cherta2                  = EU location AUT.png
+| p1                     = Zarat de la Ruscia{{!}}{{nowrap|Zarat de}}<br />la Ruscia
+| flag_p1                = Flag of Russia.svg
+| s1                     = Republica Rusa
+| flag_s1                = Flag of Russia.svg
+| s2                     = Guviern Rus Provisore 
+| flag_s2                = Flag of Russia.svg
+| footnote_a = <span style="font-size:100%;">[[German language|German]] is co-official in [[South Tyrol]] and [[Friuli Venezia Giulia]]; [[French language|French]] is co-official in the [[Aosta Valley]]; [[Slovene language|Slovene]] is co-official in the [[province of Trieste]], the [[province of Gorizia]], and Friuli Venezia Giulia; [[Ladin language|Ladin]] is co-official in South Tyrol, in [[Trentino]] and in other northern areas; [[Friulian language|Friulian]] is co-official in Friuli Venezia Giulia; [[Sardinian language|Sardinian]] is co-official in [[Sardinia]].<ref>{{cite web |url=http://www.regione.sardegna.it/j/v/86?v=9&c=72&file=1997026 |title=Legge Regionale 15 ottobre 1997, n. 26 |publisher=Regione autonoma della Sardegna – Regione Autònoma de Sardigna}}</ref><ref>{{Cite web|url=https://www.regione.fvg.it/rafvg/cms/RAFVG/cultura-sport/patrimonio-culturale/comunita-linguistiche/|title=Regione Autonoma Friuli Venezia Giulia – Comunità linguistiche regionali|website=www.regione.fvg.it}}</ref></span>
+}}
+Benunì sul template ''Infobox Stat''!<br><br>
+Chësc template ie da adurvé sun la plata de [[stat|stac]] per dé na sëuravijion de nfurmazions. A man drëta ie n ejëmpl ulache l infobox ie stat remplì cun nfurmazions sun l'[[Austria]].<br><br>
+
+=== Co adurvé chësc template ===
+Canche metëis ite l'inuem de la capitela o la rujeneda iel for bon ënghe mëter n link leprò. L infobox ie fat a na moda che n ne muessa nia mëter ite duta la nfurmazions puscibles, ma ngrum ie opzioneles. Per ejëmpl pon mëter ite l inuem dl presidënt o monarch o prim minister, chël che vel per l stat in cuestion.
+La densità de la populazion ne muessun nia mëter ite, la vën calculeda automaticamënter da la populazion y la spersa. L da ënghe la opzion per dé ite la spersa mé de la tiera (chël uel di zënza la spersa de ega, lec, y nsci inant). La spersa de la tiera ie mé opzionela y la densità vën for calculeda adurvan la spersa totala, perchël muessa chëla for vester data.<br><br>
+
+Sce ëis dumandes sun co adurvé chësc infobox pudëis gën me cuntaté sun @[[Utente:Asenoner|Asenoner]].
+
+[[Categoria:Wikipedia:Templates]]</noinclude>
