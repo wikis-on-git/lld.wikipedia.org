@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{Divisione amministrativa/Stemmi|{{{1}}}|{{{2}}}|{{{3|1}}}}}|<span style="white-space:nowrap">[[File:{{Divisione amministrativa/Stemmi|{{{1}}}|{{{2}}}|{{{3|1}}}}}|20px{{#if:{{Divisione amministrativa/Stemmi/{{{1}}}|{{{2}}}|{{{3|1}}}B}}|{{!}}border}}|{{{2}}}|alt=&nbsp;|class=noviewer]]&nbsp;</span>}}{{#if:{{Divisione amministrativa/Voci|{{{1}}}|{{{2}}}|{{{3|1}}}}}|[[{{Divisione amministrativa/Voci|{{{1}}}|{{{2}}}|{{{3|1}}}}}|{{{2}}}]]|[[{{{2}}}]]}}</includeonly><noinclude>
+{{protetta}}
+{{man}}
+
+[[Categoria:Template bandierine]]
+</noinclude>
