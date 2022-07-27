@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = County Palatine of Durham
+| shortname alias = Contea de Durham
+| flag alias = Flag of County Durham.svg
+| flag alias-district =Flag of Durham County Council.svg
+| size = {{{size|}}}
+| name = {{{name|GB-DUR}}}
+| altlink = {{{altlink|County Durham District|County Palatine of Durham}}}
+| variant ={{{variant|district}}}
+<noinclude>
+| var1 = district
+</noinclude>
+}}
