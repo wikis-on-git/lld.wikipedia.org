@@ -2,7 +2,20 @@
 |Bandiera                 = Bandera_de_España.svg
 |Blason                   = Escudo_de_España_(mazonado).svg
 |Inuem                    = Riam de Spania
-|Inuem ufiziel            = Reino de España
+|Inuem ufiziel            = Reino de España{{collapsible list
+|titlestyle = background:transparent;text-align:center;line-height:normal;font-size:84%;
+|title = {{resize|1.0 em|4 autri inuemes}}{{efn|name="es lang"|In Spain, some [[Languages of Spain|other languages]] enjoy co-official status in certain regions in accordance with the latter's [[Statute of Autonomy|Statutes of Autonomy]]. In each of these, Spain's conventional long name for international affairs in Spanish laws and the most used ({{lang-es|Reino de España|links=no}}, pronounced: {{IPA-es|ˈrejno ð(e) esˈpaɲa|}}) is as follows:
+* {{lang-ca|Regne d'Espanya}}, {{IPA-ca|ˈreŋnə ðəsˈpaɲə|IPA}}
+* {{lang-eu|Espainiako Erresuma}}, {{IPA-eu|es̺paɲiako eres̺uma|IPA}}
+* {{lang-gl|Reino de España}}, {{IPA-gl|ˈrejnʊ ð(ɪ) esˈpaɲɐ|IPA}}
+* {{lang-oc|Reiaume d'Espanha}}, {{IPA-oc|reˈjawme ðesˈpaɲɔ|IPA}}}}
+|{{Infobox|subbox=yes|bodystyle=font-size:80%;font-weight:normal;
+|rowclass1 =mergedrow|label1=[[Lingaz Catalan|Catalan]]:|data1={{lang|ca|Regne d'Espanya}}
+|rowclass2 = mergedrow|label2=[[Lingaz Basch|Basch]]:|data2={{lang|eu|Espainiako Erresuma}}
+|rowclass3 = mergedrow|label3=[[Lingaz Galizian|Galizian]]:|data3={{lang|gl|Reino de España}}
+|rowclass4 = mergedrow|label4=[[Lingaz Oczitan|Oczitan]]:|data4={{lang|oc|Reiaume d'Espanha}}
+}}
+}}
 |Capitela                 = {{Blason|Madrid}} 
 |Sënta guviern            =
 |Majera zità              =
@@ -52,6 +65,9 @@ grd. F 2002; DLS 2002, LD DLS 2002, MdR) <i><b>a) Provunde mo na ota chëst vin 
 Provunde mo ‘na óta quest viǹ de Spagna. </i>DeRüM, [[:it:s:Tüt é parećé, sentunse pro mësa|TütParecé]]1833-1995:255 (MdR); <i><b>b) I Mori - na spezie de türc, 
 ch’â inlaota gran to’ de Spagna en süa potesté </b>I Mori - na 
 spezie de turc’, ch’ā ìllaota grang to de Spagna in sua potestè </i>DeclaraJM, [[:it:s:Pagina:Storia_di_Santa_Genoveffa.djvu/18|SantaGenofefa1878:7]] (Badia).
+
+==Referënzes==
+<references/>
 
 [[Categoria:Spania]]
 [[Categoria:Union européa]]
