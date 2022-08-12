@@ -1,0 +1,28 @@
+{{Documentation subpage}}
+<!-- Please add categories at the bottom of this page, and interwikis at Wikidata (see Wikipedia:Wikidata) -->
+{{When pagename is
+ | Template:Resize/doc = {{High-use}} {{COinS safe|n}} {{Resize/doc/main}}
+ | Template:Resize/sandbox = {{Resize/doc/main}}
+ | Template:Resize = {{High-use}} {{COinS safe|n}} {{Resize/doc/main}}
+ | /doc = <div style="margin:0.5em 0;">This template is a tailored shortcut to {{tl|resize}}.</div>
+ | other = {{COinS safe|n}} <div style="margin:0.5em 0;">This template is a tailored shortcut to {{tl|resize}}.</div>
+}}
+
+== Comparison ==
+{{Resize shortcuts}}
+{{Font size templates}}
+
+== See also ==
+* [[:Category:Resizing templates]]
+* {{tl|smalldiv}}, for wrapping multiple lines of text that cause syntax errors when wrapped by {{tl|resize}} or {{tl|small}}
+* [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size font-size - CSS: Cascading Style Sheets | Mozilla Developer Network]
+
+{{Resize/TemplateData}}
+
+<includeonly>{{When pagename is
+| Template:Resize = {{sandbox other||
+<!-- Add categories below this line, and interwikis at Wikidata -->
+[[Category:Resizing templates| ]]
+[[Category:TemplateData documentation with overload problems]]
+}}
+}}</includeonly>
