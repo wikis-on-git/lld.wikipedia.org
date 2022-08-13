@@ -2,7 +2,7 @@
 
 The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Portuguese language]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-pt}}, {{tl|IPAc-pt}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
 
-Distinction is made between the two major standards of the language—[[European Portuguese|Portugal]] (European Portuguese, {{abbr|EP|European Portuguese}}; broadly the standard also used [[Portuguese language in Africa|in Africa]] and [[Portuguese language in Asia|in Asia]]) and [[Brazilian Portuguese|Brazil]] (Brazilian Portuguese, {{abbr|BP|Brazilian Portuguese}}). Neither variant is preferred at Wikipedia, except in cases where a local pronunciation is clearly more relevant, such as a place in Brazil or an individual from Portugal.
+Distinction is made between the two major standards of the language—[[European Portuguese|Portugal]] (European Portuguese, {{abbr|PE|Portughesc Europeich}}; broadly the standard also used [[Portuguese language in Africa|in Africa]] and [[Portuguese language in Asia|in Asia]]) and [[Brazilian Portuguese|Brazil]] (Brazilian Portuguese, {{abbr||PB|Portughesc Brasilian}}). Neither variant is preferred at Wikipedia, except in cases where a local pronunciation is clearly more relevant, such as a place in Brazil or an individual from Portugal.
 
 National variant differences should be noted with discretion. When there are differing dialectal Brazilian Portuguese pronunciations, the one closest to European Portuguese should generally be preferred, as this guide is intended to help native speakers of other languages.
 
@@ -15,7 +15,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 ! colspan="2" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
 |-
-! {{flagicon|Portugal}}<br>{{abbr|EP|European Portuguese}} !! {{flagicon|Brazil}}<br>{{abbr|BP|Brazilian Portuguese}}
+! {{flagicon|Portugal}}<br>{{abbr|PE|Portughesc Europeich}} !! {{flagicon|Brazil}}<br>{{abbr||PB|Portughesc Brasilian}}
 |-
 | <big>{{IPAlink|b}}</big>
 | rowspan="2" | <big>{{IPAlink|b}}</big>
@@ -24,12 +24,12 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | <big>{{IPAlink|β}}</big>
 | style="text-align:left;" | ca'''b'''eça, so'''b'''re<ref name="Lenition">In northern and central Portugal, {{IPA|/b/}}, {{IPA|/d/}}, and {{IPA|/ɡ/}} are [[lenition|lenited]] to [[fricative consonant|fricatives]] of the same [[place of articulation]] ({{IPAblink|β}}, {{IPAblink|ð}}, and {{IPAblink|ɣ}}, respectively) in all places except after a pause, a [[nasal vowel]], or (for {{IPA|/d/}}) {{IPA|/l/}}, when they are stops {{IPA|[{{IPAlink|b}}, {{IPAlink|d̪|d}}, {{IPAlink|ɡ}}]}}, not dissimilar from English ''b, d, g'' {{Harvcol|Mateus|d'Andrade|2000|p=11}}. In southern and insular Portugal and in Brazil, this most often occurs only in some unstressed syllables, generally in relaxed speech, but that is by no means universal.</ref>
-| style="text-align:left;" | {{nowrap|{{abbr|EP|European Portuguese}}: ''between'' ba'''b'''y ''and'' be'''v'''y}}<br/>{{abbr|BP|Brazilian Portuguese}}: a'''b'''out
+| style="text-align:left;" | {{nowrap|{{abbr|PE|Portughesc Europeich}}: ''between'' ba'''b'''y ''and'' be'''v'''y}}<br/>{{abbr||PB|Portughesc Brasilian}}: a'''b'''out
 |-
 | <big>{{IPAlink|ð}}</big>
 | rowspan="2" | <big>{{IPAlink|d̪|d}}</big>
 | style="text-align:left;" | ce'''d'''o, i'''d'''ade<ref name="Lenition"/>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: o'''th'''er<br/>{{abbr|BP|Brazilian Portuguese}}: to'''d'''ay
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: o'''th'''er<br/>{{abbr||PB|Portughesc Brasilian}}: to'''d'''ay
 |-
 | rowspan="2" | <big>{{IPAlink|d̪|d}}</big>
 | style="text-align:left;" | '''d'''edo, len'''d'''a
@@ -37,7 +37,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | <big>{{IPAlink|dʒ}}</big>
 | style="text-align:left;" | '''d'''igo, an'''d'''e, bal'''d'''e<ref name="affrication">In most varieties of Brazilian Portuguese, {{IPA|/d, t/}} are palatalized and affricated to post-alveolar before high front vowels {{IPA|/i, ĩ/}} except for certain dialects of [[Northeast Region, Brazil]], such as [[Central northeastern Portuguese]] {{IPA|/d, t/}} are more often pronounced as alveolar or dental before high front vowels ({{IPA|/i, ĩ/}}). Furthermore, the full palatalization of {{IPA|/d, t/}} in all positions before {{IPA|/i, ĩ/}} (including in most loanwords) is truly complete only in the state of Rio de Janeiro.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: to'''d'''ay<br/>{{abbr|BP|Brazilian Portuguese}}: '''j'''ig
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: to'''d'''ay<br/>{{abbr||PB|Portughesc Brasilian}}: '''j'''ig
 |-
 | colspan="2" | <big>{{IPAlink|f}}</big>
 | style="text-align:left;" | '''f'''ado, ca'''f'''é
@@ -50,7 +50,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | <big>{{IPAlink|ɣ}}</big>
 | style="text-align:left;" | fo'''g'''o, fi'''gu'''eira<ref name="Lenition"/>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: ''between'' a'''g'''o ''and'' a'''h'''old<br/>{{abbr|BP|Brazilian Portuguese}}: a'''g'''ain
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: ''between'' a'''g'''o ''and'' a'''h'''old<br/>{{abbr||PB|Portughesc Brasilian}}: a'''g'''ain
 |-
 | colspan="2" | <big>{{IPAlink|k}}</big>
 | style="text-align:left;" | '''c'''or, di'''c'''a, '''qu'''ente, '''''k'''iwi''
@@ -63,7 +63,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | <big>{{IPAlink|w}}</big>
 | style="text-align:left;" | ma'''l'''<ref name="l">Final {{IPA|/l/}} is [[ɫ|velarized]] in along the Brazilian-Uruguayan border. In European Portuguese, it is velarized in all positions.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: to'''ll'''<br>{{abbr|BP|Brazilian Portuguese}}: to'''w'''
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: to'''ll'''<br>{{abbr||PB|Portughesc Brasilian}}: to'''w'''
 |-
 | colspan="2" | <big>{{IPAlink|ʎ}}</big>
 | style="text-align:left;" | '''lh'''e, ve'''lh'''o<ref>{{IPA|/ʎ/}} has merged with {{IPAblink|j}} in some dialects of Brazilian Portuguese, such as the [[Caipira dialect]].</ref>
@@ -92,7 +92,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|ɾ}}</big>
 | style="text-align:left;" | pô'''r''', po'''r'''to, po'''r''' favo'''r'''<ref name="guttural r"/><ref name="rhotics"/><ref name="final r">The realization of syllable-final {{angbr|r}} varies by dialect but is generally pronounced as an alveolar tap {{IPAblink|ɾ}} in European Portuguese and some Brazilian dialects (e.g. Rio Grande do Sul state and São Paulo city), as a coronal approximant ({{IPAblink|ɹ}} or {{IPAblink|ɻ}}) in various other Brazilian dialects, and as a [[guttural R]] in all others (such as the city of Rio de Janeiro and almost all the Northeast). In some Brazilian Portuguese dialects, word-final {{angbr|r}} may also be completely [[elision|elided]] in infinitives; e.g. ''fica'''r''''' {{IPA|[fiˈka]}} (no {{angbr|r}} is pronounced as a tap {{IPA|[ɾ]}} only if it is followed by a vowel sound in the same phrase or prosodic unit: ''fica'''r''' ao léu'' {{IPA|[fiˈkaɾ aw ˈlɛw]}}). That is very similar to the [[linking and intrusive R|linking R]] used in some accents of English, such as [[Received Pronunciation]] or [[Australian English]].</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: a'''t'''om ([[General American|GA]])<br>{{abbr|BP|Brazilian Portuguese}}: ''French'' '''r'''ouge
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: a'''t'''om ([[General American|GA]])<br>{{abbr||PB|Portughesc Brasilian}}: ''French'' '''r'''ouge
 |-
 | <big>{{IPAlink|ɾ}}</big>
 | style="text-align:left;" | f'''r'''io, ca'''r'''o, po'''r''' acaso<ref name="rhotics"/><ref name="final r"/>
@@ -105,7 +105,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|ʃ}}</big>
 | style="text-align:left;" | e'''s'''cola, a'''s''' porta'''s''', de'''z''', te'''x'''to<ref name="palatalization of fricatives">Mostly in Brazil, the fricatives {{IPA|/s/}} and {{IPA|/z/}} are not palatalized between syllables or coda positions, but there is a strong palatalization of them in some dialects, such as ''[[Rio de Janeiro (state)|fluminense]]'', ''[[North Region, Brazil|northern]]'', ''[[Recife metropolitan area|recifense]]'', ''[[Salvador, Bahia|soteropolitan]]'' and ''[[Florianopolitan dialect|florianopolitan]]'' (coda {{IPA|/s/}} merges with {{IPA|/ʃ/}} and {{IPA|/z/}} merges with {{IPA|/ʒ/}}). In the ''[[carioca]]'' dialect (southern coast of the state Rio de Janeiro, including all of [[Greater Rio de Janeiro]], coda sibilants are almost always palatalized ({{IPA|[ʃ, ʒ]}}), but in most dialects of the [[Northeast Region, Brazil|northeast region of Brazil]], palatalization of fricatives occurs only before stop or affricate consonants ({{IPA|/d, t, dʒ, tʃ/}}), such in as the word ''texto'' {{IPA|[ˈteʃtu]}}.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: '''sh'''eep<br>{{abbr|BP|Brazilian Portuguese}}: '''s'''ack
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: '''sh'''eep<br>{{abbr||PB|Portughesc Brasilian}}: '''s'''ack
 |-
 | <big>{{IPAlink|ʃ}}</big>
 | style="text-align:left;" | '''ch'''ave, a'''ch'''ar, '''x'''arope, bai'''x'''o, ''su'''sh'''i''
@@ -118,7 +118,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|t̪|t}}</big>
 | style="text-align:left;" | '''t'''ipo, ri'''t'''mo, pon'''t'''e<ref name=affrication />
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: s'''t'''and<br>{{abbr|BP|Brazilian Portuguese}}: '''ch'''ip
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: s'''t'''and<br>{{abbr||PB|Portughesc Brasilian}}: '''ch'''ip
 |-
 | <big>{{IPAlink|t̪|t}}</big>
 | style="text-align:left;" | '''t'''empo, á'''t'''omo
@@ -135,7 +135,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" |<big>{{IPAlink|z}}</big>
 | style="text-align:left;" | ra'''s'''go, o'''s''' meus<ref name="palatalization of fricatives" />
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: plea'''s'''ure<br>{{abbr|BP|Brazilian Portuguese}}: '''z'''ebra
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: plea'''s'''ure<br>{{abbr||PB|Portughesc Brasilian}}: '''z'''ebra
 |-
 | <big>{{IPAlink|z}}</big>
 | style="text-align:left;" | ca'''s'''a, o'''s''' amigos, do'''z'''e, e'''x'''istir
@@ -147,7 +147,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 ! colspan="2" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
 |-
-! {{flagicon|Portugal}}<br>{{abbr|EP|European Portuguese}} !! {{flagicon|Brazil}}<br>{{abbr|BP|Brazilian Portuguese}}
+! {{flagicon|Portugal}}<br>{{abbr|PE|Portughesc Europeich}} !! {{flagicon|Brazil}}<br>{{abbr||PB|Portughesc Brasilian}}
 |-
 | colspan="2" | <big>{{IPAlink|j}}</big>
 | style="text-align:left;" | sa'''i'''a, pa'''i'''s
@@ -165,7 +165,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 ! colspan="2" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
 |-
-! {{flagicon|Portugal}}<br>{{abbr|EP|European Portuguese}} !! {{flagicon|Brazil}}<br>{{abbr|BP|Brazilian Portuguese}}
+! {{flagicon|Portugal}}<br>{{abbr|PE|Portughesc Europeich}} !! {{flagicon|Brazil}}<br>{{abbr||PB|Portughesc Brasilian}}
 |-
 | rowspan="2" | <big>{{IPAlink|ä|a}}</big>
 | <big>{{IPAlink|ä|a}}</big>
@@ -174,7 +174,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|ɐ}}</big>
 | style="text-align:left;" | fal'''á'''mos, fal'''a'''mos,<ref>First-person plural past tense in European Portuguese has open {{angbr|a}}, and present tense has closed {{angbr|a}}. Both conjugated with closed {{angbr|a}} in Brazilian Portuguese</ref> and'''a'''ime<ref name="closed ai">Most Brazilian dialects have closed {{angbr|a}} for stressed sequences {{angbr|ai}} before {{IPA|/m/}} and {{IPA|/n/}}. In many dialects it is also nasalized. Many speakers of those dialects, including [[broadcast media]], use open {{angbr|a}} for some words like ''Jaime'' and ''[[Roraima]]''.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: f'''a'''ther<br>{{abbr|BP|Brazilian Portuguese}}: p'''ur'''se ([[Received Pronunciation|RP]])
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: f'''a'''ther<br>{{abbr||PB|Portughesc Brasilian}}: p'''ur'''se ([[Received Pronunciation|RP]])
 |-
 | rowspan="2" | <big>{{IPAlink|ɐ}}</big>
 | style="text-align:left;" | fal'''a'''mos, c'''â'''mera, ''b'''u'''g''
@@ -182,7 +182,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="3" | <big>{{IPAlink|e}}</big>
 | style="text-align:left;" | ab'''e'''lha, v'''e'''nho, j'''e'''ito<ref>In the dialect of Lisbon, {{IPA|/e/}} merges with {{IPA|/ɐ/}} when it comes before palatal sounds.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: p'''ur'''se ([[Received Pronunciation|RP]])<br>{{abbr|BP|Brazilian Portuguese}}: th'''e'''y
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: p'''ur'''se ([[Received Pronunciation|RP]])<br>{{abbr||PB|Portughesc Brasilian}}: th'''e'''y
 |-
 | <big>{{IPAlink|e}}</big>
 | style="text-align:left;" | m'''e'''to, s'''ê'''
@@ -190,7 +190,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|ɛ}}</big>
 | style="text-align:left;" | pr'''é'''mio, pr'''ê'''mio
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: s'''e'''t<br>{{abbr|BP|Brazilian Portuguese}}: th'''e'''y
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: s'''e'''t<br>{{abbr||PB|Portughesc Brasilian}}: th'''e'''y
 |-
 | <big>{{IPAlink|ɛ}}</big>
 | style="text-align:left;" | m'''e'''ta, s'''é''', '''É'''merson,<!--Émerson is a rare example of pre-nasal /ɛ/ in BP--><ref name="unstressed vocalism></ref> caf'''e'''zinho
@@ -207,7 +207,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|o}}</big>
 | style="text-align:left;" | Ant'''ô'''nio, Ant'''ó'''nio
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: '''o'''ff<br>{{abbr|BP|Brazilian Portuguese}}: r'''o'''w ([[General American|GA]])
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: '''o'''ff<br>{{abbr||PB|Portughesc Brasilian}}: r'''o'''w ([[General American|GA]])
 |-
 | <big>{{IPAlink|o}}</big>
 | style="text-align:left;" | av'''ô''', form'''o'''so, al'''ô'''
@@ -226,7 +226,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 | rowspan="2" | <big>{{IPAlink|ä|a}}</big>
 | style="text-align:left;" | m'''a'''ior, '''a'''quele, d'''a'''
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: '''a'''bout<br>{{abbr|BP|Brazilian Portuguese}}: grandm'''a'''
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: '''a'''bout<br>{{abbr||PB|Portughesc Brasilian}}: grandm'''a'''
 |-
 | <big>{{IPAlink|ä|a}}</big>
 | style="text-align:left;" | C'''a'''mões, c'''a'''veira
@@ -235,15 +235,15 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 | <big>{{IPAlink|ɛ}}</big>
 | rowspan="2" | <big>{{IPAlink|e}}</big>
 | style="text-align:left;" | incrív'''e'''l, s'''e'''gmento<ref name="unstressed vocalism>The "northern dialects" (restricted to [[North Region, Brazil|North]] and [[Northeast Region, Brazil|Northeast]] Brazil) do not follow the Standard Brazilian Portuguese pronunciation in terms of unstressed vocalism. The standard pronunciations of those vowels are always closed {{IPA|/e, o/}}, as in "perereca" {{IPA|[peɾeˈɾɛkɐ]}} and "horário" {{IPA|[oˈɾaɾju]}}, but in those dialects, they are open vowels {{IPA|/ɛ, ɔ/}}, and the those words are pronounced {{IPA|[pɛɾɛˈɾɛkɐ]}} and {{IPA|[ɔˈɾaɾju]}}. That is also true to but to a lesser extent for most speakers from the state of [[Rio de Janeiro (state)|Rio de Janeiro]] and from the [[Brazilian Federal District|Federal District]], as local dialects are also greatly affected by [[vowel harmony]], and the same is true for many speakers from [[Minas Gerais]], [[Mato Grosso]], [[Goiás]], and [[Espírito Santo]]. In many cases, the distinction between {{IPA|/ɛ, e/}} and {{IPA|/ɔ, o/}} are unclear, with a tendency for neutralization to {{IPA|[e̞, o̞]}} (that happens in almost all of Brazil). Brazilian Portuguese {{IPA|/ẽ, õ/}} can also vary between close-mid, mid, and open-mid positions, depending on the dialect, the speaker, and the word.</ref>
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: acc'''e'''ss<br>{{abbr|BP|Brazilian Portuguese}}: surv'''e'''y
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: acc'''e'''ss<br>{{abbr||PB|Portughesc Brasilian}}: surv'''e'''y
 |-
 | rowspan="2"| <big>{{IPAlink|ɯ̽|ɨ}}</big>
 | style="text-align:left;" | s'''e'''máforo
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: '''e'''mission<br>{{abbr|BP|Brazilian Portuguese}}: surv'''e'''y
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: '''e'''mission<br>{{abbr||PB|Portughesc Brasilian}}: surv'''e'''y
 |-
 | rowspan="2" | <big>{{IPAlink|ɪ|i}}</big>
 | style="text-align:left;" | jur'''e''', p'''e'''queno,<ref name="pre-stressed syllables">In words such as "perigo" {{IPA|[pɪˈɾiɡu]}} and "boneco" {{IPA|[bʊˈnɛku]}}, for example, vowels {{angbr|e, o}} pre-stressed syllables may be pronounced, respectively, as {{IPA|[ɪ, ʊ]}} in some varieties of Brazilian Portuguese, instead of {{IPA|[i, u]}}.</ref> s'''e'''
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: '''e'''mission<br>{{abbr|BP|Brazilian Portuguese}}: happ'''y'''
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: '''e'''mission<br>{{abbr||PB|Portughesc Brasilian}}: happ'''y'''
 |-
 | <big>{{IPAlink|i}}</big>
 | style="text-align:left;" | júr'''i''', m'''e'''andro, '''e''', do'''e'''<ref name="unstressed hiatus">Some of the post-stressed high vowels in hiatuses, as in ''fri'''o''''' ('cold') and ''ri'''o''''' ('river'), may vary between a reduced vowel {{IPA|[ˈfɾi.u]}} and a glide {{IPA|[ˈfɾiw]}}, exceptions are verbal conjugations, forming pairs like ''eu ri'''o''''' {{IPA|[ˈew ˈʁi.u]}} (I laugh) and ''ele ri'''u''''' {{IPA|[ˈelɨ ˈʁiw]}} (he laughed).</ref>
@@ -252,11 +252,11 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 | <big>{{IPAlink|ɔ}}</big>
 | rowspan="2" | <big>{{IPAlink|o}}</big>
 | style="text-align:left;" | h'''o'''spital<ref name="unstressed vocalism" />
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: r'''o'''yale<br>{{abbr|BP|Brazilian Portuguese}}: arr'''o'''w ([[General American|GA]])
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: r'''o'''yale<br>{{abbr||PB|Portughesc Brasilian}}: arr'''o'''w ([[General American|GA]])
 |-
 | rowspan="2" | <big>{{IPAlink|u}}</big>
 | style="text-align:left;" | s'''o'''rtudo
-| style="text-align:left;" | {{abbr|EP|European Portuguese}}: outl'''oo'''k<br>{{abbr|BP|Brazilian Portuguese}}: &nbsp;arr'''o'''w ([[General American|GA]])
+| style="text-align:left;" | {{abbr|PE|Portughesc Europeich}}: outl'''oo'''k<br>{{abbr||PB|Portughesc Brasilian}}: &nbsp;arr'''o'''w ([[General American|GA]])
 |-
 | <big>{{IPAlink|ʊ|u}}</big>
 | style="text-align:left;" | evac'''u'''ar, b'''o'''nec'''o''',<ref name="pre-stressed syllables" /> vi-'''o''', vo'''o''', fri'''o'''<ref name="unstressed hiatus" />, '''o'''s
@@ -270,24 +270,24 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 |-
 ! colspan="2" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2"| Explanation
 |-
-! {{flagicon|Portugal}}<br>{{abbr|EP|European Portuguese}} !! {{flagicon|Brazil}}<br>{{abbr|BP|Brazilian Portuguese}}
+! {{flagicon|Portugal}}<br>{{abbr|PE|Portughesc Europeich}} !! {{flagicon|Brazil}}<br>{{abbr||PB|Portughesc Brasilian}}
 |-
 | colspan="2" | <big>{{IPAlink|ˈ}}</big>
-| style="text-align:left;" | Jo'''ão''' {{IPA|[ʒuˈɐ̃w]}} ({{abbr|EP|European Portuguese}}, {{abbr|BP|Brazilian Portuguese}})
+| style="text-align:left;" | Jo'''ão''' {{IPA|[ʒuˈɐ̃w]}} ({{abbr|PE|Portughesc Europeich}}, {{abbr||PB|Portughesc Brasilian}})
 | style="text-align:left;" | lexical stress
 |-
 | colspan="2" | <big>{{IPAlink|ˌ}}</big>
-| style="text-align:left;" | '''Vi'''la-Chã {{IPA|[ˌvilɐˈʃɐ̃]}} ({{abbr|EP|European Portuguese}}, {{abbr|BP|Brazilian Portuguese}})
+| style="text-align:left;" | '''Vi'''la-Chã {{IPA|[ˌvilɐˈʃɐ̃]}} ({{abbr|PE|Portughesc Europeich}}, {{abbr||PB|Portughesc Brasilian}})
 | style="text-align:left;" | secondary stress
 |-
 | colspan="2" | <big>{{IPAlink|.}}</big>
-| style="text-align:left;" | '''Rio''' {{IPA|[ˈʁi.u]}} ({{abbr|EP|European Portuguese}}, {{abbr|BP|Brazilian Portuguese}})
+| style="text-align:left;" | '''Rio''' {{IPA|[ˈʁi.u]}} ({{abbr|PE|Portughesc Europeich}}, {{abbr||PB|Portughesc Brasilian}})
 | style="text-align:left;" | syllable break
 |-
 ! colspan="4" | Diacritics
 |-
 | colspan="2" | <big>{{IPAlink|◌̃}}</big>
-| style="text-align:left;" | Ch'''ã''' {{IPA|[ˈʃɐ̃]}} ({{abbr|EP|European Portuguese}}, {{abbr|BP|Brazilian Portuguese}})<ref>Nasal vowels in Portuguese are {{IPA|/ɐ̃/}}, {{IPA|/ẽ/}}, {{IPA|/ĩ/}}, {{IPA|/õ/}} and {{IPA|/ũ/}}</ref>
+| style="text-align:left;" | Ch'''ã''' {{IPA|[ˈʃɐ̃]}} ({{abbr|PE|Portughesc Europeich}}, {{abbr||PB|Portughesc Brasilian}})<ref>Nasal vowels in Portuguese are {{IPA|/ɐ̃/}}, {{IPA|/ẽ/}}, {{IPA|/ĩ/}}, {{IPA|/õ/}} and {{IPA|/ũ/}}</ref>
 | style="text-align:left;" | nasal vowel
 |-
 | colspan="2" | <big>{{IPAlink|◌̥}}</big>
@@ -297,7 +297,7 @@ See [[Portuguese phonology]] for a more thorough look at the sounds of Portugues
 ! colspan="4"| Other representations
 |-
 | colspan="2"| <big>( )</big>
-| style="text-align:left;" | Do'''u'''ro {{IPA|[ˈdo(w)ɾu]}} ({{abbr|EP|European Portuguese}}, {{abbr|BP|Brazilian Portuguese}})
+| style="text-align:left;" | Do'''u'''ro {{IPA|[ˈdo(w)ɾu]}} ({{abbr|PE|Portughesc Europeich}}, {{abbr||PB|Portughesc Brasilian}})
 | style="text-align:left;" | optional sound
 |}
 |}
