@@ -1,0 +1,357 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{tsh|srn}}{{Uses TemplateStyles|Template:Static row numbers/styles.css}}
+:'''''Note:''' [[:Category:Articles with tables with fixed row numbers]] uses a deprecated template. Please replace it with {{tl|Static row numbers}}.''
+
+Template to automatically add row numbers to sortable tables. The row numbers will not be sorted when columns of data are sorted. A possible note to add above a table: <code>{{tlx|noprint|<nowiki>'''''Row numbers''' are static. Other columns are sortable. This allows ranking of any column.''</nowiki>}}</code>
+
+These templates work together and make table formatting fast: 
+*{{tl|Static row numbers table}}
+*{{tl|Static row numbers header}}
+*{{tl|Static row numbers arrows}}
+*{{tl|Static row numbers total}}
+Some are used together here: [[List of U.S. states and territories by incarceration and correctional supervision rate]]
+__TOC__
+
+== Usage with <code>wikitable</code> and <code>sortable</code> ==
+
+Place template before table where the automatic row numbers are required. Add class <code>static-row-numbers</code> to the table wikitext, as in the following example. It adds an unsorted column of row numbers.
+
+{| style="border:solid 1px;"
+|+ With <code>wikitable</code> and <code>sortable</code> 
+|-
+|
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+|
+<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+</syntaxhighlight>
+|}
+
+== Usage with <code>sortable</code> ==
+
+{| style="border:solid 1px;"
+|+ With <code>sortable</code>
+|-
+|
+{{Static row numbers}}
+{| class="sortable static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+|
+<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="sortable static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+</syntaxhighlight>
+|}
+
+== Usage with no other classes ==
+
+While designed to provide a static row number for sortable tables, it can be used just to add an automatic row number to plain tables.
+
+{| style="border:solid 1px;"
+|+ With no other classes
+|-
+|
+{{Static row numbers}}
+{| class="static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+|
+<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="static-row-numbers"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+</syntaxhighlight>
+|}
+
+== Using <code>static-row-header-text</code> to add a "No." column header ==
+
+This adds a '''"No."''' as the row number column header. Add '''''class=static-row-header-text''''' to the top line of the table wikitext. It does not work with {{tl|Static row numbers table}}.
+
+{| style="border:solid 1px;"
+|+ With <code>static-row-header-text</code> to add a column header
+|-
+|
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers static-row-header-text"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+|
+<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers static-row-header-text"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+</syntaxhighlight>
+|}
+
+== Using <code>static-row-header-hash</code> to add a hash ("#") column header ==
+
+This adds a hash ("#") as the row number column header. 
+
+{| style="border:solid 1px;"
+|+ With <code>static-row-header-hash</code> to add a column header
+|-
+|
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers static-row-header-hash"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+|
+<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers static-row-header-hash"
+! Name !! Number !! Another Number
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|}
+</syntaxhighlight>
+|}
+
+== Marking additional header and footer rows with <code>static-row-header</code> ==
+
+The class <code>static-row-header</code> is added to additional header rows (other than the first one). It prevents those header rows from having row numbers. It also prevents them from being sorted. It is important to add this class for consistent appearance in different Wikipedia skins and views. It is necessary for correct numbering in the minerva skin on mobile view which renders HTML tables differently. 
+
+{| style="border:solid 1px;"
+|+ Marking additional header and footer rows with <code>static-row-header</code>
+|-
+|
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|- class="static-row-header"
+!  !! (unit) !! (per capita)
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|- class="static-row-header"
+! Totals !! 250 !! 3000
+|}
+|
+<syntaxhighlight lang=text highlight=1-2,4,16>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|- class="static-row-header"
+!  !! (unit) !! (per capita)
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|- class="static-row-header"
+! Totals !! 250 !! 3000
+|}
+</syntaxhighlight>
+|}
+
+== Marking footer or header rows that also contain data cells (non-header cells) ==
+
+To prevent them from sorting <code>class=sorttop</code> or <code>class=sortbottom</code> must also be added. For an example of header rows like this see [https://en.wikipedia.org/w/index.php?title=COVID-19_pandemic_deaths&oldid=1038165297#2021 this version] of the 2021 table in [[COVID-19 pandemic deaths#2021|this list article]].
+
+{| style="border:solid 1px;"
+|+ Marking footer or header rows that also contain data cells (non-header cells)
+|-
+|
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|- class="static-row-header"
+!  !! (unit) !! (per capita)
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|- class="sortbottom static-row-header"
+! Totals 
+|| 250 || 3000
+|}
+|
+<syntaxhighlight lang=text highlight=1-2,4,16>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers"
+! Name !! Number !! Another Number
+|- class="static-row-header"
+!  !! (unit) !! (per capita)
+|-
+| A || 10 || 1000
+|-
+| B || 50 || 800
+|-
+| C || 100 || 150
+|-
+| D || 20 || 700
+|-
+| E || 70 || 350
+|- class="sortbottom static-row-header"
+! Totals 
+|| 250 || 3000
+|}
+</syntaxhighlight>
+|}
+
+== White background for data cells ==
+
+Add <code>class=srn-white-background</code> to the top line of the table  wikitext. It can be used on tables with inline cell or row background colors. Neither are affected by this class. 
+
+This class is unnecessary if you are using this:
+*'''{{tl|Static row numbers table}}'''
+The class is incorporated into that template. 
+
+{| style="border:solid 1px;"
+|+ White background for data cells 
+|-
+|{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers srn-white-background"
+|-
+! 1 !! 2 !! 3
+|-
+| 1-1 || 2-1 || 3-1
+|-
+| 1-2 || 2-2 || 3-2
+|}
+|
+|<syntaxhighlight lang=text highlight=1-2>
+{{Static row numbers}}
+{| class="wikitable sortable static-row-numbers srn-white-background"
+|-
+! 1 !! 2 !! 3
+|-
+| 1-1 || 2-1 || 3-1
+|-
+| 1-2 || 2-2 || 3-2
+|}
+</syntaxhighlight>
+|}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+
+}}
+[[Category:Table templates]]</includeonly>
