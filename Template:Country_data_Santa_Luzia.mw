@@ -1,0 +1,25 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Santa Luzia
+| flag alias = Flag of Saint Lucia.svg
+| flag alias-1875 = Flag of Saint Lucia (1875-1939).svg
+| flag alias-1939 = Flag of Saint Lucia (1939–1967).svg
+| flag alias-1967 = Flag of Saint Lucia 1967.svg
+| flag alias-1979 = Flag of Saint Lucia (1979-2002).svg
+| flag alias-2000 = Flag of Saint Lucia (WFB 2000).jpg
+| flag alias-2004 = Flag of Saint Lucia (WFB 2004).gif
+| link alias-naval = Saint Lucia Coast Guard
+| link alias-navy = Saint Lucia Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1875
+| var2 = 1939
+| var3 = 1967
+| var4 = 1979
+| var5 = 2000
+| var6 = 2004
+| redir1 = LCA
+</noinclude>
+}}
