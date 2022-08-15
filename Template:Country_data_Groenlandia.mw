@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Groenlandia
+| flag alias = Flag of Greenland.svg
+| flag alias-Danish= Flag of Denmark.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = Danish
+| redir1 = GRL
+</noinclude>
+}}
