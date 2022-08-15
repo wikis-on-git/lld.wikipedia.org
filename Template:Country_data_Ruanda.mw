@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Ruanda
+| flag alias = Flag of Rwanda.svg
+| flag alias-1959 = Flag of Rwanda (1959–1961).svg
+| flag alias-1961 = Flag of Rwanda (1961–1962).svg
+| flag alias-1962 = Flag of Rwanda (1962–2001).svg
+| link alias-air force= Rwandan Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1959
+| var2 = 1961
+| var3 = 1962
+| redir1 = RWA
+</noinclude>
+}}
