@@ -1,0 +1,4 @@
+<includeonly>{{#invoke:labelled list hatnote|labelledList|Further information{{#if:{{{topic|}}}|&#32;on {{{topic|}}}}}}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>
