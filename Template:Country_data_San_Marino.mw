@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = San Marino
+| flag alias = Flag of San Marino.svg
+| flag alias-1465 = Old Flag of San Marino.svg
+| flag alias-1862 = Flag of San Marino (1862–2011).svg
+| flag alias-civil = Flag of San Marino (civil).svg
+| link alias-army = Sammarinese Armed Forces
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1465
+| var2 = 1862
+| var3 = civil
+| redir1 = SMR
+</noinclude>
+}}
