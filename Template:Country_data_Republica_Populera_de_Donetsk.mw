@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Republica Populera de Donetsk
+| flag alias = Flag of Donetsk People's Republic.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| flag alias-first = Flag of the Donetsk People's Republic.svg
+| flag alias-org = Flag of the Donetsk Republic (Organisation).svg
+| flag alias-DKR = Flag of Donetsk People's Republic.svg
+| flag alias-2014 = New Donetsk Peoples Republic flag.svg
+| flag alias-communist = Flag of the Communist Party of the Donetsk People's Republic.svg
+| flag alias-novorossiya = War Flag of Novorussia.svg
+<noinclude>
+| var1 = first 
+| var2 = org
+| var3 = DKR
+| var4 = 2014
+| var5 = communist
+| var6 = novorossiya
+| redir1 = People's Republic of Donetsk
+| redir2 = Donetsk Republic
+</noinclude>
+}}
