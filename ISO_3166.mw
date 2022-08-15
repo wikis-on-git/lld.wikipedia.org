@@ -569,8 +569,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:CY]]
 |align=center|[[.cy]]
 |-style="background-color:white;"
-|id=CZEC|{{flagicon|Czech Republic}}&nbsp;[[Czech Republic|Czechia]] {{efn|[[Czech Republic|Czechia]] was previously known by its state name [[Czech Republic]].}}
-|[[Czech Republic|The Czech Republic]]
+|id=CZEC|{{flagicon|Republica Ceca}}&nbsp;[[Republica Ceca]] {{efn|[[Republica Ceca]] was previously known by its state name [[Republica Ceca]].}}
+|[[Republica Ceca|La Republica Ceca]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#CZ|{{mono|CZ}}]]
 |align=center|[[ISO 3166-1 alpha-3#CZE|{{mono|CZE}}]]
@@ -580,10 +580,10 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-style="background-color:white;"
 |id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea|Democratic People's Republic of Korea]] – Cëla [[#KOR1|Korea, The Democratic People's Republic of]].
 |-style="background-color:white;"
-|id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Democratic Republic of the Congo}}&nbsp;[[Democratic Republic of the Congo]] – Cëla [[#CON1|Congo, The Democratic Republic of the]].
+|id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Republica Democratica dl Congo}}&nbsp;[[Republica Democratica dl Congo]] – Cëla [[#CON1|Congo, La Republica Democratica dl]].
 |-style="background-color:white;"
-|id=DENM|{{flagicon|Denmark}}&nbsp;[[Denmark]]
-|[[Denmark|La Rëni de Denmark]]
+|id=DENM|{{flagicon|Denemarch}}&nbsp;[[Denemarch]]
+|[[Denmark|La Rëni de Denemarch]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#DK|{{mono|DK}}]]
 |align=center|[[ISO 3166-1 alpha-3#DNK|{{mono|DNK}}]]
@@ -1693,7 +1693,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-style="background-color:white;"
 |id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
 |-style="background-color:white;"
-|id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republic of the Congo}}&nbsp;[[Republic of the Congo]] – Cëla [[#CON2|Congo, The]].
+|id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republica dl Congo}}&nbsp;[[Republica dl Congo]] – Cëla [[#CON2|Congo, L]].
 |-
 |id=REUN data-sort-value=REUN|{{flagicon|Réunion|local}}&nbsp;[[Réunion]]
 |data-sort-value=REUN|[[Réunion]]
