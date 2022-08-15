@@ -1,0 +1,26 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Nigeria
+| flag alias = Flag of Nigeria.svg
+| flag alias-colonial = Flag of Nigeria (1914–1952).svg
+| flag alias-naval = Naval Ensign of Nigeria.svg
+| link alias-naval = Nigerian Navy
+| flag alias-army  = Flag of the Nigerian Army Headquarters.svg
+| link alias-army  = Nigerian Army
+| flag alias-military=Flag of the Nigerian Armed Forces.svg
+| link alias-military=Nigerian Armed Forces
+| flag alias-air force = Air Force Ensign of Nigeria.svg
+| link alias-air force = Nigerian Air Force
+| flag alias-navy = Naval Ensign of Nigeria.svg
+| link alias-navy = Nigerian Navy
+| flag alias-civil = Civil Ensign of Nigeria.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| var2 = civil
+| redir1 = NGA
+| redir2 = NGR
+</noinclude>
+}}
