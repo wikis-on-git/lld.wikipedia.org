@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=nglëisc:&nbsp;|pron=pronunzià&nbsp;|uk|UK=UK:&nbsp;|us|US=US:&nbsp;|local=locally&nbsp;|=|pronunzià:&#32;}}</small>{{#if:{{{1|}}}|{{nowrap|{{IPA|[[Help:IPA|/{{{1}}}/]]}}}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}||}}</onlyinclude>
+{{documentazion}}
