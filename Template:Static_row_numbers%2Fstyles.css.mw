@@ -1,0 +1,78 @@
+/* {{pp-template}} */
+table.static-row-numbers {
+  counter-reset: rowNumber;
+}
+body.skin-minerva .static-row-numbers2.sortable {
+  counter-reset: rowNumber -1;
+}
+body.skin-minerva .static-row-numbers2.sortable.static-row-header-two {
+  counter-reset: rowNumber -2;
+} 
+table.static-row-numbers tr::before {
+  display: table-cell;
+  padding-right: 0.5em;
+  text-align: right;
+}
+table.static-row-numbers tr::before {
+  content: "";
+}
+.static-row-numbers-skip {
+  counter-increment: rowNumber;
+}
+table.static-row-numbers.sortable tbody tr:not(.static-row-header):not(.static-row-numbers-norank)::before,
+table.static-row-numbers:not(.sortable) tbody tr:not(:first-child):not(.static-row-header):not(.static-row-numbers-norank)::before {
+  counter-increment: rowNumber;
+  content: counter(rowNumber);
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  vertical-align: inherit;
+}
+
+/*
+table.static-row-numbers.sortable thead tr::before,
+table.static-row-numbers tr.static-row-header::before,
+body.skin-minerva .static-row-numbers tbody tr:first-child::before,
+table.static-row-numbers:not(.sortable) tbody tr:first-child::before,
+body.skin-minerva .static-row-numbers.static-row-header-two tbody tr:nth-child(2)::before,
+table.static-row-numbers.static-row-header-two:not(.sortable) tbody tr:nth-child(2)::before {
+  content: "";
+}*/
+
+.static-row-header-text thead tr::before {
+  content: "No.";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-weight: bold;
+}
+.static-row-header-hash thead tr::before {
+  content: "#";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-weight: bold;
+}
+.static-row-header-row thead tr::before {
+  content: "Row";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-weight: bold;
+}
+.static-row-numbers.wikitable tr::before {
+  background-color: #eaecf0;
+  vertical-align: middle;
+}
+body:not(.skin-minerva) .static-row-numbers.mw-datatable:not(.wikitable) tr::before {
+  background-color: #eaeeff;
+}
+table.static-row-numbers.wikitable tbody tr:not(.static-row-header)::before ,
+body:not(.skin-minerva) .static-row-numbers.mw-datatable:not(.wikitable) tbody tr::before {
+  border: 1px solid #a2a9b1;	
+}
+.static-row-numbers-period2 tbody tr::before {
+  content: counter(rowNumber) ".";
+}
+.srn-white-background {
+   background: #fff;
+}
+.static-row-numbers tr:hover {
+   background: #eaf3ff;
+}
