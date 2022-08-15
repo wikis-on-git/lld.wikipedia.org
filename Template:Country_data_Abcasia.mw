@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Abcasia
+| flag alias = Flag of the Republic of Abkhazia.svg
+| flag alias-SSR  = Flag of Abkhazian SSR.svg
+| flag alias-ASSR  = Flag of Abkhazian ASSR.svg
+| link alias-naval = Abkhazian Navy
+| link alias-navy = Abkhazian Navy 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = SSR
+| var2 = ASSR
+</noinclude>
+}}
