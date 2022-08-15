@@ -15,6 +15,10 @@
 |-
 |style="width:160px;font-size:90%" |'''Rujeneda ufiziela'''|| style="width:160px;font-size:90%" align="left" |{{#if:{{{Lingaz 1|}}}|{{{Lingaz 1}}}}}{{#if:{{{Lingaz 2|}}}|&comma;&nbsp;{{{Lingaz 2}}}}}{{#if:{{{Lingaz 3|}}}|&comma;&nbsp;{{{Lingaz 3}}}}}{{#if:{{{Lingaz 4|}}}|&comma;&nbsp;{{{Lingaz 4}}}}}{{#if:{{{Lingaz 5|}}}|&comma;&nbsp;{{{Lingaz 5}}}}}
 |-
+{{#if:{{{Rujeneda naziunela|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Rujeneda naziunela'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Rujeneda naziunela}}}    |  }}
+|-
 |style="width:160px;font-size:90%" |'''Capitela''' || style="width:160px;font-size:90%" align="left" |{{{Capitela}}}
 |-
 {{#if:{{{Sënta guviern|}}}  | 
@@ -101,6 +105,7 @@
 |Lingaz 3                 = 
 |Lingaz 4                 = 
 |Lingaz 5                 =
+|Rujeneda naziunela       = talian
 |Abitanc                  = 8935112
 |Data abitanc             = 2020
 |Spersa                   = 83879
