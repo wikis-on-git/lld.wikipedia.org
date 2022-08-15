@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Samoa
+| shortname alias = {{{shortname alias|Samoa}}}
+| flag alias = Flag of Samoa.svg
+| flag alias-colonial = Flag of the Samoa Trust Territory.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| redir1 = SAM
+| related1 = Western Samoa
+</noinclude>
+}}
