@@ -1,0 +1,16 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Tonga
+| flag alias = Flag of Tonga.svg
+| flag alias-naval = Naval Ensign of Tonga.svg
+| link alias-naval = Tongan Maritime Force{{!}}Tongan Navy
+| flag alias-navy = Naval Ensign of Tonga.svg
+| link alias-navy = Tongan Maritime Force{{!}}Tongan Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| redir1 = TON
+| redir2 = TGA
+</noinclude>
+}}
