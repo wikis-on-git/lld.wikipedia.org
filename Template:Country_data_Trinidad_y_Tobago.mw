@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Trinidad y Tobago
+| flag alias = Flag of Trinidad and Tobago.svg
+| flag alias-colonial = Flag of Trinidad and Tobago (1889–1958).svg
+| flag alias-1958 = Flag of Trinidad and Tobago (1958–1962).svg
+| flag alias-naval = Naval Ensign of Trinidad and Tobago.svg
+| link alias-naval = Trinidad and Tobago Coast Guard
+| flag alias-air force = Flag of the Trinidad and Tobago Air Guard.svg
+| link alias-air force = Trinidad and Tobago Defence Force#Air Guard{{!}}Trinidad and Tobago Air Guard
+| flag alias-army = Flag of the Trinidad and Tobago Regiment.svg
+| link alias-army = Trinidad and Tobago Regiment
+| flag alias-navy = Naval Ensign of Trinidad and Tobago.svg
+| link alias-navy = Trinidad and Tobago Coast Guard
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| var2 = 1958
+| redir1 = TTO
+| redir2 = TRI
+</noinclude>
+}}
