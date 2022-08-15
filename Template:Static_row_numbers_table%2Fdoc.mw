@@ -1,0 +1,12 @@
+{{Documentation subpage}}
+{{tsh|srn table}}
+Simple boilerplate template to format statistical tables. It works with [[Template:Static row numbers]], and makes formatting the table easier. 
+
+It can be used on tables with inline cell or row background colors. Neither are affected by this template.
+
+Add <code><nowiki>{{Static row numbers table}}</nowiki></code> to the top line of the table wikitext of a table using <code><nowiki>{{Static row numbers}}</nowiki></code>
+
+<pre>
+{{Static row numbers}}
+{| {{Static row numbers table}}
+</pre>
