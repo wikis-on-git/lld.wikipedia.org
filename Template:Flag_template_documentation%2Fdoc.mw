@@ -1,0 +1,25 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template is used to automatically generate documentation for standard [[:Category:Flag templates|flag templates]].
+=== Usage ===
+<code><nowiki>{{flag template documentation|Country name|ISO|IOC|FIFA}}</nowiki></code>
+
+;Parameters
+:''Country name'' – matches the parameter used with {{tl|flag}} within the flag template itself
+:''ISO'' – [[ISO 3166-1 alpha-3]] country code
+:''IOC'' – [[List of IOC country codes|IOC country code]]
+:''FIFA'' – [[List of FIFA country codes|FIFA country code]]
+If any of the three codes are not applicable for a particular country, leave the respective parameters blank.
+
+This template is placed on the flag template itself (similar to how the {{tl|documentation}} template is placed). This template depends on the mandatory existence of a /doc subpage, which is only used to transclude interwiki links.
+
+====Further usage====
+The optional parameter ''header'' is content that goes at the top of the documentation box, above "Description".
+
+=== See also ===
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Documentation shared content templates]]
+}}</includeonly>
