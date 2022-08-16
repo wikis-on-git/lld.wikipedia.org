@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Timor de l'Est
+| flag alias = Flag of East Timor.svg
+| flag alias-1975=Flag of East Timor (3-2).svg
+| flag alias-2002=Flag of East Timor (2004 World Factbook).gif
+| name alias-football = Timor-Leste
+| link alias-football = Timor-Leste {{{mw|}}} national {{{age|}}} football team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1975
+| var2 = 2002
+| redir1 = TLS
+| redir2 = Timor-Leste
+</noinclude>
+}}
