@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Seychelles
+| flag alias = Flag of the Seychelles.svg
+| flag alias-1903 = Flag of Seychelles 1903-1961.gif
+| flag alias-1961 = Flag of Seychelles 1961-1976.gif
+| flag alias-1976 = Flag of Seychelles (1976–1977).svg
+| flag alias-1977 = Flag of Seychelles (1977–1996).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1903
+| var2 = 1961
+| var3 = 1976
+| var4 = 1977
+| redir1 = SYC
+| redir2 = SEY
+</noinclude>
+}}
