@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Macau
+| flag alias = Flag of Macau.svg
+| flag alias-colonial = Flag of Portugal.svg
+| flag alias-municipal = Bandeira do Leal Senado.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = colonial
+| var2 = municipal
+| redir1 = MAC
+| redir2 = Macao
+| redir3 = Macau, China
+</noinclude>
+}}
