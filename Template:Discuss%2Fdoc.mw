@@ -1,0 +1,25 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Description ===
+A convenient shorthand to make an inline link to an article's discussion (Talk:) page. It shows like this{{discuss}} inline.
+
+=== Usage ===
+ <nowiki>{{</nowiki>discuss<nowiki>}}</nowiki>
+ 
+ <nowiki>{{</nowiki>discuss|''section''<nowiki>}}</nowiki>
+ <nowiki>{{</nowiki>discuss|section=''section''<nowiki>}}</nowiki>
+ 
+ <nowiki>{{</nowiki>discuss|''section''|''text''<nowiki>}}</nowiki>
+ <nowiki>{{</nowiki>discuss|section=''section''|text=''text''<nowiki>}}</nowiki>
+Where:
+* <kbd>''section''</kbd> is the optional section within the Talk: page (default: the top of the page).
+* <kbd>''text''</kbd> is the optional alternate link text displayed (default: "''discuss''").
+
+=== See also ===
+*
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Inline dispute templates|{{PAGENAME}}]]
+}}</includeonly>
