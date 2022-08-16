@@ -932,8 +932,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:HM]]
 |align=center|[[.hm]]
 |-
-|id=HOLY data-sort-value=HOLY|{{flagicon|Holy See}}&nbsp;[[Holy See|Holy See (the)]] {{efn|The [[Holy See]] governs and represents the [[Vatican City|Vatican City State]].}}
-|[[Holy See|The Holy See]]
+|id=HOLY data-sort-value=HOLY|{{flagicon|Santa Sënta}}&nbsp;[[Santa Sënta|Santa Sënta (la)]] {{efn|La [[Santa Sënta]] guvernea y raprejentea la [[Zità dl Vatican|Zità-Stat dl Vatican]].}}
+|[[Santa Sënta|La Santa Sënta]]
 |align=center|UN observer state
 |align=center|[[ISO 3166-1 alpha-2#VA|{{mono|VA}}]]
 |align=center|[[ISO 3166-1 alpha-3#VAT|{{mono|VAT}}]]
@@ -2238,7 +2238,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:VU]]
 |align=center|[[.vu]]
 |-
-|id=VATI data-sort-value=VATI colspan=8|{{flagicon|Vatican City}}&nbsp;[[Vatican City]] – Cëla [[#HOLY|Holy See, The]].
+|id=VATI data-sort-value=VATI colspan=8|{{flagicon|Zità dl Vatican}}&nbsp;[[Zità dl Vatican]] – Cëla [[#HOLY|Santa Sënta, La]].
 |-style="background-color:white;"
 |id=VENE|{{flagicon|Venezuela|state}}&nbsp;[[Venezuela|Venezuela (Republica Bolivaria )]]
 |[[Venezuela|Republica Bolivaria de Venezuela]]
