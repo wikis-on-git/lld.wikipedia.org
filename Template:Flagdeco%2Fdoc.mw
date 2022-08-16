@@ -1,0 +1,31 @@
+{{Documentation subpage}}
+{{high-use|82,000}}
+Displays the flag identified by the parameter in "icon" size, currently 22x20 pixels plus a one pixel border. This template is very similar to {{tl|flagicon}}, except the image is not linked to an article, i.e. it is "purely decorative" per [[World Wide Web Consortium]] (W3C) [[Web Content Accessibility Guidelines]] (WCAG). This template can be used when the article text immediately adjacent to the icon provides the associated link for the flag.
+
+;Comparison example:
+*{{tlx|flagicon|United Nations}} → {{flagicon|United Nations}}
+*{{tlx|flagdeco|United Nations}} → {{flagdeco|United Nations}}
+
+;Usage examples:
+*<code><nowiki>{{flagdeco|Portugal}} [[Lisboa]], [[Portugal]]</nowiki></code> → {{flagdeco|Portugal}} [[Lisboa]], [[Portugal]]
+*<code><nowiki>{{flagdeco|Portugal}} [[Portuguese First Republic|Portugal]]</nowiki></code> → {{flagdeco|Portugal}} [[Portuguese First Republic|Portugal]]
+
+As with {{tlf|flagicon}}, a particular variant of the flag and/or a custom size for the icon may be specified using (respectively) {{para|variant}} and/or {{para|size}}. See {{tl|flagicon}} for further details.
+
+Also as with {{tlf|flagicon}}, the display of a redlink when <code><nowiki>Template:Country data Foo</nowiki></code>  does not exist can be suppressed by using the  {{para|noredlink|yes}} parameter. See 
+{{tl|flagicon}} for further details.
+
+== Tracking categories ==
+Where <code><nowiki>{{Flagdeco|Foo}}</nowiki></code>  is used, but the <code><nowiki>Template:Country data Foo</nowiki></code> does not exist, then a [[WP:REDLINK|redlink]] is displayed, ''unless'' the {{para|noredlink|yes}} parameter has been set.
+
+Where the redlink is displayed, the page is addded to a tracking category:
+
+* [[:Category:Flagdeco with missing country data templates]] (population: {{PAGESINCATEGORY:Flagdeco with missing country data templates}})
+
+== See also ==
+* [[Wikipedia:WikiProject Flag Template]]
+* [[Wikipedia:Alternative text for images]]
+
+<includeonly>{{Sandbox other||
+[[Category:Flag template system]]
+}}</includeonly>
