@@ -3,8 +3,8 @@
 Displays the flag identified by the parameter in "icon" size, currently 22x20 pixels plus a one pixel border. This template is very similar to {{tl|flagicon}}, except the image is not linked to an article, i.e. it is "purely decorative" per [[World Wide Web Consortium]] (W3C) [[Web Content Accessibility Guidelines]] (WCAG). This template can be used when the article text immediately adjacent to the icon provides the associated link for the flag.
 
 ;Comparison example:
-*{{tlx|flagicon|United Nations}} → {{flagicon|United Nations}}
-*{{tlx|flagdeco|United Nations}} → {{flagdeco|United Nations}}
+*{{tlx|flagicon|Nazions Unides}} → {{flagicon|Nazions Unides}}
+*{{tlx|flagdeco|Nazions Unides}} → {{flagdeco|Nazions Unides}}
 
 ;Usage examples:
 *<code><nowiki>{{flagdeco|Portugal}} [[Lisboa]], [[Portugal]]</nowiki></code> → {{flagdeco|Portugal}} [[Lisboa]], [[Portugal]]
