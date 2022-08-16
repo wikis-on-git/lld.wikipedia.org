@@ -578,7 +578,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:CZ]]
 |align=center|[[.cz]]
 |-style="background-color:white;"
-|id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea|Democratic People's Republic of Korea]] – Cëla [[#KOR1|Korea, The Democratic People's Republic of]].
+|id=DEM1 data-sort-value=DEM1 colspan=8|{{flagicon|Corea dl Nord }}&nbsp;[[Corea dl Nord|Republica Democratica Populera de Corea]] – Cëla [[#KOR1|Corea, La Republica Democratica Populera de]].
 |-style="background-color:white;"
 |id=DEM2 data-sort-value=DEM2 colspan=8|{{flagicon|Republica Democratica dl Congo}}&nbsp;[[Republica Democratica dl Congo]] – Cëla [[#CON1|Congo, La Republica Democratica dl]].
 |-style="background-color:white;"
@@ -1013,8 +1013,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:IQ]]
 |align=center|[[.iq]]
 |-style="background-color:white;"
-|id=IREL data-sort-value=IREL|{{flagicon|Ireland}}&nbsp;[[Republic of Ireland|Ireland]]
-|[[Republic of Ireland|Ireland]]
+|id=IREL data-sort-value=IREL|{{flagicon|Irlanda}}&nbsp;[[Republica de Irlanda|Irlanda]]
+|[[Republica de Irlanda|Irlanda]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#IE|{{mono|IE}}]]
 |align=center|[[ISO 3166-1 alpha-3#IRL|{{mono|IRL}}]]
@@ -1116,8 +1116,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:KI]]
 |align=center|[[.ki]]
 |-style="background-color:white;"
-|id=KOR1 data-sort-value=KOR1|{{flagicon|North Korea}}&nbsp;[[North Korea|Korea (the Democratic People's Republic of)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[North Korea|The Democratic People's Republic of Korea]] for [[North Korea]].}}
-|[[North Korea|The Democratic People's Republic of Korea]]
+|id=KOR1 data-sort-value=KOR1|{{flagicon|Corea dl Nord}}&nbsp;[[Corea dl Nord|Corea (la Republica Democratica Populera de)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[Corea dl Nord|La Republica Democratica Populera de Corea]] for [[Corea dl Nord]].}}
+|[[Corea dl Nord|La Republica Democratica Populera de Corea]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#KP|{{mono|KP}}]]
 |align=center|[[ISO 3166-1 alpha-3#PRK|{{mono|PRK}}]]
@@ -1125,8 +1125,8 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:KP]]
 |align=center|[[.kp]]
 |-style="background-color:white;"
-|id=KOR2 data-sort-value=KOR2|{{flagicon|South Korea}}&nbsp;[[South Korea|Korea (La Republica de)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[South Korea|La Republica de Korea]] for [[South Korea]].}}
-|[[South Korea|La Republica de Korea]]
+|id=KOR2 data-sort-value=KOR2|{{flagicon|Corea dl Sud}}&nbsp;[[Corea dl Sud|Corea (La Republica de)]] {{efn|Both the [[International Organization for Standardization]] ([[International Organization for Standardization|ISO]]) and the [[United Nations]] ([[United Nations|UN]]) use the full state name [[Corea dl Sud|La Republica de Corea]] for [[Corea dl Sud]].}}
+|[[Corea dl Sud|La Republica de Corea]]
 |align=center|Stat cumëmber de l’ONU
 |align=center|[[ISO 3166-1 alpha-2#KR|{{mono|KR}}]]
 |align=center|[[ISO 3166-1 alpha-3#KOR|{{mono|KOR}}]]
@@ -1539,9 +1539,9 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:NF]]
 |align=center|[[.nf]]
 |-style="background-color:white;"
-|id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|North Korea }}&nbsp;[[North Korea]] – Cëla [[#KOR1|Korea, The Democratic People's Republic of]].
+|id=NOR2 data-sort-value=NOR2 colspan=8|{{flagicon|Corea dl Nord }}&nbsp;[[Corea dl Nord]] – Cëla [[#KOR1|Corea, The Democratic People's Republic of]].
 |-
-|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Northern Ireland|union}}&nbsp;[[Northern Ireland]] – Cëla [[#UNI2|Riam Unì]].
+|id=NOR3 data-sort-value=NOR3 colspan=8|{{flagicon|Irlanda dl Nord|union}}&nbsp;[[Irlanda dl Nord]] – Cëla [[#UNI2|Riam Unì]].
 |-
 |id=NOR4 data-sort-value=NOR4|{{flagicon|Northern Mariana Islands}}&nbsp;[[Northern Mariana Islands|Northern Mariana Islands (the)]]
 |[[Northern Mariana Islands|L Commonwealth de la Ijules Mariana dl Nord]]
@@ -1691,7 +1691,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |-
 |id=REP1 data-sort-value=REP1 colspan=8|{{flagicon|Taiwan}}&nbsp;[[Republic of China]] – Cëla [[#TAIW|Taiwan<!--DO NOT CHANGE--> (Provinzia de la Cina)<!--The UN considers Taiwan as part of China, so "Taiwan, Provinzia de la Cina" is the country name used in ISO 3166: https://www.iso.org/obp/ui/#iso:code:3166:TW -->]].
 |-style="background-color:white;"
-|id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea|Republic of Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
+|id=REP2 data-sort-value=REP2 colspan=8|{{flagicon|Corea dl Sud }}&nbsp;[[Corea dl Sud|Republica de Corea]] – Cëla [[#KOR2|Corea, La Republica de]].
 |-style="background-color:white;"
 |id=REP3 data-sort-value=REP3 colspan=8|{{flagicon|Republica dl Congo}}&nbsp;[[Republica dl Congo]] – Cëla [[#CON2|Congo, L]].
 |-
@@ -1946,7 +1946,7 @@ Chësta lista mostra trëi sortes de codesc [[ISO 3166-1]] per uni un di 249 sta
 |align=center|[[ISO 3166-2:GS]]
 |align=center|[[.gs]]
 |-style="background-color:white;"
-|id=SOU3 data-sort-value=SOU3 colspan=8|{{flagicon|South Korea }}&nbsp;[[South Korea]] – Cëla [[#KOR2|Korea, La Republica de]].
+|id=SOU3 data-sort-value=SOU3 colspan=8|{{flagicon|Corea dl Sud }}&nbsp;[[Corea dl Sud]] – Cëla [[#KOR2|Corea, La Republica de]].
 |-style="background-color:white;"
 |id=SOU4 data-sort-value=SOU4|{{flagicon|South Sudan}}&nbsp;[[South Sudan]]
 |[[South Sudan|La Republica de South Sudan]]
