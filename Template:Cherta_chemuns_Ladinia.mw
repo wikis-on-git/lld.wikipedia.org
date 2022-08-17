@@ -1,10 +1,10 @@
 {{OSM Location map
-| coord = {{coord|46.5227|11.9}}
+| coord = {{coord|46.528|11.9}}
 |  zoom = 10
 |   float = right
 |    nolabels = 1
-|     width = 430
-|     height = 340
+|     width = 400
+|     height = 390
 | title = Chemuns de la Ladinia
 | caption = {{legend|green|Gherdëina}}{{legend|blue|Val Badia}}{{legend|red|Fascia}}{{legend|violet|Fodom}}{{legend|yellow|Anpezo}}
 
@@ -23,11 +23,12 @@
 | mark-title1 = [[Urtijëi]]
 | shape-color1 = green
 | mark-image1 = Lech_dl_Dragon_bis.JPG
+| label-pos1 = right
 
 | label2 = Santa Cristina
 | mark-coord2 = {{coord|46.55877|11.72056}}
 | mark-title2 = [[Santa Cristina]]
-| label-pos2 = left
+| label-pos2 = bottom
 | mark-image2 = Lechsant_Sella.jpg
 
 | label3 = Sëlva
@@ -41,19 +42,21 @@
 | mark-title4 = [[Corvara]]
 | mark-image4 = Selva_Sella_Saslonch_Lech_de_Ciampac.jpg
 | shape-color4 = dark blue
+| label-pos4 = right
 
 | label5 = La Val
 | mark-coord5 = {{coord|46.6578|11.9242}}
 | mark-title5 = [[La Val]]
 | mark-image5 = Lech_de_Sciuz.jpg
 | shape-color5 = dark blue
+| label-pos5 = bottom
 
 | label6 = San Martin de Tor
 | mark-coord6 = {{coord|46.682|11.8979}}
 | mark-title6 = [[San Martin de Tor]]
-| label-pos6 = right
+| label-pos6 = left
 | mark-image6 = Lec_da_Rijeda_sun_Mastlé_2015.jpg
-| shape-color8 = dark blue
+| shape-color6 = dark blue
 
 | label7 = Badia
 | mark-coord7 = {{coord|46.61|11.894}}
@@ -66,7 +69,7 @@
 | mark-coord8 = {{coord|46.6982|11.9309}}
 | mark-title8 = [[Mareo]]
 | shape-color8 = dark blue
-| label-pos8 = right
+| label-pos8 = bottom
 | mark-image8 = Lech_de_Ciaulonch_Ncisles_Gherdëina.jpg
 
 | label9 = Cianacei
@@ -74,30 +77,34 @@
 | mark-title9 = [[Cianacei]]
 | mark-image9 = Lech_de_Tina_dinviern_Sëlva.jpg
 | shape-color9 = red
+| label-pos9 = right
 
 | label10 = Ciampedel
 | mark-coord10 = {{coord|46.4766|11.741}}
 | mark-title10 = [[Ciampedel]]
 | mark-image10 = Lech_de_Tramans_dinstà_Sëlva.jpg
 | shape-color10 = red
+| label-pos10 = top
 
 | label11 = Sèn Jan
 | mark-coord11 = {{coord|46.4302|11.6858}}
 | mark-title11 = [[Sèn Jan]]
 | mark-image11 = Lech_de_Ciampedel_y_Col_Turont_te_Val_te_Gherdëina.jpg
 | shape-color11 = red
+| label-pos11 = right
 
 | label12 = Sorèga
 | mark-coord12 = {{coord|46.3952|11.6668}}
 | mark-title12 = [[Sorèga]]
 | mark-image12 = Lech_dla_scaies_Mastle_Gherdeina.jpg
 | shape-color12 = red
+| label-pos12 = right
 
 | label13 = Mazin
 | shape13 = l-circle
 | mark-coord13 = {{coord|46.4575|11.7}}
 | mark-title13 = [[Mazin]]
-| label-pos13 = left
+| label-pos13 = right
 | shape-color13 = red
 | mark-image13 = Lech_Crespëina_Odles_Puex_y_Stevia_te_Gherdëina.jpg
 
@@ -111,15 +118,15 @@
 | label15 = Fodom
 | mark-coord15 = {{coord|46.4818|11.9545}}
 | mark-title15 = [[Fodom]]
-| label-pos15 = bottom
+| label-pos15 = top
 | mark-image15 = Lech_dl_Gran_Iacun_Mastlé_Gherdëina.jpg
 | shape-color15 = violet
 
 | label16 = Col
 | mark-coord16 = {{coord|46.4476|12.0142}}
 | mark-title16 = [[Col (comun)|Col]]
-| label-pos16 = bottom
-| shape-color16 = violet
+| label-pos16 = top
+| shape-color16 = pink
 
 | label17 = Anpezo
 | shape17 = l-circle
