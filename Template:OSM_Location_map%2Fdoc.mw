@@ -1,0 +1,1449 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+<!-- Please remove this when the issue is fixed. ***I think TheDJ sorted it out, but will keep an eye on it*** ~~~~ {{notice| '''This template does not work correctly if you've enabled the [[Special:Preferences#mw-prefsection-betafeatures|PHP7 beta feature]]. More information about this at [[Phab:T214984]].'''<br> <small>''Please remove this notice when the issue is fixed – [[User:Waddie96]] 11:28, 7 February 2019 (UTC)''</small>}}  -->
+{{OSM Location map
+| coord = {{Coord|52.6909|-1.2163}}
+| zoom  = 13
+| width = 300        <!-- width and height of the frame. numeric input - do not add px -->
+| height = 300
+| caption = Old John Tower in [[Bradgate Park]], Leicestershire <!-- Text below the map -->
+
+| minimap = file
+| mini-file = Leicestershire UK location map.svg
+| mini-width = 80
+| mini-height = 60
+| minipog-gx = 46
+| minipog-gy = 44
+| scalemark = 75
+
+| mark-coord = {{Coord|52.69632|-1.22391}}    <!-- lat and lon location for the marker  --> 
+|  mark-size = 11
+|      label = Old John Tower <!--label text. Default position is left of the marker-->
+| label-size = 13
+|label-color =  dark grey
+|  label-pos = right
+| mark-title = Old John
+| mark-image = Old John (Leicestershire).jpg    <!-- used within the full screen linked page -->
+| mark-description = Hill top tower of Old John, in [[Bradgate Park]]
+
+|      label1 = War memorial
+|  label-pos1 = left
+| label-size1 = 9
+|label-color1 =  hard grey
+| mark-coord1 = {{Coord|52.694944|-1.2254584}} <!-- lat and lon for the marker -->
+|  mark-size1 = 7
+| mark-title1 = War memorial at Bradgate
+| mark-image1 = Leicestershire Yeomanry Memorial, Bradgate Park - geograph.org.uk - 885190.jpg
+| mark-description1 = Leicestershire Yeomanry Memorial, [[Bradgate Park]]
+
+|      label2 = B R A D G A T E   P A R K
+|  label-pos2 = top
+| mark-coord2 = {{Coord|52.6909|-1.2163}}    <!-- lat and lon location for the marker -->
+|  mark-size2 = 0| label-size2=11| label-color2=soft green
+| mark-title2 = Bradgate Park
+| mark-image2 = Bradgate Park - geograph.org.uk - 885175.jpg
+| mark-description2 = With its origins as a medieval deep park, [[Bradgate Park]] is now a popular visitor destination.
+
+|      label3 = Bradgate 
+|     labela3 = House
+|  label-pos3 = bottom
+| mark-coord3 = {{Coord|52.686698|-1.2111676}} <!-- lat and lon location for the marker -->
+|  mark-size3 = 7
+| mark-title3 = Bradgate House ruins
+| mark-image3 = Bradgate House - geograph.org.uk - 883366.jpg
+| mark-description3 = Ruins of the 16th century [[Bradgate House (16th century)|Bradgate House]], home of the Grey family
+
+|     arc-textA = Cropston Reservoir
+|arc-text-colorA = soft blue
+|    arc-angleA = -70
+|      arc-gapA = 1.4
+|   arc-radiusA = 0.5
+|    arc-coordA = {{Coord|52.688|-1.1995}} <!-- lat and lon location of first letter -->
+|arc-text-sizeA = 9
+
+| mark-coord4 = {{Coord|52.6934|-1.1965}} <!-- lat and lon location for the marker -->
+|  mark-size4 = 0
+| mark-title4 = [[Cropston reservoir]]
+| mark-image4 = Boathouse and Cropston Reservoir - geograph.org.uk - 48496.jpg
+| mark-description4 = It was opened in May 1871 in a corner of Bradgate Park, to supply water for the growing town of Leicester.
+
+|      label5 = Old John Car Park
+|     labela5 = (Hunt's Hill)
+|  label-pos5 = right
+|       mark5 = BSicon PARKING.svg
+| mark-coord5 = {{Coord|52.70037|-1.22784}} <!-- lat and lon location for the marker -->
+|  mark-size5 = 11
+| mark-title5 = Old John Car Park
+
+|      label6 = Hallgates 
+|  label-pos6 = bottom
+|       mark6 = BSicon PARKING.svg
+| mark-coord6 = {{Coord|52.69727|-1.1991620}} <!-- lat and lon location for the marker -->
+|  mark-size6 = 11
+| mark-title6 = Hallgates Car Park
+
+|      label7 = 
+|  label-pos7 = bottom
+|       mark7 = BSicon PARKING.svg
+| mark-coord7 = {{Coord|52.68356|-1.2277007}} <!-- lat and lon location for the marker -->
+|  mark-size7 = 11
+| mark-title7 = Newtown Linford Car Park
+}}
+This template provides a map in a frame, for any location and scale. At its simplest it shows the OpenStreetMap image and a scale indicator for a given region of the globe. Optionally locations on the map can be highlighted using markers and text labels or numbered dots, a heading and caption can be added, and a mini-locator map can be shown to provide context for the map. The frame also provides a link to an 'Interactive fullscreen' version that allows the user to zoom and scroll and that can also display images at marked locations.
+
+==Purpose== 
+'''OSM Location map''' allows an editor to include a map in a frame for anywhere in the world, at any scale from the whole world down to one or two streets. It makes use of the OpenStreetMap mapping data, and enables a place-based page or topic to simply show the area being described, without the need for pre-determined map templates or external graphics. The underlying map will be updated and improved automatically as the OSM data develops. A zoom level appropriate to the topic can be selected and a scale marker is provided in the bottom right corner. This only offers a rough guide to the distances on the map, as the map projection results in scale changes depending on the latitude. Some allowance has been made for this, but only in large 20 degree chunks.
+
+The map can also be made to show multiple marks, images and labels (currently limited to 60). The resulting framed map also has a link to an interactive full-screen version, which shows the same location 'over the top' of the current page. This is not able to show any text or other images, so is limited to pointer marks. However in other respects it has a richer map interface, can be re-scaled and panned by the user, can be given popup thumbnail images and captions on the marker points, and also provides yet further links to access a wide range of maps, satellite images etc. (The fullscreen option uses the <nowiki><maplink></nowiki> mapping provision.)
+
+OSM Location map is in effect a wrapper above another template called {{tl|Graph:Street map with marks}}. Where very large datasets are being used it may be better to utilise the Graph template directly as that allows unlimited numbers of marks and labels. However it requires a different coding mark-up (GeoJSON) and is not well suited to hand-coding. It is particularly suited to using data-sets directly extracted via automatic searches of [[Wikidata]].
+
+===Comparison with {{tl|Maplink}}===
+From May 2018 it has also been possible to create a map in a frame via {{tl|Maplink}}, which in some respects does a similar job to OSM Location map. In both cases a static map image can be added to an article, for anywhere in the world, pulling in the map from OpenStreetMap data. The differences are in what they can and can't add to the base map. Maplink, in both its framed and fullscreen versions, can only add either points (numbered or icon-style pointy dots), or various lines and areas can be imported from OpenStreetMap via wikidata Q values (at present limited to boundaries, and roads). Thus the framed map and fullscreen version will show identical information. The OSM Location map on the other hand, cannot add the Q value lines and areas except to the interactive fullscreen click-through. On the other hand it can use the framed map to show a much richer selection of dots, shapes, overlays, images and especially text to convey specific details relevant to a particular article.
+
+== Usage ==
+;Minimal version: an unadorned map centred on a latitude and longitiude coordinates, via a {{tl|coord}} value. Set the zoom to give a scale that fits the subject (0=whole world, 18=a street). With just these options set, all other parameters use the defaults, or are left unused. It also gives a link to the interactive fullscreen version.
+{{OSM Location map
+| coord = {{coord|53.4146|-4.3341}}
+|  zoom = 15
+}}
+{| 
+|-
+| <syntaxhighlight lang="html">{{OSM Location map  
+| coord = {{coord|53.4146|-4.3341}}  <!--latitude/longitude coordinates for map's center -->
+|  zoom = 15                         <!--zoom 0=whole world, 18=a street.-->
+}} </syntaxhighlight>
+|}
+{{clear}}
+===Single marker===
+By using mostly default settings a map with a 'Red pog' marker and dark red label can be produced. The example below also adds some additional items (the last three parameters) that are used by the Interactive fullscreen version.
+{{OSM Location map
+|   coord = {{coord|53.394|-4.450}}
+|    zoom = 13
+|   width = 300
+|  height = 150
+| caption = The 'Llanfechell Triangle' standing stones are north-west of [[Llanfechell]].
+
+|      label = Llanfechell Triangle
+| mark-coord = {{coord|53.3966|-4.46204}}
+|  label-pos = right
+| mark-title = Llanfechell Triangle
+| mark-image = The Llanfechell Triangle - geograph.org.uk - 1260817.jpg
+| mark-description=Group of three prehistoric standing stones thought to date to the Bronze Age, at [[Llanfechell]], [[Anglesey]]
+}}
+{| 
+|-
+| <syntaxhighlight lang="html">{{OSM Location map
+|   coord = {{coord|53.394|-4.450}}
+|    zoom = 13
+|   width = 300
+|  height = 150
+| caption = The 'Llanfechell Triangle' standing stones are north-west of [[Llanfechell]].
+
+| mark-coord = {{coord|53.3966|-4.46204}}  <!--coords for red mark -->
+|      label = Llanfechell Triangle        <!--text displayed next to red mark -->
+|  label-pos = right
+| mark-title = Llanfechell Triangle        <!--text shown in fullscreen map when hovering over or clicking on marker -->
+| mark-image = The Llanfechell Triangle - geograph.org.uk - 1260817.jpg  <!--image shown in fullscreen mode when clicking on marker -->
+| mark-description=Group of three prehistoric standing stones thought to date to the Bronze Age, at [[Llanfechell]], [[Anglesey]] <!--text shown in fullscreen mode when clicking on marker -->
+}}</syntaxhighlight>
+|}
+{{-}}
+;Code blank
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Blank code for a single marker map
+! Blank code with comments
+|-
+|<syntaxhighlight lang="html">{{OSM Location map
+|   coord = {{coord| | }} 
+|    zoom = 
+|   width = 
+|  height = 
+| caption =  
+|      label = 
+| mark-coord = {{coord| | }}
+|  label-pos = 
+| mark-title = 
+| mark-image = 
+| mark-description = 
+}}</syntaxhighlight>
+|<syntaxhighlight lang="html">{{OSM Location map
+|   coord = {{coord|   |   }} <!-- {{coord}} has various formats for latitude and longitude -->
+|    zoom =          <!-- (0=whole world, 18=a street)--> 
+|   width =          <!-- width and height of the map, in pixels. Do not add px -->
+|  height =          <!-- default is width=350, height=250 --> 
+| caption =          <!-- Text below the map. Can include [[wikilinks]] -->
+<!-- Parameters for 1st mark -->
+|      label =       <!-- text alongside the mark -->
+| mark-coord = {{coord|  |  }} <!-- lat and lon location for the marker -->
+|  label-pos =       <!-- default position is left. It can also be right, top, bottom. -->
+| mark-title =       <!-- text shown on fullscreen map when hovering over or clicking on mark -->
+| mark-image =       <!-- image shown on fullscreen map when clicking on mark. Use a filename from Commons, without File: -->
+| mark-description = <!-- text shown on fullscreen map when clicking on mark -->
+}}</syntaxhighlight>
+|}
+{{-}}
+
+==Multiple markers, labels and images==
+
+In addition to the un-numbered mark parameter set, there are 60 numbered ones. These are otherwise identical to the one above, but the name terminates in a number (1-60). Each mark and label has its own set of parameters ({{para|mark1}}, {{para|mark-coord1}}, {{para|label1}}, {{para|label-pos1}} etc...{{para|mark2}}, {{para|mark-coord2}}, {{para|label2}}, {{para|label-pos2}} etc.) Values can be inherited either from the 'mark1 master parameter set', or from a special 'markD' Default set that provides override defaults. When set, these values are inherited by the other numbered sets to avoid having to repeat for each, whilst they can still be set individually where required.
+
+===Multiple markers===
+{{anchor|Llanfechell map}}
+{{OSM Location map
+|   coord = {{coord|53.395|-4.452}}
+|    zoom = 14
+|   float = right
+|   width = 300
+|  height = 250
+| caption = Scheduled monuments around [[Llanfechell]], [[Anglesey]]
+|   title = Example title
+
+|    minimap = file bottom right
+|  mini-file = Wales relief location map.jpg
+| mini-width = 70
+|mini-height = 90
+|  minipog-gx = 36
+|  minipog-gy = 3
+
+|      shape1 = image
+|       mark1 = Red pog.svg
+|      label1 = Baron Hill Maen Hir
+| mark-coord1 = {{coord|53.3964|-4.4531}}
+|  label-pos1 = right
+| label-size1 = 11
+|label-color1 = hard grey
+| label-offset-x1=
+| label-offset-y1=
+| mark-title1 = Baron Hill Maen Hir
+| mark-image1 = Standing stone east of Llanfechell - geograph.org.uk - 1254434.jpg
+|mark-description1=Baron Hill Maen Hir, is a prehistoric standing stone north of [[Llanfechell]].
+
+| mark-coord2 = {{coord|53.3966|-4.46204}}
+|      label2 = Llanfechell Triangle
+|  label-pos2 = top
+| label-offset-x2=35
+| label-offset-y2= 
+|mark-title2 = Llanfechell Triangle
+|mark-image2 = The Llanfechell Triangle - geograph.org.uk - 1260817.jpg
+|mark-description2=Group of three prehistoric standing stones thought to date to the Bronze Age, at [[Llanfechell]], [[Anglesey]]
+}}
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+!Example code for the two-marker map shown on the right: 
+|-
+| <syntaxhighlight lang="html">{{OSM Location map
+|   coord = {{coord|53.395|-4.452}}
+|    zoom = 14
+|   float = right
+|   width = 300
+|  height = 250
+| caption = Scheduled monuments around [[Llanfechell]], [[Anglesey]]
+|   title = Example title
+
+|    minimap = file bottom right <!-- Adds a 'minimap image' to the designated corner -->
+|  mini-file = Wales relief location map.jpg
+| mini-width = 70  <!-- The desired size of the minimap, in pixels -->
+|mini-height = 90  <!-- The ratio mini-width/mini-height must equal the ratio width/height of mini-file -->
+|  minipog-gx = 36 <!-- Values between 0 and 100, specifying an optional red marker's location in the minimap. -->
+|  minipog-gy = 3  <!-- Upper left is (0,0), lower right is (100,100). -->
+
+<!-- first marker details -->
+|      label1 = Baron Hill Maen Hir 
+| mark-coord1 = {{coord|53.3964|-4.4531}}
+|       mark1 = Red pog.svg <!-- Red pog is the default so not really needed -->
+|  label-pos1 = right       <!-- Various settings in mark1 are inherited by the other marks -->
+| label-size1 = 11          <!-- unless they are over-ridden individually -->
+| label-color1 = hard grey  <!-- some standard colors can be used that blend well with the map -->
+|  mark-title1 = Baron Hill Maen Hir  <!-- Text shown when hovering over or clicking on marker in fullscreen map -->
+|  mark-image1 = Standing stone east of Llanfechell - geograph.org.uk - 1254434.jpg <!-- Image shown when clicking on marker in fullscreen map -->
+|mark-description1=Baron Hill Maen Hir, is a prehistoric standing stone north of [[Llanfechell]].  <!-- Text shown when clicking on marker in fullscreen map -->
+
+<!-- second marker details -->
+|      label2 = Llanfechell Triangle <!-- second marker details -->
+| mark-coord2 = {{coord|53.3966|-4.46204}}
+|  label-pos2 = top
+| label-offset-x2 = 35      <!-- Label offsets move the label (in pixel units) -->
+| label-offset-y2 =         <!-- without affecting the marker position. Can be positive or negative -->
+| mark-title2 = Llanfechell Triangle
+| mark-image2 = The Llanfechell Triangle - geograph.org.uk - 1260817.jpg
+|mark-description2=Group of three prehistoric standing stones thought to date to the Bronze Age, at [[Llanfechell]], [[Anglesey]]
+}}</syntaxhighlight>
+|}
+
+====Inherited values====
+To minimise repetition of code, there is a sliding scale of inheritance that applies to each value in each parameter set. For example, if <code>label-size4=16</code> is set, that will always take precedence. If label-size4 has not been set, it will inherit the value from the special Default setting (defined using <code>label-sizeD= </code>). If no Default has been set, it will inherit the value set by the 'master parameter set', <code>label-size1=</code>. If that is also undefined it will fall back to the underlying default, which in the case of label-size is 12. The same is true of all the variables relating to marks and labels, (although not to the coordinates, labels themselves, or mark-titles, which are always unique to the particular mark they relate to.)
+
+===Adding a Minimap in the left or right corner===
+Many pages with info-boxes already include a locator map to give readers a proper sense of where the topic or place is located within a broader area. For those that don't it might be helpful to include one within your map. The underling 'Graph' module that OSM Location map uses offers a built-in map of the world option, which will act as a mini locator map and automatically adds a red locator dot (<code>minimap = on</code>). Unfortunately it is too general for most purposes, so an alternative, but rather less automated, option is to make use of an existing 'Location map' file. This can be seen in the [[#Llanfechell map|Llanfechell map example]]. 
+
+The width and height of the Location map both have to be decided upon, specified (and calculated so as to not distort the map dimensions). Some location maps may already highlight the feature, but if not, an optional locator 'pog' can be placed by calculating and specifying the minipog-gx and -gy values, using a 100x100 grid across the minimap. (so gx and gy values of 25 and 50 would place a dot a quarter of the way across and half way down the minimap. It does not pick up or use latitude and longitude values. The origin (0,0) is in the top left of the minimap and the map itself defaults to the bottom right corner, but can also use <code>minimap=file bottom left</code>, <code>minimap=file top left</code> and <code>minimap=file top right</code>.
+{| 
+|-
+<syntaxhighlight lang="html">
+| minimap = file bottom right
+| mini-file = Wales relief location map.jpg
+| mini-width = 70
+| mini-height = 90
+| minipog-gx = 36
+| minipog-gy = 5
+</syntaxhighlight>
+|}
+The dot will remain in the right place even if you subsequently choose a different size for the minimap. (Note, the now redundant minipog-x and minipog-y are retained for compatibility. These used the same pixel dimensions as the width and height of the map, which made them harder to calculate/guess and needed to be re-done if the size was changed. Much better to use gx and gy from here on.)
+
+If the area of the actual map is a large portion of the mini-map, an open red box can be included instead of a dot, so as to show the bounds of the main map. To use this feature, simply specify the width of the required box: <code>minimap-boxwidth=xx</code> where xx = the percentage of the minimap width for the box. In general anything much below xx=15 will be better served by a dot. The box will be centered at the coordinates minipog-x and minipog-y. The required width will require some trial and error to pin down. The box height is then matched in proportion to the actual map and will scale if the minimap size changes.
+
+==={{anchor |arc}}Text on an arc===
+Text for broader geographic features can be placed around an arc, to convey a sense of a broader area, or to follow the curve of a river, mountain range, coastline, etc. This works entirely separately from the other labels. It does not attach itself to any mark or dot, and does not create any fullscreen markers. It requires coordinates for the first letter, parameters for the starting angle, radius of arc and gap between letters. Text size and color can also be specified, or inherited from Default settings.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Blank starter-code for text on an arcs, with starter-examples for different arc-patterns.
+|-
+| <syntaxhighlight lang="html">|       arc-coordA = {{coord|xxx|yyyy}}   <!-- coordinates of first letter -->
+|      arc-textA =  <!-- Add your text here -->
+| arc-text-sizeA = <!-- standard font sizes. If undefined, default is 12 -->
+|arc-text-colorA = <!-- sets text color. #000000 color hexes and standardised OSM Location map colors are accepted -->
+|     arc-angleA = <!-- in degrees, -180 to 180. 0 will start as horizontal, -90 straight up, 90 straight down  -->
+|       arc-gapA = <!-- 1= a notional 'standard'. 0.2 is very tight, 10 is very wide--> 
+|                  <!-- negative gap will invert the letters and run the other way around the circle -->
+|    arc-radiusA = <!-- 1= a notional 'standard' 0.5 is quite a tight circle, 8 is so wide as to be almost flat -->
+|ellipse-factorA = <!-- 1.0 is notionally circular, 0.5 to 1.0 will flattern top and bottom, above 1.0 flattens the sides -->
+</syntaxhighlight>
+|-
+! Details about using artc-text, with starter-examples for different arc-patterns. 
+|-
+| The nature of the earth's coordinate system means that there will be some variation in an arc at different latitudes and at different zoom levels. The program makes corrections for this, but there will still be residual variation. Similarly, changes in radius will also have some effect on the gap size, with a larger radius opening out the gap somewhat. There will therefore need to be considerable trial and correction to get the shape and effect desired. As a general rule, identify the coordinates of the required start-point, then choose a starter-pattern from the selection below, and then adjust parameters to fit the requirement of the map.
+|-
+| Shallow smile: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33821}} 
+| arc-angleA=-170
+| arc-gapA=-1.2
+| arc-radiusA=1.6
+| arc-textA=Shallow Smile
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = -170
+|       arc-gapA = -1.2
+|    arc-radiusA = 1.6</syntaxhighlight>
+|-
+| Deeper smile: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33821}} 
+| arc-angleA=-150
+| arc-gapA=-3
+| arc-radiusA=0.7
+| arc-textA=Deeper Smile
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = -150
+|       arc-gapA = -3
+|    arc-radiusA = 0.7</syntaxhighlight>
+|-
+| wide eyebrow: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33721}} 
+| arc-angleA=-20
+| arc-gapA=3
+| arc-radiusA=0.8
+| arc-textA= Eyebrow
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = -20
+|       arc-gapA = 3
+|    arc-radiusA = 0.8</syntaxhighlight>
+|-
+|opening bracket (reading up): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=150
+| arc-coordA = {{coord|53.6132|-4.33521}} 
+| arc-angleA=-110
+| arc-gapA=1.5
+| arc-radiusA=0.6
+| arc-textA= opening bracket (up)
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = -110
+|       arc-gapA = 1.5
+|    arc-radiusA = 0.6</syntaxhighlight>
+|-
+|opening bracket (reading down): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6168|-4.33521}} 
+| arc-angleA=-60
+| arc-gapA=-2
+| arc-radiusA=0.5
+| arc-textA= opening bracket (down)
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = -60
+|       arc-gapA = -2
+|    arc-radiusA = 0.5</syntaxhighlight>
+|-
+|closing bracket (reading up): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6122|-4.33521}} 
+| arc-angleA=120
+| arc-gapA=-1.5
+| arc-radiusA=0.8
+| arc-textA= closing bracket (up)
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = 120
+|       arc-gapA = -1.5
+|    arc-radiusA = 0.8</syntaxhighlight>
+|-
+|closing bracket (reading down): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6168|-4.33521}} 
+| arc-angleA=60
+| arc-gapA=2.5
+| arc-radiusA=0.4
+| arc-textA= closing bracket (down)
+}}
+<syntaxhighlight lang="html">|     arc-coordA = {{coord| | }}
+|      arc-textA =  
+| arc-text-sizeA = <!-- default is 12 -->
+|arc-text-colorA = <!-- default is dark grey-->
+|     arc-angleA = 60
+|       arc-gapA = 2.5
+|    arc-radiusA = 0.4</syntaxhighlight>
+|}
+
+===Multi marker example===
+{{anchor|Pentre Ifan map}}
+{{OSM Location map
+| coord ={{coord|52.0|-4.830}}| zoom =11| width = 320 | height = 350
+| caption = [[Pentre Ifan]] and other nearby Neolithic sites
+| scalemark = 7
+
+| minimap = file bottom left
+| mini-file = Pembrokeshire UK relief location map.jpg
+| mini-width = 110
+| mini-height = 82
+| minipog-gx = 69
+| minipog-gy = 25
+| minimap-boxwidth=18
+
+|       markD = Archaeological site icon (red).svg
+|  mark-sizeD = 9
+| label-sizeD = 10
+|label-colorD = hard grey
+
+|      label = Pentre Ifan
+| mark-coord = {{coord|51.9990|-4.7700}}
+|  mark-size = 14
+| label-size = 15
+|label-color = dark grey
+|  label-pos = left
+| mark-title = Pentre Ifan, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]]
+| mark-image = DMPentreIfanFront.JPG 
+| mark-description = The largest and best preserved [[Neolithic British Isles|neolithic]] [[dolmen]] in [[Wales]]
+
+|      label1 = Llech-y-Tribedd dolmen
+| mark-coord1 = {{coord|52.0545|-4.7717}}
+| mark-title1 = Llech-y-Tribedd, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image1 = Llech-y-tribedd and Carn Ingli - geograph.org.uk - 1426923.jpg
+| mark-description1 = Llech-y-Tribedd is a well preserved dolmen with three tapering uprights and a massive capstone.
+
+|      label2 = Carreg Coetan 
+|     labela2 = Arthur dolmen
+| mark-coord2={{coord|52.0186|-4.8282}}
+|  label-pos2 = top
+| label-offset-x2 = -6
+| label-offset-y2 = -2
+| mark-title2 = Carreg Coetan Arthur, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image2 = Carreg Coetan burial chamber. - geograph.org.uk - 1044642.jpg
+| mark-description2 = [[Carreg Coetan Arthur]] is a dolmen in a small hedged enclosure on the outskirts of Newport
+
+|      label3 = Banc Du 
+|     labela3 = Neolithic enclosure
+| mark-coord3={{coord|51.9409|-4.823}}
+|  label-pos3 = top
+| mark-title3 = Banc Du Neolithic enclosure, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image3 = Sheep on Banc Du - geograph.org.uk - 1754023.jpg
+| mark-description3 = [[Banc Du]] is a promentary hill with the first confirmed neolithic enclosure in Wales
+
+|      label4 = Bedd yr Afanc 
+|     labela4 = Burial Chamber
+| mark-coord4={{coord|51.9775|-4.7563}}
+|  label-pos4 = top
+| mark-title4 = Bedd yr Afanc Burial Chamber, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image4 = Bedd yr afanc, looking east-southeast - geograph.org.uk - 404497.jpg
+| mark-description4 = Bedd yr Afanc is a stone burial chamber below the summit of Mynydd Preseli
+
+|      label5 = Standing Stones
+| mark-coord5={{coord|51.9685|-4.7945}}
+|  label-pos5=right
+| mark-title5 = Standing Stones, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image5 = 
+| mark-description5 = Tafarn-y-Bwlch and Waun Mawn Standing Stones
+
+|      label6 = Trellyffaint dolmen
+| mark-coord6={{coord|52.0478|-4.7982}}
+|  label-pos6=right
+| mark-title6 = Trellyffaint burial chamber, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image6 = Trellyffant burial chamber, looking northeast - geograph.org.uk - 1410564.jpg
+| mark-description6 = Trellyffaint dolmen, looking northeast. The capstone has collapsed at some point.
+
+|      label7 = Cerig-y-Gof 
+|     labela7 = chambered tomb
+| mark-coord7={{coord|52.0137|-4.8627}}
+|  label-pos7=bottom
+| label-offset-x7=10
+| mark-title7 = Cerig-y-Gof chambered tomb, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image7 = Cerrig y Gof chambered tomb - geograph.org.uk - 202375.jpg
+| mark-description7 = A group of five stone-lined chambers, thought to have been originally covered by a single mound.
+
+|      label8 = Bedd Arthur stone circle
+| mark-coord8={{coord|51.9597|-4.7223}}
+| mark-title8 = Bedd Arthur, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]] 
+| mark-image8 = Beddarthur standing stone circle, Preseli Mountains - geograph.org.uk - 258436.jpg
+| mark-description8 = [[Bedd Arthur]] is an oval banked enclosure set with stones.
+
+| arc-coordA = {{coord|52.045|-4.910}}
+| arc-angleA=-190
+| arc-gapA=-2
+| arc-radiusA=0.8
+| arc-text-colorA=soft blue
+| arc-textA=Cardigan Bay
+
+| arc-coordB = {{coord|51.998|-4.88}}
+| arc-angleB=-110
+| arc-gapB=-4.1
+| arc-radiusB=0.76
+| arc-text-colorB=soft green
+| arc-textB=PRESELI HILLS
+}}
+ 
+{| class="wikitable mw-collapsible autocollapse"| width=50%
+|-
+! Worked example of a map with multiple markers and text: Pentre Ifan
+|-
+| <syntaxhighlight lang="html">{{OSM Location map
+| coord ={{coord|52.0|-4.830}}| zoom =11| width = 320 | height = 350
+| caption = Pentre Ifan and other nearby Neolithic sites
+| scalemark = 7
+
+| minimap = file bottom left
+| mini-file = Pembrokeshire UK relief location map.jpg
+| mini-width = 110
+| mini-height = 82
+| minipog-gx = 69
+| minipog-gy = 25
+| minimap-boxwidth=18
+
+ <!-- the optional 'D' values become Defaults for subsequent parameter sets -->
+| markD = Archaeological site icon (red).svg
+| mark-sizeD = 9
+| label-sizeD = 10
+| label-colorD = hard grey
+
+|      label = Pentre Ifan
+| mark-coord = {{coord|51.9990|-4.7700}}
+|  mark-size = 14
+| label-size = 15
+|label-color = dark grey
+|  label-pos = left
+| mark-title = Pentre Ifan, [[List of Scheduled prehistoric Monuments in north Pembrokeshire|Pembrokeshire]]
+| mark-image = DMPentreIfanFront.JPG 
+| mark-description = The largest and best preserved [[Neolithic British Isles|neolithic]] [[dolmen]] in [[Wales]]
+
+|      label1 = Llech-y-Tribedd dolmen
+| mark-coord1 = {{coord|52.0545|-4.7717}}
+| mark-title1 = Llech-y-Tribedd, [[Pembrokeshire]] 
+| mark-image1 = Llech-y-tribedd and Carn Ingli - geograph.org.uk - 1426923.jpg
+| mark-description1 = A well preserved dolmen with a massive capstone.
+
+|      label2 = Carreg Coetan 
+|     labela2 = Arthur dolmen
+| mark-coord2 = {{coord|52.0186|-4.8282}}
+|  label-pos2 = top
+| label-offset-x2 = -6
+| label-offset-y2 = -2
+<!-- other mark-title, -image and -description parameters are included on the map, (view the [Interactive full screen] option and click on the markers for the result), but are omitted from the sample text code to keep things from getting too longwinded  -->
+
+|      label3 = Banc Du | labela3 = Neolithic enclosure
+| mark-coord3 = {{coord|51.9409|-4.823}}
+|  label-pos3 = top
+
+|      label4 = Bedd yr Afanc | labela4 = Burial Chamber
+| mark-coord4 = {{coord|51.9775|-4.7563}}
+|  label-pos4 = top
+
+|      label5 = Standing Stones
+| mark-coord5 = {{coord|51.9685|-4.7945}}
+|  label-pos5 = right
+
+|      label6 = Trellyffaint dolmen
+| mark-coord6 = {{coord|52.0478|-4.7982}}
+|  label-pos6 = right
+
+|      label7 = Cerig-y-Gof | labela7 = chambered tomb
+| mark-coord7 = {{coord|52.0137|-4.8627}}
+|  label-pos7 = bottom
+| label-offset-x7=10
+
+|      label8 = Bedd Arthur stone circle
+| mark-coord8 = {{coord|51.9597|-4.7223}}
+
+| arc-latB = 52.0
+| arc-lonB =-4.8800
+| arc-angleB=-110
+| arc-gapB=-4
+| arc-radiusB=0.76
+| arc-text-colorB=soft green
+| arc-textB=PRESELI HILLS
+}}
+</syntaxhighlight>
+|}
+
+==Alternative marks==
+Instead of using the standard 'Red pog' for mark points on the map, other images can be used. Any image from Wikimedia Commons can be specified. The Pentre Ifan example above uses '[[:Commons:Archaeological site icon (red).svg|Archaeological site icon (red).svg]]'. If a particular image file is specified in <code>mark1=</code>, all subsequent marks will use it as well unless they name their own image file. If the image is not square, a dimension value also needs to be set (width ratio for a height of 1)
+
+===Transparent overlay===
+{{OSM Location map
+| lat =52.6328
+| lon =-1.138
+| zoom =14
+| width = 300       <!-- width and height of the frame. numeric input - do not add px -->
+| height = 300
+| caption = Leicester Castle and the line of the medieval town walls
+| minimap = file
+| mini-file=Leicestershire UK district map (blank).svg
+| mini-width=100
+| mini-height=75
+| minipog-gx=52
+| minipog-gy=55
+| scalemark =106     <!-- shifts the scalemark further to the left -->
+
+| mark = Leicester Town Walls map overlay.svg
+| mark-coord = {{coord|52.6328 |-1.1380}}   <!-- lat and lon location for the overlay -->
+| mark-size = 300       <!--height of the overlay image, in a tracing matches the frame-->
+| mark-dim = 0.8        <!--dimension (scale factor) to set width, needed if the image is not square-->
+| mark-title=none       <!--no marker within the linked full screen-->
+
+| mark-coord1 = {{coord|52.632333|-1.141194}} <!-- lat and lon location for the marker -->
+| mark1=Red pog.svg
+| mark-size1=11
+| label1 = Leicester 
+| labela1 = Castle
+| label-pos1=left
+| mark-title1 = Leicester Castle
+| mark-image1 = The Great Hall Leicester Castle.jpg  <!-- for use within the full screen linked page -->
+| mark-description1 = The Great Hall, now with a Queen Anne frontage, is the main standing remains of Leicester's medieval castle.
+
+| mark-coord2 = {{coord|52.630|-1.1458}} <!-- lat and lon location for the marker -->
+| mark-size2=0
+| label2 = River Soar| label-size2=9
+| label-pos2=top| label-angle2=-55
+| label-color2=soft blue| mark-title2 = none
+}}
+
+A marker image does not have to be small and opaque. A larger overlay image (with a transparent background) can be used to show particular features not included in the base map, such as a town's former walls (see the adjacent map). Such images can be created in several ways (such as tracing over a copy of the base map); they are invoked like any other marker image file. (For a detailed guide to creating and deploying an overlay for these maps see [[User:J. Johnson/OSM overlay how-to]]).
+
+===Text color===
+
+Color of label text can be specified using <code>label-color = </code>. Standard html colors can be specified by name, and any color can be specified using the hex triplets coding #xxyyzz (see [[Web colors]]). However, to create a consistent look and feel across the wikipedia maps, there are some OSM Location map specific colors, with a more muted tone range that fit well with the color scheme of the base maps. In general it is best to make use of this range, unless there are good reasons for using other particular shades for specific features.
+Under normal usage, the following label color scheme should be followed:-
+{| class="wikitable" style="text-align: left;"
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft grey}} |soft grey}} 
+|Settlements = soft grey (Subject of the map can be hard grey and larger label-size)
+Map areas with darker or busier backgrounds may need to move a shade darker to hard grey and dark gray respectively.
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft blue}}|soft blue}} 
+|Rivers, lakes, sea areas etc = soft blue (Works well on top of OSM blue areas)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft green}}|soft green}} 
+|Parkland, national/regional parks, gardens, forests etc = soft green works well on top of OSM green areas. (hard green may be desirable in forests or for the subject of the map)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard red}} |hard red}} 
+| Use with care = dark red goes nicely with a red pog but can look like a redlink. Alas, no wikilinks possible on the map as yet.)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark grey}} |dark grey}} 
+|Individual sites = dark grey (no need to specify if the site has a single label to accompany a red pog)
+|}
+
+===Full table of color options===
+
+{| class="wikitable" style="width: 70%; text-align: left;"
+|-
+! colspan="3" style="background-color:lightblue" | Colors recommended for OSM Maps. 
+These have a more pastel shade than the standard colors, so blend effectively with the map backgrounds
+|-
+| {{font color|#{{OSM Location map/color|soft red}}|soft red #{{OSM Location map/color|soft red}}}}
+| {{font color|#{{OSM Location map/color|hard red}} |hard red #{{OSM Location map/color|hard red}}}} 
+| {{font color|#{{OSM Location map/color|dark red}} |dark red #{{OSM Location map/color|dark red}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft green}} |soft green #{{OSM Location map/color|soft green}}}} 
+| {{font color|#{{OSM Location map/color|hard green}} |hard green #{{OSM Location map/color|hard green}}}} 
+| {{font color|#{{OSM Location map/color|dark green}} |dark green #{{OSM Location map/color|dark green}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft blue}} |soft blue #{{OSM Location map/color|soft blue}}}} 
+| {{font color|#{{OSM Location map/color|hard blue}} |hard blue #{{OSM Location map/color|hard blue}}}} 
+| {{font color|#{{OSM Location map/color|dark blue}} |dark blue #{{OSM Location map/color|dark blue}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft grey}} |soft grey #{{OSM Location map/color|soft grey}}}} 
+| {{font color|#{{OSM Location map/color|hard grey}} |hard grey #{{OSM Location map/color|hard grey}}}}
+| {{font color|#{{OSM Location map/color|dark grey}} |dark grey #{{OSM Location map/color|dark grey}}}}
+|- 
+| {{font color|#{{OSM Location map/color|soft brown}}|soft brown #{{OSM Location map/color|soft brown}}}} 
+| {{font color|#{{OSM Location map/color|hard brown}}|hard brown #{{OSM Location map/color|hard brown}}}}  
+| {{font color|#{{OSM Location map/color|dark brown}}|dark brown #{{OSM Location map/color|dark brown}}}}
+|}
+
+===Shape opacity and giving a shape a halo===
+With the 2021 changes to how the maps are displayed it has become possible to use opacity settings for the built-in shapes, to allow for transparency of both the shapes and outlines. In implementing this, it also became possible to offer a semi-transparent halo around built-in shapes and also around marks such as Red pog.svg. The table below shows a variety of possibilities for using these features.
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Parameters to set opacity and a halo, with some examples.
+|-
+| <syntaxhighlight lang="html">
+|   shape-opacity=   <!-- provide a percentage opacity value for the fill color of 'built in shapes' --> 
+|   outline-opacity= <!-- percentage opacity for the outline of a built in shape (nb, will be ignored for shapes with numbers)  -->
+|   shape-halo=xx    <!-- highlights a shape or pog with a tranclucent 'halo', matching the shape-color, of width as specified in xx 
+                          (5 is very thin, and increases by area rather than radius  -->
+                     <!-- for the opacity values, both 0 and 100 create solid shapes, so use 1 for 'almost invisible' -->
+                     <!-- if a shape is given an opacity other than 0 (which is the default), and also given a halo, the halo will just be an outer circle -->
+</syntaxhighlight>
+|-
+! Some ideas for using opacity and halo options
+|-
+| There are many use cases for both putting a halo around either shape or marker, to highlight it or indicate a zone of influence, for example. Similarly, using the opacity option for shapes can either retain visibility of the map below or indicate variable intensity of an item. As with all wikipedia graphics, the use should be driven by the needs of the data, and sources for underlying information should be correctly referenced.
+
+Parameter settings for various options and combinations are shown below:-
+|-
+| Translucent circle to indicate a zone of interest: {{OSM Location map 
+| coord = {{coord|51.7442|-3.6261}}
+| zoom = 13 | width=200| height=200
+|      mark-coord1={{coord|51.7379|-3.6296}} 
+|           shape1=circle
+|       mark-size1=160
+|     shape-color1=dark grey
+|   shape-opacity1=20
+| outline-opacity1=1
+|mark-coord2={{coord|51.7379|-3.6296}} 
+|     label2=Solar Farm
+| label-pos2=top
+| mark-size2=0
+}}
+<syntaxhighlight lang="html">|           shape1=circle
+|       mark-size1=160
+|     shape-color1=dark grey
+|   shape-opacity1=20
+| outline-opacity1=1</syntaxhighlight>
+|-
+| Translucent circles by setting default values: by using 'D' instead of a parameter number, its value is applied as default to all the markers. {{OSM Location map 
+| coord = {{coord|52.45|-3.90}}
+| zoom = 7 | width=200| height=200
+|           shapeD=circle      
+|   shape-opacityD=50          
+| outline-opacityD=60
+|   shape-outlineD=black
+
+|      label= Mid Wales
+| label-size= 16 
+|  mark-size= 0|mark-title=none
+| mark-coord= {{coord|52.35|-3.30}}
+
+|  mark-coord1= {{coord|52.45|-3.70}}
+| shape-color1= soft green
+|  mark-title1= Wales, Onshore wind power
+|   mark-size1= 180
+
+|  mark-coord2= {{coord|52.51|-4.23}}
+| shape-color2= hard blue
+|  mark-title2= Wales, Offshore wind power
+|   mark-size2= 300
+}}
+<syntaxhighlight lang="html">|           shapeD=circle      
+|   shape-opacityD=50          
+| outline-opacityD=60
+|   shape-outlineD=black</syntaxhighlight>
+|- 
+|Use of a halo to highlight a particular pog marker. {{OSM Location map
+| width=200| height=200| zoom=10
+| coord={{coord|23|46|10|N|87|00|50|E}}
+|mark-coord1={{coord|23|44|5|N|86|57|12|E}} | label1=Pangachhiya| mark-title1=[[Pangachhiya]] (CT)|label-pos1=bottom
+|mark-coord2={{coord|23|45|25|N|87|1|32|E}} | label2=Domohani|  mark-title2=[[Domohani]] (CT)|label-pos2=top| shape-halo2=16
+|mark-coord3={{coord|23|43|54|N|87|1|32|E}} | label3=Bhanowara|  mark-title3=[[Bhanowara]] (CT)|label-pos3=right
+}}<syntaxhighlight lang="html">| shape-halo2=16</syntaxhighlight>
+(You can optionally also set the shape-color to a preferred halo color, which will not affect the pog marker)
+|-
+|Additional halo options with shapes and opacity {{OSM Location map
+| coord={{coord|52.6194|-1.109}}
+| float=right
+| zoom =14
+| width = 200       <!-- width and height of the frame. numeric input - do not add px -->
+| height = 200
+
+| mark = Stoneygate, Leicester, conservation area map.svg
+| mark-coord ={{coord|52.6158|-1.1079}} <!-- lat and lon location for the overlay -->
+| mark-size = 300           <!--height of the overlay, matches the frame-->
+| mark-dim = 0.7833     <!--dimension to set width needed as not square-->
+| mark-title=none
+
+| arc-coordA={{coord|52.62109|-1.11341}}   
+|  arc-textA=  STONEYGATE
+| arc-angleA=40
+| arc-gapA=2.4
+| arc-radiusA=1.02
+| arc-text-sizeA = 16
+| arc-text-colorA= #11111160
+
+| arc-coordB={{coord|52.620209|-1.11441}}   
+|  arc-textB=  CONSERVATION AREA
+| arc-angleB=43
+| arc-gapB=1.55
+| arc-radiusB=1
+| arc-text-sizeB = 10
+| arc-text-colorB= #11111160
+
+| shape-opacityD=50
+| label-sizeD=11
+| shapeD=n-circle
+| shape-colorD=dark blue
+| shape-outlineD=white
+
+| mark-coord1 = {{coord|52.6180|-1.11189}}
+| label1 = St John's Church
+| mark-size1=18
+| label-pos1=left
+| mark-title1 = St John The Baptist Church (1884-5) II*
+| mark-image1 = 
+| mark-description1 = Built 1884-85, designed by Joseph Goddard
+
+| mark-coord2 = {{coord|52.61819|-1.11035}}
+| label2 = Congregational 
+| labela2 = Church 
+| label-offset-y2=-5
+|label-pos2=right
+| mark-title2 = Clarendon Park Congregational Church (1896) II
+| mark-image2 = 
+| mark-description2 = Congregational Church on London Road, built in 1896
+
+| mark-coord3 = {{coord|52.62324|-1.11179}}
+| label3 = Eastfield 
+|label-pos3=right
+| mark-title3 = Eastfield, Stanley Road (1844) II
+| mark-image3 = 
+| mark-description3 = 1844 large private house, extended in 1876, 1888, and 1904. It became a care home in the 1950s and by 2016 was in use for student flats.
+
+| mark-coord4 = {{coord|52.62123|-1.111297}}
+|shape-halo4=15
+|shape-opacity4=100
+| label4 = Stoneygate School
+|label-pos4=right
+| mark-title4 = Stoneygate School (1857) II
+| mark-image4 = 
+| mark-description4 = Built as a house in 1857, it was part of the first wave of suburban development along London Road
+
+| mark-coord5 = {{coord|52.62009|-1.11241}}
+| label5 = The Firs| label-offset-x5=-25
+|label-pos5=top
+| mark-title5 = The Firs: No. 223 London Road (1826-9) II
+}}
+On this busy background, the numbered marks are given a 50% opacity, to allow some visibility of the map below. To highlight the dot number 4, it is given a 100% opacity and a halo. Note how any opacity that is not 0 forces the halo to change to an open circle instead of a translucent disc. (nb, when using the built in shapes, the halo will always take the same color setting as the shape itself).
+<syntaxhighlight lang="html">| shape-opacityD=50
+|    label-sizeD=11
+|         shapeD=n-circle
+|   shape-colorD=dark blue
+| shape-outlineD=white
+
+|    shape-halo4= 15
+| shape-opacity4= 100</syntaxhighlight>
+|-
+|And one of the Geeks! {{OSM Location map
+| coord={{coord|57.087|-4.702}}
+| float=right
+| zoom =6
+| width = 200 
+| height = 200
+| mark-coord={{coord|57.087|-4.702}}
+|mark-size=0
+|label=GREAT GLEN
+|label-pos=top
+|label-size=16
+|label-angle=-55
+|label-offset-y=6
+| label-color=#1659165A
+}}
+<syntaxhighlight lang="html">| label-color=#1659165A</syntaxhighlight>
+It is possible to set an opacity value for text as well. But it can only be done by adding it as an additional two-digit hex to a color given as a #value. This will not work with the built in color-names, but you can use the hex values shown in the color section below to match the built in colours. The transparency digits 7 and 8 are two optional hex numbers, using the form #RRGGBBTT, where the TT values are hex numbers setting opacity between 0 (transparent) and 255 (opaque).
+|}
+
+===Text effects===
+;multi-line label: Where label text is too long to fit on a single line, using <code>label = </code>, two further label lines can be used: <code>labela = </code> and <code>labelb = </code>. 
+
+;Label with no mark: If <code>mark-size=0</code> this has the effect of a free-floating label with no marker
+
+;Angled label: It is possible to specify a <code>label-angle = </code>, which will pivot the label text around the centre of the marker point by the specified angle. Using an angled label which also has no marker is particularly good for labelling various geographic and linear features. A more characterful alternative is to set the text on an arc, using the ArcText options, illustrated by the 'Preseli Hills' text on the [[#Pentre Ifan map|Pentre Ifan map]]. For stylistic consistency settlement and building names should not normally be given an angle.
+
+===Numbered dots===
+{{OSM Location map
+| coord={{coord|52.620|-1.112}}
+| float=left| zoom =15
+| width = 200  | height = 300
+| mark-coord1 = {{coord|52.6180|-1.11189}}
+| mark-title1 = St John The Baptist Church
+| shape1=n-circle
+| shape-color1=dark blue
+| shape-outline1=white
+| mark-size1=16
+| mark-coord2 = {{coord|52.61819|-1.11035}}
+| mark-title2 = Congregational Church
+| mark-coord3 = {{coord|52.62324|-1.11179}}
+| mark-title3 = Eastfield, Stanley Road
+| mark-coord4 = {{coord|52.62123|-1.111297}}
+| mark-title4 = Stoneygate School
+| mark-coord5 = {{coord|52.62009|-1.11241}}
+| mark-title5 = The Firs
+| mark-coord6 = {{coord|52.61936|-1.11510}}
+| mark-title6 = White House
+| caption = Listed buildings in Stoneygate
+| auto-caption=1
+}}
+If numbered dots are needed, instead of (or as well as) text labels, this can be achieved using the built in shapes. For example, <code>shape1=n-circle</code> will place a numbered dot at that coord position (or <code>l-circle</code> for letters). Generally it is much better to use the dots in sequence, so each numbered mark gives a numbered dot, and they will match the full screen ones. If <code>auto-caption=1</code> then the caption will generate a numbered list using the <code>mark-title</code> entries.  For example:-
+
+<syntaxhighlight lang="text">
+{{OSM Location map
+| coord={{coord|52.620|-1.112}}
+| float=left| zoom =15
+| width = 200  | height = 300
+| mark-coord1 = {{coord|52.6180|-1.11189}}
+| mark-title1 = St John The Baptist Church
+| shape1=n-circle
+| shape-color1=dark blue
+| shape-outline1=white
+| mark-size1=16
+| mark-coord2 = {{coord|52.61819|-1.11035}}
+| mark-title2 = Congregational Church
+| mark-coord3 = {{coord|52.62324|-1.11179}}
+| mark-title3 = Eastfield, Stanley Road
+| mark-coord4 = {{coord|52.62123|-1.111297}}
+| mark-title4 = Stoneygate School
+| mark-coord5 = {{coord|52.62009|-1.11241}}
+| mark-title5 = The Firs
+| mark-coord6 = {{coord|52.61936|-1.11510}}
+| mark-title6 = White House
+| caption = Listed buildings in Stoneygate
+| auto-caption=1
+}}
+</syntaxhighlight>
+The other built-in shapes can be used in the same way (<code>n-square</code>, <code>n-diamond</code> etc.). The <code>shape-outline1=</code> value sets the colour for the number (unlike normal, when it sets the shape-outline), and as with the others, only the <code>mark1</code> parameter values need to be set, to establish the default for this map, which can be overridden as required. The <code>numbered1..2..3 etc</code> parameters can override the automatic numbers or letters to use your own values for each mark. {{tl|Flushing Meadows-Corona Park map}} is a useful real life example in template form.
+===Use in infoboxes===
+{{t|OSM Location map}} can be imbedded in infoboxes which allow the <code>module</code> parameter, for instance {{t|infobox school}} by using the instruction <code>|module=<nowiki>{{OSM Location map| ...}}</nowiki></code>. For an example, see [[:St John Fisher Catholic School]] which uses the map to show its two sites within an infobox map. Some infoboxes also allow it to be incorporated within the caption below an image. However, this only works if an image and some caption text are also present. (see [[Inishmore Lighthouse]]).
+
+==Full list of parameters==
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Demonstration of multi-mark example, Heathrow Airport
+|- 
+|-
+| <syntaxhighlight lang="html" style="overflow: auto; margin-right: 5px;">
+{{OSM Location map
+| coord={{coord|51.46534|-0.44542}}
+| zoom=12
+| float = right
+| width = 300
+| height = 400
+| fullscreen-option=
+| caption = [[File:Heathrow Airport 014.jpg|360px]]<br>With five terminals, [[Heathrow Airport]], is the busiest airport in Europe.
+| title=London's Heathrow Airport
+<!-------->
+| minimap = file
+| mini-file = Greater London UK location map 2.svg
+| mini-width = 150
+| mini-height = 120
+| minipog-gx = 14
+| minipog-gy = 53
+| minimap-boxwidth = 20
+| scalemark = 160 
+<!-------->
+| shape = image <!-- start of first label. This does not inherit parameter values from the 'master marker', mark1 and its parameter values have to be entered in full. Other labels have a number attached to each parameter name.-->
+|   shape-color=
+| shape-outline=
+|          mark = Airplane silhouette.svg
+|     mark-size = 20
+|    mark-coord = {{coord|51.471948|-0.487883}}
+|         label = Heathrow Terminal 5
+|        labela = 
+|        labelb =
+|    label-size = 13
+|   label-color = hard red
+|   label-angle =
+|     label-pos = top
+|label-offset-x = 19
+|label-offset-y = 
+|    mark-title = Heathrow Airport Terminal 1
+|    mark-image = Heathrow Terminal 1 - geograph.org.uk - 581459.jpg
+| mark-description=Terminal 1 at [[Heathrow Airport]], the busiest airport in Europe.
+<!-- Subsequent markers add a number 1 to 30 to the marker parameter names, mark-coords are required for each marker. Most parameter values are inherited from the 'mark1' marker which acts as the 'master marker'-->
+| mark-coord1={{coord|51.470156|-0.448497}}
+| shape1 = image
+| shape-color1=red
+| shape-outline1=
+| mark1 = Airplane silhouette.svg
+| mark-size1 = 20
+| label-color1 = hard red
+| label1=Terminal 2
+| label-size1=13
+| label-pos1=bottom
+| mark-title1 = Heathrow Airport Terminals 1 & 3
+}}</syntaxhighlight>
+|
+{{OSM Location map
+| coord={{coord|51.46534|-0.44542}}
+| zoom=12
+| float = right
+| width = 300
+| height = 400
+| fullscreen-option=
+| caption = [[File:Heathrow Airport 014.jpg|290px]]<br>With five terminals, [[Heathrow Airport]], is the busiest airport in Europe.
+| title=London's Heathrow Airport
+<!--minimap code-->
+| minimap = file
+| mini-file = Greater London UK location map 2.svg
+| mini-width = 150
+| mini-height = 120
+| minipog-gx = 14
+| minipog-gy = 53
+| minimap-boxwidth = 20
+| scalemark = 160 
+<!-- first standalone mark-->
+|       shape = image
+| shape-color = red
+|shape-outline=
+|        mark = Airplane silhouette.svg
+|   mark-size = 20
+|  mark-coord = {{coord|51.471867|-0.456726}}
+|       label = Terminals 1 & 3
+|      labela = 
+|      labelb =
+|  label-size = 13
+| label-color = hard red
+| label-angle =
+| label-pos   = top
+| label-offset-x=
+| label-offset-y= 
+| mark-title=Heathrow Airport Terminal 1
+| mark-image=Heathrow Terminal 1 - geograph.org.uk - 581459.jpg
+| mark-description=Terminal 1 at [[Heathrow Airport]], the busiest airport in Europe.
+<!-- mark-- master marker-->
+| mark-coord1={{coord|51.470156|-0.448497}}
+| shape1 = image
+| shape-color1=red
+| shape-outline1=
+| mark1 = Airplane silhouette.svg
+| mark-size1 = 20
+| label-color1 = hard red
+| label1=Terminal 2
+| label-size1=13
+| label-pos1=bottom
+| mark-title1 = Heathrow Airport Terminals 1 & 3
+<!-- mark-->
+| mark-coord2={{coord|51.471948|-0.487883}}
+| label2 = Terminal 5
+| label-pos2=bottom
+| mark-title2=Heathrow Airport Terminal 5
+| mark-image2=Heathrow Airport 014.jpg
+| mark-description2=Terminal 5 at [[Heathrow Airport]], the busiest airport in Europe.
+<!-- mark-->
+| mark-coord3={{coord|51.459409|-0.446459}}
+| label3=Terminal 4
+| mark-title3=Heathrow Airport Terminal 4
+| label-pos3   = left
+<!-- mark-->
+| mark-coord4={{coord|51.467269|-0.4233598}}
+| mark4=Underground.svg
+| mark-size4 = 14
+| label4=Hatton Cross
+| mark-title4=Hatton Cross station, on the Underground, Piccadilly Line.
+| mark-image4=Hatton Cross Tube Station.JPG
+| label-pos4 = right
+| label-color4=hard grey
+| label-offset-y4=-6  
+}}
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|-
+! Code blank - OSM Location map template, listing all the parameters
+|- 
+|-
+| <syntaxhighlight lang="html">{{OSM Location map
+| coord = {{coord|  |  }}
+| zoom=
+| float = 
+| width = 
+| height = 
+| fullscreen-option =
+| caption = 
+| title =
+
+| minimap = 
+| mini-file =
+| mini-width =
+| mini-height =
+| minipog-gx =
+| minipog-gy =
+| minipog-boxwidth =
+| scalemark =
+    <!-- optional default settings. These 'D' parameters only create override values for subsequent marks. They make no marks of their own -->
+|          shapeD = 
+|    shape-colorD = 
+|  shape-outlineD = 
+|           markD = 
+|      mark-sizeD = 
+|       mark-dimD = 
+|     label-sizeD = 
+|    label-colorD = 
+|    label-angleD =
+|      label-posD = 
+| label-offset-xD = 
+| label-offset-yD =  
+
+    <!-- unumbered parameter set creates mark and/or label on the map -->
+|     mark-coord = {{coord|  |  }}
+|           mark = 
+|          shape = 
+|    shape-color = 
+|  shape-outline = 
+|      mark-size = 
+|       mark-dim = 
+|          label = 
+|         labela = 
+|         labelb =
+|     label-size = 
+|    label-color = 
+|    label-angle =
+|      label-pos = 
+| label-offset-x = 
+| label-offset-y =  
+|     mark-title = 
+|     mark-image = 
+| mark-description=
+
+<!-- Arc text (A, B and C) no shape, mark or fullscreen effects, just text placed on an arc. Coords are for the first letter.-->
+| arc-coordA={{coord| | }}   
+|  arc-textA=  
+| arc-angleA=  
+|   arc-gapA= 
+| arc-radiusA= 
+| arc-text-sizeA = <!-- defaults to 12 --> 
+| arc-text-colorA= 
+| ellipse-factorA= <!-- defaults to 1.0 --> 
+
+<!-- numbered markers (1 to 30). Values set in mark1 will be inherited by all other numbered markers, unless overridden by a 'D' value-->
+|     mark-coord1 = {{coord| | }}
+|           mark1 = 
+|          shape1 = 
+|    shape-color1 = 
+|  shape-outline1 = 
+|      mark-size1 = 
+|       mark-dim1 = 
+|          label1 = 
+|         labela1 = 
+|         labelb1 =
+|     label-size1 = 
+|    label-color1 = 
+|    label-angle1 =
+|      label-pos1 = 
+| label-offset-x1 = 
+| label-offset-y1 =  
+|     mark-title1 = 
+|     mark-image1 = 
+| mark-description1=
+
+|    mark-coord2 ={{coord|  |  }}
+|          mark2 =
+|         shape2 =
+|   shape-color2 = <!-- ... and so on for all the parameters above, for all numbers up to 30 -->
+}}</syntaxhighlight>
+|}
+
+== Parameters ==
+{| class="wikitable" style="width:100%;"
+! colspan="2" style="background-color:lightblue" | Map display parameters
+|-
+! Parameter
+! Description
+|-
+| style="width:170px;"|<code>coord</code>
+| ''Latitude'' and ''longitude'' coordinates of the centre point of the map. Use <code>coord={{tlf|Coord|''latitude'' |''longitude''}}</code>. {{tlx|Coord}} can deal with a wide range of formats. e.g.: <code>coord={{tlf|Coord|57|18|22|N|4|27|32|W}}, coord={{tlf|Coord|44.112|N|87.913|W}}, coord={{tlf|Coord|44.112|-87.913}}.</code> This may not be the 'coord' points of the page, as an appropriate framing area for the map may place the subject off-centre. (Marker point(s) are set separately, see below). [http://www.gridreferencefinder.com/ gridreferencefinder.com], is a helpful place to find coordinates, or you can right=click on the 'Interactive fullscreen map.
+|-
+| <code>zoom</code>
+| Sets the '''scale''' of the map, from 0 to 19, to the levels defined by OpenStreetMap. (details [https://wiki.openstreetmap.org/wiki/Zoom_levels here]). The actual distances represented will vary depending on the latitude, as the scale defines different fractions of a degree. The apparent scale will also vary hugely depending on the monitor being used, the browser magnification level, etc. For most Wikipedia situations, maps with a zoom of 10 (notionally 1:500,000) up to 16 (1:8,000) are likely to be of most use.
+|-
+| <code>float</code>
+| Positions the frame to the left, centre (or center) or right. (default is right). If centered, the text will be forced above and below, otherwise text will wrap to the side.
+|-
+| <code>width</code><br><code>height</code>
+| Sets the width and height of the map in pixels. Only the number is required (i.e. no px). Default is 350 by 250 pixels.
+|-
+| <code>fullscreen-option</code>
+| By default an <nowiki>[Interactive Full screen]</nowiki> link is supplied in the bottom left of the frame. By setting this to 0 or no, the link will not appear, should that be preferred
+|-
+| <code>nolabels</code>
+| By default the base map uses a map label model called 'osm-int'l', in which progressively higher zoom levels bring more place names onto the map, and since 2022 these have been in the language/script of the wiki/user preference, where that is available. For some contexts it may be preferred to 'turn off' the place name labels, and use the mark/label options to provide such names as are wanted. By setting <code>nolabels = 1</code> an alternative 'osm' base map is used, with no place name labels. (At higher zooms the road names still occur). (nb. at present this does not support an editor being able to set a language/script local to the map. In such cases, adding in the required text label manually is the best option).
+|-
+| <code>caption</code><br><code>auto-caption</code>
+| Optionally, a text caption can be included, below the map. Unless overridden by tags etc., this is left-justified plain text. It can include any wiki-item that can be inserted into a table cell, including images, formatting, citation references, etc.<br>If <code>auto-caption=1</code>, a numbered list will be automatically generated to follow any caption. This will generally only make sense when using numbered dots.
+|-
+| <code>title</code>
+| Optionally a title or other text can be placed in a cell above the map. By default this is centred and bold, but as with the caption, any wiki-markup etc. can be included.
+|-
+|
+<code>map-data-heavy</code><br>
+<code>map-data-light</code><br>
+<code>map-data</code><br>
+<code>map-data-text</code><br>
+<code>map-data-color</code><br>
+<code>map-data-width</code>
+| Allows OSM ExternalData elements to be added to the map. This can be an administrative boundary, highway or other map element that has been assigned a wikidata Q value. (e.g.: <code>map-data=Q83065</code> will add the city boundary of Leicester.) The map item needs to be on the same place as the map itself. It currently only allows line features (not areas etc.), which appear as various styles of line. Multiple elements can be added, separating each Q value by a comma. A major limitation, as of May 2017, is that it only appears on the 'fullscreen' map, not on the framed map on the page. Adding map-data items now should mean they appear on the page if and when this limitation is overcome. [https://nominatim.openstreetmap.org/ nominatim.openstreetmap.org/] has a search engine to identify data elements for which Q values have been assigned, or to add wikidata Q values to map elements. 
+
+For <code>map-data-heavy</code> and <code>map-data-light</code>, this will draw orange lines of thickness 9 and 3 pixels respectively. <code>map-data</code> is more flexible, so can default to an orange line of 6 pixels, but color (using format #XXXXXX) and width in pixels can be set, as can a text element which appears when the line is clicked on. This can include wikilinks.
+|-
+| <code>minimap</code>
+|
+;Automated world map: Used to add an optional locator minimap in the bottom right or left corner. If set to <code>on</code> it adds a 'built in' small(ish) world map with a locator dot showing the position of the main map. (This is a feature supplied by the underlying 'Graph:' template, so the only control over it can only be bottom right and is to be set as on or off. Other 'mini' parameters should be left blank). If set to <code>off</code> or not included a map is not used. 
+;External map: To allow a map from wikimedia commons, plus optional locator dot, set to <code>file</code> it requires the next section details to be added, which will include a custom map and can be placed in any of the four corners. <br> <code>minimap=file bottom left</code> <br> <code>minimap=file bottom right</code> <br> <code>minimap=file top left</code> <br> <code>minimap=file top right</code>
+If just <code>minimap=file</code> is used it defaults to 'bottom right', but it is probably better to spell it out.
+|-
+|<code>mini-file</code><br>
+<code>mini-width</code><br>
+<code>mini-height</code><br>
+|Takes the file name of a standard location map from Commons (without File:), and displays it as a minimap in a corner, provided <code>minimap=file</code>. 
+
+mini-width and mini-height are the desired dimensions of this minimap, in pixels. The ratio mini-width/mini-height must equal width/height of the mini-file to avoid distortion.
+|-
+|
+<code>minipog-gx</code><br>
+<code>minipog-gy</code><br>
+<code>minimap-boxwidth</code>
+| Within the custom minimap this can place an optional small Red pog. Nb. The x and y are not lat and lon values. They relate to a 100x100 grid of the minimap at whatever size it is set to. The origin is top,left of the mini map, so if minipog-gx=25, it will be a quarter of the way across. (Some location maps have a highlighted location already, so leaving these two parameters undefined gives the map without a dot.)
+
+minimap-boxwidth=xx can optionally use an open red box instead of a Red pog. xx = the width of the box, in percent of the width of the minimap. The height is then matched in proportion to the actual map. The box is centered at spot corresponding to (minipog-gx,minipog-gy). In general anything much below xx=15 will be better served by a dot. The required width will need some trial and error to pin down. If xx=0 or minimap-boxwidth is undefined, a Red pog is used.
+|-
+|<code>scalemark</code>
+|By default or with scalemark=1, a scale line with guide to the scale of the map is supplied near the bottom right corner of the map. If this is not required - e.g. if it interfers with a map element at that point - it can be turned off by setting this to '0'. To shift it further left, e.g. to avoid a minimap, or to avoid a 'busy' bit of the map, enter the number of pixels to shift left. If not set by hand it will automatically shift to the left of any bottom-right minimap.
+|-
+! colspan="2" style="background-color:lightblue" | Label and mark parameters. 
+|-
+| colspan="2" style="background-color:lightblue" |Sixty-one marks can be set on the map, being an un-numbered version, and the rest numbered 1 to 60. The first numbered one, (mark1, label1, etc.) is a 'master marker' and its values (or defaults) are inherited by the other numbered markers unless set individually. All label, mark and full-screen parameters are available for each numbered marker. 
+
+If the un-numbered mark is used as the subject of the map, it will be point 1 on the Full Screen map (unless <code>mark-title=none</code>) and can use specific mark and label values of its own. The first numbered mark has values that will be inherited by subsequent marks. For added flexibility a parameter set with a 'D' value instead of a number will override the master values with a more general Default.
+|-
+! Parameter
+! Description
+|-
+| <code>shape</code>
+| OSM Location map can use either an external image as a location marker, or one of various built-in shapes. Shape should either be set as <code>=image</code> or can be a circle, square, cross, diamond, triangle-up or triangle-down. If blank or absent it will default to 'image', and use either a Red pog.svg or specified <code>mark = </code> image. If numbered dots are required, use <code>shape1=n-circle</code> Subsequent markers will use the same setting, and automatically number up to 30. <code>shape1=l-circle</code> will do the same but with letters, and any of the built in shapes can be used.
+|-
+| <code>shape-color</code><br><code>shape-outline</code><br><code>numbered</code>
+| Set the shape infill and outline to any color, using either the color names shown under 'label-color' blow, or hex triplets (e.g. #FF0000), as described at [[Web colors]]. Only used for built in shapes. Setting them to the same value gives an appearance of no outline. Default = #B80000 (a dark red). The <code>numbered = </code> parameter is used with numbered shapes, to override the automatically allocated number.
+|-
+| <code>shape-opacity</code><br><code>outline-opacity</code><br>
+| Set the opacity value for fill and outline of built-in shapes, as a percentage. 100 = a solid color, 1 = transparent. Note that 0 also = solid color, the same as having no opacity value set, which is the default state.
+|-
+|<code>shape-halo</code>
+|Sets a halo around a shape or mark. Give a size value for the halo, which relates to the area rather than diameter of the shape, and is in addition to the original shape-size. For example a mark-size=10 and shape-halo=15 will have a useful halo alround the mark. With shape-opacity of zero/undefined the halo will be a translucent filled shape to match the built-in shape, or in the case of pogs and other image files, a circle. For any other opacity value upto and including 100, the halo will be a translucent outline rather than infilled shape.
+|-
+| <code>mark</code>
+| The name of a Wikimedia commons file, which is used as the marker. Default is Red pog.svg. Other pog colours are available (see [[Commons: Map pointers, dotset 1]]), and a large range of map markers can be found at [[Commons:Location markers]] and [[Commons:Category:Map icons]]
+|-
+| <code>mark-size</code> <br><code>mark-dim</code>
+| Size and dimensions of a marker. <code>mark-size</code> is used by both <code>shape</code> and <code>mark</code> to define the size of the marker symbol. It sets the height of the mark or shape in pixels (no 'px' required, default is 10). If only a text label is wanted with no marker, set <code>mark-size=0</code>.  <br> <code>mark-dim</code> is used to give a non-square mark. (It has no effect with the built in shapes.) default is 1, i.e. equal width and height. A value of 1.4 will give a typical landscape rectangle. 0.7 will give a typical portrait rectangle. If the original mark-file is non square, a value here is needed to correct the proportions.
+|-
+| <code>mark-coord</code>
+| Latitude and longitude coordinates of the marker point. Use the format <code><nowiki>mark-coord={{Coord|lat value|lon value}}</nowiki></code>. Used by either <code>shape</code> and <code>mark</code> as well as the related <code>label</code>. If the location is outside the area of the map, it will not appear. (for backwards compatibility mark-lat and mark-lon still work, but are not the preferred method.)
+|-
+| <code>label</code><br><code>labela</code><br><code>labelb</code>
+| Text to appear alongside a mark or shape. No inline formatting, line wrapping, or other tags, links etc. are possible. If left blank then any mark will show without a label. If only a text label is wanted with no marker, set <code>mark-size=0</code> A blank label and a mark-size=0 will result in an invisible marker, which will still feature on the Full screen option. If the label is too long for a single line, use labela and labelb for 2nd and 3rd lines. nb if labelb is set without a labela, there will still be a gap where labela would go.
+|-
+| <code>label-size</code> 
+| Sets the text size for the label, in points. default = 10
+|-
+| <code>label-color</code>
+| Sets the text colour for the label. The standard colour labels (red, black, grey, white, blue, green etc...) all work as described, but can be rather strident on the OSM map.  Each of the colors below have three standard shades - soft, hard and dark. Default=dark grey. (Actually defaults to #222211, slightly darker than 'dark grey', so it is prominent when someone just puts a single pog and label.
+
+Under normal usage, the following label color scheme should be followed:-
+{| class="wikitable" style="width: 70%; text-align: left;"
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft grey}} |soft grey}} 
+|Settlements = soft grey (Subject of the map can be hard grey and larger label-size). Map areas with darker or busier backgrounds may need to move a shade darker to hard grey and dark gray respectively.
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft blue}}|soft blue}} 
+|Rivers, lakes, sea areas etc = soft blue (Works well on top of OSM blue areas)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft green}}|soft green}} 
+|Parkland, national/regional parks, gardens, forests etc = soft green works well on top of OSM green areas. (hard green may be desirable in forests or for the subject of the map)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard red}} |hard red}} 
+| Use with care = dark red goes nicely with a red pog but can look like a redlink. Alas, no wikilinks possible on the map as yet.)
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark grey}} |dark grey}} 
+|Individual sites = dark grey (no need to specify if the site has a single label to accompany a red pog)
+|}
+
+{| class="wikitable" style="width: 70%; text-align: left;"
+|-
+! colspan="3" style="background-color:lightblue" | Full table of colors recommended for OSM Maps. 
+These have a more pastel shade than the standard colors, so blend effectively with the map backgrounds
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft red}}|soft red #{{OSM Location map/color|soft red}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard red}} |hard red #{{OSM Location map/color|hard red}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark red}} |dark red #{{OSM Location map/color|dark red}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft green}} |soft green #{{OSM Location map/color|soft green}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard green}} |hard green #{{OSM Location map/color|hard green}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark green}} |dark green #{{OSM Location map/color|dark green}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft blue}} |soft blue #{{OSM Location map/color|soft blue}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard blue}} |hard blue #{{OSM Location map/color|hard blue}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark blue}} |dark blue #{{OSM Location map/color|hard blue}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft grey}} |soft grey #{{OSM Location map/color|soft grey}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard grey}} |hard grey #{{OSM Location map/color|hard grey}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark grey}} |dark grey #{{OSM Location map/color|dark grey}}}}
+|- 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|soft brown}}|soft brown #{{OSM Location map/color|soft brown}}}} 
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|hard brown}}|hard brown #{{OSM Location map/color|hard brown}}}}  
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|dark brown}}|dark brown #{{OSM Location map/color|dark brown}}}}
+|-
+! colspan="3" style="background-color:lightblue" |Standard html colors. 
+These tend to look rather harsh on the OSM maps but are retained for compatibility
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|White}}|White #{{OSM Location map/color|White}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Silver}}|Silver #{{OSM Location map/color|Silver}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Gray}}|Gray #{{OSM Location map/color|Gray}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Red}}|Red #{{OSM Location map/color|Red}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Maroon}}|Maroon #{{OSM Location map/color|Maroon}}}}
+| style="background-color:#000000;" | {{font color|#{{OSM Location map/color|Yellow}}|Yellow #{{OSM Location map/color|Yellow}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Olive}}|Olive #{{OSM Location map/color|Olive}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Lime}}|Lime #{{OSM Location map/color|Lime}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Green}}|Green #{{OSM Location map/color|Green}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Aqua}}|Aqua #{{OSM Location map/color|Aqua}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Teal}}|Teal #{{OSM Location map/color|Teal}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Blue}}|Blue #{{OSM Location map/color|Blue}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Navy}}|Navy #{{OSM Location map/color|Navy}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Fuchsia}}|Fuchsia #{{OSM Location map/color|Fuchsia}}}}
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Purple}}|Purple #{{OSM Location map/color|Purple}}}}
+|-
+| style="background-color:#ffffff;" | {{font color|#{{OSM Location map/color|Black}}|Black #{{OSM Location map/color|Black}}}}
+|}
+
+{{font color|{{OSM Location map/color|#AAAAAA}} | It is also possible to specify any HTML Hex color using the six-figure hex-code, eg #AAAAAA, but sticking to defaults maintains consistency between pages}} 
+
+{{font color|#{{OSM Location map/color|}} |If no color is specified the text will have a default of 'dark grey'}}
+
+{{font color|#{{OSM Location map/color|nonsense}} |Any text other than one of the named colors above or a hex code will return as 'dark grey'}}
+|-
+| <code>label-pos</code>
+| Sets the position of the label, relative to the marker: left, right, top or bottom. Default=left. Top and bottom text is center-justified, whereas left and right align against the marker. The label aims to be an appropriate distance from the edge of the marker, but irregular shapes and larger sizes may need further adjustment using the label-offsets.
+|-
+|<code>label-angle</code>
+| It is possible to specify a <code>label-angle = </code>, which will pivot the label text around the centre of the marker point by the specified number of degrees. (+ve angle rotates clockwise, -ve anticlockwise) If mark-size is set to zero, this has the effect of a free-floating label with no marker, useful for various geographic and linear features. For stylistic consistency all settlement names should not be given an angle.
+|-
+| <code>label-offset-x</code> <br><code>label-offset-y</code>
+| Allows adjustment of the label location in an x and y direction, relative to its mark coordinates, by the specified number of pixels. It can be +ve or -ve numbers. Higher -x values will move the label to the right. Higher -y values move it down the map. Default is 0,0.
+|-
+! colspan="2" style="background-color:lightblue" | Additional content for Full screen link
+|-
+| colspan="2" style="background-color:lightblue" |The 'full screen' map uses the same OSM base map, in a different map environment, including the option for users to scale in and out, to pan across the map, and to find (via the 'More details' button) other maps and satellite imagery for the location. It also includes numbered markers, for which tooltip-style titles, and image thumbnails with captions can be brought up. This makes most sense where there are several markers on the map. The content for this facility is set with the following three parameters - which need to be numbered for each mark as for the other mark attibutes:
+|-
+! Parameter
+! Description
+|-
+| <code>mark-title</code>
+| This title appears as a tooltip and also a thumbnail title, accessed via the marker. if <code>mark-title=none</code> that will exclude that marker from the full screen map. (it will still show as normal on the main map).
+|-
+| <code>mark-image</code>
+| This provides a pop-up thumbnail image when the marker is clicked. Include only the image name from Wikimedia commons etc. (i.e. no brackets, or 'File:').
+|-
+| <code>mark-description</code>
+| Caption text, which will either accompany a pop-up photo, or if no photo then as a text box, when the marker is clicked. This can include wikilinks etc., to link on to additional relevant articles.
+|-
+! colspan="2" style="background-color:lightblue" | Arc Text: label placed on an arc
+|-
+| colspan="2" style="background-color:lightblue" | The use of arc-text parameters allows a short text (up to 20 characters) to be placed along on arc, with parameters to control the tightness of the circle (radius) and the looseness of the text (gap). The nature of the earth's coordinate system means that there will be some variation in an arc at different latitudes and at different zoom levels. Some allowance is factored in, but there will still be residual variation. Similarly, changes in radius will also have some effect on the gap size, with a larger radius opening out the gap somewhat. There will therefore need to be a degree of trial and correction to get the shape and effect desired. As a general rule, identify the coordinates of the required start-point, then choose a starter-pattern from the selection at [[template: OSM Location map#Text on an arc|OSM Location map#Text on an arc]], and then adjust parameters to fit the requirement of the map. The parameters below are for set A. Sets B and C are also available.
+|-
+! Parameter
+! Description
+|-
+| <code>arc-coordA</code>||  coordinates of first letter, using =<nowiki>{{coord|xxx.xx|yyy.yy}}</nowiki>
+|-
+| <code>arc-textA=</code>|| Add your text here 
+|-
+| <code>arc-angleA</code> ||in degrees, -180 to 180. 0 will start as horizontal, -90 straight up, 90 straight down 
+|-
+| <code>arc-gapA</code>  ||1= a notional 'standard'. 0.2 is very tight, 10 is very wide. Applying a negative gap will invert the letters and run the other way around the circle 
+|-
+| <code>arc-radiusA</code> ||1= a notional 'standard' 0.5 is quite a tight circle, 8 is so wide as to be almost flat, dependent on latitude and zoom level 
+
+|-| <code>arc-text-sizeA</code> ||standard font sizes. If undefined, default is 12
+|-
+| <code>arc-text-colorA</code> ||sets text color. #000000 color hexes and standardised OSM Location map colors are accepted 
+|-
+| <code>ellipse-factorA</code>||will squash or stretch the circle. 1= notionally circular, 0.5 to 1.0 will flattern top and bottom, above 1.0 flattens the sides.
+|}
+
+==Underlying technology==
+OSM Location map itself has no map or display ability of its own. Everything within the frame is produced through the template {{tl|Graph:Street map with marks}}, created by [[User:Yurik]]. This in turn calls internal processes that turn all the data supplied at edit time into a rendered bitmap image, so that there is no calculation overhead by the time the page is read by a user, any more than any other commons image. 
+
+Whilst the map is being edited and previewed, the page is supplied with a rasterised image, collating the base-map, marks, labels, etc. on the fly. It will be particularly noticeable on small fonts that when the 'Publish Changes' button is pressed, the resulting bitmap has much worse fonts than the preview. (Maybe this will be improved at some point). The process of updating the map image and providing the right bitmap is all handled internally and invisibly. One of the consequences of the 'bitmap' solution, which is different from the standard {{tl|Location map}} method, is that there is no text or objects on the final image, so there is no possibility of adding wikilinks within the template. 
+
+The full screen option, which can be clicked through from below the map, provides an entirely different mapping approach, using the same base-map data. This provides an interactive map that can be panned and zoomed. It also replicates (although at present only as numbered markers) the various marks from the page map. These can then be given more content, by way of a title, caption and image along with displaying the coordinate values. The caption and title can then be given all the wikilinks and other markup features that may be desired, providing a map-based page that will offer another way of engaging with the article content.
+
+Future development of the various mapping technologies is likely to result in further options for showing maps on Wikipedia. In particular, {{tl|maplink}}, which initially just created a text link to a full-screen map, can now create a framed image including dot-markers, roads, boundaries, etc., and can acquire data directly from wikidata to do this. Again, the processor overheads are reduced by initially showing a bitmap, which can be clicked to become interactive within its frame. Maplink is being effectively rolled out within info-boxes, where the map is automatically generated from already available data. 
+
+This template, on the other hand, is probably better suited to a hand-editable map, in which the area displayed and the selection of items and labels included are selected, edited, and added to, to suit the specifics of the subject in hand. A further approach, which is not currently supported within this template, but is available via the inderlying {{tl|Graph:Street map with marks}} template, is to draw the data from [[Wikidata]], using a SPARKL query that provides the selection of marks requested. 
+
+The 'Graph' technology used here is described as under development, so while it is highly likely that this or a similar solution will still be available, it may evolve over time.
+
+== See also ==
+* [[Wikipedia:Maps for Wikipedia]] - A list of mapping tools available on Wikipedia
+* {{tl|Location map}} - Placing one marker/label by latitude/longitude.
+* {{tl|Location map+}} - Placing unlimited list of markers/labels.
+* {{tl|Location map many}} - For displaying multiple marks using latitude and longitude.
+* [[:Commons:Category:Map pointers]] - List of the many Wikimedia Commons pointer symbols.
+* {{tl|Overlay}} - Allows image numbered, textual number, or color tag overlays to be positioned over an image to indicate particular features in the image.
+
+
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Location map templates|Location map templates]]
+[[Category:Map formatting and function templates]]
+}}</includeonly>
