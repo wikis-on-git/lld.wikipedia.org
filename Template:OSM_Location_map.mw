@@ -1,0 +1,1645 @@
+{{OSM Location map/core
+| float = {{{float|}}}
+| title = {{{title|}}}
+| width = {{if empty|{{{width|}}}|350}}
+| height = {{if empty|{{{height|}}}|250}}
+| lat = {{#if:{{{coord|}}}{{{coordinates|}}}|{{#invoke:coordinates|coord2text|{{{coord|}}}{{{coordinates|}}}|lat}}|{{{lat|0}}}}}
+| lon = {{#if:{{{coord|}}}{{{coordinates|}}}|{{#invoke:coordinates|coord2text|{{{coord|}}}{{{coordinates|}}}|long}}|{{{lon|0}}}}}
+| zoom = {{if empty|{{{zoom|}}}|0}}
+| nolabels = {{if empty|{{{nolabels|}}}|0}}
+| minitop = {{#switch:{{{minimap|0}}}
+  |file| file right| file bottom right| file left| file bottom left = {{#if:{{{height|}}}|{{#expr:({{{height|250}}}/2)-({{{mini-height|10}}}/2)}}|{{#expr:125-({{{mini-height|10}}}/2)}} }}
+  |file top left| file top right| file top = {{#if:{{{height|}}}|{{#expr:0-({{{height|250}}}/2)+({{{mini-height|10}}}/2)}}|{{#expr:-125+({{{mini-height|10}}}/2)}} }}
+  |0}}
+| minimap = {{#switch:{{{minimap|0}}}|yes|on|true|1=1
+  |file| file right| file bottom right| file top right| file top = {{#if:{{{width|}}}|{{#expr:({{{width|350}}}/2)-({{{mini-width|10}}}/2)}}|{{#expr:175-({{{mini-width|10}}}/2)}} }}
+  |file left| file bottom left| file top left = {{#if:{{{width|}}}|{{#expr:0-({{{width|350}}}/2)+({{{mini-width|10}}}/2)}}|{{#expr:-175+({{{mini-width|10}}}/2)}} }}
+  |0}}
+| mini-width = {{{mini-width|10}}}
+| mini-height = {{{mini-height|10}}}
+| mini-file = {{{mini-file|}}}
+| minimap-boxwidth = {{#if:{{{minimap-boxwidth|}}}| {{#if:{{{minipog-gx|}}} |{{#expr:{{{minimap-boxwidth|0}}}*{{{mini-width|10}}}/100}} | {{{minimap-boxwidth|0}}} }}| 0}} 
+| minipog-x = {{#if:{{{minipog-gx|}}}|{{#expr:{{{minipog-gx|1}}}*{{{mini-width|10}}}/100}}| {{{minipog-x|}}} }}
+| minipog-y = {{#if:{{{minipog-gy|}}}|{{#expr:{{{minipog-gy|1}}}*{{{mini-height|10}}}/100}}| {{{minipog-y|}}} }}
+| scalemark = {{#if:{{{scalemark|}}}|{{{scalemark|1}}}| {{#switch:{{{minimap|}}}| file|file right| file bottom right = {{{mini-width|10}}}| 1}} }}
+
+| arc-latA={{#if:{{{arc-coordA|}}}{{{arc-coordinatesA|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordA|}}}{{{arc-coordinatesA|}}}|lat}}|{{{arc-latA|0}}}}}
+| arc-lonA={{#if:{{{arc-coordA|}}}{{{arc-coordinatesA|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordA|}}}{{{arc-coordinatesA|}}}|long}}|{{{arc-lonA|0}}}}}
+| arc-textA= {{{arc-textA|}}}
+| arc-angleA={{{arc-angleA|-15}}}
+| arc-gapA={{{arc-gapA|0.05}}}
+| arc-radiusA={{#switch:{{{zoom|12}}}
+|19|18={{#expr:{{{arc-radiusA|1}}}*0.0013}}
+|17={{#expr:{{{arc-radiusA|1}}}*0.0036}} 
+|16={{#expr:{{{arc-radiusA|1}}}*0.0072}} 
+|15={{#expr:{{{arc-radiusA|1}}}*0.015}}
+|14={{#expr:{{{arc-radiusA|1}}}*0.03}}
+|13={{#expr:{{{arc-radiusA|1}}}*0.06}}
+|12={{#expr:{{{arc-radiusA|1}}}*0.12}}
+|11={{#expr:{{{arc-radiusA|1}}}*0.24}}
+|10={{#expr:{{{arc-radiusA|1}}}*0.48}}
+|9={{{arc-radiusA|1}}}
+|8={{#expr:{{{arc-radiusA|1}}}*2}}
+|7={{#expr:{{{arc-radiusA|1}}}*4}}
+|6={{#expr:{{{arc-radiusA|1}}}*8}}
+|5={{#expr:{{{arc-radiusA|1}}}*16}}
+|4={{#expr:{{{arc-radiusA|1}}}*32}}
+|3={{#expr:{{{arc-radiusA|1}}}*64}}
+|2={{#expr:{{{arc-radiusA|1}}}*128}}
+|1|0={{#expr:{{{arc-radiusA|1}}}*256}}|0.24}}
+| arc-text-sizeA = {{if empty|{{{arc-text-sizeA|}}}|{{{label-sizeD|}}}|12}}
+| arc-text-colorA= #{{OSM Location map/color|{{{arc-text-colorA|{{{label-colorD|}}} }}} }}
+| ellipse-factorA={{{ellipse-factorA|1}}}
+
+| arc-latB={{#if:{{{arc-coordB|}}}{{{arc-coordinatesB|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordB|}}}{{{arc-coordinatesB|}}}|lat}}|{{{arc-latB|0}}}}}
+| arc-lonB={{#if:{{{arc-coordB|}}}{{{arc-coordinatesB|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordB|}}}{{{arc-coordinatesB|}}}|long}}|{{{arc-lonB|0}}}}}
+| arc-textB= {{{arc-textB|}}}
+| arc-angleB={{{arc-angleB|-15}}}
+| arc-gapB={{{arc-gapB|0.05}}}
+| arc-radiusB={{#switch:{{{zoom|12}}}
+|19|18={{#expr:{{{arc-radiusB|1}}}*0.0013}}
+|17={{#expr:{{{arc-radiusB|1}}}*0.0036}} 
+|16={{#expr:{{{arc-radiusB|1}}}*0.0072}} 
+|15={{#expr:{{{arc-radiusB|1}}}*0.015}}
+|14={{#expr:{{{arc-radiusB|1}}}*0.03}}
+|13={{#expr:{{{arc-radiusB|1}}}*0.06}}
+|12={{#expr:{{{arc-radiusB|1}}}*0.12}}
+|11={{#expr:{{{arc-radiusB|1}}}*0.24}}
+|10={{#expr:{{{arc-radiusB|1}}}*0.48}}
+|9={{{arc-radiusB|1}}}
+|8={{#expr:{{{arc-radiusB|1}}}*2}}
+|7={{#expr:{{{arc-radiusB|1}}}*4}}
+|6={{#expr:{{{arc-radiusB|1}}}*8}}
+|5={{#expr:{{{arc-radiusB|1}}}*16}}
+|4={{#expr:{{{arc-radiusB|1}}}*32}}
+|3={{#expr:{{{arc-radiusB|1}}}*64}}
+|2={{#expr:{{{arc-radiusB|1}}}*128}}
+|1|0={{#expr:{{{arc-radiusB|1}}}*256}}|0.24}}
+| arc-text-sizeB = {{if empty|{{{arc-text-sizeB|}}}|{{{label-sizeD|}}}|12}}
+| arc-text-colorB= #{{OSM Location map/color|{{{arc-text-colorB|{{{label-colorD|}}} }}} }}
+| ellipse-factorB={{{ellipse-factorB|1}}}
+
+| arc-latC={{#if:{{{arc-coordC|}}}{{{arc-coordinatesC|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordC|}}}{{{arc-coordinatesC|}}}|lat}}|{{{arc-latC|0}}}}}
+| arc-lonC={{#if:{{{arc-coordC|}}}{{{arc-coordinatesC|}}}|{{#invoke:coordinates|coord2text|{{{arc-coordC|}}}{{{arc-coordinatesC|}}}|long}}|{{{arc-lonC|0}}}}}
+| arc-textC= {{{arc-textC|}}}
+| arc-angleC={{{arc-angleC|-15}}}
+| arc-gapC={{{arc-gapC|0.05}}}
+| arc-radiusC={{#switch:{{{zoom|12}}}
+|19|18={{#expr:{{{arc-radiusC|1}}}*0.0013}}
+|17={{#expr:{{{arc-radiusC|1}}}*0.0036}} 
+|16={{#expr:{{{arc-radiusC|1}}}*0.0072}} 
+|15={{#expr:{{{arc-radiusC|1}}}*0.015}}
+|14={{#expr:{{{arc-radiusC|1}}}*0.03}}
+|13={{#expr:{{{arc-radiusC|1}}}*0.06}}
+|12={{#expr:{{{arc-radiusC|1}}}*0.12}}
+|11={{#expr:{{{arc-radiusC|1}}}*0.24}}
+|10={{#expr:{{{arc-radiusC|1}}}*0.48}}
+|9={{{arc-radiusC|1}}}
+|8={{#expr:{{{arc-radiusC|1}}}*2}}
+|7={{#expr:{{{arc-radiusC|1}}}*4}}
+|6={{#expr:{{{arc-radiusC|1}}}*8}}
+|5={{#expr:{{{arc-radiusC|1}}}*16}}
+|4={{#expr:{{{arc-radiusC|1}}}*32}}
+|3={{#expr:{{{arc-radiusC|1}}}*64}}
+|2={{#expr:{{{arc-radiusC|1}}}*128}}
+|1|0={{#expr:{{{arc-radiusC|1}}}*256}}|0.24}}
+| arc-text-sizeC = {{if empty|{{{arc-text-sizeC|}}}|{{{label-sizeD|}}}|12}}
+| arc-text-colorC= #{{OSM Location map/color|{{{arc-text-colorC|{{{label-colorD|}}} }}} }}
+| ellipse-factorC={{{ellipse-factorC|1}}}
+
+| mark-lat = {{#if:{{{mark-coord|}}}{{{mark-coordinates|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord|}}}{{{mark-coordinates|}}}|lat}}|{{#if:{{{mark-coord1|}}}{{{mark-coordinates1|}}}|{{{mark-lat|}}}|{{{mark-lat|0}}}}}}}
+| mark-lon = {{#if:{{{mark-coord|}}}{{{mark-coordinates|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord|}}}{{{mark-coordinates|}}}|long}}|{{#if:{{{mark-coord1|}}}{{{mark-coordinates1|}}}|{{{mark-lon|}}}|{{{mark-lon|0}}}}}}}
+| shape = {{if empty|{{{shape|}}}|{{{shapeD|}}}|image}}
+| shape-color = #{{OSM Location map/color|{{{shape-color|{{{shape-colorD|hard red}}} }}} |opacity={{{shape-opacity|{{{shape-opacityD|}}} }}} }}
+| shape-outline = #{{OSM Location map/color|{{{shape-outline|{{{shape-outlineD|white}}} }}} |opacity={{{outline-opacity|{{{outline-opacityD|}}} }}} }}
+| shape-halo = {{if empty|{{{shape-halo|}}}|{{{shape-haloD|}}}|0}}
+| mark = {{if empty|{{{mark|}}}|{{{markD|}}}|Red pog.svg}}
+| mark-size = {{if empty|{{{mark-size|}}}|{{{mark-sizeD|}}}|10}}
+| mark-dim = {{if empty|{{{mark-dim|}}}|{{{mark-dimD|}}}|1}}
+| label = <includeonly>{{{label|}}}</includeonly><noinclude>Annotated maps of anywhere in the world</noinclude>
+| labela = {{{labela|}}}
+| labelb = {{{labelb|}}}
+| label-angle = {{if empty|{{{label-angle|}}}|{{{label-angleD|}}}|0}}
+| label-size = {{if empty|{{{label-size|}}}|{{{label-sizeD|}}}|12}}
+| label-color = #{{OSM Location map/color|{{{label-color|{{{label-colorD|}}} }}} }}
+| label-pos = <includeonly>{{if empty|{{{label-pos|}}}|{{{label-posD|}}}|left}}</includeonly><noinclude>top</noinclude>
+| label-offset-x = {{if empty|{{{label-offset-x|}}}|{{{label-offset-xD|}}}|0}}
+| label-offset-y = {{if empty|{{{label-offset-y|}}}|{{{label-offset-yD|}}}|0}}
+| text-value = {{if empty|{{{text-value|}}}|0}}
+
+| mark-lat1 = {{#if:{{{mark-coord1|}}}{{{mark-coordinates1|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord1|}}}{{{mark-coordinates1|}}}|lat}}|{{#if:{{{mark-coord|}}}{{{mark-coordinates|}}}|{{{mark-lat1|}}}|{{{mark-lat1|0.1}}}}}| }}
+| mark-lon1 = {{#if:{{{mark-coord1|}}}{{{mark-coordinates1|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord1|}}}{{{mark-coordinates1|}}}|long}}|{{#if:{{{mark-coord|}}}{{{mark-coordinates|}}}|{{{mark-lon1|}}}|{{{mark-lon1|0.1}}}}}| }}
+| shape1 = {{if empty|{{{shape1|}}}|{{{shapeD|}}}|image}}
+| shape-color1 = #{{OSM Location map/color|{{{shape-color1|{{{shape-colorD|hard red}}} }}} |opacity={{{shape-opacity1|{{{shape-opacityD|}}} }}} }}
+| shape-outline1 = #{{OSM Location map/color|{{{shape-outline1|{{{shape-outlineD|white}}} }}} |opacity={{{outline-opacity1|{{{outline-opacityD|}}} }}} }}
+| shape-halo1 = {{if empty|{{{shape-halo1|}}}|{{{shape-haloD|}}}|0}}
+| mark1 = {{if empty|{{{mark1|}}}|{{{markD|}}}|Red pog.svg}}
+| mark-size1 = {{if empty|{{{mark-size1|}}}|{{{mark-sizeD|}}}|10}}
+| mark-dim1 = {{if empty|{{{mark-dim1|}}}|{{{mark-dimD|}}}|1}}
+| label1 = {{{label1|}}}
+| labela1 = {{{labela1|}}}
+| labelb1 = {{{labelb1|}}}
+| label-angle1 = {{if empty|{{{label-angle1|}}}|{{{label-angleD|}}}|0}}
+| label-size1 = {{if empty|{{{label-size1|}}}|{{{label-sizeD|}}}|12}}
+| label-color1 = #{{OSM Location map/color|{{{label-color1|{{{label-colorD|}}} }}} }}
+| label-pos1 = {{if empty|{{{label-pos1|}}}|{{{label-posD|}}}|left}}
+| label-offset-x1 = {{if empty|{{{label-offset-x1|}}}|{{{label-offset-xD|}}}|0}}
+| label-offset-y1 = {{if empty|{{{label-offset-y1|}}}|{{{label-offset-yD|}}}|0}}
+| numbered1 = {{if empty|{{{numbered1|}}}|{{#switch: {{{shape1|{{{shapeD|}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=1
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=A
+  | 0}}|0}}
+
+| shape2 = {{if empty|{{{shape2|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat2 = {{#if:{{{mark-coord2|}}}{{{mark-coordinates2|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord2|}}}{{{mark-coordinates2|}}}|lat}}|{{{mark-lat2|}}}}}
+| mark-lon2 = {{#if:{{{mark-coord2|}}}{{{mark-coordinates2|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord2|}}}{{{mark-coordinates2|}}}|long}}|{{{mark-lon2|}}}}}
+| shape-color2 = #{{OSM Location map/color|{{{shape-color2|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity2|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline2 = #{{OSM Location map/color|{{{shape-outline2|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity2|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo2 = {{if empty|{{{shape-halo2|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+| mark2 = {{{mark2|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size2 = {{if empty|{{{mark-size2|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+| mark-dim2 = {{if empty|{{{mark-dim2|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+| label2 = {{{label2|}}}
+| labela2 = {{{labela2|}}}
+| labelb2 = {{{labelb2|}}}
+| label-angle2 = {{if empty|{{{label-angle2|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size2 = {{if empty|{{{label-size2|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+| label-color2 = #{{OSM Location map/color|{{{label-color2|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+| label-pos2 = {{if empty|{{{label-pos2|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x2 = {{if empty|{{{label-offset-x2|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y2 = {{if empty|{{{label-offset-y2|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered2 = {{if empty|{{{numbered2|}}}|{{#switch: {{{shape2|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=2
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=B
+  | 0}}|0}}
+
+|    shape3 = {{if empty|{{{shape3|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat3 = {{#if:{{{mark-coord3|}}}{{{mark-coordinates3|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord3|}}}{{{mark-coordinates3|}}}|lat}}|{{{mark-lat3|}}}}}
+| mark-lon3 = {{#if:{{{mark-coord3|}}}{{{mark-coordinates3|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord3|}}}{{{mark-coordinates3|}}}|long}}|{{{mark-lon3|}}}}}
+| shape-color3 = #{{OSM Location map/color|{{{shape-color3|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity3|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline3 = #{{OSM Location map/color|{{{shape-outline3|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity3|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo3 = {{if empty|{{{shape-halo3|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark3 = {{{mark3|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size3 = {{if empty|{{{mark-size3|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim3 =  {{if empty|{{{mark-dim3|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|     label3 =  {{{label3|}}}
+|    labela3 = {{{labela3|}}}
+|    labelb3 = {{{labelb3|}}}
+|label-angle3 = {{if empty|{{{label-angle3|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size3 = {{if empty|{{{label-size3|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color3 = #{{OSM Location map/color|{{{label-color3|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos3 = {{if empty|{{{label-pos3|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x3 = {{if empty|{{{label-offset-x3|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y3 = {{if empty|{{{label-offset-y3|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered3 = {{if empty|{{{numbered3|}}}|{{#switch: {{{shape3|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=3
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=C
+  | 0}}|0}}
+
+| shape4 = {{if empty|{{{shape4|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat4 = {{#if:{{{mark-coord4|}}}{{{mark-coordinates4|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord4|}}}{{{mark-coordinates4|}}}|lat}}|{{{mark-lat4|}}}}}
+| mark-lon4 = {{#if:{{{mark-coord4|}}}{{{mark-coordinates4|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord4|}}}{{{mark-coordinates4|}}}|long}}|{{{mark-lon4|}}}}}
+| shape-color4 = #{{OSM Location map/color|{{{shape-color4|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity4|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline4 = #{{OSM Location map/color|{{{shape-outline4|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity4|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo4 = {{if empty|{{{shape-halo4|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark4 = {{{mark4|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size4 = {{if empty|{{{mark-size4|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim4 =  {{if empty|{{{mark-dim4|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|     label4 =  {{{label4|}}}
+|    labela4 = {{{labela4|}}}
+|    labelb4 = {{{labelb4|}}}
+|label-angle4 = {{if empty|{{{label-angle4|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size4 = {{if empty|{{{label-size4|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color4 = #{{OSM Location map/color|{{{label-color4|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos4 = {{if empty|{{{label-pos4|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x4 = {{if empty|{{{label-offset-x4|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y4 = {{if empty|{{{label-offset-y4|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered4 = {{if empty|{{{numbered4|}}}|{{#switch: {{{shape4|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=4
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=D
+  | 0}}|0}}
+
+| shape5 = {{if empty|{{{shape5|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat5 = {{#if:{{{mark-coord5|}}}{{{mark-coordinates5|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord5|}}}{{{mark-coordinates5|}}}|lat}}|{{{mark-lat5|}}}}}
+| mark-lon5 = {{#if:{{{mark-coord5|}}}{{{mark-coordinates5|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord5|}}}{{{mark-coordinates5|}}}|long}}|{{{mark-lon5|}}}}}
+| shape-color5 = #{{OSM Location map/color|{{{shape-color5|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity5|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline5 = #{{OSM Location map/color|{{{shape-outline5|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity5|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo5 = {{if empty|{{{shape-halo5|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark5 = {{{mark5|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size5 = {{if empty|{{{mark-size5|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim5 =  {{if empty|{{{mark-dim5|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|     label5 =  {{{label5|}}}
+|    labela5 = {{{labela5|}}}
+|    labelb5 = {{{labelb5|}}}
+|label-angle5 = {{if empty|{{{label-angle5|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size5 = {{if empty|{{{label-size5|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color5 = #{{OSM Location map/color|{{{label-color5|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos5 = {{if empty|{{{label-pos5|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x5 = {{if empty|{{{label-offset-x5|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y5 = {{if empty|{{{label-offset-y5|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered5 = {{if empty|{{{numbered5|}}}|{{#switch: {{{shape5|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=5
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=E
+  | 0}}|0}}
+
+| shape6 = {{if empty|{{{shape6|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat6 = {{#if:{{{mark-coord6|}}}{{{mark-coordinates6|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord6|}}}{{{mark-coordinates6|}}}|lat}}|{{{mark-lat6|}}}}}
+| mark-lon6 = {{#if:{{{mark-coord6|}}}{{{mark-coordinates6|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord6|}}}{{{mark-coordinates6|}}}|long}}|{{{mark-lon6|}}}}}
+| shape-color6 = #{{OSM Location map/color|{{{shape-color6|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity6|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline6 = #{{OSM Location map/color|{{{shape-outline6|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity6|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo6 = {{if empty|{{{shape-halo6|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark6 = {{{mark6|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size6 = {{if empty|{{{mark-size6|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim6 =  {{if empty|{{{mark-dim6|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|     label6 =  {{{label6|}}}
+|    labela6 = {{{labela6|}}}
+|    labelb6 = {{{labelb6|}}}
+|label-angle6 = {{if empty|{{{label-angle6|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size6 = {{if empty|{{{label-size6|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color6 = #{{OSM Location map/color|{{{label-color6|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos6 = {{if empty|{{{label-pos6|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x6 = {{if empty|{{{label-offset-x6|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y6 = {{if empty|{{{label-offset-y6|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|       numbered6 = {{if empty|{{{numbered6|}}}|{{#switch: {{{shape6|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=6
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=F
+  | 0}}|0}}
+
+| shape7 = {{if empty|{{{shape7|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat7 = {{#if:{{{mark-coord7|}}}{{{mark-coordinates7|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord7|}}}{{{mark-coordinates7|}}}|lat}}|{{{mark-lat7|}}}}}
+| mark-lon7 = {{#if:{{{mark-coord7|}}}{{{mark-coordinates7|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord7|}}}{{{mark-coordinates7|}}}|long}}|{{{mark-lon7|}}}}}
+| shape-color7 = #{{OSM Location map/color|{{{shape-color7|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity7|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline7 = #{{OSM Location map/color|{{{shape-outline7|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity7|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo7 = {{if empty|{{{shape-halo7|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark7 = {{{mark7|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size7 = {{if empty|{{{mark-size7|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim7 =  {{if empty|{{{mark-dim7|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+| label7 = {{{label7|}}}
+| labela7 = {{{labela7|}}}
+| labelb7 = {{{labelb7|}}}
+|label-angle7 = {{if empty|{{{label-angle7|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size7 = {{if empty|{{{label-size7|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color7 = #{{OSM Location map/color|{{{label-color7|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos7 = {{if empty|{{{label-pos7|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x7 = {{if empty|{{{label-offset-x7|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y7 = {{if empty|{{{label-offset-y7|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|       numbered7 = {{if empty|{{{numbered7|}}}|{{#switch: {{{shape7|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=7
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=G
+  | 0}}|0}}
+
+| shape8 = {{if empty|{{{shape8|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat8 = {{#if:{{{mark-coord8|}}}{{{mark-coordinates8|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord8|}}}{{{mark-coordinates8|}}}|lat}}|{{{mark-lat8|}}}}}
+| mark-lon8 = {{#if:{{{mark-coord8|}}}{{{mark-coordinates8|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord8|}}}{{{mark-coordinates8|}}}|long}}|{{{mark-lon8|}}}}}
+| shape-color8 = #{{OSM Location map/color|{{{shape-color8|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity8|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline8 = #{{OSM Location map/color|{{{shape-outline8|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity8|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo8 = {{if empty|{{{shape-halo8|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark8 = {{{mark8|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size8 = {{if empty|{{{mark-size8|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim8 =  {{if empty|{{{mark-dim8|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+| label8 = {{{label8|}}}
+| labela8 = {{{labela8|}}}
+| labelb8 = {{{labelb8|}}}
+|label-angle8 = {{if empty|{{{label-angle8|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size8 = {{if empty|{{{label-size8|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color8 = #{{OSM Location map/color|{{{label-color8|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos8 = {{if empty|{{{label-pos8|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x8 = {{if empty|{{{label-offset-x8|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y8 = {{if empty|{{{label-offset-y8|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered8 = {{if empty|{{{numbered8|}}}|{{#switch: {{{shape8|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=8
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=H
+  | 0}}|0}}
+
+| shape9 = {{if empty|{{{shape9|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+| mark-lat9 = {{#if:{{{mark-coord9|}}}{{{mark-coordinates9|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord9|}}}{{{mark-coordinates9|}}}|lat}}|{{{mark-lat9|}}}}}
+| mark-lon9 = {{#if:{{{mark-coord9|}}}{{{mark-coordinates9|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord9|}}}{{{mark-coordinates9|}}}|long}}|{{{mark-lon9|}}}}}
+| shape-color9 = #{{OSM Location map/color|{{{shape-color9|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity9|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline9 = #{{OSM Location map/color|{{{shape-outline9|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity9|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo9 = {{if empty|{{{shape-halo9|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark9 = {{{mark9|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size9 = {{if empty|{{{mark-size9|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim9 =  {{if empty|{{{mark-dim9|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+| label9 = {{{label9|}}}
+| labela9 = {{{labela9|}}}
+| labelb9 = {{{labelb9|}}}
+|label-angle9 = {{if empty|{{{label-angle9|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size9 = {{if empty|{{{label-size9|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color9 = #{{OSM Location map/color|{{{label-color9|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos9 = {{if empty|{{{label-pos9|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x9 = {{if empty|{{{label-offset-x9|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y9 = {{if empty|{{{label-offset-y9|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered9 = {{if empty|{{{numbered9|}}}|{{#switch: {{{shape9|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=9
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=I
+  | 0}}|0}}
+
+|     shape10 = {{if empty|{{{shape10|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat10 = {{#if:{{{mark-coord10|}}}{{{mark-coordinates10|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord10|}}}{{{mark-coordinates10|}}}|lat}}|{{{mark-lat10|}}}}}
+|  mark-lon10 = {{#if:{{{mark-coord10|}}}{{{mark-coordinates10|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord10|}}}{{{mark-coordinates10|}}}|long}}|{{{mark-lon10|}}}}}
+| shape-color10 = #{{OSM Location map/color|{{{shape-color10|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity10|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline10 = #{{OSM Location map/color|{{{shape-outline10|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity10|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo10 = {{if empty|{{{shape-halo10|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark10 = {{{mark10|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size10 = {{if empty|{{{mark-size10|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim10 =  {{if empty|{{{mark-dim10|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label10 =  {{{label10|}}}
+|        labela10 = {{{labela10|}}}
+|        labelb10 = {{{labelb10|}}}
+|label-angle10 = {{if empty|{{{label-angle10|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size10 = {{if empty|{{{label-size10|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color10 = #{{OSM Location map/color|{{{label-color10|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos10 = {{if empty|{{{label-pos10|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x10 = {{if empty|{{{label-offset-x10|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y10 = {{if empty|{{{label-offset-y10|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered10 = {{if empty|{{{numbered10|}}}|{{#switch: {{{shape10|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=10
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=J
+  | 0}}|0}}
+
+|     shape11 = {{if empty|{{{shape11|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat11 = {{#if:{{{mark-coord11|}}}{{{mark-coordinates11|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord11|}}}{{{mark-coordinates11|}}}|lat}}|{{{mark-lat11|}}}}}
+|  mark-lon11 = {{#if:{{{mark-coord11|}}}{{{mark-coordinates11|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord11|}}}{{{mark-coordinates11|}}}|long}}|{{{mark-lon11|}}}}}
+| shape-color11 = #{{OSM Location map/color|{{{shape-color11|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity11|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline11 = #{{OSM Location map/color|{{{shape-outline11|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity11|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo11 = {{if empty|{{{shape-halo11|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|      mark11 = {{{mark11|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+| mark-size11 = {{if empty|{{{mark-size11|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|  mark-dim11 =  {{if empty|{{{mark-dim11|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label11 =  {{{label11|}}}
+|        labela11 = {{{labela11|}}}
+|        labelb11 = {{{labelb11|}}}
+|label-angle11 = {{if empty|{{{label-angle11|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size11 = {{if empty|{{{label-size11|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color11 = #{{OSM Location map/color|{{{label-color11|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos11 = {{if empty|{{{label-pos11|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x11 = {{if empty|{{{label-offset-x11|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y11 = {{if empty|{{{label-offset-y11|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered11 = {{if empty|{{{numbered11|}}}|{{#switch: {{{shape11|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=11
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=K
+  | 0}}|0}}
+
+|     shape12 = {{if empty|{{{shape12|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat12 = {{#if:{{{mark-coord12|}}}{{{mark-coordinates12|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord12|}}}{{{mark-coordinates12|}}}|lat}}|{{{mark-lat12|}}}}}
+|  mark-lon12 = {{#if:{{{mark-coord12|}}}{{{mark-coordinates12|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord12|}}}{{{mark-coordinates12|}}}|long}}|{{{mark-lon12|}}}}}
+| shape-color12 = #{{OSM Location map/color|{{{shape-color12|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity12|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline12 = #{{OSM Location map/color|{{{shape-outline12|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity12|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo12 = {{if empty|{{{shape-halo12|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark12 = {{{mark12|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size12 = {{if empty|{{{mark-size12|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim12 =  {{if empty|{{{mark-dim12|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label12 =  {{{label12|}}}
+|        labela12 = {{{labela12|}}}
+|        labelb12 = {{{labelb12|}}}
+|label-angle12 = {{if empty|{{{label-angle12|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size12 = {{if empty|{{{label-size12|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color12 = #{{OSM Location map/color|{{{label-color12|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos12 = {{if empty|{{{label-pos12|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x12 = {{if empty|{{{label-offset-x12|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y12 = {{if empty|{{{label-offset-y12|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered12 = {{if empty|{{{numbered12|}}}|{{#switch: {{{shape12|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=12
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=L
+  | 0}}|0}}
+
+|     shape13 = {{if empty|{{{shape13|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat13 = {{#if:{{{mark-coord13|}}}{{{mark-coordinates13|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord13|}}}{{{mark-coordinates13|}}}|lat}}|{{{mark-lat13|}}}}}
+|  mark-lon13 = {{#if:{{{mark-coord13|}}}{{{mark-coordinates13|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord13|}}}{{{mark-coordinates13|}}}|long}}|{{{mark-lon13|}}}}}
+| shape-color13 = #{{OSM Location map/color|{{{shape-color13|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity13|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline13 = #{{OSM Location map/color|{{{shape-outline13|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity13|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo13 = {{if empty|{{{shape-halo13|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark13 = {{{mark13|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size13 = {{if empty|{{{mark-size13|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim13 =  {{if empty|{{{mark-dim13|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label13 =  {{{label13|}}}
+|        labela13 = {{{labela13|}}}
+|        labelb13 = {{{labelb13|}}}
+|label-angle13 = {{if empty|{{{label-angle13|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+| label-size13 = {{if empty|{{{label-size13|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|label-color13 = #{{OSM Location map/color|{{{label-color13|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|  label-pos13 = {{if empty|{{{label-pos13|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+| label-offset-x13 = {{if empty|{{{label-offset-x13|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+| label-offset-y13 = {{if empty|{{{label-offset-y13|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+| numbered13 = {{if empty|{{{numbered13|}}}|{{#switch: {{{shape13|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=13
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=M
+  | 0}}|0}}
+
+|     shape14 = {{if empty|{{{shape14|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat14 = {{#if:{{{mark-coord14|}}}{{{mark-coordinates14|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord14|}}}{{{mark-coordinates14|}}}|lat}}|{{{mark-lat14|}}}}}
+|  mark-lon14 = {{#if:{{{mark-coord14|}}}{{{mark-coordinates14|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord14|}}}{{{mark-coordinates14|}}}|long}}|{{{mark-lon14|}}}}}
+| shape-color14 = #{{OSM Location map/color|{{{shape-color14|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity14|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline14 = #{{OSM Location map/color|{{{shape-outline14|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity14|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo14 = {{if empty|{{{shape-halo14|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark14 = {{{mark14|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size14 = {{if empty|{{{mark-size14|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim14 =  {{if empty|{{{mark-dim14|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label14 =  {{{label14|}}}
+|        labela14 = {{{labela14|}}}
+|        labelb14 = {{{labelb14|}}}
+|   label-angle14 = {{if empty|{{{label-angle14|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size14 = {{if empty|{{{label-size14|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color14 = #{{OSM Location map/color|{{{label-color14|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos14 = {{if empty|{{{label-pos14|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x14 = {{if empty|{{{label-offset-x14|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y14 = {{if empty|{{{label-offset-y14|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered14 = {{if empty|{{{numbered14|}}}|{{#switch: {{{shape14|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=14
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=N
+  | 0}}|0}}
+
+|     shape15 = {{if empty|{{{shape15|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat15 = {{#if:{{{mark-coord15|}}}{{{mark-coordinates15|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord15|}}}{{{mark-coordinates15|}}}|lat}}|{{{mark-lat15|}}}}}
+|  mark-lon15 = {{#if:{{{mark-coord15|}}}{{{mark-coordinates15|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord15|}}}{{{mark-coordinates15|}}}|long}}|{{{mark-lon15|}}}}}
+| shape-color15 = #{{OSM Location map/color|{{{shape-color15|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity15|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline15 = #{{OSM Location map/color|{{{shape-outline15|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity15|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+| shape-halo15 = {{if empty|{{{shape-halo15|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark15 = {{{mark15|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size15 = {{if empty|{{{mark-size15|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim15 =  {{if empty|{{{mark-dim15|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label15 =  {{{label15|}}}
+|        labela15 = {{{labela15|}}}
+|        labelb15 = {{{labelb15|}}}
+|   label-angle15 = {{if empty|{{{label-angle15|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size15 = {{if empty|{{{label-size15|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color15 = #{{OSM Location map/color|{{{label-color15|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos15 = {{if empty|{{{label-pos15|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x15 = {{if empty|{{{label-offset-x15|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y15 = {{if empty|{{{label-offset-y15|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered15 = {{if empty|{{{numbered15|}}}|{{#switch: {{{shape15|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=15
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=O
+  | 0}}|0}}
+
+|     shape16 = {{if empty|{{{shape16|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat16 = {{#if:{{{mark-coord16|}}}{{{mark-coordinates16|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord16|}}}{{{mark-coordinates16|}}}|lat}}|{{{mark-lat16|}}}}}
+|  mark-lon16 = {{#if:{{{mark-coord16|}}}{{{mark-coordinates16|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord16|}}}{{{mark-coordinates16|}}}|long}}|{{{mark-lon16|}}}}}
+|   shape-color16 = #{{OSM Location map/color|{{{shape-color16|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity16|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline16 = #{{OSM Location map/color|{{{shape-outline16|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity16|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo16 = {{if empty|{{{shape-halo16|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark16 = {{{mark16|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size16 = {{if empty|{{{mark-size16|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim16 =  {{if empty|{{{mark-dim16|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label16 =  {{{label16|}}}
+|        labela16 = {{{labela16|}}}
+|        labelb16 = {{{labelb16|}}}
+|   label-angle16 = {{if empty|{{{label-angle16|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size16 = {{if empty|{{{label-size16|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color16 = #{{OSM Location map/color|{{{label-color16|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos16 = {{if empty|{{{label-pos16|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x16 = {{if empty|{{{label-offset-x16|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y16 = {{if empty|{{{label-offset-y16|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered16 = {{if empty|{{{numbered16|}}}|{{#switch: {{{shape16|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=16
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=P
+  | 0}}|0}}
+
+|     shape17 = {{if empty|{{{shape17|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat17 = {{#if:{{{mark-coord17|}}}{{{mark-coordinates17|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord17|}}}{{{mark-coordinates17|}}}|lat}}|{{{mark-lat17|}}}}}
+|  mark-lon17 = {{#if:{{{mark-coord17|}}}{{{mark-coordinates17|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord17|}}}{{{mark-coordinates17|}}}|long}}|{{{mark-lon17|}}}}}
+|   shape-color17 = #{{OSM Location map/color|{{{shape-color17|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity17|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline17 = #{{OSM Location map/color|{{{shape-outline17|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity17|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo17 = {{if empty|{{{shape-halo17|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark17 = {{{mark17|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size17 = {{if empty|{{{mark-size17|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim17 =  {{if empty|{{{mark-dim17|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label17 =  {{{label17|}}}
+|        labela17 = {{{labela17|}}}
+|        labelb17 = {{{labelb17|}}}
+|   label-angle17 = {{if empty|{{{label-angle17|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size17 = {{if empty|{{{label-size17|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color17 = #{{OSM Location map/color|{{{label-color17|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos17 = {{if empty|{{{label-pos17|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x17 = {{if empty|{{{label-offset-x17|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y17 = {{if empty|{{{label-offset-y17|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered17 = {{if empty|{{{numbered17|}}}|{{#switch: {{{shape17|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=17
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=Q
+  | 0}}|0}}
+
+|     shape18 = {{if empty|{{{shape18|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat18 = {{#if:{{{mark-coord18|}}}{{{mark-coordinates18|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord18|}}}{{{mark-coordinates18|}}}|lat}}|{{{mark-lat18|}}}}}
+|  mark-lon18 = {{#if:{{{mark-coord18|}}}{{{mark-coordinates18|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord18|}}}{{{mark-coordinates18|}}}|long}}|{{{mark-lon18|}}}}}
+|   shape-color18 = #{{OSM Location map/color|{{{shape-color18|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity18|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline18 = #{{OSM Location map/color|{{{shape-outline18|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity18|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo18 = {{if empty|{{{shape-halo18|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark18 = {{{mark18|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size18 = {{if empty|{{{mark-size18|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim18 =  {{if empty|{{{mark-dim18|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label18 =  {{{label18|}}}
+|        labela18 = {{{labela18|}}}
+|        labelb18 = {{{labelb18|}}}
+|   label-angle18 = {{if empty|{{{label-angle18|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size18 = {{if empty|{{{label-size18|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color18 = #{{OSM Location map/color|{{{label-color18|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos18 = {{if empty|{{{label-pos18|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x18 = {{if empty|{{{label-offset-x18|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y18 = {{if empty|{{{label-offset-y18|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered18 = {{if empty|{{{numbered18|}}}|{{#switch: {{{shape18|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=18
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=R
+  | 0}}|0}}
+
+|     shape19 = {{if empty|{{{shape19|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat19 = {{#if:{{{mark-coord19|}}}{{{mark-coordinates19|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord19|}}}{{{mark-coordinates19|}}}|lat}}|{{{mark-lat19|}}}}}
+|  mark-lon19 = {{#if:{{{mark-coord19|}}}{{{mark-coordinates19|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord19|}}}{{{mark-coordinates19|}}}|long}}|{{{mark-lon19|}}}}}
+|   shape-color19 = #{{OSM Location map/color|{{{shape-color19|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity19|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline19 = #{{OSM Location map/color|{{{shape-outline19|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity19|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo19 = {{if empty|{{{shape-halo19|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark19 = {{{mark19|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size19 = {{if empty|{{{mark-size19|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim19 =  {{if empty|{{{mark-dim19|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label19 =  {{{label19|}}}
+|        labela19 = {{{labela19|}}}
+|        labelb19 = {{{labelb19|}}}
+|   label-angle19 = {{if empty|{{{label-angle19|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size19 = {{if empty|{{{label-size19|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color19 = #{{OSM Location map/color|{{{label-color19|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos19 = {{if empty|{{{label-pos19|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x19 = {{if empty|{{{label-offset-x19|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y19 = {{if empty|{{{label-offset-y19|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered19 = {{if empty|{{{numbered19|}}}|{{#switch: {{{shape19|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=19
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=S
+  | 0}}|0}}
+
+|     shape20 = {{if empty|{{{shape20|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat20 = {{#if:{{{mark-coord20|}}}{{{mark-coordinates20|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord20|}}}{{{mark-coordinates20|}}}|lat}}|{{{mark-lat20|}}}}}
+|  mark-lon20 = {{#if:{{{mark-coord20|}}}{{{mark-coordinates20|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord20|}}}{{{mark-coordinates20|}}}|long}}|{{{mark-lon20|}}}}}
+|   shape-color20 = #{{OSM Location map/color|{{{shape-color20|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity20|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline20 = #{{OSM Location map/color|{{{shape-outline20|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity20|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo20 = {{if empty|{{{shape-halo20|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark20 = {{{mark20|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size20 = {{if empty|{{{mark-size20|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim20 =  {{if empty|{{{mark-dim20|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label20 =  {{{label20|}}}
+|        labela20 = {{{labela20|}}}
+|        labelb20 = {{{labelb20|}}}
+|   label-angle20 = {{if empty|{{{label-angle20|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size20 = {{if empty|{{{label-size20|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color20 = #{{OSM Location map/color|{{{label-color20|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos20 = {{if empty|{{{label-pos20|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x20 = {{if empty|{{{label-offset-x20|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y20 = {{if empty|{{{label-offset-y20|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered20 = {{if empty|{{{numbered20|}}}|{{#switch: {{{shape20|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=20
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=T
+  | 0}}|0}}
+
+|     shape21 = {{if empty|{{{shape21|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat21 = {{#if:{{{mark-coord21|}}}{{{mark-coordinates21|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord21|}}}{{{mark-coordinates21|}}}|lat}}|{{{mark-lat21|}}}}}
+|  mark-lon21 = {{#if:{{{mark-coord21|}}}{{{mark-coordinates21|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord21|}}}{{{mark-coordinates21|}}}|long}}|{{{mark-lon21|}}}}}
+|   shape-color21 = #{{OSM Location map/color|{{{shape-color21|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity21|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline21 = #{{OSM Location map/color|{{{shape-outline21|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity21|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo21 = {{if empty|{{{shape-halo21|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark21 = {{{mark21|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size21 = {{if empty|{{{mark-size21|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim21 =  {{if empty|{{{mark-dim21|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label21 =  {{{label21|}}}
+|        labela21 = {{{labela21|}}}
+|        labelb21 = {{{labelb21|}}}
+|   label-angle21 = {{if empty|{{{label-angle21|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size21 = {{if empty|{{{label-size21|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color21 = #{{OSM Location map/color|{{{label-color21|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos21 = {{if empty|{{{label-pos21|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x21 = {{if empty|{{{label-offset-x21|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y21 = {{if empty|{{{label-offset-y21|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered21 = {{if empty|{{{numbered21|}}}|{{#switch: {{{shape21|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=21
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=U
+  | 0}}|0}}
+
+|     shape22 = {{if empty|{{{shape22|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat22 = {{#if:{{{mark-coord22|}}}{{{mark-coordinates22|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord22|}}}{{{mark-coordinates22|}}}|lat}}|{{{mark-lat22|}}}}}
+|  mark-lon22 = {{#if:{{{mark-coord22|}}}{{{mark-coordinates22|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord22|}}}{{{mark-coordinates22|}}}|long}}|{{{mark-lon22|}}}}}
+|   shape-color22 = #{{OSM Location map/color|{{{shape-color22|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity22|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline22 = #{{OSM Location map/color|{{{shape-outline22|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity22|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo22 = {{if empty|{{{shape-halo22|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark22 = {{{mark22|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size22 = {{if empty|{{{mark-size22|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim22 =  {{if empty|{{{mark-dim22|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label22 =  {{{label22|}}}
+|        labela22 = {{{labela22|}}}
+|        labelb22 = {{{labelb22|}}}
+|   label-angle22 = {{if empty|{{{label-angle22|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size22 = {{if empty|{{{label-size22|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color22 = #{{OSM Location map/color|{{{label-color22|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos22 = {{if empty|{{{label-pos22|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x22 = {{if empty|{{{label-offset-x22|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y22 = {{if empty|{{{label-offset-y22|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered22 = {{if empty|{{{numbered22|}}}|{{#switch: {{{shape22|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=22
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=V
+  | 0}}|0}}
+
+|     shape23 = {{if empty|{{{shape23|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat23 = {{#if:{{{mark-coord23|}}}{{{mark-coordinates23|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord23|}}}{{{mark-coordinates23|}}}|lat}}|{{{mark-lat23|}}}}}
+|  mark-lon23 = {{#if:{{{mark-coord23|}}}{{{mark-coordinates23|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord23|}}}{{{mark-coordinates23|}}}|long}}|{{{mark-lon23|}}}}}
+|   shape-color23 = #{{OSM Location map/color|{{{shape-color23|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity23|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline23 = #{{OSM Location map/color|{{{shape-outline23|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity23|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo23 = {{if empty|{{{shape-halo23|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark23 = {{{mark23|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size23 = {{if empty|{{{mark-size23|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim23 =  {{if empty|{{{mark-dim23|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label23 =  {{{label23|}}}
+|        labela23 = {{{labela23|}}}
+|        labelb23 = {{{labelb23|}}}
+|   label-angle23 = {{if empty|{{{label-angle23|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size23 = {{if empty|{{{label-size23|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color23 = #{{OSM Location map/color|{{{label-color23|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos23 = {{if empty|{{{label-pos23|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x23 = {{if empty|{{{label-offset-x23|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y23 = {{if empty|{{{label-offset-y23|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered23 = {{if empty|{{{numbered23|}}}|{{#switch: {{{shape23|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=23
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=W
+  | 0}}|0}}
+
+|     shape24 = {{if empty|{{{shape24|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat24 = {{#if:{{{mark-coord24|}}}{{{mark-coordinates24|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord24|}}}{{{mark-coordinates24|}}}|lat}}|{{{mark-lat24|}}}}}
+|  mark-lon24 = {{#if:{{{mark-coord24|}}}{{{mark-coordinates24|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord24|}}}{{{mark-coordinates24|}}}|long}}|{{{mark-lon24|}}}}}
+|   shape-color24 = #{{OSM Location map/color|{{{shape-color24|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity24|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline24 = #{{OSM Location map/color|{{{shape-outline24|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity24|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo24 = {{if empty|{{{shape-halo24|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark24 = {{{mark24|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size24 = {{if empty|{{{mark-size24|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim24 =  {{if empty|{{{mark-dim24|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label24 =  {{{label24|}}}
+|        labela24 = {{{labela24|}}}
+|        labelb24 = {{{labelb24|}}}
+|   label-angle24 = {{if empty|{{{label-angle24|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size24= {{if empty|{{{label-size24|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color24 = #{{OSM Location map/color|{{{label-color24|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos24 = {{if empty|{{{label-pos24|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x24 = {{if empty|{{{label-offset-x24|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y24 = {{if empty|{{{label-offset-y24|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered24 = {{if empty|{{{numbered24|}}}|{{#switch: {{{shape24|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=24
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=X
+  | 0}}|0}}
+
+|     shape25 = {{if empty|{{{shape25|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat25 = {{#if:{{{mark-coord25|}}}{{{mark-coordinates25|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord25|}}}{{{mark-coordinates25|}}}|lat}}|{{{mark-lat25|}}}}}
+|  mark-lon25 = {{#if:{{{mark-coord25|}}}{{{mark-coordinates25|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord25|}}}{{{mark-coordinates25|}}}|long}}|{{{mark-lon25|}}}}}
+|   shape-color25 = #{{OSM Location map/color|{{{shape-color25|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity25|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline25 = #{{OSM Location map/color|{{{shape-outline25|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity25|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo25 = {{if empty|{{{shape-halo25|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark25 = {{{mark25|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size25 = {{if empty|{{{mark-size25|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim25 =  {{if empty|{{{mark-dim25|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label25 =  {{{label25|}}}
+|        labela25 = {{{labela25|}}}
+|        labelb25 = {{{labelb25|}}}
+|   label-angle25 = {{if empty|{{{label-angle25|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size25= {{if empty|{{{label-size25|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color25 = #{{OSM Location map/color|{{{label-color25|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos25 = {{if empty|{{{label-pos25|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x25 = {{if empty|{{{label-offset-x25|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y25 = {{if empty|{{{label-offset-y25|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered25 = {{if empty|{{{numbered25|}}}|{{#switch: {{{shape25|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=25
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=Y
+  | 0}}|0}}
+
+|     shape26 = {{if empty|{{{shape26|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat26 = {{#if:{{{mark-coord26|}}}{{{mark-coordinates26|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord26|}}}{{{mark-coordinates26|}}}|lat}}|{{{mark-lat26|}}}}}
+|  mark-lon26 = {{#if:{{{mark-coord26|}}}{{{mark-coordinates26|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord26|}}}{{{mark-coordinates26|}}}|long}}|{{{mark-lon26|}}}}}
+|   shape-color26 = #{{OSM Location map/color|{{{shape-color26|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity26|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline26 = #{{OSM Location map/color|{{{shape-outline26|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity26|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo26 = {{if empty|{{{shape-halo26|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark26 = {{{mark26|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size26 = {{if empty|{{{mark-size26|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim26 =  {{if empty|{{{mark-dim26|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label26 =  {{{label26|}}}
+|        labela26 = {{{labela26|}}}
+|        labelb26 = {{{labelb26|}}}
+|   label-angle26 = {{if empty|{{{label-angle26|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size26= {{if empty|{{{label-size26|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color26 = #{{OSM Location map/color|{{{label-color26|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos26 = {{if empty|{{{label-pos26|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x26 = {{if empty|{{{label-offset-x26|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y26 = {{if empty|{{{label-offset-y26|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered26 = {{if empty|{{{numbered26|}}}|{{#switch: {{{shape26|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=26
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=Z
+  | 0}}|0}}
+
+|     shape27 = {{if empty|{{{shape27|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat27 = {{#if:{{{mark-coord27|}}}{{{mark-coordinates27|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord27|}}}{{{mark-coordinates27|}}}|lat}}|{{{mark-lat27|}}}}}
+|  mark-lon27 = {{#if:{{{mark-coord27|}}}{{{mark-coordinates27|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord27|}}}{{{mark-coordinates27|}}}|long}}|{{{mark-lon27|}}}}}
+|   shape-color27 = #{{OSM Location map/color|{{{shape-color27|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity27|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline27 = #{{OSM Location map/color|{{{shape-outline27|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity27|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo27 = {{if empty|{{{shape-halo27|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark27 = {{{mark27|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size27 = {{if empty|{{{mark-size27|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim27 =  {{if empty|{{{mark-dim27|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label27 =  {{{label27|}}}
+|        labela27 = {{{labela27|}}}
+|        labelb27 = {{{labelb27|}}}
+|   label-angle27 = {{if empty|{{{label-angle27|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size27= {{if empty|{{{label-size27|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color27 = #{{OSM Location map/color|{{{label-color27|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos27 = {{if empty|{{{label-pos27|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x27 = {{if empty|{{{label-offset-x27|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y27 = {{if empty|{{{label-offset-y27|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered27 = {{if empty|{{{numbered27|}}}|{{#switch: {{{shape27|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=27
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AA
+  | 0}}|0}}
+
+|     shape28 = {{if empty|{{{shape28|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat28 = {{#if:{{{mark-coord28|}}}{{{mark-coordinates28|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord28|}}}{{{mark-coordinates28|}}}|lat}}|{{{mark-lat28|}}}}}
+|  mark-lon28 = {{#if:{{{mark-coord28|}}}{{{mark-coordinates28|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord28|}}}{{{mark-coordinates28|}}}|long}}|{{{mark-lon28|}}}}}
+|   shape-color28 = #{{OSM Location map/color|{{{shape-color28|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity28|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline28 = #{{OSM Location map/color|{{{shape-outline28|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity28|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo28 = {{if empty|{{{shape-halo28|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark28 = {{{mark28|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size28 = {{if empty|{{{mark-size28|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim28 =  {{if empty|{{{mark-dim28|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label28 =  {{{label28|}}}
+|        labela28 = {{{labela28|}}}
+|        labelb28 = {{{labelb28|}}}
+|   label-angle28 = {{if empty|{{{label-angle28|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size28= {{if empty|{{{label-size28|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color28 = #{{OSM Location map/color|{{{label-color28|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos28 = {{if empty|{{{label-pos28|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x28 = {{if empty|{{{label-offset-x28|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y28 = {{if empty|{{{label-offset-y28|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered28 = {{if empty|{{{numbered28|}}}|{{#switch: {{{shape28|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=28
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AB
+  | 0}}|0}}
+
+|     shape29 = {{if empty|{{{shape29|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat29 = {{#if:{{{mark-coord29|}}}{{{mark-coordinates29|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord29|}}}{{{mark-coordinates29|}}}|lat}}|{{{mark-lat29|}}}}}
+|  mark-lon29 = {{#if:{{{mark-coord29|}}}{{{mark-coordinates29|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord29|}}}{{{mark-coordinates29|}}}|long}}|{{{mark-lon29|}}}}}
+|   shape-color29 = #{{OSM Location map/color|{{{shape-color29|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity29|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline29 = #{{OSM Location map/color|{{{shape-outline29|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity29|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo29 = {{if empty|{{{shape-halo29|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark29 = {{{mark29|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size29 = {{if empty|{{{mark-size29|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim29 =  {{if empty|{{{mark-dim29|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label29 =  {{{label29|}}}
+|        labela29 = {{{labela29|}}}
+|        labelb29 = {{{labelb29|}}}
+|   label-angle29 = {{if empty|{{{label-angle29|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size29= {{if empty|{{{label-size29|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color29 = #{{OSM Location map/color|{{{label-color29|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos29 = {{if empty|{{{label-pos29|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x29 = {{if empty|{{{label-offset-x29|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y29 = {{if empty|{{{label-offset-y29|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered29 = {{if empty|{{{numbered29|}}}|{{#switch: {{{shape29|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=29
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AC
+  | 0}}|0}}
+
+|     shape30 = {{if empty|{{{shape30|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat30 = {{#if:{{{mark-coord30|}}}{{{mark-coordinates30|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord30|}}}{{{mark-coordinates30|}}}|lat}}|{{{mark-lat30|}}}}}
+|  mark-lon30 = {{#if:{{{mark-coord30|}}}{{{mark-coordinates30|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord30|}}}{{{mark-coordinates30|}}}|long}}|{{{mark-lon30|}}}}}
+|   shape-color30 = #{{OSM Location map/color|{{{shape-color30|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity30|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline30 = #{{OSM Location map/color|{{{shape-outline30|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity30|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo30 = {{if empty|{{{shape-halo30|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark30 = {{{mark30|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size30 = {{if empty|{{{mark-size30|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim30 =  {{if empty|{{{mark-dim30|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label30 =  {{{label30|}}}
+|        labela30 = {{{labela30|}}}
+|        labelb30 = {{{labelb30|}}}
+|   label-angle30 = {{if empty|{{{label-angle30|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size30= {{if empty|{{{label-size30|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color30 = #{{OSM Location map/color|{{{label-color30|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos30 = {{if empty|{{{label-pos30|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x30 = {{if empty|{{{label-offset-x30|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y30 = {{if empty|{{{label-offset-y30|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered30 = {{if empty|{{{numbered30|}}}|{{#switch: {{{shape30|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=30
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AD
+  | 0}}|0}}
+
+|     shape31 = {{if empty|{{{shape31|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat31 = {{#if:{{{mark-coord31|}}}{{{mark-coordinates31|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord31|}}}{{{mark-coordinates31|}}}|lat}}|{{{mark-lat31|}}}}}
+|  mark-lon31 = {{#if:{{{mark-coord31|}}}{{{mark-coordinates31|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord31|}}}{{{mark-coordinates31|}}}|long}}|{{{mark-lon31|}}}}}
+|   shape-color31 = #{{OSM Location map/color|{{{shape-color31|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity31|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline31 = #{{OSM Location map/color|{{{shape-outline31|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity31|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo31 = {{if empty|{{{shape-halo31|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark31 = {{{mark31|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size31 = {{if empty|{{{mark-size31|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim31 =  {{if empty|{{{mark-dim31|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label31 =  {{{label31|}}}
+|        labela31 = {{{labela31|}}}
+|        labelb31 = {{{labelb31|}}}
+|   label-angle31 = {{if empty|{{{label-angle31|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size31= {{if empty|{{{label-size31|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color31 = #{{OSM Location map/color|{{{label-color31|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos31 = {{if empty|{{{label-pos31|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x31 = {{if empty|{{{label-offset-x31|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y31 = {{if empty|{{{label-offset-y31|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered31 = {{if empty|{{{numbered31|}}}|{{#switch: {{{shape31|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=31
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AE
+  | 0}}|0}}
+
+|     shape32 = {{if empty|{{{shape32|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat32 = {{#if:{{{mark-coord32|}}}{{{mark-coordinates32|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord32|}}}{{{mark-coordinates32|}}}|lat}}|{{{mark-lat32|}}}}}
+|  mark-lon32 = {{#if:{{{mark-coord32|}}}{{{mark-coordinates32|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord32|}}}{{{mark-coordinates32|}}}|long}}|{{{mark-lon32|}}}}}
+|   shape-color32 = #{{OSM Location map/color|{{{shape-color32|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity32|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline32 = #{{OSM Location map/color|{{{shape-outline32|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity32|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo32 = {{if empty|{{{shape-halo32|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark32 = {{{mark32|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size32 = {{if empty|{{{mark-size32|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim32 =  {{if empty|{{{mark-dim32|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label32 =  {{{label32|}}}
+|        labela32 = {{{labela32|}}}
+|        labelb32 = {{{labelb32|}}}
+|   label-angle32 = {{if empty|{{{label-angle32|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size32= {{if empty|{{{label-size32|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color32 = #{{OSM Location map/color|{{{label-color32|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos32 = {{if empty|{{{label-pos32|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x32 = {{if empty|{{{label-offset-x32|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y32 = {{if empty|{{{label-offset-y32|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered32 = {{if empty|{{{numbered32|}}}|{{#switch: {{{shape32|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=32
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AF
+  | 0}}|0}}
+
+|     shape33 = {{if empty|{{{shape33|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat33 = {{#if:{{{mark-coord33|}}}{{{mark-coordinates33|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord33|}}}{{{mark-coordinates33|}}}|lat}}|{{{mark-lat33|}}}}}
+|  mark-lon33 = {{#if:{{{mark-coord33|}}}{{{mark-coordinates33|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord33|}}}{{{mark-coordinates33|}}}|long}}|{{{mark-lon33|}}}}}
+|   shape-color33 = #{{OSM Location map/color|{{{shape-color33|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity33|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline33 = #{{OSM Location map/color|{{{shape-outline33|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity33|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo33 = {{if empty|{{{shape-halo33|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark33 = {{{mark33|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size33 = {{if empty|{{{mark-size33|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim33 =  {{if empty|{{{mark-dim33|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label33 =  {{{label33|}}}
+|        labela33 = {{{labela33|}}}
+|        labelb33 = {{{labelb33|}}}
+|   label-angle33 = {{if empty|{{{label-angle33|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size33= {{if empty|{{{label-size33|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color33 = #{{OSM Location map/color|{{{label-color33|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos33 = {{if empty|{{{label-pos33|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x33 = {{if empty|{{{label-offset-x33|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y33 = {{if empty|{{{label-offset-y33|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered33 = {{if empty|{{{numbered33|}}}|{{#switch: {{{shape33|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=33
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AG
+  | 0}}|0}}
+
+|     shape34 = {{if empty|{{{shape34|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat34 = {{#if:{{{mark-coord34|}}}{{{mark-coordinates34|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord34|}}}{{{mark-coordinates34|}}}|lat}}|{{{mark-lat34|}}}}}
+|  mark-lon34 = {{#if:{{{mark-coord34|}}}{{{mark-coordinates34|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord34|}}}{{{mark-coordinates34|}}}|long}}|{{{mark-lon34|}}}}}
+|   shape-color34 = #{{OSM Location map/color|{{{shape-color34|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity34|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline34 = #{{OSM Location map/color|{{{shape-outline34|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity34|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo34 = {{if empty|{{{shape-halo34|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark34 = {{{mark34|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size34 = {{if empty|{{{mark-size34|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim34 =  {{if empty|{{{mark-dim34|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label34 =  {{{label34|}}}
+|        labela34 = {{{labela34|}}}
+|        labelb34 = {{{labelb34|}}}
+|   label-angle34 = {{if empty|{{{label-angle34|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size34= {{if empty|{{{label-size34|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color34 = #{{OSM Location map/color|{{{label-color34|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos34 = {{if empty|{{{label-pos34|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x34 = {{if empty|{{{label-offset-x34|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y34 = {{if empty|{{{label-offset-y34|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered34 = {{if empty|{{{numbered34|}}}|{{#switch: {{{shape34|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=34
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AH
+  | 0}}|0}}
+
+|     shape35 = {{if empty|{{{shape35|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat35 = {{#if:{{{mark-coord35|}}}{{{mark-coordinates35|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord35|}}}{{{mark-coordinates35|}}}|lat}}|{{{mark-lat35|}}}}}
+|  mark-lon35 = {{#if:{{{mark-coord35|}}}{{{mark-coordinates35|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord35|}}}{{{mark-coordinates35|}}}|long}}|{{{mark-lon35|}}}}}
+|   shape-color35 = #{{OSM Location map/color|{{{shape-color35|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity35|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline35 = #{{OSM Location map/color|{{{shape-outline35|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity35|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo35 = {{if empty|{{{shape-halo35|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark35 = {{{mark35|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size35 = {{if empty|{{{mark-size35|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim35 =  {{if empty|{{{mark-dim35|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label35 =  {{{label35|}}}
+|        labela35 = {{{labela35|}}}
+|        labelb35 = {{{labelb35|}}}
+|   label-angle35 = {{if empty|{{{label-angle35|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size35= {{if empty|{{{label-size35|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color35 = #{{OSM Location map/color|{{{label-color35|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos35 = {{if empty|{{{label-pos35|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x35 = {{if empty|{{{label-offset-x35|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y35 = {{if empty|{{{label-offset-y35|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered35 = {{if empty|{{{numbered35|}}}|{{#switch: {{{shape35|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=35
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AI
+  | 0}}|0}}
+
+|     shape36 = {{if empty|{{{shape36|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat36 = {{#if:{{{mark-coord36|}}}{{{mark-coordinates36|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord36|}}}{{{mark-coordinates36|}}}|lat}}|{{{mark-lat36|}}}}}
+|  mark-lon36 = {{#if:{{{mark-coord36|}}}{{{mark-coordinates36|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord36|}}}{{{mark-coordinates36|}}}|long}}|{{{mark-lon36|}}}}}
+|   shape-color36 = #{{OSM Location map/color|{{{shape-color36|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity36|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline36 = #{{OSM Location map/color|{{{shape-outline36|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity36|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo36 = {{if empty|{{{shape-halo36|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark36 = {{{mark36|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size36 = {{if empty|{{{mark-size36|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim36 =  {{if empty|{{{mark-dim36|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label36 =  {{{label36|}}}
+|        labela36 = {{{labela36|}}}
+|        labelb36 = {{{labelb36|}}}
+|   label-angle36 = {{if empty|{{{label-angle36|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size36= {{if empty|{{{label-size36|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color36 = #{{OSM Location map/color|{{{label-color36|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos36 = {{if empty|{{{label-pos36|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x36 = {{if empty|{{{label-offset-x36|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y36 = {{if empty|{{{label-offset-y36|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered36 = {{if empty|{{{numbered36|}}}|{{#switch: {{{shape36|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=36
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AJ
+  | 0}}|0}}
+
+|     shape37 = {{if empty|{{{shape37|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat37 = {{#if:{{{mark-coord37|}}}{{{mark-coordinates37|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord37|}}}{{{mark-coordinates37|}}}|lat}}|{{{mark-lat37|}}}}}
+|  mark-lon37 = {{#if:{{{mark-coord37|}}}{{{mark-coordinates37|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord37|}}}{{{mark-coordinates37|}}}|long}}|{{{mark-lon37|}}}}}
+|   shape-color37 = #{{OSM Location map/color|{{{shape-color37|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity37|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline37 = #{{OSM Location map/color|{{{shape-outline37|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity37|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo37 = {{if empty|{{{shape-halo37|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark37 = {{{mark37|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size37 = {{if empty|{{{mark-size37|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim37 =  {{if empty|{{{mark-dim37|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label37 =  {{{label37|}}}
+|        labela37 = {{{labela37|}}}
+|        labelb37 = {{{labelb37|}}}
+|   label-angle37 = {{if empty|{{{label-angle37|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size37= {{if empty|{{{label-size37|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color37 = #{{OSM Location map/color|{{{label-color37|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos37 = {{if empty|{{{label-pos37|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x37 = {{if empty|{{{label-offset-x37|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y37 = {{if empty|{{{label-offset-y37|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered37 = {{if empty|{{{numbered37|}}}|{{#switch: {{{shape37|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=37
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AK
+  | 0}}|0}}
+
+|     shape38 = {{if empty|{{{shape38|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat38 = {{#if:{{{mark-coord38|}}}{{{mark-coordinates38|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord38|}}}{{{mark-coordinates38|}}}|lat}}|{{{mark-lat38|}}}}}
+|  mark-lon38 = {{#if:{{{mark-coord38|}}}{{{mark-coordinates38|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord38|}}}{{{mark-coordinates38|}}}|long}}|{{{mark-lon38|}}}}}
+|   shape-color38 = #{{OSM Location map/color|{{{shape-color38|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity38|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline38 = #{{OSM Location map/color|{{{shape-outline38|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity38|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo38 = {{if empty|{{{shape-halo38|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark38 = {{{mark38|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size38 = {{if empty|{{{mark-size38|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim38 =  {{if empty|{{{mark-dim38|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label38 =  {{{label38|}}}
+|        labela38 = {{{labela38|}}}
+|        labelb38 = {{{labelb38|}}}
+|   label-angle38 = {{if empty|{{{label-angle38|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size38= {{if empty|{{{label-size38|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color38 = #{{OSM Location map/color|{{{label-color38|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos38 = {{if empty|{{{label-pos38|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x38 = {{if empty|{{{label-offset-x38|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y38 = {{if empty|{{{label-offset-y38|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered38 = {{if empty|{{{numbered38|}}}|{{#switch: {{{shape38|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=38
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AL
+  | 0}}|0}}
+
+|     shape39 = {{if empty|{{{shape39|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat39 = {{#if:{{{mark-coord39|}}}{{{mark-coordinates39|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord39|}}}{{{mark-coordinates39|}}}|lat}}|{{{mark-lat39|}}}}}
+|  mark-lon39 = {{#if:{{{mark-coord39|}}}{{{mark-coordinates39|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord39|}}}{{{mark-coordinates39|}}}|long}}|{{{mark-lon39|}}}}}
+|   shape-color39 = #{{OSM Location map/color|{{{shape-color39|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity39|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline39 = #{{OSM Location map/color|{{{shape-outline39|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity39|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo39 = {{if empty|{{{shape-halo39|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark39 = {{{mark39|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size39 = {{if empty|{{{mark-size39|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim39 =  {{if empty|{{{mark-dim39|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label39 =  {{{label39|}}}
+|        labela39 = {{{labela39|}}}
+|        labelb39 = {{{labelb39|}}}
+|   label-angle39 = {{if empty|{{{label-angle39|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size39= {{if empty|{{{label-size39|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color39 = #{{OSM Location map/color|{{{label-color39|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos39 = {{if empty|{{{label-pos39|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x39 = {{if empty|{{{label-offset-x39|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y39 = {{if empty|{{{label-offset-y39|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered39 = {{if empty|{{{numbered39|}}}|{{#switch: {{{shape39|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=39
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AM
+  | 0}}|0}}
+
+|     shape40 = {{if empty|{{{shape40|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat40 = {{#if:{{{mark-coord40|}}}{{{mark-coordinates40|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord40|}}}{{{mark-coordinates40|}}}|lat}}|{{{mark-lat40|}}}}}
+|  mark-lon40 = {{#if:{{{mark-coord40|}}}{{{mark-coordinates40|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord40|}}}{{{mark-coordinates40|}}}|long}}|{{{mark-lon40|}}}}}
+|   shape-color40 = #{{OSM Location map/color|{{{shape-color40|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity40|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline40 = #{{OSM Location map/color|{{{shape-outline40|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity40|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo40 = {{if empty|{{{shape-halo40|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark40 = {{{mark40|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size40 = {{if empty|{{{mark-size40|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim40 =  {{if empty|{{{mark-dim40|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label40 =  {{{label40|}}}
+|        labela40 = {{{labela40|}}}
+|        labelb40 = {{{labelb40|}}}
+|   label-angle40 = {{if empty|{{{label-angle40|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size40= {{if empty|{{{label-size40|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color40 = #{{OSM Location map/color|{{{label-color40|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos40 = {{if empty|{{{label-pos40|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x40 = {{if empty|{{{label-offset-x40|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y40 = {{if empty|{{{label-offset-y40|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered40 = {{if empty|{{{numbered40|}}}|{{#switch: {{{shape40|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=40
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AN
+  | 0}}|0}}
+
+|     shape41 = {{if empty|{{{shape41|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat41 = {{#if:{{{mark-coord41|}}}{{{mark-coordinates41|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord41|}}}{{{mark-coordinates41|}}}|lat}}|{{{mark-lat41|}}}}}
+|  mark-lon41 = {{#if:{{{mark-coord41|}}}{{{mark-coordinates41|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord41|}}}{{{mark-coordinates41|}}}|long}}|{{{mark-lon41|}}}}}
+|   shape-color41 = #{{OSM Location map/color|{{{shape-color41|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity41|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline41 = #{{OSM Location map/color|{{{shape-outline41|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity41|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo41 = {{if empty|{{{shape-halo41|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark41 = {{{mark41|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size41 = {{if empty|{{{mark-size41|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim41 =  {{if empty|{{{mark-dim41|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label41 =  {{{label41|}}}
+|        labela41 = {{{labela41|}}}
+|        labelb41 = {{{labelb41|}}}
+|   label-angle41 = {{if empty|{{{label-angle41|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size41= {{if empty|{{{label-size41|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color41 = #{{OSM Location map/color|{{{label-color41|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos41 = {{if empty|{{{label-pos41|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x41 = {{if empty|{{{label-offset-x41|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y41 = {{if empty|{{{label-offset-y41|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered41 = {{if empty|{{{numbered41|}}}|{{#switch: {{{shape41|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=41
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AO
+  | 0}}|0}}
+
+|     shape42 = {{if empty|{{{shape42|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat42 = {{#if:{{{mark-coord42|}}}{{{mark-coordinates42|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord42|}}}{{{mark-coordinates42|}}}|lat}}|{{{mark-lat42|}}}}}
+|  mark-lon42 = {{#if:{{{mark-coord42|}}}{{{mark-coordinates42|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord42|}}}{{{mark-coordinates42|}}}|long}}|{{{mark-lon42|}}}}}
+|   shape-color42 = #{{OSM Location map/color|{{{shape-color42|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity42|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline42 = #{{OSM Location map/color|{{{shape-outline42|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity42|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo42 = {{if empty|{{{shape-halo42|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark42 = {{{mark42|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size42 = {{if empty|{{{mark-size42|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim42 =  {{if empty|{{{mark-dim42|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label42 =  {{{label42|}}}
+|        labela42 = {{{labela42|}}}
+|        labelb42 = {{{labelb42|}}}
+|   label-angle42 = {{if empty|{{{label-angle42|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size42= {{if empty|{{{label-size42|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color42 = #{{OSM Location map/color|{{{label-color42|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos42 = {{if empty|{{{label-pos42|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x42 = {{if empty|{{{label-offset-x42|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y42 = {{if empty|{{{label-offset-y42|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered42 = {{if empty|{{{numbered42|}}}|{{#switch: {{{shape42|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=42
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AP
+  | 0}}|0}}
+
+|     shape43 = {{if empty|{{{shape43|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat43 = {{#if:{{{mark-coord43|}}}{{{mark-coordinates43|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord43|}}}{{{mark-coordinates43|}}}|lat}}|{{{mark-lat43|}}}}}
+|  mark-lon43 = {{#if:{{{mark-coord43|}}}{{{mark-coordinates43|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord43|}}}{{{mark-coordinates43|}}}|long}}|{{{mark-lon43|}}}}}
+|   shape-color43 = #{{OSM Location map/color|{{{shape-color43|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity43|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline43 = #{{OSM Location map/color|{{{shape-outline43|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity43|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo43 = {{if empty|{{{shape-halo43|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark43 = {{{mark43|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size43 = {{if empty|{{{mark-size43|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim43 =  {{if empty|{{{mark-dim43|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label43 =  {{{label43|}}}
+|        labela43 = {{{labela43|}}}
+|        labelb43 = {{{labelb43|}}}
+|   label-angle43 = {{if empty|{{{label-angle43|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size43= {{if empty|{{{label-size43|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color43 = #{{OSM Location map/color|{{{label-color43|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos43 = {{if empty|{{{label-pos43|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x43 = {{if empty|{{{label-offset-x43|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y43 = {{if empty|{{{label-offset-y43|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered43 = {{if empty|{{{numbered43|}}}|{{#switch: {{{shape43|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=43
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AQ
+  | 0}}|0}}
+
+|     shape44 = {{if empty|{{{shape44|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat44 = {{#if:{{{mark-coord44|}}}{{{mark-coordinates44|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord44|}}}{{{mark-coordinates44|}}}|lat}}|{{{mark-lat44|}}}}}
+|  mark-lon44 = {{#if:{{{mark-coord44|}}}{{{mark-coordinates44|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord44|}}}{{{mark-coordinates44|}}}|long}}|{{{mark-lon44|}}}}}
+|   shape-color44 = #{{OSM Location map/color|{{{shape-color44|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity44|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline44 = #{{OSM Location map/color|{{{shape-outline44|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity44|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo44 = {{if empty|{{{shape-halo44|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark44 = {{{mark44|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size44 = {{if empty|{{{mark-size44|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim44 =  {{if empty|{{{mark-dim44|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label44 =  {{{label44|}}}
+|        labela44 = {{{labela44|}}}
+|        labelb44 = {{{labelb44|}}}
+|   label-angle44 = {{if empty|{{{label-angle44|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size44= {{if empty|{{{label-size44|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color44 = #{{OSM Location map/color|{{{label-color44|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos44 = {{if empty|{{{label-pos44|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x44 = {{if empty|{{{label-offset-x44|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y44 = {{if empty|{{{label-offset-y44|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered44 = {{if empty|{{{numbered44|}}}|{{#switch: {{{shape44|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=44
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AR
+  | 0}}|0}}
+
+|     shape45 = {{if empty|{{{shape45|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat45 = {{#if:{{{mark-coord45|}}}{{{mark-coordinates45|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord45|}}}{{{mark-coordinates45|}}}|lat}}|{{{mark-lat45|}}}}}
+|  mark-lon45 = {{#if:{{{mark-coord45|}}}{{{mark-coordinates45|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord45|}}}{{{mark-coordinates45|}}}|long}}|{{{mark-lon45|}}}}}
+|   shape-color45 = #{{OSM Location map/color|{{{shape-color45|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity45|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline45 = #{{OSM Location map/color|{{{shape-outline45|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity45|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo45 = {{if empty|{{{shape-halo45|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark45 = {{{mark45|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size45 = {{if empty|{{{mark-size45|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim45 =  {{if empty|{{{mark-dim45|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label45 =  {{{label45|}}}
+|        labela45 = {{{labela45|}}}
+|        labelb45 = {{{labelb45|}}}
+|   label-angle45 = {{if empty|{{{label-angle45|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size45= {{if empty|{{{label-size45|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color45 = #{{OSM Location map/color|{{{label-color45|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos45 = {{if empty|{{{label-pos45|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x45 = {{if empty|{{{label-offset-x45|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y45 = {{if empty|{{{label-offset-y45|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered45 = {{if empty|{{{numbered45|}}}|{{#switch: {{{shape45|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=45
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AS
+  | 0}}|0}}
+
+|     shape46 = {{if empty|{{{shape46|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat46 = {{#if:{{{mark-coord46|}}}{{{mark-coordinates46|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord46|}}}{{{mark-coordinates46|}}}|lat}}|{{{mark-lat46|}}}}}
+|  mark-lon46 = {{#if:{{{mark-coord46|}}}{{{mark-coordinates46|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord46|}}}{{{mark-coordinates46|}}}|long}}|{{{mark-lon46|}}}}}
+|   shape-color46 = #{{OSM Location map/color|{{{shape-color46|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity46|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline46 = #{{OSM Location map/color|{{{shape-outline46|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity46|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo46 = {{if empty|{{{shape-halo46|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark46 = {{{mark46|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size46 = {{if empty|{{{mark-size46|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim46 =  {{if empty|{{{mark-dim46|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label46 =  {{{label46|}}}
+|        labela46 = {{{labela46|}}}
+|        labelb46 = {{{labelb46|}}}
+|   label-angle46 = {{if empty|{{{label-angle46|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size46= {{if empty|{{{label-size46|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color46 = #{{OSM Location map/color|{{{label-color46|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos46 = {{if empty|{{{label-pos46|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x46 = {{if empty|{{{label-offset-x46|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y46 = {{if empty|{{{label-offset-y46|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered46 = {{if empty|{{{numbered46|}}}|{{#switch: {{{shape46|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=46
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AT
+  | 0}}|0}}
+
+|     shape47 = {{if empty|{{{shape47|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat47 = {{#if:{{{mark-coord47|}}}{{{mark-coordinates47|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord47|}}}{{{mark-coordinates47|}}}|lat}}|{{{mark-lat47|}}}}}
+|  mark-lon47 = {{#if:{{{mark-coord47|}}}{{{mark-coordinates47|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord47|}}}{{{mark-coordinates47|}}}|long}}|{{{mark-lon47|}}}}}
+|   shape-color47 = #{{OSM Location map/color|{{{shape-color47|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity47|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline47 = #{{OSM Location map/color|{{{shape-outline47|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity47|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo47 = {{if empty|{{{shape-halo47|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark47 = {{{mark47|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size47 = {{if empty|{{{mark-size47|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim47 =  {{if empty|{{{mark-dim47|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label47 =  {{{label47|}}}
+|        labela47 = {{{labela47|}}}
+|        labelb47 = {{{labelb47|}}}
+|   label-angle47 = {{if empty|{{{label-angle47|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size47= {{if empty|{{{label-size47|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color47 = #{{OSM Location map/color|{{{label-color47|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos47 = {{if empty|{{{label-pos47|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x47 = {{if empty|{{{label-offset-x47|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y47 = {{if empty|{{{label-offset-y47|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered47 = {{if empty|{{{numbered47|}}}|{{#switch: {{{shape47|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=47
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AU
+  | 0}}|0}}
+
+|     shape48 = {{if empty|{{{shape48|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat48 = {{#if:{{{mark-coord48|}}}{{{mark-coordinates48|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord48|}}}{{{mark-coordinates48|}}}|lat}}|{{{mark-lat48|}}}}}
+|  mark-lon48 = {{#if:{{{mark-coord48|}}}{{{mark-coordinates48|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord48|}}}{{{mark-coordinates48|}}}|long}}|{{{mark-lon48|}}}}}
+|   shape-color48 = #{{OSM Location map/color|{{{shape-color48|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity48|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline48 = #{{OSM Location map/color|{{{shape-outline48|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity48|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo48 = {{if empty|{{{shape-halo48|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark48 = {{{mark48|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size48 = {{if empty|{{{mark-size48|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim48 =  {{if empty|{{{mark-dim48|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label48 =  {{{label48|}}}
+|        labela48 = {{{labela48|}}}
+|        labelb48 = {{{labelb48|}}}
+|   label-angle48 = {{if empty|{{{label-angle48|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size48= {{if empty|{{{label-size48|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color48 = #{{OSM Location map/color|{{{label-color48|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos48 = {{if empty|{{{label-pos48|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x48 = {{if empty|{{{label-offset-x48|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y48 = {{if empty|{{{label-offset-y48|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered48 = {{if empty|{{{numbered48|}}}|{{#switch: {{{shape48|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=48
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AV
+  | 0}}|0}}
+
+|     shape49 = {{if empty|{{{shape49|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat49 = {{#if:{{{mark-coord49|}}}{{{mark-coordinates49|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord49|}}}{{{mark-coordinates49|}}}|lat}}|{{{mark-lat49|}}}}}
+|  mark-lon49 = {{#if:{{{mark-coord49|}}}{{{mark-coordinates49|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord49|}}}{{{mark-coordinates49|}}}|long}}|{{{mark-lon49|}}}}}
+|   shape-color49 = #{{OSM Location map/color|{{{shape-color49|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity49|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline49 = #{{OSM Location map/color|{{{shape-outline49|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity49|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo49 = {{if empty|{{{shape-halo49|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark49 = {{{mark49|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size49 = {{if empty|{{{mark-size49|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim49 =  {{if empty|{{{mark-dim49|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label49 =  {{{label49|}}}
+|        labela49 = {{{labela49|}}}
+|        labelb49 = {{{labelb49|}}}
+|   label-angle49 = {{if empty|{{{label-angle49|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size49= {{if empty|{{{label-size49|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color49 = #{{OSM Location map/color|{{{label-color49|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos49 = {{if empty|{{{label-pos49|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x49 = {{if empty|{{{label-offset-x49|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y49 = {{if empty|{{{label-offset-y49|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered49 = {{if empty|{{{numbered49|}}}|{{#switch: {{{shape49|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=49
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AW
+  | 0}}|0}}
+
+|     shape50 = {{if empty|{{{shape50|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat50 = {{#if:{{{mark-coord50|}}}{{{mark-coordinates50|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord50|}}}{{{mark-coordinates50|}}}|lat}}|{{{mark-lat50|}}}}}
+|  mark-lon50 = {{#if:{{{mark-coord50|}}}{{{mark-coordinates50|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord50|}}}{{{mark-coordinates50|}}}|long}}|{{{mark-lon50|}}}}}
+|   shape-color50 = #{{OSM Location map/color|{{{shape-color50|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity50|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline50 = #{{OSM Location map/color|{{{shape-outline50|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity50|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo50 = {{if empty|{{{shape-halo50|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark50 = {{{mark50|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size50 = {{if empty|{{{mark-size50|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim50 =  {{if empty|{{{mark-dim50|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label50 =  {{{label50|}}}
+|        labela50 = {{{labela50|}}}
+|        labelb50 = {{{labelb50|}}}
+|   label-angle50 = {{if empty|{{{label-angle50|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size50= {{if empty|{{{label-size50|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color50 = #{{OSM Location map/color|{{{label-color50|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos50 = {{if empty|{{{label-pos50|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x50 = {{if empty|{{{label-offset-x50|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y50 = {{if empty|{{{label-offset-y50|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered50 = {{if empty|{{{numbered50|}}}|{{#switch: {{{shape50|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=50
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AY
+  | 0}}|0}}
+
+|     shape51 = {{if empty|{{{shape51|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat51 = {{#if:{{{mark-coord51|}}}{{{mark-coordinates51|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord51|}}}{{{mark-coordinates51|}}}|lat}}|{{{mark-lat51|}}}}}
+|  mark-lon51 = {{#if:{{{mark-coord51|}}}{{{mark-coordinates51|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord51|}}}{{{mark-coordinates51|}}}|long}}|{{{mark-lon51|}}}}}
+|   shape-color51 = #{{OSM Location map/color|{{{shape-color51|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity51|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline51 = #{{OSM Location map/color|{{{shape-outline51|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity51|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo51 = {{if empty|{{{shape-halo51|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark51 = {{{mark51|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size51 = {{if empty|{{{mark-size51|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim51 =  {{if empty|{{{mark-dim51|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label51 =  {{{label51|}}}
+|        labela51 = {{{labela51|}}}
+|        labelb51 = {{{labelb51|}}}
+|   label-angle51 = {{if empty|{{{label-angle51|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size51= {{if empty|{{{label-size51|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color51 = #{{OSM Location map/color|{{{label-color51|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos51 = {{if empty|{{{label-pos51|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x51 = {{if empty|{{{label-offset-x51|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y51 = {{if empty|{{{label-offset-y51|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered51 = {{if empty|{{{numbered51|}}}|{{#switch: {{{shape51|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=51
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AX
+  | 0}}|0}}
+
+|     shape52 = {{if empty|{{{shape52|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat52 = {{#if:{{{mark-coord52|}}}{{{mark-coordinates52|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord52|}}}{{{mark-coordinates52|}}}|lat}}|{{{mark-lat52|}}}}}
+|  mark-lon52 = {{#if:{{{mark-coord52|}}}{{{mark-coordinates52|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord52|}}}{{{mark-coordinates52|}}}|long}}|{{{mark-lon52|}}}}}
+|   shape-color52 = #{{OSM Location map/color|{{{shape-color52|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity52|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline52 = #{{OSM Location map/color|{{{shape-outline52|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity52|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo52 = {{if empty|{{{shape-halo52|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark52 = {{{mark52|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size52 = {{if empty|{{{mark-size52|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim52 =  {{if empty|{{{mark-dim52|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label52 =  {{{label52|}}}
+|        labela52 = {{{labela52|}}}
+|        labelb52 = {{{labelb52|}}}
+|   label-angle52 = {{if empty|{{{label-angle52|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size52= {{if empty|{{{label-size52|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color52 = #{{OSM Location map/color|{{{label-color52|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos52 = {{if empty|{{{label-pos52|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x52 = {{if empty|{{{label-offset-x52|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y52 = {{if empty|{{{label-offset-y52|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered52 = {{if empty|{{{numbered52|}}}|{{#switch: {{{shape52|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=52
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=AZ
+  | 0}}|0}}
+
+|     shape53 = {{if empty|{{{shape53|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat53 = {{#if:{{{mark-coord53|}}}{{{mark-coordinates53|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord53|}}}{{{mark-coordinates53|}}}|lat}}|{{{mark-lat53|}}}}}
+|  mark-lon53 = {{#if:{{{mark-coord53|}}}{{{mark-coordinates53|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord53|}}}{{{mark-coordinates53|}}}|long}}|{{{mark-lon53|}}}}}
+|   shape-color53 = #{{OSM Location map/color|{{{shape-color53|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity53|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline53 = #{{OSM Location map/color|{{{shape-outline53|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity53|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo53 = {{if empty|{{{shape-halo53|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark53 = {{{mark53|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size53 = {{if empty|{{{mark-size53|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim53 =  {{if empty|{{{mark-dim53|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label53 =  {{{label53|}}}
+|        labela53 = {{{labela53|}}}
+|        labelb53 = {{{labelb53|}}}
+|   label-angle53 = {{if empty|{{{label-angle53|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size53= {{if empty|{{{label-size53|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color53 = #{{OSM Location map/color|{{{label-color53|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos53 = {{if empty|{{{label-pos53|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x53 = {{if empty|{{{label-offset-x53|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y53 = {{if empty|{{{label-offset-y53|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered53 = {{if empty|{{{numbered53|}}}|{{#switch: {{{shape53|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=53
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BA
+  | 0}}|0}}
+
+|     shape54 = {{if empty|{{{shape54|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat54 = {{#if:{{{mark-coord54|}}}{{{mark-coordinates54|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord54|}}}{{{mark-coordinates54|}}}|lat}}|{{{mark-lat54|}}}}}
+|  mark-lon54 = {{#if:{{{mark-coord54|}}}{{{mark-coordinates54|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord54|}}}{{{mark-coordinates54|}}}|long}}|{{{mark-lon54|}}}}}
+|   shape-color54 = #{{OSM Location map/color|{{{shape-color54|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity54|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline54 = #{{OSM Location map/color|{{{shape-outline54|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity54|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo54 = {{if empty|{{{shape-halo54|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark54 = {{{mark54|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size54 = {{if empty|{{{mark-size54|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim54 =  {{if empty|{{{mark-dim54|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label54 =  {{{label54|}}}
+|        labela54 = {{{labela54|}}}
+|        labelb54 = {{{labelb54|}}}
+|   label-angle54 = {{if empty|{{{label-angle54|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size54= {{if empty|{{{label-size54|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color54 = #{{OSM Location map/color|{{{label-color54|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos54 = {{if empty|{{{label-pos54|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x54 = {{if empty|{{{label-offset-x54|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y54 = {{if empty|{{{label-offset-y54|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered54 = {{if empty|{{{numbered54|}}}|{{#switch: {{{shape54|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=54
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BB
+  | 0}}|0}}
+
+|     shape55 = {{if empty|{{{shape55|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat55 = {{#if:{{{mark-coord55|}}}{{{mark-coordinates55|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord55|}}}{{{mark-coordinates55|}}}|lat}}|{{{mark-lat55|}}}}}
+|  mark-lon55 = {{#if:{{{mark-coord55|}}}{{{mark-coordinates55|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord55|}}}{{{mark-coordinates55|}}}|long}}|{{{mark-lon55|}}}}}
+|   shape-color55 = #{{OSM Location map/color|{{{shape-color55|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity55|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline55 = #{{OSM Location map/color|{{{shape-outline55|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity55|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo55 = {{if empty|{{{shape-halo55|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark55 = {{{mark55|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size55 = {{if empty|{{{mark-size55|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim55 =  {{if empty|{{{mark-dim55|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label55 =  {{{label55|}}}
+|        labela55 = {{{labela55|}}}
+|        labelb55 = {{{labelb55|}}}
+|   label-angle55 = {{if empty|{{{label-angle55|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size55= {{if empty|{{{label-size55|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color55 = #{{OSM Location map/color|{{{label-color55|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos55 = {{if empty|{{{label-pos55|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x55 = {{if empty|{{{label-offset-x55|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y55 = {{if empty|{{{label-offset-y55|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered55 = {{if empty|{{{numbered55|}}}|{{#switch: {{{shape55|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=55
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BC
+  | 0}}|0}}
+
+|     shape56 = {{if empty|{{{shape56|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat56 = {{#if:{{{mark-coord56|}}}{{{mark-coordinates56|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord56|}}}{{{mark-coordinates56|}}}|lat}}|{{{mark-lat56|}}}}}
+|  mark-lon56 = {{#if:{{{mark-coord56|}}}{{{mark-coordinates56|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord56|}}}{{{mark-coordinates56|}}}|long}}|{{{mark-lon56|}}}}}
+|   shape-color56 = #{{OSM Location map/color|{{{shape-color56|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity56|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline56 = #{{OSM Location map/color|{{{shape-outline56|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity56|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo56 = {{if empty|{{{shape-halo56|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark56 = {{{mark56|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size56 = {{if empty|{{{mark-size56|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim56 =  {{if empty|{{{mark-dim56|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label56 =  {{{label56|}}}
+|        labela56 = {{{labela56|}}}
+|        labelb56 = {{{labelb56|}}}
+|   label-angle56 = {{if empty|{{{label-angle56|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size56= {{if empty|{{{label-size56|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color56 = #{{OSM Location map/color|{{{label-color56|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos56 = {{if empty|{{{label-pos56|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x56 = {{if empty|{{{label-offset-x56|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y56 = {{if empty|{{{label-offset-y56|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered56 = {{if empty|{{{numbered56|}}}|{{#switch: {{{shape56|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=56
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BD
+  | 0}}|0}}
+
+|     shape57 = {{if empty|{{{shape57|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat57 = {{#if:{{{mark-coord57|}}}{{{mark-coordinates57|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord57|}}}{{{mark-coordinates57|}}}|lat}}|{{{mark-lat57|}}}}}
+|  mark-lon57 = {{#if:{{{mark-coord57|}}}{{{mark-coordinates57|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord57|}}}{{{mark-coordinates57|}}}|long}}|{{{mark-lon57|}}}}}
+|   shape-color57 = #{{OSM Location map/color|{{{shape-color57|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity57|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline57 = #{{OSM Location map/color|{{{shape-outline57|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity57|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo57 = {{if empty|{{{shape-halo57|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark57 = {{{mark57|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size57 = {{if empty|{{{mark-size57|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim57 =  {{if empty|{{{mark-dim57|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label57 =  {{{label57|}}}
+|        labela57 = {{{labela57|}}}
+|        labelb57 = {{{labelb57|}}}
+|   label-angle57 = {{if empty|{{{label-angle57|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size57= {{if empty|{{{label-size57|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color57 = #{{OSM Location map/color|{{{label-color57|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos57 = {{if empty|{{{label-pos57|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x57 = {{if empty|{{{label-offset-x57|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y57 = {{if empty|{{{label-offset-y57|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered57 = {{if empty|{{{numbered57|}}}|{{#switch: {{{shape57|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=57
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BE
+  | 0}}|0}}
+
+|     shape58 = {{if empty|{{{shape58|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat58 = {{#if:{{{mark-coord58|}}}{{{mark-coordinates58|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord58|}}}{{{mark-coordinates58|}}}|lat}}|{{{mark-lat58|}}}}}
+|  mark-lon58 = {{#if:{{{mark-coord58|}}}{{{mark-coordinates58|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord58|}}}{{{mark-coordinates58|}}}|long}}|{{{mark-lon58|}}}}}
+|   shape-color58 = #{{OSM Location map/color|{{{shape-color58|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity58|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline58 = #{{OSM Location map/color|{{{shape-outline58|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity58|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo58 = {{if empty|{{{shape-halo58|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark58 = {{{mark58|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size58 = {{if empty|{{{mark-size58|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim58 =  {{if empty|{{{mark-dim58|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label58 =  {{{label58|}}}
+|        labela58 = {{{labela58|}}}
+|        labelb58 = {{{labelb58|}}}
+|   label-angle58 = {{if empty|{{{label-angle58|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size58= {{if empty|{{{label-size58|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color58 = #{{OSM Location map/color|{{{label-color58|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos58 = {{if empty|{{{label-pos58|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x58 = {{if empty|{{{label-offset-x58|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y58 = {{if empty|{{{label-offset-y58|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered58 = {{if empty|{{{numbered58|}}}|{{#switch: {{{shape58|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=58
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BF
+  | 0}}|0}}
+
+|     shape59 = {{if empty|{{{shape59|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat59 = {{#if:{{{mark-coord59|}}}{{{mark-coordinates59|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord59|}}}{{{mark-coordinates59|}}}|lat}}|{{{mark-lat59|}}}}}
+|  mark-lon59 = {{#if:{{{mark-coord59|}}}{{{mark-coordinates59|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord59|}}}{{{mark-coordinates59|}}}|long}}|{{{mark-lon59|}}}}}
+|   shape-color59 = #{{OSM Location map/color|{{{shape-color59|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity59|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline59 = #{{OSM Location map/color|{{{shape-outline59|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity59|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo59 = {{if empty|{{{shape-halo59|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark59 = {{{mark59|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size59 = {{if empty|{{{mark-size59|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim59 =  {{if empty|{{{mark-dim59|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label59 =  {{{label59|}}}
+|        labela59 = {{{labela59|}}}
+|        labelb59 = {{{labelb59|}}}
+|   label-angle59 = {{if empty|{{{label-angle59|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size59= {{if empty|{{{label-size59|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color59 = #{{OSM Location map/color|{{{label-color59|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos59 = {{if empty|{{{label-pos59|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x59 = {{if empty|{{{label-offset-x59|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y59 = {{if empty|{{{label-offset-y59|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered59 = {{if empty|{{{numbered59|}}}|{{#switch: {{{shape59|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=59
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BG
+  | 0}}|0}}
+
+|     shape60 = {{if empty|{{{shape60|}}}|{{{shapeD|}}}|{{{shape1|}}}|image}}
+|  mark-lat60 = {{#if:{{{mark-coord60|}}}{{{mark-coordinates60|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord60|}}}{{{mark-coordinates60|}}}|lat}}|{{{mark-lat60|}}}}}
+|  mark-lon60 = {{#if:{{{mark-coord60|}}}{{{mark-coordinates60|}}}|{{#invoke:coordinates|coord2text|{{{mark-coord60|}}}{{{mark-coordinates60|}}}|long}}|{{{mark-lon60|}}}}}
+|   shape-color60 = #{{OSM Location map/color|{{{shape-color60|{{{shape-colorD|{{{shape-color1|hard red}}} }}} }}} |opacity={{{shape-opacity60|{{{shape-opacityD|{{{shape-opacity1|0}}} }}} }}} }}
+| shape-outline60 = #{{OSM Location map/color|{{{shape-outline60|{{{shape-outlineD|{{{shape-outline1|white}}} }}} }}} |opacity={{{outline-opacity60|{{{outline-opacityD|{{{outline-opacity1|}}} }}} }}} }}
+|    shape-halo60 = {{if empty|{{{shape-halo60|}}}|{{{shape-haloD|}}}|{{{shape-halo1|}}}|0}}
+|          mark60 = {{{mark60|{{{markD|{{{mark1|Red pog.svg}}} }}} }}}
+|     mark-size60 = {{if empty|{{{mark-size60|}}}|{{{mark-sizeD|}}}|{{{mark-size1|}}}|10}}
+|      mark-dim60 =  {{if empty|{{{mark-dim60|}}}|{{{mark-dimD|}}}|{{{mark-dim1|}}}|1}}
+|         label60 =  {{{label60|}}}
+|        labela60 = {{{labela60|}}}
+|        labelb60 = {{{labelb60|}}}
+|   label-angle60 = {{if empty|{{{label-angle60|}}}|{{{label-angleD|}}}|{{{label-angle1|}}}|0}}
+|    label-size60= {{if empty|{{{label-size60|}}}|{{{label-sizeD|}}}|{{{label-size1|}}}|12}}
+|   label-color60 = #{{OSM Location map/color|{{{label-color60|{{{label-colorD|{{{label-color1|}}} }}} }}} }}
+|     label-pos60 = {{if empty|{{{label-pos60|}}}|{{{label-posD|}}}|{{{label-pos1|}}}|left}}
+|label-offset-x60 = {{if empty|{{{label-offset-x60|}}}|{{{label-offset-xD|}}}|{{{label-offset-x1|}}}|0}}
+|label-offset-y60 = {{if empty|{{{label-offset-y60|}}}|{{{label-offset-yD|}}}|{{{label-offset-y1|}}}|0}}
+|      numbered60 = {{if empty|{{{numbered60|}}}|{{#switch: {{{shape60|{{{shapeD|{{{shape1|}}}}}}}}}|n-circle|n-square|n-diamond|n-triangle-up|n-triangle-down|n-cross=60
+  | l-circle|l-square|l-diamond|l-triangle-up|l-triangle-down|l-cross=BH
+  | 0}}|0}}
+
+| fullscreen-option = {{{fullscreen-option|}}}
+| map-data = {{{map-data|}}}
+| map-data-text = {{if empty|{{{map-data-text|}}}|wikidata: {{{map-data|}}}|object}}
+| map-data-color = {{if empty|{{{map-data-color|}}}|#EE8811}}
+| map-data-width = {{if empty|{{{map-data-width|}}}|6}}
+| map-data-heavy = {{{map-data-heavy|}}}
+| map-data-light = {{{map-data-light|}}}
+| mark-title = {{#if:{{{mark-coord|}}}|{{{mark-title|}}}|none}}
+| mark-description = {{{mark-description|}}}
+| mark-image = {{{mark-image|}}}
+| mark-title1 = {{{mark-title1|.}}}
+| mark-image1 = {{{mark-image1|}}}
+| mark-description1 = {{{mark-description1|}}}
+| mark-title2 = {{{mark-title2|}}}
+| mark-image2 = {{{mark-image2|}}}
+| mark-description2 = {{{mark-description2|}}}
+| mark-title3 = {{{mark-title3|}}}
+| mark-image3 = {{{mark-image3|}}}
+| mark-description3 = {{{mark-description3|}}}
+| mark-title4 = {{{mark-title4|}}}
+| mark-image4 = {{{mark-image4|}}}
+| mark-description4 = {{{mark-description4|}}}
+| mark-title5 = {{{mark-title5|}}}
+| mark-image5 = {{{mark-image5|}}}
+| mark-description5 = {{{mark-description5|}}}
+| mark-title6 = {{{mark-title6|}}}
+| mark-image6 = {{{mark-image6|}}}
+| mark-description6 = {{{mark-description6|}}}
+| mark-title7 = {{{mark-title7|}}}
+| mark-image7 = {{{mark-image7|}}}
+| mark-description7 = {{{mark-description7|}}}
+| mark-title8 = {{{mark-title8|}}}
+| mark-image8 = {{{mark-image8|}}}
+| mark-description8 = {{{mark-description8|}}}
+| mark-title9 = {{{mark-title9|}}}
+| mark-image9 = {{{mark-image9|}}}
+| mark-description9 = {{{mark-description9|}}}
+| mark-title10 = {{{mark-title10|}}}
+| mark-image10 = {{{mark-image10|}}}
+| mark-description10 = {{{mark-description10|}}}
+| mark-title11 = {{{mark-title11|}}}
+| mark-image11 = {{{mark-image11|}}}
+| mark-description11 = {{{mark-description11|}}}
+| mark-title12 = {{{mark-title12|}}}
+| mark-image12 = {{{mark-image12|}}}
+| mark-description12 = {{{mark-description12|}}}
+| mark-title13 = {{{mark-title13|}}}
+| mark-image13 = {{{mark-image13|}}}
+| mark-description13 = {{{mark-description13|}}}
+| mark-title14 = {{{mark-title14|}}}
+| mark-image14 = {{{mark-image14|}}}
+| mark-description14 = {{{mark-description14|}}}
+| mark-title15 = {{{mark-title15|}}}
+| mark-image15 = {{{mark-image15|}}}
+| mark-description15 = {{{mark-description15|}}}
+|       mark-title16 = {{{mark-title16|}}}
+|       mark-image16 = {{{mark-image16|}}}
+| mark-description16 = {{{mark-description16|}}}
+|       mark-title17 = {{{mark-title17|}}}
+|       mark-image17 = {{{mark-image17|}}}
+| mark-description17 = {{{mark-description17|}}}
+|       mark-title18 = {{{mark-title18|}}}
+|       mark-image18 = {{{mark-image18|}}}
+| mark-description18 = {{{mark-description18|}}}
+|       mark-title19 = {{{mark-title19|}}}
+|       mark-image19 = {{{mark-image19|}}}
+| mark-description19 = {{{mark-description19|}}}
+|       mark-title20 = {{{mark-title20|}}}
+|       mark-image20 = {{{mark-image20|}}}
+| mark-description20 = {{{mark-description20|}}}
+|       mark-title21 = {{{mark-title21|}}}
+|       mark-image21 = {{{mark-image21|}}}
+| mark-description21 = {{{mark-description21|}}}
+|       mark-title22 = {{{mark-title22|}}}
+|       mark-image22 = {{{mark-image22|}}}
+| mark-description22 = {{{mark-description22|}}}
+|       mark-title23 = {{{mark-title23|}}}
+|       mark-image23 = {{{mark-image23|}}}
+| mark-description23 = {{{mark-description23|}}}
+|       mark-title24 = {{{mark-title24|}}}
+|       mark-image24 = {{{mark-image24|}}}
+| mark-description24 = {{{mark-description24|}}}
+|       mark-title25 = {{{mark-title25|}}}
+|       mark-image25 = {{{mark-image25|}}}
+| mark-description25 = {{{mark-description25|}}}
+|       mark-title26 = {{{mark-title26|}}}
+|       mark-image26 = {{{mark-image26|}}}
+| mark-description26 = {{{mark-description26|}}}
+|       mark-title27 = {{{mark-title27|}}}
+|       mark-image27 = {{{mark-image27|}}}
+| mark-description27 = {{{mark-description27|}}}
+|       mark-title28 = {{{mark-title28|}}}
+|       mark-image28 = {{{mark-image28|}}}
+| mark-description28 = {{{mark-description28|}}}
+|       mark-title29 = {{{mark-title29|}}}
+|       mark-image29 = {{{mark-image29|}}}
+| mark-description29 = {{{mark-description29|}}}
+|       mark-title30 = {{{mark-title30|}}}
+|       mark-image30 = {{{mark-image30|}}}
+| mark-description30 = {{{mark-description30|}}}
+|       mark-title31 = {{{mark-title31|}}}
+|       mark-image31 = {{{mark-image31|}}}
+| mark-description31 = {{{mark-description31|}}}
+|       mark-title32 = {{{mark-title32|}}}
+|       mark-image32 = {{{mark-image32|}}}
+| mark-description32 = {{{mark-description32|}}}
+|       mark-title33 = {{{mark-title33|}}}
+|       mark-image33 = {{{mark-image33|}}}
+| mark-description33 = {{{mark-description33|}}}
+|       mark-title34 = {{{mark-title34|}}}
+|       mark-image34 = {{{mark-image34|}}}
+| mark-description34 = {{{mark-description34|}}}
+|       mark-title35 = {{{mark-title35|}}}
+|       mark-image35 = {{{mark-image35|}}}
+| mark-description35 = {{{mark-description35|}}}
+|       mark-title36 = {{{mark-title36|}}}
+|       mark-image36 = {{{mark-image36|}}}
+| mark-description36 = {{{mark-description36|}}}
+|       mark-title37 = {{{mark-title37|}}}
+|       mark-image37 = {{{mark-image37|}}}
+| mark-description37 = {{{mark-description37|}}}
+|       mark-title38 = {{{mark-title38|}}}
+|       mark-image38 = {{{mark-image38|}}}
+| mark-description38 = {{{mark-description38|}}}
+|       mark-title39 = {{{mark-title39|}}}
+|       mark-image39 = {{{mark-image39|}}}
+| mark-description39 = {{{mark-description39|}}}
+|       mark-title40 = {{{mark-title40|}}}
+|       mark-image40 = {{{mark-image40|}}}
+| mark-description40 = {{{mark-description40|}}}
+|       mark-title41 = {{{mark-title41|}}}
+|       mark-image41 = {{{mark-image41|}}}
+| mark-description41 = {{{mark-description41|}}}
+|       mark-title42 = {{{mark-title42|}}}
+|       mark-image42 = {{{mark-image42|}}}
+| mark-description42 = {{{mark-description42|}}}
+|       mark-title43 = {{{mark-title43|}}}
+|       mark-image43 = {{{mark-image43|}}}
+| mark-description43 = {{{mark-description43|}}}
+|       mark-title44 = {{{mark-title44|}}}
+|       mark-image44 = {{{mark-image44|}}}
+| mark-description44 = {{{mark-description44|}}}
+|       mark-title45 = {{{mark-title45|}}}
+|       mark-image45 = {{{mark-image45|}}}
+| mark-description45 = {{{mark-description45|}}}
+|       mark-title46 = {{{mark-title46|}}}
+|       mark-image46 = {{{mark-image46|}}}
+| mark-description46 = {{{mark-description46|}}}
+|       mark-title47 = {{{mark-title47|}}}
+|       mark-image47 = {{{mark-image47|}}}
+| mark-description47 = {{{mark-description47|}}}
+|       mark-title48 = {{{mark-title48|}}}
+|       mark-image48 = {{{mark-image48|}}}
+| mark-description48 = {{{mark-description48|}}}
+|       mark-title49 = {{{mark-title49|}}}
+|       mark-image49 = {{{mark-image49|}}}
+| mark-description49 = {{{mark-description49|}}}
+|       mark-title50 = {{{mark-title50|}}}
+|       mark-image50 = {{{mark-image50|}}}
+| mark-description50 = {{{mark-description50|}}}
+|       mark-title51 = {{{mark-title51|}}}
+|       mark-image51 = {{{mark-image51|}}}
+| mark-description51 = {{{mark-description51|}}}
+|       mark-title52 = {{{mark-title52|}}}
+|       mark-image52 = {{{mark-image52|}}}
+| mark-description52 = {{{mark-description52|}}}
+|       mark-title53 = {{{mark-title53|}}}
+|       mark-image53 = {{{mark-image53|}}}
+| mark-description53 = {{{mark-description53|}}}
+|       mark-title54 = {{{mark-title54|}}}
+|       mark-image54 = {{{mark-image54|}}}
+| mark-description54 = {{{mark-description54|}}}
+|       mark-title55 = {{{mark-title55|}}}
+|       mark-image55 = {{{mark-image55|}}}
+| mark-description55 = {{{mark-description55|}}}
+|       mark-title56 = {{{mark-title56|}}}
+|       mark-image56 = {{{mark-image56|}}}
+| mark-description56 = {{{mark-description56|}}}
+|       mark-title57 = {{{mark-title57|}}}
+|       mark-image57 = {{{mark-image57|}}}
+| mark-description57 = {{{mark-description57|}}}
+|       mark-title58 = {{{mark-title58|}}}
+|       mark-image58 = {{{mark-image58|}}}
+| mark-description58 = {{{mark-description58|}}}
+|       mark-title59 = {{{mark-title59|}}}
+|       mark-image59 = {{{mark-image59|}}}
+| mark-description59 = {{{mark-description59|}}}
+|       mark-title60 = {{{mark-title60|}}}
+|       mark-image60 = {{{mark-image60|}}}
+| mark-description60 = {{{mark-description60|}}}
+| caption = {{{caption|}}}
+| auto-caption={{{auto-caption|}}}
+}}{{Main other|[[Category:Articles containing OSM location maps]]}}<noinclude>
+{{documentation}}
+[[Category:OSM Location map templates]]
+</noinclude>
