@@ -1,0 +1,37 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Irach
+| flag alias = Flag of Iraq.svg
+| flag alias-1921 = Flag of the Arab Federation.svg
+| flag alias-1924 = Flag of Iraq (1924–1959).svg
+| flag alias-1958 = Flag of the Arab Federation.svg
+| flag alias-1959 = Flag of Iraq (1959–1963).svg
+| flag alias-1963 = Flag of Iraq (1963–1991); Flag of Syria (1963–1972).svg
+| flag alias-1991 = Flag of Iraq (1991–2004).svg
+| flag alias-2004 = Flag of Iraq (2004–2008).svg
+| flag alias-air force = Flag of the Iraqi Air Force.svg
+| link alias-air force = Iraqi Air Force
+| flag alias-army = Flag of the Iraqi Ground Forces.svg
+| link alias-army = Iraqi Ground Forces
+| flag alias-navy=Flag of the Iraqi Navy.svg
+| link alias-naval = Iraqi Navy
+| link alias-navy = Iraqi Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1921
+| var2 = 1924
+| var3 = 1958
+| var4 = 1959
+| var5 = 1963
+| var6 = 1991
+| var7 = 2004
+| redir1 = IRQ
+| redir2 = Republic of Iraq
+| related1 = Ba'athist Iraq
+| related2 = Iraqi Republic (1958–68)
+| related3 = Kingdom of Iraq
+| related4 = Arab Federation
+</noinclude>
+}}
