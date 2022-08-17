@@ -1,0 +1,23 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Montenegro
+| flag alias = Flag of Montenegro.svg
+| flag alias-1993 = Flag of Montenegro (1993-2004).svg
+| flag alias-naval = Flag of the Navy of Montenegro.svg
+| link alias-naval = Montenegrin Navy
+| link alias-army = Montenegrin Ground Army
+| link alias-air force = Montenegrin Air Force
+| flag alias-navy = Flag of the Navy of Montenegro.svg
+| link alias-navy = Montenegrin Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1993
+| redir1 = MNE
+| related1 = Principality of Montenegro
+| related2 = Kingdom of Montenegro
+| related3 = Kingdom of Montenegro (1941–1944)
+| related4 = SR Montenegro
+</noinclude>
+}}
