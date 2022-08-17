@@ -1,0 +1,184 @@
+{{Documentation subpage}}
+{{Lua|Module:Check isxn}}
+{{High-risk|380000+}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+== Usage ==
+Use this template to create a link (or list of links) to [[Special:BookSources]] for one or more [[International Standard Book Number]]s with the usual "ISBN" prefix. The template supports 10- and 13-digit ISBNs (with or without hyphens).
+
+<code><nowiki>{{ISBN|0-7475-3269-9}}</nowiki></code>
+
+results in:
+
+{{ISBN|0-7475-3269-9}}
+
+And:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1}}
+
+If more than one ISBN is given, the template will separate them using a comma:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1}}
+
+Alternatively the conjunction between the last two list items can be defined using the <code>leadout=</code> parameter:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|leadout=, and}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|leadout=, and}}
+
+If the leading "ISBN" should not be a link (for example because it is already linked in the article), the link can be suppressed using the <code>link=no</code> parameter:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|link=no}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|link=no}}
+
+If the leading "ISBN" link should not occur (for example in longer lists), it can be suppressed using the <code>plainlink=yes</code> parameter:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|plainlink=yes}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|plainlink=yes}}
+
+(Alternatively the {{tl|ISBNT}} template can be used.)
+
+The <code>plainlink</code> and <code>leadout</code> parameter can be used at the same time:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|plainlink=yes|leadout=as well as}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978-1-4133-0454-1|978-1-4133-0454-1|plainlink=yes|leadout=as well as}}
+
+=== Formatting ===
+
+The template preserves the formatting of the input values, for example:
+
+<code><nowiki>{{ISBN|978-1-4133-0454-1|978141330454-1|978 1-41330-454-1}}</nowiki></code>
+
+results in:
+
+{{ISBN|978-1-4133-0454-1|978141330454-1|978 1-41330-454-1}}
+
+===Error checking===
+This template uses [[Module:Check isxn]] to validate the ISBN. If the ISBN is not valid, this subtemplate will still generate the link, and it will add the article to [[:Category:Pages with ISBN errors]].
+
+Since invalid ISBNs are sometimes used in publications, it is possible to disable the validity check for individual ISBNs given as parameters. In order to do so, add <code>invalid?=yes</code> (with ? replaced by the parameter number 1 to 9) to the template. In this case, the article will be added to [[:Category:Pages with listed invalid ISBNs]].
+
+* <code><nowiki>{{ISBN|1-4133-0451-0}}</nowiki></code> &nbsp; produces {{ISBN|1-4133-0451-0}}
+
+* <code><nowiki>{{ISBN|1-4133-0451-0|invalid1=yes}}</nowiki></code> &nbsp; produces {{ISBN|1-4133-0451-0|invalid1=yes}}
+
+* <code><nowiki>{{ISBN|1-4133-0451-0|invalid1=no}}</nowiki></code> &nbsp; produces {{ISBN|1-4133-0451-0|invalid1=no}}
+
+* <code><nowiki>{{ISBN}}</nowiki></code> &nbsp; produces {{ISBN}}
+
+===Tracking categories===
+*{{clc|Pages with ISBN errors}}
+*{{clc|Pages with listed invalid ISBNs}}
+*{{clc|Pages using ISBN template with unknown parameters}}
+
+===See also===
+* [[Wikipedia:ISBN]]
+* {{tl|SBN}}, similar template for SBNs rather than ISBNs
+* {{tl|ISBNT}}, to make an ISBN link without a visible prefix
+* {{tl|Listed Invalid ISBN}}, to link an ISBN that is invalid but printed in a source publication.
+* {{tl|Format ISBN}}, to hyphenate an ISBN according to official rules
+* {{tl|OCLC}}, to link directly to Worldcat; useful for books with no ISBN.
+* {{tl|PMID}}
+* {{tl|IETF RFC}}
+* {{tl|ISMN}}
+* {{tl|ISSN}}
+* {{tl|Catalog lookup link}}
+* {{tl|ISBN missing|date=August 2019}}
+
+==Template Data==
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "ISBN #1",
+			"description": "first ISBN to put in the list",
+			"example": "0-674-01181-3",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"2": {
+			"label": "ISBN #2",
+			"description": "second ISBN to put in the list",
+			"example": "0-674-04200-3",
+			"type": "string",
+			"suggested": true
+		},
+		"3": {
+			"label": "ISBN #3",
+			"description": "third ISBN to put in the list",
+			"example": "0-674-01169-3",
+			"type": "string"
+		},
+		"4": {
+			"label": "ISBN #4",
+			"description": "fourth ISBN to put in the list",
+			"example": "0-674-01181-6",
+			"type": "string"
+		},
+		"5": {
+			"label": "ISBN #5",
+			"description": "fifth ISBN to put in the list",
+			"example": "0-674-02181-5",
+			"type": "string"
+		},
+		"6": {},
+		"7": {},
+		"8": {},
+		"9": {},
+		"link": {
+			"label": "Suppress link to article?",
+			"description": "If 'no', does not produce a link before the list",
+			"example": "no",
+			"type": "string"
+		},
+		"plainlink": {
+			"label": "Suppress link to ISBN?",
+			"description": "If 'yes', does not produce \"[[ISBN]]: \" before the list",
+			"example": "yes",
+			"type": "string"
+		},
+		"leadout": {
+			"label": "last list joiner text",
+			"description": "Text between second-to-last and last book ISBN's",
+			"example": "as well as",
+			"type": "string"
+		},
+		"invalid1": {},
+		"invalid2": {},
+		"invalid3": {},
+		"invalid4": {},
+		"invalid5": {},
+		"invalid6": {},
+		"invalid7": {},
+		"invalid8": {},
+		"invalid9": {}
+	},
+	"description": "Use this template to create a link (or list of links) to Special:BookSources for one or more International Standard Book Numbers with the usual \"ISBN\" prefix"
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+[[Category:Catalog lookup templates]]
+[[Category:International Standard Book Number templates]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+}}</includeonly>
