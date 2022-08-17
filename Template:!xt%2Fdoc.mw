@@ -1,0 +1,103 @@
+<!--PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE-->
+{{lowercase title}}
+{{Documentation subpage|[[Template:xt]], [[Template:bxt]], [[Template:mxt]], [[Template:xtd]], [[Template:bxtd]], [[Template:!xt]], [[Template:!bxt]], and [[Template:!mxt]]}}
+{{distinguish|Category:Text color templates}}
+
+This and related templates produce an inline typeface change suitable to render e'''X'''ample '''T'''ext on Wikipedia's general help pages.
+
+==Using example-formatting templates in general==
+{{mbox
+| type  = content
+| small = yes
+| text  = This family of templates ''cannot'' be used in [[Wikipedia:Mainspace|mainspace]] (the article [[Wikipedia:Namespace|namespace]]).
+}}
+{{lua|Module:TEMPLATENAME|noprotcat=yes}}
+The [[:Category:Example-formatting templates|category of example-formatting templates]] is used frequently in non-[[Wikipedia:Mainspace|mainspace]] general help pages such as [[Wikipedia:Manual of Style|Wikipedia:Manual of Style (MOS)]] when ''inline'' typeface changes are needed. 
+
+{{strong|This family of templates ''cannot'' be used in mainspace (the article [[Wikipedia:Namespace|namespace]]).}}
+
+{{strong|Also, this family of templates is ''not'' for use as [[Help:Wikitext|wikitext markup]] for [[Wikipedia:Quotations|quotations]] on [[Wikipedia:Talk pages|talk pages]]}}; use {{tlx|tq}} instead.
+
+For cases where the serif typeface is not desirable (e.g. in blocks of computer code), use {{tlx|bxt}}, which substitutes boldfacing, or {{tlx|mxt}}, which substitutes a monospaced font. For style examples that break to their own line (e.g. paragraphs), use {{tlx|xt2}}.  
+
+For examples of {{!xt|bad/wrong style, in red}}, use {{tlx|!xt}}, {{tlx|!bxt}}, {{tlx|!mxt}}, or {{tlx|!xt2}}, respectively.
+
+The {{tlx|xtd}} template exists for {{xtg|deprecated}} examples. Its alias {{tlx|xtg}} (for "grey") can be used to indicate uncertain, unavailable, disabled, lorem, etc., examples without implying [[deprecation]]. The bold, sans-serif equivalent is {{tlx|bxtd}} (and {{tlx|bxtg}} alias). The mono-spaced equivalent is {{tlx|mxtd}}.
+
+The {{tlx|xtn}} template is for {{xtn|neutral}} examples, and has no color change, but is otherwise identical to {{tlx|xt}}. It can be used with {{tnull|xt}} and {{tnull|!xt}} to indicate usage that is neither advised nor advised against or deprecated. The bold, sans-serif equivalent is {{tlx|bxtn}}.
+
+==Parameters==
+
+* {{para||{{var|text here}}}} or {{para|1|{{var|text here}}}} – The text to which to apply the markup. As with all templates, when the text has any equals characters ("="), explicitly prefix the text with {{para|1}} or the template will break.
+* {{para|title|{{var|tooltip text here}}}} – Takes text, ''which cannot be marked up in any way'', and displays it as a pop-up "tooltip" (in most browsers) when the cursor hovers over the span
+
+==Accessibility==
+The accompanying change in typeface to a serif or monospaced type style (as in {{xt|example text}}) is to make it fully accessible for those with [[color blindness]].
+
+Keep [[WP:Accessibility|accessibility]] more broadly in mind, and never construct examples such that a blind person, who may not be able to see the coloration, boldfacing, or monospace font change, cannot understand the examples. Especially indicate, with terms like "not", "don't", "wrong:", etc., that a negative example is a negative one, or with "deprecated", "avoid", etc., that deprecated material is deprecated.
+
+==Examples of &#123;&#123;[[Template:xt|xt]]&#125;&#125; syntax and result==
+
+;What you write:
+
+:<code><nowiki>...for example, {{xt|1=''T''&nbsp;=&nbsp;293.15&nbsp;K}}, but not {{!xt|1=''m''=5.4kg}}.</nowiki></code>
+
+;What you get:
+
+:...for example, {{xt|1=''T''&nbsp;=&nbsp;293.15&nbsp;K}}, but not {{!xt|1=''m''=5.4kg}}.
+
+{| class=wikitable
+!What you type
+!What you get
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''xt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{xt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''!xt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{!xt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''xtn'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{xtn|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''xtd'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{xtd|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''mxt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{mxt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''!mxt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{!mxt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''mxtn'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{mxtn|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''mxtd'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{mxtd|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''bxt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{bxt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''!bxt'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{!bxt|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''bxtn'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{bxtn|inline typeface change}} for comparison
+|-
+|<kbd><nowiki>this is an {{</nowiki>'''bxtd'''<nowiki>|inline typeface change}} for comparison</nowiki></kbd>
+|this is an {{bxtd|inline typeface change}} for comparison
+|}
+
+== User CSS for a monospaced coding font ==
+{{collapse top|left=y|title=Have monospaced templates in this group – and your editing window – use your preferred monospaced font:}}
+{{Mxt/User CSS for a monospaced coding font}}
+{{collapse bottom}}
+
+==See also==
+{{Xt/see also}}
+
+<includeonly>{{Sandbox other||
+<!--CATEGORIES AND INTERWIKIS BELOW THIS LINE PLEASE-->
+[[Category:Example-formatting templates]]
+[[Category:Text color templates]]
+
+}}</includeonly>
