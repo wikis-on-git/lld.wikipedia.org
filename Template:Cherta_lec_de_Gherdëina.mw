@@ -1,9 +1,9 @@
 {{OSM Location map
-| coord = {{coord|46.56|11.7499}}
+| coord = {{coord|46.56|11.7523}}
 |  zoom = 12
 |   float = right
 |    nolabels = 1
-|     width = 420
+|     width = 430
 |     height = 340
 | title = Lec de Gherdëina
 | caption = {{legend|green|Lec da mont}}{{legend|blue|Lec a l'auta}}{{legend|red|Lec artifiziei}}
@@ -96,6 +96,11 @@
 | mark-title15 = [[Lech dl Gran Iacun]]
 | label-pos15 = bottom
 
+| label16 = Cendevaves
+| mark-coord16 = {{coord|46.54815|11.71188}}
+| mark-title16 = [[Lech de Cendevaves]]
+| label-pos16 = bottom
+
 | label29 = Lagustel
 | shape29 = l-circle
 | mark-coord29 = {{coord|46.57165|11.71135}}
@@ -120,8 +125,8 @@
 | shape40 = l-circle
 | mark-coord40 = {{coord|46.54848|11.73905}}
 | mark-title40 = [[Lech de Frataces]]
-| mark-description40 =
 | shape-color40 = red
+| label-pos40 = right
 
 | label41 = Plan de Gralba
 | shape41 = l-circle
