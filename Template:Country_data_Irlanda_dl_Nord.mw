@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Irlanda dl Nord
+| flag alias = Ulster Banner.svg
+| flag alias-assembly = Flag of Northern Ireland Assembly.svg
+| flag alias-saltire = St Patrick's saltire.svg
+| flag alias-union = Flag of the United Kingdom.svg 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = assembly
+| var2 = saltire
+| var3 = union
+| redir1 = NIR
+| related1 = Ulster
+</noinclude>
+}}
