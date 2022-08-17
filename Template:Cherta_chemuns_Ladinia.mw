@@ -73,28 +73,32 @@
 | mark-coord9 = {{coord|46.55976|11.76063}}
 | mark-title9 = [[Cianacei]]
 | mark-image9 = Lech_de_Tina_dinviern_Sëlva.jpg
+| shape-color9 = red
 
 | label10 = Ciampedel
 | mark-coord10 = {{coord|46.53092|11.74392}}
 | mark-title10 = [[Ciampedel]]
 | mark-image10 = Lech_de_Tramans_dinstà_Sëlva.jpg
+| shape-color10 = red
 
 | label11 = Sèn Jan
 | mark-coord11 = {{coord|46.57543|11.79727}}
 | mark-title11 = [[Sèn Jan]]
 | mark-image11 = Lech_de_Ciampedel_y_Col_Turont_te_Val_te_Gherdëina.jpg
+| shape-color11 = red
 
 | label12 = Sorèga
 | mark-coord12 = {{coord|46.585285|11.738693}}
 | mark-title12 = [[Sorèga]]
 | mark-image12 = Lech_dla_scaies_Mastle_Gherdeina.jpg
+| shape-color12 = red
 
 | label13 = Mazin
 | shape13 = l-circle
 | mark-coord13 = {{coord|46.5684|11.82547}}
 | mark-title13 = [[Mazin]]
 | label-pos13 = left
-| shape-color13 = dark blue
+| shape-color13 = red
 | mark-image13 = Lech_Crespëina_Odles_Puex_y_Stevia_te_Gherdëina.jpg
 
 | label14 = Moena
@@ -102,6 +106,7 @@
 | mark-title14 = [[Moena]]
 | label-pos14 = right
 | mark-image14 = Lech_dl_Mandl_sun_Mastle_cun_Secëda.jpg
+| shape-color14 = red
 
 | label15 = Fodom
 | mark-coord15 = {{coord|46.58288|11.73661}}
