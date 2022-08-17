@@ -1,0 +1,46 @@
+{{#if:{{#invoke:string|match|s={{{1|}}}|pattern=^#...$|ignore_errors=1}}
+|{{#invoke:string|replace|source={{{1|}}}|pattern=#(.)(.)(.)|replace=%1%1%2%2%3%3|plain=0}} <!-- expand #ABC to AABBCC hex -->
+|{{#ifeq:{{#invoke:String|pos| ignore_errors=true| target={{{1|null}}}| pos=1}}|#|{{#invoke:String|sub|{{{1|}}}|2|}}|<!-- returns everything except # -->
+{{#switch:{{{1|}}}| soft blue=77A1CB| hard blue=5581A9| dark blue=105396|
+
+soft gray|soft grey=AAAA88| 
+hard gray|hard grey=777755| 
+dark gray|dark grey=333322| 
+
+soft green=81AF81|
+hard green=538253|
+dark green=165916|
+
+soft brown=CCB56C|
+hard brown=AD7F14|
+dark brown=8E5913|
+
+soft red=DB3123|
+hard red=AA1205|
+dark red=7A0101|
+
+White|white	=FFFFFF|
+Silver|silver	=C0C0C0|
+Gray|gray|Grey|grey	=808080|
+
+Red|red	        =FF0000|
+Maroon|maroon	=800000|
+Yellow|yellow	=FFFF00|
+
+Olive|olive	=808000|
+Lime|lime	=00FF00|
+Green|green	=008000|
+
+Aqua|aqua	=00FFFF|
+Teal|teal	=008080|
+Blue|blue	=0000FF|
+
+Navy|navy	=000080|
+Fuchsia|fuschia	=FF00FF|
+Purple|purple	=800080|
+Black|black	=000000|
+
+222211 }} }} }}{{#ifexpr:{{{opacity|}}}|{{Hexadecimal|{{#expr: ( {{{opacity|100}}}*2.55) }}|no}} }}<noinclude>
+{{documentation}}
+[[Category:OSM Location map templates]]
+</noinclude>
