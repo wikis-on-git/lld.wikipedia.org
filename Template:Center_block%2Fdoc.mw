@@ -1,0 +1,107 @@
+{{Documentation subpage}}
+
+This template places a block of text in the center of the page, without affecting the text alignment within that block. 
+
+==Usage==
+===Parameters===
+Where there is a requirement to fix the width or height of the block, optional "width" and "height" parameters can be used.  If additional style adjustments are required, use the optional "style" parameter.
+==== Example 1 ====
+<pre style="overflow:auto;">
+{{center block|width=300px|height=200px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+</pre>
+{{clear}}
+{{center block|width=300px|height=200px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+
+{{clear}}
+
+====  Example 2 ====
+* '''For exactly the same "spacing" as rendered by normal paragraph(s) before &/or after the template-inserted content.'''
+<pre style="overflow:auto;">
+<p>By clicking the “Save page” button, you are agreeing to the Terms of Use, the Privacy Policy, and you irrevocably agree to release your contribution under the CC-BY-SA 3.0 License and the GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.</p>
+
+{{center block|width=300px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+
+<p>Text is available under the Creative Commons Attribution-Share Alike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p>
+</pre>
+{{clear}}
+<p>By clicking the “Save page” button, you are agreeing to the Terms of Use, the Privacy Policy, and you irrevocably agree to release your contribution under the CC-BY-SA 3.0 License and the GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.</p>
+
+{{center block|width=300px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+
+<p>Text is available under the Creative Commons Attribution-Share Alike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p>
+
+{{clear}}
+==== Example 3 ====
+* '''For slightly larger "spacing" between normal paragraph(s) before &/or after the template-inserted content.'''
+<pre style="overflow:auto;">
+<p>By clicking the “Save page” button, you are agreeing to the Terms of Use, the Privacy Policy, and you irrevocably agree to release your contribution under the CC-BY-SA 3.0 License and the GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.</p>
+
+{{center block|style=max-width:300px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+
+<p>Text is available under the Creative Commons Attribution-Share Alike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p>
+</pre>
+{{clear}}
+<p>By clicking the “Save page” button, you are agreeing to the Terms of Use, the Privacy Policy, and you irrevocably agree to release your contribution under the CC-BY-SA 3.0 License and the GFDL. You agree that a hyperlink or URL is sufficient attribution under the Creative Commons license.</p>
+
+{{center block|style=max-width:300px|Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+Aenean commodo ligula eget dolor.
+
+Aenean massa.}}
+
+<p>Text is available under the Creative Commons Attribution-Share Alike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.</p>
+
+{{clear}}
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Content",
+			"type": "content",
+			"required": true
+		},
+		"width": {
+			"label": "Width of block area"
+		},
+		"height": {
+			"label": "Height of block area"
+		},
+		"title": {
+			"label": "Title"
+		},
+		"style": {
+			"label": "Custom CSS"
+		}
+	},
+	"description": "A template to center-align block with content in any other places, without affecting the text alignment within that block. This may harm some templates."
+}
+</templatedata>
+
+== See also ==
+* {{Tl|Center}}
+* {{Tl|Align}}
+
+<includeonly>
+{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Positioning templates]]
+[[Category:Typing-aid templates]]
+}}
+</includeonly>
