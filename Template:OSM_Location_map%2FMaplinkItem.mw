@@ -1,0 +1,8 @@
+<noinclude>{{#tag:syntaxhighlight|</noinclude>{ "type": "Feature",
+   "properties": {
+    "title": "{{{3|Title}}}", 
+    "description": "{{#if:{{{mark-image|}}}|[[File:{{{mark-image}}}|300px]]}}{{{mark-description|}}} [https://tools.wmflabs.org/geohack/geohack.php?params={{{1|0}}};{{{2|0}}}_dim:2000 {{{1|0}}},{{{2|0}}}]",
+    "marker-symbol": "-number", "marker-size": "medium", "marker-color": "#{{#invoke:string|sub|{{{mark-color|#B80000}}}|2|7}}" },
+   "geometry": {"type": "Point", "coordinates": [{{{2|0}}},{{{1|0}}}] }
+ }<noinclude>|lang=json}}
+{{Documentation|content=This template is part of [[../]].}}</noinclude>
