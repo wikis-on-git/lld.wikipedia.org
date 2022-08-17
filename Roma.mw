@@ -158,8 +158,8 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 |  zoom = 13
 |   float = right
 |    nolabels = 1
-|     width = 277
-|     height = 260
+|     width = 300
+|     height = 290
 | title = Zënter de Roma
 | caption = {{legend|green|Stazion de la metro, mët a monitor plën per udëi Termini}}{{legend|blue|Pont de nteres}}
 
@@ -237,7 +237,7 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 | label29 = Obelisch de Flaminio
 | shape29 = l-circle
 | mark-coord29 = {{coord|41.9107|12.47635}}
-| mark-title29 = [[Flaminio Obelisk]]
+| mark-title29 = [[Obelisch de Flaminio]]
 | mark-description29 = sun la [[Plaza dl Popul]]
 | label-pos29 = right
 | shape-color29 = dark blue
@@ -296,7 +296,7 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 | shape36 = l-circle
 | mark-coord36 = {{coord|41.894599|12.483092}}
 | mark-title36 = [[Monumënt a Vittorio Emmanuele II]]
-| mark-description36 = with terrace for 360-degree view of Rome
+| mark-description36 = cun na terassa per udëi Roma a 360 degreies
 | shape-color36 = dark blue
 
 | label37 = Plaza Navona
@@ -309,7 +309,7 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 | label38 = Pantheon
 | shape38 = l-circle
 | mark-coord38 = {{coord|41.8986|12.4768}}
-| mark-title38 = [[Pantheon (Rome)]]
+| mark-title38 = [[Pantheon (Roma)]]
 | mark-description38 = [[San Luigi dei Francesi]] daujin a
 | shape-color38 = dark blue
 | label-pos38 = bottom
@@ -318,7 +318,7 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 | label39 = Sant'Angelo
 | shape39 = l-circle
 | mark-coord39 = {{coord|41.9031|12.4663}}
-| mark-title39 = [[Castel Sant'Angelo]]
+| mark-title39 = [[Ciastel Sant'Angelo]]
 | mark-description39 = [[Ponte Sant'Angelo]] nearby
 | shape-color39 = dark blue
 | label-pos39 = right
@@ -327,15 +327,15 @@ La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta po
 | labela40 = Paola
 | shape40 = l-circle
 | mark-coord40 = {{coord|41.88875|12.464167}}
-| mark-title40 = [[Fontana dell'Acqua Paola]]
-| mark-description40 = [[Monument to Garibaldi (Rome)]] nearby
+| mark-title40 = [[Funtana dell'Acqua Paola]]
+| mark-description40 = [[Monumënt a Garibaldi (Roma)]] daujin a
 | shape-color40 = dark blue
 
 | label41 = Trastevere
 | shape41 = l-circle
 | mark-coord41 = {{coord|41.889444|12.469722}}
 | mark-title41 = [[Santa Maria in Trastevere]]
-| mark-description41 = [[Pons Cestius]] nearby
+| mark-description41 = [[Pons Cestius]] daujin a
 | shape-color41 = dark blue
 | label-pos41 = right
 }}
