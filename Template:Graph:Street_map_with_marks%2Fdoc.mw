@@ -1,0 +1,205 @@
+{{documentation subpage}}
+
+{{see also|Template:Location map}}
+To use this mapping template with standard wikipedia syntax, see {{tl|OSM Location map}} 
+{| class="wikitable"
+|-
+! Markup
+! Result
+|-
+| '''Simple map with a single marker, custom size, and no minimap'''<br />
+ <nowiki>{{</nowiki>{{BASEPAGENAME}} | width=400 | height=150 | lat=37.8 | lon=-122.4 | zoom=5 | minimap=false |
+  {{codett|2=json|{ "lat": 37.8, "lon": -122.4 } }}
+ }}
+| {{ {{BASEPAGENAME}} | width=400 | height=150 | lat=37.8 | lon=-122.4 | zoom=5 | minimap=false |
+  { "lat": 37.8, "lon": -122.4 }
+}}
+|-
+| '''Two markers with labels - one as diamond shape, one uses an image from Commons'''<br />''Text label can be customized with all of [https://github.com/vega/vega/wiki/Marks#text Vega text mark] parameters by prepending "text" to their name''<br />
+ <nowiki>{{</nowiki>{{BASEPAGENAME}} | lat=40.816667 | lon=14.433333 | zoom=6 |
+ {{codett|2=json|{"lat": 40.816667, "lon": 14.433333, "img": "wikirawupload:{{filepath:Volcano red 32x32.svg|32}}", "width": 16, "height": 16, "offsetY": -10, "text": "Mount Vesuvius", "textFontWeight": "bold", "textFontSize": 16, "textColor": "#2A4B8D"},}}
+ {{codett|2=json|{"lat": 40.948333, "lon": 15.635556, "img": "wikirawupload:{{filepath:Volcano red 32x32.svg|32}}", "width": 16, "height": 16,  "offsetY": -20, "text": "Mount Vulture", "textFontWeight": "bold", "textFontSize": 16, "textColor": "#2A4B8D"} }}
+ }}
+| {{ {{BASEPAGENAME}} | lat=40.948333 | lon=15.635556 | zoom=6 |
+{"lat": 40.816667, "lon": 14.433333, "img": "wikirawupload:{{filepath:Volcano red 32x32.svg|32}}", "width": 16, "height": 16, "offsetY": -10, "text": "Mount Vesuvius", "textFontWeight": "bold", "textFontSize": 16, "textColor": "#2A4B8D"},
+
+{"lat": 40.948333, "lon": 15.635556, "img": "wikirawupload:{{filepath:Volcano red 32x32.svg|32}}", "width": 16, "height": 16,  "offsetY": -20, "text": "Mount Vulture", "textFontWeight": "bold", "textFontSize": 16, "textColor": "#2A4B8D"}
+}}
+|-
+| '''Show all Armenian heritage sites''', by querying it from Wikidata<br />''The query result should have the same columns (fields) as in the other examples (<code>text, img, ...</code>), except coordinates should be returned as <code>coord</code> column''
+ <nowiki>{{</nowiki>{{BASEPAGENAME}} | lat=40.347 | lon=47.260 | zoom=6 | colorScaleField=type | wdqs=
+ ''# Each location should show only once. This query may output all the same values as in the other examples, such as "text", "img", and others.''
+ {{codett|2=sparql|SELECT (?item as ?id) (SAMPLE(?coord) as ?coord) (SAMPLE(?type) as ?type)}}
+ {{codett|2=sparql|WHERE {}}
+  {{codett|2=sparql|?item wdt:P3170 ?heritageId .}}
+  {{codett|2=sparql|?item wdt:P625 ?coord .}}
+  {{codett|2=sparql|?item wdt:P31 ?type .}}
+ }
+ {{codett|2=sparql|GROUP BY ?item}}
+ }}
+| {{ {{BASEPAGENAME}} | lat=40.347 | lon=47.260 | zoom=6 | colorScaleField=type | wdqs=
+SELECT (?item as ?id) (SAMPLE(?coord) as ?coord) (SAMPLE(?type) as ?type)
+WHERE {
+  ?item wdt:P3170 ?heritageId .
+  ?item wdt:P625 ?coord .
+  ?item wdt:P31 ?type .
+}
+GROUP BY ?item
+}}
+|-
+| {{#tag:syntaxhighlight |<nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki> | lat=-33.8688 | lon=151.2093 | zoom=10 |
+{
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "img": "wikirawupload:{{filepath:Opera_House_and_ferry._Sydney.jpg|48}}",
+  "width": 48,
+  "height": 36,
+  "text": "Sydney",
+  "textFontWeight": "bold",
+  "textFontSize": 20,
+  "textColor": "#00f",
+  "textAlign": "right",
+  "textDx": -30
+}
+}}</nowiki> | lang=text}}
+| {{ {{BASEPAGENAME}} | lat=-33.8688 | lon=151.2093 | zoom=10 |
+{
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "img": "wikirawupload:{{filepath:Opera_House_and_ferry._Sydney.jpg|48}}",
+  "width": 48,
+  "height": 36,
+  "text": "Sydney",
+  "textFontWeight": "bold",
+  "textFontSize": 20,
+  "textColor": "#00f",
+  "textAlign": "right",
+  "textDx": -30
+}
+}}
+|}
+
+The data template parameter must be a comma separated list of "JSON" objects. Each object starts with a "{", has a list of comma separated key-value pairs, and ends with a "}". The key may be one of the following values (used no more than once per each object):
+
+{| class="wikitable"
+! colspan="2" |Built-in marker shapes
+|-
+|shape
+|"circle" (default), "square", "cross", "diamond", "triangle-up", "triangle-down" ([https://github.com/vega/vega/wiki/Marks#symbol docs])
+|-
+| color || shape fill color, e.g. "#ff0000" (red - default)
+|-
+| strokeColor
+|shape outline color
+|-
+|size
+|shape size (number)
+|-
+! colspan="2" |Text labels (see [https://github.com/vega/vega/wiki/Marks#text more info])
+|-
+| text
+|Label text
+|-
+| textAlign
+|Label's horizontal alignment relative to the marker - "left", "right", "center". By default, left for LTR, right for RTL languages.
+|-
+| textBaseline
+|Vertical alignment: "middle" (default), "top", "bottom"
+|-
+| textColor
+|Label text color, e.g. "#ff0000" (red)
+|-
+| textDx, textDy
+|Horizontal and vertical distance from the marker
+|-
+|angle
+|Draw text at an angle
+|-
+|radius/theta
+|Radial positioning of the label relative to the marker
+|-
+|font, fontSize, fontWeight, fontStyle
+|Font name, size, boldness, and style
+|-
+! colspan="2" |Image markers
+|-
+| img || URL of an image, e.g. <nowiki>wikirawupload:{{filepath:Volcano red 32x32.svg|32}}</nowiki>
+|-
+| height, width
+|Size of the image
+|-
+| offsetX, offsetY
+|Shift the center of the image on the map
+|}
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "data",
+			"description": "Comma separated list of JSON objects that describing what data to draw on the map",
+			"type": "string",
+			"suggested": true
+		},
+		"width": {
+			"description": "Total width of the graph",
+			"type": "number"
+		},
+		"height": {
+			"description": "Total height of the graph",
+			"type": "number",
+			"default": "Half of the width"
+		},
+		"padding": {
+			"type": "number"
+		},
+		"lat": {
+			"description": "Latitude of the map's center",
+			"type": "number"
+		},
+		"lon": {
+			"description": "Longitude of the map's center",
+			"type": "number"
+		},
+		"zoom": {
+			"description": "Map zoom level (0..18)",
+			"type": "number"
+		},
+		"wdqs": {
+			"description": "An optional Wikidata query to use instead of the data - the query would generate a list of items just like data, but it must contain a \"coord\" field with the location",
+			"type": "string"
+		},
+		"colorScaleField": {
+			"description": "If given, this data field will be used to make dots of different color, one color per unique value of this field",
+			"type": "string"
+		},
+		"minimap": {
+			"description": "If set, 0 or false will always hide the map, and 1 or true will always show it. Make sure the map is big enough include the minimap. By default, the map will be shown for zoom levels 5+ if the map is sufficiently large",
+			"type": "boolean"
+		},
+        "lang": {
+            "description": "The language code of the language to use to draw the labels on the map. Use special value 'local' to draw the labels in the language of the area being depicted. Uses the page language by default.",
+            "type": "string"
+        }
+	},
+	"paramOrder": [
+		"1",
+		"width",
+		"height",
+		"padding",
+		"lat",
+		"lon",
+		"zoom",
+        "lang",
+		"wdqs",
+		"colorScaleField",
+		"minimap"
+	],
+	"description": "Shows an image of a map, and draws user-specified images/icons on top of it using latitude/longitude coordinates."
+}
+</templatedata>
+{{Template:Graph, chart and plot templates}}
+<includeonly> {{sandbox other||
+[[Category:Graph Template Collection]]
+[[Category:Graph, chart and plot templates]]
+}} </includeonly>
