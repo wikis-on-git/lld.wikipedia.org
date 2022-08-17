@@ -1,0 +1,154 @@
+{{Documentation subpage}}
+{{Warning|1={{big|'''Links should clearly be identifiable as links to readers'''.}}<br />Refrain from implementing colored links that may impede user ability to distinguish links from regular text, or color links for purely aesthetic reasons. See the guides to editing articles for accessibility at  [[WP:CONTRAST|contrast]], [[ Wikipedia:Manual of Style/Accessibility|accessibility]] and [[WP:NAVBOXCOLOUR|navbox colors]].}}
+{{High-use| 90150 }}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+== Purpose ==
+{{tl | Font color }} is how you insert colorized text, such as
+{{ font color | red | red }},
+{{ font color | orange | orange }},
+{{ font color | green | green }},
+{{ font color | blue | blue | link = cat }} and
+{{ font color | indigo | indigo }},
+and [[Help:Color#Color generation guide|many others]].
+You can specify its {{ font color | bg=yellow | fg=indigo | text=background }} color at the same time.
+
+{{tl | Font color }} is also how you can color wikilinks 
+to something other than blue for when you need to work within background colors. 
+Normally <kbd>[<nowiki/>[ wikilink ]]</kbd> &rarr; [[wikilink]], 
+but here we use a {{tl | font color }} with {{para | link }} to create a black wikilink &rarr; 
+{{ font color | black | violet | link=yes | &nbsp;&nbsp;&nbsp;wikilink&nbsp;&nbsp;&nbsp; }}
+You can make any text link to any page using the {{para|link}} parameter.
+
+This template will use [[Wikipedia:HTML5]] recommendations, 
+inserting the span tags
+{{tag|span|params=style="color:''color''"}} and
+{{tag|span|params=style="background-color:''color''"}}, so the page increases its readability and usability in both the wikitext and the rendered page.
+
+== Usage ==
+
+{{tlf | Font color }} has a one-color and a two-color form:
+: <kbd>{<nowiki/>{font color | ''color'' | ''text'' }}</kbd>
+: <kbd>{<nowiki/>{font color | ''text color'' | ''background color'' | ''text'' }}</kbd>.
+
+Either form has a <kbd>|link=</kbd> option, for colorizing (otherwise blue or red) wikilink text.
+: <kbd>|link{{=}}yes</kbd> &rarr; <code>[<nowiki/>[''text'']]</code>
+: <kbd>|link=''[[wp:pgn|fullpagename]]''</kbd> &rarr; <code>[<nowiki/>[''fullpagename'']]</code>
+
+You can also name the other fields.
+: <kbd>{<nowiki/>{font color | fg=''color'' | text=''text'' }}</kbd>
+: <kbd>{<nowiki/>{font color | fg=''text color'' | bg=''background color'' | text=''text'' }}</kbd>
+You can name <kbd>|fg=</kbd> or <kbd>|bg=</kbd>, which is nice, but...
+if you name either of them, you must also name <kbd>|text=</kbd>, which is a compromise.
+(See [[Help:Template#Parameters]] for why.)
+
+Spacing is of no concern.
+:<code>.</code><kbd>{<nowiki/>{font color|tan|green|text with four words}}</kbd><code>.</code> &rarr; <code>.</code>{{font color|tan|green|text with four words }}<code>.</code>
+:<code>.</code><kbd> {<nowiki/>{font color|tan|green|text with four words}} </kbd><code>.</code> &rarr; <code>.</code> {{font color|tan|green|text with four words }} <code>.</code>
+:<code>.</code><kbd> {<nowiki/>{ font color  |  tan  |  green  | text with four words  }} </kbd><code>.</code> &rarr;  <code>.</code> {{ font color  |  tan  |  green  |  text    with    four     words }} <code>.</code>
+
+=== Parameters ===
+{{Aligned table
+ |cols=3 |style=padding:0.5em 0;line-height:1.35em;margin-bottom:1.0em;
+ |col1style=font-family:monospace;padding-right:1.5em;
+ |col2style=padding-right:2.5em; |col3style=text-align:center;
+ |row1style=font-size:110%;font-weight:bold;| | Use / description | Default value
+
+ | {{{1}}}   | ''text color''     | inherited
+ | {{{2}}}   | ''text''             | 
+ | link      | {{=}}yes or {{=}}''fullpagename'' | 
+}}
+
+:Or
+
+{{Aligned table
+ |cols=3 |style=padding:0.5em 0;line-height:1.35em;margin-bottom:1.0em;
+ |col1style=font-family:monospace;padding-right:1.5em;
+ |col2style=padding-right:2.5em; |col3style=text-align:center;
+ |row1style=font-size:110%;font-weight:bold;| | Use / description | Default value
+
+ | {{{1}}}   | ''text color''       | inherited
+ | {{{2}}}   | ''background color'' | inherited
+ | {{{3}}}   | ''text'' |
+ | link      | {{=}}yes or {{=}}''fullpagename''   | 
+}}
+
+== Examples ==
+
+{|class=wikitable
+!Markup
+!Renders as
+|-
+ | <code><nowiki>{{ font color | green | green text }}</nowiki></code>
+ | {{ font color | green | green text }}
+|-
+ | <code><nowiki>{{ font color | blue | do not style text as a link }}</nowiki></code>
+ | {{ font color | blue | do not style text as a link }}
+|-
+ |  | <code>{<nowiki/>{ font color'''{{big | {{! }}<nowiki/>{{! }} }}'''yellow | default text in yellow background }}</code>
+ | {{ font color |  | yellow | default text in yellow background }}
+|-
+ |  | <code>{<nowiki/>{ font color'''{{big | {{! }} }}'''bg=yellow | text = default text in yellow background }}</code>
+ | {{ font color | bg=yellow | text = default text in yellow background }}
+|-
+ | <code><nowiki>{{ font color | white | black | white with black background }}</nowiki></code>
+ | {{ font color | white | black | white with black background }}
+|-
+ | <code><nowiki>{{ font color | #ffffff | #000000 | white with black background }} ([[hexadecimal colors]]) </nowiki></code>
+ | {{ font color | #ffffff | #000000 | white with black background}} ([[hexadecimal colors]])
+|}
+
+{|class=wikitable
+!Markup
+!Renders as
+|-
+ | <code><nowiki>{{ font color | white | blue | Wikipedia:Example | link = yes }}</nowiki></code>
+ | {{ font color | white | blue | Wikipedia:Example | link = yes }}
+|-
+ | <code><nowiki>{{ font color | white | blue | Wikipedia:Example | link = Wikipedia:Sandbox }}</nowiki></code>
+ | {{ font color | white | blue | Wikipedia:Example | link = Wikipedia:Sandbox }}
+|-
+ | <code><nowiki>{{ font color | text = Wikipedia:Example | link = Wikipedia:Sandbox | bg
+ = blue | fg = white }}</nowiki></code>
+ | {{ font color | text = Wikipedia:Example | link = Wikipedia:Sandbox | bg = blue | fg = white }}
+|}
+
+The {{para|link}} parameter is a good way to colorize wikilinks,
+and it is about as much typing as the [[wp:pipe trick|pipe trick]].
+
+Although a wikilink accepts a ''font color'' (or other template or markup):
+:<code>{{big|[<nowiki/>[}}Wikipedia:Example{{big|{{!}}}}{<nowiki />{font color|white|blue|the Wikipedia:Example page}}{{big|]]}}</code>
+:→ [[Wikipedia:Example | {{ font color | white | blue | the Wikipedia:Example page}}]] (a font-colored link),
+a ''font color'' does not accept a wikilink, it creates wikilinks itself with {{para|link}}.
+*{{OK }} {<nowiki/>{ font color | green | violet | Wikipedia:Example | link=yes }} → {{ font color | green | violet | Wikipedia:Example | link=yes }} (a {{para|link}} {{tl | font color }})
+*{{cross }}{<nowiki/>{ font color | green | violet | the [<nowiki/>[Wikipedia:Example]] page}} → {{ font color | green | violet | the [[Wikipedia:Example]] page }} (Text with [<nowiki/>[wikilink brackets]] overrides the designated color)
+*{{cross }}{<nowiki/>{ font color | green | violet | [<nowiki/>[Wikipedia:Exammple]] }} → {{ font color | green | violet | the [[Wikipedia:Exammple]] page }} (Text with [<nowiki/>[wikilink brackets]] overrides the designated color)
+<!--
+
+--><includeonly>For more examples see [[/testcases]].</includeonly>
+For actual mainspace template usage, here are search links for
+* {{sl | hastemplate:"font color" | label=all usage }}.
+* {{template usage | font color | pattern=link= | prefix=: | label=where <code>{{! }}link=</code> is used }}.
+* {{sl | hastemplate: "font color" prefix:F }} showing its use in articles whose title begins with the letter "F".
+
+==See also==
+[[File:SVG Recognized color keyword names.svg|thumb|SVG's color keywords that can be used as a keyword value.]]
+* [[WP:COLOR|Important Manual of Style information]]
+* [[Web colors]]
+* [[HTML color names]]
+* [[List of colors]]
+* [[Help: Link color]]
+* {{tl|color}}
+* {{tl|background color}}
+* {{tl|coltit}} — colored table header cell
+* {{tl|color contrast ratio}}
+* {{tl|hilite}}
+* {{tl|font}}
+* {{tl|tq}}
+* {{tl|xt}}
+
+<includeonly>{{sandbox other||
+<!-- categories -->
+[[Category:Text color templates]]
+}}
+</includeonly>
