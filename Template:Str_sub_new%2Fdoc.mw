@@ -1,0 +1,55 @@
+{{Documentation subpage}}
+{{lua|Module:String}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+This template selects a sub-string from the target string based on selected indices.  The indices are 1-based.  If the end index is omitted, it returns the rest of the string.  One can also specify negative indices, in which case the substr is selected by counting from the end of the string.
+
+== Usage ==
+
+: <code><nowiki>{{str sub new|target_string|start_index|end_index}}</nowiki></code>
+: <code><nowiki>{{str sub new|s=target_string|i=start_index|j=end_index}}</nowiki></code>
+
+== Examples ==
+
+=== Unnamed parameters ===
+
+<code><nowiki>{{str sub new|1234567890|3|7}}</nowiki></code>
+: {{str sub new|1234567890|3|7}}
+
+<code><nowiki>{{str sub new|1234567890|3|-3}}</nowiki></code>
+: {{str sub new|1234567890|3|-3}}
+
+<code><nowiki>{{str sub new|1234567890|3}}</nowiki></code>
+: {{str sub new|1234567890|3}}
+
+<code><nowiki>{{str sub new|1234567890|12}}</nowiki></code>
+: {{str sub new|1234567890|12|nocategory=true}}
+
+=== Named parameters ===
+
+<code><nowiki>{{Str sub new|s=abcd=fgh|i=3|j=7}}</nowiki></code>
+: {{Str sub new|s=abcd=fgh|i=3|j=7}}
+
+Equivalent to:
+
+<code><nowiki>{{#invoke:string|sub|s=abcd=fgh|i=3|j=7}}</nowiki></code>
+: {{#invoke:string|sub|s=abcd=fgh|i=3|j=7}}
+
+Named parameters are required if the target string contains an [[equals sign]], where unnamed or numbered parameters will not work as expected:
+
+<code><nowiki>{{str sub new|abcd=fgh|3|7}}</nowiki></code>
+: {{str sub new|abcd=fgh|3|7|nocategory=true}}
+
+<code><nowiki>{{str sub new|1=abcd=fgh|2=3|3=7}}</nowiki></code>
+: {{str sub new|1=abcd=fgh|2=3|3=7}}
+
+== See also ==
+* {{tl|Str sub old}}
+
+{{string-handling templates|sub}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:String manipulation templates]]
+
+}}</includeonly>
