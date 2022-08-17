@@ -27,13 +27,13 @@
 | label2 = Sant
 | mark-coord2 = {{coord|46.58656|11.72943}}
 | mark-title2 = [[Lech Sant]]
-| label-pos2 = top
+| label-pos2 = left
 | mark-image2 = Lechsant_Sella.jpg
 
 | label3 = Pertan
 | mark-coord3 = {{coord|46.58568|11.73528}}
 | mark-title3 = [[Lech da Pertan]]
-| label-pos3 = bottom
+| label-pos3 = top
 | mark-image3 = Lech_da_Pertan_y_Fermedes_sun_Mastlé.jpg
 
 | label4 = Ciampac
@@ -49,6 +49,7 @@
 | label6 = Rijeda
 | mark-coord6 = {{coord|46.59232|11.74016}}
 | mark-title6 = [[Lech da Rijeda]]
+| label-pos6 = right
 
 | label7 = Iman
 | mark-coord7 = {{coord|46.59602|11.74323}}
@@ -92,7 +93,7 @@
 | label15 = Gran Iacun
 | mark-coord15 = {{coord|46.58288|11.73661}}
 | mark-title15 = [[Lech dl Gran Iacun]]
-| label-pos15 = right
+| label-pos15 = bottom
 
 | label29 = Lagustel
 | shape29 = l-circle
@@ -104,13 +105,13 @@
 | shape30 = l-circle
 | mark-coord30 = {{coord|46.58634|11.73243}}
 | mark-title30 = [[Lech da Trëbe]]
-| label-pos30 = left
+| label-pos30 = top
 
 | label31 = Pitl Vedl
 | shape31 = l-circle
 | mark-coord31 = {{coord|46.585285|11.738693}}
 | mark-title31 = [[Lech dl Pitl Vedl]]
-| label-pos31 = left
+| label-pos31 = right
 
 
 | label40 = Frataces
