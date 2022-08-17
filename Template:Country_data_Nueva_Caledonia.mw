@@ -1,0 +1,28 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Nueva Caledonia
+| flag alias = Flags of New Caledonia.svg
+| flag alias-FLNKS = Flag of FLNKS.svg
+| flag alias-local = Flag of FLNKS.svg
+| flag alias-french = Flag of France.svg
+| flag alias-1853 = Flag of France (1794–1815, 1830–1958).svg
+| flag alias-merged = New Caledonia flags merged (2017).svg
+| flag alias-football = New Caledonia flags merged (2017).svg
+| flag alias-beach soccer = New Caledonia flags merged (2017).svg
+| flag alias-futsal = New Caledonia flags merged (2017).svg
+| flag alias-basketball = Flag of FLNKS.svg
+| flag alias-baseball = Flag of FLNKS.svg
+| size = {{{size|}}}
+| size flag alias = 43x12px
+| sizebig flag alias = 60x17px
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = FLNKS
+| var2 = french
+| var3 = 1853
+| var4 = merged
+| redir1 = NCL
+</noinclude>
+}}
