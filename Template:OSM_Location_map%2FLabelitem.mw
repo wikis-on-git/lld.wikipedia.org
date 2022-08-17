@@ -1,0 +1,80 @@
+{{#ifexpr:{{{shape-halo|0}}}>0|
+"lat": {{{mark-lat|0}}}, "lon": {{{mark-lon|0}}},
+"size": "{{#expr:trunc({{{mark-size|10}}}+({{{shape-halo|0}}}*1.8))}}0",
+{{#ifexpr:{{Str len|{{{shape-color|}}} }}<8|"color": "{{{shape-color|#AA1056}}}30",
+"strokeColor": "{{{shape-color|#AA1056}}}06"|
+"color": "#{{Str sub new|{{{shape-color|AA1056}}}|2|7}}01",
+"strokeColor": "#{{Str sub new|{{{shape-color|#AA1056}}}|2|7}}70"}},
+"shape": "{{#switch:{{{shape|}}}|circle| square| cross| diamond| triangle-up| triangle-down={{{shape|}}}|circle}}"},
+{ }}
+"lat": {{{mark-lat|0}}}, "lon": {{{mark-lon|0}}}, 
+{{#switch:{{{shape|}}}
+|circle| square| cross| diamond| triangle-up| triangle-down=
+ "size": "{{#ifexpr:{{{mark-size|10}}}>2|{{#expr:{{{mark-size}}}-2}} }}0", 
+ {{#if:{{{shape-color|}}}|"color": "{{{shape-color}}}",|}} 
+ {{#ifeq:{{{numbered|}}}|0|{{#if:{{{shape-outline|}}}|"strokeColor": "{{{shape-outline}}}",|}} |"strokeColor": "{{{shape-color|}}}",}}
+ "shape": "{{{shape|}}}", 
+|{{#ifexpr:{{{mark-size|10}}}=0
+  |"size": "0", 
+  | "img": "wikirawupload:{{filepath:{{#if:{{{mark|}}}|{{{mark}}}|Red pog.svg}}|{{#expr:trunc({{{mark-size|10}}}*{{{mark-dim|1}}}) }} }}", "height": {{{mark-size|10}}}, "width": {{#expr:trunc({{{mark-size|10}}}*{{{mark-dim|1}}}) }}, }}
+}}
+"text": "{{{label|}}}", {{#if:{{{label-angle|}}}|"textAngle": {{{label-angle|0}}}, |}}
+"textAlign": "{{#switch:{{{label-pos|}}}
+|left=right|right=left|top=center|bottom=center|right}}", "textBaseline": "{{#switch:{{{label-pos|}}}
+|left=middle|right=middle|top=bottom|bottom=top|middle}}", "textDx": {{#switch:{{{label-pos|}}} <!-- higher Dx pushes label to the right -->
+|left={{#expr:trunc(0-{{{mark-size|10}}}/2*{{{mark-dim|1}}})-2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-1}} }}
+|right={{#expr:trunc({{{mark-size|10}}}/2*{{{mark-dim|1}}})+2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-3}} }}
+|top|bottom={{{label-offset-x|0}}}
+|0}}, "textDy": {{#switch:{{{label-pos|}}} <!-- higher Dy pushes label down the map -->
+|left|right={{#expr:{{#if:{{{label-offset-y}}}|{{{label-offset-y|0}}}|0}}+1}}
+|top={{#expr:trunc(0-{{{mark-size|10}}}/2)-2+{{{label-offset-y|0}}}{{#if:{{{labela|}}}|-{{{label-size|10}}}-1}}{{#if:{{{labelb|}}}|-{{{label-size|9}}}-1}} }}
+|bottom={{#expr:trunc({{{mark-size|10}}}/2)+2+{{#if:{{{label-offset-y|}}}|{{{label-offset-y}}}|0}} }}
+|1}}, 
+"textFontSize": {{{label-size|12}}}{{#if:{{{label-color|}}}|, "textColor": "{{{label-color}}}" |}}
+{{#if:{{{labela|}}}|},
+{
+"lat": {{{mark-lat|0}}}, "lon": {{{mark-lon|0}}}, 
+ "shape": "circle", 
+ "size": "0", 
+ "text": "{{{labela|}}}", {{#if:{{{label-angle|}}}|"textAngle": {{{label-angle|0}}}, |}}
+"textAlign": "{{#switch:{{{label-pos|}}}
+|left=right|right=left|top=center|bottom=center|right}}", "textBaseline": "{{#switch:{{{label-pos|}}}
+|left=middle|right=middle|top=bottom|bottom=top|middle}}", "textDx": {{#switch:{{{label-pos|}}} <!-- higher Dx pushes label to the right -->
+|left={{#expr:trunc(0-{{{mark-size|10}}}/2*{{{mark-dim|1}}})-2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-1}} }}
+|right={{#expr:trunc({{{mark-size|10}}}/2*{{{mark-dim|1}}})+2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-3}} }}
+|top|bottom={{{label-offset-x|0}}}
+|0}}, "textDy": {{#switch:{{{label-pos|}}} <!-- higher Dy pushes label down the map -->
+|left|right={{#expr:{{{label-offset-y|0}}}+1+{{{label-size|10}}}+1}}
+|top={{#expr:trunc(0-{{{mark-size|10}}}/2)-2+{{{label-offset-y|0}}}{{#if:{{{labelb|}}}|-{{{label-size|10}}}-1}} }}
+|bottom={{#expr:trunc({{{mark-size|10}}}/2)+2+{{{label-offset-y}}}+{{{label-size|10}}}+1}}
+|1}}, 
+"textFontSize": {{{label-size|12}}}{{#if:{{{label-color|}}}|, "textColor": "{{{label-color}}}" |}}
+}}
+{{#if:{{{labelb|}}}|},
+{
+"lat": {{{mark-lat|0}}}, "lon": {{{mark-lon|0}}}, 
+ "shape": "circle", 
+ "size": "0", 
+ "text": "{{{labelb|}}}", {{#if:{{{label-angle|}}}|"textAngle": {{{label-angle|0}}}, |}}
+"textAlign": "{{#switch:{{{label-pos|}}}
+|left=right|right=left|top=center|bottom=center|right}}", "textBaseline": "{{#switch:{{{label-pos|}}}
+|left=middle|right=middle|top=bottom|bottom=top|middle}}", "textDx": {{#switch:{{{label-pos|}}} <!-- higher Dx pushes label to the right -->
+|left={{#expr:trunc(0-{{{mark-size|10}}}/2*{{{mark-dim|1}}})-2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-1}} }}
+|right={{#expr:trunc({{{mark-size|10}}}/2*{{{mark-dim|1}}})+2+{{#if:{{{label-offset-x|}}}|{{{label-offset-x}}}|0}}+{{#ifeq:{{{shape|}}}|image|0|-3}} }}
+|top|bottom={{{label-offset-x|0}}}
+|0}}, "textDy": {{#switch:{{{label-pos|}}} <!-- higher Dy pushes label down the map -->
+|left|right={{#expr:{{{label-offset-y|0}}}+1+{{{label-size|10}}}+1+{{{label-size|10}}}+1}}
+|top={{#expr:trunc(0-{{{mark-size|10}}}/2)-2+{{{label-offset-y|0}}} }}
+|bottom={{#expr:trunc({{{mark-size|10}}}/2)+2+{{{label-offset-y}}}+{{{label-size|10}}}+1+{{{label-size|10}}}+1}}
+|1}}, 
+"textFontSize": {{{label-size|12}}}{{#if:{{{label-color|}}}|, "textColor": "{{{label-color}}}" |}}
+}}
+{{#ifeq:{{{mark-size|0}}}|0||{{#if:{{{numbered|}}}|{{#switch:{{{numbered|}}}|0=| },
+{
+"lat": {{{mark-lat|0}}}, "lon": {{{mark-lon|0}}}, 
+ "shape": "circle", 
+ "size": "0", 
+ "text": "{{{numbered|}}}", 
+"textAlign": "center", "textBaseline": "bottom", "textDx": 0, "textDy": {{#expr:trunc({{{mark-size|10}}}/2.2)-2}},
+"textFontSize": {{#expr:trunc({{{mark-size|10}}}*0.65)}}{{#if:{{{shape-outline|}}}|, "textFontWeight": "bold", "textColor": "#{{Str sub new|{{{shape-outline|0000000}}}|2|7}}" |}}
+}} }} }}
