@@ -1,0 +1,10 @@
+{{<includeonly>safesubst:</includeonly>#invoke: BaseConvert 
+   | convert 
+   | n={{{1|0}}} 
+   | base=16 
+   | precision=0 
+   | width={{<includeonly>safesubst:</includeonly>#switch:{{{2}}}|no|none=2|#default=0}} 
+   | suffix={{<includeonly>safesubst:</includeonly>#switch:{{{2}}}|no|none|digit=|hex=<sub>hex</sub>|#default=<sub>16</sub>}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
