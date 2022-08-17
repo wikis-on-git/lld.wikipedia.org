@@ -1,0 +1,184 @@
+{{Documentation subpage}}
+{{Redirect|Template:Proveit|the template about the referencing gadget|Template:User ProveIt}}
+{{High-use}}
+{{Notice|An introductory version of this documentation is provided at [[Wikipedia:Citation needed]].}}
+<noinclude>{{pp-semi-indef}}<!--persistent vandalism from anon users--></noinclude>
+{{Tl|Citation needed}} is a [[Wikipedia:Template messages|template]] used to identify claims in articles, particularly if questionable, that need a [[Wikipedia:Citing sources|citation]] to a [[WP:Reliable sources|reliable source]]. This template produces the superscripted message&nbsp;{{citation needed|date=May 2013|reason=example}} and is installed with no spaces directly after punctuation.
+
+== Use ==
+:{{tnull|Citation needed|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+:{{tnull|Citation needed|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|reason{{=}}''Your explanation here''}}
+
+'''Notes''':
+* '''The {{para|date}} parameter consists of the full English name of the current month (with initial capital and rest lowercase), a space, and the year.''' For example, "{{xt|January 2013}}" but not "{{!xt|jan13}}" or "{{!xt|January 23, 2013}}". Deviation from this rule will place the article in [[:Category:Articles with invalid date parameter in template]]. 
+:* To automatically add the current date, you can use [[Help:Substitution|substitution]] like this: <code><nowiki>{{subst:Citation needed}}</nowiki></code>. 
+:* If the {{para|date}} parameter is not given, a [[Wikipedia:Bots|bot]] will soon add it ([[User:AnomieBOT|AnomieBOT]]'s TagDater task) but it's better if you add it yourself to avoid an extra edit to the article's history.
+* '''The {{para|reason}} parameter is for an explanation why you think the material needs a source.''' It is optional but very helpful. It is displayed as a [[tooltip]] in some browsers (hover the mouse here {{Citation needed|reason=If and only if this text is displayed, the reason parameter is working in your browser|date={{currentmonth}} {{currentyear}}}} to check behaviour of your browser). For example, the following usage might be appropriate to the claim that "Humphrey Bogart was an avid snooker player":
+:{{tnull|Citation needed|reason{{=}}This claim needs a reliable source; Bogart was a famous actor but his major biographies don't mention snooker.|date{{=}}{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+:* Use only [[plain text]] for the {{para|reason}} parameter. It does not support [[Help:Wiki markup|wiki markup]] like wikilinks, which can mess up the tooltip.
+:* Double quotation marks used within the {{para|reason}} parameter will likewise mess up the tooltip; use single quotes or the HTML code <code>&amp;quot;</code> instead.
+:* If omitted, the tooltip "This claim needs references to reliable sources." is used by default.
+* This template should usually be installed directly ''after'' punctuation, such as a full stop (period) or a comma.
+* Use of this template places the article into [[:Category:All articles with unsourced statements]] and [[:Category:Articles with unsourced statements from {{CURRENTMONTHNAME}} {{CURRENTYEAR}}]] (example; past months are listed in [[:Category:Articles with unsourced statements]]).
+* Remove the template when you add a citation for a statement.
+
+== Examples ==
+=== Example 1 ===
+:<code><nowiki>This sentence shows the template used at the end.{{Citation needed|reason=Reliable source needed for the whole sentence|date=</nowiki>{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}</code>
+
+This wikitext will be rendered as follows:
+
+:This sentence shows the template used at the end.{{Citation needed|reason=Reliable source needed for the whole sentence|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+
+=== Example 2 ===
+
+:<code><nowiki>[[Humphrey Bogart]] was an avid snooker player.{{Citation needed|date=</nowiki>{{currentmonth}} {{currentyear}}}}</code>
+
+The template indicates that it may be that Humphrey Bogart played snooker at some point and it may be that he was enthusiastic about the game but no ''reliable'', ''published'' sources were given to verify it and the information is not considered [[common knowledge]]. 
+
+:[[Humphrey Bogart]] was an avid snooker player.{{Citation needed|date={{currentmonth}} {{currentyear}}}}
+
+=== Example 3 ===
+
+If it is considered that he might have played snooker but was not an avid player, a reason for the need of a citation may be given, displayed as a tooltip when the mouse hovers on "citation needed":
+
+:<code><nowiki>[[Humphrey Bogart]] was an avid snooker player.{{Citation needed|date=</nowiki>{{CURRENTMONTHNAME}} {{CURRENTYEAR}}|reason=Only aware he was photographed playing once. Not aware of any source that claims he played a lot.}}</code>
+
+:[[Humphrey Bogart]] was an avid snooker player.{{Citation needed|date={{CURRENTMONTHNAME}} {{CURRENTYEAR}}|reason=Only aware he was photographed playing once. Not aware of any source that claims he played a lot.}}
+
+In this example, it may be better to use the {{tl|Citation needed span}}, which has slightly different syntax, template to highlight the word "avid".
+
+== When not to use this template ==
+
+Contentious material about [[Wikipedia:Biographies of living persons|living persons]] that is unsourced or poorly sourced should be '''removed immediately'''. Do not tag it; immediately remove it. This includes material that is disparaging, misrepresentative, insulting, harmful, or possibly [[libelous]]. For some policy about this, see the sections [[Wikipedia:Biographies of living persons#Remove contentious material that is unsourced or poorly sourced|"Remove contentious material that is unsourced or poorly sourced"]] at [[Wikipedia:Biographies of living persons]] and [[Wikipedia:Verifiability#Burden of evidence|"Burden of evidence"]] at [[Wikipedia:Verifiability]].
+
+The <nowiki>{{Citation needed}}</nowiki> template is intended for use when there is a general question of the verifiability of a statement, or when an editor believes that a reference verifying the statement should be provided. Other templates are available for other or more specific issues; see the [[#Inline templates|list of inline templates]]. For example, claims that you think are incorrect should be tagged with {{Tl|Dubious}}, and those which represent a non-neutral view should be tagged with {{Tl|POV statement}}. Being specific about the nature of the problem will help other editors correct it.
+
+Within a [[Wikipedia:lead section|lead section]] that is clearly written as a summary of a substantially sourced article,
+* statements that are supported with citations within the body of the article should not be tagged,
+* statements that are not supported in the article body should be tagged with {{tl|Not verified in body}}.
+
+If you have the time and ability to find an authoritative reference, please do so. Then add the citation yourself, or correct the article text. After all, the ultimate goal is not to merely identify problems, but to fix them.
+
+While an editor may add this template to any uncited passage for any reason, many editors object to what they perceive as overuse of this tag, particularly in what is known as "[[drive-by]]" tagging, which is applying the tag without attempting to address the issues at all. Consider whether adding this tag in an article is the best approach before using it, and use it judiciously. Wikipedia's [[WP:Verifiability|verifiability policy]] does not require reliable sources for [[Common knowledge|common well-known facts]] (e.g., "the Moon orbits the Earth"), neither that citations be repeated through every sentence in a paragraph. All direct quotations and facts whose accuracy might be challenged (e.g., statistics) require citations. See [[WP:MINREF]] for the list of material that is absolutely required to be followed by an [[Wikipedia:Inline citation|inline citation]], rather than a [[Wikipedia:General references|general reference]] or no citation at all. Also note that the [[WP:BURDEN|burden of evidence]] lies with the editor who adds or restores material.
+
+This template is intended for specific passages that need citation. For entire articles or sections that contain significant material lacking citations (rather than just specific short passages), there are other, more appropriate templates, such as {{Tl|Unreferenced}} and {{Tl|More citations needed}} (for whole articles) as well as {{Tl|Unreferenced section}} and {{Tl|More citations needed section}} (for sections of articles).
+
+Do not use this template to tag policies or guidelines.
+
+== How to respond to this tag ==
+
+The addition of this tag is a request for an inline citation to support the tagged statement. If you are able to provide a citation to support the claim, then please do so.
+
+Except for [[WP:Biographies of living persons|contentious claims about living people]], which should be immediately removed if not cited, there is no specific deadline for providing citations. Please do not delete information that you believe is correct solely because no one has provided a citation within an arbitrary time limit. If there is some uncertainty about its accuracy, most editors are willing to wait at least a month to see whether a citation can be provided.
+
+== Template data ==
+
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "The template is used to identify claims in articles, particularly if questionable, that lack a citation to a reliable source.",
+	"params": {
+		"date": {
+			"label": "Month and year",
+			"description": "Provides the month and year of the citation request; e.g., 'January 2013', but not 'jan13'",
+			"type": "string",
+			"autovalue": "{{subst:CURRENTMONTHNAME}} {{subst:CURRENTYEAR}}",
+			"suggested": true
+		},
+		"reason": {
+			"label": "Reason for citation",
+			"description": "A reason as to why, or for what content, the citation is needed; use single quotes, if any",
+			"type": "string"
+		}
+	}
+}
+</templatedata>
+
+== Tracking categories ==
+* {{clc|Pages containing citation needed template with unsupported parameters}} – a hidden maintenance/tracking category which is added to pages using this template with unsupported parameters
+* {{clc|All articles with unsourced statements}}
+
+== Redirects ==
+{{div col|colwidth=25em}}
+{{Special:WhatLinksHere/Template:Citation needed|hidetrans=1|hidelinks=1|limit=100}}
+{{div col end}}
+
+== See also ==
+* [[Citation needed]], Wikipedia's mainspace article about this template
+* [[Template:Not verified in body]], a similar template specifically for the lead of articles
+* [[Template:Medical citation needed]]
+* [[Template:More citations needed]]
+* [[Wikipedia:Citing sources]], especially [[Wikipedia:Citing sources#Unsourced material|Unsourced material]]
+* [[Wikipedia:Reliable sources]]
+* [[Wikipedia:Template messages/Cleanup#Verifiability and sources]]
+* [[Wikipedia:Template messages/Sources of articles]]
+* [[Wikipedia:Verifiability]]
+
+=== Inline templates ===
+* {{tl|Additional citation needed}}{{Additional citation needed}}: request addition of more sources.
+* {{Tl|Quote without source}}{{Quote without source}}: request source for [[WP:Quotations|quotations]].
+* {{Tl|Clarify}}{{Clarify}}: request clarification of wording or interpretation.
+* {{Tl|Example needed}}{{Example needed}}: request examples for clarification.
+* {{Tl|Nonspecific}}{{Nonspecific}}: flag a general, yet factual statement as needing to be made more specific before it can be verified.
+* {{Tl|Page needed}}{{Page needed}}: request a page number for an existing citation.
+
+==== Highlighting some text that needs a citation ====
+* {{Tl|Citation needed span}}: similar, except that the text needing the citation is changed to a dark slate-gray color while being encapsulated in an off-white box with a pale pink outline. For example:
+::Beetles constitute {{Citation needed span|text=by far|reason="By far" seems like it needs a citation|date={{currentmonth}} {{currentyear}}}} the largest order of insects, with {{Citation needed span|text=350,000–400,000 species in four suborders.|date={{currentmonth}} {{currentyear}}}}
+
+==== Incomplete citations ====
+* {{Tl|Deep link needed}}{{Deep link needed}}: inline request for the exact web page. Use when a web site is referenced but the exact web page is not given.
+* {{Tl|Full citation needed}}{{Full citation needed}}: inline request for full citation, for example when only author, year are given.
+* {{Tl|Incomplete short citation}}{{Incomplete short citation}}: inline warning and request for enough information to allow the short citation to uniquely identify a long citation.
+* {{Tl|Page needed}}{{Page needed}}: inline request for the page number(s) in a work that support a citation.
+* {{Tl|Time needed}}{{Time needed}}: inline request for the specific time in a recording that supports the citation; see: {{para|minutes}} or {{para|time}} in {{tlx|Cite AV media}}.
+* {{Tl|Season needed}}{{Season needed}}, similar to {{Tl|page needed}}: for missing TV season and episode number.
+* {{Tl|Volume needed}}{{Volume needed}}, similar to {{Tl|page needed}}: for missing journal, newspaper, comic, volume and issue numbers, etc.
+
+==== Verification ====
+* {{Tl|Better source needed}}{{Better source needed}}: flags a statement as requiring a better source.
+* {{Tl|Dead link}}{{Dead link}}: tag a ref or an external link as [[Wikipedia:Link rot|dead]].
+* {{Tl|Failed verification}}{{Failed verification}}: source was checked, and did not contain the cited material.
+* {{Tl|Request quotation}}{{Request quotation}}: request a direct quote from an inaccessible source, for verification purposes.
+* {{Tl|Self-published inline}}{{Self-published inline}} or {{tl|Self-published source}} {{Self-published source}}: flag a source that cites the author.
+* {{Tl|Unreliable source?}}{{Unreliable source?|name=Citation needed}}: flag a source as possibly being [[WP:Reliable sources|unreliable]] or [[WP:Verifiability|unverifiable]].
+* {{Tl|Verify source}}{{Verify source}}: request that someone verify the cited source backs up the material in the passage.
+
+==== Content ====
+
+* {{Tl|According to whom}}{{According to whom}}: flag a vague, unreferenced, third-party claim with no specific, identifiable individuals or groups named who could verify the claim.
+* {{Tl|By whom}}{{By whom}}: flag a statement that has a claim by a third party who is not well identified and/or well sourced.
+* {{Tl|Chronology citation needed}}/{{Chronology citation needed}}: request a source confirming or providing the chronology or timeline of a statement.
+* {{Tl|Definition}}{{Definition}}: flag a definition as being ambiguous or confusing.
+* {{Tl|Dubious}}{{Dubious}}: flag something as suspected of being incorrect; explain why on the talk page and briefly in the |reason= parameter.
+* {{Tl|Original research inline}}{{Original research inline}}: flag a statement as possibly containing [[Wikipedia:No original research|original research]].
+* {{Tl|Peacock inline}}{{Peacock inline}}: flag a statement that contains [[Wikipedia:Avoid peacock terms|peacock terms]].
+* {{Tl|POV statement}}{{POV statement}}: flag something as possibly not [[Wikipedia:Neutral point of view|having a neutral point of view]].
+* {{Tl|Quantify}}{{Quantify}}: flag a statement as being vague regarding the amount of something.
+* {{Tl|Technical inline}}{{Technical inline}}: flag a word or phrase [[Wikipedia:Make technical articles understandable|that is both technical and not understandable]].
+* {{Tl|Undue weight inline}}{{Undue weight inline}}: flag a statement that does not ascribe appropriate weight to its sources, according to their levels of prominence.
+* {{Tl|Vague}}{{Vague}}: flag a statement that is too vague to be unambiguously verifiable.
+* {{Tl|Weasel inline}}{{Weasel inline}}: flag a statement that contains [[Wikipedia:Avoid weasel words|weasel words]].
+* {{Tl|When}}{{When}}: flag a statement that has a time period that's vague or ambiguous.
+* {{Tl|Who}}{{who}}: flag a statement that needs a description or identification of a person or group of persons.
+
+==== Timeliness ====
+* {{Tl|Update after}}{{Update after}}: a template that only shows itself after a specified time, indicating an exceptional [[Wikipedia:Avoid statements that will date quickly|statement that will date quickly]].
+
+=== Article message box templates ===
+* {{Tl|Cite check}}: article or section may have inappropriate or misinterpreted citations.
+* {{Tl|More citations needed}}: article or section has weak or incomplete sources, references, or citations.
+* {{Tl|Unreferenced}} and {{Tl|Unreferenced section}}: article or section has no sources, references, or citations given at all.
+* Citation method and style
+** {{Tl|Citation style}}
+** {{Tl|No footnotes}}
+
+{{Inline cleanup tags}}
+
+<includeonly>{{Sandbox other||
+<!-- Template categories  -->
+[[Category:Inline citation and verifiability dispute templates]]
+[[Category:Templates that add a tracking category]]
+
+}}</includeonly>
