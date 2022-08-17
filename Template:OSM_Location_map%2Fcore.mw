@@ -1,0 +1,1775 @@
+<onlyinclude>{{#switch:{{{float|}}} |center|centre=<div class="center">}}<div class="thumb {{#switch:{{{float|}}}
+|center|centre|none=tnone
+|left=tleft
+|#default=tright}}">
+<div class="thumbinner" style="width:{{#expr:{{{width|350}}}+2}}px">
+{{#if:{{{title|}}}|<div class="center" 
+style="font-weight:bold">{{{title}}}</div>|}}
+{{Graph:Street map with marks 
+| lat={{{lat|0}}}
+| lon={{{lon|0}}}
+| zoom={{{zoom|0}}}
+| style={{#switch:{{{nolabels|}}}|1=osm|}}
+| width={{{width|350}}}
+| height={{{height|250}}} 
+| minimap={{#expr:{{{minimap|0}}}=1}}
+| {{#switch:{{{scalemark|}}}|0|no|false|off= { }
+  |
+    { "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     "img": "wikirawupload:{{filepath:Mapscaleline.svg|120}}", 
+     "width": 50, 
+     "height": 8, 
+     "offsetX": {{#expr:({{{width|350}}}/2)-36-{{#if:{{{scalemark|}}}|{{{scalemark}}}|1}} }}, 
+     "offsetY": {{#expr:({{{height|250}}}/2)-18}}, 
+     "textAlign": "right", 
+     "textDx": 22, 
+     "textDy": -2, 
+     "textColor": "grey", 
+     "textFont": "Tahoma", 
+     "textFontSize": 9, 
+     "text":  "{{#ifexpr:abs {{{lat|0}}}<20|{{#switch:{{{zoom|}}}|19|18=60m|17=100m|16=200m|15=400m|14=1km|13=2km|12=4km|11=6km|10=10km|9=20km|8=60km|7=100km|6=200km|5=400km|4=1000km|3=1500km|2=3000km|1=5000km|0|=10 000km}} | {{#ifexpr:abs {{{lat|0}}}<40|{{#switch:{{{zoom|}}}|19|18=45m|17=75m|16=150m|15=300m|14=750m|13=1.5km|12=3km|11=5km|10=8km|9=15km|8=45km|7=75km|6=150km|5=300km|4=800km|3=1200km|2=3000km|1=5000km|0|=10 000km}} | {{#ifexpr:abs {{{lat|0}}}<60|{{#switch:{{{zoom|}}}|19|18=30m|17=50m|16=100m|15=200m|14=500m|13=1km|12=2km|11=3km|10=5km|9=10km|8=30km|7=50km|6=100km|5=200km|4=500km|3=1000km|2=3000km|1=5000km|0|=10 000km}} | {{#switch:{{{zoom|}}}|19|18=20m|17=40m|16=80m|15=160m|14=350m|13=600m|12=1km|11=2km|10=4km|9=7km|8=20km|7=40km|6=80km|5=160km|4=400km|3=900km|2=3000km|1=5000km|0|=10 000km}} }} }} }}" }  }}
+{{#switch:{{{scalemark|}}}|0|no|false|off= |,
+ { "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     "width": 0, 
+     "height": 0, 
+     "size": 0,
+     "offsetX": {{#expr:({{{width|350}}}/2)-36-{{#if:{{{scalemark|}}}|{{{scalemark}}}|1}} }}, 
+     "offsetY": {{#expr:({{{height|250}}}/2)-6}}, 
+     "textAlign": "right", 
+     "textDx": 22, 
+     "textDy": -2, 
+     "textColor": "grey", 
+     "textFont": "Tahoma", 
+     "textFontSize": 9, 
+     "text":  "{{#ifexpr:abs {{{lat|0}}}<20|{{#switch:{{{zoom|}}}|19|18=65yds|17=110yds|16=220yds|15=440yds|14=0.6miles|13=1.2miles|12=2.5miles|11=4miles|10=6miles|9=12miles|8=40miles|7=62miles|6=124miles|5=250miles|4=620miles|3=900miles|2=1,800miles|1=3,100miles|0|=6,000miles}} | {{#ifexpr:abs {{{lat|0}}}<40|{{#switch:{{{zoom|}}}|19|18=50yds|17=80yds|16=160yds|15=330yds|14=820yds|13=1mile|12=2miles|11=3miles|10=5miles|9=10miles|8=30miles|7=50miles|6=100miles|5=200miles|4=500miles|3=820miles|2=2,000miles|1=3,100miles|0|=6,000miles}} | {{#ifexpr:abs {{{lat|0}}}<60|{{#switch:{{{zoom|}}}|19|18=32yds|17=55yds|16=110yds|15=220yds|14=550yds|13=0.6miles|12=1.2miles|11=2miles|10=3miles|9=6miles|8=20miles|7=30miles|6=62miles|5=124miles|4=250miles|3=620miles|2=2,000miles|1=3,100miles|0|=6,000miles}} | {{#switch:{{{zoom|}}}|19|18=22yds|17=44yds|16=88yds|15=170yds|14=380yds|13=660yds|12=0.6miles|11=1.2miles|10=2.4miles|9=4miles|8=12miles|7=25miles|6=55miles|5=110miles|4=250miles|3=620miles|2=2,000miles|1=3,100miles|0|=6,000miles}} }} }} }}" }  }}
+{{#if:{{{mark-lat|}}}|, {
+{{OSM Location map/Labelitem
+| shape = {{{shape|}}}
+| shape-halo={{{shape-halo|}}}
+| mark-lat={{{mark-lat|}}}
+| mark-lon={{{mark-lon|}}}
+| shape-color={{{shape-color|}}}
+| shape-outline={{{shape-outline|}}}
+| mark = {{{mark|}}}
+| mark-size={{{mark-size|}}}
+| mark-dim={{{mark-dim|}}}
+| label ={{{label|}}}
+| labela={{{labela|}}}
+| labelb={{{labelb|}}}
+| label-angle={{{label-angle|}}}
+| label-size ={{{label-size|}}}
+| label-color={{{label-color|}}}
+| label-pos={{{label-pos|}}} 
+| label-offset-x={{{label-offset-x|}}}
+| label-offset-y={{{label-offset-y|}}} 
+| numbered=0
+}}
+} }} 
+{{#if:{{{arc-textA|}}}|, 
+{
+{{OSM Location map/ArcText
+| arc-lat =  {{{arc-latA|20}}}
+| arc-lon =  {{{arc-lonA|30}}}
+| arc-text = {{{arc-textA|}}}
+| arc-angle ={{{arc-angleA|-15}}}
+| arc-gap =  {{#expr:{{{arc-gapA|1}}}*((sin((8-{{{arc-radiusA|0.05}}})*pi/180*11)^8)+0.4)*(({{{arc-text-sizeA|10}}}+6)/15)}}
+| arc-radius={{#expr:{{{arc-radiusA|-6}}}*cos({{{arc-latA|-45}}}*pi/180) }}
+| arc-text-size ={{{arc-text-sizeA|10}}}
+| arc-text-color={{{arc-text-colorA|#554433}}}
+| ellipse-factor={{#ifexpr:abs {{{arc-latA|0}}}<15|{{{ellipse-factorA|1}}}
+   | {{#ifexpr:abs {{{arc-latA|0}}}<30|{{#expr:1.05*{{{ellipse-factorA|1}}} }}
+   | {{#ifexpr:abs {{{arc-latA|0}}}<45|{{#expr:1.1*{{{ellipse-factorA|1}}} }}
+   | {{#ifexpr:abs {{{arc-latA|0}}}<60|{{#expr:1.3*{{{ellipse-factorA|1}}} }}
+   | {{#ifexpr:abs {{{arc-latA|0}}}<70|{{#expr:1.5*{{{ellipse-factorA|1}}} }}
+   | {{#ifexpr:abs {{{arc-latA|0}}}<80|{{#expr:1.9*{{{ellipse-factorA|1}}} }}  | {{#expr:2.9*{{{ellipse-factorA|1}}} }}
+}} }} }} }} }} }}
+}}
+} }}
+{{#if:{{{arc-textB|}}}|, 
+{
+{{OSM Location map/ArcText
+| arc-lat =  {{{arc-latB|20}}}
+| arc-lon =  {{{arc-lonB|30}}}
+| arc-text = {{{arc-textB|}}}
+| arc-angle ={{{arc-angleB|-15}}}
+| arc-gap =  {{#expr:{{{arc-gapB|1}}}*((sin((8-{{{arc-radiusB|0.05}}})*pi/180*11)^8)+0.4)*(({{{arc-text-sizeB|10}}}+6)/15)}}
+| arc-radius={{#expr:{{{arc-radiusB|-6}}}*cos({{{arc-latB|-45}}}*pi/180) }}
+| arc-text-size ={{{arc-text-sizeB|10}}}
+| arc-text-color={{{arc-text-colorB|#554433}}}
+| ellipse-factor={{#ifexpr:abs {{{arc-latB|0}}}<15|{{{ellipse-factorB|1}}}
+   | {{#ifexpr:abs {{{arc-latB|0}}}<30|{{#expr:1.05*{{{ellipse-factorB|1}}} }}
+   | {{#ifexpr:abs {{{arc-latB|0}}}<45|{{#expr:1.1*{{{ellipse-factorB|1}}} }}
+   | {{#ifexpr:abs {{{arc-latB|0}}}<60|{{#expr:1.3*{{{ellipse-factorB|1}}} }}
+   | {{#ifexpr:abs {{{arc-latB|0}}}<70|{{#expr:1.5*{{{ellipse-factorB|1}}} }}
+   | {{#ifexpr:abs {{{arc-latB|0}}}<80|{{#expr:1.9*{{{ellipse-factorB|1}}} }}  | {{#expr:2.9*{{{ellipse-factorB|1}}} }}
+}} }} }} }} }} }}
+}}
+} }}
+{{#if:{{{arc-textC|}}}|, 
+{
+{{OSM Location map/ArcText
+| arc-lat =  {{{arc-latC|20}}}
+| arc-lon =  {{{arc-lonC|30}}}
+| arc-text = {{{arc-textC|}}}
+| arc-angle ={{{arc-angleC|-15}}}
+| arc-gap =  {{#expr:{{{arc-gapC|1}}}*((sin((8-{{{arc-radiusC|0.05}}})*pi/180*11)^8)+0.4)*(({{{arc-text-sizeC|10}}}+6)/15)}}
+| arc-radius={{#expr:{{{arc-radiusC|-6}}}*cos({{{arc-latC|-45}}}*pi/180) }}
+| arc-text-size ={{{arc-text-sizeC|10}}}
+| arc-text-color={{{arc-text-colorC|#554433}}}
+| ellipse-factor={{#ifexpr:abs {{{arc-latC|0}}}<15|{{{ellipse-factorC|1}}}
+   | {{#ifexpr:abs {{{arc-latC|0}}}<30|{{#expr:1.05*{{{ellipse-factorC|1}}} }}
+   | {{#ifexpr:abs {{{arc-latC|0}}}<45|{{#expr:1.1*{{{ellipse-factorC|1}}} }}
+   | {{#ifexpr:abs {{{arc-latC|0}}}<60|{{#expr:1.3*{{{ellipse-factorC|1}}} }}
+   | {{#ifexpr:abs {{{arc-latC|0}}}<70|{{#expr:1.5*{{{ellipse-factorC|1}}} }}
+   | {{#ifexpr:abs {{{arc-latC|0}}}<80|{{#expr:1.9*{{{ellipse-factorC|1}}} }}  | {{#expr:2.9*{{{ellipse-factorC|1}}} }}
+}} }} }} }} }} }}
+}}
+} }}
+{{#if:{{{mark-lat1|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape1|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered1|}}}
+| mark-lat={{{mark-lat1|}}}
+| mark-lon={{{mark-lon1|}}}
+| shape-color={{{shape-color1|}}}
+| shape-outline={{{shape-outline1|}}}
+| shape-halo={{{shape-halo1|}}}
+| mark = {{{mark1|}}}
+| mark-size={{{mark-size1|}}}
+| mark-dim={{{mark-dim1|}}}
+| label ={{{label1|}}}
+| labela={{{labela1|}}}
+| labelb={{{labelb1|}}}
+| label-angle={{{label-angle1|}}}| label-size ={{{label-size1|}}}
+| label-color={{{label-color1|}}}
+| label-pos={{{label-pos1|}}} 
+| label-offset-x={{{label-offset-x1|}}}
+| label-offset-y={{{label-offset-y1|}}} 
+}}
+} }}
+{{#if:{{{mark-lat2|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape2|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered2|}}}
+| mark-lat={{{mark-lat2|}}}
+| mark-lon={{{mark-lon2|}}}
+| shape-color={{{shape-color2|}}}
+| shape-outline={{{shape-outline2|}}}
+| shape-halo={{{shape-halo2|}}}
+| mark = {{{mark2|}}}
+| mark-size={{{mark-size2|}}}
+| mark-dim={{{mark-dim2|}}}
+| label ={{{label2|}}}
+| labela={{{labela2|}}}
+| labelb={{{labelb2|}}}
+| label-angle={{{label-angle2|}}}
+| label-size ={{{label-size2|}}}
+| label-color={{{label-color2|}}}
+| label-pos={{{label-pos2|}}} 
+| label-offset-x={{{label-offset-x2|}}}
+| label-offset-y={{{label-offset-y2|}}} 
+}}
+} }}
+{{#if:{{{mark-lat3|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape3|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered3|}}}
+| mark-lat={{{mark-lat3|}}}
+| mark-lon={{{mark-lon3|}}}
+| shape-color={{{shape-color3|}}}
+| shape-outline={{{shape-outline3|}}}
+| shape-halo={{{shape-halo3|}}}
+| mark = {{{mark3|}}}
+| mark-size={{{mark-size3|}}}
+| mark-dim={{{mark-dim3|}}}
+| label ={{{label3|}}}
+| labela={{{labela3|}}}
+| labelb={{{labelb3|}}}
+| label-angle={{{label-angle3|}}}
+| label-size ={{{label-size3|}}}
+| label-color={{{label-color3|}}}
+| label-pos={{{label-pos3|}}} 
+| label-offset-x={{{label-offset-x3|}}}
+| label-offset-y={{{label-offset-y3|}}} 
+}}
+} }}
+{{#if:{{{mark-lat4|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape4|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered4|}}}
+| mark-lat={{{mark-lat4|}}}
+| mark-lon={{{mark-lon4|}}}
+| shape-color={{{shape-color4|}}}
+| shape-outline={{{shape-outline4|}}}
+| shape-halo={{{shape-halo4|}}}
+| mark = {{{mark4|}}}
+| mark-size={{{mark-size4|}}}
+| mark-dim={{{mark-dim4|}}}
+| label ={{{label4|}}}
+| labela={{{labela4|}}}
+| labelb={{{labelb4|}}}
+| label-angle={{{label-angle4|}}}
+| label-size ={{{label-size4|}}}
+| label-color={{{label-color4|}}}
+| label-pos={{{label-pos4|}}} 
+| label-offset-x={{{label-offset-x4|}}}
+| label-offset-y={{{label-offset-y4|}}} 
+}}
+} }}
+{{#if:{{{mark-lat5|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape5|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered5|}}}
+| mark-lat={{{mark-lat5|}}}
+| mark-lon={{{mark-lon5|}}}
+| shape-color={{{shape-color5|}}}
+| shape-outline={{{shape-outline5|}}}
+| shape-halo={{{shape-halo5|}}}
+| mark = {{{mark5|}}}
+| mark-size={{{mark-size5|}}}
+| mark-dim={{{mark-dim5|}}}
+| label ={{{label5|}}}
+| labela={{{labela5|}}}
+| labelb={{{labelb5|}}}
+| label-angle={{{label-angle5|}}}
+| label-size ={{{label-size5|}}}
+| label-color={{{label-color5|}}}
+| label-pos={{{label-pos5|}}} 
+| label-offset-x={{{label-offset-x5|}}}
+| label-offset-y={{{label-offset-y5|}}} 
+}}
+} }}
+{{#if:{{{mark-lat6|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape6|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered6|}}}
+| mark-lat={{{mark-lat6|}}}
+| mark-lon={{{mark-lon6|}}}
+| shape-color={{{shape-color6|}}}
+| shape-outline={{{shape-outline6|}}}
+| shape-halo={{{shape-halo6|}}}
+| mark = {{{mark6|}}}
+| mark-size={{{mark-size6|}}}
+| mark-dim={{{mark-dim6|}}}
+| label ={{{label6|}}}
+| labela={{{labela6|}}}
+| labelb={{{labelb6|}}}
+| label-angle={{{label-angle6|}}}
+| label-size ={{{label-size6|}}}
+| label-color={{{label-color6|}}}
+| label-pos={{{label-pos6|}}} 
+| label-offset-x={{{label-offset-x6|}}}
+| label-offset-y={{{label-offset-y6|}}} 
+}}
+} }}
+{{#if:{{{mark-lat7|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape7|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered7|}}}
+| mark-lat={{{mark-lat7|}}}
+| mark-lon={{{mark-lon7|}}}
+| shape-color={{{shape-color7|}}}
+| shape-outline={{{shape-outline7|}}}
+| shape-halo={{{shape-halo7|}}}
+| mark = {{{mark7|}}}
+| mark-size={{{mark-size7|}}}
+| mark-dim={{{mark-dim7|}}}
+| label ={{{label7|}}}
+| labela={{{labela7|}}}
+| labelb={{{labelb7|}}}
+| label-angle={{{label-angle7|}}}
+| label-size ={{{label-size7|}}}
+| label-color={{{label-color7|}}}
+| label-pos={{{label-pos7|}}} 
+| label-offset-x={{{label-offset-x7|}}}
+| label-offset-y={{{label-offset-y7|}}} 
+}}
+} }}
+{{#if:{{{mark-lat8|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape8|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered8|}}}
+| mark-lat={{{mark-lat8|}}}
+| mark-lon={{{mark-lon8|}}}
+| shape-color={{{shape-color8|}}}
+| shape-outline={{{shape-outline8|}}}
+| shape-halo={{{shape-halo8|}}}
+| mark = {{{mark8|}}}
+| mark-size={{{mark-size8|}}}
+| mark-dim={{{mark-dim8|}}}
+| label ={{{label8|}}}
+| labela={{{labela8|}}}
+| labelb={{{labelb8|}}}
+| label-angle={{{label-angle8|}}}
+| label-size ={{{label-size8|}}}
+| label-color={{{label-color8|}}}
+| label-pos={{{label-pos8|}}} 
+| label-offset-x={{{label-offset-x8|}}}
+| label-offset-y={{{label-offset-y8|}}} 
+}}
+} }}
+{{#if:{{{mark-lat9|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape9|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered9|}}}
+| mark-lat={{{mark-lat9|}}}
+| mark-lon={{{mark-lon9|}}}
+| shape-color={{{shape-color9|}}}
+| shape-outline={{{shape-outline9|}}}
+| shape-halo={{{shape-halo9|}}}
+| mark = {{{mark9|}}}
+| mark-size={{{mark-size9|}}}
+| mark-dim={{{mark-dim9|}}}
+| label ={{{label9|}}}
+| labela={{{labela9|}}}
+| labelb={{{labelb9|}}}
+| label-angle={{{label-angle9|}}}
+| label-size ={{{label-size9|}}}
+| label-color={{{label-color9|}}}
+| label-pos={{{label-pos9|}}} 
+| label-offset-x={{{label-offset-x9|}}}
+| label-offset-y={{{label-offset-y9|}}} 
+}}
+} }} 
+{{#if:{{{mark-lat10|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape10|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered10|}}}
+| mark-lat={{{mark-lat10|}}}
+| mark-lon={{{mark-lon10|}}}
+| shape-color={{{shape-color10|}}}
+| shape-outline={{{shape-outline10|}}}
+| shape-halo={{{shape-halo10|}}}
+| mark = {{{mark10|}}}
+| mark-size={{{mark-size10|}}}
+| mark-dim={{{mark-dim10|}}}
+| label ={{{label10|}}}
+| labela={{{labela10|}}}
+| labelb={{{labelb10|}}}
+| label-angle={{{label-angle10|}}}
+| label-size ={{{label-size10|}}}
+| label-color={{{label-color10|}}}
+| label-pos={{{label-pos10|}}} 
+| label-offset-x={{{label-offset-x10|}}}
+| label-offset-y={{{label-offset-y10|}}} 
+}}
+} }}
+{{#if:{{{mark-lat11|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape11|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered11|}}}
+| mark-lat={{{mark-lat11|}}}
+| mark-lon={{{mark-lon11|}}}
+| shape-color={{{shape-color11|}}}
+| shape-outline={{{shape-outline11|}}}
+| shape-halo={{{shape-halo11|}}}
+| mark = {{{mark11|}}}
+| mark-size={{{mark-size11|}}}
+| mark-dim={{{mark-dim11|}}}
+| label ={{{label11|}}}
+| labela={{{labela11|}}}
+| labelb={{{labelb11|}}}
+| label-angle={{{label-angle11|}}}
+| label-size ={{{label-size11|}}}
+| label-color={{{label-color11|}}}
+| label-pos={{{label-pos11|}}} 
+| label-offset-x={{{label-offset-x11|}}}
+| label-offset-y={{{label-offset-y11|}}} 
+}}
+} }}
+{{#if:{{{mark-lat12|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape12|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered12|}}}
+| mark-lat={{{mark-lat12|}}}
+| mark-lon={{{mark-lon12|}}}
+| shape-color={{{shape-color12|}}}
+| shape-outline={{{shape-outline12|}}}
+| shape-halo={{{shape-halo12|}}}
+| mark = {{{mark12|}}}
+| mark-size={{{mark-size12|}}}
+| mark-dim={{{mark-dim12|}}}
+| label ={{{label12|}}}
+| labela={{{labela12|}}}
+| labelb={{{labelb12|}}}
+| label-angle={{{label-angle12|}}}
+| label-size ={{{label-size12|}}}
+| label-color={{{label-color12|}}}
+| label-pos={{{label-pos12|}}} 
+| label-offset-x={{{label-offset-x12|}}}
+| label-offset-y={{{label-offset-y12|}}} 
+}}
+} }}
+{{#if:{{{mark-lat13|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape13|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered13|}}}
+| mark-lat={{{mark-lat13|}}}
+| mark-lon={{{mark-lon13|}}}
+| shape-color={{{shape-color13|}}}
+| shape-outline={{{shape-outline13|}}}
+| shape-halo={{{shape-halo13|}}}
+| mark = {{{mark13|}}}
+| mark-size={{{mark-size13|}}}
+| mark-dim={{{mark-dim13|}}}
+| label ={{{label13|}}}
+| labela={{{labela13|}}}
+| labelb={{{labelb13|}}}
+| label-angle={{{label-angle13|}}}
+| label-size ={{{label-size13|}}}
+| label-color={{{label-color13|}}}
+| label-pos={{{label-pos13|}}} 
+| label-offset-x={{{label-offset-x13|}}}
+| label-offset-y={{{label-offset-y13|}}} 
+}}
+} }}
+{{#if:{{{mark-lat14|}}}|, 
+{
+{{OSM Location map/Labelitem
+| shape = {{#switch: {{{shape14|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+| numbered = {{{numbered14|}}}
+| mark-lat={{{mark-lat14|}}}
+| mark-lon={{{mark-lon14|}}}
+| shape-color={{{shape-color14|}}}
+| shape-outline={{{shape-outline14|}}}
+| shape-halo={{{shape-halo14|}}}
+| mark = {{{mark14|}}}
+| mark-size={{{mark-size14|}}}
+| mark-dim={{{mark-dim14|}}}
+| label ={{{label14|}}}
+| labela={{{labela14|}}}
+| labelb={{{labelb14|}}}
+| label-angle={{{label-angle14|}}}
+| label-size ={{{label-size14|}}}
+| label-color={{{label-color14|}}}
+| label-pos={{{label-pos14|}}} 
+| label-offset-x={{{label-offset-x14|}}}
+| label-offset-y={{{label-offset-y14|}}} 
+}}
+} }}
+{{#if:{{{mark-lat15|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape15|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered15|}}}
+|           mark-lat={{{mark-lat15|}}}
+|           mark-lon={{{mark-lon15|}}}
+|     shape-color={{{shape-color15|}}}
+| shape-outline={{{shape-outline15|}}}
+|                 mark = {{{mark15|}}}
+|       shape-halo={{{shape-halo15|}}}
+|         mark-size={{{mark-size15|}}}
+|           mark-dim={{{mark-dim15|}}}
+|                label ={{{label15|}}}
+|               labela={{{labela15|}}}
+|               labelb={{{labelb15|}}}
+|     label-angle={{{label-angle15|}}}
+|      label-size ={{{label-size15|}}}
+|     label-color={{{label-color15|}}}
+|         label-pos={{{label-pos15|}}} 
+|label-offset-x={{{label-offset-x15|}}}
+|label-offset-y={{{label-offset-y15|}}} 
+}}
+} }}
+{{#if:{{{mark-lat16|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape16|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered16|}}}
+|           mark-lat={{{mark-lat16|}}}
+|           mark-lon={{{mark-lon16|}}}
+|     shape-color={{{shape-color16|}}}
+| shape-outline={{{shape-outline16|}}}
+|       shape-halo={{{shape-halo16|}}}
+|                 mark = {{{mark16|}}}
+|         mark-size={{{mark-size16|}}}
+|           mark-dim={{{mark-dim16|}}}
+|                label ={{{label16|}}}
+|               labela={{{labela16|}}}
+|               labelb={{{labelb16|}}}
+|     label-angle={{{label-angle16|}}}
+|      label-size ={{{label-size16|}}}
+|     label-color={{{label-color16|}}}
+|         label-pos={{{label-pos16|}}} 
+|label-offset-x={{{label-offset-x16|}}}
+|label-offset-y={{{label-offset-y16|}}} 
+}}
+} }}
+{{#if:{{{mark-lat17|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape17|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered17|}}}
+|           mark-lat={{{mark-lat17|}}}
+|           mark-lon={{{mark-lon17|}}}
+|     shape-color={{{shape-color17|}}}
+| shape-outline={{{shape-outline17|}}}
+|       shape-halo={{{shape-halo17|}}}
+|                 mark = {{{mark17|}}}
+|         mark-size={{{mark-size17|}}}
+|           mark-dim={{{mark-dim17|}}}
+|                label ={{{label17|}}}
+|               labela={{{labela17|}}}
+|               labelb={{{labelb17|}}}
+|     label-angle={{{label-angle17|}}}
+|      label-size ={{{label-size17|}}}
+|     label-color={{{label-color17|}}}
+|         label-pos={{{label-pos17|}}} 
+|label-offset-x={{{label-offset-x17|}}}
+|label-offset-y={{{label-offset-y17|}}} 
+}}
+} }}
+{{#if:{{{mark-lat18|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape18|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered18|}}}
+|           mark-lat={{{mark-lat18|}}}
+|           mark-lon={{{mark-lon18|}}}
+|     shape-color={{{shape-color18|}}}
+| shape-outline={{{shape-outline18|}}}
+|       shape-halo={{{shape-halo18|}}}
+|                 mark = {{{mark18|}}}
+|         mark-size={{{mark-size18|}}}
+|           mark-dim={{{mark-dim18|}}}
+|                label ={{{label18|}}}
+|               labela={{{labela18|}}}
+|               labelb={{{labelb18|}}}
+|     label-angle={{{label-angle18|}}}
+|      label-size ={{{label-size18|}}}
+|     label-color={{{label-color18|}}}
+|         label-pos={{{label-pos18|}}} 
+|label-offset-x={{{label-offset-x18|}}}
+|label-offset-y={{{label-offset-y18|}}} 
+}}
+} }}
+{{#if:{{{mark-lat19|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape19|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered19|}}}
+|           mark-lat={{{mark-lat19|}}}
+|           mark-lon={{{mark-lon19|}}}
+|     shape-color={{{shape-color19|}}}
+| shape-outline={{{shape-outline19|}}}
+|       shape-halo={{{shape-halo19|}}}
+|                 mark = {{{mark19|}}}
+|         mark-size={{{mark-size19|}}}
+|           mark-dim={{{mark-dim19|}}}
+|                label ={{{label19|}}}
+|               labela={{{labela19|}}}
+|               labelb={{{labelb19|}}}
+|     label-angle={{{label-angle19|}}}
+|      label-size ={{{label-size19|}}}
+|     label-color={{{label-color19|}}}
+|         label-pos={{{label-pos19|}}} 
+|label-offset-x={{{label-offset-x19|}}}
+|label-offset-y={{{label-offset-y19|}}} 
+}}
+} }}
+{{#if:{{{mark-lat20|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape20|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered20|}}}
+|           mark-lat={{{mark-lat20|}}}
+|           mark-lon={{{mark-lon20|}}}
+|     shape-color={{{shape-color20|}}}
+| shape-outline={{{shape-outline20|}}}
+|       shape-halo={{{shape-halo20|}}}
+|                 mark = {{{mark20|}}}
+|         mark-size={{{mark-size20|}}}
+|           mark-dim={{{mark-dim20|}}}
+|                label ={{{label20|}}}
+|               labela={{{labela20|}}}
+|               labelb={{{labelb20|}}}
+|     label-angle={{{label-angle20|}}}
+|      label-size ={{{label-size20|}}}
+|     label-color={{{label-color20|}}}
+|         label-pos={{{label-pos20|}}} 
+|label-offset-x={{{label-offset-x20|}}}
+|label-offset-y={{{label-offset-y20|}}} 
+}}
+} }}
+{{#if:{{{mark-lat21|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape21|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered21|}}}
+|           mark-lat={{{mark-lat21|}}}
+|           mark-lon={{{mark-lon21|}}}
+|     shape-color={{{shape-color21|}}}
+| shape-outline={{{shape-outline21|}}}
+|       shape-halo={{{shape-halo21|}}}
+|                 mark = {{{mark21|}}}
+|         mark-size={{{mark-size21|}}}
+|           mark-dim={{{mark-dim21|}}}
+|                label ={{{label21|}}}
+|               labela={{{labela21|}}}
+|               labelb={{{labelb21|}}}
+|     label-angle={{{label-angle21|}}}
+|      label-size ={{{label-size21|}}}
+|     label-color={{{label-color21|}}}
+|         label-pos={{{label-pos21|}}} 
+| label-offset-x={{{label-offset-x21|}}}
+| label-offset-y={{{label-offset-y21|}}} 
+}}
+} }}
+{{#if:{{{mark-lat22|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape22|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered22|}}}
+|           mark-lat={{{mark-lat22|}}}
+|           mark-lon={{{mark-lon22|}}}
+|     shape-color={{{shape-color22|}}}
+| shape-outline={{{shape-outline22|}}}
+|       shape-halo={{{shape-halo22|}}}
+|                 mark = {{{mark22|}}}
+|         mark-size={{{mark-size22|}}}
+|           mark-dim={{{mark-dim22|}}}
+|                label ={{{label22|}}}
+|               labela={{{labela22|}}}
+|               labelb={{{labelb22|}}}
+|     label-angle={{{label-angle22|}}}
+|      label-size ={{{label-size22|}}}
+|     label-color={{{label-color22|}}}
+|         label-pos={{{label-pos22|}}} 
+| label-offset-x={{{label-offset-x22|}}}
+| label-offset-y={{{label-offset-y22|}}} 
+}}
+} }}
+{{#if:{{{mark-lat23|}}}|, 
+{
+{{OSM Location map/Labelitem
+|     shape = {{#switch: {{{shape23|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|          numbered = {{{numbered23|}}}
+|            mark-lat={{{mark-lat23|}}}
+|            mark-lon={{{mark-lon23|}}}
+|      shape-color={{{shape-color23|}}}
+|  shape-outline={{{shape-outline23|}}}
+|        shape-halo={{{shape-halo23|}}}
+|                  mark = {{{mark23|}}}
+|          mark-size={{{mark-size23|}}}
+|            mark-dim={{{mark-dim23|}}}
+|                 label ={{{label23|}}}
+|                labela={{{labela23|}}}
+|                labelb={{{labelb23|}}}
+|      label-angle={{{label-angle23|}}}
+|       label-size ={{{label-size23|}}}
+|      label-color={{{label-color23|}}}
+|          label-pos={{{label-pos23|}}} 
+| label-offset-x={{{label-offset-x23|}}}
+| label-offset-y={{{label-offset-y23|}}} 
+}}
+} }}
+{{#if:{{{mark-lat24|}}}|, 
+{
+{{OSM Location map/Labelitem
+|   shape = {{#switch: {{{shape24|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|        numbered = {{{numbered24|}}}
+|          mark-lat={{{mark-lat24|}}}
+|          mark-lon={{{mark-lon24|}}}
+|    shape-color={{{shape-color24|}}}
+| shape-outline={{{shape-outline24|}}}
+|       shape-halo={{{shape-halo24|}}}
+|                 mark = {{{mark24|}}}
+|         mark-size={{{mark-size24|}}}
+|           mark-dim={{{mark-dim24|}}}
+|                label ={{{label24|}}}
+|               labela={{{labela24|}}}
+|               labelb={{{labelb24|}}}
+|     label-angle={{{label-angle24|}}}
+|      label-size ={{{label-size24|}}}
+|     label-color={{{label-color24|}}}
+|         label-pos={{{label-pos24|}}} 
+| label-offset-x={{{label-offset-x24|}}}
+| label-offset-y={{{label-offset-y24|}}} 
+}}
+} }}
+{{#if:{{{mark-lat25|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape25|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered25|}}}
+|           mark-lat={{{mark-lat25|}}}
+|           mark-lon={{{mark-lon25|}}}
+|     shape-color={{{shape-color25|}}}
+| shape-outline={{{shape-outline25|}}}
+|       shape-halo={{{shape-halo25|}}}
+|                 mark = {{{mark25|}}}
+|         mark-size={{{mark-size25|}}}
+|           mark-dim={{{mark-dim25|}}}
+|                label ={{{label25|}}}
+|               labela={{{labela25|}}}
+|               labelb={{{labelb25|}}}
+|     label-angle={{{label-angle25|}}}
+|      label-size ={{{label-size25|}}}
+|     label-color={{{label-color25|}}}
+|         label-pos={{{label-pos25|}}} 
+|label-offset-x={{{label-offset-x25|}}}
+|label-offset-y={{{label-offset-y25|}}} 
+}}
+} }}
+{{#if:{{{mark-lat26|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape26|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered26|}}}
+|           mark-lat={{{mark-lat26|}}}
+|           mark-lon={{{mark-lon26|}}}
+|     shape-color={{{shape-color26|}}}
+| shape-outline={{{shape-outline26|}}}
+|       shape-halo={{{shape-halo26|}}}
+|                 mark = {{{mark26|}}}
+|         mark-size={{{mark-size26|}}}
+|           mark-dim={{{mark-dim26|}}}
+|                label ={{{label26|}}}
+|               labela={{{labela26|}}}
+|               labelb={{{labelb26|}}}
+|     label-angle={{{label-angle26|}}}
+|      label-size ={{{label-size26|}}}
+|     label-color={{{label-color26|}}}
+|         label-pos={{{label-pos26|}}} 
+|label-offset-x={{{label-offset-x26|}}}
+|label-offset-y={{{label-offset-y26|}}} 
+}}
+} }}
+{{#if:{{{mark-lat27|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape27|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered27|}}}
+|           mark-lat={{{mark-lat27|}}}
+|           mark-lon={{{mark-lon27|}}}
+|     shape-color={{{shape-color27|}}}
+| shape-outline={{{shape-outline27|}}}
+|       shape-halo={{{shape-halo27|}}}
+|                 mark = {{{mark27|}}}
+|         mark-size={{{mark-size27|}}}
+|           mark-dim={{{mark-dim27|}}}
+|                label ={{{label27|}}}
+|               labela={{{labela27|}}}
+|               labelb={{{labelb27|}}}
+|     label-angle={{{label-angle27|}}}
+|      label-size ={{{label-size27|}}}
+|     label-color={{{label-color27|}}}
+|         label-pos={{{label-pos27|}}} 
+|label-offset-x={{{label-offset-x27|}}}
+|label-offset-y={{{label-offset-y27|}}} 
+}}
+} }}
+{{#if:{{{mark-lat28|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape28|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered28|}}}
+|           mark-lat={{{mark-lat28|}}}
+|           mark-lon={{{mark-lon28|}}}
+|     shape-color={{{shape-color28|}}}
+| shape-outline={{{shape-outline28|}}}
+|       shape-halo={{{shape-halo28|}}}
+|                 mark = {{{mark28|}}}
+|         mark-size={{{mark-size28|}}}
+|           mark-dim={{{mark-dim28|}}}
+|                label ={{{label28|}}}
+|               labela={{{labela28|}}}
+|               labelb={{{labelb28|}}}
+|     label-angle={{{label-angle28|}}}
+|      label-size ={{{label-size28|}}}
+|     label-color={{{label-color28|}}}
+|         label-pos={{{label-pos28|}}} 
+|label-offset-x={{{label-offset-x28|}}}
+|label-offset-y={{{label-offset-y28|}}} 
+}}
+} }}
+{{#if:{{{mark-lat29|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape29|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered29|}}}
+|           mark-lat={{{mark-lat29|}}}
+|           mark-lon={{{mark-lon29|}}}
+|     shape-color={{{shape-color29|}}}
+| shape-outline={{{shape-outline29|}}}
+|       shape-halo={{{shape-halo29|}}}
+|                 mark = {{{mark29|}}}
+|         mark-size={{{mark-size29|}}}
+|           mark-dim={{{mark-dim29|}}}
+|                label ={{{label29|}}}
+|               labela={{{labela29|}}}
+|               labelb={{{labelb29|}}}
+|     label-angle={{{label-angle29|}}}
+|      label-size ={{{label-size29|}}}
+|     label-color={{{label-color29|}}}
+|         label-pos={{{label-pos29|}}} 
+|label-offset-x={{{label-offset-x29|}}}
+|label-offset-y={{{label-offset-y29|}}} 
+}}
+} }}
+{{#if:{{{mark-lat30|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape30|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered30|}}}
+|           mark-lat={{{mark-lat30|}}}
+|           mark-lon={{{mark-lon30|}}}
+|     shape-color={{{shape-color30|}}}
+| shape-outline={{{shape-outline30|}}}
+|       shape-halo={{{shape-halo30|}}}
+|                 mark = {{{mark30|}}}
+|         mark-size={{{mark-size30|}}}
+|           mark-dim={{{mark-dim30|}}}
+|                label ={{{label30|}}}
+|               labela={{{labela30|}}}
+|               labelb={{{labelb30|}}}
+|     label-angle={{{label-angle30|}}}
+|      label-size ={{{label-size30|}}}
+|     label-color={{{label-color30|}}}
+|         label-pos={{{label-pos30|}}} 
+|label-offset-x={{{label-offset-x30|}}}
+|label-offset-y={{{label-offset-y30|}}} 
+}}
+} }}
+{{#if:{{{mark-lat31|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape31|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered31|}}}
+|           mark-lat={{{mark-lat31|}}}
+|           mark-lon={{{mark-lon31|}}}
+|     shape-color={{{shape-color31|}}}
+| shape-outline={{{shape-outline31|}}}
+|       shape-halo={{{shape-halo31|}}}
+|                 mark = {{{mark31|}}}
+|         mark-size={{{mark-size31|}}}
+|           mark-dim={{{mark-dim31|}}}
+|                label ={{{label31|}}}
+|               labela={{{labela31|}}}
+|               labelb={{{labelb31|}}}
+|     label-angle={{{label-angle31|}}}
+|      label-size ={{{label-size31|}}}
+|     label-color={{{label-color31|}}}
+|         label-pos={{{label-pos31|}}} 
+|label-offset-x={{{label-offset-x31|}}}
+|label-offset-y={{{label-offset-y31|}}} 
+}}
+} }}
+{{#if:{{{mark-lat32|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape32|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered32|}}}
+|           mark-lat={{{mark-lat32|}}}
+|           mark-lon={{{mark-lon32|}}}
+|     shape-color={{{shape-color32|}}}
+| shape-outline={{{shape-outline32|}}}
+|       shape-halo={{{shape-halo32|}}}
+|                 mark = {{{mark32|}}}
+|         mark-size={{{mark-size32|}}}
+|           mark-dim={{{mark-dim32|}}}
+|                label ={{{label32|}}}
+|               labela={{{labela32|}}}
+|               labelb={{{labelb32|}}}
+|     label-angle={{{label-angle32|}}}
+|      label-size ={{{label-size32|}}}
+|     label-color={{{label-color32|}}}
+|         label-pos={{{label-pos32|}}} 
+|label-offset-x={{{label-offset-x32|}}}
+|label-offset-y={{{label-offset-y32|}}} 
+}}
+} }}
+{{#if:{{{mark-lat33|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape33|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered33|}}}
+|           mark-lat={{{mark-lat33|}}}
+|           mark-lon={{{mark-lon33|}}}
+|     shape-color={{{shape-color33|}}}
+| shape-outline={{{shape-outline33|}}}
+|       shape-halo={{{shape-halo33|}}}
+|                 mark = {{{mark33|}}}
+|         mark-size={{{mark-size33|}}}
+|           mark-dim={{{mark-dim33|}}}
+|                label ={{{label33|}}}
+|               labela={{{labela33|}}}
+|               labelb={{{labelb33|}}}
+|     label-angle={{{label-angle33|}}}
+|      label-size ={{{label-size33|}}}
+|     label-color={{{label-color33|}}}
+|         label-pos={{{label-pos33|}}} 
+|label-offset-x={{{label-offset-x33|}}}
+|label-offset-y={{{label-offset-y33|}}} 
+}}
+} }}
+{{#if:{{{mark-lat34|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape34|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered34|}}}
+|           mark-lat={{{mark-lat34|}}}
+|           mark-lon={{{mark-lon34|}}}
+|     shape-color={{{shape-color34|}}}
+| shape-outline={{{shape-outline34|}}}
+|       shape-halo={{{shape-halo34|}}}
+|                 mark = {{{mark34|}}}
+|         mark-size={{{mark-size34|}}}
+|           mark-dim={{{mark-dim34|}}}
+|                label ={{{label34|}}}
+|               labela={{{labela34|}}}
+|               labelb={{{labelb34|}}}
+|     label-angle={{{label-angle34|}}}
+|      label-size ={{{label-size34|}}}
+|     label-color={{{label-color34|}}}
+|         label-pos={{{label-pos34|}}} 
+|label-offset-x={{{label-offset-x34|}}}
+|label-offset-y={{{label-offset-y34|}}} 
+}}
+} }}
+{{#if:{{{mark-lat35|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape35|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered35|}}}
+|           mark-lat={{{mark-lat35|}}}
+|           mark-lon={{{mark-lon35|}}}
+|     shape-color={{{shape-color35|}}}
+| shape-outline={{{shape-outline35|}}}
+|       shape-halo={{{shape-halo35|}}}
+|                 mark = {{{mark35|}}}
+|         mark-size={{{mark-size35|}}}
+|           mark-dim={{{mark-dim35|}}}
+|                label ={{{label35|}}}
+|               labela={{{labela35|}}}
+|               labelb={{{labelb35|}}}
+|     label-angle={{{label-angle35|}}}
+|      label-size ={{{label-size35|}}}
+|     label-color={{{label-color35|}}}
+|         label-pos={{{label-pos35|}}} 
+|label-offset-x={{{label-offset-x35|}}}
+|label-offset-y={{{label-offset-y35|}}} 
+}}
+} }}
+{{#if:{{{mark-lat36|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape36|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered36|}}}
+|           mark-lat={{{mark-lat36|}}}
+|           mark-lon={{{mark-lon36|}}}
+|     shape-color={{{shape-color36|}}}
+| shape-outline={{{shape-outline36|}}}
+|       shape-halo={{{shape-halo36|}}}
+|                 mark = {{{mark36|}}}
+|         mark-size={{{mark-size36|}}}
+|           mark-dim={{{mark-dim36|}}}
+|                label ={{{label36|}}}
+|               labela={{{labela36|}}}
+|               labelb={{{labelb36|}}}
+|     label-angle={{{label-angle36|}}}
+|      label-size ={{{label-size36|}}}
+|     label-color={{{label-color36|}}}
+|         label-pos={{{label-pos36|}}} 
+|label-offset-x={{{label-offset-x36|}}}
+|label-offset-y={{{label-offset-y36|}}} 
+}}
+} }}
+{{#if:{{{mark-lat37|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape37|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered37|}}}
+|           mark-lat={{{mark-lat37|}}}
+|           mark-lon={{{mark-lon37|}}}
+|     shape-color={{{shape-color37|}}}
+| shape-outline={{{shape-outline37|}}}
+|       shape-halo={{{shape-halo37|}}}
+|                 mark = {{{mark37|}}}
+|         mark-size={{{mark-size37|}}}
+|           mark-dim={{{mark-dim37|}}}
+|                label ={{{label37|}}}
+|               labela={{{labela37|}}}
+|               labelb={{{labelb37|}}}
+|     label-angle={{{label-angle37|}}}
+|      label-size ={{{label-size37|}}}
+|     label-color={{{label-color37|}}}
+|         label-pos={{{label-pos37|}}} 
+|label-offset-x={{{label-offset-x37|}}}
+|label-offset-y={{{label-offset-y37|}}} 
+}}
+} }}
+{{#if:{{{mark-lat38|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape38|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered38|}}}
+|           mark-lat={{{mark-lat38|}}}
+|           mark-lon={{{mark-lon38|}}}
+|     shape-color={{{shape-color38|}}}
+| shape-outline={{{shape-outline38|}}}
+|       shape-halo={{{shape-halo38|}}}
+|                 mark = {{{mark38|}}}
+|         mark-size={{{mark-size38|}}}
+|           mark-dim={{{mark-dim38|}}}
+|                label ={{{label38|}}}
+|               labela={{{labela38|}}}
+|               labelb={{{labelb38|}}}
+|     label-angle={{{label-angle38|}}}
+|      label-size ={{{label-size38|}}}
+|     label-color={{{label-color38|}}}
+|         label-pos={{{label-pos38|}}} 
+|label-offset-x={{{label-offset-x38|}}}
+|label-offset-y={{{label-offset-y38|}}} 
+}}
+} }}
+{{#if:{{{mark-lat39|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape39|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered39|}}}
+|           mark-lat={{{mark-lat39|}}}
+|           mark-lon={{{mark-lon39|}}}
+|     shape-color={{{shape-color39|}}}
+| shape-outline={{{shape-outline39|}}}
+|       shape-halo={{{shape-halo39|}}}
+|                 mark = {{{mark39|}}}
+|         mark-size={{{mark-size39|}}}
+|           mark-dim={{{mark-dim39|}}}
+|                label ={{{label39|}}}
+|               labela={{{labela39|}}}
+|               labelb={{{labelb39|}}}
+|     label-angle={{{label-angle39|}}}
+|      label-size ={{{label-size39|}}}
+|     label-color={{{label-color39|}}}
+|         label-pos={{{label-pos39|}}} 
+|label-offset-x={{{label-offset-x39|}}}
+|label-offset-y={{{label-offset-y39|}}} 
+}}
+} }}
+{{#if:{{{mark-lat40|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape40|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered40|}}}
+|           mark-lat={{{mark-lat40|}}}
+|           mark-lon={{{mark-lon40|}}}
+|     shape-color={{{shape-color40|}}}
+| shape-outline={{{shape-outline40|}}}
+|       shape-halo={{{shape-halo40|}}}
+|                 mark = {{{mark40|}}}
+|         mark-size={{{mark-size40|}}}
+|           mark-dim={{{mark-dim40|}}}
+|                label ={{{label40|}}}
+|               labela={{{labela40|}}}
+|               labelb={{{labelb40|}}}
+|     label-angle={{{label-angle40|}}}
+|      label-size ={{{label-size40|}}}
+|     label-color={{{label-color40|}}}
+|         label-pos={{{label-pos40|}}} 
+|label-offset-x={{{label-offset-x40|}}}
+|label-offset-y={{{label-offset-y40|}}} 
+}}
+} }}
+{{#if:{{{mark-lat41|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape41|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered41|}}}
+|           mark-lat={{{mark-lat41|}}}
+|           mark-lon={{{mark-lon41|}}}
+|     shape-color={{{shape-color41|}}}
+| shape-outline={{{shape-outline41|}}}
+|       shape-halo={{{shape-halo41|}}}
+|                 mark = {{{mark41|}}}
+|         mark-size={{{mark-size41|}}}
+|           mark-dim={{{mark-dim41|}}}
+|                label ={{{label41|}}}
+|               labela={{{labela41|}}}
+|               labelb={{{labelb41|}}}
+|     label-angle={{{label-angle41|}}}
+|      label-size ={{{label-size41|}}}
+|     label-color={{{label-color41|}}}
+|         label-pos={{{label-pos41|}}} 
+|label-offset-x={{{label-offset-x41|}}}
+|label-offset-y={{{label-offset-y41|}}} 
+}}
+} }}
+{{#if:{{{mark-lat42|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape42|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered42|}}}
+|           mark-lat={{{mark-lat42|}}}
+|           mark-lon={{{mark-lon42|}}}
+|     shape-color={{{shape-color42|}}}
+| shape-outline={{{shape-outline42|}}}
+|       shape-halo={{{shape-halo42|}}}
+|                 mark = {{{mark42|}}}
+|         mark-size={{{mark-size42|}}}
+|           mark-dim={{{mark-dim42|}}}
+|                label ={{{label42|}}}
+|               labela={{{labela42|}}}
+|               labelb={{{labelb42|}}}
+|     label-angle={{{label-angle42|}}}
+|      label-size ={{{label-size42|}}}
+|     label-color={{{label-color42|}}}
+|         label-pos={{{label-pos42|}}} 
+|label-offset-x={{{label-offset-x42|}}}
+|label-offset-y={{{label-offset-y42|}}} 
+}}
+} }}
+{{#if:{{{mark-lat43|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape43|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered43|}}}
+|           mark-lat={{{mark-lat43|}}}
+|           mark-lon={{{mark-lon43|}}}
+|     shape-color={{{shape-color43|}}}
+| shape-outline={{{shape-outline43|}}}
+|       shape-halo={{{shape-halo43|}}}
+|                 mark = {{{mark43|}}}
+|         mark-size={{{mark-size43|}}}
+|           mark-dim={{{mark-dim43|}}}
+|                label ={{{label43|}}}
+|               labela={{{labela43|}}}
+|               labelb={{{labelb43|}}}
+|     label-angle={{{label-angle43|}}}
+|      label-size ={{{label-size43|}}}
+|     label-color={{{label-color43|}}}
+|         label-pos={{{label-pos43|}}} 
+|label-offset-x={{{label-offset-x43|}}}
+|label-offset-y={{{label-offset-y43|}}} 
+}}
+} }}
+{{#if:{{{mark-lat44|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape44|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered44|}}}
+|           mark-lat={{{mark-lat44|}}}
+|           mark-lon={{{mark-lon44|}}}
+|     shape-color={{{shape-color44|}}}
+| shape-outline={{{shape-outline44|}}}
+|       shape-halo={{{shape-halo44|}}}
+|                 mark = {{{mark44|}}}
+|         mark-size={{{mark-size44|}}}
+|           mark-dim={{{mark-dim44|}}}
+|                label ={{{label44|}}}
+|               labela={{{labela44|}}}
+|               labelb={{{labelb44|}}}
+|     label-angle={{{label-angle44|}}}
+|      label-size ={{{label-size44|}}}
+|     label-color={{{label-color44|}}}
+|         label-pos={{{label-pos44|}}} 
+|label-offset-x={{{label-offset-x44|}}}
+|label-offset-y={{{label-offset-y44|}}} 
+}}
+} }}
+{{#if:{{{mark-lat45|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape45|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered45|}}}
+|           mark-lat={{{mark-lat45|}}}
+|           mark-lon={{{mark-lon45|}}}
+|     shape-color={{{shape-color45|}}}
+| shape-outline={{{shape-outline45|}}}
+|       shape-halo={{{shape-halo45|}}}
+|                 mark = {{{mark45|}}}
+|         mark-size={{{mark-size45|}}}
+|           mark-dim={{{mark-dim45|}}}
+|                label ={{{label45|}}}
+|               labela={{{labela45|}}}
+|               labelb={{{labelb45|}}}
+|     label-angle={{{label-angle45|}}}
+|      label-size ={{{label-size45|}}}
+|     label-color={{{label-color45|}}}
+|         label-pos={{{label-pos45|}}} 
+|label-offset-x={{{label-offset-x45|}}}
+|label-offset-y={{{label-offset-y45|}}} 
+}}
+} }}
+{{#if:{{{mark-lat46|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape46|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered46|}}}
+|           mark-lat={{{mark-lat46|}}}
+|           mark-lon={{{mark-lon46|}}}
+|     shape-color={{{shape-color46|}}}
+| shape-outline={{{shape-outline46|}}}
+|       shape-halo={{{shape-halo46|}}}
+|                 mark = {{{mark46|}}}
+|         mark-size={{{mark-size46|}}}
+|           mark-dim={{{mark-dim46|}}}
+|                label ={{{label46|}}}
+|               labela={{{labela46|}}}
+|               labelb={{{labelb46|}}}
+|     label-angle={{{label-angle46|}}}
+|      label-size ={{{label-size46|}}}
+|     label-color={{{label-color46|}}}
+|         label-pos={{{label-pos46|}}} 
+|label-offset-x={{{label-offset-x46|}}}
+|label-offset-y={{{label-offset-y46|}}} 
+}}
+} }}
+{{#if:{{{mark-lat47|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape47|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered47|}}}
+|           mark-lat={{{mark-lat47|}}}
+|           mark-lon={{{mark-lon47|}}}
+|     shape-color={{{shape-color47|}}}
+| shape-outline={{{shape-outline47|}}}
+|       shape-halo={{{shape-halo47|}}}
+|                 mark = {{{mark47|}}}
+|         mark-size={{{mark-size47|}}}
+|           mark-dim={{{mark-dim47|}}}
+|                label ={{{label47|}}}
+|               labela={{{labela47|}}}
+|               labelb={{{labelb47|}}}
+|     label-angle={{{label-angle47|}}}
+|      label-size ={{{label-size47|}}}
+|     label-color={{{label-color47|}}}
+|         label-pos={{{label-pos47|}}} 
+|label-offset-x={{{label-offset-x47|}}}
+|label-offset-y={{{label-offset-y47|}}} 
+}}
+} }}
+{{#if:{{{mark-lat48|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape48|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered48|}}}
+|           mark-lat={{{mark-lat48|}}}
+|           mark-lon={{{mark-lon48|}}}
+|     shape-color={{{shape-color48|}}}
+| shape-outline={{{shape-outline48|}}}
+|       shape-halo={{{shape-halo48|}}}
+|                 mark = {{{mark48|}}}
+|         mark-size={{{mark-size48|}}}
+|           mark-dim={{{mark-dim48|}}}
+|                label ={{{label48|}}}
+|               labela={{{labela48|}}}
+|               labelb={{{labelb48|}}}
+|     label-angle={{{label-angle48|}}}
+|      label-size ={{{label-size48|}}}
+|     label-color={{{label-color48|}}}
+|         label-pos={{{label-pos48|}}} 
+|label-offset-x={{{label-offset-x48|}}}
+|label-offset-y={{{label-offset-y48|}}} 
+}}
+} }}
+{{#if:{{{mark-lat49|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape49|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered49|}}}
+|           mark-lat={{{mark-lat49|}}}
+|           mark-lon={{{mark-lon49|}}}
+|     shape-color={{{shape-color49|}}}
+| shape-outline={{{shape-outline49|}}}
+|       shape-halo={{{shape-halo49|}}}
+|                 mark = {{{mark49|}}}
+|         mark-size={{{mark-size49|}}}
+|           mark-dim={{{mark-dim49|}}}
+|                label ={{{label49|}}}
+|               labela={{{labela49|}}}
+|               labelb={{{labelb49|}}}
+|     label-angle={{{label-angle49|}}}
+|      label-size ={{{label-size49|}}}
+|     label-color={{{label-color49|}}}
+|         label-pos={{{label-pos49|}}} 
+|label-offset-x={{{label-offset-x49|}}}
+|label-offset-y={{{label-offset-y49|}}} 
+}}
+} }}
+{{#if:{{{mark-lat50|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape50|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered50|}}}
+|           mark-lat={{{mark-lat50|}}}
+|           mark-lon={{{mark-lon50|}}}
+|     shape-color={{{shape-color50|}}}
+| shape-outline={{{shape-outline50|}}}
+|       shape-halo={{{shape-halo50|}}}
+|                 mark = {{{mark50|}}}
+|         mark-size={{{mark-size50|}}}
+|           mark-dim={{{mark-dim50|}}}
+|                label ={{{label50|}}}
+|               labela={{{labela50|}}}
+|               labelb={{{labelb50|}}}
+|     label-angle={{{label-angle50|}}}
+|      label-size ={{{label-size50|}}}
+|     label-color={{{label-color50|}}}
+|         label-pos={{{label-pos50|}}} 
+|label-offset-x={{{label-offset-x50|}}}
+|label-offset-y={{{label-offset-y50|}}} 
+}}
+} }}
+{{#if:{{{mark-lat51|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape51|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered51|}}}
+|           mark-lat={{{mark-lat51|}}}
+|           mark-lon={{{mark-lon51|}}}
+|     shape-color={{{shape-color51|}}}
+| shape-outline={{{shape-outline51|}}}
+|       shape-halo={{{shape-halo51|}}}
+|                 mark = {{{mark51|}}}
+|         mark-size={{{mark-size51|}}}
+|           mark-dim={{{mark-dim51|}}}
+|                label ={{{label51|}}}
+|               labela={{{labela51|}}}
+|               labelb={{{labelb51|}}}
+|     label-angle={{{label-angle51|}}}
+|      label-size ={{{label-size51|}}}
+|     label-color={{{label-color51|}}}
+|         label-pos={{{label-pos51|}}} 
+|label-offset-x={{{label-offset-x51|}}}
+|label-offset-y={{{label-offset-y51|}}} 
+}}
+} }}
+{{#if:{{{mark-lat52|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape52|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered52|}}}
+|           mark-lat={{{mark-lat52|}}}
+|           mark-lon={{{mark-lon52|}}}
+|     shape-color={{{shape-color52|}}}
+| shape-outline={{{shape-outline52|}}}
+|       shape-halo={{{shape-halo52|}}}
+|                 mark = {{{mark52|}}}
+|         mark-size={{{mark-size52|}}}
+|           mark-dim={{{mark-dim52|}}}
+|                label ={{{label52|}}}
+|               labela={{{labela52|}}}
+|               labelb={{{labelb52|}}}
+|     label-angle={{{label-angle52|}}}
+|      label-size ={{{label-size52|}}}
+|     label-color={{{label-color52|}}}
+|         label-pos={{{label-pos52|}}} 
+|label-offset-x={{{label-offset-x52|}}}
+|label-offset-y={{{label-offset-y52|}}} 
+}}
+} }}
+{{#if:{{{mark-lat53|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape53|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered53|}}}
+|           mark-lat={{{mark-lat53|}}}
+|           mark-lon={{{mark-lon53|}}}
+|     shape-color={{{shape-color53|}}}
+| shape-outline={{{shape-outline53|}}}
+|       shape-halo={{{shape-halo53|}}}
+|                 mark = {{{mark53|}}}
+|         mark-size={{{mark-size53|}}}
+|           mark-dim={{{mark-dim53|}}}
+|                label ={{{label53|}}}
+|               labela={{{labela53|}}}
+|               labelb={{{labelb53|}}}
+|     label-angle={{{label-angle53|}}}
+|      label-size ={{{label-size53|}}}
+|     label-color={{{label-color53|}}}
+|         label-pos={{{label-pos53|}}} 
+|label-offset-x={{{label-offset-x53|}}}
+|label-offset-y={{{label-offset-y53|}}} 
+}}
+} }}
+{{#if:{{{mark-lat54|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape54|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered54|}}}
+|           mark-lat={{{mark-lat54|}}}
+|           mark-lon={{{mark-lon54|}}}
+|     shape-color={{{shape-color54|}}}
+| shape-outline={{{shape-outline54|}}}
+|       shape-halo={{{shape-halo54|}}}
+|                 mark = {{{mark54|}}}
+|         mark-size={{{mark-size54|}}}
+|           mark-dim={{{mark-dim54|}}}
+|                label ={{{label54|}}}
+|               labela={{{labela54|}}}
+|               labelb={{{labelb54|}}}
+|     label-angle={{{label-angle54|}}}
+|      label-size ={{{label-size54|}}}
+|     label-color={{{label-color54|}}}
+|         label-pos={{{label-pos54|}}} 
+|label-offset-x={{{label-offset-x54|}}}
+|label-offset-y={{{label-offset-y54|}}} 
+}}
+} }}
+{{#if:{{{mark-lat55|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape55|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered55|}}}
+|           mark-lat={{{mark-lat55|}}}
+|           mark-lon={{{mark-lon55|}}}
+|     shape-color={{{shape-color55|}}}
+| shape-outline={{{shape-outline55|}}}
+|       shape-halo={{{shape-halo55|}}}
+|                 mark = {{{mark55|}}}
+|         mark-size={{{mark-size55|}}}
+|           mark-dim={{{mark-dim55|}}}
+|                label ={{{label55|}}}
+|               labela={{{labela55|}}}
+|               labelb={{{labelb55|}}}
+|     label-angle={{{label-angle55|}}}
+|      label-size ={{{label-size55|}}}
+|     label-color={{{label-color55|}}}
+|         label-pos={{{label-pos55|}}} 
+|label-offset-x={{{label-offset-x55|}}}
+|label-offset-y={{{label-offset-y55|}}} 
+}}
+} }}
+{{#if:{{{mark-lat56|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape56|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered56|}}}
+|           mark-lat={{{mark-lat56|}}}
+|           mark-lon={{{mark-lon56|}}}
+|     shape-color={{{shape-color56|}}}
+| shape-outline={{{shape-outline56|}}}
+|       shape-halo={{{shape-halo56|}}}
+|                 mark = {{{mark56|}}}
+|         mark-size={{{mark-size56|}}}
+|           mark-dim={{{mark-dim56|}}}
+|                label ={{{label56|}}}
+|               labela={{{labela56|}}}
+|               labelb={{{labelb56|}}}
+|     label-angle={{{label-angle56|}}}
+|      label-size ={{{label-size56|}}}
+|     label-color={{{label-color56|}}}
+|         label-pos={{{label-pos56|}}} 
+|label-offset-x={{{label-offset-x56|}}}
+|label-offset-y={{{label-offset-y56|}}} 
+}}
+} }}
+{{#if:{{{mark-lat57|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape57|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered57|}}}
+|           mark-lat={{{mark-lat57|}}}
+|           mark-lon={{{mark-lon57|}}}
+|     shape-color={{{shape-color57|}}}
+| shape-outline={{{shape-outline57|}}}
+|       shape-halo={{{shape-halo57|}}}
+|                 mark = {{{mark57|}}}
+|         mark-size={{{mark-size57|}}}
+|           mark-dim={{{mark-dim57|}}}
+|                label ={{{label57|}}}
+|               labela={{{labela57|}}}
+|               labelb={{{labelb57|}}}
+|     label-angle={{{label-angle57|}}}
+|      label-size ={{{label-size57|}}}
+|     label-color={{{label-color57|}}}
+|         label-pos={{{label-pos57|}}} 
+|label-offset-x={{{label-offset-x57|}}}
+|label-offset-y={{{label-offset-y57|}}} 
+}}
+} }}
+{{#if:{{{mark-lat58|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape58|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered58|}}}
+|           mark-lat={{{mark-lat58|}}}
+|           mark-lon={{{mark-lon58|}}}
+|     shape-color={{{shape-color58|}}}
+| shape-outline={{{shape-outline58|}}}
+|       shape-halo={{{shape-halo58|}}}
+|                 mark = {{{mark58|}}}
+|         mark-size={{{mark-size58|}}}
+|           mark-dim={{{mark-dim58|}}}
+|                label ={{{label58|}}}
+|               labela={{{labela58|}}}
+|               labelb={{{labelb58|}}}
+|     label-angle={{{label-angle58|}}}
+|      label-size ={{{label-size58|}}}
+|     label-color={{{label-color58|}}}
+|         label-pos={{{label-pos58|}}} 
+|label-offset-x={{{label-offset-x58|}}}
+|label-offset-y={{{label-offset-y58|}}} 
+}}
+} }}
+{{#if:{{{mark-lat59|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape59|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered59|}}}
+|           mark-lat={{{mark-lat59|}}}
+|           mark-lon={{{mark-lon59|}}}
+|     shape-color={{{shape-color59|}}}
+| shape-outline={{{shape-outline59|}}}
+|       shape-halo={{{shape-halo59|}}}
+|                 mark = {{{mark59|}}}
+|         mark-size={{{mark-size59|}}}
+|           mark-dim={{{mark-dim59|}}}
+|                label ={{{label59|}}}
+|               labela={{{labela59|}}}
+|               labelb={{{labelb59|}}}
+|     label-angle={{{label-angle59|}}}
+|      label-size ={{{label-size59|}}}
+|     label-color={{{label-color59|}}}
+|         label-pos={{{label-pos59|}}} 
+|label-offset-x={{{label-offset-x59|}}}
+|label-offset-y={{{label-offset-y59|}}} 
+}}
+} }}
+{{#if:{{{mark-lat60|}}}|, 
+{
+{{OSM Location map/Labelitem
+|    shape = {{#switch: {{{shape60|}}}|circle|n-circle|l-circle=circle|square|n-square|l-square=square|diamond|n-diamond|l-diamond=diamond|triangle-up|n-triangle-up|l-triangle-up=triangle-up|triangle-down|n-triangle-down|l-triangle-down=triangle-down|cross|n-cross|l-cross=cross|image}}
+|         numbered = {{{numbered60|}}}
+|           mark-lat={{{mark-lat60|}}}
+|           mark-lon={{{mark-lon60|}}}
+|     shape-color={{{shape-color60|}}}
+| shape-outline={{{shape-outline60|}}}
+|       shape-halo={{{shape-halo60|}}}
+|                 mark = {{{mark60|}}}
+|         mark-size={{{mark-size60|}}}
+|           mark-dim={{{mark-dim60|}}}
+|                label ={{{label60|}}}
+|               labela={{{labela60|}}}
+|               labelb={{{labelb60|}}}
+|     label-angle={{{label-angle60|}}}
+|      label-size ={{{label-size60|}}}
+|     label-color={{{label-color60|}}}
+|         label-pos={{{label-pos60|}}} 
+|label-offset-x={{{label-offset-x60|}}}
+|label-offset-y={{{label-offset-y60|}}} 
+}}
+} }}
+{{#ifexpr:({{{minimap|0}}}>1) or ({{{minimap|0}}}<0)|
+    , { 
+     "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     "img": "wikirawupload:{{filepath:White square.gif|200}}", 
+     "width": {{#expr:{{{mini-width|10}}}+2}}, 
+     "height": {{#expr:{{{mini-height|10}}}+2}}, 
+     "offsetX": {{#expr:{{{minimap|10}}}-1}}, 
+     "offsetY": {{#expr:{{{minitop|10}}}-1}} 
+    }, 
+    { 
+     "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     "img": "wikirawupload:{{filepath:Gray 140.png|200}}", 
+     "width": {{#expr:{{{mini-width|10}}}+1}}, 
+     "height": {{#expr:{{{mini-height|10}}}+1}}, 
+     "offsetX": {{#expr:{{{minimap|10}}}-1}}, 
+     "offsetY": {{#expr:{{{minitop|10}}}-1}} 
+    }, 
+    {
+     "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     "img": "wikirawupload:{{filepath:{{{mini-file}}}|{{{mini-width|10}}} }}", 
+     "width": {{{mini-width|10}}}, 
+     "height": {{{mini-height|10}}}, 
+     "offsetX": {{#expr:{{{minimap|10}}}-1}}, 
+     "offsetY": {{#expr:{{{minitop|10}}}-1}} 
+    }
+{{#if:{{{minipog-x|}}} |
+    , {
+     "lat": {{{lat|0}}}, 
+     "lon": {{{lon|0}}}, 
+     {{#switch:1
+        |{{#expr:{{{minimap-boxwidth|0}}} < 1}} = "img": "wikirawupload:{{filepath:Red pog.svg|6}}", "width": 6, 
+        |{{#expr:{{{minimap-boxwidth|0}}}>=1 and {{{minimap-boxwidth|0}}}<=17}} = "img": "wikirawupload:{{filepath:City locator 10.svg|200 }}", "width": {{{minimap-boxwidth|10}}}, "height": {{#expr:({{{minimap-boxwidth|10}}}*{{{height|250}}})/{{{width|350}}} }},
+        | "img": "wikirawupload:{{filepath:Red hollow square.svg|200 }}", "width": {{{minimap-boxwidth|10}}}, "height": {{#expr:({{{minimap-boxwidth|10}}}*{{{height|250}}})/{{{width|350}}} }},
+     }}
+     "offsetX": {{#expr:{{{minimap|10}}}-({{{mini-width|10}}}/2)+{{{minipog-x}}}-1}}, 
+     "offsetY": {{#expr:{{{minitop|10}}}-({{{mini-height|10}}}/2)+{{{minipog-y}}}-1}} 
+     } }}|}}
+}}<div class="thumbcaption" style="font-size:75%">{{#switch:{{{fullscreen-option|}}}|0|no|off= |{{#tag:maplink|
+[ {{#if:{{{map-data-heavy|}}}| {
+  "type": "ExternalData",
+  "service": "geoline",
+  "ids": "{{{map-data-heavy|}}}",
+  "properties": {
+    "title": "Wikidata: {{{map-data-heavy|}}}",
+    "description": "",
+    "stroke": "#EE8811",
+    "stroke-width": 6
+  }
+  },
+|}}
+{{#if:{{{map-data-light|}}}| {
+  "type": "ExternalData",
+  "service": "geoline",
+  "ids": "{{{map-data-light|}}}",
+  "properties": {
+    "title": "Wikidata: {{{map-data-light|}}}",
+    "description": "",
+    "stroke": "#EE8811",
+    "stroke-width": 2
+  }
+  },
+|}}
+{{#if:{{{map-data|}}}| {
+  "type": "ExternalData",
+  "service": "geoline",
+  "ids": "{{{map-data|}}}",
+  "properties": {
+    "title": "{{{map-data-text|}}}",
+    "description": "",
+    "stroke": "{{{map-data-color|}}}",
+    "stroke-width": {{{map-data-width|}}}
+  }
+  },
+|}}
+{"type": "FeatureCollection",
+  "features": [
+{{#ifeq:{{{mark-title|}}}|none||{{OSM Location map/MaplinkItem|{{{mark-lat|0}}}|{{{mark-lon|0}}}|{{{mark-title|}}}|mark-image={{{mark-image|}}}|mark-color={{{shape-color|#B80000}}}|mark-description={{{mark-description|}}} }} }}
+
+{{#ifeq:{{{mark-title1|}}}|none||{{#if:{{{mark-lat1|}}}|{{#ifeq:{{{mark-title|}}}|none||,}} {{OSM Location map/MaplinkItem|{{{mark-lat1|0}}}|{{{mark-lon1|0}}}|{{{mark-title1|}}}|mark-image={{{mark-image1|}}}|mark-color={{{shape-color1|#B80000}}}|mark-description={{{mark-description1|}}} }} }} }}
+
+{{#ifeq:{{{mark-title2|}}}|none||{{#if:{{{mark-lat2|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat2|0}}}|{{{mark-lon2|0}}}|{{{mark-title2|}}}|mark-image={{{mark-image2|}}}|mark-color={{{shape-color2|#B80000}}}|mark-description={{{mark-description2|}}} }} }} }}
+
+{{#ifeq:{{{mark-title3|}}}|none||{{#if:{{{mark-lat3|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat3|0}}}|{{{mark-lon3|0}}}|{{{mark-title3|}}}|mark-image={{{mark-image3|}}}|mark-color={{{shape-color3|#B80000}}}|mark-description={{{mark-description3|}}} }} }} }}
+
+{{#ifeq:{{{mark-title4|}}}|none||{{#if:{{{mark-lat4|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat4|0}}}|{{{mark-lon4|0}}}|{{{mark-title4|}}}|mark-image={{{mark-image4|}}}|mark-color={{{shape-color4|#B80000}}}|mark-description={{{mark-description4|}}} }} }} }}
+
+{{#ifeq:{{{mark-title5|}}}|none||{{#if:{{{mark-lat5|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat5|0}}}|{{{mark-lon5|0}}}|{{{mark-title5|}}}|mark-image={{{mark-image5|}}}|mark-color={{{shape-color5|#B80000}}}|mark-description={{{mark-description5|}}} }} }} }}
+
+{{#ifeq:{{{mark-title6|}}}|none||{{#if:{{{mark-lat6|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat6|0}}}|{{{mark-lon6|0}}}|{{{mark-title6|}}}|mark-image={{{mark-image6|}}}|mark-color={{{shape-color6|#B80000}}}|mark-description={{{mark-description6|}}} }} }} }}
+
+{{#ifeq:{{{mark-title7|}}}|none||{{#if:{{{mark-lat7|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat7|0}}}|{{{mark-lon7|0}}}|{{{mark-title7|}}}|mark-image={{{mark-image7|}}}|mark-color={{{shape-color7|#B80000}}}|mark-description={{{mark-description7|}}} }} }} }}
+
+{{#ifeq:{{{mark-title8|}}}|none||{{#if:{{{mark-lat8|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat8|0}}}|{{{mark-lon8|0}}}|{{{mark-title8|}}}|mark-image={{{mark-image8|}}}|mark-color={{{shape-color8|#B80000}}}|mark-description={{{mark-description8|}}} }} }} }}
+
+{{#ifeq:{{{mark-title9|}}}|none||{{#if:{{{mark-lat9|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat9|0}}}|{{{mark-lon9|0}}}|{{{mark-title9|}}}|mark-image={{{mark-image9|}}}|mark-color={{{shape-color9|#B80000}}}|mark-description={{{mark-description9|}}} }} }} }}
+
+{{#ifeq:{{{mark-title10|}}}|none||{{#if:{{{mark-lat10|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat10|0}}}|{{{mark-lon10|0}}}|{{{mark-title10|}}}|mark-image={{{mark-image10|}}}|mark-color={{{shape-color10|#B80000}}}|mark-description={{{mark-description10|}}} }} }} }}
+
+{{#ifeq:{{{mark-title11|}}}|none||{{#if:{{{mark-lat11|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat11|0}}}|{{{mark-lon11|0}}}|{{{mark-title11|}}}|mark-image={{{mark-image11|}}}|mark-color={{{shape-color11|#B80000}}}|mark-description={{{mark-description11|}}} }} }} }}
+
+{{#ifeq:{{{mark-title12|}}}|none||{{#if:{{{mark-lat12|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat12|0}}}|{{{mark-lon12|0}}}|{{{mark-title12|}}}|mark-image={{{mark-image12|}}}|mark-color={{{shape-color12|#B80000}}}|mark-description={{{mark-description12|}}} }} }} }}
+
+{{#ifeq:{{{mark-title13|}}}|none||{{#if:{{{mark-lat13|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat13|0}}}|{{{mark-lon13|0}}}|{{{mark-title13|}}}|mark-image={{{mark-image13|}}}|mark-color={{{shape-color13|#B80000}}}|mark-description={{{mark-description13|}}} }} }} }}
+
+{{#ifeq:{{{mark-title14|}}}|none||{{#if:{{{mark-lat14|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat14|0}}}|{{{mark-lon14|0}}}|{{{mark-title14|}}}|mark-image={{{mark-image14|}}}|mark-color={{{shape-color14|#B80000}}}|mark-description={{{mark-description14|}}} }} }} }}
+
+{{#ifeq:{{{mark-title15|}}}|none||{{#if:{{{mark-lat15|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat15|0}}}|{{{mark-lon15|0}}}|{{{mark-title15|}}}|mark-image={{{mark-image15|}}}|mark-color={{{shape-color15|#B80000}}}|mark-description={{{mark-description15|}}} }} }} }}
+
+{{#ifeq:{{{mark-title16|}}}|none||{{#if:{{{mark-lat16|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat16|0}}}|{{{mark-lon16|0}}}|{{{mark-title16|}}}|mark-image={{{mark-image16|}}}|mark-color={{{shape-color16|#B80000}}}|mark-description={{{mark-description16|}}} }} }} }}
+
+{{#ifeq:{{{mark-title17|}}}|none||{{#if:{{{mark-lat17|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat17|0}}}|{{{mark-lon17|0}}}|{{{mark-title17|}}}|mark-image={{{mark-image17|}}}|mark-color={{{shape-color17|#B80000}}}|mark-description={{{mark-description17|}}} }} }} }}
+
+{{#ifeq:{{{mark-title18|}}}|none||{{#if:{{{mark-lat18|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat18|0}}}|{{{mark-lon18|0}}}|{{{mark-title18|}}}|mark-image={{{mark-image18|}}}|mark-color={{{shape-color18|#B80000}}}|mark-description={{{mark-description18|}}} }} }} }}
+
+{{#ifeq:{{{mark-title19|}}}|none||{{#if:{{{mark-lat19|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat19|0}}}|{{{mark-lon19|0}}}|{{{mark-title19|}}}|mark-image={{{mark-image19|}}}|mark-color={{{shape-color19|#B80000}}}|mark-description={{{mark-description19|}}} }} }} }}
+
+{{#ifeq:{{{mark-title20|}}}|none||{{#if:{{{mark-lat20|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat20|0}}}|{{{mark-lon20|0}}}|{{{mark-title20|}}}|mark-image={{{mark-image20|}}}|mark-color={{{shape-color20|#B80000}}}|mark-description={{{mark-description20|}}} }} }} }}
+
+{{#ifeq:{{{mark-title21|}}}|none||{{#if:{{{mark-lat21|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat21|0}}}|{{{mark-lon21|0}}}|{{{mark-title21|}}}|mark-image={{{mark-image21|}}}|mark-color={{{shape-color21|#B80000}}}|mark-description={{{mark-description21|}}} }} }} }}
+
+{{#ifeq:{{{mark-title22|}}}|none||{{#if:{{{mark-lat22|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat22|0}}}|{{{mark-lon22|0}}}|{{{mark-title22|}}}|mark-image={{{mark-image22|}}}|mark-color={{{shape-color22|#B80000}}}|mark-description={{{mark-description22|}}} }} }} }}
+
+{{#ifeq:{{{mark-title23|}}}|none||{{#if:{{{mark-lat23|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat23|0}}}|{{{mark-lon23|0}}}|{{{mark-title23|}}}|mark-image={{{mark-image23|}}}|mark-color={{{shape-color23|#B80000}}}|mark-description={{{mark-description23|}}} }} }} }}
+
+{{#ifeq:{{{mark-title24|}}}|none||{{#if:{{{mark-lat24|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat24|0}}}|{{{mark-lon24|0}}}|{{{mark-title24|}}}|mark-image={{{mark-image24|}}}|mark-color={{{shape-color24|#B80000}}}|mark-description={{{mark-description24|}}} }} }} }}
+
+{{#ifeq:{{{mark-title25|}}}|none||{{#if:{{{mark-lat25|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat25|0}}}|{{{mark-lon25|0}}}|{{{mark-title25|}}}|mark-image={{{mark-image25|}}}|mark-color={{{shape-color25|#B80000}}}|mark-description={{{mark-description25|}}} }} }} }}
+
+{{#ifeq:{{{mark-title26|}}}|none||{{#if:{{{mark-lat26|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat26|0}}}|{{{mark-lon26|0}}}|{{{mark-title26|}}}|mark-image={{{mark-image26|}}}|mark-color={{{shape-color26|#B80000}}}|mark-description={{{mark-description26|}}} }} }} }}
+
+{{#ifeq:{{{mark-title27|}}}|none||{{#if:{{{mark-lat27|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat27|0}}}|{{{mark-lon27|0}}}|{{{mark-title27|}}}|mark-image={{{mark-image27|}}}|mark-color={{{shape-color27|#B80000}}}|mark-description={{{mark-description27|}}} }} }} }}
+
+{{#ifeq:{{{mark-title28|}}}|none||{{#if:{{{mark-lat28|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat28|0}}}|{{{mark-lon28|0}}}|{{{mark-title28|}}}|mark-image={{{mark-image28|}}}|mark-color={{{shape-color28|#B80000}}}|mark-description={{{mark-description28|}}} }} }} }}
+
+{{#ifeq:{{{mark-title29|}}}|none||{{#if:{{{mark-lat29|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat29|0}}}|{{{mark-lon29|0}}}|{{{mark-title29|}}}|mark-image={{{mark-image29|}}}|mark-color={{{shape-color29|#B80000}}}|mark-description={{{mark-description29|}}} }} }} }}
+
+{{#ifeq:{{{mark-title30|}}}|none||{{#if:{{{mark-lat30|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat30|0}}}|{{{mark-lon30|0}}}|{{{mark-title30|}}}|mark-image={{{mark-image30|}}}|mark-color={{{shape-color30|#B80000}}}|mark-description={{{mark-description30|}}} }} }} }}
+
+{{#ifeq:{{{mark-title31|}}}|none||{{#if:{{{mark-lat31|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat31|0}}}|{{{mark-lon31|0}}}|{{{mark-title31|}}}|mark-image={{{mark-image31|}}}|mark-color={{{shape-color31|#B80000}}}|mark-description={{{mark-description31|}}} }} }} }}
+
+{{#ifeq:{{{mark-title32|}}}|none||{{#if:{{{mark-lat32|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat32|0}}}|{{{mark-lon32|0}}}|{{{mark-title32|}}}|mark-image={{{mark-image32|}}}|mark-color={{{shape-color32|#B80000}}}|mark-description={{{mark-description32|}}} }} }} }}
+
+{{#ifeq:{{{mark-title33|}}}|none||{{#if:{{{mark-lat33|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat33|0}}}|{{{mark-lon33|0}}}|{{{mark-title33|}}}|mark-image={{{mark-image33|}}}|mark-color={{{shape-color33|#B80000}}}|mark-description={{{mark-description33|}}} }} }} }}
+
+{{#ifeq:{{{mark-title34|}}}|none||{{#if:{{{mark-lat34|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat34|0}}}|{{{mark-lon34|0}}}|{{{mark-title34|}}}|mark-image={{{mark-image34|}}}|mark-color={{{shape-color34|#B80000}}}|mark-description={{{mark-description34|}}} }} }} }}
+
+{{#ifeq:{{{mark-title35|}}}|none||{{#if:{{{mark-lat35|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat35|0}}}|{{{mark-lon35|0}}}|{{{mark-title35|}}}|mark-image={{{mark-image35|}}}|mark-color={{{shape-color35|#B80000}}}|mark-description={{{mark-description35|}}} }} }} }}
+
+{{#ifeq:{{{mark-title36|}}}|none||{{#if:{{{mark-lat36|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat36|0}}}|{{{mark-lon36|0}}}|{{{mark-title36|}}}|mark-image={{{mark-image36|}}}|mark-color={{{shape-color36|#B80000}}}|mark-description={{{mark-description36|}}} }} }} }}
+
+{{#ifeq:{{{mark-title37|}}}|none||{{#if:{{{mark-lat37|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat37|0}}}|{{{mark-lon37|0}}}|{{{mark-title37|}}}|mark-image={{{mark-image37|}}}|mark-color={{{shape-color37|#B80000}}}|mark-description={{{mark-description37|}}} }} }} }}
+
+{{#ifeq:{{{mark-title38|}}}|none||{{#if:{{{mark-lat38|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat38|0}}}|{{{mark-lon38|0}}}|{{{mark-title38|}}}|mark-image={{{mark-image38|}}}|mark-color={{{shape-color38|#B80000}}}|mark-description={{{mark-description38|}}} }} }} }}
+
+{{#ifeq:{{{mark-title39|}}}|none||{{#if:{{{mark-lat39|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat39|0}}}|{{{mark-lon39|0}}}|{{{mark-title39|}}}|mark-image={{{mark-image39|}}}|mark-color={{{shape-color39|#B80000}}}|mark-description={{{mark-description39|}}} }} }} }}
+
+{{#ifeq:{{{mark-title40|}}}|none||{{#if:{{{mark-lat40|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat40|0}}}|{{{mark-lon40|0}}}|{{{mark-title40|}}}|mark-image={{{mark-image40|}}}|mark-color={{{shape-color40|#B80000}}}|mark-description={{{mark-description40|}}} }} }} }}
+
+{{#ifeq:{{{mark-title41|}}}|none||{{#if:{{{mark-lat41|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat41|0}}}|{{{mark-lon41|0}}}|{{{mark-title41|}}}|mark-image={{{mark-image41|}}}|mark-color={{{shape-color41|#B80000}}}|mark-description={{{mark-description41|}}} }} }} }}
+
+{{#ifeq:{{{mark-title42|}}}|none||{{#if:{{{mark-lat42|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat42|0}}}|{{{mark-lon42|0}}}|{{{mark-title42|}}}|mark-image={{{mark-image42|}}}|mark-color={{{shape-color42|#B80000}}}|mark-description={{{mark-description42|}}} }} }} }}
+
+{{#ifeq:{{{mark-title43|}}}|none||{{#if:{{{mark-lat43|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat43|0}}}|{{{mark-lon43|0}}}|{{{mark-title43|}}}|mark-image={{{mark-image43|}}}|mark-color={{{shape-color43|#B80000}}}|mark-description={{{mark-description43|}}} }} }} }}
+
+{{#ifeq:{{{mark-title44|}}}|none||{{#if:{{{mark-lat44|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat44|0}}}|{{{mark-lon44|0}}}|{{{mark-title44|}}}|mark-image={{{mark-image44|}}}|mark-color={{{shape-color44|#B80000}}}|mark-description={{{mark-description44|}}} }} }} }}
+
+{{#ifeq:{{{mark-title45|}}}|none||{{#if:{{{mark-lat45|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat45|0}}}|{{{mark-lon45|0}}}|{{{mark-title45|}}}|mark-image={{{mark-image45|}}}|mark-color={{{shape-color45|#B80000}}}|mark-description={{{mark-description45|}}} }} }} }}
+
+{{#ifeq:{{{mark-title46|}}}|none||{{#if:{{{mark-lat46|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat46|0}}}|{{{mark-lon46|0}}}|{{{mark-title46|}}}|mark-image={{{mark-image46|}}}|mark-color={{{shape-color46|#B80000}}}|mark-description={{{mark-description46|}}} }} }} }}
+
+{{#ifeq:{{{mark-title47|}}}|none||{{#if:{{{mark-lat47|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat47|0}}}|{{{mark-lon47|0}}}|{{{mark-title47|}}}|mark-image={{{mark-image47|}}}|mark-color={{{shape-color47|#B80000}}}|mark-description={{{mark-description47|}}} }} }} }}
+
+{{#ifeq:{{{mark-title48|}}}|none||{{#if:{{{mark-lat48|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat48|0}}}|{{{mark-lon48|0}}}|{{{mark-title48|}}}|mark-image={{{mark-image48|}}}|mark-color={{{shape-color48|#B80000}}}|mark-description={{{mark-description48|}}} }} }} }}
+
+{{#ifeq:{{{mark-title49|}}}|none||{{#if:{{{mark-lat49|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat49|0}}}|{{{mark-lon49|0}}}|{{{mark-title49|}}}|mark-image={{{mark-image49|}}}|mark-color={{{shape-color49|#B80000}}}|mark-description={{{mark-description49|}}} }} }} }}
+
+{{#ifeq:{{{mark-title50|}}}|none||{{#if:{{{mark-lat50|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat50|0}}}|{{{mark-lon50|0}}}|{{{mark-title50|}}}|mark-image={{{mark-image50|}}}|mark-color={{{shape-color50|#B80000}}}|mark-description={{{mark-description50|}}} }} }} }}
+
+{{#ifeq:{{{mark-title51|}}}|none||{{#if:{{{mark-lat51|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat51|0}}}|{{{mark-lon51|0}}}|{{{mark-title51|}}}|mark-image={{{mark-image51|}}}|mark-color={{{shape-color51|#B80000}}}|mark-description={{{mark-description51|}}} }} }} }}
+
+{{#ifeq:{{{mark-title52|}}}|none||{{#if:{{{mark-lat52|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat52|0}}}|{{{mark-lon52|0}}}|{{{mark-title52|}}}|mark-image={{{mark-image52|}}}|mark-color={{{shape-color52|#B80000}}}|mark-description={{{mark-description52|}}} }} }} }}
+
+{{#ifeq:{{{mark-title53|}}}|none||{{#if:{{{mark-lat53|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat53|0}}}|{{{mark-lon53|0}}}|{{{mark-title53|}}}|mark-image={{{mark-image53|}}}|mark-color={{{shape-color53|#B80000}}}|mark-description={{{mark-description53|}}} }} }} }}
+
+{{#ifeq:{{{mark-title54|}}}|none||{{#if:{{{mark-lat54|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat54|0}}}|{{{mark-lon54|0}}}|{{{mark-title54|}}}|mark-image={{{mark-image54|}}}|mark-color={{{shape-color54|#B80000}}}|mark-description={{{mark-description54|}}} }} }} }}
+
+{{#ifeq:{{{mark-title55|}}}|none||{{#if:{{{mark-lat55|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat55|0}}}|{{{mark-lon55|0}}}|{{{mark-title55|}}}|mark-image={{{mark-image55|}}}|mark-color={{{shape-color55|#B80000}}}|mark-description={{{mark-description55|}}} }} }} }}
+
+{{#ifeq:{{{mark-title56|}}}|none||{{#if:{{{mark-lat56|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat56|0}}}|{{{mark-lon56|0}}}|{{{mark-title56|}}}|mark-image={{{mark-image56|}}}|mark-color={{{shape-color56|#B80000}}}|mark-description={{{mark-description56|}}} }} }} }}
+
+{{#ifeq:{{{mark-title57|}}}|none||{{#if:{{{mark-lat57|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat57|0}}}|{{{mark-lon57|0}}}|{{{mark-title57|}}}|mark-image={{{mark-image57|}}}|mark-color={{{shape-color57|#B80000}}}|mark-description={{{mark-description57|}}} }} }} }}
+
+{{#ifeq:{{{mark-title58|}}}|none||{{#if:{{{mark-lat58|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat58|0}}}|{{{mark-lon58|0}}}|{{{mark-title58|}}}|mark-image={{{mark-image58|}}}|mark-color={{{shape-color58|#B80000}}}|mark-description={{{mark-description58|}}} }} }} }}
+
+{{#ifeq:{{{mark-title59|}}}|none||{{#if:{{{mark-lat59|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat59|0}}}|{{{mark-lon59|0}}}|{{{mark-title59|}}}|mark-image={{{mark-image59|}}}|mark-color={{{shape-color59|#B80000}}}|mark-description={{{mark-description59|}}} }} }} }}
+
+{{#ifeq:{{{mark-title60|}}}|none||{{#if:{{{mark-lat60|}}}|, {{OSM Location map/MaplinkItem|{{{mark-lat60|0}}}|{{{mark-lon60|0}}}|{{{mark-title60|}}}|mark-image={{{mark-image60|}}}|mark-color={{{shape-color60|#B80000}}}|mark-description={{{mark-description60|}}} }} }} }}
+]
+}
+]|zoom={{#if:{{{zoom|}}}|{{#expr:{{{zoom|0}}}+{{#ifexpr:{{{height|80}}}>400|0|1}} }}|1}}|latitude={{{lat|0}}}|longitude={{{lon|0}}}|text="[Interactive fullscreen map]"}} }}</div><!--<div class="floatright" style="font-size:90%">Wikimedia maps {{!}} Map data © OpenStreetMap contributors</div>-->
+{{#if:{{{caption|}}}{{{auto-caption|}}}|<div class="thumbcaption">|}}{{#if:{{{caption|}}}|{{{caption}}}}}{{#if:{{{auto-caption|}}}| {{#if:{{{caption|}}}||Key:-}}<small>{{#if:{{{mark-lat1|}}}|{{#ifexpr:{{#ifeq:{{{numbered1|}}}|0|1|0}} or {{#ifeq: {{{mark-title1|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered1}}}|{{{shape-color1|red}}} }} {{{mark-title1|}}} }} }}{{#if:{{{mark-lat2|}}}|{{#ifexpr:{{#ifeq:{{{numbered2|}}}|0|1|0}} or {{#ifeq: {{{mark-title2|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered2}}}|{{{shape-color2|red}}} }} {{{mark-title2|}}} }} }}{{#if:{{{mark-lat3|}}}|{{#ifexpr:{{#ifeq:{{{numbered3|}}}|0|1|0}} or {{#ifeq: {{{mark-title3|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered3}}}|{{{shape-color3|red}}} }} {{{mark-title3|}}} }} }}{{#if:{{{mark-lat4|}}}|{{#ifexpr:{{#ifeq: {{{numbered4|}}}|0|1|0}} or {{#ifeq: {{{mark-title4|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered4}}}|{{{shape-color4|red}}} }} {{{mark-title4|}}} }} }}{{#if:{{{mark-lat5|}}}|{{#ifexpr:{{#ifeq:{{{numbered5|}}}|0|1|0}} or {{#ifeq: {{{mark-title5|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered5}}}|{{{shape-color5|red}}} }} {{{mark-title5|}}} }} }}{{#if:{{{mark-lat6|}}}|{{#ifexpr:{{#ifeq:{{{numbered6|}}}|0|1|0}} or {{#ifeq: {{{mark-title6|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered6}}}|{{{shape-color6|red}}} }} {{{mark-title6|}}} }} }}{{#if:{{{mark-lat7|}}}|{{#ifexpr:{{#ifeq:{{{numbered7|}}}|0|1|0}} or {{#ifeq: {{{mark-title7|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered7}}}|{{{shape-color7|red}}} }} {{{mark-title7|}}} }} }}{{#if:{{{mark-lat8|}}}|{{#ifexpr:{{#ifeq:{{{numbered8|}}}|0|1|0}} or {{#ifeq: {{{mark-title8|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered8}}}|{{{shape-color8|red}}} }} {{{mark-title8|}}} }} }}{{#if:{{{mark-lat9|}}}|{{#ifexpr:{{#ifeq:{{{numbered9|}}}|0|1|0}} or {{#ifeq: {{{mark-title9|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered9}}}|{{{shape-color9|red}}} }} {{{mark-title9|}}} }} }}{{#if:{{{mark-lat10|}}}|{{#ifexpr:{{#ifeq:{{{numbered10|}}}|0|1|0}} or {{#ifeq: {{{mark-title10|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered10}}}|{{{shape-color10|red}}} }} {{{mark-title10|}}} }} }}{{#if:{{{mark-lat11|}}}|{{#ifexpr:{{#ifeq:{{{numbered11|}}}|0|1|0}} or {{#ifeq: {{{mark-title11|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered11}}}|{{{shape-color11|red}}} }} {{{mark-title11|}}} }} }}{{#if:{{{mark-lat12|}}}|{{#ifexpr:{{#ifeq:{{{numbered12|}}}|0|1|0}} or {{#ifeq: {{{mark-title12|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered12}}}|{{{shape-color12|red}}} }} {{{mark-title12|}}} }} }}{{#if:{{{mark-lat13|}}}|{{#ifexpr:{{#ifeq:{{{numbered13|}}}|0|1|0}} or {{#ifeq: {{{mark-title13|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered13}}}|{{{shape-color13|red}}} }} {{{mark-title13|}}} }} }}{{#if:{{{mark-lat14|}}}|{{#ifexpr:{{#ifeq:{{{numbered14|}}}|0|1|0}} or {{#ifeq: {{{mark-title14|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered14}}}|{{{shape-color14|red}}} }} {{{mark-title14|}}} }} }}{{#if:{{{mark-lat15|}}}|{{#ifexpr:{{#ifeq:{{{numbered15|}}}|0|1|0}} or {{#ifeq: {{{mark-title15|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered15}}}|{{{shape-color15|red}}} }} {{{mark-title15|}}} }} }}{{#if:{{{mark-lat16|}}}|{{#ifexpr:{{#ifeq:{{{numbered16|}}}|0|1|0}} or {{#ifeq: {{{mark-title16|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered16}}}|{{{shape-color16|red}}} }} {{{mark-title16|}}} }} }}{{#if:{{{mark-lat17|}}}|{{#ifexpr:{{#ifeq:{{{numbered17|}}}|0|1|0}} or {{#ifeq: {{{mark-title17|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered17}}}|{{{shape-color17|red}}} }} {{{mark-title17|}}} }} }}{{#if:{{{mark-lat18|}}}|{{#ifexpr:{{#ifeq:{{{numbered18|}}}|0|1|0}} or {{#ifeq: {{{mark-title18|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered18}}}|{{{shape-color18|red}}} }} {{{mark-title18|}}} }} }}{{#if:{{{mark-lat19|}}}|{{#ifexpr:{{#ifeq:{{{numbered19|}}}|0|1|0}} or {{#ifeq: {{{mark-title19|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered19}}}|{{{shape-color19|red}}} }} {{{mark-title19|}}} }} }}{{#if:{{{mark-lat20|}}}|{{#ifexpr:{{#ifeq:{{{numbered20|}}}|0|1|0}} or {{#ifeq: {{{mark-title20|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered20}}}|{{{shape-color20|red}}} }} {{{mark-title20|}}} }} }}{{#if:{{{mark-lat21|}}}|{{#ifexpr:{{#ifeq:{{{numbered21|}}}|0|1|0}} or {{#ifeq: {{{mark-title21|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered21}}}|{{{shape-color21|red}}} }} {{{mark-title21|}}} }} }}{{#if:{{{mark-lat22|}}}|{{#ifexpr:{{#ifeq:{{{numbered22|}}}|0|1|0}} or {{#ifeq: {{{mark-title22|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered22}}}|{{{shape-color22|red}}} }} {{{mark-title22|}}} }} }}{{#if:{{{mark-lat23|}}}|{{#ifexpr:{{#ifeq:{{{numbered23|}}}|0|1|0}} or {{#ifeq: {{{mark-title23|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered23}}}|{{{shape-color23|red}}} }} {{{mark-title23|}}} }} }}{{#if:{{{mark-lat24|}}}|{{#ifexpr:{{#ifeq:{{{numbered24|}}}|0|1|0}} or {{#ifeq: {{{mark-title24|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered24}}}|{{{shape-color24|red}}} }} {{{mark-title24|}}} }} }}{{#if:{{{mark-lat25|}}}|{{#ifexpr:{{#ifeq:{{{numbered25|}}}|0|1|0}} or {{#ifeq: {{{mark-title25|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered25}}}|{{{shape-color25|red}}} }} {{{mark-title25|}}} }} }}{{#if:{{{mark-lat26|}}}|{{#ifexpr:{{#ifeq:{{{numbered26|}}}|0|1|0}} or {{#ifeq: {{{mark-title26|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered26}}}|{{{shape-color26|red}}} }} {{{mark-title26|}}} }} }}{{#if:{{{mark-lat27|}}}|{{#ifexpr:{{#ifeq:{{{numbered27|}}}|0|1|0}} or {{#ifeq: {{{mark-title27|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered27}}}|{{{shape-color27|red}}} }} {{{mark-title27|}}} }} }}{{#if:{{{mark-lat28|}}}|{{#ifexpr:{{#ifeq:{{{numbered28|}}}|0|1|0}} or {{#ifeq: {{{mark-title28|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered28}}}|{{{shape-color28|red}}} }} {{{mark-title28|}}} }} }}{{#if:{{{mark-lat29|}}}|{{#ifexpr:{{#ifeq:{{{numbered29|}}}|0|1|0}} or {{#ifeq: {{{mark-title29|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered29}}}|{{{shape-color29|red}}} }} {{{mark-title29|}}} }} }}{{#if:{{{mark-lat30|}}}|{{#ifexpr:{{#ifeq:{{{numbered30|}}}|0|1|0}} or {{#ifeq: {{{mark-title30|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered30}}}|{{{shape-color30|red}}} }} {{{mark-title30|}}} }} }}{{#if:{{{mark-lat31|}}}|{{#ifexpr:{{#ifeq:{{{numbered31|}}}|0|1|0}} or {{#ifeq: {{{mark-title31|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered31}}}|{{{shape-color31|red}}} }} {{{mark-title31|}}} }} }}{{#if:{{{mark-lat32|}}}|{{#ifexpr:{{#ifeq:{{{numbered32|}}}|0|1|0}} or {{#ifeq: {{{mark-title32|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered32}}}|{{{shape-color32|red}}} }} {{{mark-title32|}}} }} }}{{#if:{{{mark-lat33|}}}|{{#ifexpr:{{#ifeq:{{{numbered33|}}}|0|1|0}} or {{#ifeq: {{{mark-title33|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered33}}}|{{{shape-color33|red}}} }} {{{mark-title33|}}} }} }}{{#if:{{{mark-lat34|}}}|{{#ifexpr:{{#ifeq:{{{numbered34|}}}|0|1|0}} or {{#ifeq: {{{mark-title34|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered34}}}|{{{shape-color34|red}}} }} {{{mark-title34|}}} }} }}{{#if:{{{mark-lat35|}}}|{{#ifexpr:{{#ifeq:{{{numbered35|}}}|0|1|0}} or {{#ifeq: {{{mark-title35|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered35}}}|{{{shape-color35|red}}} }} {{{mark-title35|}}} }} }}{{#if:{{{mark-lat36|}}}|{{#ifexpr:{{#ifeq:{{{numbered36|}}}|0|1|0}} or {{#ifeq: {{{mark-title36|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered36}}}|{{{shape-color36|red}}} }} {{{mark-title36|}}} }} }}{{#if:{{{mark-lat37|}}}|{{#ifexpr:{{#ifeq:{{{numbered37|}}}|0|1|0}} or {{#ifeq: {{{mark-title37|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered37}}}|{{{shape-color37|red}}} }} {{{mark-title37|}}} }} }}{{#if:{{{mark-lat38|}}}|{{#ifexpr:{{#ifeq:{{{numbered38|}}}|0|1|0}} or {{#ifeq: {{{mark-title38|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered38}}}|{{{shape-color38|red}}} }} {{{mark-title38|}}} }} }}{{#if:{{{mark-lat39|}}}|{{#ifexpr:{{#ifeq:{{{numbered39|}}}|0|1|0}} or {{#ifeq: {{{mark-title39|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered39}}}|{{{shape-color39|red}}} }} {{{mark-title39|}}} }} }}{{#if:{{{mark-lat40|}}}|{{#ifexpr:{{#ifeq:{{{numbered40|}}}|0|1|0}} or {{#ifeq: {{{mark-title40|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered40}}}|{{{shape-color40|red}}} }} {{{mark-title40|}}} }} }}{{#if:{{{mark-lat41|}}}|{{#ifexpr:{{#ifeq:{{{numbered41|}}}|0|1|0}} or {{#ifeq: {{{mark-title41|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered41}}}|{{{shape-color41|red}}} }} {{{mark-title41|}}} }} }}{{#if:{{{mark-lat42|}}}|{{#ifexpr:{{#ifeq:{{{numbered42|}}}|0|1|0}} or {{#ifeq: {{{mark-title42|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered42}}}|{{{shape-color42|red}}} }} {{{mark-title42|}}} }} }}{{#if:{{{mark-lat43|}}}|{{#ifexpr:{{#ifeq:{{{numbered43|}}}|0|1|0}} or {{#ifeq: {{{mark-title43|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered43}}}|{{{shape-color43|red}}} }} {{{mark-title43|}}} }} }}{{#if:{{{mark-lat44|}}}|{{#ifexpr:{{#ifeq:{{{numbered44|}}}|0|1|0}} or {{#ifeq: {{{mark-title44|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered44}}}|{{{shape-color44|red}}} }} {{{mark-title44|}}} }} }}{{#if:{{{mark-lat45|}}}|{{#ifexpr:{{#ifeq:{{{numbered45|}}}|0|1|0}} or {{#ifeq: {{{mark-title45|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered45}}}|{{{shape-color45|red}}} }} {{{mark-title45|}}} }} }}{{#if:{{{mark-lat46|}}}|{{#ifexpr:{{#ifeq:{{{numbered46|}}}|0|1|0}} or {{#ifeq: {{{mark-title46|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered46}}}|{{{shape-color46|red}}} }} {{{mark-title46|}}} }} }}{{#if:{{{mark-lat47|}}}|{{#ifexpr:{{#ifeq:{{{numbered47|}}}|0|1|0}} or {{#ifeq: {{{mark-title47|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered47}}}|{{{shape-color47|red}}} }} {{{mark-title47|}}} }} }}{{#if:{{{mark-lat48|}}}|{{#ifexpr:{{#ifeq:{{{numbered48|}}}|0|1|0}} or {{#ifeq: {{{mark-title48|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered48}}}|{{{shape-color48|red}}} }} {{{mark-title48|}}} }} }}{{#if:{{{mark-lat49|}}}|{{#ifexpr:{{#ifeq:{{{numbered49|}}}|0|1|0}} or {{#ifeq: {{{mark-title49|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered49}}}|{{{shape-color49|red}}} }} {{{mark-title49|}}} }} }}{{#if:{{{mark-lat50|}}}|{{#ifexpr:{{#ifeq:{{{numbered50|}}}|0|1|0}} or {{#ifeq: {{{mark-title50|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered50}}}|{{{shape-color50|red}}} }} {{{mark-title50|}}} }} }}{{#if:{{{mark-lat51|}}}|{{#ifexpr:{{#ifeq:{{{numbered51|}}}|0|1|0}} or {{#ifeq: {{{mark-title51|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered51}}}|{{{shape-color51|red}}} }} {{{mark-title51|}}} }} }}{{#if:{{{mark-lat52|}}}|{{#ifexpr:{{#ifeq:{{{numbered52|}}}|0|1|0}} or {{#ifeq: {{{mark-title52|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered52}}}|{{{shape-color52|red}}} }} {{{mark-title52|}}} }} }}{{#if:{{{mark-lat53|}}}|{{#ifexpr:{{#ifeq:{{{numbered53|}}}|0|1|0}} or {{#ifeq: {{{mark-title53|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered53}}}|{{{shape-color53|red}}} }} {{{mark-title53|}}} }} }}{{#if:{{{mark-lat54|}}}|{{#ifexpr:{{#ifeq:{{{numbered54|}}}|0|1|0}} or {{#ifeq: {{{mark-title54|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered54}}}|{{{shape-color54|red}}} }} {{{mark-title54|}}} }} }}{{#if:{{{mark-lat55|}}}|{{#ifexpr:{{#ifeq:{{{numbered55|}}}|0|1|0}} or {{#ifeq: {{{mark-title55|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered55}}}|{{{shape-color55|red}}} }} {{{mark-title55|}}} }} }}{{#if:{{{mark-lat56|}}}|{{#ifexpr:{{#ifeq:{{{numbered56|}}}|0|1|0}} or {{#ifeq: {{{mark-title56|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered56}}}|{{{shape-color56|red}}} }} {{{mark-title56|}}} }} }}{{#if:{{{mark-lat57|}}}|{{#ifexpr:{{#ifeq:{{{numbered57|}}}|0|1|0}} or {{#ifeq: {{{mark-title57|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered57}}}|{{{shape-color57|red}}} }} {{{mark-title57|}}} }} }}{{#if:{{{mark-lat58|}}}|{{#ifexpr:{{#ifeq:{{{numbered58|}}}|0|1|0}} or {{#ifeq: {{{mark-title58|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered58}}}|{{{shape-color58|red}}} }} {{{mark-title58|}}} }} }}{{#if:{{{mark-lat59|}}}|{{#ifexpr:{{#ifeq:{{{numbered59|}}}|0|1|0}} or {{#ifeq: {{{mark-title59|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered59}}}|{{{shape-color59|red}}} }} {{{mark-title59|}}} }} }}{{#if:{{{mark-lat60|}}}|{{#ifexpr:{{#ifeq:{{{numbered60|}}}|0|1|0}} or {{#ifeq: {{{mark-title60|none}}}|none|1|0}}||<br>{{#invoke:overlay|icon|{{{numbered60}}}|{{{shape-color60|red}}} }} {{{mark-title60|}}} }} }}</small> |}}{{#if:{{{caption|}}}{{{auto-caption|}}}|</div>|}}
+</div></div>{{#switch:{{{float|}}} |center|centre=</div>}}</onlyinclude><noinclude>
+{{Documentation|content=This subtemplate is used by {{tl|OSM Location map}} to generate the map. This subtemplate should not be used directly. }} 
+</noinclude>
