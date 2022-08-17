@@ -29,6 +29,7 @@
 | label3 = Pertan
 | mark-coord3 = {{coord|46.58568|11.73528}}
 | mark-title3 = [[Lech da Pertan]]
+| label-pos3 = bottom
 
 | label4 = Ciampac
 | mark-coord4 = {{coord|46.56993|11.74637}}
@@ -69,17 +70,17 @@
 | mark-coord12 = {{coord|46.585285|11.738693}}
 | mark-title12 = [[Lech dla Scaies]]
 
-| label27 = Lech de Crespëina
+| label27 = Crespëina
 | shape27 = l-circle
 | mark-coord27 = {{coord|46.5684|11.82547}}
 | mark-title27 = [[Lech de Crespëina]]
 | label-pos27 = right
 | shape-color27 = dark blue
 
-| label28 = Lech dl Mandl
+| label28 = Mandl
 | mark-coord28 = {{coord|46.58529|11.73869}}
 | mark-title28 = [[Lech dl Mandl]]
-
+| label-pos28 = right
 
 | label29 = Obelisch de Flaminio
 | shape29 = l-circle
@@ -170,14 +171,14 @@
 | shape-color39 = dark blue
 | label-pos39 = right
 
-| label40 = Lech de Frataces
+| label40 = Frataces
 | shape40 = l-circle
 | mark-coord40 = {{coord|46.54848|11.73905}}
 | mark-title40 = [[Lech de Frataces]]
 | mark-description40 =
 | shape-color40 = red
 
-| label41 = Lech de Plan de Gralba
+| label41 = Plan de Gralba
 | shape41 = l-circle
 | mark-coord41 = {{coord|46.5264|11.77222}}
 | mark-title41 = [[Lech de Plan de Gralba]]
