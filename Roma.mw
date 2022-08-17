@@ -152,6 +152,194 @@ Roma à n tlima tipicamënter mediterran, cun [[insteies]] suc y [[inviern]]esc 
 
 == Storia ==
 La [[Storia romana|storia dla zità de Roma]] ie particularmënter importanta por la politica y l svilup dla sozietà.
+
+{{OSM Location map
+| coord = {{coord|41.897|12.476}}
+|  zoom = 13
+|   float = right
+|    nolabels = 1
+|     width = 277
+|     height = 260
+| title = Rome City Centre
+| caption = {{legend|green|Metro station, use fullscreen to show Termini}}{{legend|blue|Point of interest}}
+
+| shapeD = n-circle
+| shape-colorD = green
+| label-colorD = dark blue
+| shape-outlineD = white
+| label-sizeD = 12
+| label-posD = left
+| mark-sizeD=12
+| label-offset-xD = 0
+| label-offset-yD = 0
+
+| label1 =
+| mark-coord1 = {{coord|41.883611|12.488056}}
+| mark-title1 = [[Circo Massimo (Rome Metro)|Metro B Circo Massimo]]
+
+| label2 =
+| mark-coord2 = {{coord|41.891389|12.491389}}
+| mark-title2 = [[Colosseo (Rome Metro)|Metro B Colosseo]]
+
+| label3 =
+| mark-coord3 = {{coord|41.895|12.493611}}
+| mark-title3 = [[Cavour (Rome Metro)|Metro B Cavour]]
+
+| label4 =
+| mark-coord4 = {{coord|41.901542|12.500596}}
+| mark-title4 = [[Termini (Rome Metro)|Metro AB Termini]]
+
+| label5 =
+| mark-coord5 = {{coord|41.9025|12.495556}}
+| mark-title5 = [[Repubblica – Teatro dell'Opera (Rome Metro)|Metro A Repubblica]]
+
+| label6 =
+| mark-coord6 = {{coord|41.903889|12.488889}}
+| mark-title6 = [[Barberini – Fontana di Trevi|Metro A Barberini]]
+
+| label7 =
+| mark-coord7 = {{coord|41.9068|12.4845}}
+| mark-title7 = [[Spagna (Rome Metro)|Metro A Spagna]]
+
+| label8 =
+| mark-coord8 = {{coord|41.911944|12.475833}}
+| mark-title8 = [[Flaminio – Piazza del Popolo (Rome Metro)|Metro A Flaminio]]
+
+| label9 =
+| mark-coord9 = {{coord|41.911389|12.466111}}
+| mark-title9 = [[Lepanto (Rome Metro)|Metro A Lepanto]]
+
+| label10 =
+| mark-coord10 = {{coord|41.909444|12.458056}}
+| mark-title10 = [[Ottaviano – San Pietro – Musei Vaticani (Rome Metro)|Metro A Ottaviano]]
+
+| label11 =
+| mark-coord11 = {{coord|41.9075|12.4475}}
+| mark-title11 = [[Cipro (Rome Metro)|Metro A Cipro]]
+
+| label27 = Vatican
+| labela27 = Museums
+| shape27 = l-circle
+| mark-coord27 = {{coord|41.906389|12.454444}}
+| mark-title27 = [[Vatican Museums]]
+| mark-description27 = [[Sistine Chapel]] within
+| label-pos27 = right
+| shape-color27 = dark blue
+
+| label28 = St. Peter's
+| shape28 = l-circle
+| mark-coord28 = {{coord|41.902222|12.453333}}
+| mark-title28 = [[St. Peter's Basilica]]
+| mark-description28 = [[Pietà (Michelangelo)]] within
+| label-pos28 = right
+| shape-color28 = dark blue
+
+| label29 = Flaminio Obelisk
+| shape29 = l-circle
+| mark-coord29 = {{coord|41.9107|12.47635}}
+| mark-title29 = [[Flaminio Obelisk]]
+| mark-description29 = on [[Piazza del Popolo]]
+| label-pos29 = right
+| shape-color29 = dark blue
+
+| label30 = Spanish Steps
+| shape30 = l-circle
+| mark-coord30 = {{coord|41.906028|12.482778}}
+| mark-title30 = [[Spanish Steps]]
+| mark-description30 = leading to [[Piazza di Spagna]]
+| shape-color30 = dark blue
+
+| label31 = Trevi Fountain
+| shape31 = l-circle
+| mark-coord31 = {{coord|41.900833|12.483056}}
+| mark-title31 = [[Trevi Fountain]]
+| mark-description31 = [[Quirinal Palace]] nearby
+| shape-color31 = dark blue
+
+| label32 = Baths of
+| labela32 = Diocletian
+| shape32 = l-circle
+| mark-coord32 = {{coord|41.903|12.498}}
+| mark-title32 = [[Baths of Diocletian]]
+| mark-description32 = [[Santa Maria degli Angeli e dei Martiri]] within
+| shape-color32 = dark blue
+| label-pos32 = top
+| label-offset-x32 = -20
+| label-offset-y32 = 4
+
+| label33 = Santa
+| labela33 = Maria Maggiore
+| shape33 = l-circle
+| mark-coord33 = {{coord|41.8975|12.498611}}
+| mark-title33  = [[Santa Maria Maggiore]]
+| mark-description33 = [[San Pietro in Vincoli]] nearby
+| shape-color33 = dark blue
+| label-offset-y33 = -15
+
+| label34 = Colosseum
+| shape34 = l-circle
+| mark-coord34 = {{coord|41.8902|12.4924}}
+| mark-title34 = [[Colosseum]]
+| mark-description34 = [[Arch of Constantine]] nearby
+| shape-color34 = dark blue
+| label-pos34 = bottom
+| label-offset-y34 = -4
+
+| label35 = Circus Maximus
+| shape35 = l-circle
+| mark-coord35 = {{coord|41.8859|12.4857}}
+| mark-title35 = [[Circus Maximus]]
+| mark-description35 = [[Baths of Caracalla]] nearby
+| shape-color35= dark blue
+
+| label36 = Vittoriano
+| shape36 = l-circle
+| mark-coord36 = {{coord|41.894599|12.483092}}
+| mark-title36 = [[Victor Emmanuel II Monument]]
+| mark-description36 = with terrace for 360-degree view of Rome
+| shape-color36 = dark blue
+
+| label37 = Piazza Navona
+| shape37 = l-circle
+| mark-coord37 = {{coord|41.898889|12.473056}}
+| mark-title37 = [[Piazza Navona]]
+| mark-description37 = [[Madonna di Loreto (Caravaggio)]] nearby
+| shape-color37 = dark blue
+
+| label38 = Pantheon
+| shape38 = l-circle
+| mark-coord38 = {{coord|41.8986|12.4768}}
+| mark-title38 = [[Pantheon, Rome]]
+| mark-description38 = [[San Luigi dei Francesi]] nearby
+| shape-color38 = dark blue
+| label-pos38 = bottom
+| label-offset-y38 = -4
+
+| label39 = Sant'Angelo
+| shape39 = l-circle
+| mark-coord39 = {{coord|41.9031|12.4663}}
+| mark-title39 = [[Castel Sant'Angelo]]
+| mark-description39 = [[Ponte Sant'Angelo]] nearby
+| shape-color39 = dark blue
+| label-pos39 = right
+
+| label40 = Acqua
+| labela40 = Paola
+| shape40 = l-circle
+| mark-coord40 = {{coord|41.88875|12.464167}}
+| mark-title40 = [[Fontana dell'Acqua Paola]]
+| mark-description40 = [[Monument to Garibaldi (Rome)]] nearby
+| shape-color40 = dark blue
+
+| label41 = Trastevere
+| shape41 = l-circle
+| mark-coord41 = {{coord|41.889444|12.469722}}
+| mark-title41 = [[Santa Maria in Trastevere]]
+| mark-description41 = [[Pons Cestius]] nearby
+| shape-color41 = dark blue
+| label-pos41 = right
+}}
+
 == Cëla nce ==
 * [[Lista de la majera ziteies te la Talia]]
 
