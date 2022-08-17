@@ -1,0 +1,121 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+==Text on an arc==
+This sub-template is used by {{tl|OSM Location map}} to provide a facility to place text that follows an arc across the map. In conjection with other labels, markers and map features, this allows text for larger geographic features to convey a sense of a broader area, or to follow the curve of a river, mountain range, coastline, etc. This works entirely separately from the other labels in the template. It does not attach itself to any mark or dot, and does not create any fullscreen markers. It requires coordinates for the location of the first letter, and additional parameters for the starting angle, radius of arc and gap between letters. Text size and color can also be specified, or inherited from Default settings.
+
+{| class="wikitable 
+|-
+! Blank starter-code for text on an arcs, with starter-examples for different arc-patterns.
+|-
+| <syntaxhighlight lang="html">| arc-coordA={{coord|xxx|yyyy}}   <!-- coordinates of first letter -->
+|  arc-textA=  <!-- Add your text here -->
+| arc-angleA=  <!-- in degrees, -180 to 180. 0 will start as horizontal, -90 straight up, 90 straight down  -->
+|   arc-gapA=  <!-- 1= a notional 'standard'. 0.2 is very tight, 10 is very wide--> 
+|              <!-- negative gap will invert the letters and run the other way around the circle -->
+| arc-radiusA= <!-- 1= a notional 'standard' 0.5 is quite a tight circle, 8 is so wide as to be almost flat -->
+| arc-text-sizeA = <!-- standard font sizes. If undefined, default is 12 -->
+| arc-text-colorA= <!-- sets text color. #000000 color hexes and standardised OSM Location map colors are accepted -->
+| ellipse-factorA=1.0 <!-- 1= notionally circular, 0.5 to 1.0 will flattern top and bottom, above 1.0 flattens the sides -->
+</syntaxhighlight>
+|-
+! Details about using artc-text, with starter-examples for different arc-patterns. 
+|-
+| The nature of the earth's coordinate system means that there will be some variation in an arc at different latitudes and at different zoom levels. The program makes corrections for this, but there will still be residual variation. Similarly, changes in radius will also have some effect on the gap size, with a larger radius opening out the gap somewhat. There will therefore need to be considerable trial and correction to get the shape and effect desired. As a general rule, identify the coordinates of the required start-point, then choose a starter-pattern from the selection below, and then adjust parameters to fit the requirement of the map.
+|-
+| Shallow smile: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33821}} 
+| arc-angleA=-170
+| arc-gapA=-1.2
+| arc-radiusA=1.6
+| arc-textA=Shallow Smile
+}}
+ arc-angleA=-170
+ arc-gapA=-1.2
+ arc-radiusA=1.6
+|-
+| Deeper smile: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33821}} 
+| arc-angleA=-150
+| arc-gapA=-3
+| arc-radiusA=0.7
+| arc-textA=Deeper Smile
+}}
+ arc-angleA=-150
+ arc-gapA=-3
+ arc-radiusA=0.7
+|-
+| wide eyebrow: {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=100
+| arc-coordA = {{coord|53.6146|-4.33721}} 
+| arc-angleA=-20
+| arc-gapA=3
+| arc-radiusA=0.8
+| arc-textA= Eyebrow
+}}
+ arc-angleA=-20
+ arc-gapA=3
+ arc-radiusA=0.8
+|-
+|opening bracket (reading up): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=150
+| arc-coordA = {{coord|53.6132|-4.33521}} 
+| arc-angleA=-110
+| arc-gapA=1.5
+| arc-radiusA=0.6
+| arc-textA= opening bracket (up)
+}}
+ arc-angleA=-110
+ arc-gapA=1.5
+ arc-radiusA=0.6
+|-
+|opening bracket (reading down): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6168|-4.33521}} 
+| arc-angleA=-60
+| arc-gapA=-2
+| arc-radiusA=0.5
+| arc-textA= opening bracket (down)
+}}
+ arc-angleA=-60
+ arc-gapA=-2
+ arc-radiusA=0.5
+|-
+|closing bracket (reading up): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6122|-4.33521}} 
+| arc-angleA=120
+| arc-gapA=-1.5
+| arc-radiusA=0.8
+| arc-textA= closing bracket (up)
+}}
+ arc-angleA=120
+ arc-gapA=-1.5
+ arc-radiusA=0.8
+|-
+|closing bracket (reading down): {{OSM Location map 
+| coord = {{coord|53.6146|-4.3341}} 
+|  zoom = 15  | width=200| height=200
+| arc-coordA = {{coord|53.6168|-4.33521}} 
+| arc-angleA=60
+| arc-gapA=2.5
+| arc-radiusA=0.4
+| arc-textA= closing bracket (down)
+}}
+ arc-angleA=60
+ arc-gapA=2.5
+ arc-radiusA=0.4
+
+|}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:OSM Location map templates]]
+}}</includeonly>
