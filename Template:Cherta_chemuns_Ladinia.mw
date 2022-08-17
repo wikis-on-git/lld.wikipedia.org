@@ -1,6 +1,6 @@
 {{OSM Location map
-| coord = {{coord|46.56|11.754}}
-|  zoom = 12
+| coord = {{coord|46.5227|11.9}}
+|  zoom = 10
 |   float = right
 |    nolabels = 1
 |     width = 430
@@ -19,111 +19,113 @@
 | label-offset-yD = 0
 
 | label1 = Urtijëi
-| mark-coord1 = {{coord|46.534605|11.805074}}
+| mark-coord1 = {{coord|46.5753|11.67}}
 | mark-title1 = [[Urtijëi]]
 | shape-color1 = green
 | mark-image1 = Lech_dl_Dragon_bis.JPG
 
 | label2 = Santa Cristina
-| mark-coord2 = {{coord|46.58656|11.72943}}
+| mark-coord2 = {{coord|46.55877|11.72056}}
 | mark-title2 = [[Santa Cristina]]
 | label-pos2 = left
 | mark-image2 = Lechsant_Sella.jpg
 
 | label3 = Sëlva
-| mark-coord3 = {{coord|46.58568|11.73528}}
+| mark-coord3 = {{coord|46.55524|11.75985}}
 | mark-title3 = [[Sëlva]]
 | label-pos3 = top
 | mark-image3 = Lech_da_Pertan_y_Fermedes_sun_Mastlé.jpg
 
 | label4 = Corvara
-| mark-coord4 = {{coord|46.56993|11.74637}}
+| mark-coord4 = {{coord|46.55187|11.87322}}
 | mark-title4 = [[Corvara]]
 | mark-image4 = Selva_Sella_Saslonch_Lech_de_Ciampac.jpg
 | shape-color4 = dark blue
 
 | label5 = La Val
-| mark-coord5 = {{coord|46.56642|11.75141}}
+| mark-coord5 = {{coord|46.6578|11.9242}}
 | mark-title5 = [[La Val]]
 | mark-image5 = Lech_de_Sciuz.jpg
 | shape-color5 = dark blue
 
 | label6 = San Martin de Tor
-| mark-coord6 = {{coord|46.59232|11.74016}}
+| mark-coord6 = {{coord|46.682|11.8979}}
 | mark-title6 = [[San Martin de Tor]]
 | label-pos6 = right
 | mark-image6 = Lec_da_Rijeda_sun_Mastlé_2015.jpg
 | shape-color8 = dark blue
 
 | label7 = Badia
-| mark-coord7 = {{coord|46.59602|11.74323}}
+| mark-coord7 = {{coord|46.61|11.894}}
 | mark-title7 = [[Badia]]
 | mark-image7 = Lech_da_Iman_sun_Mastle_Gherdeina.jpg
 | shape-color7 = dark blue
 
 | label8 = Mareo
 | shape8 = l-circle
-| mark-coord8 = {{coord|46.57798|11.75054}}
+| mark-coord8 = {{coord|46.6982|11.9309}}
 | mark-title8 = [[Mareo]]
 | shape-color8 = dark blue
 | label-pos8 = right
 | mark-image8 = Lech_de_Ciaulonch_Ncisles_Gherdëina.jpg
 
 | label9 = Cianacei
-| mark-coord9 = {{coord|46.55976|11.76063}}
+| mark-coord9 = {{coord|46.4758|11.7729}}
 | mark-title9 = [[Cianacei]]
 | mark-image9 = Lech_de_Tina_dinviern_Sëlva.jpg
 | shape-color9 = red
 
 | label10 = Ciampedel
-| mark-coord10 = {{coord|46.53092|11.74392}}
+| mark-coord10 = {{coord|46.4766|11.741}}
 | mark-title10 = [[Ciampedel]]
 | mark-image10 = Lech_de_Tramans_dinstà_Sëlva.jpg
 | shape-color10 = red
 
 | label11 = Sèn Jan
-| mark-coord11 = {{coord|46.57543|11.79727}}
+| mark-coord11 = {{coord|46.4302|11.6858}}
 | mark-title11 = [[Sèn Jan]]
 | mark-image11 = Lech_de_Ciampedel_y_Col_Turont_te_Val_te_Gherdëina.jpg
 | shape-color11 = red
 
 | label12 = Sorèga
-| mark-coord12 = {{coord|46.585285|11.738693}}
+| mark-coord12 = {{coord|46.3952|11.6668}}
 | mark-title12 = [[Sorèga]]
 | mark-image12 = Lech_dla_scaies_Mastle_Gherdeina.jpg
 | shape-color12 = red
 
 | label13 = Mazin
 | shape13 = l-circle
-| mark-coord13 = {{coord|46.5684|11.82547}}
+| mark-coord13 = {{coord|46.4575|11.7}}
 | mark-title13 = [[Mazin]]
 | label-pos13 = left
 | shape-color13 = red
 | mark-image13 = Lech_Crespëina_Odles_Puex_y_Stevia_te_Gherdëina.jpg
 
 | label14 = Moena
-| mark-coord14 = {{coord|46.58529|11.73869}}
+| mark-coord14 = {{coord|46.3768|11.6593}}
 | mark-title14 = [[Moena]]
 | label-pos14 = right
 | mark-image14 = Lech_dl_Mandl_sun_Mastle_cun_Secëda.jpg
 | shape-color14 = red
 
 | label15 = Fodom
-| mark-coord15 = {{coord|46.58288|11.73661}}
+| mark-coord15 = {{coord|46.4818|11.9545}}
 | mark-title15 = [[Fodom]]
 | label-pos15 = bottom
 | mark-image15 = Lech_dl_Gran_Iacun_Mastlé_Gherdëina.jpg
+| shape-color15 = violet
 
 | label16 = Col
-| mark-coord16 = {{coord|46.54815|11.71188}}
+| mark-coord16 = {{coord|46.4476|12.0142}}
 | mark-title16 = [[Col (comun)|Col]]
 | label-pos16 = bottom
+| shape-color16 = violet
 
-| label29 = Anpezo
-| shape29 = l-circle
-| mark-coord29 = {{coord|46.57165|11.71135}}
-| mark-title29 = [[Anpezo]]
-| label-pos29 = left
-| mark-image29 = Lech_de_Lagustel_Gherdeina.jpg
-
+| label17 = Anpezo
+| shape17 = l-circle
+| mark-coord17 = {{coord|46.5398|12.1365}}
+| mark-title17 = [[Anpezo]]
+| label-pos17 = left
+| mark-image17 = Lech_de_Lagustel_Gherdeina.jpg
+| shape-color17 = yellow
 }}
