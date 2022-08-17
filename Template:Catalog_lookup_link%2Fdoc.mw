@@ -1,0 +1,134 @@
+{{Documentation subpage}}
+
+{{High-risk|70000}}
+{{lua|Module:Catalog lookup link}}
+{{uses TemplateStyles|Module:Citation/CS1/styles.css|noprotcat=yes}}
+This generic link template is used by other more specific templates to create short links to ID-based entries in external databases or catalogs, however, it can also be used to link to internal articles. The purpose of this template is to ensure a consistent appearance and easier maintenance of links to external databases/catalogs.
+
+The template supports up to 9 unnamed parameters for the ID entries as well as a number of optional named parameters to adjust the link format to the target database and to modify the display format to make it suitable for as many catalog links as possible.
+
+While additional format options might be provided in the future, the default output should always remain a short, but clear and unobtrusive single-line format suitable for inclusion as argument of the {{para|id}} parameter of the various {{tl|citation}} templates. Typically, the template is not used directly, but indirectly called through other more specific templates (like those listed below under [[#See also|See also]]).
+
+==Parameters==
+*{{para|1}}, {{para|2}}, {{para|3}}, {{para|4}}, {{para|5}}, {{para|6}}, {{para|7}}, {{para|8}}, {{para|9}}: Optional unnamed parameters for 0 to 9 items to be listed. Whitespace is trimmed off both ends and the strings are urlencoded as if they were query strings.
+*{{para|article-link}}: Optional Wikipedia article name to link to.
+*{{para|article-name}}: Optional alternative text to be displayed for {{para|article-link}} link in front of catalog link. If not specified, {{para|article-link}} is used for display as well. If both parameters are not specified, the prefix is omitted completely.
+*{{para|article-suffix}}: Optional symbol to be displayed after article name or link (f.e. ":"; omitted, if not defined).
+*{{para|link-prefix}}: Optional prefix portion of url to external catalog item(s).
+*{{para|link-suffix}}: Optional suffix portion of url to external catalog item(s).
+
+*{{para|item-prefix}}: Optional text displayed in front of each external link (omitted, if not defined)
+*{{para|item-suffix}}: Optional text displayed immediately after each external link (omitted, if not defined)
+*{{para|list-separator}}: Optional alternative separator displayed between list items (default: ", ", if not specified). Whitespace must be encoded.
+*{{para|list-leadout}}: Optional alternative leadout text displayed between the last two list items (f.e. "and", "or", "as well as", etc., default is the {{para|list-separator}} or ", ".)
+
+*{{para|leadout-suffix}}: Optional alternative suffix text of the leadout (see {{para|list-leadout}}) displayed between the last two list items. This gets added in front of the last list item instead of the default whitespace which is added without this parameter. This may be necessary if {{para|list-separator}} is used not only to define the list separator but also parts of the item prefix (except for the first one). (At present, this is used only to cope with format oddities of the {{tl|MR}} template.)
+
+*{{para|url-access1}}, {{para|url-access2}}, ... {{para|url-access9}}, {{para|url-access-all}}: See {{section link|Help:Citation Style 1#Registration or subscription required}}.
+
+==Examples==
+The following examples do not reflect actual usage examples and are provided here mostly for quick output format checking. For actual usage examples, please study the templates listed further down under [[#See also|See also]].
+
+*Example 1 (article-link and article-name):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+
+*Example 2 (only article-link):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|link-prefix=//en.wikipedia.org/wiki/}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|link-prefix=//en.wikipedia.org/wiki/}}
+
+*Example 3 (only article-name):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+
+*Example 4 (neither article-link nor article-name):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|link-prefix=//en.wikipedia.org/wiki/}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|link-prefix=//en.wikipedia.org/wiki/}}
+
+*Example 5 (with article-suffix, item-prefix, item-suffix, link-suffix):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|article-suffix=:|link-prefix=//en.wikipedia.org/wiki/|link-suffix=#hash|item-prefix=<|item-suffix=>}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|article-suffix=:|link-prefix=//en.wikipedia.org/wiki/|link-suffix=#hash|item-prefix=<|item-suffix=>}}
+
+*Example 6 (without link-prefix, with article-suffix, item-prefix, item-suffix):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|article-suffix=:|item-prefix=<|item-suffix=>}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|article-link=Wikipedia|article-name=WP|article-suffix=:|link-suffix=#hash|item-prefix=<|item-suffix=>}}
+
+*Example 7 (list-leadout, list-separator):
+:<nowiki>
+{{Catalog lookup link|1|2|3|4|5|6|7|8|9|list-leadout=and|list-separator=&amp;#32;/&amp;#32;|article-link=Wikipedia|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+</nowiki>
+:{{Catalog lookup link|1|2|3|4|5|6|7|8|9|list-leadout=and|list-separator=&#32;/&#32;|article-link=Wikipedia|article-name=WP|link-prefix=//en.wikipedia.org/wiki/}}
+
+==See also==
+{{div col|colwidth=10em|content=
+* {{tl|BNF}}
+* {{tl|CELEX}}
+* {{tl|CHMID}}
+* {{tl|CiteSeerX}}
+* {{tl|COBISS}}
+* {{tl|CODEN}}
+* {{tl|CVE}}
+* {{tl|DNB-IDN}}
+* {{tl|EAN}}
+* {{tl|EBSCOhost}}
+* {{tl|EIN}}
+* {{tl|ELI}}
+* {{tl|ERAM}}
+* {{tl|ERIC}}
+* {{tl|Gale}}
+* {{tl|GND}}
+* {{tl|ICCU}}
+* {{tl|IETF RFC}}
+* {{tl|IPI}}
+* {{tl|ISBN}}
+* {{tl|ISMN}}
+* {{tl|ISNI}}
+* {{tl|ISRC}}
+* {{tl|ISSN}}
+* {{tl|ISWC}}
+* {{tl|JAN}}
+* {{tl|JFM}}
+* {{tl|JPNO}}
+* {{tl|LCCN8}}
+* {{tl|mathnet}}
+* {{tl|MR}}
+* {{tl|NAID}}
+* {{tl|NCID}}
+* {{tl|NYPL}}
+* {{tl|OCLC}}
+* {{tl|OJEU}}
+* {{tl|ORCID}}
+* {{tl|PMID}}
+* {{tl|ProQuest}}
+* {{tl|QID}}
+* {{tl|RISM}}
+* {{tl|SBN}}
+* {{tl|SELIBR}}
+* {{tl|SUDOC}}
+* {{tl|UPC}}
+* {{tl|VIAF}}
+* {{tl|Zbl}}
+* {{tl|ZDB}}
+* {{tl|Pagelist}}
+* {{tl|Comma separated entries}}
+* {{tl|Identifier}}
+* {{tl|HAL}}
+}}
+
+<includeonly>{{Sandbox other||
+[[Category:Catalog lookup templates]]
+[[Category:List formatting and function templates]]
+[[Category:Internal link templates]]<!-- while this template is mainly to link to external databases, it can also be used to link to internal pages like ISBNs. -->
+}}</includeonly>
