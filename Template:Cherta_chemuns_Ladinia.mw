@@ -1,5 +1,5 @@
 {{OSM Location map
-| coord = {{coord|46.528|11.9}}
+| coord = {{coord|46.532|11.9}}
 |  zoom = 10
 |   float = right
 |    nolabels = 1
@@ -69,7 +69,7 @@
 | mark-coord8 = {{coord|46.6982|11.9309}}
 | mark-title8 = [[Mareo]]
 | shape-color8 = dark blue
-| label-pos8 = bottom
+| label-pos8 = right
 | mark-image8 = Lech_de_Ciaulonch_Ncisles_Gherdëina.jpg
 
 | label9 = Cianacei
