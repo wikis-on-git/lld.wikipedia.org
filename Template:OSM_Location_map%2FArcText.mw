@@ -1,0 +1,256 @@
+<includeonly>{{OSM Location map/Labelitem
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1.5}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|1|ignore_errors=1}}
+| label-angle={{#expr: {{{arc-angle|-45}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|2|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(1*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+2*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+2*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|3|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(2*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}
+ }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+3*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+3*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|4|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(3*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}
+ }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+4*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+4*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|5|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(4*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+5*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+5*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|6|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(5*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+6*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+6*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|7|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(6*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+7*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+7*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|8|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(7*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+8*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+8*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|9|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(8*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+9*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+9*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|10|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(9*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+10*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+10*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|11|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(10*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+11*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+11*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|12|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(11*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+12*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+12*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|13|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(12*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}}, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+13*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+13*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|14|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(13*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}}, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+14*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+14*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|15|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(14*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+15*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+15*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|16|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(15*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+16*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+16*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|17|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(16*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}} }, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+17*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+17*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|18|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(17*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}}, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+18*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+18*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|19|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(18*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}}, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+19*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+19*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|20|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(19*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}}, 
+{ {{OSM Location map/Labelitem
+| mark-lon={{#expr:{{{arc-lon|-5}}}+(0-(sin({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (sin(({{{arc-angle|-45}}}+20*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))*{{{ellipse-factor|1}}} }}
+| mark-lat={{#expr:{{{arc-lat|50}}}+(0-(cos({{{arc-angle|-45}}}*pi/180)*{{{arc-radius|5}}}) + (cos(({{{arc-angle|-45}}}+20*{{{arc-gap|10}}})*pi/180)*{{{arc-radius|5}}}))/{{{ellipse-factor|1}}} }}
+| mark-size=0
+| label = {{#invoke:String|pos|{{{arc-text|}}}|21|ignore_errors=1}}
+| label-angle={{#expr:{{{arc-angle|-45}}}+(20*{{{arc-gap|10}}}-{{#ifexpr:{{{arc-gap|1}}}<0|180|0}} ) }}
+| label-size ={{{arc-text-size|10}}}
+| label-color={{{arc-text-color|#554433}}}
+| label-pos=top
+| label-offset-x=0
+| label-offset-y=0
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
