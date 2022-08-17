@@ -11,14 +11,205 @@ Pra l Lech dl Dragon ruvun a muever dala utia dl Pisciadù sun l troi 677 dl vi�
 L Lech Sant ie n biotop rich de tieres y plantes, rich de pitli pësc tlamei Phoxinus phozinus o Phoxinus laevis (7-14 cm), per tudësch “Elritze, Pfrille, Pfrelle”  y per talian “Sanguinerola”<ref>''Calënder di mënsc cun chedri sul Lech Sant''. Calënder de Gherdëina 1988, pl. 11, 15 y 17.</ref><ref>Vito Miribung: ''I tieres dl Lech Sant''. Calënder de Gherdëina 2014. pl. 97-101.</ref>.
 
 [[File:Fishes in Lech Sant.jpg|miniatura|alt=''Pesces phoxinus'' dl [[Lech Sant]].|''Pesces phoxinus'' dl [[Lech Sant]].]]
-[[File:Lech de Lagustel Gherdeina.jpg|miniatura|alt=Lech de Lagustel sut ora d'instà|Lech de Lagustel sut ora d'instà]]
+
+
+{{OSM Location map
+| coord = {{coord|46.534605|11.805074}}
+|  zoom = 13
+|   float = right
+|    nolabels = 1
+|     width = 300
+|     height = 290
+| title = Lec de Gherdëina
+| caption = {{legend|green|Lec da mont}}{{legend|blue|Lec a l'auta}}{{legend|red|Lec artifiziei}}
+
+| shapeD = n-circle
+| shape-colorD = green
+| label-colorD = dark blue
+| shape-outlineD = white
+| label-sizeD = 12
+| label-posD = left
+| mark-sizeD=12
+| label-offset-xD = 0
+| label-offset-yD = 0
+
+| label1 =
+| mark-coord1 = {{coord|46.534605|11.805074}}
+| mark-title1 = [[Lech dl Dragon]]
+
+| label2 =
+| mark-coord2 = {{coord|46.58656|11.72943}}
+| mark-title2 = [[Lech Sant]]
+
+| label3 =
+| mark-coord3 = {{coord|46.58568|11.73528}}
+| mark-title3 = [[Lech da Pertan]]
+
+| label4 =
+| mark-coord4 = {{coord|46.56993|11.74637}}
+| mark-title4 = [[Lech de Ciampac]]
+
+| label5 =
+| mark-coord5 = {{coord|46.56642|11.75141}}
+| mark-title5 = [[Lech de Sciuz]]
+
+| label6 =
+| mark-coord6 = {{coord|41.903889|12.488889}}
+| mark-title6 = [[Barberini – Fontana di Trevi|Metro A Barberini]]
+
+| label7 =
+| mark-coord7 = {{coord|41.9068|12.4845}}
+| mark-title7 = [[Spagna (Metro de Roma)|Metro A Spagna]]
+
+| label8 =
+| mark-coord8 = {{coord|41.911944|12.475833}}
+| mark-title8 = [[Flaminio – Piazza del Popolo (Metro de Roma)|Metro A Flaminio]]
+
+| label9 =
+| mark-coord9 = {{coord|41.911389|12.466111}}
+| mark-title9 = [[Lepanto (Metro de Roma)|Metro A Lepanto]]
+
+| label10 =
+| mark-coord10 = {{coord|41.909444|12.458056}}
+| mark-title10 = [[Ottaviano – San Pietro – Musei Vaticani (Metro de Roma)|Metro A Ottaviano]]
+
+| label11 =
+| mark-coord11 = {{coord|41.9075|12.4475}}
+| mark-title11 = [[Cipro (Metro de Roma)|Metro A Cipro]]
+
+| label27 = Vatican
+| labela27 = Museums
+| shape27 = l-circle
+| mark-coord27 = {{coord|41.906389|12.454444}}
+| mark-title27 = [[Museums Vaticans]]
+| mark-description27 = [[Capela Sistina]] te
+| label-pos27 = right
+| shape-color27 = dark blue
+
+| label28 = San Piere
+| shape28 = l-circle
+| mark-coord28 = {{coord|41.902222|12.453333}}
+| mark-title28 = [[Basilica de San Piere]]
+| mark-description28 = [[Pietà (Michelangelo)]] te
+| label-pos28 = right
+| shape-color28 = dark blue
+
+| label29 = Obelisch de Flaminio
+| shape29 = l-circle
+| mark-coord29 = {{coord|41.9107|12.47635}}
+| mark-title29 = [[Obelisch de Flaminio]]
+| mark-description29 = sun la [[Plaza dl Popul]]
+| label-pos29 = right
+| shape-color29 = dark blue
+
+| label30 = Scialieres Spanuei
+| shape30 = l-circle
+| mark-coord30 = {{coord|41.906028|12.482778}}
+| mark-title30 = [[Scialieres Spanuei]]
+| mark-description30 = porta a la [[Plaza de Spania]]
+| shape-color30 = dark blue
+
+| label31 = Funtana de Trevi
+| shape31 = l-circle
+| mark-coord31 = {{coord|41.900833|12.483056}}
+| mark-title31 = [[Funtana de Trevi]]
+| mark-description31 = [[Palaz Quirinal]] daujin a
+| shape-color31 = dark blue
+
+| label32 = Termes de
+| labela32 = Dioclezian
+| shape32 = l-circle
+| mark-coord32 = {{coord|41.903|12.498}}
+| mark-title32 = [[Termes de Dioclezian]]
+| mark-description32 = [[Santa Maria degli Angeli e dei Martiri]] te
+| shape-color32 = dark blue
+| label-pos32 = top
+| label-offset-x32 = -20
+| label-offset-y32 = 4
+
+| label33 = Santa
+| labela33 = Maria Maggiore
+| shape33 = l-circle
+| mark-coord33 = {{coord|41.8975|12.498611}}
+| mark-title33  = [[Santa Maria Maggiore]]
+| mark-description33 = [[San Pietro in Vincoli]] daujin a
+| shape-color33 = dark blue
+| label-offset-y33 = -15
+
+| label34 = Colosseum
+| shape34 = l-circle
+| mark-coord34 = {{coord|41.8902|12.4924}}
+| mark-title34 = [[Colosseum]]
+| mark-description34 = [[Arch of Constantine]] daujin a
+| shape-color34 = dark blue
+| label-pos34 = bottom
+| label-offset-y34 = -4
+
+| label35 = Zircus Maximus
+| shape35 = l-circle
+| mark-coord35 = {{coord|41.8859|12.4857}}
+| mark-title35 = [[Zircus Maximus]]
+| mark-description35 = [[Termes de Caracalla]] nearby
+| shape-color35= dark blue
+
+| label36 = Vittoriano
+| shape36 = l-circle
+| mark-coord36 = {{coord|41.894599|12.483092}}
+| mark-title36 = [[Monumënt a Vittorio Emmanuele II]]
+| mark-description36 = cun na terassa per udëi Roma a 360 degreies
+| shape-color36 = dark blue
+
+| label37 = Plaza Navona
+| shape37 = l-circle
+| mark-coord37 = {{coord|41.898889|12.473056}}
+| mark-title37 = [[Plaza Navona]]
+| mark-description37 = [[Madonna di Loreto (Caravaggio)]] daujin a
+| shape-color37 = dark blue
+
+| label38 = Pantheon
+| shape38 = l-circle
+| mark-coord38 = {{coord|41.8986|12.4768}}
+| mark-title38 = [[Pantheon (Roma)]]
+| mark-description38 = [[San Luigi dei Francesi]] daujin a
+| shape-color38 = dark blue
+| label-pos38 = bottom
+| label-offset-y38 = -4
+
+| label39 = Sant'Angelo
+| shape39 = l-circle
+| mark-coord39 = {{coord|41.9031|12.4663}}
+| mark-title39 = [[Ciastel Sant'Angelo]]
+| mark-description39 = [[Ponte Sant'Angelo]] nearby
+| shape-color39 = dark blue
+| label-pos39 = right
+
+| label40 = Acqua
+| labela40 = Paola
+| shape40 = l-circle
+| mark-coord40 = {{coord|41.88875|12.464167}}
+| mark-title40 = [[Funtana dell'Acqua Paola]]
+| mark-description40 = [[Monumënt a Garibaldi (Roma)]] daujin a
+| shape-color40 = dark blue
+
+| label41 = Trastevere
+| shape41 = l-circle
+| mark-coord41 = {{coord|41.889444|12.469722}}
+| mark-title41 = [[Santa Maria in Trastevere]]
+| mark-description41 = [[Pons Cestius]] daujin a
+| shape-color41 = dark blue
+| label-pos41 = right
+}}
+
+
+
+[[File:Lech de Lagustel Gherdeina.jpg|miniatura|alt=Lech de Lagustel suià ora d'instà|Lech de Lagustel suià ora d'instà]]
 Dl 1986, sul rone dlongia I Lech Sant, sot ala direzion de  Franco Prinoth, ie unì giavà y ie unì giatà sù na odla de bront plutosc rera  y mo autri pec sciche na lama de piëra, pizes de sëita de piëra, toc de scudelam y na piza de curtel de bront. Chësc nes disc che bele giut dan Gejù Crist fova l lech n luech de mpurtanza<ref>''Calënder di mënsc cun chedri sul Lech Sant''. Calënder de Gherdëina 1988, pl. 21.</ref>.
 
 Ntëur l Lech Sant y l Lech dl Dragon cuntovun zacan tel stories y lijëndes sgricëuses<ref> T. P. y D. T.: ''Stories da zacan (Lech sant, la zecuta, l dragon de Val Bandida, l orco, la buja dai coi)''. [[Calënder de Gherdëina]] 1914, pl. 68-69, 70-71.</ref><ref>''Calënder di mënsc cun chedri sul Lech Sant''. Calënder de Gherdëina 1988, pl. 9.</ref>.
 
 N lech, che nen ie for da udëi cun ega, ie l Lech de Lagustel o Lech de Tlancon, daujin al [[Troi Paian]] sot a [[Sëurasas]] a 1824 m. tl chemun de [[Santa Cristina]]<ref>[http://www.schule.provinz.bz.it/ms-st-ulrich/Lagustel/aspetto_geografico.htm Lech de Lagustel.]</ref>. Nce un n Lech sun Bulacia, dit ”Non Dessót” ie da udëi plutosc me d'ansciuda<ref>Cristl Moroder: ''Nosc léc''. [[Calënder de Gherdëina]], pl. 83.</ref><ref>[[Guido Insam]]: ''Calënder di mënsc cun chedri de lec tla valeda''. Calënder de Gherdëina, pl. 13''</ref>.
 
-== Lec a l'auta ==
+== Lec al auta ==
 <gallery>
 Lechdragon.jpg|[[Lech dl Dragon]]
 Lech Crespëina Odles Puex y Stevia te Gherdëina.jpg|[[Lech de Crespëina]]
