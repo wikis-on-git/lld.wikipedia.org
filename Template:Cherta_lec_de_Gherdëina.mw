@@ -25,6 +25,7 @@
 | label2 = Sant
 | mark-coord2 = {{coord|46.58656|11.72943}}
 | mark-title2 = [[Lech Sant]]
+| label-pos2 = top
 
 | label3 = Pertan
 | mark-coord3 = {{coord|46.58568|11.73528}}
@@ -47,10 +48,10 @@
 | mark-coord7 = {{coord|46.59602|11.74323}}
 | mark-title7 = [[Lech da Iman]]
 
-| label8 = Blej
+| label8 = Bleje
 | shape8 = l-circle
 | mark-coord8 = {{coord|46.57798|11.75054}}
-| mark-title8 = [[Lech de Blej]]
+| mark-title8 = [[Lech de Bleje]]
 | shape-color8 = red
 | label-pos8 = right
 
@@ -70,17 +71,17 @@
 | mark-coord12 = {{coord|46.585285|11.738693}}
 | mark-title12 = [[Lech dla Scaies]]
 
-| label27 = Crespëina
-| shape27 = l-circle
-| mark-coord27 = {{coord|46.5684|11.82547}}
-| mark-title27 = [[Lech de Crespëina]]
-| label-pos27 = right
-| shape-color27 = dark blue
+| label13 = Crespëina
+| shape13 = l-circle
+| mark-coord13 = {{coord|46.5684|11.82547}}
+| mark-title13 = [[Lech de Crespëina]]
+| label-pos13 = right
+| shape-color13 = dark blue
 
-| label28 = Mandl
-| mark-coord28 = {{coord|46.58529|11.73869}}
-| mark-title28 = [[Lech dl Mandl]]
-| label-pos28 = right
+| label14 = Mandl
+| mark-coord14 = {{coord|46.58529|11.73869}}
+| mark-title14 = [[Lech dl Mandl]]
+| label-pos14 = right
 
 | label29 = Lagustel
 | shape29 = l-circle
@@ -96,76 +97,10 @@
 
 | label31 = Pitl Vedl
 | shape31 = l-circle
-| mark-coord31 = {{coord|46.585285, 11.738693}}
+| mark-coord31 = {{coord|46.585285|11.738693}}
 | mark-title31 = [[Lech dl Pitl Vedl]]
 | label-pos31 = left
 
-| label32 = Termes de
-| labela32 = Dioclezian
-| shape32 = l-circle
-| mark-coord32 = {{coord|41.903|12.498}}
-| mark-title32 = [[Termes de Dioclezian]]
-| mark-description32 = [[Santa Maria degli Angeli e dei Martiri]] te
-| shape-color32 = dark blue
-| label-pos32 = top
-| label-offset-x32 = -20
-| label-offset-y32 = 4
-
-| label33 = Santa
-| labela33 = Maria Maggiore
-| shape33 = l-circle
-| mark-coord33 = {{coord|41.8975|12.498611}}
-| mark-title33  = [[Santa Maria Maggiore]]
-| mark-description33 = [[San Pietro in Vincoli]] daujin a
-| shape-color33 = dark blue
-| label-offset-y33 = -15
-
-| label34 = Colosseum
-| shape34 = l-circle
-| mark-coord34 = {{coord|41.8902|12.4924}}
-| mark-title34 = [[Colosseum]]
-| mark-description34 = [[Arch of Constantine]] daujin a
-| shape-color34 = dark blue
-| label-pos34 = bottom
-| label-offset-y34 = -4
-
-| label35 = Zircus Maximus
-| shape35 = l-circle
-| mark-coord35 = {{coord|41.8859|12.4857}}
-| mark-title35 = [[Zircus Maximus]]
-| mark-description35 = [[Termes de Caracalla]] nearby
-| shape-color35= dark blue
-
-| label36 = Vittoriano
-| shape36 = l-circle
-| mark-coord36 = {{coord|41.894599|12.483092}}
-| mark-title36 = [[Monumënt a Vittorio Emmanuele II]]
-| mark-description36 = cun na terassa per udëi Roma a 360 degreies
-| shape-color36 = dark blue
-
-| label37 = Plaza Navona
-| shape37 = l-circle
-| mark-coord37 = {{coord|41.898889|12.473056}}
-| mark-title37 = [[Plaza Navona]]
-| mark-description37 = [[Madonna di Loreto (Caravaggio)]] daujin a
-| shape-color37 = dark blue
-
-| label38 = Pantheon
-| shape38 = l-circle
-| mark-coord38 = {{coord|41.8986|12.4768}}
-| mark-title38 = [[Pantheon (Roma)]]
-| mark-description38 = [[San Luigi dei Francesi]] daujin a
-| shape-color38 = dark blue
-| label-pos38 = bottom
-| label-offset-y38 = -4
-
-| label39 = Sant'Angelo
-| shape39 = l-circle
-| mark-coord39 = {{coord|41.9031|12.4663}}
-| mark-title39 = [[Ciastel Sant'Angelo]]
-| mark-description39 = [[Ponte Sant'Angelo]] nearby
-| shape-color39 = dark blue
-| label-pos39 = right
 
 | label40 = Frataces
 | shape40 = l-circle
