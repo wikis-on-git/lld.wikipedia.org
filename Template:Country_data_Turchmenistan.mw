@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Turchmenistan
+| flag alias = Flag of Turkmenistan.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+| flag alias-1991 = Flag of the Turkmen SSR.svg
+| flag alias-1992 = Flag of Turkmenistan (1992-1997).svg
+| flag alias-1997 = Flag of Turkmenistan (1997-2001).svg
+| flag alias-naval = Flag of the Turkmenistan Naval Forces.svg
+| link alias-naval = Turkmen Naval Forces
+| flag alias-navy = Flag of the Turkmenistan Naval Forces.svg
+| link alias-navy = Turkmen Naval Forces
+| flag alias-army = Flag of the Turkmenistan Ground Forces.svg
+| link alias-army = Turkmen Ground Forces
+| flag alias-air force = Flag of the Turkmenistan Air Forces.svg
+| link alias-air force = Turkmen Air Force
+| link alias-military = Armed Forces of Turkmenistan
+<noinclude>
+| var1 = 1991
+| var2 = 1992
+| var3 = 1997
+| redir1 = TKM
+| related1 = Turkmen SSR
+</noinclude>
+}}
