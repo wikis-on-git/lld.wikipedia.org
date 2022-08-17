@@ -1,0 +1,26 @@
+{{Documentation subpage}}
+{{Twinkle standard installation}}
+{{lua|Module:Protection banner}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+
+This is the {{tl|pp-template}} protection notice.
+
+It is used on protected templates and on protected file (image) pages.
+
+This template does not show on pages that are not protected; instead, it reports an error. Please note that only [[Wikipedia:Administrators|administrators]] can protect pages; this template only informs about the protection status of the page.
+
+This template should usually not be manually placed on template pages, since it is automatically loaded by the {{tl|Documentation}} template of protected template pages. Protected templates (both semi and full) should preferably have a documentation subpage (/doc) so that any editor can update the documentation, categories and interwiki links of the template. See [[Wikipedia:Template documentation]] for more on that.
+
+This template automatically detects the edit protection level (semi or full) of a page, and whether it is on a template or file page, and modifies its appearance and how it categorizes the page.
+
+* Use {{tlc|pp-template}} for the normal appearance (a small icon at the top).
+* Use {{tlc|pp-template|small&#61;no}} for the large message box. On file pages we recommend using the large box. (It is usually a good idea to also add the {{tl|nocommons}} box on protected image pages, to remind people that protected images should not be deleted even if there is a backup copy on Commons.)
+
+When {{tl|pp-template}} is added to a protected template, it should be placed inside {{tag|noinclude}} tags (otherwise, every page which uses the template will load the protection notice, which will result in an error message). On file (image) pages the &lt;noinclude>&lt;/noinclude> tags are not necessary.
+
+{{Protection templates}}
+
+<includeonly>{{Sandbox other||
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Top icon protection templates|{{PAGENAME}}]]
+}}</includeonly>
