@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Wallis y Futuna
+| flag alias = Flag of France.svg
+| flag alias-local = Flag of Wallis and Futuna.svg 
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = local
+| redir1 = WLF
+</noinclude>
+}}
