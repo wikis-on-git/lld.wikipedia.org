@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Somalia
+| flag alias-1954 = Flag of Somalia (sky blue).svg
+| flag alias = Flag of Somalia.svg
+| link alias-naval = Somali Navy
+| link alias-air force = Somali Air Force
+| link alias-navy = Somali Navy
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1954
+| redir1 = SOM
+| related1 = Somaliland
+</noinclude>
+}}
