@@ -1,5 +1,5 @@
 {{OSM Location map
-| coord = {{coord|46.56|11.7523}}
+| coord = {{coord|46.56|11.754}}
 |  zoom = 12
 |   float = right
 |    nolabels = 1
@@ -74,7 +74,7 @@
 | mark-coord11 = {{coord|46.57543|11.79727}}
 | mark-title11 = [[Lech de Ciampedel]]
 
-| label12 = Scaies
+| label12 =
 | mark-coord12 = {{coord|46.585285|11.738693}}
 | mark-title12 = [[Lech dla Scaies]]
 
@@ -114,7 +114,7 @@
 | mark-title30 = [[Lech da Trëbe]]
 | label-pos30 = top
 
-| label31 = Pitl Vedl
+| label31 = 
 | shape31 = l-circle
 | mark-coord31 = {{coord|46.585285|11.738693}}
 | mark-title31 = [[Lech dl Pitl Vedl]]
