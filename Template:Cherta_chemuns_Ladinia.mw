@@ -6,7 +6,7 @@
 |     width = 400
 |     height = 390
 | title = Chemuns de la Ladinia
-| caption = {{legend|green|Gherdëina}}{{legend|blue|Val Badia}}{{legend|red|Fascia}}{{legend|violet|Fodom}}{{legend|yellow|Anpezo}}
+| caption = {{legend|green|Gherdëina}}{{legend|blue|Val Badia}}{{legend|red|Fascia}}{{legend|black|Fodom}}{{legend|yellow|Anpezo}}
 
 | shapeD = n-circle
 | shape-colorD = green
@@ -120,13 +120,13 @@
 | mark-title15 = [[Fodom]]
 | label-pos15 = top
 | mark-image15 = Lech_dl_Gran_Iacun_Mastlé_Gherdëina.jpg
-| shape-color15 = violet
+| shape-color15 = black
 
 | label16 = Col
 | mark-coord16 = {{coord|46.4476|12.0142}}
 | mark-title16 = [[Col (comun)|Col]]
 | label-pos16 = top
-| shape-color16 = pink
+| shape-color16 = black
 
 | label17 = Anpezo
 | shape17 = l-circle
