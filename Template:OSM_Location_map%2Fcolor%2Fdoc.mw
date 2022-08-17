@@ -1,0 +1,97 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+== Usage ==
+This template provides a standardised colour/Color pallete for use with OSM Location Maps. The following color descriptors (not following any particular external precedent) can be used within OSM maps to provide a consistent and sympathetic color scheme for text labels and shape colors, using pastel shades that fit well alongside the existing map colors:-
+
+Usage by directly calling the template (normally not needed except by another template) requires a single unnamed parameter, which should a colour from the list below, eg <pre>{{OSM Location map/color|soft grey}}</pre> which will generate the appropriate hex value. It will return unchanged any other text, such as a standard html colour description or hex code.
+
+===Usage of the color scheme when devising OSM Location maps===
+
+The descriptions can be used within the {{tl|OSM Location map}} template wherever a color can be specified (The template itself is not needed). For example:
+
+<pre>
+|label-color1 = soft grey
+|shape-color1 = hard red
+|label-color8 = black
+</pre>
+
+Map label colors often need to be adapted to meet the needs of the individual map, but by sticking to the 'soft' colors for most map labels the muted map appearance is retained. The 'hard' colors should only used to indicate the feature that is the particular subject of the map. (The 'dark' option is for where the background requires a shift to the stronger colors).
+
+Under normal usage, the following label color scheme should be followed:-
+{| class="wikitable" style="width: 70%; text-align: left;"
+|-
+|{{font color|#{{OSM Location map/color|soft grey}} |soft grey}} 
+|Settlements = soft grey (Subject of the map can be hard grey and larger label-size)
+|-
+|{{font color|#{{OSM Location map/color|soft blue}}|soft blue}} 
+|Rivers, lakes, sea areas etc = soft blue (Works well on top of OSM blue areas)
+|-
+| {{font color|#{{OSM Location map/color|soft green}}|soft green}} 
+|Parkland, national/regional parks, gardens, forests etc = soft green works well on top of OSM green areas. (hard green may be desirable in forests or for the subject of the map)
+|-
+| {{font color|#{{OSM Location map/color|hard red}} |hard red}} 
+|Individual sites = hard red - especially if no other labels are applied and the site is indicated by a red pog
+|}
+
+===Full table of options===
+
+{| class="wikitable" style="width: 70%; text-align: left;"
+|-
+! colspan="3" style="background-color:lightblue" | Colors recommended for OSM Maps. 
+These have a more pastel shade than the standard colors, so blend well the map backgrounds
+|-
+| {{font color|#{{OSM Location map/color|soft red}}|soft red #{{OSM Location map/color|soft red}}}}
+| {{font color|#{{OSM Location map/color|hard red}} |hard red #{{OSM Location map/color|hard red}}}} 
+| {{font color|#{{OSM Location map/color|dark red}} |dark red #{{OSM Location map/color|dark red}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft green}} |soft green #{{OSM Location map/color|soft green}}}} 
+| {{font color|#{{OSM Location map/color|hard green}} |hard green #{{OSM Location map/color|hard green}}}} 
+| {{font color|#{{OSM Location map/color|dark green}} |dark green #{{OSM Location map/color|dark green}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft blue}} |soft blue #{{OSM Location map/color|soft blue}}}} 
+| {{font color|#{{OSM Location map/color|hard blue}} |hard blue #{{OSM Location map/color|hard blue}}}} 
+| {{font color|#{{OSM Location map/color|dark blue}} |dark blue #{{OSM Location map/color|hard blue}}}}
+|-
+| {{font color|#{{OSM Location map/color|soft grey}} |soft grey #{{OSM Location map/color|soft grey}}}} 
+| {{font color|#{{OSM Location map/color|hard grey}} |hard grey #{{OSM Location map/color|hard grey}}}}
+| {{font color|#{{OSM Location map/color|dark grey}} |dark grey #{{OSM Location map/color|dark grey}}}}
+|- 
+| {{font color|#{{OSM Location map/color|soft brown}}|soft brown #{{OSM Location map/color|soft brown}}}} 
+| {{font color|#{{OSM Location map/color|hard brown}}|hard brown #{{OSM Location map/color|hard brown}}}}  
+| {{font color|#{{OSM Location map/color|dark brown}}|dark brown #{{OSM Location map/color|dark brown}}}}
+|-
+! colspan="3" style="background-color:lightblue" |Standard html colors. 
+These tend to look rather harsh on the OSM maps but are retained for compatibility
+|-
+| {{font color|#{{OSM Location map/color|White}}|White #{{OSM Location map/color|White}}}}
+| {{font color|#{{OSM Location map/color|Silver}}|Silver #{{OSM Location map/color|Silver}}}}
+| {{font color|#{{OSM Location map/color|Gray}}|Gray #{{OSM Location map/color|Gray}}}}
+|-
+| {{font color|#{{OSM Location map/color|Red}}|Red #{{OSM Location map/color|Red}}}}
+| {{font color|#{{OSM Location map/color|Maroon}}|Maroon #{{OSM Location map/color|Maroon}}}}
+| {{font color|#{{OSM Location map/color|Yellow}}|Yellow #{{OSM Location map/color|Yellow}}}}
+|-
+| {{font color|#{{OSM Location map/color|Olive}}|Olive #{{OSM Location map/color|Olive}}}}
+| {{font color|#{{OSM Location map/color|Lime}}|Lime #{{OSM Location map/color|Lime}}}}
+| {{font color|#{{OSM Location map/color|Green}}|Green #{{OSM Location map/color|Green}}}}
+|-
+| {{font color|#{{OSM Location map/color|Aqua}}|Aqua #{{OSM Location map/color|Aqua}}}}
+| {{font color|#{{OSM Location map/color|Teal}}|Teal #{{OSM Location map/color|Teal}}}}
+| {{font color|#{{OSM Location map/color|Blue}}|Blue #{{OSM Location map/color|Blue}}}}
+|-
+| {{font color|#{{OSM Location map/color|Navy}}|Navy #{{OSM Location map/color|Navy}}}}
+| {{font color|#{{OSM Location map/color|Fuchsia}}|Fuchsia #{{OSM Location map/color|Fuchsia}}}}
+| {{font color|#{{OSM Location map/color|Purple}}|Purple #{{OSM Location map/color|Purple}}}}
+|-
+| {{font color|#{{OSM Location map/color|Black}}|Black #{{OSM Location map/color|Black}}}}
+|}
+
+{{font color|{{OSM Location map/color|#AAAAAA}} | It is also possible to specify any HTML Hex color using the six-figure hex-code, eg #AAAAAA, but sticking to defaults maintains consistency between pages}} 
+
+{{font color|#{{OSM Location map/color|}} |If no color is specified the text will have a default of 'hard red'}}
+
+{{font color|#{{OSM Location map/color|nonsense}} |Colors other than the named ones above can only be specified by using hex codes. Any other color names return as 'hard red'}} #{{OSM Location map/color|nonsense}}
+
+<includeonly>{{Sandbox other||
+[[Category:Color templates]]
+}}</includeonly>
