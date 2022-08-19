@@ -40,6 +40,10 @@
 |style="width:140px;font-size:90%"|'''Data de amiscion''' || style="width:170px;font-size:90%" |{{{Data de amiscion}}}
 |- valign="top"
 |-
+|-
+|style="width:140px;font-size:90%"|'''[[Codesc INSEE]]''' || style="width:170px;font-size:90%" |{{{INSEE}}}
+|- valign="top"
+|-
 |style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
 |- valign="top"
 |-
@@ -62,6 +66,7 @@
 |Cherta               = Corrèze-Position.svg
 |Foto                 = Tulle_Préfecture.jpg
 |Descrizion foto      =
+|INSEE                = 19
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
