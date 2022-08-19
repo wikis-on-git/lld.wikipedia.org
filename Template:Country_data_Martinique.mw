@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Martinique
+| flag alias = Flag of France.svg
+| flag alias-territorial = Flag of the Territorial Collectivity of Martinique.svg
+| flag alias-local = Flag of the Front National de Libération de la Martinique.svg
+| flag alias-snake = Snake Flag of Martinique.svg
+| flag alias-MIM = Bandera del MIM.svg<noinclude><!-- MIM = [[Martinican Independence Movement]] --></noinclude>
+| flag alias-football = Flag of the Territorial Collectivity of Martinique.svg
+| flag alias-beach soccer = Flag of the Territorial Collectivity of Martinique.svg
+| flag alias-futsal = Flag of the Territorial Collectivity of Martinique.svg
+| flag alias-taekwondo = MARTINIQUE TAEKWONDO DRAPEAU.svg
+| flag alias-collectivity = Flag of Martinique (Local).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = territorial
+| var2 = local
+| var3 = snake
+| var4 = MIM
+| var5 = taekwondo
+| var6 = collectivity
+| redir1 = MTQ
+</noinclude>
+}}
