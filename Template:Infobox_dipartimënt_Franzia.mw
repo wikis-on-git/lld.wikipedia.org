@@ -37,6 +37,9 @@
 {{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
 | }}
 |-
+|style="width:140px;font-size:90%"|'''Data de amiscion''' || style="width:170px;font-size:90%" |{{{Data de amiscion}}}
+|- valign="top"
+|-
 |style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
 |- valign="top"
 |-
@@ -52,6 +55,7 @@
 |Capitela             = [[Tulle]]
 |Region               = {{flag|Nouvelle-Aquitaine}}
 |Seuraspersa          = 5857
+|Data de amiscion     = 	26 fauré 1790
 |Abitanc              = 24073
 |Data abitanc         = jené 2019
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
