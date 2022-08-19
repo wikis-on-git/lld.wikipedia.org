@@ -1,0 +1,82 @@
+{{Documentation subpage}}
+{{High-risk| 901592 }}
+{{COinS safe|n}}
+{{Notice|As of [[Special:Diff/724648585|June 10, 2016]], a rule has been added to MediaWiki:Common.css, so now {{tag|small|o}} consistently renders at size that is 85% of the surrounding text. This template remains as a convenience wrapper.}}
+
+== Usage ==
+This template is a replacement for {{tag|small}}.
+
+Remember "Avoid using smaller font sizes in elements that already use a smaller font size, such as infoboxes, navboxes and references sections", per [[MOS:ACCESS#Font size]] and [[MOS:SMALLFONT]]. Using this template within an infobox would produce a font size 75% of the page default, well below the 85% minimum specified in the linked guidelines. <!-- Per [[Wikipedia:Village pump (technical)/Archive 159#Infobox font size]], common text within an infobox is 88% of page default. Therefore use of this template in an infobox yields 74.8% of page default (0.88 * 0.85). -->
+
+The only parameter is the content and may contain templates, images, etc. if a block needs to be wrapped in this template and contains such elements.  Note that if the <code>=</code> character appears in the content, the parameter must be explicitly specified as {{para|1}}.
+
+Do not use this template to wrap multiple lines; doing so will cause [[Special:LintErrors|Linter]] errors.  If you need to wrap multiple list items or multiple paragraphs, use {{tl|smalldiv}} around the entire block, or wrap each list item or paragraph separately.
+
+Thus {{done|Good practice}}:
+{| class="wikitable"
+|-
+!input
+!shows
+|-
+| <code><nowiki>What a wonderful world</nowiki></code>
+| What a wonderful world
+|-
+| <code><nowiki>{{small|What a wonderful world}}</nowiki></code>
+| {{small|What a wonderful world}}
+|-
+| <code><nowiki>{{small|1=3 + 2 = 5}}</nowiki></code>
+| {{small|1=3 + 2 = 5}}
+|-
+|<pre>{{small|1=103}}
+{{small|1=+ 2}}
+——
+{{small|1=105}}</pre>
+|{{small|1=103}}
+
+{{small|1=+ 2}}
+
+——
+
+{{small|1=105}}
+|}
+
+{{not done|Don't do this}}:
+<pre><nowiki>{{small|
+*One
+*Two
+*Three}}</nowiki></pre>
+
+{{done|Do this instead}}:
+<pre><nowiki>{{smalldiv|
+*One
+*Two
+*Three}}</nowiki></pre>
+
+== Template data ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+        "description": "A template shortcut for the \"small\" HTML tag that makes the font smaller ",
+        "params": {
+                "1": {
+                        "label": "Text",
+                        "description": "The text that you'd like to be made smaller",
+                        "type": "string",
+                        "required": true
+                }
+        }
+}
+</templatedata>
+
+== Tracking category ==
+* {{clc|Pages using small with an empty input parameter}}
+
+== See also ==
+{{font size templates}}
+
+<includeonly>{{sandbox other||
+<!-- TEMPLATE CATEGORIES HERE, THANKS -->
+[[Category:Resizing templates|{{PAGENAME}}]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>
