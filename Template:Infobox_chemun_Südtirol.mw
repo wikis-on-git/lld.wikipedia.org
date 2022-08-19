@@ -1,0 +1,97 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" | {{{Inuem luech}}}
+|-
+|colspan="2" align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inom luech}}}]]|}}|}}
+|-
+|colspan="2" align="center" | {{#if:{{{Foto|}}}|{{#if: {{{Foto|}}} = " "|[[File:{{{Foto|}}}|280px|center|]]|}}|}}
+|-
+|colspan="2" align="center" style="font-size:90%;" | {{#if:{{{Descrizion foto|}}} | {{{Descrizion foto}}}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Raion
+|-valign="top"
+| style="width:130px;font-size:90%"  | '''[[Stat]]''' ||  style="width:180px;font-size:90%" | [[File:Flag_of_Italy.svg|border|{{{WIDTH|20}}}px|Talia]]&nbsp;[[Talia]]
+|- valign="top" 
+| style="width:130px;font-size:90%" | '''[[Regions de la Talia|Region]]''' ||  style="width:180px;font-size:90%" |{{IT-TST}}
+|- valign="top"
+| style="width:130px;font-size:90%" | '''[[Provinzies de la Talia|Provinzia]]''' ||  style="width:180px;font-size:90%" |{{IT-BZ}}
+|- valign="top" 
+|style="width:160px;font-size:90%" | {{#if:{{{Comunità|}}}| '''[[Comunità raion]]'''}} || style="width:160px;font-size:90%" align="left" | {{#if:{{{Comunità|}}}|{{{Comunità}}}}}
+|- valign="top"
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Geografia
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" |{{{Coordinedes}}}
+|- valign="top"
+| style="width:130px;font-size:90%" | {{#if:{{{Auteza|}}}|'''Autëza'''}} ||  style="width:180px;font-size:90%" |{{#if:{{{Auteza|}}}|{{formatnum:{{{Auteza}}}}} m <small>sëura l livel dl mer</small>}}
+|- valign="top"
+| style="width:130px;font-size:90%" | '''Spersa''' ||  style="width:180px;font-size:90%" |{{formatnum:{{{Souraspersa}}}&nbsp;km²}}
+|- valign="top"
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Populazion
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Abitanc''' || - style="width:180px;font-size:90%" |{{EWZT|IT|{{{Codesc ISTAT|}}}}} ab. <small>({{EWDJ|IT|{{{Codesc ISTAT|}}}}})</small>
+|- valign="top"
+| style="width:130px;font-size:90%" | '''Grupes linguistiches''' || - style="width:180px;font-size:90%" |{{formatnum:{{{lld}}}}}&nbsp;%&nbsp;[[lingaz ladin|ladin]]<br>{{formatnum:{{{de}}}}}&nbsp;%&nbsp;[[lingaz tudësch|tudësch]]<br>{{formatnum:{{{it}}}}}&nbsp;%&nbsp;[[lingaz talian|talian]]
+|- valign="top"
+| style="width:130px;font-size:90%" | '''Densità''' ||  style="width:180px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|IT|{{{Codesc ISTAT|}}}}} / {{{Souraspersa}}} round 2 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Auter
+|-valign="top"
+|style="width:160px;font-size:90%" | {{#if:{{{Frazions|}}}| '''[[Frazion (Talia)|Frazions]]'''}} || style="width:160px;font-size:90%" align="left" |{{#if:{{{Frazions|}}}| {{{Frazions}}}}}
+|- valign="top"
+| style="width:130px;font-size:90%" |'''Codesc de la posta''' ||  style="width:180px;font-size:90%" |{{{Codesc postal}}}
+|- valign="top"
+| style="width:130px;font-size:90%" |'''Prefis dl telefon''' ||  style="width:180px;font-size:90%" |{{{Prefis telefonich}}}
+|- valign="top"
+| style="width:130px;font-size:90%" |{{#if:{{{Codesc ISTAT|}}}| '''Codesc ISTAT'''}} ||  style="width:180px;font-size:90%" |{{#if:{{{Codesc ISTAT|}}}| {{{Codesc ISTAT}}}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Politica
+|- valign="top"
+| style="width:130px;font-size:90%" | {{#if:{{{Ambolt|}}}|'''Ambolt'''}} ||  style="width:180px;font-size:90%" | {{#if:{{{Ambolt|}}}|{{{Ambolt}}} <small>({{{Ann ambolt}}})</small>}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | '''Cherta'''
+|-
+|colspan="2" align="center" | 
+{{#if:{{{Mapa|}}}|{{#if: {{{Mapa|}}} = " "|[[File:{{{Mapa}}}|295px|center|Cherta de {{{Inuem scëmpl}}} te Südtirol]]|}}|}}
+|-
+|colspan="2" align="center" style="font-size:90%;" | {{#if:{{{Mapa|}}}| Posizion de {{{Inuem scëmpl}}} te Südtirol}}
+|-
+|colspan="2" align="center" | {{#if:{{{Cherta localisazion|}}}| {{{Cherta localisazion}}} }}
+|-
+!colspan="2" bgcolor="#E3E3E3" | {{#if:{{{Plata internet|}}}| [{{{Plata internet}}} Plata internet]}}
+|}</includeonly>
+
+<noinclude>
+{{Infobox chemun Südtirol
+|Inuem luech         = prova
+|Inuem scëmpl = Milan
+|Blason             = Flag of None.svg
+|Auteza = 1563
+|Coordinedes        = {{coord|46|33|24|N|11|45|32|E|display=inline}}   <!--mantenì genau chësc format-->
+|de          = 5.2
+|it          = 23.8
+|lld          = 78.7
+|Souraspersa        = 15.3
+|Comunità           = [[Salten-Scilier (comunità raion)|Salten-Scilier]]
+|Abitanc            = 500
+|Codesc postal      = 39048
+|Codesc ISTAT       = 021089
+|Prefis telefonich   = 0471
+|Foto  = Sëlva Wolkenstein Selva di Val Gardena Sella.jpg
+|Descrizion foto = Sëlva ududa da [[Daunëi]].
+|Mapa              = Wolkenstein_in_Gröden_in_Südtirol_-_Positionskarte.svg
+|Cherta localisazion = {{Mappa di localizzazione
+|NordItalia
+|label = Sëlva
+|latitudineGradi = 46
+|latitudinePrimi = 33
+|longitudineGradi = 11
+|longitudinePrimi = 45
+|position = right
+|width = 300
+|float = center
+|relief = yes
+|background = #bebebe
+}}
+}}L ne ie nia plu debujën de dé ite l numer de abitanc y la data di abitanc. Chisc vënt tëuc automaticamënter dal database tres i temaplate: [[Template:EWZ]] per la popualazion y [[Template:EWD]] per la data de chësta popualazion. Chësc database cunësc l numer de abitanc in basa al codesc ISTAT dl luech. Perchël iel debujën de dé ite l codesc ISTAT.
+
+[[Categoria:Wikipedia:Templates]]</noinclude>
