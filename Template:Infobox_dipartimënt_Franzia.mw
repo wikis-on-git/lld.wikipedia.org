@@ -47,6 +47,10 @@
 |style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
 |- valign="top"
 |-
+|-
+|style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" | [{{{Plata internet}}} {{{Plata internet}}}] 
+|- valign="top"
+|-
 |}</includeonly>
 
 <noinclude>
@@ -65,8 +69,9 @@
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
 |Cherta               = Corrèze-Position.svg
 |Foto                 = Tulle_Préfecture.jpg
-|Descrizion foto      =
+|Descrizion foto      = 
 |INSEE                = 19
+|Plata internet       = https://www.correze.fr/
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
