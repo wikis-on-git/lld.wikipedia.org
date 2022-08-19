@@ -74,7 +74,7 @@
 {| class="wikitable sortable"	
 ![[Chemun]]!![[Dipartimënc de la Franzia|Dipartimënt]]!![[Regions de la Franzia|Region]]!!Populazion tl 2006!!Populazion tl 2013!!Populazion tl 2019!!Posizion tl 2019
 |-		
-| {{Blason|Paris}} || [[Seine (department)|Paris]]|| {{sort|Ile-de-France|[[Île-de-France]]}} ||2.181.371|| 2.229.621 || 2.165.423 || 1
+| {{Blason|Paris}} || [[Seine (dipartimënt)|Paris]]|| {{sort|Ile-de-France|[[Île-de-France]]}} ||2.181.371|| 2.229.621 || 2.165.423 || 1
 |-
 | {{Blason|Marseille}} || [[Bouches-du-Rhône]] || [[Provence-Alpes-Côte d'Azur]] ||839.043|| 855.393 || 870.731 || 2
 |-
@@ -96,11 +96,11 @@
 |-
 | {{Blason|Rennes}} || [[Ille-et-Vilaine]] || [[Bretania (region aministrativa)|Bretania]] ||209.613|| 211.373 || 220.488 || 11
 |-
-| {{Blason|Reims}} || [[Marne (department)|Marne]] || [[Grand Est]] ||183.837|| 182.592 || 181.194 || 12
+| {{Blason|Reims}} || [[Marne (dipartimënt)|Marne]] || [[Grand Est]] ||183.837|| 182.592 || 181.194 || 12
 |-
-| {{Blason|Toulon}} || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||167.816|| 163.760 || 178.745 || 13
+| {{Blason|Toulon}} || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||167.816|| 163.760 || 178.745 || 13
 |-
-| {{Blason|Saint-Étienne}} || [[Loire (department)|Loire]] || [[Auvergne-Rhône-Alpes]] ||177.480|| 172.023 || 173.821 || 14
+| {{Blason|Saint-Étienne}} || [[Loire (dipartimënt)|Loire]] || [[Auvergne-Rhône-Alpes]] ||177.480|| 172.023 || 173.821 || 14
 |-
 | {{Blason|Le Havre}} || [[Seine-Maritime]] || [[Normandia]] ||182.580|| 172.074 || 168.290 || 15
 |-
@@ -126,7 +126,7 @@
 |-
 | [[Tours]] || [[Indre-et-Loire]] || [[Centre-Val de Loire]] ||136.942|| 134.803 || 137.087 || 26
 |-
-| [[Amiens]] || [[Somme (department)|Somme]] || [[Hauts-de-France]] ||136.105|| 132.699 || 134.706 || 27
+| [[Amiens]] || [[Somme (dipartimënt)|Somme]] || [[Hauts-de-France]] ||136.105|| 132.699 || 134.706 || 27
 |-
 | [[Limoges]] || [[Haute-Vienne]] || [[Nouvelle-Aquitaine]] ||136.539|| 135.098 || 130.876 || 28
 |-
@@ -136,7 +136,7 @@
 |-
 | [[Perpignan]] || [[Pyrénées-Orientales]] || [[Occitania]] ||115.326|| 120.959 || 119.344 || 31
 |-
-| [[Metz]] || [[Moselle (department)|Moselle]] || [[Grand Est]] ||124.435|| 118.634 || 118.489 || 32
+| [[Metz]] || [[Moselle (dipartimënt)|Moselle]] || [[Grand Est]] ||124.435|| 118.634 || 118.489 || 32
 |-
 | [[Besançon]] || [[Doubs]] || [[Bourgogne-Franche-Comté]] ||117.080|| 116.952 || 117.912 || 33
 |-
@@ -152,7 +152,7 @@
 |-
 | [[Mulhouse]] || [[Haut-Rhin]] || [[Grand Est]] ||110.514|| 112.063 || 108.312 || 39
 |-
-| [[Caen]] || [[Calvados (department)|Calvados]] || [[Normandia]] ||110.399|| 107.229 || 106.230 || 40
+| [[Caen]] || [[Calvados (dipartimënt)|Calvados]] || [[Normandia]] ||110.399|| 107.229 || 106.230 || 40
 |-
 | [[Nancy]] || [[Meurthe-et-Moselle]] || [[Grand Est]] ||105.468|| 104.072 || 105.058 || 41
 |-
@@ -242,7 +242,7 @@
 |-
 | [[Valence. Drôme|Valence]] || [[Drôme]] || [[Auvergne-Rhône-Alpes]] ||65.263|| 61.767 || 64.749 || 84
 |-
-| [[Bourges]] || [[Cher (department)|Cher]] || [[Centre-Val de Loire]] ||70.828|| 67.189 || 64.541 || 85
+| [[Bourges]] || [[Cher (dipartimënt)|Cher]] || [[Centre-Val de Loire]] ||70.828|| 67.189 || 64.541 || 85
 |-
 | [[Ivry-sur-Seine]] || [[Val-de-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||55.608|| 58.933 || 63.748 || 86
 |-
@@ -250,7 +250,7 @@
 |-
 | [[Clichy. Hauts-de-Seine|Clichy]] || [[Hauts-de-Seine]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||57.162|| 59.255 || 63.089 || 88
 |-
-| [[La Seyne-sur-Mer]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||56.768|| 64.523 || 62.987 || 89
+| [[La Seyne-sur-Mer]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||56.768|| 64.523 || 62.987 || 89
 |-
 | [[Antony. Hauts-de-Seine|Antony]] || [[Hauts-de-Seine]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||60.552|| 61.727 || 62.760 || 90
 |-
@@ -290,13 +290,13 @@
 |-
 | [[La Roche-sur-Yon]] || [[Vendée]] || [[Pays de la Loire]] ||50.717|| 52.732 || 55.147 || 108
 |-
-| [[Hyères]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||55.007|| 55.713 || 54.821 || 109
+| [[Hyères]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||55.007|| 55.713 || 54.821 || 109
 |-
 | [[Épinay-sur-Seine]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||51.598|| 54.857 || 54.611 || 110
 |-
 | [[Bondy]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||53.311|| 52.865 || 54.587 || 111
 |-
-| [[Fréjus]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||51.537|| 53.039 || 54.458 || 112
+| [[Fréjus]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||51.537|| 53.039 || 54.458 || 112
 |-
 | [[Bobigny]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||47.806|| 49.802 || 54.363 || 113
 |-
@@ -338,7 +338,7 @@
 |-
 | [[Suresnes]] || [[Hauts-de-Seine]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||44.197|| 48.066 || 49.311 || 132
 |-
-| [[Albi]] || [[Tarn (department)|Tarn]] || [[Occitania]] ||48.712|| 49.432 || 48.902 || 133
+| [[Albi]] || [[Tarn (dipartimënt)|Tarn]] || [[Occitania]] ||48.712|| 49.432 || 48.902 || 133
 |-
 | [[Grasse]] || [[Alpes-Maritimes]] || [[Provence-Alpes-Côte d'Azur]] ||48.801|| 50.916 || 48.870 || 134
 |-
@@ -364,7 +364,7 @@
 |-
 | [[Belfort]] || [[Territoire de Belfort]] || [[Bourgogne-Franche-Comté]] ||50.863|| 50.196 || 46.443 || 145
 |-
-| [[Charleville-Mézières]] || [[Ardennes (department)|Ardennes]] || [[Grand Est]] ||51.997|| 48.991 || 46.436 || 146
+| [[Charleville-Mézières]] || [[Ardennes (dipartimënt)|Ardennes]] || [[Grand Est]] ||51.997|| 48.991 || 46.436 || 146
 |-
 | [[Évreux]] || [[Eure]] || [[Normandia]] ||51.239|| 49.722 || 46.349 || 147
 |-
@@ -396,7 +396,7 @@
 |-
 | [[Noisy-le-Sec]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||38.587|| 41.125 || 44.463 || 161
 |-
-| [[Châlons-en-Champagne]] || [[Marne (department)|Marne]] || [[Grand Est]] ||46.184|| 44.899 || 44.379 || 162
+| [[Châlons-en-Champagne]] || [[Marne (dipartimënt)|Marne]] || [[Grand Est]] ||46.184|| 44.899 || 44.379 || 162
 |-
 | [[Mantes-la-Jolie]] || [[Yvelines]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||41.930|| 45.052 || 43.921 || 163
 |-
@@ -422,7 +422,7 @@
 |-
 | [[Bron]] || [[Lyon Metropolis]] || [[Auvergne-Rhône-Alpes]] ||38.919|| 38.746 || 42.244 || 174
 |-
-| [[Castres]] || [[Tarn (department)|Tarn]] || [[Occitania]] ||43.141|| 41.636 || 42.079 || 175
+| [[Castres]] || [[Tarn (dipartimënt)|Tarn]] || [[Occitania]] ||43.141|| 41.636 || 42.079 || 175
 |-
 | [[Le Cannet]] || [[Alpes-Maritimes]] || [[Provence-Alpes-Côte d'Azur]] ||42.531|| 43.187 || 41.887 || 176
 |-
@@ -440,7 +440,7 @@
 |-
 | [[Melun]] || [[Seine-et-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||37.663|| 40.066 || 40.844 || 183
 |-
-| [[Thionville]] || [[Moselle (department)|Moselle]] || [[Grand Est]] ||41.127|| 41.627 || 40.778 || 184
+| [[Thionville]] || [[Moselle (dipartimënt)|Moselle]] || [[Grand Est]] ||41.127|| 41.627 || 40.778 || 184
 |-
 | [[Gap. Hautes-Alpes|Gap]] || [[Hautes-Alpes]] || [[Provence-Alpes-Côte d'Azur]] ||37.332|| 40.255 || 40.631 || 185
 |-
@@ -460,7 +460,7 @@
 |-
 | [[Douai]] || [[Nord (French department)|Nord]] || [[Hauts-de-France]] ||42.766|| 41.189 || 39.613 || 193
 |-
-| [[Draguignan]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||37.088|| 39.174 || 39.433 || 194
+| [[Draguignan]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||37.088|| 39.174 || 39.433 || 194
 |-
 | [[Poissy]] || [[Yvelines]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||35.860|| 37.461 || 39.187 || 195
 |-
@@ -496,13 +496,13 @@
 |-
 | [[Tremblay-en-France]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||35.340|| 34.614 || 36.461 || 211
 |-
-| [[Villefranche-sur-Saône]] || [[Rhône (department)|Rhône]] || [[Auvergne-Rhône-Alpes]] ||34.188|| 36.531 || 36.291 || 212
+| [[Villefranche-sur-Saône]] || [[Rhône (dipartimënt)|Rhône]] || [[Auvergne-Rhône-Alpes]] ||34.188|| 36.531 || 36.291 || 212
 |-
 | [[Creil]] || [[Oise]] || [[Hauts-de-France]] ||33.479|| 34.262 || 36.169 || 213
 |-
 | [[Bagnolet]] || [[Seine-Saint-Denis]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||34.069|| 35.984 || 36.060 || 214
 |-
-| [[Saint-Raphaël. Var|Saint-Raphaël]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||33.804|| 34.005 || 36.027 || 215
+| [[Saint-Raphaël. Var|Saint-Raphaël]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||33.804|| 34.005 || 36.027 || 215
 |-
 | [[La Ciotat]] || [[Bouches-du-Rhône]] || [[Provence-Alpes-Côte d'Azur]] ||32.126|| 34.655 || 35.993 || 216
 |-
@@ -522,11 +522,11 @@
 |-
 | [[Villeneuve-Saint-Georges]] || [[Val-de-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||30.450|| 32.575 || 34.890 || 224
 |-
-| [[Saint-Chamond. Loire|Saint-Chamond]] || [[Loire (department)|Loire]] || [[Auvergne-Rhône-Alpes]] ||35.608|| 35.308 || 34.841 || 225
+| [[Saint-Chamond. Loire|Saint-Chamond]] || [[Loire (dipartimënt)|Loire]] || [[Auvergne-Rhône-Alpes]] ||35.608|| 35.308 || 34.841 || 225
 |-
 | [[Meyzieu]] || [[Lyon Metropolis]] || [[Auvergne-Rhône-Alpes]] ||28.738|| 31.438 || 34.640 || 226
 |-
-| [[Six-Fours-les-Plages]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||34.325|| 34.387 || 34.592 || 227
+| [[Six-Fours-les-Plages]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||34.325|| 34.387 || 34.592 || 227
 |-
 | [[Saint-Leu. Réunion|Saint-Leu]] || {{sort|Reunion|[[Réunion]]}} || {{sort|Reunion|[[Réunion]]}} ||28.969|| 33.154 || 34.586 || 228
 |-
@@ -542,7 +542,7 @@
 |-
 | [[Mâcon]] || {{sort|Saone-et-Loire|[[Saône-et-Loire]]}} || [[Bourgogne-Franche-Comté]] ||34.171|| 33.350 || 33.908 || 234
 |-
-| [[Roanne]] || [[Loire (department)|Loire]] || [[Auvergne-Rhône-Alpes]] ||36.126|| 35.507 || 33.809 || 235
+| [[Roanne]] || [[Loire (dipartimënt)|Loire]] || [[Auvergne-Rhône-Alpes]] ||36.126|| 35.507 || 33.809 || 235
 |-
 | [[Schiltigheim]] || [[Bas-Rhin]] || [[Grand Est]] ||31.239|| 31.450 || 33.780 || 236
 |-
@@ -574,7 +574,7 @@
 |-
 | [[Montigny-le-Bretonneux]] || [[Yvelines]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||33.968|| 33.625 || 32.282 || 250
 |-
-| [[Épinal]] || [[Vosges (department)|Vosges]] || [[Grand Est]] ||34.014|| 32.188 || 32.256 || 251
+| [[Épinal]] || [[Vosges (dipartimënt)|Vosges]] || [[Grand Est]] ||34.014|| 32.188 || 32.256 || 251
 |-
 | [[Cambrai]] || [[Nord (French department)|Nord]] || [[Hauts-de-France]] ||32.594|| 32.852 || 32.176 || 252
 |-
@@ -644,7 +644,7 @@
 |-
 | [[Charenton-le-Pont]] || [[Val-de-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||28.395|| 30.408 || 29.882 || 285
 |-
-| [[Mont-de-Marsan]] || [[Landes (department)|Landes]] || [[Nouvelle-Aquitaine]] ||30.230|| 31.334 || 29.807 || 286
+| [[Mont-de-Marsan]] || [[Landes (dipartimënt)|Landes]] || [[Nouvelle-Aquitaine]] ||30.230|| 31.334 || 29.807 || 286
 |-
 | [[Ris-Orangis]] || [[Essonne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||26.620|| 27.312 || 29.745 || 287
 |-
@@ -772,11 +772,11 @@
 |-
 | [[Blagnac]] || [[Haute-Garonne]] || [[Occitania]] ||21.199|| 22.969 || 25.525 || 349
 |-
-| [[La Garde. Var|La Garde]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||25.621|| 25.298 || 25.505 || 350
+| [[La Garde. Var|La Garde]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||25.621|| 25.298 || 25.505 || 350
 |-
 | [[Cenon]] || [[Gironde]] || [[Nouvelle-Aquitaine]] ||23.171|| 22.882 || 25.496 || 351
 |-
-| [[Vierzon]] || [[Cher (department)|Cher]] || [[Centre-Val de Loire]] ||28.147|| 27.113 || 25.464 || 352
+| [[Vierzon]] || [[Cher (dipartimënt)|Cher]] || [[Centre-Val de Loire]] ||28.147|| 27.113 || 25.464 || 352
 |-
 | [[Cormeilles-en-Parisis]] || [[Val-d'Oise]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||21.503|| 23.419 || 25.406 || 353
 |-
@@ -820,7 +820,7 @@
 |-
 | [[Villeneuve-la-Garenne]] || [[Hauts-de-Seine]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||24.568|| 25.466 || 24.097 || 373
 |-
-| [[La Valette-du-Var]] || [[Var (department)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||22.067|| 21.463 || 24.087 || 374
+| [[La Valette-du-Var]] || [[Var (dipartimënt)|Var]] || [[Provence-Alpes-Côte d'Azur]] ||22.067|| 21.463 || 24.087 || 374
 |-
 | [[Sainte-Suzanne. Réunion|Sainte-Suzanne]] || {{sort|Reunion|[[Réunion]]}} || {{sort|Reunion|[[Réunion]]}} ||21.714|| 22.209 || 24.065 || 375
 |-
@@ -832,7 +832,7 @@
 |-
 | [[Vernon. Eure|Vernon]] || [[Eure]] || [[Normandia]] ||24.018|| 24.064 || 23.727 || 379
 |-
-| [[Dole. Jura|Dole]] || [[Jura (department)|Jura]] || [[Bourgogne-Franche-Comté]] ||24.606|| 23.312 || 23.711 || 380
+| [[Dole. Jura|Dole]] || [[Jura (dipartimënt)|Jura]] || [[Bourgogne-Franche-Comté]] ||24.606|| 23.312 || 23.711 || 380
 |-
 | [[Rochefort. Charente-Maritime|Rochefort]] || [[Charente-Maritime]] || [[Nouvelle-Aquitaine]] ||26.299|| 24.761 || 23.584 || 381
 |-
@@ -854,7 +854,7 @@
 |-
 | [[Frontignan]] || [[Hérault]] || [[Occitania]] ||22.410|| 22.942 || 23.028 || 390
 |-
-| [[Abbeville]] || [[Somme (department)|Somme]] || [[Hauts-de-France]] ||24.052|| 23.821 || 22.980 || 391
+| [[Abbeville]] || [[Somme (dipartimënt)|Somme]] || [[Hauts-de-France]] ||24.052|| 23.821 || 22.980 || 391
 |-
 | [[Saint-Dizier]] || [[Haute-Marne]] || [[Grand Est]] ||26.972|| 25.626 || 22.928 || 392
 |-
@@ -862,7 +862,7 @@
 |-
 | [[Roissy-en-Brie]] || [[Seine-et-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||21.230|| 22.559 || 22.851 || 394
 |-
-| [[Hérouville-Saint-Clair]] || [[Calvados (department)|Calvados]] || [[Normandia]] ||22.766|| 21.393 || 22.555 || 395
+| [[Hérouville-Saint-Clair]] || [[Calvados (dipartimënt)|Calvados]] || [[Normandia]] ||22.766|| 21.393 || 22.555 || 395
 |-
 | [[Castelnau-le-Lez]] || [[Hérault]] || [[Occitania]] ||15.229|| 17.837 || 22.534 || 396
 |-
@@ -872,7 +872,7 @@
 |-
 | [[Oyonnax]] || [[Ain]] || [[Auvergne-Rhône-Alpes]] ||23.618|| 22.258 || 22.456 || 399
 |-
-| [[Épernay]] || [[Marne (department)|Marne]] || [[Grand Est]] ||24.456|| 23.413 || 22.433 || 400
+| [[Épernay]] || [[Marne (dipartimënt)|Marne]] || [[Grand Est]] ||24.456|| 23.413 || 22.433 || 400
 |-
 | [[Saint-Louis. Haut-Rhin|Saint-Louis]] || [[Haut-Rhin]] || [[Grand Est]] ||19.875|| 19.907 || 22.413 || 401
 |-
@@ -908,7 +908,7 @@
 |-
 | [[Gujan-Mestras]] || [[Gironde]] || [[Nouvelle-Aquitaine]] ||17.031|| 20.294 || 21.887 || 417
 |-
-| [[Montigny-lès-Metz]] || [[Moselle (department)|Moselle]] || [[Grand Est]] ||22.843|| 21.831 || 21.879 || 418
+| [[Montigny-lès-Metz]] || [[Moselle (dipartimënt)|Moselle]] || [[Grand Est]] ||22.843|| 21.831 || 21.879 || 418
 |-
 | [[La Madeleine. Nord|La Madeleine]] || [[Nord (French department)|Nord]] || [[Hauts-de-France]] ||22.681|| 22.243 || 21.856 || 419
 |-
@@ -926,7 +926,7 @@
 |-
 | [[Les Pennes-Mirabeau]] || [[Bouches-du-Rhône]] || [[Provence-Alpes-Côte d'Azur]] ||20.231|| 20.018 || 21.623 || 426
 |-
-| [[Forbach]] || [[Moselle (department)|Moselle]] || [[Grand Est]] ||21.956|| 21.596 || 21.597 || 427
+| [[Forbach]] || [[Moselle (dipartimënt)|Moselle]] || [[Grand Est]] ||21.956|| 21.596 || 21.597 || 427
 |-
 | [[Lagny-sur-Marne]] || [[Seine-et-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||20.086|| 20.718 || 21.539 || 428
 |-
@@ -972,7 +972,7 @@
 |-
 | [[Coudekerque-Branche]] || [[Nord (French department)|Nord]] || [[Hauts-de-France]] ||22.994|| 22.015 || 20.851 || 449
 |-
-| [[Dax (Landes)|Dax]] || [[Landes (department)|Landes]] || [[Nouvelle-Aquitaine]] ||20.810|| 20.776 || 20.843 || 450
+| [[Dax (Landes)|Dax]] || [[Landes (dipartimënt)|Landes]] || [[Nouvelle-Aquitaine]] ||20.810|| 20.776 || 20.843 || 450
 |-
 | [[Chemillé-en-Anjou]] || [[Maine-et-Loire]] || [[Pays de la Loire]] || || || 20.828 || 451
 |-
@@ -988,7 +988,7 @@
 |-
 | [[Mitry-Mory]] || [[Seine-et-Marne]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||17.903|| 19.267 || 20.648 || 457
 |-
-| [[Sarreguemines]] || [[Moselle (department)|Moselle]] || [[Grand Est]] ||21.733|| 21.572 || 20.635 || 458
+| [[Sarreguemines]] || [[Moselle (dipartimënt)|Moselle]] || [[Grand Est]] ||21.733|| 21.572 || 20.635 || 458
 |-
 | [[Fougères]] || [[Ille-et-Vilaine]] || [[Bretania (region aministrativa)|Bretania]] ||20.941|| 20.170 || 20.595 || 459
 |-
@@ -1016,7 +1016,7 @@
 |-
 | [[L'Isle-sur-la-Sorgue]] || [[Vaucluse]] || [[Provence-Alpes-Côte d'Azur]] ||18.015|| 18.955 || 20.557 || 471
 |-
-| [[Lisieux]] || [[Calvados (department)|Calvados]] || [[Normandia]] ||23.343|| 21.132 || 20.038 || 472
+| [[Lisieux]] || [[Calvados (dipartimënt)|Calvados]] || [[Normandia]] ||23.343|| 21.132 || 20.038 || 472
 |-
 | [[Sceaux]] || [[Hauts-de-Seine]] || {{sort|Ile-de-France|[[Île-de-France]]}} ||19.413|| 19.718 || 20.004 || 473
 |}
