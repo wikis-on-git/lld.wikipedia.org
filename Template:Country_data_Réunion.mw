@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Réunion
+| flag alias = Flag of France.svg
+| flag alias-local = Proposed flag of Réunion (VAR).svg
+| flag alias-football = Proposed flag of Réunion (VAR).svg
+| flag alias-beach soccer = Proposed flag of Réunion (VAR).svg
+| flag alias-futsal = Proposed flag of Réunion (VAR).svg
+| flag alias-gov =
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = local
+| var2 = gov
+| redir1 = REU
+| cat = Reunion
+</noinclude>
+}}
