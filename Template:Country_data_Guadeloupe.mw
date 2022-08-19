@@ -1,0 +1,20 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Guadeloupe
+| flag alias = Flag of France.svg
+| flag alias-local = Flag of Guadeloupe (local).svg
+| flag alias-local2 = Flag of Guadeloupe (local) variant.svg
+| flag alias-football = Flag of Guadeloupe (local).svg
+| flag alias-beach soccer = Flag of Guadeloupe (local).svg
+| flag alias-futsal = Flag of Guadeloupe (local).svg
+| flag alias-government = Flag of Guadeloupe (Local).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = local
+| var2 = local2
+| redir1 = GLP
+</noinclude>
+}}
