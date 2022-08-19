@@ -1,0 +1,19 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Guiana Franzëusa
+| flag alias = Flag of France.svg
+| flag alias-local = Flag of French Guiana.svg
+| flag alias-gov = Flag of French Guiana (Local).svg
+| flag alias-football = Flag of French Guiana.svg
+| flag alias-beach soccer = Flag of French Guiana.svg
+| flag alias-futsal = Flag of French Guiana.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = local
+| var2 = gov
+| redir1 = GUF
+</noinclude>
+}}
