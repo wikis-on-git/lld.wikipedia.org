@@ -29,9 +29,9 @@
 |-
 !colspan="2" bgcolor="#E3E3E3" | Auter
 |-
-{{#if:{{{Fundazion|}}} |    
+{{#if:{{{County_town|}}} |    
 {{!}}-
-{{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
+{{!}} style="width:140px;font-size:90%" {{!}} '''County town''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{County_town}}}
 | }}
 |-
 |style="width:140px;font-size:90%"|'''[[Codesc ISO 3166-2]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
@@ -53,7 +53,7 @@
 |Foto                 = CountyHallRearBedford.JPG
 |Descrizion foto      = 
 |ISO                 = GB-BDF
-|Plata internet       = https://www.correze.fr/
+|County_town       = [[Bedford]]
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
