@@ -1,0 +1,59 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+| colspan="2"  valign="top" | [[File:{{{Foto}}}|300px|border|center]]
+|-
+| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
+|-
+!colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
+|-
+| {{#if: {{{Blason|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Bandiera}}}|160px|border|center]] }}
+|-
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"| [[File:{{{Cherta}}}|300px|border|center]]
+|-
+!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
+|-valign="top"
+|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{flag|Riam Unì}}
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''Nazion''' || style="width:170px;font-size:90%" | {{flag|Nghiltiera}}
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Sënta aministrativa''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km² <small>
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" | Auter
+|-
+{{#if:{{{Fundazion|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
+| }}
+|-
+|style="width:140px;font-size:90%"|'''[[Codesc ISO 3166-2]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
+|- valign="top"
+|-
+|}</includeonly>
+
+<noinclude>
+{{Infobox contea Nghiltiera
+|Inuem                = Bedfordshire
+|Soget aministratif   = [[Contea zeremoniela de la Nghiltiera]]
+|Bandiera             = Bedfordshire%20County%20Flag.svg
+|Blason               =
+|Capitela             = [[Bedford]]
+|Seuraspersa          = 1235.4
+|Abitanc              = 682311
+|Data abitanc         = stima dl 2019
+|Cherta               = Bedfordshire%20UK%20locator%20map%202010.svg
+|Foto                 = CountyHallRearBedford.JPG
+|Descrizion foto      = 
+|ISO                 = GB-BDF
+|Plata internet       = https://www.correze.fr/
+}}
+
+[[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
