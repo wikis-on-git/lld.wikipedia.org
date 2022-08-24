@@ -1,0 +1,86 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{ombox
+| type = content
+| text = '''This template is for English words only'''. For notating pronunciation of non-English words that have not been assimilated into English, use the IPA template for the respective language. In addition, the template is merely to augment the IPA but never to replace it, and therefore '''should not be used alone without an IPA notation preceding it'''. See [[Wikipedia:Manual of Style/Pronunciation]] for more on showing pronunciation on Wikipedia. If you need help transcribing the pronunciation into the IPA, please ask at [[Wikipedia:Reference desk/Language]].
+}}
+{{lua|Module:Respell}}
+
+This template formats pronunciation respellings of English words. It puts the input in italics, hyphenates each value so it will represent a syllable, and links to [[Help:Pronunciation respelling key]]. Stressed syllables are input in uppercase and will appear slightly smaller than usual uppercase letters.
+
+Notation must be spelled accordingly to the respelling key at [[Help:Pronunciation respelling key]]. For example, the word ''pronunciation'' ({{IPAc-en|IPA|p|r|ə|ˌ|n|ʌ|n|s|i|ˈ|eɪ|ʃ|ən}}) is respelled {{respell|prə|NUN|see|AY|shən|link=no}}; using this template, the formatting is:
+*<code><nowiki>{{respell|prə|NUN|see|AY|shən}}</nowiki></code> → {{respell|prə|NUN|see|AY|shən}}
+
+==How to use==
+On Wikipedia, respelling is most commonly used to help clarify the pronunciation of a name or topic in the [[Wikipedia:Manual of Style/Lead section|lead section]] or introductory paragraph of an article. Per the [[Wikipedia:Manual of Style/Pronunciation|Manual of Style]], respelling may only follow and augment a corresponding [[International Phonetic Alphabet]] template (e.g., {{tl|IPAc-en}}) and may never be used in place of one. The template provides a link to a key so that readers may easily discover how to pronounce an easily mispronounced or difficult-to-pronounce word. For example:
+*'''[[Worcestershire]]''' ({{IPAc-en|ˈ|w|ʊ|s|t|ər|ʃ|ər}} {{respell|WUUS|tər|shər}}) is a county located in central [[England]].
+*:<code><nowiki>'''Worcestershire''' ({{IPAc-en|ˈ|w|ʊ|s|t|ər|ʃ|ər}} {{respell|WUUS|tər|shər}}) is a county located in central [[England]].</nowiki></code>
+
+Common practice is to put no punctuation except one space between the IPA and the respelling for clarity, as in:
+*'''[[Massachusetts]]''' ({{IPAc-en|ˌ|m|æ|s|ə|ˈ|tʃ|uː|s|ɪ|t|s}} {{respell|MASS|ə|CHOO|sits}}, {{IPAc-en|-|z|ɪ|t|s}} {{respell|-zits}}) is the most populous state in [[New England]].
+*:<code><nowiki>'''Massachusetts''' ({{IPAc-en|ˌ|m|æ|s|ə|ˈ|tʃ|uː|s|ɪ|t|s}} {{respell|MASS|ə|CHOO|sits}}, {{IPAc-en|-|z|ɪ|t|s}} {{respell|-zits}}) is the most populous state in [[New England]].</nowiki></code>
+
+Any argument containing an underscore or beginning or ending with a hyphen will not generate adjoining hyphens and will instead turn the underscore into a space, allowing for denoting word boundaries, alternate pronunciations, and affix ellipses. For example:
+*[[Avram Noam Chomsky]]: <code><nowiki>{{respell|av|RAHM|_|NOHM|_|CHOM|skee}}</nowiki></code> → {{respell|av|RAHM|_|NOHM|_|CHOM|skee}}
+*[[Copenhagen]]: <code><nowiki>{{respell|KOH|pən|HAY|gən|,_-|HAH|-}}</nowiki></code> → {{respell|KOH|pən|HAY|gən|,_-|HAH|-}}
+
+An argument beginning in <code>(-</code> or ending in <code>-)</code> will also suppress the extra hyphen, so that optional syllables can be indicated.
+*[[coupe]]: <code><nowiki>{{respell|KOOP|(-ay)}}</nowiki></code> → {{respell|KOOP|(-ay)}}
+
+==Examples==
+*'''[[Ceres]]''' {{IPAc-en|ˈ|s|ɪər|iː|z}} {{respell|SEER|eez}}
+*:<code><nowiki>{{respell|SEER|eez}}</nowiki></code>
+*'''[[Haumea]]''' {{IPAc-en|h|aʊ|ˈ|m|eɪ|ə}} {{respell|how|MAY|ə}}
+*:<code><nowiki>{{respell|how|MAY|ə}}</nowiki></code>
+*'''[[algorithm]]''' {{IPAc-en|ˈ|æ|l|ɡ|ə|r|ɪ|ð|əm}} {{respell|AL|gə|ridh|əm}}
+*:<code><nowiki>{{respell|AL|gə|ridh|əm}}</nowiki></code>
+*'''[[Makemake]]''' {{IPAc-en|ˌ|m|ɑː|k|eɪ|ˈ|m|ɑː|k|eɪ}} {{respell|MAH|kay|MAH|kay}}
+*:<code><nowiki>{{respell|MAH|kay|MAH|kay}}</nowiki></code>
+*'''[[disestablishmentarianism]]''' {{IPAc-en|d|ɪ|s|ə|ˌ|s|t|æ|b|l|ɪ|ʃ|m|ə|n|ˈ|t|ɛər|i|ə|n|ɪ|z|əm}} {{respell|dis|ə|STAB|lish|mən|TAIR|ee|ə|niz|əm}}
+*:<code><nowiki>{{respell|dis|ə|STAB|lish|mən|TAIR|ee|ə|niz|əm}}</nowiki></code>
+*'''[[Pan (god)|Pan]]''' {{IPAc-en|p|æ|n}} {{respell|PAN}}
+*:<code><nowiki>{{respell|PAN}}</nowiki></code>
+*'''[[machine]]''' {{IPAc-en|m|ə|ˈ|ʃ|iː|n}} {{respell|mə|SHEEN}}
+*:<code><nowiki>{{respell|mə|SHEEN}}</nowiki></code>
+*'''[[Overconsumption|overconsume]]''' {{IPAc-en|ˌ|oʊ|v|ər|k|ən|ˈ|sj|uː|m}} {{respell|OH|vər|kən|SEWM}}
+*:<code><nowiki>{{respell|OH|vər|kən|SEWM}}</nowiki></code>
+*'''[[Azerbaijan]]''' {{IPAc-en|ˌ|æ|z|ər|b|aɪ|ˈ|dʒ|ɑː|n}} {{respell|AZ|ər|by|JAHN}}
+*:<code><nowiki>{{respell|AZ|ər|by|JAHN}}</nowiki></code>
+*'''[[When You Wish Upon a Star|if you wish upon a star]]''' {{IPAc-en|ˌ|ɪ|f|_|j|uː|_|ˈ|w|ɪ|ʃ|_|ə|ˌ|p|ɒ|n|_|ə|_|ˈ|s|t|ɑːr}} {{respell|IF|_|yoo|_|WISH|_|ə|PON|_|ə|_|STAR}}
+*:<code><nowiki>{{respell|IF|_|yoo|_|WISH|_|ə|PON|_|ə|_|STAR}}</nowiki></code>
+*'''[[betting odds]]''' {{IPAc-en|ˈ|b|ɛ|t|ɪ|ŋ|_|ɒ|d|z}} {{respell|BET|ing|_|odz}}
+*:<code><nowiki>{{respell|BET|ing|_|odz}}</nowiki></code>
+*'''[[Jazze Pha]]''' {{IPAc-en|ˈ|dʒ|æ|z|i|_|ˈ|f|eɪ}} {{respell|JAZ|ee|_|FAY}}
+*:<code><nowiki>{{respell|JAZ|ee|_|FAY}}</nowiki></code>
+
+==Documentation==
+{{para|link|no}} cancels the link to [[Help:Pronunciation respelling key]]. This is for documentation outside the main namespace only.
+*<code><nowiki>{{respell|prə|NUN|see|AY|shən|link=no}}</nowiki></code> → {{respell|prə|NUN|see|AY|shən|link=no}}
+
+==Template Data==
+{{Template data header}}
+{{cot|title=Template Data|bg=#ccc}}
+<templatedata>
+{
+	"params": {
+		"1": {},
+		"2": {},
+		"3": {},
+		"4": {},
+		"5": {},
+		"6": {},
+		"7": {}
+	}
+}
+</templatedata>
+{{cob}}
+
+==See also==
+*[[Help:IPA/English]]
+
+{{IPA templates}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Pronunciation templates]]
+}}</includeonly>
