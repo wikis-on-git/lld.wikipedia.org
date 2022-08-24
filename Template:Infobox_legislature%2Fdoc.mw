@@ -1,0 +1,423 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+Infobox to be used in articles about a [[legislature]] as a whole, or any [[Chambers of parliament|chamber]] found within a [[unicameralism|unicameral]], [[bicameralism|bicameral]], [[tricameralism|tricameral]] or [[tetracameralism|tetracameral]] assembly.
+
+== Usage ==
+This is a template meant to be used in articles referring to legislatures (national, sub-national, federal, local, unicameral, bicameral, each of the chambers (if bicameral) or the whole body) that exist (currently function) or that don't exist (defunct legislative, disbanded ones).
+
+===Syntax===
+
+{{Parameter names example |_display=italics
+ |name |native_name |native_name_lang |transcription_name |legislature |coa_pic=''<nowiki>coa_pic</nowiki>'' |coa_res |coa_alt |coa_caption |logo_pic=''<nowiki>logo_pic</nowiki>'' |logo_res |logo_alt |logo_caption |house_type=''<nowiki>house_type</nowiki>'' |body=''<nowiki>body</nowiki>'' |jurisdiction=''<nowiki>jurisdiction</nowiki>'' |houses |term_limits |foundation |disbanded |preceded_by |succeeded_by |new_session |leader1_type |leader1 |party1 |election1 |leader2_type |leader2 |party2 |election2 |leader3_type |leader3 |party3 |election3 |leader4_type |leader4 |party4 |election4 |leader5_type |leader5 |party5 |election5 |leader6_type |leader6 |party6 |election6 |leader7_type |leader7 |party7 |election7 |seats |house1 |house2 |structure1=''<nowiki>structure1</nowiki>'' |structure1_res=''structure1_res''<br /> |structure1_alt |structure2=''<nowiki>structure2</nowiki>'' |structure2_res=''structure2_res''<br /> |structure2_alt |political_groups1 |political_groups2 |committees1 |committees2 |joint_committees |term_length |authority |salary |seats1_title |seats1 |seats2_title |seats2 |seats3_title |seats3 |seats4_title |seats4 |seats5_title |seats5 |seats6_title |seats6 |seats7_title |seats7 |seats8_title |seats8 |voting_system1 |voting_system2 |first_election1 |first_election2 |first_election3 |last_election1 |last_election2 |last_election3 |next_election1 |next_election2 |next_election3 |redistricting |motto |session_room=''<nowiki>session_room</nowiki>'' |session_res=''session_res''<br /> |session_alt |meeting_place |session_room2=''<nowiki>session_room2</nowiki>'' |session_res2=''session_res2''<br /> |session_alt2 |meeting_place2 |session_room3=''<nowiki>session_room3</nowiki>'' |session_res3=''session_res3''<br /> |session_alt3 |meeting_place3 |website |constitution |rules |footnotes
+}}
+
+<pre style="overflow:auto;">
+{{Infobox legislature
+| name = 
+| native_name = 
+| native_name_lang = 
+| transcription_name = 
+| legislature = 
+| coa_pic = 
+| coa_res = 
+| coa_alt = 
+| coa_caption = 
+| logo_pic = 
+| logo_res = 
+| logo_alt = 
+| logo_caption = 
+| house_type = 
+| houses = 
+| chambers = 
+| body = 
+| jurisdiction = 
+| term_limits = 
+| foundation = <!-- {{Start date|YYYY|MM|DD}} -->
+| disbanded = <!-- {{End date|YYYY|MM|DD}} -->
+| preceded_by = 
+| succeeded_by = 
+| new_session = 
+| leader1_type = 
+| leader1 = 
+| leader1_term = 
+| party1 = 
+| election1 = 
+| leader2_type = 
+| leader2 = 
+| party2 = 
+| election2 = 
+| leader2_term =
+| leader3_type = 
+| leader3 = 
+| party3 = 
+| election3 = 
+| leader3_term = 
+| leader4_type = 
+| leader4 = 
+| party4 = 
+| election4 = 
+| leader4_term = 
+| leader5_type = 
+| leader5 = 
+| party5 = 
+| election5 = 
+| leader5_term = 
+| leader6_type = 
+| leader6 = 
+| party6 = 
+| election6 = 
+| leader6_term = 
+| leader7_type = <!-- up to | leader10_type = -->
+| leader7 = <!-- up to | leader10 = -->
+| party7 = <!-- up to | party10 = -->
+| election7 = <!-- up to | election10 = -->
+| leader7_term = <!-- up to | leader10_term = -->
+| seats = <!-- or | members = -->
+| structure1 = 
+| structure1_res = 
+| structure1_alt = 
+| structure2 = 
+| structure2_res = 
+| structure2_alt = 
+| house1 = 
+| political_groups1 = 
+| committees1 = 
+| house2 = 
+| political_groups2 = 
+| committees2 = 
+| joint_committees = 
+| term_length = 
+| authority = 
+| salary = 
+| seats1_title = 
+| seats1 = 
+| seats2_title = 
+| seats2 = 
+| seats3_title = 
+| seats3 = 
+| seats4_title = 
+| seats4 = 
+| seats5_title = 
+| seats5 = 
+| seats6_title = 
+| seats6 = 
+| seats7_title = 
+| seats7 = 
+| seats8_title = <!-- up to | seats10_title = -->
+| seats8 = <!-- up to | seats10 = -->
+| voting_system1 = 
+| voting_system2 = 
+| first_election1 = 
+| first_election2 = 
+| first_election3 = 
+| last_election1 = 
+| last_election2 = 
+| last_election3 = 
+| next_election1 = 
+| next_election2 = 
+| next_election3 = 
+| redistricting = 
+| motto = 
+| session_room = 
+| session_res = 
+| session_alt = 
+| meeting_place = 
+| session_room2 = 
+| session_res2 = 
+| session_alt2 = 
+| meeting_place2 = 
+| session_room3 = 
+| session_res3 = 
+| session_alt3 = 
+| meeting_place3 = 
+| website = <!-- {{URL|www.example.com}} -->
+| constitution = 
+| rules = 
+| footnotes = 
+}}
+</pre>
+{{clear}}
+
+=== Parameter descriptions ===
+The parameters are:
+* '''name''' – the name of the Parliament/House (e.g. House of Commons (UK); Parliament of Romania)
+* '''native_name''' – the name of the Parliament/House in the native language; use {{tl|Plainlist}} for more than one native language (e.g. Parlamentul of României).
+* '''native_name_lang''' – the language of the native name; use [[List of ISO 639-2 codes|ISO 639-2 code]], e.g. "fr" for French; if there is more than one native name, in different languages, enter those names using {{tl|Lang}}, instead
+* '''transcription_name''' – the name of the Parliament/House in transliteration from the native language alphabet (if different than Latin alphabet). Use {{Tld|plainlist}} for more than one native language
+* '''legislature''' – the term of the ongoing session (e.g.: "40th Canadian Parliament"; "10th Legislature (of Las Cortes Generales)")
+* '''coa_pic''' – image name for coat of arms (Optional)
+* '''coa_res''' – width in pixels for ''coa_pic'' image (Optional); defaults to 170px (about 75% of thumbnail size 220px but will vary if changed in [[Special:Preferences]]) due to use of ''upright'' in template (see {{section link|Wikipedia:Extended image syntax|Size}})
+* '''coa_alt''' – [[WP:ALT|alternative text]] for ''coa_pic'' image
+* '''coa_caption''' – caption text to be display below ''coa_pic'' image (Optional)
+* '''logo_pic''' – image name for logo (Optional)
+* '''logo_res''' – width in pixels for ''logo_pic'' image (Optional); defaults to 170px (about 75% of thumbnail size 220px but will vary if changed in [[Special:Preferences]]) due to use of ''upright'' in template (see {{section link|Wikipedia:Extended image syntax|Size}})
+* '''logo_alt''' – [[WP:ALT|alternative text]] for ''logo_pic'' image
+* '''logo_caption''' – caption text to be displayed below ''logo_pic'' image (Optional)
+* '''house_type''' – For houses, one of <code>upper house</code>, <code>lower house</code>, or <code>unicameral house</code>; for legislatures as a whole, one of <code>unicameral</code>, <code>bicameral</code>, <code>tricameral</code>, or <code>tetracameral</code>. The template will turn the input into a wikilink
+* '''body''' – name of large legislative assembly if a chamber
+* '''jurisdiction''' – 
+* '''houses''' – names of the houses that make up the assembly; if more than one, separate with {{tlx|plainlist}}
+* '''term_limits''' – 
+* '''foundation''' – date founded; use {{tl|Start date}}
+* '''disbanded''' – date disbanded; use {{tl|End date}}
+* '''preceded_by''' – preceding legislature
+* '''succeeded_by''' – succeeding legislature
+* '''new_session''' – date of the new session; use {{Tl|Start date}}
+* '''leader1_type''' – title of a chamber leader (speaker, chairman, president, etc.)
+* '''leader1''' – leader of the chamber
+* '''party1''' – political party of leader
+* '''election1''' – date that leader was elected
+* '''leader2_type''' – ''[[idem]]''
+* '''leader2 ''' – ''idem''
+* '''party2''' – ''idem''
+* '''election2''' – ''idem''
+* '''leader3_type''' – ''idem''
+* '''leader3''' – ''idem''
+* '''party3''' – ''idem''
+* '''election4''' – ''idem''
+* '''leader4_type''' – ''idem''
+* '''leader4''' – ''idem''
+* '''party4''' – ''idem''
+* '''election5''' – ''idem''
+* '''leader5_type''' – ''idem''
+* '''leader5''' – ''idem''
+* '''party5''' – ''idem''
+* '''election6''' – ''idem''
+* '''leader6_type''' – ''idem''
+* '''leader6''' – ''idem''
+* '''party6''' – ''idem''
+* '''election6''' – ''idem''
+* '''leader7_type''' – ''idem''
+* '''leader7''' – ''idem''
+* '''party7''' – ''idem''
+* '''election7''' – ''idem''
+* '''seats''' – the (total) number of seats in the assembly; if more than one, separate with {{tlx|plainlist}}
+* '''house1''' – name of the upper/lower house
+* '''house2''' – name of the lower/upper house
+* '''structure1''' – image name for diagram of the political structure of ''house1'' (Optional)
+* '''structure1_res''' – width in pixels for ''structure1'' image (Optional); defaults to 120px due to a setting in template
+* '''structure1_alt''' – [[WP:ALT|alternative text]] for ''structure1'' image
+* '''structure2''' – image name for diagram of the political structure of ''house2'' (Optional)
+* '''structure2_res''' – width in pixels for ''structure2'' image (Optional); defaults to 120px due to a setting in template
+* '''structure2_alt''' – [[WP:ALT|alternative text]] for ''structure2'' image
+* '''political_groups1''' – list of the political parties/groups represented in ''house1''
+* '''political_groups2''' – list of the political parties/groups represented in ''house2''
+* '''committees1''' – list of the committees in ''house1''
+* '''committees2''' – list of the committees in ''house2''
+* '''joint_committees''' – list of the joint committees
+* '''term_length''' – 
+* '''authority''' – 
+* '''salary''' – 
+* '''seats1_title''' – 
+* '''seats1''' – 
+* '''seats2_title''' – 
+* '''seats2''' – 
+* '''seats3_title''' – 
+* '''seats3''' – 
+* '''seats4_title''' – 
+* '''seats4''' – 
+* '''seats5_title''' – 
+* '''seats5''' – 
+* '''seats6_title''' – 
+* '''seats6''' – 
+* '''seats7_title''' – 
+* '''seats7''' – 
+* '''seats8_title''' – 
+* '''seats8''' – 
+* '''voting_system1''' – the voting system used for the ''house1''
+* '''voting_system2''' – the voting system used for the ''house2''
+* '''first_election1''' – the first election date for the ''house1''
+* '''first_election2''' – the first election date for the ''house2''
+* '''first_election3''' – the first general election date
+* '''last_election1''' – the last election date for the ''house1''
+* '''last_election2''' – the last election date for the ''house2''
+* '''last_election3''' – the last general election date
+* '''next_election1''' – the next election date for ''house1''
+* '''next_election2''' – the next election date for ''house2''
+* '''next_election3''' – the next general election date
+* '''redistricting''' – 
+* '''motto''' – Motto
+* '''session_room''' – image of the session room (Optional)
+* '''session_res''' – width in pixels for ''session_room'' image (Optional); defaults to 220px (but will vary if thumbnail size is changed in [[Special:Preferences]])
+* '''session_alt''' – [[WP:ALT|alternative text]] for ''session_room'' image
+* '''meeting_place''' – place where it meets: room, building, or city (e.g. Palatul Parlamentului, Bucureşti); displayed as caption below ''session_room'' image
+* '''session_room2''' – second image of the session room (Optional)
+* '''session_res2''' – width in pixels for ''session_room2'' image (Optional); defaults to 220px (but will vary if thumbnail size is changed in [[Special:Preferences]])
+* '''session_alt2''' – [[WP:ALT|alternative text]] for ''session_room2'' image
+* '''meeting_place2''' – second place where it meets: room, building, or city; displayed as caption below ''session_room2'' image
+* '''website''' – the assembly's/house's official website (Optional); use {{tl|URL}}
+* '''constitution''' – 
+* '''rules''' – 
+* '''footnotes''' – any necessary footnotes (Optional)
+
+== Microformat ==
+{{UF-hcard-org}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"params": {
+		"background_color": {},
+		"name": {},
+		"native_name": {},
+		"native_name_lang": {},
+		"transcription_name": {},
+		"legislature": {},
+		"coa_pic": {},
+		"coa_res": {},
+		"coa_alt": {},
+		"coa_caption": {},
+		"logo": {},
+		"logo_pic": {},
+		"logo_res": {},
+		"logo_alt": {},
+		"logo_caption": {},
+		"labelstyle": {},
+		"house_type": {},
+		"houses": {},
+		"term_limits": {},
+		"body": {},
+		"jurisdiction": {},
+		"chambers": {},
+		"foundation": {},
+		"disbanded": {},
+		"preceded_by": {},
+		"succeeded_by": {},
+		"new_session": {},
+		"established": {},
+		"leader1": {},
+		"leader2": {},
+		"leader3": {},
+		"leader4": {},
+		"leader5": {},
+		"leader6": {},
+		"leader7": {},
+		"leader8": {},
+		"leader1_type": {},
+		"party1": {},
+		"election1": {},
+		"leader1_term": {},
+		"leader2_type": {},
+		"party2": {},
+		"election2": {},
+		"leader2_term": {},
+		"leader3_type": {},
+		"party3": {},
+		"election3": {},
+		"leader3_term": {},
+		"leader4_type": {},
+		"party4": {},
+		"election4": {},
+		"leader4_term": {},
+		"leader5_type": {},
+		"party5": {},
+		"election5": {},
+		"leader5_term": {},
+		"leader6_type": {},
+		"party6": {},
+		"election6": {},
+		"leader6_term": {},
+		"leader7_type": {},
+		"party7": {},
+		"election7": {},
+		"leader7_term": {},
+		"leader8_type": {},
+		"party8": {},
+		"election8": {},
+		"leader8_term": {},
+		"leader9_type": {},
+		"leader9": {},
+		"party9": {},
+		"election9": {},
+		"leader9_term": {},
+		"leader10_type": {},
+		"leader10": {},
+		"party10": {},
+		"election10": {},
+		"leader10_term": {},
+		"structure1": {},
+		"political_groups1": {},
+		"structure3": {},
+		"political_groups3": {},
+		"committees1": {},
+		"committees2": {},
+		"joint_committees": {},
+		"term_length": {},
+		"authority": {},
+		"salary": {},
+		"seats1": {},
+		"seats2": {},
+		"seats3": {},
+		"seats4": {},
+		"seats5": {},
+		"seats6": {},
+		"seats7": {},
+		"seats8": {},
+		"members": {},
+		"seats": {},
+		"structure1_res": {},
+		"structure1_alt": {},
+		"house1": {},
+		"structure2": {},
+		"structure2_res": {},
+		"structure2_alt": {},
+		"house2": {},
+		"political_groups2": {},
+		"seats1_title": {},
+		"seats2_title": {},
+		"seats3_title": {},
+		"seats4_title": {},
+		"seats5_title": {},
+		"seats6_title": {},
+		"seats7_title": {},
+		"seats8_title": {},
+		"seats9_title": {},
+		"seats9": {},
+		"seats10_title": {},
+		"seats10": {},
+		"voting_system1": {},
+		"voting_system2": {},
+		"first_election1": {},
+		"first_election2": {},
+		"first_election3": {},
+		"last_election1": {},
+		"last_election2": {},
+		"last_election3": {},
+		"next_election1": {},
+		"next_election2": {},
+		"next_election3": {},
+		"redistricting": {},
+		"motto": {},
+		"session_room": {},
+		"meeting_place": {},
+		"session_res": {},
+		"session_alt": {},
+		"session_room2": {},
+		"session_res2": {},
+		"session_alt2": {},
+		"meeting_place2": {},
+		"session_room3": {},
+		"session_res3": {},
+		"session_alt3": {},
+		"meeting_place3": {},
+		"website": {},
+		"constitution": {},
+		"rules": {},
+		"footnotes": {},
+		"text_color": {}
+	},
+	"description": "infobox for legislatures"
+}
+</templatedata>
+
+==Tracking category==
+* {{clc|Infobox legislature with background color}}
+
+{{Organization infoboxes}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Politics and government infobox templates|Legislature]]
+}}</includeonly>
