@@ -33,6 +33,9 @@
 |- valign="top"
 |-
 !colspan="2" bgcolor="#E3E3E3" | Auter
+|- valign="top"
+|style="width:140px;font-size:90%"|'''[[Lingaz valis|Rujeneda Valisa]]'''<br>&bull; Jënt che sa valis (da rujené o scrì o liejer)|| style="width:170px;font-size:90%" |<br>{{formatnum:{{{Valis}}}}} %
+|- valign="top"
 |-
 {{#if:{{{Internet|}}} |    
 {{!}}-
@@ -60,8 +63,9 @@
 |Cherta               = Blaenau%20Gwent%20in%20Wales.svg
 |Foto                 = Ebbw_Vale-panorama.jpg
 |Descrizion foto      = 
-|ISO                 = 
+|ISO                  = 
 |Internet             = www.blaenau-gwent.gov.uk/cy/hafan/
+|Valis                = 5.5
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
