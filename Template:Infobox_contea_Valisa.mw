@@ -23,6 +23,8 @@
 |style="width:140px;font-size:90%" | '''Nazion''' || style="width:170px;font-size:90%" | {{flag|Valisa}}
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Sënta aministrativa''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Majera zità''' || style="width:170px;font-size:90%" |{{{Majera zità}}}
 |- valign="top"
 |style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
@@ -57,6 +59,7 @@
 |Bandiera             = 
 |Blason               = Arms%20of%20Blaenau%20Gwent%20County%20Borough%20Council.svg
 |Capitela             = [[Ebbw Vale]]
+|Majera zità           = [[Ebbw Vale]]
 |Seuraspersa          = 108.7
 |Abitanc              = 69713
 |Data abitanc         = stima dl 2019
