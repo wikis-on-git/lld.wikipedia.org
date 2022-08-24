@@ -1,0 +1,25 @@
+{{Documentation subpage}}
+{{cs1 wrapper|base=Cite web}}
+
+This template is used for creating a citation of [[Lexico]] (lexico.com; formerly [[Oxford Dictionaries Online]], OxfordDictionaries.com) for the specified search term. The access date can be specified, if desired, with the parameter <code>access-date</code>. The publication date can be specified with the {{para|date}} parameter, otherwise it defaults to "n.d." {{As of|2021|November|post=,|url=https://www.lexico.com/about}} the  publication year is 2021.
+
+{{Markup
+| <nowiki>{{Cite Oxford Dictionaries|spoon}}</nowiki> | {{Cite Oxford Dictionaries|spoon}}}}
+
+{{Markup
+| <nowiki>{{Cite Lexico|spoon|date=2021|access-date=</nowiki>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}<nowiki>}}</nowiki> | {{Cite Lexico|spoon|date=2021|access-date={{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}}}
+
+{{Markup
+| <nowiki>{{Cite Oxford Dictionaries|spoon|access-date={{subst:CURRENTYEAR}}-{{subst:CURRENTMONTH}}-{{subst:CURRENTDAY2}}}}</nowiki> | {{Cite Oxford Dictionaries|spoon|access-date={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}}}
+
+{{Markup
+| <nowiki>{{Cite Oxford Dictionaries|spoon|us}}</nowiki> | {{Cite Oxford Dictionaries|spoon|us}}}}
+
+{{Markup
+| <nowiki>{{Cite Oxford Dictionaries|spoon|access-date=</nowiki>2010-04-15<nowiki>}}</nowiki> | {{Cite Oxford Dictionaries|spoon|access-date=2010-04-15}}}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+{{DEFAULTSORT:Oxford Dictionaries}}
+[[Category:Dictionary external link templates]]
+}}</includeonly>
