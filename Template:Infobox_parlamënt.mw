@@ -50,13 +50,13 @@
 {{#if:{{{Canzelier|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | {{!}}- }}
 |- valign="top" 
-! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Spratizion di mandac
+! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Spartizion di mandac
 {{#if:{{{numer mandac|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Numer de mandac''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{numer mandac}}} | }}
 {{#if:{{{foto mandac|}}} | {{!}}- valign="top"
 {{!}} colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1; {{!}} [[File:{{{foto mandac}}}|300px|border|center]] | }}
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Munëida'''||style="width:160px;font-size:90%" align="left" |{{{Munëida}}}
+|- valign="center"
+|style="width:160px;font-size:90%" |'''Grupes pulitiches'''||style="width:160px;font-size:90%" align="left" | {{{political_groups1}}} |
 |-
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Veles
 {{#if:{{{ultima veles|}}} | {{!}}- valign="top"
