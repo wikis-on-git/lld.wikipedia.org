@@ -1,0 +1,101 @@
+{{Documentation subpage}}
+{{tsh|more}}
+{{lua|Module:Main list}}
+
+This template is used to make [[Wikipedia:Summary style|summary style]] explicit. It looks like this:
+
+{{Main list|Article}}
+
+It is used in sections for which there is also a separate more comprehensive list article on the subject.
+
+== Usage ==
+
+; Basic usage:
+ {{tnull|Main list|''article''}}
+
+; With a topic:
+ {{tnull|Main list|''article 1''|''article 2''}}
+
+; All parameters:
+ {{tnull|Main list|''article 1''|''article 2''|4=category=''no''}}
+
+== Parameters ==
+
+This template accepts the following parameters:
+* <code>1</code> - the page to link to (required). Categories and files are automatically escaped with the [[Help:Colon trick|colon trick]], and links to sections are automatically formatted as ''page § section'', rather than the MediaWiki default of ''page#section''.
+* <code>2</code> - a second page (optional). Same implications as the first parameter apply.
+* <code>category</code> - if set to "no", "n", "false", or "0", suppresses the error tracking category ([[:Category:Hatnote templates with errors]]). This only has an effect if the first positional parameter (the page to link to) is omitted.
+
+== Examples ==
+
+* {{tnull|Main list|Wikipedia:Hatnote#Hatnote templates }}<!--
+  --> → {{Main list|Wikipedia:Hatnote#Hatnote templates }}
+* {{tnull|Main list|Wikipedia:Hatnote#Hatnote templates |Wikipedia:Template messages/Cleanup#Cleanup}}<!--
+  --> → {{Main list|Wikipedia:Hatnote#Hatnote templates |Wikipedia:Template messages/Cleanup#Cleanup}}
+
+== Errors ==
+
+If no page name is supplied, the template will output the following message:
+* {{Main list|category=no}}
+
+If you see this error message, it is for one of three reasons:
+# No parameters were specified (the template code was {{tnull|Main list}}). Please use {{tnull|Main list|''page''}} instead.
+# The page name was specified, but it contains an equals sign ("="). The equals sign has a special meaning in template code, and because of this it cannot be used in template parameters that do not specify a parameter name. For example, the template code {{tnull|Main list|<nowiki>2+2=4</nowiki>}} will produce this error. To work around this, you can specify the parameter name explicitly by using <code>1=</code> before the page name, like this: {{tnull|Main list|<nowiki>1=2+2=4</nowiki>}}.
+# You tried to access [[Module:Main list]] directly by using {{tnull|&#35;invoke:Main list|mainList|''text''}}. Use of #invoke in this way has been disabled for performance reasons. Please use {{tnull|Main list|''text''}} instead.
+
+If you see this error message and are unsure of what to do, please post a message on [[WP:HD|the help desk]], and someone should be able to help you.
+
+Pages that contain this error message are tracked in [[:Category:Hatnote templates with errors]].
+
+== Alternative ==
+For cases where the present context provides no short list to which this template "a more comprehensive list" wording could refer, see the template {{tl|Main listing}}, which is just a pointer to the list article.
+
+==TemplateData==
+{{Collapse top|[[Wikipedia:TemplateData|TemplateData]] documentation used by [[Wikipedia:VisualEditor|VisualEditor]] and other tools}}
+{{TemplateData header|noheader=1}}
+<templatedata>
+{
+	"description": "This template is used to show readers where to find more details about a particular topic. It is usually placed at the top of a section or article.",
+	"params": {
+		"1": {
+			"label": "Article 1",
+			"description": "The name of the article that you want to link to (required). Categories and files are automatically escaped with the colon trick, and links to sections are automatically formatted as \"page § section\", rather than the MediaWiki default of \"page#section\".",
+			"type": "string",
+			"required": true
+		},
+		"2": {
+			"label": "Article 2",
+			"description": "Name of the second article you want to link to (optional). Categories and files are automatically escaped with the colon trick, and links to sections are automatically formatted as \"page § section\", rather than the MediaWiki default of \"page#section\".",
+			"type": "string",
+			"required": false
+		},
+		"category": {
+			"label": "Category",
+			"description": "Set to \"no\", \"n\", \"false\", or \"0\" to suppresses the error tracking category (Category:Hatnote templates with errors). This only has an effect if the hatnote text is omitted.",
+			"type": "boolean",
+			"autovalue": ""
+		}
+	},
+	"format": "block"
+}
+</templatedata>
+{{Collapse bottom}}
+
+==See also==
+* {{tl|For timeline}}
+* {{tl|Summarize}} for use where details of one article need to be summed up in another
+* {{tl|Summarize section}} for use where part of an article contains too many details
+
+{{Hatnote templates}}
+
+<includeonly>{{Sandbox other||
+
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Cross-reference templates]]
+[[Category:Hatnote templates]]
+[[Category:Hatnote templates for lists]]
+[[Category:Wikipedia page-section templates]]
+
+[[mk:Шаблон:Главен список]]
+[[tr:Şablon:Analiste]]
+}}</includeonly>
