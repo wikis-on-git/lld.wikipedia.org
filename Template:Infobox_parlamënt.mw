@@ -21,12 +21,12 @@
 |-
 |style="width:160px;font-size:90%" |'''Capitela''' || style="width:160px;font-size:90%" align="left" |{{{Capitela}}}
 |-
-{{#if:{{{Sënta guviern|}}}  | 
+{{#if:{{{sort legislatura|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Sënta dl guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Sënta guviern}}}    |  }}
-{{#if:{{{Majera zità|}}}  | 
+{{!}}style="width:160px;font-size:90%" {{!}} '''Sort'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{sort legislatura}}}    |  }}
+{{#if:{{{sort presidënt|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Majera zità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Majera zità}}}  |    }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''{{{sort presidënt}}}'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{presidënt1}}} ({{{partit1}}})  |    }}
 |-
 |style="width:160px;font-size:90%" |'''Abitanc''' || style="width:160px;font-size:90%" align="left" |{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})
 |- valign="top" 
@@ -79,10 +79,10 @@
 | logo          = Suedtirol CoA.svg
 | coa_res           = 120px
 | senteda foto      = Bozen - Südtiroler Landtag (004533).png
-| house_type        = Cunsëi dla Provinzia
-| leader1_type      = Presidënt dl Cunsëi dla Provinzia
-| leader1           = [[Rita Mattei]]
-| party1            = [[Lega Salvini Alto Adige Südtirol]]
+| sort legislatura        = Cunsëi dla Provinzia
+| sort presidënt     = Presidënt dl Cunsëi dla Provinzia
+| presidënt1     = [[Rita Mattei]]
+| partit1            = [[Lega Salvini Alto Adige Südtirol]]
 | election1         = 14 mei 2021
 | numer mandac      = 35 <small>(cuntrulà l'ultim iede ai: 24.06.2021)</small>
 | foto mandac        = Landtag of South Tyrol 2018.svg
