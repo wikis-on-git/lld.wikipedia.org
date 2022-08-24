@@ -1,0 +1,11 @@
+{{cite dictionary
+|date={{#if:{{{date|{{{year|}}}}}}|{{{date|{{{year|}}}}}}|n.d.}}
+|title={{{1}}}
+|url=https://www.lexico.com/{{#ifeq:{{{2|}}}|us|en/}}definition/{{urlencode:{{{1}}}}}
+|dictionary=[[{{#ifexpr:{{#time:xNU|{{{access-date|{{{accessdate|}}}}}}}} < 1560211200<!-- 2019-06-11 -->|Lexico{{!}}Oxford Dictionaries|Lexico}}]] {{#ifeq:{{{2|}}}|us|US|UK}} English Dictionary
+|publisher=[[Oxford University Press]]
+|access-date={{{access-date|{{{accessdate|}}}}}}
+|ref={{{ref|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
