@@ -19,7 +19,7 @@
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Sënta aministrativa''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
 |- valign="top"
