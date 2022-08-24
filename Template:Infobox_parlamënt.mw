@@ -1,55 +1,17 @@
 <includeonly>{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:300px;"
-! colspan="2" bgcolor="lightgray" style="font-size:120%"|{{{Inuem}}}
+! colspan="2" bgcolor="lightgray" style="font-size:120%"|{{{inuem}}}
 |-
-| colspan="2" bgcolor="lightgray" style="font-size:120%" align="center" |''{{{Inuem ufiziel}}}''
+| colspan="2" bgcolor="lightgray" style="font-size:120%" align="center" |''{{{autri inuemes}}}''
 |-
-| {{#if: {{{Blason|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Bandiera}}}|160px|border|center]] }}
-|-
-| colspan="2" valign="top" style="font-size:90%;border-top: 1px solid #a2a9b1;" align="center"| {{#if:{{{Inn|}}} | '''Inn'''<br>''{{{Inuem inn}}}'' }}
-|-
-| colspan="2" valign="top" style="font-size:90%;border-bottom: 1px solid #a2a9b1;" align="center"| {{#if:{{{Inn|}}} |[[File:{{{Inn}}}]] }}
-|-
-| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;| [[File:{{{Cherta}}}|300px|border|center]]
-|-
-|style="width:160px;font-size:90%" |'''Inuem ufiziel''' || style="width:160px;font-size:90%" align="left" |{{{Inuem ufiziel}}}
-|-
-|style="width:160px;font-size:90%" |'''Rujeneda ufiziela'''|| style="width:160px;font-size:90%" align="left" |{{#if:{{{Lingaz 1|}}}|{{{Lingaz 1}}}}}{{#if:{{{Lingaz 2|}}}|&comma;&nbsp;{{{Lingaz 2}}}}}{{#if:{{{Lingaz 3|}}}|&comma;&nbsp;{{{Lingaz 3}}}}}{{#if:{{{Lingaz 4|}}}|&comma;&nbsp;{{{Lingaz 4}}}}}{{#if:{{{Lingaz 5|}}}|&comma;&nbsp;{{{Lingaz 5}}}}}
-|-
-{{#if:{{{Rujeneda naziunela|}}}  | 
-{{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Rujeneda naziunela'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Rujeneda naziunela}}}    |  }}
-|-
-|style="width:160px;font-size:90%" |'''Capitela''' || style="width:160px;font-size:90%" align="left" |{{{Capitela}}}
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;| [[File:{{{logo}}}|100px|border|center]]
 |-
 {{#if:{{{sort legislatura|}}}  | 
 {{!}}-  
 {{!}}style="width:160px;font-size:90%" {{!}} '''Sort'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{sort legislatura}}}    |  }}
 {{#if:{{{sort presidënt|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''{{{sort presidënt}}}'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{presidënt1}}} ({{{partit1}}})  |    }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''{{{sort presidënt}}}'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{presidënt1}}} ({{{partit1}}}) dal {{{elezion1 }}} incà  |    }}
 |-
-|style="width:160px;font-size:90%" |'''Abitanc''' || style="width:160px;font-size:90%" align="left" |{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})
-|- valign="top" 
-|style="width:160px;font-size:90%"  |'''Spersa''' || style="width:160px;font-size:90%" align="left" | {{formatnum:{{{Spersa}}}&nbsp;km²}}{{#if:{{{Spersa tiera|}}}|<br>{{formatnum:{{{Spersa tiera}}} }}&nbsp;km²&nbsp;(tiera)}}
-|- valign="top"
-|style="width:160px;font-size:90%" | {{#if:{{{Ega|}}} | '''Ega'''}}  ||style="width:160px;font-size:90%" align="left" | {{#if:{{{Ega|}}}|{{{Ega}}}&percnt;}}
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Densità''' || style="width:160px;font-size:90%" align="left" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Spersa}}} round 1 }}}}&nbsp;ab./km²
-|-
-! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Guviern
-{{#if:{{{Forma de guviern|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Forma de guviern'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Forma de guviern}}}  | {{!}}- }}
-{{#if:{{{Monarch|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Monarch''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Monarch}}} | {{!}}- }}
-{{#if:{{{Presidënt|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Presidënt}}} | {{!}}- }}
-{{#if:{{{Vize-Presidënt|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Vize-Presidënt''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Vize-Presidënt}}} | {{!}}- }}
-{{#if:{{{Prim minister|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Prim minister''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Prim minister}}} | {{!}}- }}
-{{#if:{{{Canzelier|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Canzelier''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Canzelier}}} | {{!}}- }}
-|- valign="top" 
 ! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Spartizion di mandac
 {{#if:{{{numer mandac|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Numer de mandac''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{numer mandac}}} | }}
@@ -61,6 +23,8 @@
 ! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Veles
 {{#if:{{{ultima veles|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Ultima veles'''  {{!}}{{!}} style="width:160px;font-size:90%" align="center" {{!}} {{{ultima veles}}}  | }}
+{{#if:{{{proscima veles|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Proscima veles'''  {{!}}{{!}} style="width:160px;font-size:90%" align="center" {{!}} {{{proscima veles}}}  | }}
 |-
 ! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Senteda
 {{#if:{{{senteda|}}} | {{!}}- valign="top"
@@ -74,16 +38,16 @@
 
 <noinclude>
 {{Infobox legislature
-| name              = Cunsëi dla Provinzia autonoma de Bulsan
-| native_name       = Südtiroler Landtag<br />Consiglio della Provincia autonoma di Bolzano
+| inuem               = Cunsëi dla Provinzia autonoma de Bulsan
+| autri inuemes       = Südtiroler Landtag ([[lingaz tudësch|de]])<br />Consiglio della Provincia autonoma di Bolzano ([[lingaz talian|it]])
 | logo          = Suedtirol CoA.svg
 | coa_res           = 120px
 | senteda foto      = Bozen - Südtiroler Landtag (004533).png
 | sort legislatura        = Cunsëi dla Provinzia
-| sort presidënt     = Presidënt dl Cunsëi dla Provinzia
+| sort presidënt     = Presidënt/a dl Cunsëi dla Provinzia
 | presidënt1     = [[Rita Mattei]]
 | partit1            = [[Lega Salvini Alto Adige Südtirol]]
-| election1         = 14 mei 2021
+| elezion1         = 14 mei 2021
 | numer mandac      = 35 <small>(cuntrulà l'ultim iede ai: 24.06.2021)</small>
 | foto mandac        = Landtag of South Tyrol 2018.svg
 | structure1_res    = 250px
