@@ -36,7 +36,7 @@
 |-
 {{#if:{{{Internet|}}} |    
 {{!}}-
-{{!}} style="width:140px;font-size:90%" {{!}} '''Internet''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} [http://{{{Internet}}} {{{Internet}}}]
+{{!}} style="width:140px;font-size:90%" {{!}} '''Plata Internet''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} [http://{{{Internet}}} {{{Internet}}}]
 | }}
 |-
 {{#if:{{{ISO|}}} |    
