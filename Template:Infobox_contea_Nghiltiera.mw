@@ -21,7 +21,7 @@
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km² <small>
+|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
