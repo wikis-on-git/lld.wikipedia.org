@@ -1,4 +1,4 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Valis:&nbsp;|pron=pronunzià&nbsp;|=|PV=Pronunzia valisa:&nbsp;}}</small>{{IPA|[[Help:IPA/Valis|[{{{1}}}]]]|lang=cy}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Valis:&nbsp;|pron=pronunzià&nbsp;|=|PV=pronunzia valisa:&nbsp;}}</small>{{IPA|[[Help:IPA/Valis|[{{{1}}}]]]|lang=cy}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
 {{documentation|Template:usage of IPA templates}}
 
 <!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
