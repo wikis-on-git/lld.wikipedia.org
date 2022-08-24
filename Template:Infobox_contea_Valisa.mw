@@ -1,0 +1,65 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+| colspan="2"  valign="top" | [[File:{{{Foto}}}|300px|border|center]]
+|-
+| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
+|-
+{{#if:{{{Inuem valis|}}} |    
+{{!}}-
+!colspan="2" bgcolor="#E3E3E3"  {{!}} ''{{{Inuem valis}}} ([[lingaz valis|valis]])'' 
+| }}
+|-
+!colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
+|-
+| {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|160px|border|center]] }}
+|-
+!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
+|-valign="top"
+|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{flag|Riam Unì}}
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''Nazion''' || style="width:170px;font-size:90%" | {{flag|Valisa}}
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Sënta aministrativa''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+|- valign="top"
+|style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" | Auter
+|-
+{{#if:{{{Internet|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Internet''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} [http://{{{Internet}}} {{{Internet}}}]
+| }}
+|-
+{{#if:{{{ISO|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''[[Codesc ISO 3166-2]]''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{ISO}}}
+| }}
+|-
+|}</includeonly>
+
+<noinclude>
+{{Infobox contea Valisa
+|Inuem                = Blaenau Gwent
+|Inuem valis          =
+|Soget aministratif   = [[Contea de la Valisa]]
+|Bandiera             = 
+|Blason               = Arms%20of%20Blaenau%20Gwent%20County%20Borough%20Council.svg
+|Capitela             = [[Ebbw Vale]]
+|Seuraspersa          = 108.7
+|Abitanc              = 682311
+|Data abitanc         = stima dl 2019
+|Cherta               = Blaenau%20Gwent%20in%20Wales.svg
+|Foto                 = View%20in%20Blaenau%20Gwent%20%284641538%29.jpg
+|Descrizion foto      = 
+|ISO                 = 
+|Internet             = www.blaenau-gwent.gov.uk/cy/hafan/
+}}
+
+[[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
