@@ -12,7 +12,7 @@
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
-| {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|160px|border|center]] }}
+| {{#if: {{{Blason|}}} | {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|160px|border|center]] }} | }}
 |-
 | colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"| [[File:{{{Cherta}}}|300px|border|center]]
 |-
