@@ -54,19 +54,19 @@
 {{#if:{{{numer mandac|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Numer de mandac''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{numer mandac}}} | }}
 {{#if:{{{foto mandac|}}} | {{!}}- valign="top"
-{{!}} colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1; {{!}} [[File:{{{foto mandac}}}|300px|border|center]] | }}
+{{!}} colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;" align="center" {{!}} [[File:{{{foto mandac}}}|300px|border|center]] | }}
 |- valign="center"
 |style="width:160px;font-size:90%" |'''Grupes pulitiches'''||style="width:160px;font-size:90%" align="left" | {{{political_groups1}}} |
 |-
-! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Veles
+! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Veles
 {{#if:{{{ultima veles|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Ultima veles'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{ultima veles}}}  | }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Ultima veles'''  {{!}}{{!}} style="width:160px;font-size:90%" align="center" {{!}} {{{ultima veles}}}  | }}
 |-
-! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Senteda
+! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Senteda
 {{#if:{{{senteda|}}} | {{!}}- valign="top"
-{{!}}style="width:160px;font-size:90%" {{!}} '''Luech de senteda'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{senteda}}}  | }}
+{{!}} colspan="2"  style="text-align:center" align="center" {{!}} [[File:{{{senteda foto}}}|300px|border|center]]<br>{{{senteda}}} | }}
 |-
-! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;"  | Plata internet
+! colspan="2" style="font-size:100%;border-top: 1px solid #a2a9b1;"  | Plata internet
 {{#if:{{{internet|}}} | {{!}}- valign="top"
 {{!}} colspan="2" style="font-size:90%;text-align:center" {{!}}  {{{internet}}}  | }}
 
@@ -78,7 +78,7 @@
 | native_name       = Südtiroler Landtag<br />Consiglio della Provincia autonoma di Bolzano
 | logo          = Suedtirol CoA.svg
 | coa_res           = 120px
-| session_room      = Bozen - Südtiroler Landtag (004533).png
+| senteda foto      = Bozen - Südtiroler Landtag (004533).png
 | house_type        = Cunsëi dla Provinzia
 | leader1_type      = Presidënt dl Cunsëi dla Provinzia
 | leader1           = [[Rita Mattei]]
@@ -88,18 +88,18 @@
 | foto mandac        = Landtag of South Tyrol 2018.svg
 | structure1_res    = 250px
 | political_groups1 = '''Guviern (19)'''
-* {{Color box|#000|border=darkgray}} [[South Tyrolean People's Party|SVP]] (15)
-* {{Color box|{{party color|Lega Nord}}|border=darkgray}} [[Lega Nord Alto Adige – Südtirol|Lega]] (3)
+* {{Color box|#000|border=darkgray}} [[Südtiroler Volkspartei|SVP]] (15)
+* {{Color box|{{party color|Lega Nord}}|border=darkgray}} [[Lega Nord|Lega]] (3)
 * {{Color box|#1F5478|border=darkgray}} [[Forza Italia (2013)|FI]] (1)
 '''Oposizion (16)'''
 * {{Color box|#FCD300|border=darkgray}} [[Team K]] (5)
-* {{Color box|#6B8E23|border=darkgray}} [[Greens (South Tyrol)|Grüne]] (3)
+* {{Color box|#6B8E23|border=darkgray}} [[Vërc (Südtirol)|Vërc]] (3)
 * {{Color box|#1560BD|border=darkgray}} [[Die Freiheitlichen|DF]] (2)
-* {{Color box|#8C001A|border=darkgray}} [[South Tyrolean Freedom|STF]] (2)
+* {{Color box|#8C001A|border=darkgray}} [[Süd-Tiroler Freiheit|STF]] (2)
 * {{Color box|#F0001C|border=darkgray}} [[Democratic Party (Italy)|PD]] (1)
-* {{Color box|#FFF500|border=darkgray}} [[Five Star Movement|M5S]] (1)
+* {{Color box|#FFF500|border=darkgray}} [[Muvimënt Cin' Stëiles|M5S]] (1)
 * {{Color box|#1F5478|border=darkgray}} [[ENZIAN]] (1)
-* {{Color box|#1F5478|border=darkgray}} [[Brothers of Italy|FdI]] (1)
+* {{Color box|#1F5478|border=darkgray}} [[Fratelli d'Italia|FdI]] (1)
 | ultima veles = 21 utober 2018
 | proscima veles = 
 | senteda = [[Bulsan]]
