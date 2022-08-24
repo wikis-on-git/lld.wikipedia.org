@@ -1,0 +1,18 @@
+{{cite web|url={{#ifeq:{{{2|}}}|learners|https://www.learnersdictionary.com/definition/|https://www.merriam-webster.com/dictionary/}}{{urlencode:{{{1}}}|PATH}}|title={{{1}}}|work=[[Merriam-Webster|Merriam-Webster {{#ifeq:{{{2|}}}|learners|Learner's{{sp}}}}Dictionary]]|access-date={{{accessdate|{{{access-date|}}}}}}}}<noinclude>{{Documentation|content={{redirect|Template:MW|the missing Wikipedian template|Template:Not around}}
+The parameter is the word whose entry is being cited. Provides a link to that word in the [https://www.merriam-webster.com/dictionary/ Merriam-Webster free online dictionary]. The access date should be specified with the <kbd>accessdate</kbd> parameter. 
+
+{{Markup
+| <nowiki>{{Cite Merriam-Webster|spoon|accessdate=</nowiki>{{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}<nowiki>}}</nowiki> | {{MerriamWebsterDictionary|spoon|accessdate={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY2}}}}
+}}
+
+{{Markup
+| <nowiki>{{Cite Merriam-Webster|spoon}}</nowiki> | {{MerriamWebsterDictionary|spoon}}
+}}
+
+{{Markup
+| <nowiki>{{Cite Merriam-Webster|spoon|learners}}</nowiki> | {{MerriamWebsterDictionary|spoon|learners}}
+}}
+}}
+
+[[Category:Dictionary external link templates|Merriam-Webster]]
+</noinclude>
