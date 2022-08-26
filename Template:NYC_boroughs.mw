@@ -1,15 +1,15 @@
 <noinclude>{{Use mdy dates|date=July 2022}}</noinclude>
 {| class="wikitable sortable" border="1"  style="float:{{{align|center}}}; text-align:{{{align|right}}}; font-size:85%; margin:1em;"
 |-
-! colspan="9" style="background-color:tan;"| {{navbar-header|New York City's [[Boroughs of New York City|five boroughs]]|NYC boroughs}}
+! colspan="9" style="background-color:tan;"| {{navbar-header|[[5 boroughs de New York City]]|NYC boroughs}}
 |- style="background:#dedebb;"
-!  colspan="2" style="background: transparent"|Jurisdiction
-! style="background: transparent"| Population
-! style="background: transparent"| GDP †
-!  colspan="2" style="background: transparent"|Land area
-!  colspan="2" style="background: transparent"|Density of population
+!  colspan="2" style="background: transparent"|Giurisdizion
+! style="background: transparent"| Populazion
+! style="background: transparent"| [[PIB]] †
+!  colspan="2" style="background: transparent"|Spersa
+!  colspan="2" style="background: transparent"|Densità de la populazion
 |- style="background:#efefcc; font-style: italic"
-! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |County!! style="font-weight: normal; background: transparent" |Census<br> (2020) !! style="font-weight:normal; background: transparent" |billions</br>(2012 US$) !! style="font-weight: normal; background: transparent" |square<br /> miles!!style="font-weight: normal; background: transparent" |square<br />km!!style="font-weight: normal; background: transparent" |persons/<br />mi<sup>2</sup>!!style="font-weight: normal; background: transparent" |persons/<br />km<sup>2</sup>
+! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |County!! style="font-weight: normal; background: transparent" |Cumpededa<br> (2020) !! style="font-weight:normal; background: transparent" |miliarc</br>(2012 US$) !! style="font-weight: normal; background: transparent" |square<br /> miles!!style="font-weight: normal; background: transparent" |<br />km²!!style="font-weight: normal; background: transparent" |persons/<br />mi<sup>2</sup>!!style="font-weight: normal; background: transparent" |persones/<br />per km<sup>2</sup>
 |- style="background:{{#ifeq: {{PAGENAME}} | L Bronx | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | gold | ee5555}}"|{{center|'''[[L Bronx]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | ffee88 | f9f9f9}}"|{{center|
