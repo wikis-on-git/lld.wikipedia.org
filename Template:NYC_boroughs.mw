@@ -15,43 +15,43 @@
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}Bronx{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}}}
 ||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}{{formatnum:1472654}}{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}'''$''' 36.938{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}109.3{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}13,482{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
+||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}'''$''' 36,938{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
+||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}109,3{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
+||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}{{formatnum:13482}}{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Brooklyn | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Brooklyn | crimson | ffee77}}"|{{center|'''[[Brooklyn]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Brooklyn | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}Kings{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}}}
 ||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}{{formatnum:2736074}}{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}'''$''' 86.151{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}179.7{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}15,227{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}'''$''' 86,151{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}179,7{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}{{formatnum:15227}}{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Manhattan | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Manhattan | gold | lightgreen}}"|{{center|'''[[Manhattan]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Manhattan | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}New York{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}}}
 ||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}{{formatnum:1694263}}{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}'''$''' 610.386{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}58.8{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}28,872{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}'''$''' 610,386{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}58,8{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}{{formatnum:28872}}{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Queens | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Queens | crimson | orange}}"|{{center|'''[[Queens]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Queens | ffee88 | f9f9f9}}" |{{center|
   {{#ifeq: {{PAGENAME}} | Queens | ''' | }} Queens{{#ifeq: {{PAGENAME}} | Queens | ''' | }}}}
 ||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}{{formatnum:2405464}}{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}'''$''' 82.328{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}281.5{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}8,542{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}'''$''' 82,328{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}281,5{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}{{formatnum:8542}}{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Staten Island | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Staten Island | crimson | plum}}"|{{center|'''[[Staten Island]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Staten Island | ffee88 | f9f9f9}}" |{{center|
   {{#ifeq: {{PAGENAME}} | Staten Island | ''' | }} Richmond{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}}}
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}{{formatnum:495747}}{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}'''$''' 14.270{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}148.9{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}3,327{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}'''$''' 14,270{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}148,9{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}{{formatnum:3327}}{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 |- style="background:#ddd;" class="sortbottom"
-| colspan="2" |{{center|'''[[New York City|Zità de New York]]'''}}||'''{{formatnum:8804190}}'''||'''$&nbsp; {{formatnum:830.072}}'''||'''783.8'''||'''{{formatnum:11234}}'''
+| colspan="2" |{{center|'''[[New York City|Zità de New York]]'''}}||'''{{formatnum:8804190}}'''||'''$&nbsp; {{formatnum:830.072}}'''||'''783,8'''||'''{{formatnum:11234}}'''
 |- style="background:#ccc;" class="sortbottom"
 | colspan="2" |{{center|[[New York (stat)|Stat de New York]]}}||{{formatnum:20215751}}||'''$''' {{formatnum:1724.759}}||{{formatnum:122056.8}}||166
 |- class="sortbottom"
