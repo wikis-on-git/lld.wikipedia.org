@@ -1,0 +1,45 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+{{for|copyright investigations template|Template:Copyvio}}
+{{hatnote|Template:DMC redirects to [[Template:Dated maintenance category]].}}
+{{Distinguish|Template:Pp-office-dmca}}
+
+== Usage ==
+* This template adds a category or dated category to a page.
+* It will add the page to an optional additional category.
+* If the dated category is invalid it will add the page to [[:Category:Articles with invalid date parameter in template]]
+
+== Syntax ==
+* Parameter 1: Default category name (without <code>Category</code>) – the category if there is no date, but also the stem of the category name when there is a date..
+* Parameter 2: Preposition (from, since, in, as of).
+* Parameter 3: Date (month year, e.g. {{#time:F Y}}. Usually the "date" parameter of the calling template <code><nowiki>{{{date|}}}</nowiki></code>.
+* Parameter 4: Category all the articles go in, dated or not (if there is one).
+* Parameter 5: Alternative default category, used when parameter 1 is right for forming the dated category, but the undated items need to go somewhere else.
+
+== Technical ==
+The parameter ''onlyarticles'' ({{Tl|Dated maintenance category}} only) is used for template design, restricting the function of this template to article namespace (as in {{tl|DMCA}} ).
+
+== Examples ==
+* <code><nowiki>{{DMCFACT|Wikipedia articles that are too technical|from|{{{date|}}}}}</nowiki></code> will categorise all ''files'', ''articles'', ''categories'' and ''templates'' in [[:Category:Wikipedia articles that are too technical from {{#time:F Y|-1 month}}]], if the date is set {{#time:F Y|-1 month}} e.g. If such a category does not exist, or the date was set incorrectly, this template will ''also'' add the article to [[:Category:Articles with invalid date parameter in template]].
+
+* <code><nowiki>{{DMCAT|Wikipedia articles that are too technical|from|{{{date|}}}}}</nowiki></code> will categorise all ''articles'' and ''article talk pages'' in [[:Category:Wikipedia articles that are too technical from {{#time:F Y|-1 month}}]], if the date is set {{#time:F Y|-1 month}} e.g. If such a category does not exist, or the date was set incorrectly, this template will ''also'' add the article to [[:Category:Articles with invalid date parameter in template]].
+
+* <code><nowiki>{{DMCA|Articles to be split|from|{{{date|}}}|All articles to be split}}</nowiki></code> will categorise all ''articles'' in [[:Category:Articles to be split from {{#time:F Y|-1 month}}]], if the date is set {{#time:F Y|-1 month}} e.g. If such a category does not exist, or the date was set incorrectly, this template will ''also'' add the article to [[:Category:Articles with invalid date parameter in template]]. In either case the article will be added to [[:Category:All articles to be split]].
+
+* <code><nowiki>{{DMCA|Dutch mathematicians}}</nowiki></code> is the straight category [[:Category:Dutch mathematicians]].
+
+* <code><nowiki>{{TDMCA|type="Tolkien"|Articles to be split|from|{{{date|}}}|All articles to be split}}</nowiki></code> will categorise as in the above example but also in [[:Category:Tolkien articles to be split]] if it exists. If it doesn't the page will be added to the hidden [[:Category:Articles with tags with unsupported types]].
+
+== Note ==
+An incorrect date is any date which is not of the form {{#time:F Y}}, e.g. <code>{{#time:F d, Y}}</code>, or <code>june</code> instead of <code>June</code>, or other spelling mistakes.
+
+== Etymology ==
+DMCA stands for "dated maintenance category – articles". Similar templates exist for certain other namespaces or combinations. DMCA is a metatemplate with highly circumscribed use, and not intended to be "editor facing".
+
+== Related templates ==
+{{#ifeq:{{PAGENAME}}|Dated maintenance category|* {{Tl|DMCA}}|{{#ifeq:{{PAGENAME}}|DMCA|* {{Tl|DMC}}|* {{Tl|DMCA}}<br />{{Tl|Dated maintenance category}}}}}}
+
+<includeonly>{{Sandbox other||
+[[Category:Time and date maintenance templates]]
+[[Category:Namespace manipulation templates]]
+}}</includeonly>
