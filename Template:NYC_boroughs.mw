@@ -5,11 +5,11 @@
 |- style="background:#dedebb;"
 !  colspan="2" style="background: transparent"|Giurisdizion
 ! style="background: transparent"| Populazion
-! style="background: transparent"| [[PIB]] †
+! style="background: transparent"| PIB †
 ! style="background: transparent"|Spersa
 ! style="background: transparent"|Densità de la populazion
 |- style="background:#efefcc; font-style: italic"
-! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |County!! style="font-weight: normal; background: transparent" |Cumpededa<br> (2020) !! style="font-weight:normal; background: transparent" |miliarc</br>(2012 US$) !! style="font-weight: normal; background: transparent" |km²!!style="font-weight: normal; background: transparent" |persones<br />per km<sup>2</sup>
+! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |Contea!! style="font-weight: normal; background: transparent" |Cumpededa<br> (2020) !! style="font-weight:normal; background: transparent" |miliarc</br>(2012 US$) !! style="font-weight: normal; background: transparent" |km²!!style="font-weight: normal; background: transparent" |persones<br />per km<sup>2</sup>
 |- style="background:{{#ifeq: {{PAGENAME}} | L Bronx | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | gold | ee5555}}"|{{center|'''[[L Bronx]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | ffee88 | f9f9f9}}"|{{center|
@@ -51,11 +51,11 @@
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}148.9{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}3,327{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 |- style="background:#ddd;" class="sortbottom"
-| colspan="2" |{{center|'''[[New York City|City of New York]]'''}}||'''{{formatnum:8804190}}'''||'''$&nbsp; {{formatnum:830.072}}'''||'''783.8'''||'''{{formatnum:11234}}'''
+| colspan="2" |{{center|'''[[New York City|Zità de New York]]'''}}||'''{{formatnum:8804190}}'''||'''$&nbsp; {{formatnum:830.072}}'''||'''783.8'''||'''{{formatnum:11234}}'''
 |- style="background:#ccc;" class="sortbottom"
 | colspan="2" |{{center|[[New York (stat)|Stat de New York]]}}||{{formatnum:20215751}}||'''$''' {{formatnum:1724.759}}||{{formatnum:122056.8}}||166
 |- class="sortbottom"
-| colspan="9" align="center"|† '''GDP''' = [[Gross domestic product|Gross Domestic Product]]&nbsp;&nbsp;&nbsp; '''''Sources''':<ref>{{cite web |url=https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7 |title=A Story Map: 2020 Census Demographic Data Map Viewer|publisher=[[U.S. Census Bureau]]|access-date=August 12, 2021}}</ref><ref>[https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,bronxcountybronxboroughnewyork,kingscountybrooklynboroughnewyork,newyorkcountymanhattanboroughnewyork,queenscountyqueensboroughnewyork,richmondcountystatenislandboroughnewyork/PST045217 QuickFacts New York city, New York; Bronx County (Bronx Borough), New York; Kings County (Brooklyn Borough), New York; New York County (Manhattan Borough), New York; Queens County (Queens Borough), New York; Richmond County (Staten Island Borough), New York], [[United States Census Bureau]]. Accessed June 11, 2018.</ref><ref>{{cite web |url=http://www1.nyc.gov/site/planning/data-maps/nyc-population/current-future-populations.page |title=NYC Population: Current and Projected Populations |publisher=[[NYC.gov]] |access-date=June 10, 2017}}</ref><ref>{{Cite web|url=https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas|title=GDP by County, Metro, and Other Areas|website=www.bea.gov|publisher=[[Bureau of Economic Analysis]]|access-date=November 2, 2021}}</ref> and see individual borough articles.''
+| colspan="9" align="center"|† '''PIB''' = [[Prudot Intern Brutto]]&nbsp;&nbsp;&nbsp; '''''Funtana''':<ref>{{cite web |url=https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7 |title=A Story Map: 2020 Census Demographic Data Map Viewer|publisher=[[U.S. Census Bureau]]|access-date=August 12, 2021}}</ref><ref>[https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,bronxcountybronxboroughnewyork,kingscountybrooklynboroughnewyork,newyorkcountymanhattanboroughnewyork,queenscountyqueensboroughnewyork,richmondcountystatenislandboroughnewyork/PST045217 QuickFacts New York city, New York; Bronx County (Bronx Borough), New York; Kings County (Brooklyn Borough), New York; New York County (Manhattan Borough), New York; Queens County (Queens Borough), New York; Richmond County (Staten Island Borough), New York], [[United States Census Bureau]]. Accessed June 11, 2018.</ref><ref>{{cite web |url=http://www1.nyc.gov/site/planning/data-maps/nyc-population/current-future-populations.page |title=NYC Population: Current and Projected Populations |publisher=[[NYC.gov]] |access-date=June 10, 2017}}</ref><ref>{{Cite web|url=https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas|title=GDP by County, Metro, and Other Areas|website=www.bea.gov|publisher=[[Bureau of Economic Analysis]]|access-date=November 2, 2021}}</ref>''
 |}<noinclude>
 [[Category:New York City templates|Boroughs]]
 </noinclude>
