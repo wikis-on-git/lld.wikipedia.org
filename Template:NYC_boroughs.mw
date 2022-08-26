@@ -6,64 +6,54 @@
 !  colspan="2" style="background: transparent"|Giurisdizion
 ! style="background: transparent"| Populazion
 ! style="background: transparent"| [[PIB]] †
-!  colspan="2" style="background: transparent"|Spersa
-!  colspan="2" style="background: transparent"|Densità de la populazion
+! style="background: transparent"|Spersa
+! style="background: transparent"|Densità de la populazion
 |- style="background:#efefcc; font-style: italic"
-! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |County!! style="font-weight: normal; background: transparent" |Cumpededa<br> (2020) !! style="font-weight:normal; background: transparent" |miliarc</br>(2012 US$) !! style="font-weight: normal; background: transparent" |square<br /> miles!!style="font-weight: normal; background: transparent" |<br />km²!!style="font-weight: normal; background: transparent" |persons/<br />mi<sup>2</sup>!!style="font-weight: normal; background: transparent" |persones/<br />per km<sup>2</sup>
+! style="font-weight:normal; background: transparent" |Borough!! style="font-weight:normal; background: transparent" |County!! style="font-weight: normal; background: transparent" |Cumpededa<br> (2020) !! style="font-weight:normal; background: transparent" |miliarc</br>(2012 US$) !! style="font-weight: normal; background: transparent" |km²!!style="font-weight: normal; background: transparent" |persones<br />per km<sup>2</sup>
 |- style="background:{{#ifeq: {{PAGENAME}} | L Bronx | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | gold | ee5555}}"|{{center|'''[[L Bronx]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | L Bronx | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}Bronx{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}}}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}1,472,654{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
+||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}{{formatnum:1472654}}{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}'''$''' 36.938{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}42.2{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}109.3{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
-||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}34,920{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}13,482{{#ifeq: {{PAGENAME}} | L Bronx | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Brooklyn | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Brooklyn | crimson | ffee77}}"|{{center|'''[[Brooklyn]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Brooklyn | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}Kings{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}}}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}2,736,074{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}{{formatnum:2736074}}{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}'''$''' 86.151{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}69.4{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}179.7{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}39,438{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}15,227{{#ifeq: {{PAGENAME}} | Brooklyn | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Manhattan | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Manhattan | gold | lightgreen}}"|{{center|'''[[Manhattan]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Manhattan | ffee88 | f9f9f9}}"|{{center|
   {{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}New York{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}}}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}1,694,263{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}{{formatnum:1694263}}{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}'''$''' 610.386{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}22.7{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}58.8{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}74,781{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}28,872{{#ifeq: {{PAGENAME}} | Manhattan | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Queens | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Queens | crimson | orange}}"|{{center|'''[[Queens]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Queens | ffee88 | f9f9f9}}" |{{center|
   {{#ifeq: {{PAGENAME}} | Queens | ''' | }} Queens{{#ifeq: {{PAGENAME}} | Queens | ''' | }}}}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}2,405,464{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}{{formatnum:2405464}}{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}'''$''' 82.328{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}108.7{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}281.5{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}22,125{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Queens | ''' | }}8,542{{#ifeq: {{PAGENAME}} | Queens | ''' | }}
 |- style="background:{{#ifeq: {{PAGENAME}} | Staten Island | lemonchiffon | \#f9f9f9}};"
 | bgcolor="{{#ifeq: {{PAGENAME}} | Staten Island | crimson | plum}}"|{{center|'''[[Staten Island]]'''}}
 | bgcolor="{{#ifeq: {{PAGENAME}} | Staten Island | ffee88 | f9f9f9}}" |{{center|
   {{#ifeq: {{PAGENAME}} | Staten Island | ''' | }} Richmond{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}}}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}495,747{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
+||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}{{formatnum:495747}}{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}'''$''' 14.270{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}57.5{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}148.9{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
-||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}8,618{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 ||{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}3,327{{#ifeq: {{PAGENAME}} | Staten Island | ''' | }}
 |- style="background:#ddd;" class="sortbottom"
-| colspan="2" |{{center|'''[[New York City|City of New York]]'''}}||'''8,804,190'''||'''$&nbsp; 830.072'''||'''302.6'''||'''783.8'''||'''29,095'''||'''11,234'''
+| colspan="2" |{{center|'''[[New York City|City of New York]]'''}}||'''{{formatnum:8804190}}'''||'''$&nbsp; {{formatnum:830.072}}'''||'''783.8'''||'''{{formatnum:11234}}'''
 |- style="background:#ccc;" class="sortbottom"
-| colspan="2" |{{center|[[New York (state)|State of New York]]}}||20,215,751||'''$''' 1,724.759||47,126.4||122,056.8||429||166
+| colspan="2" |{{center|[[New York (stat)|Stat de New York]]}}||{{formatnum:20215751}}||'''$''' {{formatnum:1724.759}}||{{formatnum:122056.8}}||166
 |- class="sortbottom"
 | colspan="9" align="center"|† '''GDP''' = [[Gross domestic product|Gross Domestic Product]]&nbsp;&nbsp;&nbsp; '''''Sources''':<ref>{{cite web |url=https://mtgis-portal.geo.census.gov/arcgis/apps/MapSeries/index.html?appid=2566121a73de463995ed2b2fd7ff6eb7 |title=A Story Map: 2020 Census Demographic Data Map Viewer|publisher=[[U.S. Census Bureau]]|access-date=August 12, 2021}}</ref><ref>[https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,bronxcountybronxboroughnewyork,kingscountybrooklynboroughnewyork,newyorkcountymanhattanboroughnewyork,queenscountyqueensboroughnewyork,richmondcountystatenislandboroughnewyork/PST045217 QuickFacts New York city, New York; Bronx County (Bronx Borough), New York; Kings County (Brooklyn Borough), New York; New York County (Manhattan Borough), New York; Queens County (Queens Borough), New York; Richmond County (Staten Island Borough), New York], [[United States Census Bureau]]. Accessed June 11, 2018.</ref><ref>{{cite web |url=http://www1.nyc.gov/site/planning/data-maps/nyc-population/current-future-populations.page |title=NYC Population: Current and Projected Populations |publisher=[[NYC.gov]] |access-date=June 10, 2017}}</ref><ref>{{Cite web|url=https://www.bea.gov/data/gdp/gdp-county-metro-and-other-areas|title=GDP by County, Metro, and Other Areas|website=www.bea.gov|publisher=[[Bureau of Economic Analysis]]|access-date=November 2, 2021}}</ref> and see individual borough articles.''
 |}<noinclude>
