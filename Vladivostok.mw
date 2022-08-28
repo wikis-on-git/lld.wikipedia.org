@@ -34,8 +34,108 @@
 == Storia ==
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE                    = 
+| DIAGRAMM TEMPERATUR        = rechts
+| DIAGRAMM NIEDERSCHLAG      = deaktiviert
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA     = [http://worldweather.wmo.int/107/c00664.htm Roshydromet], [http://wetterkontor.de/de/klima/klima2.asp?land=ru&stat=31960 wetterkontor.de]
+| Titul = 
+| Luech = Vladivostok 
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan                      = −8.8
+| hmfeb                      = −5.9
+| hmmär                      = 1.7
+| hmapr                      = 9.1
+| hmmai                      = 14.7
+| hmjun                      = 17.0
+| hmjul                      = 21.0
+| hmaug                      = 23.0
+| hmsep                      = 19.1
+| hmokt                      = 12.4
+| hmnov                      = 2.8
+| hmdez                      = −5.5
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan                      = −16.3
+| lmfeb                      = −13.7
+| lmmär                      = −5.6
+| lmapr                      = 1.3
+| lmmai                      = 6.4
+| lmjun                      = 10.6
+| lmjul                      = 15.4
+| lmaug                      = 17.4
+| lmsep                      = 12.5
+| lmokt                      = 5.2
+| lmnov                      = −4.2
+| lmdez                      = −12.5
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan                      = 15
+| nbfeb                      = 19
+| nbmär                      = 25
+| nbapr                      = 54
+| nbmai                      = 61
+| nbjun                      = 100
+| nbjul                      = 124
+| nbaug                      = 153
+| nbsep                      = 126
+| nbokt                      = 66
+| nbnov                      = 38
+| nbdez                      = 18
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan                      = 3
+| rdfeb                      = 3
+| rdmär                      = 4
+| rdapr                      = 7
+| rdmai                      = 8
+| rdjun                      = 11
+| rdjul                      = 11
+| rdaug                      = 10
+| rdsep                      = 7
+| rdokt                      = 6
+| rdnov                      = 4
+| rddez                      = 3
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan                      = 5.7
+| shfeb                      = 6.5
+| shmär                      = 7.0
+| shapr                      = 6.4
+| shmai                      = 6.4
+| shjun                      = 4.3
+| shjul                      = 3.9
+| shaug                      = 4.8
+| shsep                      = 6.6
+| shokt                      = 6.6
+| shnov                      = 5.6
+| shdez                      = 5.0
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan                      = 59
+| lffeb                      = 58
+| lfmär                      = 62
+| lfapr                      = 68
+| lfmai                      = 74
+| lfjun                      = 89
+| lfjul                      = 91
+| lfaug                      = 87
+| lfsep                      = 77
+| lfokt                      = 65
+| lfnov                      = 61
+| lfdez                      = 61
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan                      = −2
+| wtfeb                      = −2
+| wtmär                      = −1
+| wtapr                      = 3
+| wtmai                      = 9
+| wtjun                      = 14
+| wtjul                      = 18
+| wtaug                      = 21
+| wtsep                      = 19
+| wtokt                      = 12
+| wtnov                      = 5
+| wtdez                      = 0
+}}
 [[File:Zolotoy_bridge,_Golden_Bridge_(22076779162).jpg|thumb|left|300px|Ududa de nuet dl Puent d'Or (Золотой мост) te la Baia dl Corn D'Or (Золотой Рог).]]
-
 
 == Educazion ==
 A Vladivostok ie la [[Università de Urient Dalonc]].
