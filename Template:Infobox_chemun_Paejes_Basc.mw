@@ -29,13 +29,15 @@
 |-
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | Auter
 |- valign="top"
-|style="width:130px;font-size:90%" | '''Codesc CBS''' ||  style="width:180px;font-size:90%" | {{{CBS}}}
-|- valign="top"
 |colspan="2" style="width:130px;font-size:90%" | '''Populazion de uriginn imigreda''' 
 |- valign="top"
 |-
 | valign="top" style="font-size:90%"| &bullet;&nbsp;de ndut<br>&bullet;&nbsp;dl uzidënt<br>&bullet;&nbsp;nia-uzidënt|| valign="top" style="font-size:90%"|  {{{imi_total}}}<br>{{{imi_west}}}<br>{{{imi_nonwest}}}
 |-
+{{#if:{{{CBS|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''CBS'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{CBS}}}  | {{!}}- }}
+{{#if:{{{codesc posta|}}} | {{!}}- valign="top"
+{{!}}style="width:160px;font-size:90%" {{!}} '''Codesc de la posta''' {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{codesc posta}}} | {{!}}- }}
 {{#if:{{{davani_familia|}}} | {{!}}- valign="top"
 {{!}}style="width:160px;font-size:90%" {{!}} '''Davani mesan per familia'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{{davani_familia}}}}}&nbsp;€&nbsp;({{{davani_familia_ann}}})  | 
 {{!}}-}}
@@ -56,6 +58,7 @@
 |Seuraspersa       = 21.91
 |Abitanc           = 125167
 |Autëza            = 0
+|codesc posta= 25146
 |Data abitanc      = 2020
 |CBS               = 546
 |imi_total         = 32,2%
