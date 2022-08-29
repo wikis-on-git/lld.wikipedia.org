@@ -1,0 +1,87 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem luech}}}</big>
+|-
+|colspan="2" bgcolor="#E3E3E3" style="font-size:120%" align="center" | {{{Inuem rus}}}
+|-
+|colspan="2" align="center" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|310px|center]]}}
+|-
+|colspan="2" align="center" style="font-size:90%;" | {{#if: {{{Foto|}}} | {{#if: {{{Descrizion foto|}}} | {{{Descrizion foto}}} | Ududa de {{{Inuem luech}}} }}  | }}
+|-
+|colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;;" | 
+|-
+| {{#if: {{{Blason|}}} | {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center|Bandiera de {{{Inuem luech}}}]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|160px|border|center|Blason de {{{Inuem luech}}}]] }} | }}
+|-
+!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Stat''' || style="width:180px;font-size:90%" | {{RUS}}
+|- valign="top" 
+|style="width:130px;font-size:90%" |{{#if:{{{Raion federel|}}}|'''[[Raions federei de la Ruscia|Raion federel]]'''}} || style="width:180px;font-size:90%" |{{#if:{{{Raion federel|}}}| {{{Raion federel}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" |'''[[Partida de la Ruscia|Soget federel]]''' || style="width:180px;font-size:90%" | {{{Stat federal}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Abitanc|}}}|'''Populazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Abitanc|}}}|{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})}}
+|-
+{{#if:{{{Seuraspersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Densità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²   |  }}
+|-
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" | Geografia
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" | {{{Coordinates}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Autëza|}}}|'''Autëza'''}} ||  style="width:180px;font-size:90%" | {{#if:{{{Autëza|}}}|{{{Autëza}}} m <small>sëura l livel dl mer</small>}}
+|-
+{{#if:{{{Seuraspersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Spersa'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{{Seuraspersa}}}}}&nbsp;km²    |  }}
+|-
+!colspan="2" bgcolor="#E3E3E3" | Auter
+|- valign="top"
+| style="width:130px;font-size:90%" | '''[[Zona d'orar]]''' ||  style="width:180px;font-size:90%" | {{{Zona d'orar}}}
+|-
+| style="width:130px;font-size:90%" | {{#if:{{{Codesc posta|}}}|'''Codesc de la posta'''}}  ||  style="width:180px;font-size:90%" | {{#if:{{{Codesc posta|}}}|{{{Codesc posta}}}}}
+|-
+| style="width:130px;font-size:90%" | {{#if:{{{OKTMO|}}}|'''OKTMO'''}}  ||  style="width:180px;font-size:90%" | {{#if:{{{OKTMO|}}}|{{{OKTMO}}}}}
+|-
+!colspan="2" bgcolor="#E3E3E3" | Cherta
+|-
+|colspan="2" align="center" | {{{Cherta}}}
+|-
+|}</includeonly>
+<noinclude>
+{{Infobox luech Ruscia
+|Foto                   = Площадь_Михаила_Тверского.jpg
+|Inuem luech            = Tver
+|Inuem rus              = Тверь
+|Bandiera               = Flag_of_Tver.svg
+|Blason                 = Coat_of_arms_of_Tver.svg
+|Stat federal           = [[Oblast de Tver]]
+|Raion federel          = [[Raion Federel Zentrel|Zentrel]]
+|Fundazion              = 1135&nbsp;<small>do Gejù Crist</small>
+|Autëza                = 135
+|Rujeneda               = prova2
+|Zona d'orar            = 	[[UTC+3]] ([[MSK]])
+|Seuraspersa            = 147
+|Coordinates            = {{coord|56|51|45|N|35|55|27|E|display=inline}}   <!--mantenì genau chësc format-->
+|Abitanc                = 425072
+|Data abitanc           = 2020
+|Codesc posta   = 170000
+|OKTMO  = 0015654
+|Cherta            = {{Mappa di localizzazione
+|RUS W
+|label = Tver
+|latitudineGradi = 56
+|latitudinePrimi = 51
+|longitudineGradi = 35
+|longitudinePrimi = 55
+|position = top
+|width = 300
+|float = center
+|relief = yes
+}}
+}}[[Categoria:Wikipedia:Templates]]</noinclude>
