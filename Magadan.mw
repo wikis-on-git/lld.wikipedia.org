@@ -34,6 +34,68 @@
 == Storia ==
 
 == Geografia ==
+=== Tlima ===
+{{Tlima 
+| TABELLE = aktiviert
+| DIAGRAMM TEMPERATUR = rechts
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = [http://worldweather.wmo.int/107/c00918.htm Roshydromet]
+| Titul =
+| Luech = Magadan
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −14.8
+| hmfeb = −12.7
+| hmmär = −8.3
+| hmapr = −2.2
+| hmmai = 4.6
+| hmjun = 10.9
+| hmjul = 14.3
+| hmaug = 14.9
+| hmsep = 10.1
+| hmokt = 1.0
+| hmnov = −8.7
+| hmdez = −12.9
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −19.5
+| lmfeb = −18.2
+| lmmär = −15.0
+| lmapr = −8.3
+| lmmai = −1.0
+| lmjun = 4.5
+| lmjul = 8.8
+| lmaug = 9.2
+| lmsep = 4.6
+| lmokt = −4.2
+| lmnov = −13.5
+| lmdez = −17.4
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 14
+| nbfeb = 14
+| nbmär = 11
+| nbapr = 28
+| nbmai = 46
+| nbjun = 53
+| nbjul = 69
+| nbaug = 72
+| nbsep = 81
+| nbokt = 74
+| nbnov = 45
+| nbdez = 27
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 4
+| rdfeb = 4
+| rdmär = 3
+| rdapr = 6
+| rdmai = 7
+| rdjun = 7
+| rdjul = 9
+| rdaug = 9
+| rdsep = 9
+| rdokt = 9
+| rdnov = 8
+| rddez = 5
+}}
 
 ==Notes==
 <references/>
