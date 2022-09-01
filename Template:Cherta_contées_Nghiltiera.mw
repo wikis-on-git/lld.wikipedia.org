@@ -34,7 +34,7 @@
 }} 
 <!-- THE FOLLOWING COUNTIES ARE IN ALL MAPS -->
 {{Image label small|x=.49 |y=.16 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Northumberland {{{suffix|}}}|Northumberland]]}}
-{{Image label small|x=.54 |y=.26 |scale={{{width|515}}}|text={{Alternative links|1={{{ns|}}}{{{prefix|}}} {{{hash|}}}County Durham {{{suffix|}}}|2={{{ns|}}}{{{prefix|}}} {{{hash|}}}Durham {{{suffix|}}}|title=Durham}}}}
+{{Image label small|x=.54 |y=.26 |scale={{{width|515}}}|text={{Alternative links|1={{{ns|}}}{{{prefix|}}} {{{hash|}}}Contea de Durham {{{suffix|}}}|2={{{ns|}}}{{{prefix|}}} {{{hash|}}}Durham {{{suffix|}}}|title=Durham}}}}
 {{Image label small|x=.437|y=.43 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Lancashire {{{suffix|}}}|Lancashire]]}}
 {{Image label small|x=.455|y=.545|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Cheshire {{{suffix|}}}| Cheshire]]}}
 {{Image label small|x=.575|y=.55 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}Derbyshire {{{suffix|}}}|Derbs.]]}}
