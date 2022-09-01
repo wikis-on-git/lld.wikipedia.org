@@ -138,7 +138,7 @@
        {{Image label small|x=.78 |y=.975|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}East Sussex {{{suffix|}}}|East<br />Sussex]]}}
        {{Image label small|x=.69 |y=.975|scale={{{width|515}}}|text=[[{{{ns|}}}{{{prefix|}}} {{{hash|}}}West Sussex {{{suffix|}}}|West<br />Sussex]]}}
        {{Image label small|x=.605|y=1.05|scale={{{width|515}}}|text=[[{{{ns|}}}{{{IOWprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}Isle of Wight {{{suffix|}}}| Isle of<br />Wight]]}}
-       {{Image label small|x=.54 |y=.68 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{WMprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}West Midlands {{{WMsuffix|{{{suffix|}}}}}}|West<br />Midlands]]|text-align=left}}
+       {{Image label small|x=.54 |y=.68 |scale={{{width|515}}}|text=[[{{{ns|}}}{{{WMprefix|{{#if: {{{prefix|}}}| {{{prefix|}}} the|}} }}} {{{hash|}}}West Midlands {{{suffix|{{{suffix|}}}}}}|West<br />Midlands]]|text-align=left}}
 }}
 {{Image label end}}{{#if:{{{caption|}}}|</div>
 <div class="thumbcaption">{{{caption}}}</div></div></div>
