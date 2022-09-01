@@ -44,7 +44,7 @@
 {{!}}-  }}
 {{#if:{{{Plata internet|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Plata internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} [{{{Plata internet}}} {{{Plata internet}}}]  |  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Plata internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} [http://{{{Plata internet}}} {{{Plata internet}}}]  |  
 {{!}}-  }}
 |-
 !colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
@@ -65,7 +65,7 @@
 |Data abitanc           = 2017
 |Abitanc                = 151584
 |Codesc posta           = OX1, OX2, OX3, OX4
-|Plata internet         = http://www.oxford.gov.uk
+|Plata internet         = www.oxford.gov.uk
 |Cherta                 = {{Mappa di localizzazione
 |ENG
 |label = Oxford
