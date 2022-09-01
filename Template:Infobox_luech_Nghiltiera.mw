@@ -16,9 +16,10 @@
 |colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;font-size:1%" | 
 |- valign="top"
 |style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}&nbsp;do Gejù Crist}}
+{{#if:{{{Abitanc|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Populazion'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})  |  }}
 |- valign="top"
-| valign="top" style="font-size:90%"|'''Populazion''' || valign="top" style="font-size:90%"| {{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})
-|-
 {{#if:{{{Abitanc|}}}  | {{#if:{{{Spersa|}}}  | 
 {{!}}-  
 {{!}}style="width:160px;font-size:90%" {{!}} '''Densità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{#expr: {{{Abitanc}}} / {{{Spersa}}} round 2 }}&nbsp;ab./km²}}  |    }} |    }}
