@@ -1,0 +1,54 @@
+{{documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+{{esoteric}}
+
+This template will allow you to provide multiple alternative choices for a link and will display the first one that exists.  This is most useful for linking to topics that tend to have annual pages where the annual page may or may not exist.
+
+For example, if I want to link to the article about the 2010 Richmond Spiders football team that may or may not exist, I would make this call:
+
+<pre><nowiki>{{Alternative links|2010 Richmond Spiders football team|Richmond Spiders football|Richmond Spiders|University of Richmond|title=Richmond|alt=Richmond}}</nowiki></pre>
+
+This would yield: {{Alternative links|2010 Richmond Spiders football team|Richmond Spiders football|Richmond Spiders|University of Richmond|title=Richmond|alt=Richmond}}
+
+'''Important''' - whitespace cannot be included or it will be added to the wiki link and it will not function properly.
+
+==Parameters==
+
+{| class="wikitable"
+|-
+! parameter
+! meaning
+|-
+| alt
+| If none of the requested titles exist, display this text instead.  If this is left blank, then nothing will be displayed at all.
+|-
+| title
+| If any of the requested articles exist, display this title for the article.  If this is left blank, then the article title will be displayed
+|-
+| 1, 2, 3, ...
+| Articles to attempt to display
+|}
+
+==Examples==
+{| class="wikitable"
+|-
+| <nowiki>{{Alternative links|2007 Virginia Tech Hokies football team|Virginia Tech Hokies football|Virginia Tech Hokies|Virginia Tech|title=VT}}</nowiki>
+| {{Alternative links|2007 Virginia Tech Hokies football team|Virginia Tech Hokies football|Virginia Tech Hokies|Virginia Tech|title=VT}}
+|-
+| <nowiki>{{Alternative links|Some unreal article|Main page|title=is there a main?}}</nowiki>
+| {{Alternative links|Some unreal article|Main page|title=is there a main?}}
+|-
+| <nowiki>{{Alternative links|George W. Bush|Bill Clinton|VPI||title=test}}</nowiki>
+| {{Alternative links|George W. Bush|Bill Clinton|VPI||title=test}}
+|-
+| <nowiki>{{Alternative links|Virginia Techx|alt=''no such article''}}</nowiki>
+| {{Alternative links|Virginia Techx|alt=''no such article''}}
+|}
+
+==See also==
+* {{tl|cfb link}}
+
+<includeonly>{{Sandbox other||
+[[Category:Internal link templates]]
+}}</includeonly>
