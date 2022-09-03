@@ -92,4 +92,9 @@
 |Partei21 = {{{21<includeonly>|</includeonly>}}}
 |Sitze21 = {{{{{{21}}}|<noinclude>1</noinclude>0}}}
 |Farbe21 = <includeonly>{{{ {{#if:trim|{{{21}}}}} Farbe|{{#if:{{{21|}}} | {{Wahldiagramm/Partei|{{{21}}}|dunkel|{{{Land|DE}}}}} }} }}}</includeonly><noinclude>FF0000</noinclude>
-|Link21 = {{{{{#
+|Link21 = {{{{{#if:trim|{{{21}}}}} Link|}}}
+}}{{#if: {{{Sitze|}}} |
+<span class="error" style="display:none;">Der Parameter [[Vorlage:Sitzverteilung/Wartung/Sitze|<code>Sitze</code>]] ist veraltet und überflüssig!</span>
+}}</onlyinclude>
+
+{{Dokumentation}}
