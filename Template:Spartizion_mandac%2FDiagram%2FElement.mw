@@ -9,4 +9,4 @@ background:#{{{Farbe}}};">
 -o-transform-origin:bottom center;-moz-transform-origin:bottom center;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;
 top:-1em; line-height:1em; padding-bottom:1em;">{{{Caption}}}</div>
 }}
-<div style="-o-transform:rotate({{{Winkel}}}deg);-moz-transform:rotate({{{Winkel}}}deg);-webkit-transform:rotate({{{Winkel}}}deg);-ms-transform:rotate({{{Winkel}}}deg);transform:rotate({{{Winkel}}}deg);</includeonly><noinclude>{{Dokumentation/Unterseite}}</noinclude>
+<div style="-o-transform:rotate({{{Winkel}}}deg);-moz-transform:rotate({{{Winkel}}}deg);-webkit-transform:rotate({{{Winkel}}}deg);-ms-transform:rotate({{{Winkel}}}deg);transform:rotate({{{Winkel}}}deg);</includeonly><noinclude>{{Documentazion/Plata dessot}}</noinclude>
