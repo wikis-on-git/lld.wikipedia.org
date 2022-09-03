@@ -96,5 +96,5 @@ width:100%;">{{#ifexpr:{{{Winkel1}}}|<span style="display:inline-block;backgroun
 background:white;"></div>
 }}
 <!--</div>--></includeonly><noinclude>
-{{Dokumentation/Unterseite}}
+{{Documentazion/Plata dessot}}
 </noinclude>
