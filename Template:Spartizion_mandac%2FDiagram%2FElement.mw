@@ -1,0 +1,12 @@
+<includeonly>width:{{{dim2}}}; height:{{{dim1}}}; position:relative;
+-o-transform-origin:bottom center;-moz-transform-origin:bottom center;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;
+-moz-border-radius-topleft:{{{dim1}}}; -webkit-border-top-left-radius:{{{dim1}}}; border-top-left-radius:{{{dim1}}};
+-moz-border-radius-topright:{{{dim1}}};-webkit-border-top-right-radius:{{{dim1}}};border-top-right-radius:{{{dim1}}};
+background:#{{{Farbe}}};">
+{{#if:{{{Caption}}} |
+<div style="width:{{{dim2}}}; height:{{{dim1}}}; position:absolute;
+-o-transform:rotate({{{CapWin}}}deg);-moz-transform:rotate({{{CapWin}}}deg);-webkit-transform:rotate({{{CapWin}}}deg);-ms-transform:rotate({{{CapWin}}}deg);transform:rotate({{{CapWin}}}deg);
+-o-transform-origin:bottom center;-moz-transform-origin:bottom center;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;
+top:-1em; line-height:1em; padding-bottom:1em;">{{{Caption}}}</div>
+}}
+<div style="-o-transform:rotate({{{Winkel}}}deg);-moz-transform:rotate({{{Winkel}}}deg);-webkit-transform:rotate({{{Winkel}}}deg);-ms-transform:rotate({{{Winkel}}}deg);transform:rotate({{{Winkel}}}deg);</includeonly><noinclude>{{Dokumentation/Unterseite}}</noinclude>
