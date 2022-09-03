@@ -1,0 +1,21 @@
+<includeonly><li style="list-style-type: none; list-style-image: none; margin: 0;"><span style="border-left: 1.2em solid; border-left-color: {{{1|black}}}; padding-left: 0.4em;" title="{{#if: {{{3|}}} | {{{3}}} | {{#switch: {{lc:{{{1|black}}}}}
+|black|#000|#000000 = Schwarz
+|blue|#00f|#0000ff|#9999ff|#1874cd = Blau
+|brown = Braun
+|cyan|aqua|#0ff|#00ffff = Türkis
+|gold = Gold
+|gray|grey = Grau
+|green|#008000|#ccffcc|#22b14c = Grün
+|lime|#0f0|#00ff00 = Hellgrün
+|maroon|#800000 = Dunkelrot
+|navy|#000080 = Dunkelblau
+|orange|#ffcc00|#ffc20e = Orange
+|purple = Purpur
+|red|#f00|#ff0000|#f08080|#f99|#ffcccc|#d40000|#ff7256 = Rot
+|silver|#cccccc = Hellgrau
+|violet|magenta|fuchsia|#f0f|#ff00ff = Violett
+|white|#fff|#ffffff = Weiß
+|yellow|#ff0|#ffff00|#f0e68c = Gelb
+|#default = Farbe {{ucfirst:{{{1}}}}}
+}} }}">&#xFEFF;</span>{{{2|}}}</li></includeonly><noinclude>{{Dokumentation}}
+</noinclude>
