@@ -1,0 +1,100 @@
+<includeonly><!--<div style="height:{{{dim1}}}; overflow:hidden; padding:{{{Rand}}}; background:white;">
+--><div style="
+{{#ifexpr:{{{Winkel1}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe1}}}|Caption={{{Caption1}}}|CapWin={{{CapWin1}}}|Winkel={{{Winkel1}}}}}
+}}
+{{#ifexpr:{{{Winkel2}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe2}}}|Caption={{{Caption2}}}|CapWin={{{CapWin2}}}|Winkel={{{Winkel2}}}}}
+}}
+{{#ifexpr:{{{Winkel3}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe3}}}|Caption={{{Caption3}}}|CapWin={{{CapWin3}}}|Winkel={{{Winkel3}}}}}
+}}
+{{#ifexpr:{{{Winkel4}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
+}}
+{{#ifexpr:{{{Winkel5}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
+}}
+{{#ifexpr:{{{Winkel6}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
+}}
+{{#ifexpr:{{{Winkel7}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
+}}
+{{#ifexpr:{{{Winkel8}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2=
+|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe3}}}|Caption={{{Caption3}}}|CapWin={{{CapWin3}}}|Winkel={{{Winkel3}}}}}
+}}
+{{#ifexpr:{{{Winkel4}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
+}}
+{{#ifexpr:{{{Winkel5}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
+}}
+{{#ifexpr:{{{Winkel6}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
+}}
+{{#ifexpr:{{{Winkel7}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
+}}
+{{#ifexpr:{{{Winkel8}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe8}}}|Caption={{{Caption8}}}|CapWin={{{CapWin8}}}|Winkel={{{Winkel8}}}}}
+}}
+{{#ifexpr:{{{Winkel9}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe9}}}|Caption={{{Caption9}}}|CapWin={{{CapWin9}}}|Winkel={{{Winkel9}}}}}
+}}
+{{#ifexpr:{{{Winkel10}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe10}}}|Caption={{{Caption10}}}|CapWin={{{CapWin10}}}|Winkel={{{Winkel10}}}}}
+}}
+{{#ifexpr:{{{Winkel11}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe11}}}|Caption={{{Caption11}}}|CapWin={{{CapWin11}}}|Winkel={{{Winkel11}}}}}
+}}
+{{#ifexpr:{{{Winkel12}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe12}}}|Caption={{{Caption12}}}|CapWin={{{CapWin12}}}|Winkel={{{Winkel12}}}}}
+}}
+{{#ifexpr:{{{Winkel13}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe13}}}|Caption={{{Caption13}}}|CapWin={{{CapWin13}}}|Winkel={{{Winkel13}}}}}
+}}
+{{#ifexpr:{{{Winkel14}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe14}}}|Caption={{{Caption14}}}|CapWin={{{CapWin14}}}|Winkel={{{Winkel14}}}}}
+}}
+{{#ifexpr:{{{Winkel15}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe15}}}|Caption={{{Caption15}}}|CapWin={{{CapWin15}}}|Winkel={{{Winkel15}}}}}
+}}
+{{#ifexpr:{{{Winkel16}}} |
+{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe16}}}|Caption={{{Caption16}}}|CapWin={{{CapWin16}}}|Winkel={{{Winkel16}}}}}
+}}<!--
+  innerstes Element, weiß: wird von nicht transform-fähigen Browsern angezeigt
+-->width:{{{dim2}}}; height:{{{dim1}}};
+-o-transform-origin:bottom center;-moz-transform-origin:bottom center;-webkit-transform-origin:bottom center;-ms-transform-origin:bottom center;transform-origin:bottom center;
+background:white;"><!--<small style="
+-o-transform:scale(0);-moz-transform:scale(0);display:inline-block;&gt;!--webkit kann transform nur bei Blockelementen--&gt;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);&lt;!--weg damit--&gt;
+">Die [[Vorlage:Sitzverteilung|Darstellung dieser Grafik]] erfordert einen modernen [[Webbrowser]], der die [[Cascading Style Sheets|CSS3]]-Eigenschaften <code>border-radius</code> und <code>transform</code> unterstützt.</small>--><div style="
+-o-transform:scale(0);-moz-transform:scale(0);-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);<!--weg damit-->
+width:100%;">{{#ifexpr:{{{Winkel1}}}|<span style="display:inline-block;background:#{{{Farbe1}}};width:{{#expr:{{{Winkel1}}}/1.8}}%;overflow:hidden;">{{{Caption1}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel2}}}|<span style="display:inline-block;background:#{{{Farbe2}}};width:{{#expr:{{{Winkel2}}}/1.8}}%;overflow:hidden;">{{{Caption2}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel3}}}|<span style="display:inline-block;background:#{{{Farbe3}}};width:{{#expr:{{{Winkel3}}}/1.8}}%;overflow:hidden;">{{{Caption3}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel4}}}|<span style="display:inline-block;background:#{{{Farbe4}}};width:{{#expr:{{{Winkel4}}}/1.8}}%;overflow:hidden;">{{{Caption4}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel5}}}|<span style="display:inline-block;background:#{{{Farbe5}}};width:{{#expr:{{{Winkel5}}}/1.8}}%;overflow:hidden;">{{{Caption5}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel6}}}|<span style="display:inline-block;background:#{{{Farbe6}}};width:{{#expr:{{{Winkel6}}}/1.8}}%;overflow:hidden;">{{{Caption6}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel7}}}|<span style="display:inline-block;background:#{{{Farbe7}}};width:{{#expr:{{{Winkel7}}}/1.8}}%;overflow:hidden;">{{{Caption7}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel8}}}|<span style="display:inline-block;background:#{{{Farbe8}}};width:{{#expr:{{{Winkel8}}}/1.8}}%;overflow:hidden;">{{{Caption8}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel9}}}|<span style="display:inline-block;background:#{{{Farbe9}}};width:{{#expr:{{{Winkel9}}}/1.8}}%;overflow:hidden;">{{{Caption9}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel10}}}|<span style="display:inline-block;background:#{{{Farbe10}}};width:{{#expr:{{{Winkel10}}}/1.8}}%;overflow:hidden;">{{{Caption10}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel11}}}|<span style="display:inline-block;background:#{{{Farbe11}}};width:{{#expr:{{{Winkel11}}}/1.8}}%;overflow:hidden;">{{{Caption11}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel12}}}|<span style="display:inline-block;background:#{{{Farbe12}}};width:{{#expr:{{{Winkel12}}}/1.8}}%;overflow:hidden;">{{{Caption12}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel13}}}|<span style="display:inline-block;background:#{{{Farbe13}}};width:{{#expr:{{{Winkel13}}}/1.8}}%;overflow:hidden;">{{{Caption13}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel14}}}|<span style="display:inline-block;background:#{{{Farbe14}}};width:{{#expr:{{{Winkel14}}}/1.8}}%;overflow:hidden;">{{{Caption14}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel15}}}|<span style="display:inline-block;background:#{{{Farbe15}}};width:{{#expr:{{{Winkel15}}}/1.8}}%;overflow:hidden;">{{{Caption15}}}&nbsp;</span>}}{{#ifexpr:{{{Winkel16}}}|<span style="display:inline-block;background:#{{{Farbe16}}};width:{{#expr:{{{Winkel16}}}/1.8}}%;overflow:hidden;">{{{Caption16}}}&nbsp;</span>}}</div>
+</div>
+{{#ifexpr:{{{Winkel16}}} | </div>
+}}{{#ifexpr:{{{Winkel15}}} | </div>
+}}{{#ifexpr:{{{Winkel14}}} | </div>
+}}{{#ifexpr:{{{Winkel13}}} | </div>
+}}{{#ifexpr:{{{Winkel12}}} | </div>
+}}{{#ifexpr:{{{Winkel11}}} | </div>
+}}{{#ifexpr:{{{Winkel10}}} | </div>
+}}{{#ifexpr:{{{Winkel9}}} | </div>
+}}{{#ifexpr:{{{Winkel8}}} | </div>
+}}{{#ifexpr:{{{Winkel7}}} | </div>
+}}{{#ifexpr:{{{Winkel6}}} | </div>
+}}{{#ifexpr:{{{Winkel5}}} | </div>
+}}{{#ifexpr:{{{Winkel4}}} | </div>
+}}{{#ifexpr:{{{Winkel3}}} | </div>
+}}{{#ifexpr:{{{Winkel2}}} | </div>
+}}{{#ifexpr:{{{Winkel1}}} | </div>
+}}<!-- Inkreis -->{{#if:{{{dim0}}} |
+ <div style="width:{{{dim0}}}; height:{{{dim0}}}; margin:-{{{dim-1}}} auto;
+-moz-border-radius:{{{dim-1}}}; -webkit-border-radius:{{{dim-1}}}; border-radius:{{{dim-1}}};
+-o-transform:translate(0,0);-moz-transform:translate(0,0);-webkit-transform:translate(0,0);-ms-transform:translate(0,0);transform:translate(0,0);<!-- für eigene Ebene, um über dem Fächer angezeigt zu werden, aber nicht per position:relative, um nicht in den Text der Browserweiche hineinzuragen-->
+background:white;"></div>
+}}
+<!--</div>--></includeonly><noinclude>
+{{Dokumentation/Unterseite}}
+</noinclude>
