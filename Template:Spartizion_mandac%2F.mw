@@ -5,7 +5,7 @@
  | {{#if: {{{Überschrift|}}}
   | <dl><dt>{{{Überschrift}}}</dt><dd>
  }}<div class="centered
-}} diagram noprint<!-- Hintergrundfarben werden eh nicht mitgedruckt -->" style="width:{{#expr:16*{{{Breite}}} }}em; height:{{#expr:8*{{{Breite}}} }}em; padding:{{{Breite}}}em; overflow:hidden; background:white; {{#if: {{{float|}}} | <!--inherit--> | text-align:center; }}">{{Sitzverteilung/Diagramm
+}} diagram noprint<!-- Hintergrundfarben werden eh nicht mitgedruckt -->" style="width:{{#expr:16*{{{Breite}}} }}em; height:{{#expr:8*{{{Breite}}} }}em; padding:{{{Breite}}}em; overflow:hidden; background:white; {{#if: {{{float|}}} | <!--inherit--> | text-align:center; }}">{{Spartizion mandac/Diagram
 <!--|Rand = {{{Breite}}}em-->
 |dim-1= {{#expr:3*{{{Breite}}} }}em
 |dim0 = {{#expr:6*{{{Breite}}} }}em<!-- 2*dim-1 -->
