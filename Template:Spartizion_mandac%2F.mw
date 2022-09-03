@@ -1,0 +1,127 @@
+<onlyinclude><includeonly>{{#if: {{{float|}}}
+ | <div class="thumb t{{{float}}}"><div class="thumbinner" style="width:{{#expr:18*{{{Breite}}} }}em; padding-right:5px !important;">{{#if: {{{Überschrift|}}}
+  | <div class="thumbcaption" style="font-weight:bold; text-align:center; font-size:100%;">{{{Überschrift}}}</div>
+ }}<div class="thumbimage
+ | {{#if: {{{Überschrift|}}}
+  | <dl><dt>{{{Überschrift}}}</dt><dd>
+ }}<div class="centered
+}} diagram noprint<!-- Hintergrundfarben werden eh nicht mitgedruckt -->" style="width:{{#expr:16*{{{Breite}}} }}em; height:{{#expr:8*{{{Breite}}} }}em; padding:{{{Breite}}}em; overflow:hidden; background:white; {{#if: {{{float|}}} | <!--inherit--> | text-align:center; }}">{{Sitzverteilung/Diagramm
+<!--|Rand = {{{Breite}}}em-->
+|dim-1= {{#expr:3*{{{Breite}}} }}em
+|dim0 = {{#expr:6*{{{Breite}}} }}em<!-- 2*dim-1 -->
+|dim1 = {{#expr:8*{{{Breite}}} }}em
+|dim2 = {{#expr:16*{{{Breite}}} }}em<!-- 2*dim1 -->
+|Winkel1 = {{#expr:180* {{{Sitze1}}}/({{{Sitze}}}) }}
+|Farbe1  = {{{Farbe1}}}
+|CapWin1 = {{#expr:-90 + (90*{{{Sitze1}}}/({{{Sitze}}})) }}<!-- - ( 90 - (((Winkel))) / 2) -->
+|Caption1= {{{{{{Caption}}}1|}}}
+|Winkel2 = {{#expr:180* {{{Sitze2}}}/({{{Sitze}}}) }}
+|Farbe2  = {{{Farbe2}}}
+|CapWin2 = {{#expr:-90 + (90*{{{Sitze2}}}/({{{Sitze}}})) }}
+|Caption2= {{{{{{Caption}}}2|}}}
+|Winkel3 = {{#expr:180* {{{Sitze3}}}/({{{Sitze}}}) }}
+|Farbe3  = {{{Farbe3}}}
+|CapWin3 = {{#expr:-90 + (90*{{{Sitze3}}}/({{{Sitze}}})) }}
+|Caption3= {{{{{{Caption}}}3|}}}
+|Winkel4 = {{#expr:180* {{{Sitze4}}}/({{{Sitze}}}) }}
+|Farbe4  = {{{Farbe4}}}
+|CapWin4 = {{#expr:-90 + (90*{{{Sitze4}}}/({{{Sitze}}})) }}
+|Caption4= {{{{{{Caption}}}4|}}}
+|Winkel5 = {{#expr:180* {{{Sitze5}}}/({{{Sitze}}}) }}
+|Farbe5  = {{{Farbe5}}}
+|CapWin5 = {{#expr:-90 + (90*{{{Sitze5}}}/({{{Sitze}}})) }}
+|Caption5= {{{{{{Caption}}}5|}}}
+|Winkel6 = {{#expr:180* {{{Sitze6}}}/({{{Sitze}}}) }}
+|Farbe6  = {{{Farbe6}}}
+|CapWin6 = {{#expr:-90 + (90*{{{Sitze6}}}/({{{Sitze}}})) }}
+|Caption6= {{{{{{Caption}}}6|}}}
+|Winkel7 = {{#expr:180* {{{Sitze7}}}/({{{Sitze}}}) }}
+|Farbe7  = {{{Farbe7}}}
+|CapWin7 = {{#expr:-90 + (90*{{{Sitze7}}}/({{{Sitze}}})) }}
+|Caption7= {{{{{{Caption}}}7|}}}
+|Winkel8 = {{#expr:180* {{{Sitze8}}}/({{{Sitze}}}) }}
+|Farbe8  = {{{Farbe8}}}
+|CapWin8 = {{#expr:-90 + (90*{{{Sitze8}}}/({{{Sitze}}})) }}
+|Caption8= {{{{{{Caption}}}8|}}}
+|Winkel9 = {{#expr:180* {{{Sitze9}}}/({{{Sitze}}}) }}
+|Farbe9  = {{{Farbe9}}}
+|CapWin9 = {{#expr:-90 + (90*{{{Sitze9}}}/({{{Sitze}}})) }}
+|Caption9= {{{{{{Caption}}}9|}}}
+|Winkel10 = {{#expr:180* {{{Sitze10}}}/({{{Sitze}}}) }}
+|Farbe10  = {{{Farbe10}}}
+|CapWin10 = {{#expr:-90 + (90*{{{Sitze10}}}/({{{Sitze}}})) }}
+|Caption10= {{{{{{Caption}}}10|}}}
+|Winkel11 = {{#expr:180* {{{Sitze11}}}/({{{Sitze}}}) }}
+|Farbe11  = {{{Farbe11}}}
+|CapWin11 = {{#expr:-90 + (90*{{{Sitze11}}}/({{{Sitze}}})) }}
+|Caption11= {{{{{{Caption}}}11|}}}
+|Winkel12 = {{#expr:180* {{{Sitze12}}}/({{{Sitze}}}) }}
+|Farbe12  = {{{Farbe12}}}
+|CapWin12 = {{#expr:-90 + (90*{{{Sitze12}}}/({{{Sitze}}})) }}
+|Caption12= {{{{{{Caption}}}12|}}}
+|Winkel13 = {{#expr:180* {{{Sitze13}}}/({{{Sitze}}}) }}
+|Farbe13  = {{{Farbe13}}}
+|CapWin13 = {{#expr:-90 + (90*{{{Sitze13}}}/({{{Sitze}}})) }}
+|Caption13= {{{{{{Caption}}}13|}}}
+|Winkel14 = {{#expr:180* {{{Sitze14}}}/({{{Sitze}}}) }}
+|Farbe14  = {{{Farbe14}}}
+|CapWin14 = {{#expr:-90 + (90*{{{Sitze14}}}/({{{Sitze}}})) }}
+|Caption14= {{{{{{Caption}}}14|}}}
+|Winkel15 = {{#expr:180* {{{Sitze15}}}/({{{Sitze}}}) }}
+|Farbe15  = {{{Farbe15}}}
+|CapWin15 = {{#expr:-90 + (90*{{{Sitze15}}}/({{{Sitze}}})) }}
+|Caption15= {{{{{{Caption}}}15|}}}
+|Winkel16 = {{#expr:180* {{{Sitze16}}}/({{{Sitze}}}) }}
+|Farbe16  = {{{Farbe16}}}
+|CapWin16 = {{#expr:-90 + (90*{{{Sitze16}}}/({{{Sitze}}})) }}
+|Caption16= {{{{{{Caption}}}16|}}}
+}}</div>
+{{#if: {{{float|}}} |
+ <div class="thumbcaption">
+}}{{#if: {{{Bildbeschreibung|}}}
+ | {{{Bildbeschreibung}}}
+ | {{#if: {{{Legende|}}}{{{float|}}} |
+Insgesamt {{#expr:{{{Sitze}}} }} Sitze <ul style="column-count:{{{Spalten|2}}}; margin-left:0; {{#iferror: font-size:{{#expr:{{{Legende}}} }}%; }}">{{#if: {{{Partei1|}}} |
+ {{Farblegende|#{{{Farbe1}}}|{{#if: {{{Link1|}}} | {{{Link1}}} | {{Wahldiagramm/Partei|{{{Partei1}}}|link|{{{Land}}}}}}}: {{{Sitze1}}} }}
+}}{{#if: {{{Partei2|}}} |
+ {{Farblegende|#{{{Farbe2}}}|{{#if: {{{Link2|}}} | {{{Link2}}} | {{Wahldiagramm/Partei|{{{Partei2}}}|link|{{{Land}}}}}}}: {{{Sitze2}}} }}
+}}{{#if: {{{Partei3|}}} |
+ {{Farblegende|#{{{Farbe3}}}|{{#if: {{{Link3|}}} | {{{Link3}}} | {{Wahldiagramm/Partei|{{{Partei3}}}|link|{{{Land}}}}}}}: {{{Sitze3}}} }}
+}}{{#if: {{{Partei4|}}} |
+ {{Farblegende|#{{{Farbe4}}}|{{#if: {{{Link4|}}} | {{{Link4}}} | {{Wahldiagramm/Partei|{{{Partei4}}}|link|{{{Land}}}}}}}: {{{Sitze4}}} }}
+}}{{#if: {{{Partei5|}}} |
+ {{Farblegende|#{{{Farbe5}}}|{{#if: {{{Link5|}}} | {{{Link5}}} | {{Wahldiagramm/Partei|{{{Partei5}}}|link|{{{Land}}}}}}}: {{{Sitze5}}} }}
+}}{{#if: {{{Partei6|}}} |
+ {{Farblegende|#{{{Farbe6}}}|{{#if: {{{Link6|}}} | {{{Link6}}} | {{Wahldiagramm/Partei|{{{Partei6}}}|link|{{{Land}}}}}}}: {{{Sitze6}}} }}
+}}{{#if: {{{Partei7|}}} |
+ {{Farblegende|#{{{Farbe7}}}|{{#if: {{{Link7|}}} | {{{Link7}}} | {{Wahldiagramm/Partei|{{{Partei7}}}|link|{{{Land}}}}}}}: {{{Sitze7}}} }}
+}}{{#if: {{{Partei8|}}} |
+ {{Farblegende|#{{{Farbe8}}}|{{#if: {{{Link8|}}} | {{{Link8}}} | {{Wahldiagramm/Partei|{{{Partei8}}}|link|{{{Land}}}}}}}: {{{Sitze8}}} }}
+}}{{#if: {{{Partei9|}}} |
+ {{Farblegende|#{{{Farbe9}}}|{{#if: {{{Link9|}}} | {{{Link9}}} | {{Wahldiagramm/Partei|{{{Partei9}}}|link|{{{Land}}}}}}}: {{{Sitze9}}} }}
+}}{{#if: {{{Partei10|}}} |
+ {{Farblegende|#{{{Farbe10}}}|{{#if: {{{Link10|}}} | {{{Link10}}} | {{Wahldiagramm/Partei|{{{Partei10}}}|link|{{{Land}}}}}}}: {{{Sitze10}}} }}
+}}{{#if: {{{Partei11|}}} |
+ {{Farblegende|#{{{Farbe11}}}|{{#if: {{{Link11|}}} | {{{Link11}}} | {{Wahldiagramm/Partei|{{{Partei11}}}|link|{{{Land}}}}}}}: {{{Sitze11}}} }}
+}}{{#if: {{{Partei12|}}} |
+ {{Farblegende|#{{{Farbe12}}}|{{#if: {{{Link12|}}} | {{{Link12}}} | {{Wahldiagramm/Partei|{{{Partei12}}}|link|{{{Land}}}}}}}: {{{Sitze12}}} }}
+}}{{#if: {{{Partei13|}}} |
+ {{Farblegende|#{{{Farbe13}}}|{{#if: {{{Link13|}}} | {{{Link13}}} | {{Wahldiagramm/Partei|{{{Partei13}}}|link|{{{Land}}}}}}}: {{{Sitze13}}} }}
+}}{{#if: {{{Partei14|}}} |
+ {{Farblegende|#{{{Farbe14}}}|{{#if: {{{Link14|}}} | {{{Link14}}} | {{Wahldiagramm/Partei|{{{Partei14}}}|link|{{{Land}}}}}}}: {{{Sitze14}}} }}
+}}{{#if: {{{Partei15|}}} |
+ {{Farblegende|#{{{Farbe15}}}|{{#if: {{{Link15|}}} | {{{Link15}}} | {{Wahldiagramm/Partei|{{{Partei15}}}|link|{{{Land}}}}}}}: {{{Sitze15}}} }}
+}}{{#if: {{{Partei16|}}} |
+ {{Farblegende|#{{{Farbe16}}}|{{#if: {{{Link16|}}} | {{{Link16}}} | {{Wahldiagramm/Partei|{{{Partei16}}}|link|{{{Land}}}}}}}: {{{Sitze16}}} }}
+}}</ul>
+ }}
+}}
+{{{Anmerkung|}}}
+{{#if: {{{float|}}}
+ | </div>
+</div></div>
+ | {{#if: {{{Überschrift|}}}
+  | </dd></dl>
+ }}
+}}</includeonly></onlyinclude>
+{{Dokumentation/Unterseite|Vorlage:Sitzverteilung}}
