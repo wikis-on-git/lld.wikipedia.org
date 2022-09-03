@@ -1,0 +1,17 @@
+{{Tausendfach verwendet}}
+<onlyinclude><includeonly>{{#switch: {{{1|}}}
+ |Sonst.|Sonstige = {{#switch: {{{2|}}}|hell=dddddd|dunkel=aaaaaa|link=Sonst.}}
+ |Unabh.|Unabhängig = {{#switch: {{{2|}}}|hell=d2d2d2|dunkel=696969|link=[[Parteiloser|Unabh.]]}}
+ |#default= {{Wahldiagramm/Partei/{{#switch: {{{3|}}}
+   |AL |AM |AND |AT |AU |BA |BB |BD |BE |BG |BR |BT |BW |BY |CA |CH |CR |CY |CZ |DE |DK |EE |EG |ES |EU |FI |FO |FR |GE |GI |GL |GM |GR |HR |HU |IE |IL |IN |IS |IT |JM |JP |KG |KH |KI |KR |KZ |LI |LK |LT |LU |LV |LY |MC |MD |ME |MK |MT |NA |NI |NL |NO |NZ |PL |PT |RO |RS |RU |SE |SG |SI |SK |SL |SM |ST |TH |TN |TR |TW |UA |UK|GB |US |XK |ZA |ZM |ZW = {{{3}}}
+   |#default = ??
+  }}
+  |{{{1|}}}|{{{2|}}}
+ }}
+}}</includeonly></onlyinclude>
+{{Dokumentation/Unterseite}}
+{{Dokumentation/Unterseite|Vorlage:Wahlverlauf}}
+{{Dokumentation/Unterseite|Vorlage:Wahldifferenzen}}
+{{Dokumentation/Unterseite|Vorlage:Sitzverteilung}}
+{{Dokumentation/Unterseite|Vorlage:Partei}}
+{{Dokumentation}}
