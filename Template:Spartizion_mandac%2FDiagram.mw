@@ -1,68 +1,68 @@
 <includeonly><!--<div style="height:{{{dim1}}}; overflow:hidden; padding:{{{Rand}}}; background:white;">
 --><div style="
 {{#ifexpr:{{{Winkel1}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe1}}}|Caption={{{Caption1}}}|CapWin={{{CapWin1}}}|Winkel={{{Winkel1}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe1}}}|Caption={{{Caption1}}}|CapWin={{{CapWin1}}}|Winkel={{{Winkel1}}}}}
 }}
 {{#ifexpr:{{{Winkel2}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe2}}}|Caption={{{Caption2}}}|CapWin={{{CapWin2}}}|Winkel={{{Winkel2}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe2}}}|Caption={{{Caption2}}}|CapWin={{{CapWin2}}}|Winkel={{{Winkel2}}}}}
 }}
 {{#ifexpr:{{{Winkel3}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe3}}}|Caption={{{Caption3}}}|CapWin={{{CapWin3}}}|Winkel={{{Winkel3}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe3}}}|Caption={{{Caption3}}}|CapWin={{{CapWin3}}}|Winkel={{{Winkel3}}}}}
 }}
 {{#ifexpr:{{{Winkel4}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
 }}
 {{#ifexpr:{{{Winkel5}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
 }}
 {{#ifexpr:{{{Winkel6}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
 }}
 {{#ifexpr:{{{Winkel7}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
 }}
 {{#ifexpr:{{{Winkel8}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2=
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2=
 |dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe3}}}|Caption={{{Caption3}}}|CapWin={{{CapWin3}}}|Winkel={{{Winkel3}}}}}
 }}
 {{#ifexpr:{{{Winkel4}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe4}}}|Caption={{{Caption4}}}|CapWin={{{CapWin4}}}|Winkel={{{Winkel4}}}}}
 }}
 {{#ifexpr:{{{Winkel5}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe5}}}|Caption={{{Caption5}}}|CapWin={{{CapWin5}}}|Winkel={{{Winkel5}}}}}
 }}
 {{#ifexpr:{{{Winkel6}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe6}}}|Caption={{{Caption6}}}|CapWin={{{CapWin6}}}|Winkel={{{Winkel6}}}}}
 }}
 {{#ifexpr:{{{Winkel7}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe7}}}|Caption={{{Caption7}}}|CapWin={{{CapWin7}}}|Winkel={{{Winkel7}}}}}
 }}
 {{#ifexpr:{{{Winkel8}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe8}}}|Caption={{{Caption8}}}|CapWin={{{CapWin8}}}|Winkel={{{Winkel8}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe8}}}|Caption={{{Caption8}}}|CapWin={{{CapWin8}}}|Winkel={{{Winkel8}}}}}
 }}
 {{#ifexpr:{{{Winkel9}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe9}}}|Caption={{{Caption9}}}|CapWin={{{CapWin9}}}|Winkel={{{Winkel9}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe9}}}|Caption={{{Caption9}}}|CapWin={{{CapWin9}}}|Winkel={{{Winkel9}}}}}
 }}
 {{#ifexpr:{{{Winkel10}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe10}}}|Caption={{{Caption10}}}|CapWin={{{CapWin10}}}|Winkel={{{Winkel10}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe10}}}|Caption={{{Caption10}}}|CapWin={{{CapWin10}}}|Winkel={{{Winkel10}}}}}
 }}
 {{#ifexpr:{{{Winkel11}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe11}}}|Caption={{{Caption11}}}|CapWin={{{CapWin11}}}|Winkel={{{Winkel11}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe11}}}|Caption={{{Caption11}}}|CapWin={{{CapWin11}}}|Winkel={{{Winkel11}}}}}
 }}
 {{#ifexpr:{{{Winkel12}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe12}}}|Caption={{{Caption12}}}|CapWin={{{CapWin12}}}|Winkel={{{Winkel12}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe12}}}|Caption={{{Caption12}}}|CapWin={{{CapWin12}}}|Winkel={{{Winkel12}}}}}
 }}
 {{#ifexpr:{{{Winkel13}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe13}}}|Caption={{{Caption13}}}|CapWin={{{CapWin13}}}|Winkel={{{Winkel13}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe13}}}|Caption={{{Caption13}}}|CapWin={{{CapWin13}}}|Winkel={{{Winkel13}}}}}
 }}
 {{#ifexpr:{{{Winkel14}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe14}}}|Caption={{{Caption14}}}|CapWin={{{CapWin14}}}|Winkel={{{Winkel14}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe14}}}|Caption={{{Caption14}}}|CapWin={{{CapWin14}}}|Winkel={{{Winkel14}}}}}
 }}
 {{#ifexpr:{{{Winkel15}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe15}}}|Caption={{{Caption15}}}|CapWin={{{CapWin15}}}|Winkel={{{Winkel15}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe15}}}|Caption={{{Caption15}}}|CapWin={{{CapWin15}}}|Winkel={{{Winkel15}}}}}
 }}
 {{#ifexpr:{{{Winkel16}}} |
-{{Sitzverteilung/Diagramm/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe16}}}|Caption={{{Caption16}}}|CapWin={{{CapWin16}}}|Winkel={{{Winkel16}}}}}
+{{Spartizion mandac/Diagram/Element|dim1={{{dim1}}}|dim2={{{dim2}}}|Farbe={{{Farbe16}}}|Caption={{{Caption16}}}|CapWin={{{CapWin16}}}|Winkel={{{Winkel16}}}}}
 }}<!--
   innerstes Element, weiß: wird von nicht transform-fähigen Browsern angezeigt
 -->width:{{{dim2}}}; height:{{{dim1}}};
