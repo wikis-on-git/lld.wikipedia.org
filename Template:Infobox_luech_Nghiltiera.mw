@@ -45,7 +45,7 @@
 {{!}}-  }}
 {{#if:{{{Plata internet|}}}  | 
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Plata internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} [http://{{{Plata internet}}} {{{Plata internet}}}]  |  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Plata internet'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{url|{{{Plata internet}}}}} |  
 {{!}}-  }}
 |-
 !colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
