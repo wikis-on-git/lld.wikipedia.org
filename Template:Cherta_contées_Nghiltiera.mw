@@ -103,11 +103,11 @@
  |#default={{Image label small|x=.732|y=.867|scale={{{width|515}}}|text=[[{{{ns|}}}{{{Londonprefix|{{{prefix|}}}}}} {{{hash|}}}London {{{suffix|}}}|Greater<br />London]]}}
 }}
 {{#switch:{{{showcity|auto}}}
- |yes = {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Not shown: [[{{{ns|}}}{{{CityPrefix|{{#if: {{{prefix|}}} | {{{prefix|}}} the |}}}}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
+ |yes = {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Nia da udëi: [[{{{ns|}}}{{{CityPrefix|{{#if: {{{prefix|}}} | {{{prefix|}}} the |}}}}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
  |no =
  |auto
  |#default={{#ifexist: {{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}City of London {{{suffix|}}}
-             | {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Not shown: [[{{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
+             | {{Image label small|x=.02 |y=1.20|scale={{{width|515}}}|text=Nia da udëi: [[{{{ns|}}}{{#if: {{{prefix|}}} | {{{prefix|}}} the |}} {{{hash|}}}City of London {{{suffix|}}}|City of London]]}}
              |
            }} 
 }}
