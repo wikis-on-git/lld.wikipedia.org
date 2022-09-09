@@ -1,0 +1,18 @@
+<includeonly>{{#if:{{{gr|}}}|<templatestyles src="Utënt/styles.css" />}}<span class="utent-username">{{#if:{{IP?|{{{1}}}}}|{{{1}}}|[[Utente:{{{1}}}|{{ #if: {{{offensivo|}}} |<s>nome rimosso</s>|{{{1}}}}}]]}}</span> ([[Discussioni utente:{{{1}}}|discussioni]]<!-- switch parametro 0/tutto
+-->{{#switch:{{{2}}}
+|0
+|discussioni=)
+|tutto={{,}}[[Speciale:Contributi/{{#if:{{IP?|{{{1|}}}|ipv6}}|{{uc:{{{1|}}}}}|{{{1|}}}}}|contributi]]{{#invoke:string|arraytostring
+ |par1=$index
+ |msg=\{\{Utente/Link{{!}}{{{1}}}{{!}}$1{{!}}{{IP?|{{{1}}}}}\}\}
+ |nobbligatori=16
+ }})
+|#default={{,}}[[Speciale:Contributi/{{#if:{{IP?|{{{1|}}}|ipv6}}|{{uc:{{{1|}}}}}|{{{1|}}}}}|contributi]]{{#invoke:string|arraytostring
+ |par1=#
+ |msg=\{\{Utente/Link{{!}}{{{1}}}{{!}}$1{{!}}{{IP?|{{{1}}}}}\}\}
+ }})
+}}</includeonly><noinclude>
+{{man}}
+
+[[Categoria:Template di servizio utenti]]
+</noinclude>
