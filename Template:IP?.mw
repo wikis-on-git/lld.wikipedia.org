@@ -1,0 +1,5 @@
+<includeonly>{{safesubst:#if:{{safesubst:#invoke:IP validator|is_{{safesubst:#if:{{{2|{{{protocollo|}}}}}}|{{safesubst:lc:{{{2|{{{protocollo}}}}}}}}|ip}}|{{{1|}}}}}|{{{1}}}|{{{3|{{{nomatch|}}}}}}}}</includeonly><noinclude>
+{{man}}
+
+[[Categoria:Template per la manipolazione delle stringhe]]
+</noinclude>
