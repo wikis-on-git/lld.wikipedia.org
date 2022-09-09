@@ -1,0 +1,46 @@
+{{#switch:{{{2}}}
+|1
+|cancellati= {{,}}[[Speciale:ContributiCancellati/{{{1}}}{{!}}cancellati]]
+|2
+|email= {{#if:{{{3|}}}||{{,}}[[Speciale:InviaEmail/{{{1}}}{{!}}email]]}}
+|3
+|spostamenti= {{#if:{{{3|}}}||{{,}}[[Speciale:Registri/move/{{{1}}}{{!}}spostamenti]]}}
+|4
+|blocca= {{,}}[[Speciale:Blocca/{{{1}}}{{!}}blocca]]
+|5
+|blocchi= {{,}}<span class="plainlinks">[//it.wikipedia.org/w/index.php?title=Speciale:Registri&type=block&page=Utente:{{urlencode:{{{1}}}}} blocchi]</span>
+|6
+|globali= {{,}}[//tools.wmflabs.org/guc/?user={{urlencode:{{{1}}}}} modifiche globali]
+|7
+|sock= {{,}}[[Wikipedia:Utenti problematici/{{{1}}}/SP{{!}}sockpuppet]]
+|8
+|conteggio= {{,}}[//xtools.wmflabs.org/ec/it.wikipedia.org/{{urlencode:{{{1}}}|WIKI}} numero di modifiche]
+|9
+|log
+|registri= {{,}}[[Speciale:Registri/{{{1}}}{{!}}registri]]
+|10
+|sesso= {{#if:{{{3|}}}||{{,}}sesso: {{GENDER:{{{1}}}|M|F|''non specificato''}}}}
+|11
+|problematici= {{,}}[[Wikipedia:Utenti problematici/{{{1}}}{{!}}problematici]]
+|12
+|cupositivi= {{,}}[[Wikipedia:Check user/Richieste/Archivio/Utenti/{{{1}}}{{!}}CU positivi]]
+|13
+|cu= {{,}}[[Speciale:CU/{{{1}}}|CU]]
+|14
+|whois= {{#if:{{{3|}}}|{{,}}[https://whois.domaintools.com/{{{1}}} whois]}}
+|15
+|sul= {{#if:{{{3|}}}||{{,}}[[Speciale:UtenzaGlobale/{{{1}}}|utenza globale]]}}
+|16
+|abuselog = {{,}}<span class="plainlinks">[//it.wikipedia.org/wiki/Speciale:RegistroAbusi?wpSearchUser={{urlencode:{{{1}}}}} abuselog]</span>
+|17
+|oggetto = {{,}}<span class="plainlinks">[//xtools.wmflabs.org/editsummary/it.wikipedia.org/{{urlencode:{{{1}}}|WIKI}}/0 campo oggetto]</span>
+}}<noinclude>
+
+Sottopagina che crea un singolo link, allo scopo di non ripetere molte volte lo stesso codice.
+Parametri:
+#nome utente
+#numero/codice della funzione
+#non nullo se è un IP
+
+[[Categoria:Template di servizio]]
+</noinclude>
