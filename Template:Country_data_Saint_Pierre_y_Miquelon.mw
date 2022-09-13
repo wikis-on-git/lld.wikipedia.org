@@ -1,0 +1,14 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Saint Pierre y Miquelon
+| flag alias = Flag of France.svg
+| flag alias-local = Flag of Saint-Pierre and Miquelon.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = local
+| redir1 = SPM
+| redir2 = Saint-Pierre and Miquelon
+</noinclude>
+}}
