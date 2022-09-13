@@ -1,0 +1,27 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Ijules Falkland
+| flag alias = Flag of the Falkland Islands.svg
+| flag alias-1876 = Flag of the Falkland Islands (1876–1925).svg
+| flag alias-1925 = Flag of the Falkland Islands (1925–1948).svg
+| flag alias-1948 = Flag of the Falkland Islands (1948–1999).svg
+| flag alias-Ensign = Civil Ensign of the Falkland Islands.svg
+| flag alias-Ensign-1948 = Civil Ensign of the Falkland Islands (arms within disk).svg
+| flag alias-Governor = Flag of the Governor of the Falkland Islands.svg
+| link alias-cricket = Falkland Islands cricket team
+| link alias-football = Falkland Islands official football team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+<noinclude>
+| var1 = 1876
+| var2 = 1925
+| var3 = 1948
+| var4 = Ensign
+| var5 = Ensign-1948
+| var6 = Governor
+| redir1 = FLK
+[[Category:Falkland Islands templates]]
+</noinclude>
+}}
