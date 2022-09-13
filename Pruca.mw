@@ -52,7 +52,7 @@ Colors=
  id:sfondo value:rgb(1,1,1)
  id:barra value:rgb(0.6,0.7,0.8)
 
-ImageSize = width:455 height:303
+ImageSize = width:555 height:403
 PlotArea = left:50 bottom:50 top:30 right:30
 DateFormat = x.y
 Period = from:0 till:500
@@ -88,15 +88,15 @@ PlotData=
 
 PlotData=
 
- bar:1921 at:193 fontsize:XS text: 193 shift:(-8,5)
- bar:1931 at:245 fontsize:XS text: 245 shift:(-8,5)
- bar:1936 at:230 fontsize:XS text: 230 shift:(-8,5)
- bar:1951 at:257 fontsize:XS text: 257 shift:(-8,5)
- bar:1961 at:285 fontsize:XS text: 285 shift:(-8,5)
- bar:1971 at:257 fontsize:XS text: 257 shift:(-8,5)
- bar:1981 at:212 fontsize:XS text: 212 shift:(-8,5)
- bar:1991 at:210 fontsize:XS text: 210 shift:(-8,5)
- bar:2001 at:181 fontsize:XS text: 181 shift:(-8,5)
+ bar:1921 at:193 fontsize:S text: 193 shift:(-8,5)
+ bar:1931 at:245 fontsize:S text: 245 shift:(-8,5)
+ bar:1936 at:230 fontsize:S text: 230 shift:(-8,5)
+ bar:1951 at:257 fontsize:S text: 257 shift:(-8,5)
+ bar:1961 at:285 fontsize:S text: 285 shift:(-8,5)
+ bar:1971 at:257 fontsize:S text: 257 shift:(-8,5)
+ bar:1981 at:212 fontsize:S text: 212 shift:(-8,5)
+ bar:1991 at:210 fontsize:S text: 210 shift:(-8,5)
+ bar:2001 at:181 fontsize:S text: 181 shift:(-8,5)
 
 TextData=
  fontsize:S pos:(20,20)
