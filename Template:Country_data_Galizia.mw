@@ -1,0 +1,13 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Galizia (Spania)
+| shortname alias = Galizia
+| flag alias = Flag of Galicia.svg
+| flag alias-civil = Bandeira galega civil.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+| altlink = {{{altlink|}}}
+<noinclude>
+| var1 = civil
+</noinclude>
+}}
