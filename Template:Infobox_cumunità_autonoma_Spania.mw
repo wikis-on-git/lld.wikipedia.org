@@ -1,7 +1,7 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
-!colspan="2" bgcolor="#E3E3E3" | {{#if:{{{Inuem natif|}}}|{{#if: {{{Inuem natif|}}} = " "|''{{{Inuem natif|}}}''|}}|}}
+|colspan="2" bgcolor="#E3E3E3" align="center" style="font-size:110%" | {{#if:{{{Inuem natif|}}}|{{#if: {{{Inuem natif|}}} = " "|{{{Inuem natif|}}}|}}|}}
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
@@ -54,7 +54,7 @@
 <noinclude>
 {{Infobox cumunità autonoma Spania
 |Inuem                = Andalusia
-|Inuem natif          = Andalucía ([[spanuel]])
+|Inuem natif          = ''Andalucía'' ([[spanuel]])
 |Soget aministratif  = [[Cumuniteies autonomes de la Spania|cumunità autonoma]]
 |Blason               = Escudo de Andalucía.svg
 |Bandiera             = Flag_of_Andalucía.svg
