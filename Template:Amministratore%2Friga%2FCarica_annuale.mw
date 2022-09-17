@@ -1,0 +1,14 @@
+<noinclude>{{Amministratore/inizio}}</noinclude>
+|- valign=top {{#if: {{{7|}}}|bgcolor=#FFFFDD|}}
+|[[Utente:{{{1}}}|{{#if: {{{2|}}}|{{{2}}}|{{{1}}} }}]] 
+|<span style="font-size:90%">[[Discussioni utente:{{{1}}}|discussione]] [[Speciale:InviaEMail/{{{1|}}}|@]] [[Speciale:Contributi/{{{1}}}|C]] - [https://tools.wmflabs.org/supercount/index.php?user={{urlencode:{{{1}}}}}&project=lld.wikipedia EC1] [https://tools.wmflabs.org/xtools-ec/?user={{urlencode:{{{1}}}}}&project=lld.wikipedia.org 2] [{{fullurl:Speciale:Registri|user={{urlencode:{{{1}}}}}}} LOG]</span>
+|{{#if: {{{3|}}}|<span style="font-size:90%">{{{3}}}</span>|}}
+|<includeonly><span style="display:none">{{#time:Y m d|{{{4}}} }}</span>{{#time:j F Y|{{{4}}} }}</includeonly>
+|{{#if: {{{5|}}}|<span style="display:none">{{#time:Y m d|{{{5}}} }}</span>{{#time:j F Y|{{{5}}} }}|&nbsp;}}
+|<includeonly>{{#ifeq:{{#expr: {{#invoke:Data|compare|data1={{{6}}}|data2={{LOCALTIMESTAMP}}}} <= 0 }}|1|{{#ifeq:{{#expr: {{#invoke:Data|compare|data1={{{6}}}|data2={{#time:Ymd|-3 week}}}} >= 0 }}|1|bgcolor=#FFDDDD{{!}}|}}|}}<span style="display:none">{{#time:Y m d|{{{6}}}}}</span>{{#time:j F Y|{{{6}}}}}</includeonly>
+||<noinclude>
+|}
+
+[[Categoria:Template di servizio utenti]]
+[[Categoria:Template pagine specifiche]]
+</noinclude>
