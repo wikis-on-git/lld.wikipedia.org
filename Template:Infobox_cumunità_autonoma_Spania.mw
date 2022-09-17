@@ -5,7 +5,7 @@
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
-|align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inuem}}}]]|}}|}}
+|align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|80px|center|Blason de {{{Inuem}}}]]|}}|}}
 |align="center" | {{#if:{{{Bandiera|}}}|{{#if: {{{Bandiera|}}} = " "|[[File:{{{Bandiera|}}}|150px|center|Bandiera de {{{Inuem}}}]]|}}|}}
 |-
 | colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1"| [[File:{{{Foto}}}|300px|border|center]]
