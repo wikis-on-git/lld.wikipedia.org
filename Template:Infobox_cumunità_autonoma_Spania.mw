@@ -16,7 +16,7 @@
 |-
 !colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
 |-valign="top"
-|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{FRA}}
+|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{Flag|Spania}}
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
@@ -45,25 +45,30 @@
 |style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
 |- valign="top"
 |-
+{{#if:{{{Plata internet|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Plata internet''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}}  {{url|{{{Plata internet}}}}}
+| }}
 |}</includeonly>
 
 <noinclude>
 {{Infobox cumunità autonoma Spania
-|Inuem                = Provënza-Elpes-Costa Bruma
-|Inuem natif          = Provence-Alpes-Côte d'Azur
-|Soget aministratif        = [[Region de la Franzia]]
-|Blason               = Arms_of_the_French_Region_of_Provence-Alpes-Côte_d'Azur.svg
-|Bandiera             = Flag_of_Provence-Alpes-Côte_d'Azur.svg
-|Capitela             = {{Blason|Marseille}}
-|Seuraspersa          = 31400
-|Abitanc              = 5081101
-|Data abitanc         = jené 2019
-|Prudot Regiunel Brutto = 124   <!-- valor te miliarc -->
-|Ann PRB               = 2012
+|Inuem                = Andalusia
+|Inuem natif          = Andalucía ([[spanuel]])
+|Soget aministratif  = [[Cumuniteies autonomes de la Spania|cumunità autonoma]]
+|Blason               = Escudo de Andalucía.svg
+|Bandiera             = Flag_of_Andalucía.svg
+|Capitela             = {{Blason|Sevilla}}
+|Seuraspersa          = 87268
+|Abitanc              = 8388107
+|Data abitanc         = 2016
+|Prudot Regiunel Brutto = 110.9   <!-- valor te miliarc -->
+|Ann PRB               = 2019
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
-|Cherta               = Provence-Alpes-Côte d'Azur region locator map2.svg
-|Foto                 = Menton-Côte_d'Azur.jpg
-|Descrizion foto      = Ududa de [[Menton]]
+|Cherta               = Andalucia_in_Spain_(including_Canarias)_(special_marker).svg
+|Foto                 = Río_Guadalquivir_Cordoba.jpg
+|Descrizion foto      = L [[Guadalquivir]] che passa tres [[Córdoba]].
+|Plata internet = www.juntadeandalucia.es
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
