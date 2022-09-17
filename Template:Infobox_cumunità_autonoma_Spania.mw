@@ -35,6 +35,15 @@
 |style="width:140px;font-size:90%"| '''PRB a persona''' || style="width:170px;font-size:90%" |€ {{formatnum:{{#expr: ({{{Prudot Regiunel Brutto}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
 |- valign="top" 
 |-
+!colspan="2" bgcolor="#E3E3E3" | Pulitica
+|-
+|style="width:140px;font-size:90%"| '''Legislatura''' || style="width:170px;font-size:90%" | [[{{{Legislatura}}}]]
+|- valign="top"
+|colspan="2" style="width:140px;font-size:90%"| '''Reprejentanza tl [[parlamënt de la Spania]]'''
+|-
+|style="width:140px;font-size:90%"| Sëntes tl Cungres<br>Sëntes tl Senat|| style="width:170px;font-size:90%" | {{{sëntes cungres}}}<br>{{{sëntes senat}}}
+|- valign="top" 
+|-
 !colspan="2" bgcolor="#E3E3E3" | Auter
 |-
 {{#if:{{{Fundazion|}}} |    
@@ -64,6 +73,9 @@
 |Data abitanc         = 2016
 |Prudot Regiunel Brutto = 110.9   <!-- valor te miliarc -->
 |Ann PRB               = 2019
+|Legislatura           = Parlamënt de l'Andalusia
+|sëntes cungres        = 61 de 350 (17,4%)
+|sëntes senat         = 41 de 265 (15,5%)
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
 |Cherta               = Andalucia_in_Spain_(including_Canarias)_(special_marker).svg
 |Foto                 = Río_Guadalquivir_Cordoba.jpg
