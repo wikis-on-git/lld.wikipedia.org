@@ -248,8 +248,8 @@
 === Ziteies autonomes ===
 {| style="clear:both" class="sortable wikitable"
 |- style="background:#bbb"
- ! class="unsortable" style="width:50px" | Flag
- ! class="unsortable" style="width:50px" | Coat of arms
+ ! class="unsortable" style="width:50px" | Bandiera
+ ! class="unsortable" style="width:50px" | Blason
  ! Zità autonoma
  ! Ambolt-Presidënt
  ! Legislatura
@@ -261,7 +261,7 @@
  ! [[Prudot intern brutto|PIB]] a persona ([[Euro]])
 |- style="background:#eee"
  | align="center" | {{Flagdeco|Ceuta|size=75px|text=none}}
- | {{Coat of arms|Ceuta|size=50px|text=none}}
+ | {{Blason|Ceuta|size=50px|text=none}}
  | [[Ceuta]]
  | [[Juan Jesús Vivas]] ([[People's Party (Spain)|PP]])
  | [[Assembly of Ceuta]]
@@ -273,7 +273,7 @@
  | align="right" | {{formatnum:19335}}
 |- style="background:#ddd"
  | align="center" | {{Flagdeco|Melilla|size=75px|text=none}}
- | {{Coat of arms|Melilla|size=50px|text=none}}
+ | {{Blason|Melilla|size=50px|text=none}}
  | [[Melilla]]
  | [[Eduardo de Castro]] ([[Independent politician|Independent]])
  | [[Assembly of Melilla]]
