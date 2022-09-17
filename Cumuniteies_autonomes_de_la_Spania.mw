@@ -24,10 +24,10 @@
  | [[Parliament of Andalusia]]
  | [[People's Party (Spain)|PP]]
  | 41 (9 RA, 32 DE)
- | align="right" | 87,268
- | align="right" | 8,464,411
+ | align="right" | {{formatnum:87,268}}
+ | align="right" | {{formatnum:8,464,411}}
  | align="right" | 96
- | align="center" | 19,107
+ | align="center" | {{formatnum:19,107}}
  | Nationality
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Aragon|size=75px|text=none}}
@@ -37,10 +37,10 @@
  | [[Aragonese Corts]]
  | [[Spanish Socialist Workers' Party|PSOE]], [[Podemos (Spanish political party)|Podemos]], [[Chunta Aragonesista|CHA]], [[Aragonese Party|PAR]]
  | 14 (2 RA, 12 DE)
- | align="right" | 47,719
- | style="text-align:right" | 1,329,391
+ | align="right" | {{formatnum:47,719}}
+ | style="text-align:right" | {{formatnum:1,329,391}}
  | align="right" | 28
- | align="center" | 28,151
+ | align="center" | {{formatnum:28,151}}
  | Nationality
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Asturies|size=75px|text=none}}
@@ -50,10 +50,10 @@
  | [[General Junta of the Principality of Asturias]]
  | [[Spanish Socialist Workers' Party|PSOE]]
  | 6 (2 RA, 4 DE)
- | align="right" | 10,604
- | style="text-align:right" | 1,018,784
+ | align="right" | {{formatnum:10,604}}
+ | style="text-align:right" | {{formatnum:1,018,784}}
  | align="right" | 96
- | align="center" | 22,789
+ | align="center" | {{formatnum:22,789}}
  | Historical community
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Ijules Baleariches|size=75px|text=none}}
@@ -63,10 +63,10 @@
  | [[Parlamënt de l'Ijules Baleariches]]
  | [[Spanish Socialist Workers' Party|PSOE]], [[Unidas Podemos|Podemos-EUIB]], [[Més per Mallorca|Més]]
  | 7 (2 RA, 5 DE)
- | align="right" | 4,992
- | style="text-align:right" | 1,171,543
+ | align="right" | {{formatnum:4,992}}
+ | style="text-align:right" | {{formatnum:1,171,543}}
  | align="right" | 230
- | align="center" | 27,682
+ | align="center" | {{formatnum:27,682}}
  | Nationality
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Paesc Basch|size=75px|text=none}}
@@ -76,10 +76,10 @@
  | [[Parlamënt Basch]]
  | [[Basque Nationalist Party|PNV]], [[Spanish Socialist Workers' Party|PSOE]]
  | 15 (3 RA, 12 DE)
- | align="right" | 7,234
- | style="text-align:right" | 2,220,504
+ | align="right" | {{formatnum:7,234}}
+ | style="text-align:right" | {{formatnum:2,220,504}}
  | align="right" | 305
- | align="center" | 33,223
+ | align="center" | {{formatnum:33,223}}
  | Nationality
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Ijules Canaries|size=75px|text=none}}
@@ -91,10 +91,10 @@
  | [[Parliament of the Canary Islands]]
  | [[Spanish Socialist Workers' Party|PSOE]], [[New Canaries|NCa]], [[Podemos (Spanish political party)|Podemos]], [[Gomera Socialist Group|ASG]]
  | 14 (3 RA, 11 DE)
- | align="right" | 7,447
- | style="text-align:right" | 2,175,952
+ | align="right" | {{formatnum:7,447}}
+ | style="text-align:right" | {{formatnum:2,175,952}}
  | align="right" | 289
- | align="center" | 20,892
+ | align="center" | {{formatnum:20,892}}
  | Nationality
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Cantabria|size=75px|text=none}}
@@ -104,10 +104,10 @@
  | [[Parliament of Cantabria]]
  | [[Regionalist Party of Cantabria|PRC]], [[Spanish Socialist Workers' Party|PSOE]]
  | 5 (1 RA, 4 DE)
- | align="right" | 5,321
- | style="text-align:right" | 582,905
+ | align="right" | {{formatnum:5,321}}
+ | style="text-align:right" | {{formatnum:582,905}}
  | align="right" | 109
- | align="center" | 23,757
+ | align="center" | {{formatnum:23,757}}
  | Historical community
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Castilia y León|size=75px|text=none}}
@@ -117,10 +117,10 @@
  | [[Cortes of Castilia y León]]
  | [[People's Party (Spain)|PP]], [[Vox (political party)|Vox]]
  | 39 (3 RA, 36 DE)
- | align="right" | 94,223
- | style="text-align:right" | 2,394,918
+ | align="right" | {{formatnum:94,223}}
+ | style="text-align:right" | {{formatnum:2,394,918}}
  | align="right" | 25
- | align="center" | 24,031
+ | align="center" | {{formatnum:24,031}}
  | Historical community
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Castilia-La Mancha|size=75px|text=none}}
@@ -130,10 +130,10 @@
  | [[Cortes of Castilla–La Mancha]]
  | [[Spanish Socialist Workers' Party|PSOE]]
  | 23 (3 RA, 20 DE)
- | align="right" | 79,463
- | style="text-align:right" | 2,045,221
+ | align="right" | {{formatnum:79,463}}
+ | style="text-align:right" | {{formatnum:2,045,221}}
  | align="right" | 26
- | align="center" | 20,363
+ | align="center" | {{formatnum:20,363}}
  | Region
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Catalonia|size=75px|text=none}}
@@ -143,10 +143,10 @@
  | [[Parliament of Catalonia]]
  | [[Republican Left of Catalonia|ERC]], [[Together for Catalonia (2020)|Junts]]
  | 24 (8 RA, 16 DE)
- | align="right" | 32,114
- | style="text-align:right" | 7,780,479
+ | align="right" | {{formatnum:32,114}}
+ | style="text-align:right" | {{formatnum:7,780,479}}
  | align="right" | 239
- | align="center" | 30,426
+ | align="center" | {{formatnum:30,426}}
  | Nationality
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Cumunità de Madrid|size=75px|text=none}}
@@ -156,10 +156,10 @@
  | [[Senteda de Madrid]]
  | [[People's Party (Spain)|PP]]
  | 11 (7 RA, 4 DE)
- | align="right" | 8,028
- | style="text-align:right" | 6,779,888
+ | align="right" | {{formatnum:8,028}}
+ | style="text-align:right" | {{formatnum:6,779,888}}
  | align="right" | 830
- | align="center" | 35,041
+ | align="center" | {{formatnum:35,041}}
  | Region
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Extremadura|size=75px|text=none}}
@@ -169,10 +169,10 @@
  | [[Senteda de Extremadura]]
  | [[Spanish Socialist Workers' Party|PSOE]]
  | 10 (2 RA, 8 DE)
- | align="right" | 41,634
- | style="text-align:right" | 1,063,987
+ | align="right" | {{formatnum:41,634}}
+ | style="text-align:right" | {{formatnum:1,063,987}}
  | align="right" | 26
- | align="center" | 18,469
+ | align="center" | {{formatnum:18,469}}
  | Region
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Galizia|size=75px|text=none}}
@@ -182,10 +182,10 @@
  | [[Parliament of Galicia]]
  | [[People's Party (Spain)|PP]]
  | 19 (3 RA, 16 DE)
- | align="right" | 29,574
- | style="text-align:right" | 2,701,819
+ | align="right" | {{formatnum:29,574}}
+ | style="text-align:right" | {{formatnum:2,701,819}}
  | align="right" | 91
- | align="center" | 23,183
+ | align="center" | {{formatnum:23,183}}
  | Nationality
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|La Rioja (Spania)|size=75px|text=none}}
@@ -195,10 +195,10 @@
  | [[Parliament of La Rioja]]
  | [[Spanish Socialist Workers' Party|PSOE]], [[Podemos (Spanish political party)|Podemos]]
  | 5 (1 RA, 4 DE)
- | align="right" | 5,045
- | style="text-align:right" | 319,914
+ | align="right" | {{formatnum:5,045}}
+ | style="text-align:right" | {{formatnum:319,914}}
  | align="right" | 63
- | align="center" | 27,225
+ | align="center" | {{formatnum:27,225}}
  | Region
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Navarra|size=75px|text=none}}
@@ -208,10 +208,10 @@
  | [[Parliament of Navarre]]
  | [[Socialist Party of Navarre|PSN]], [[Geroa Bai|GBai]], [[Podemos (Spanish political party)|Podemos]]
  | 5 (1 RA, 4 DE)
- | align="right" | 10,391
- | style="text-align:right" | 661,197
+ | align="right" | {{formatnum:10,391}}
+ | style="text-align:right" | {{formatnum:661,197}}
  | align="right" | 63
- | align="center" | 31,389
+ | align="center" | {{formatnum:31,389}}
  | Nationality
 |- style="background: #ddd"
  | align="center" | {{Flagdeco|Region de Murcia|size=75px|text=none}}
@@ -221,10 +221,10 @@
  | [[Regional Assembly of Murcia]]
  | [[People's Party (Spain)|PP]], [[Independent politician|Independent]]
  | 6 (2 RA, 4 DE)
- | align="right" | 11,313
- | style="text-align:right" | 1,511,251
+ | align="right" | {{formatnum:11,313}}
+ | style="text-align:right" | {{formatnum:1,511,251}}
  | align="right" | 132
- | align="center" | 21,269
+ | align="center" | {{formatnum:21,269}}
  | Region
 |- style="background: #eee"
  | align="center" | {{Flagdeco|Cumunità Valenciana|size=75px|text=none}}
@@ -234,10 +234,10 @@
  | [[Corts Valencianes|Valencian Cortes]]
  | [[Spanish Socialist Workers' Party|PSOE]], [[Coalició Compromís|Compromís]], [[Unidas Podemos|Unides Podem]]
  | 17 (5 RA, 12 DE)
- | align="right" | 23,255
- | style="text-align:right" | 5,057,353
+ | align="right" | {{formatnum:23,255}}
+ | style="text-align:right" | {{formatnum:5,057,353}}
  | align="right" | 215
- | align="center" | 22,426
+ | align="center" | {{formatnum:22,426}}
  | Nationality
 |}
 
