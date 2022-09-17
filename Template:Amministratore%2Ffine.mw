@@ -1,0 +1,21 @@
+|}
+
+<div style="font-size:90%">
+{{Colonne}}
+Legenda - colonna contatti/info
+*discussione = collegamento alla pagina di discussione dell'utente
+*@ = collegamento alla funzione "invia email" 
+*C = collegamento alla lista degli ultimi contributi dell'utente
+*EC = collegamento alle pagine statistiche dell'''edit counter'' per l'utente
+*LOG = collegamento al registro delle azioni da amministratore (sysop log) dell'utente
+{{Colonne spezza}}
+terza colonna
+*B = burocrate
+*C = check user
+*I = amministratore dell'interfaccia
+*S = steward
+{{Colonne fine}}
+</div>
+<noinclude>
+[[Categoria:Template di servizio utenti|Amministratori]]
+[[Categoria:Template pagine specifiche]]</noinclude>
