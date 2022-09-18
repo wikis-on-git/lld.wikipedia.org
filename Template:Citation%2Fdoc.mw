@@ -1,0 +1,2317 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]).
+ -->
+{{for2|the{{nbsp}} {{fake citation needed}} template|{{tl|citation needed}}}}
+{{#ifeq: {{PAGENAME}}|{{ROOTPAGENAME}}|{{Cascade-protected template}}}}
+{{#ifeq: {{PAGENAME}}|{{ROOTPAGENAME}}|{{High-risk|189000+}}}}
+{{csdoc|lua|lua=yes}}
+The '''Citation''' template generates a citation for a book, periodical, contribution in a collective work, or a web page. It determines the citation type by examining which parameters are used. As with other citation templates, this template can be used either in a footnote (between {{tag|ref}} tags) or in a section that lists sources. This template uses the same [[WP:Lua|Lua]] code as [[help:Citation Style 1|citation style 1 (CS1)]] templates with parameters to change the displayed format to [[help:Citation Style 2|citation style 2 (CS2)]].
+
+If the correct parameters are used, this template produces output identical to that of the Cite templates, such as {{Tl|Cite book}} and {{Tl|Cite web}}, with one important exception: By default, this Citation template uses commas in places where the Cite templates use periods (full stops) by default; either type of template can use periods (full stops) or commas by using an optional parameter.
+
+Regardless of which citation templates are used or even if none are used at all, all citations should have the same format throughout an article in the saved, rendered text.
+
+Notes: 
+* All parameter names must be [[lowercase]]. 
+* Invisible unicode space characters (see [[Help:CS1 errors#invisible_char|list]]) will return an error message. Non-intentional invisible characters should be removed; intentional ones should be replaced with their corresponding HTML entity (e.g. <code>&amp;ZeroWidthSpace;</code>).
+
+==Simple citations==
+This section covers the most commonly used parameters. You can copy the horizontal form or vertical form below and then add in extra parameters from the full list. Spacing and ordering of the parameters within the template is irrelevant and does not affect the final, rendered text.
+
+<code><nowiki>{{Citation |last= |first= |year= |title= |publisher= |publication-place= |page= |url= |access-date=}}</nowiki></code>
+
+{| class="wikitable"
+|-
+| <pre>{{Citation
+| last        =
+| first       =
+| year        =
+| title       =
+| publisher   =
+| publication-place =
+| page        =
+| url         =
+| access-date =
+}}</pre>
+|}
+* '''last''': The author's surname or last name. Don't use with the '''author''' parameter.
+* '''first''': The author's first or given name(s).
+* '''year''': Year of authorship or publication. Mandatory for use with links from [[:Template:Harvard citation]], unless {{para|date}} specifies both month and year.
+* '''title''': Title of the work. Mandatory for web references.
+* '''publisher''': The name of the publisher. Omit terms such as ''Publishers'', ''Co.'', ''Inc.'', ''Ltd.'', etc., but retain the words ''Books'' or ''Press''. Not normally included where the publication is a periodical which has its own Wikipedia article (e.g. ''[[Newsweek]]'', ''[[Billboard (magazine)|Billboard]]'').
+** '''publication-place''' (or '''place''' or '''location'''): The city of publication. If more than one town/city is listed on the title page, give the first one or the location of the publisher's head office. Omit when the publication is a periodical whose name specifies the location (e.g. ''The New York Times'', ''The Times of India'')
+* '''page''': For use when one page is cited. Adds "p." before the page number. Do not use with '''pages'''.
+* '''url''': A [[Uniform resource locator|url]] of an online location where the item can be found. If the url includes double quotes, these must be encoded as "%22".
+** '''access-date''': Date<ref group="n" name="dates" /> when the url was accessed.
+
+===Example===
+{| class="wikitable"
+|-
+| <pre>{{Citation
+| last      = Turner
+| first     = Orsamus
+| title     = History of the pioneer settlement of
+Phelps and Gorham's purchase, and Morris' reserve
+| publisher = William Alling
+| place     = Rochester, New York
+| year      = 1851
+| ol        = 7120924W
+}}
+</pre>
+| {{Citation
+| last      = Turner
+| first     = Orsamus
+| title     = History of the pioneer settlement of Phelps and Gorham's purchase, and Morris' reserve
+| publisher = William Alling
+| place     = Rochester, New York
+| year      = 1851
+| ol        = 7120924W
+}}
+|}
+
+==Full citation parameters==
+{{notice|This section needs to be edited. It includes deprecated parameters and does not include parameters that were added in the updates.}}
+These can be used for all types of publication. All are optional and indentation is used simply to group related items&nbsp;— these may be mutually exclusive where indicated. Some hyphenated names can also be placed without hyphens.
+
+{| class="wikitable"
+|-
+| <pre>{{Citation
+| author  =
+| last    =
+| first   =
+| author2 =
+| last2   =
+| first2  =
+| author-link  =
+| author2-link =
+| author-separator =
+| author-name-separator =
+| author-mask =
+| editor        =
+| editor-last   =
+| editor-first  =
+| editor2       =
+| editor2-last  =
+| editor2-first =
+| editor-link   =
+| editor2-link  =
+| translator-last   =
+| translator-first  =
+| translator-link   = 
+| translator2-last  =
+| translator2-first =
+| translator2-link  =
+| others   =
+| publication-date =
+| date     =
+| year     =
+| orig-date =
+| title    =
+| chapter  =
+| chapter-url  =
+| chapter-format  =
+| contribution =
+| contribution-url =
+| type    =
+| journal =
+| periodical =
+| newspaper  =
+| magazine   =
+| encyclopedia =
+| work =
+| edition =
+| series  =
+| volume  =
+| issue   =
+| publisher =
+| publication-place =
+| place    =
+| language =
+| page  =
+| pages =
+| no-pp  =
+| at   =
+| id   =
+| isbn =
+| issn =
+| oclc =
+| pmid =
+| pmc  =
+| bibcode =
+| doi =
+| doi-inactive-date=
+| zbl =
+| url =
+| access-date  =
+| format       =
+| archive-url  =
+| archive-date =
+| url-status   =
+| quote      =
+| separator  =
+| postscript =
+| ref =
+}}
+</pre>
+|}
+
+==Parameters==
+===Syntax===
+{{csdoc|syntax|lua=yes}}
+
+{{csdoc|sep_comma|lua=yes}}
+
+===COinS===
+{{csdoc|coins|lua=yes}}
+
+===What's new===
+{{csdoc|whats new}}
+
+===Deprecated===
+{{csdoc|deprecated|lua=yes}}
+
+===Description===
+====Authors====
+{{csdoc|author|lua=yes||contributor=yes|others=yes}}
+
+====Editors====
+{{csdoc|editor|lua=yes}}
+
+====Title====
+{{csdoc|title|lua=yes|title_format=italics}}
+{{csdoc|chapter|lua=yes}}
+{{csdoc|type|lua=yes}}
+{{csdoc|language|lua=yes}}
+
+====Date====
+{{csdoc|date|lua=yes}}
+
+====Work====
+{{csdoc|journal|lua=yes}}
+
+====Publisher====
+{{csdoc|publisher|lua=yes}}
+
+====Edition, series, volume====
+{{csdoc|edition|lua=yes}}
+{{csdoc|series|lua=yes}}
+{{csdoc|volume|lua=yes}}
+
+====In-source locations====
+{{csdoc|pages|lua=yes}}
+
+====URL====
+{{anchor|url}}{{csdoc|url}}
+
+====Chapter URL====
+{{anchor|chapterurl}}{{csdoc|chapterurl|lua=yes}}
+
+====Anchor====
+{{csdoc|ref|lua=yes}}
+
+====Identifiers====
+{{anchor|id1}}{{csdoc|id1|lua=yes}}
+{{anchor|id2}}{{csdoc|id2|lua=yes}}
+
+====Quote====
+{{csdoc|quote|lua=yes|cs2=yes}}
+
+====Laysummary====
+{{csdoc|lay|lua=yes}}
+
+====Display options====
+{{csdoc|display|lua=yes|cs2=yes}}
+
+====Subscription or registration required====
+{{csdoc|registration|lua=yes}}
+
+==Examples==
+===Books===
+{| class="wikitable"
+|-
+| Three authors, a volume, and an edition. Ampersand (&amp;) forced before final author's name.
+| <pre>{{Citation
+| last1  = Lincoln
+| first1 = A.
+| last2  = Washington
+| first2 = G.
+| last3  = Adams
+| first3 = J.
+| name-list-style = amp
+| title     = All the Presidents' Names
+| publisher = The Pentagon
+| place     = Home Base, New York
+| volume  = XII
+| edition = 2nd
+| year    = 2007
+}}
+</pre>
+| {{Citation
+| last1  = Lincoln
+| first1 = A.
+| last2  = Washington
+| first2 = G.
+| last3  = Adams
+| first3 = J.
+| name-list-style = amp
+| title  = All the Presidents' Names
+| publisher = The Pentagon
+| place   = Home Base, New York
+| volume  = XII
+| edition = 2nd
+| year    = 2007
+}}
+|}
+
+===Web===
+{| class="wikitable"
+|-
+| Web page
+| <pre>{{Citation
+| url   = http://nrhp.focus.nps.gov/
+| title = NPS Focus
+| work  = National Register of Historic Places
+| publisher  = [[National Park Service]]
+| access-date = November 30, 2010
+| ref = none
+}}
+</pre>
+| {{Citation
+| url   = http://nrhp.focus.nps.gov/
+| title = NPS Focus
+| work  = National Register of Historic Places
+| publisher  = [[National Park Service]]
+| access-date = November 30, 2010
+| ref = none
+}}
+|-
+| Archived page
+| <pre>{{Citation
+| url = http://liftoff.msfc.nasa.gov/academy/space/atmosphere.html
+| title = Earth's Atmosphere
+| access-date = October 25, 2007
+| publisher  = [[National Aeronautics and Space Administration]]
+| year   = 1995
+| author = NASA
+| archive-url = https://web.archive.org/web/20071013232332/http://
+liftoff.msfc.nasa.gov/academy/space/atmosphere.html
+| archive-date = October 13, 2007
+}}
+</pre>
+| {{Citation | url = http://liftoff.msfc.nasa.gov/academy/space/atmosphere.html | title = Earth's Atmosphere | access-date = October 25, 2007 | publisher = [[National Aeronautics and Space Administration]] | year = 1995 | author = NASA | archive-url = https://web.archive.org/web/20071013232332/http://liftoff.msfc.nasa.gov/academy/space/atmosphere.html | archive-date = October 13, 2007}}
+|}
+
+===Journals, newspapers, magazines, or other periodicals===
+{| class="wikitable"
+|-
+| Journal article
+| <pre>{{Citation
+| last  = Hill
+| first = Marvin S.
+| title = Joseph Smith and the 1826
+Trial: New Evidence and New
+Difficulties
+| journal = BYU Studies
+| volume  = 12
+| issue   = 2
+| year    = 1976
+| pages   = 1–8
+| url     = https://byustudies.byu.edu/shop/PDFSRC/12.2Hill.pdf
+}}
+</pre>
+| {{Citation
+| last  = Hill
+| first = Marvin S.
+| title = Joseph Smith and the 1826 Trial: New Evidence and New Difficulties
+| journal = BYU Studies
+| volume  = 12
+| issue   = 2
+| year    = 1976
+| pages   = 1–8
+| url     = https://byustudies.byu.edu/shop/PDFSRC/12.2Hill.pdf
+}}
+|-
+| Journal article with multiple authors and identifier
+| <pre>{{Citation
+| last1  = Mandelkern
+| first1 = M
+| last2  = Elias
+| first2 = J
+| last3  = Eden
+| first3 = D
+| last4  = Crothers
+| first4 = D
+| display-authors = 2
+| title   = The dimensions of DNA in solution
+| journal = J Mol Biol
+| volume  = 152
+| issue = 1
+| pages = 153–161
+| year  = 1981
+| pmid  = 7338906
+| doi   = 10.1016/0022-2836(81)90099-1
+}}
+</pre>
+| {{Citation
+| last1  = Mandelkern
+| first1 = M
+| last2  = Elias
+| first2 = J
+| last3  = Eden
+| first3 = D
+| last4  = Crothers
+| first4 = D
+| display-authors = 2
+| title   = The dimensions of DNA in solution
+| journal = J Mol Biol
+| volume  = 152
+| issue = 1
+| pages = 153–161
+| year  = 1981
+| pmid  = 7338906
+| doi   = 10.1016/0022-2836(81)90099-1
+}}
+|-
+| Newspaper article
+| <pre>{{Citation
+| last  = Smith
+| first = Joseph III
+| author-link = Joseph Smith III
+| title = Last Testimony of Sister Emma
+| newspaper = The Saints' Herald
+| location = Plano, IL
+| volume = 26
+| issue  = 19
+| date   = October 1, 1879
+| page   = 289
+| url    = http://www.sidneyrigdon.com/dbroadhu/
+IL/sain1872.htm#100179
+}}
+</pre>
+| {{Citation
+| last  = Smith
+| first = Joseph III
+| author-link = Joseph Smith III
+| title = Last Testimony of Sister Emma
+| newspaper = The Saints' Herald
+| location = Plano, IL
+| volume = 26
+| issue  = 19
+| date   = October 1, 1879
+| page   = 289
+| url    = http://www.sidneyrigdon.com/dbroadhu/IL/sain1872.htm#100179
+}}
+|}
+
+===Conference papers and public lectures===
+{| class="wikitable"
+|-
+| Conference paper
+| <pre>{{Citation
+| last   = Sullivan
+| first  = D.B.
+| contribution = Time and frequency measurement
+ at NIST: The first 100 years
+| year   = 2001
+| title  = 2001 IEEE Int'l Frequency Control Symp.
+| publisher = National Institute of Standards and Technology
+| contribution-url = http://tf.nist.gov/timefreq/general/pdf/1485.pdf
+}}
+</pre>
+| {{Citation
+| last  = Sullivan
+| first = D.B.
+| contribution = Time and frequency measurement at NIST: The first 100 years
+| year   = 2001
+| title  = 2001 IEEE Int'l Frequency Control Symp.
+| publisher = National Institute of Standards and Technology
+| contribution-url = http://tf.nist.gov/timefreq/general/pdf/1485.pdf
+}}
+|-
+| Lecture
+| <pre>{{Citation
+| last   = Habicht
+| first  = Christian
+| contribution = Hellenistic Athens and her Philosophers
+| year   = 1988
+| title  = David Magie Lecture, Princeton University Program in the History, Archaeology, and Religions of the Ancient World
+| publisher = Princeton University
+| page=14 
+}}
+</pre>
+|{{Citation
+| last   = Habicht
+| first  = Christian
+| contribution = Hellenistic Athens and her Philosophers
+| year   = 1988
+| title  = David Magie Lecture, Princeton University Program in the History, Archaeology, and Religions of the Ancient World
+| publisher = Princeton University
+| page=14 
+}}
+|}
+
+===Parts of books, including encyclopedia articles===
+{| class="wikitable"
+|-
+|Manuscript published in an edited compilation
+|<pre>{{Citation
+| last  = Bidamon
+| first = Emma Smith
+| author-link = Emma Hale Smith
+| chapter = Letter to Emma S. Pilgrim
+| date = March 27, 1876
+| editor-last  = Vogel
+| editor-first = Dan
+| title  = Early Mormon Documents
+| volume = 1
+| publisher = Signature Books
+| publication-date = 1996
+| isbn = 1-56085-072-8
+}}
+</pre>
+| {{Citation
+| last  = Bidamon
+| first = Emma Smith
+| author-link = Emma Hale Smith
+| chapter = Letter to Emma S. Pilgrim
+| date = March 27, 1876
+| editor-last  = Vogel
+| editor-first = Dan
+| title  = Early Mormon Documents
+| volume = 1
+| publisher = Signature Books
+| publication-date = 1996
+| isbn = 1-56085-072-8
+}}
+|-
+| Work with an editor but no author
+| <pre>{{Citation
+| editor-last  = Vogel
+| editor-first = Dan
+| title  = Early Mormon Documents
+| volume = 1
+| publisher = Signature Books
+| date = 1996
+| isbn = 1-56085-072-8
+}}
+</pre>
+| {{Citation
+| editor-last  = Vogel
+| editor-first = Dan
+| title  = Early Mormon Documents
+| volume = 1
+| publisher = Signature Books
+| date = 1996
+| isbn = 1-56085-072-8
+}}
+|-
+| Encyclopedia article by a named author
+| <pre>{{Citation
+| last  = Kramer
+| first = Martin
+| author-link  = Martin Kramer
+| year=1999
+| title = Bernard Lewis
+| editor-last  = Boyd
+| editor-first = Kelley
+| encyclopedia = Encyclopedia of Historians and Historical Writing
+| volume = 1
+| pages  = 719–720
+| location = London
+| publisher = Fitzroy Dearborn
+| url = http://www.geocities.com/martinkramerorg/BernardLewis.htm
+}}
+</pre>
+| {{Citation
+| last  = Kramer
+| first = Martin
+| author-link  = Martin Kramer
+| year = 1999
+| title = Bernard Lewis
+| editor-last  = Boyd
+| editor-first = Kelley
+| encyclopedia  = Encyclopedia of Historians and Historical Writing
+| volume = 1
+| pages  = 719–720
+| location = London
+| publisher = Fitzroy Dearborn
+| url = http://www.geocities.com/martinkramerorg/BernardLewis.htm
+}}
+|-
+| Encyclopedia article with no named author
+| <pre>{{Citation
+| title = Bernard Lewis
+| editor-last = Boyd
+| editor-first = Kelley
+| year = 1999
+| encyclopedia = Encyclopedia of Historians
+and Historical Writing
+| volume = 1
+| pages = 719–720
+| publisher = Fitzroy Dearborn
+| location = London
+| url = http://www.geocities.com/martinkramerorg/BernardLewis.htm
+}}
+</pre>
+| {{Citation
+| title = Bernard Lewis
+| editor-last = Boyd
+| editor-first = Kelley
+| year = 1999
+| encyclopedia = Encyclopedia of Historians and Historical Writing
+| volume = 1
+| pages = 719–720
+| location = London
+| publisher = Fitzroy Dearborn
+| url = http://www.geocities.com/martinkramerorg/BernardLewis.htm
+}}
+|}
+
+===Republications, or edited quotations in a periodical article===
+{| class="wikitable"
+|-
+| Manuscript edited and published in a journal
+| <pre>{{Citation
+| last = Knight
+| first = Joseph, Sr.
+| year = 1833
+| editor-last = Jessee
+| editor-first = Dean
+| title = Joseph Knight's Recollection
+of Early Mormon History
+| journal = BYU Studies
+| volume = 17
+| issue = 1
+| publication-date = 1976
+| page = 35
+| url = https://byustudies.byu.edu/shop/PDFSRC/17.1Jessee.pdf
+}}</pre>
+| {{Citation
+| last = Knight
+| first = Joseph, Sr.
+| year = 1833
+| editor-last = Jessee
+| editor-first = Dean
+| title = Joseph Knight's Recollection of Early Mormon History
+| journal = BYU Studies
+| volume = 17
+| issue = 1
+| publication-date = 1976
+| page = 35
+| url = https://byustudies.byu.edu/shop/PDFSRC/17.1Jessee.pdf
+}}
+|-
+| Manuscript written at one date and place, then published in a periodical at a different date and place with commentary by the editor.
+| <pre>{{Citation
+| last = Klingensmith
+| first = Philip
+| type = Affidavit
+| date = September 5, 1872
+| place = Lincoln County, Nevada
+| title = Mountain Meadows Massacre
+| editor-last = Toohy
+| editor-first = Dennis J.
+| journal = Corinne Daily Reporter
+| publication-date = September 24, 1872
+| publication-place = Corinne, Utah
+| volume = 5
+| issue = 252
+| page = 1
+| url = http://udn.lib.utah.edu/u?/corinne,5359
+}}
+</pre>
+| {{Citation
+| last = Klingensmith
+| first = Philip
+| type = Affidavit
+| date = September 5, 1872
+| place = Lincoln County, Nevada
+| title = Mountain Meadows Massacre
+| editor-last = Toohy
+| editor-first = Dennis J.
+| journal = Corinne Daily Reporter
+| publication-date = September 24, 1872
+| publication-place = Corinne, Utah
+| volume = 5
+| issue = 252
+| page = 1
+| url = http://udn.lib.utah.edu/u?/corinne,5359
+}}
+|}
+
+===Press release===
+{| class="wikitable"
+|-
+| Press release with quotation
+| <pre>{{Citation
+| url = https://www.apple.com/pr/library/2010/04/05ipad.html
+| title = Apple Sells Over 300,000 iPads First Day
+| publisher = Apple Inc
+| access-date = April 10, 2010
+| quote = in the US as of midnight Saturday, April 3
+| ref = none}}
+</pre>
+| {{Citation
+| url = https://www.apple.com/pr/library/2010/04/05ipad.html
+| title = Apple Sells Over 300,000 iPads First Day
+| publisher = Apple Inc
+| access-date = April 10, 2010
+| quote = in the US as of midnight Saturday, April 3
+| ref = none}}
+|}
+
+==Anchored citations==
+This template can generate a citation that can be combined with [[WP:CITESHORT|shortened footnotes]] or [[Wikipedia:Parenthetical referencing|parenthetical referencing]]. It does this by creating an [[HTML element#Anchor|HTML anchor]] containing an ID. The special parameter {{para|ref}} generates an anchor ID suitable for [[Harvard referencing]] templates such as {{tl|harv}} as specified in the next section; an anchor ID is generated by default. 
+
+To disable anchor generation, specify {{para|ref|none}}. You can also specify the ID directly, using the {{para|ref|<var>ID</var>}} parameter. For example, suppose an article's ''References'' section contains the markup:
+* <code><nowiki>{{Citation |author=Sigmund Freud |title=Civilization and Its Discontents |date=1930 |ref=CivDis}}</nowiki></code>
+which generates the citation:
+* {{Citation |author=Sigmund Freud |title=Civilization and Its Discontents |date=1930 |ref=CivDis}}
+Then, the markup "<code><nowiki>([[#CivDis|Freud 1930]])</nowiki></code>" generates a parenthetical reference "([[#CivDis|Freud 1930]])" containing a wikilink to the citation (try clicking on the wikilink).
+
+===Anchors for Harvard referencing templates===
+IDs compatible with Harvard referencing templates such as {{tl|harv}} are computed from the last names of the authors (or editors, if no authors are given) and the year of the cited source. For example, the markup "<code><nowiki>{{harv|Wright|Evans|1851|p=ix}}</nowiki></code>" generates the Harvard reference "{{harv|Wright|Evans|1851|p=ix}}", which wikilinks to the citation whose markup and appearance are shown below:
+* <code><nowiki>{{Citation |last1=Wright |first1=Thomas |last2=Evans |first2=R. H. |title=Historical and Descriptive Account of the Caricatures of James Gillray |location=London |publisher=Henry G. Bohn |date=1851 |oclc=59510372}}</nowiki></code>
+* {{Citation |last1=Wright |first1=Thomas |last2=Evans |first2=R. H. |title=Historical and Descriptive Account of the Caricatures of James Gillray |location=London |publisher=Henry G. Bohn |date=1851 |oclc=59510372}}
+In this example the {{tl|citation}} template defines, and the {{tl|harv}} template uses, the HTML ID "<code>CITEREFWrightEvans1851</code>", composed by concatenating the string "<code>CITEREF</code>" with the last names of the authors and the year. The {{tl|harvid}} template can be used to generate such IDs, for example, <code><nowiki>{{harvid|Wright|Evans|1851}}</nowiki></code> generates "<code>{{harvid|Wright|Evans|1851}}</code>".
+
+Related methods which leave only a number in the text are to use the {{tl|harvnb}} template enclosed in the <nowiki><ref></ref></nowiki> html code, or to use the {{tl|sfn}} template alone. The example above would be <code><nowiki><ref>{{harvnb|Wright|Evans|1851|p=ix}}</ref></nowiki></code> or <code><nowiki>{{sfn|Wright|Evans|1851|p=ix}}</nowiki></code> both of which generate a footnote, such as
+:17. {{harvnb|Wright|Evans|1851|p=ix}}
+
+The names of only the first four authors are used; other author names are not concatenated to the ID. If no author names are given, editor names are used instead.
+
+Last names are used, as specified by the parameters {{para|last1}} (or {{para|last}}), {{para|last2}}, {{para|last3}}, and {{para|last4}}, and similarly for {{para|editor1-last}} etc. and for {{para|inventor1-last}} etc. If a full name is given but no last name is specified, this template falls back on the full name, but this usage is not recommended. For example, in "<code><nowiki>{{Citation |author=Sigmund Freud |title=The Ego and the Id |date=1923}}</nowiki></code>" no last name is given, so this citation cannot be combined with the Harvard reference "<code><nowiki>{{harv|Freud|1923}}</nowiki></code>". To make these {{tl|citation}} and {{tl|harv}} invocations compatible, either replace "{{para|author|Sigmund Freud}}" with "{{para|first|Sigmund}} {{para|last|Freud}}", or add "{{para|ref|<nowiki>{{harvid|Freud|1923}}</nowiki>}}" to the {{tl|citation}} invocation, or add the same ref parameter (say, "{{para|ref|EgoId}}") to both the {{tl|citation}} and the {{tl|harv}} invocations.
+
+<!-- This paragraph appears to be outdated and probably needs to be updated to reflect current CS1/CS2 functionality: -->Similarly, the year is used, as specified by {{para|year}}. If no year is given, this template attempts to derive the year from {{para|date}} (or, if no date is given, from {{para|publication-date}}) by applying the [[mw:Help:Extension:ParserFunctions##time|MediaWiki §&nbsp;Time function]]. This heuristic works with most common date formats (American, International and [[ISO 8601#Calendar dates|ISO 8601 standard format]] YYYY-MM-DD as listed in [[WP:MOS]]), but may not work as expected with other formats, so when in doubt it may be safer to use {{para|year}}.
+
+===IDs must be unique===
+Names, years, and hand-specified IDs must be chosen so that the IDs are unique within a page; otherwise the HTML will not conform to the W3C standards, and any references to the citations will not work reliably. For example, suppose a page contains the following two citations with {{tl|harv}}-compatible IDs:
+* {{Citation |last1=Montes |first1=G. |last2=Halterman |first2=J. S. |date=2008a |journal=Pediatrics |volume=121 |issue=4 |pages=e821–e826 |title=Association of Childhood Autism Spectrum Disorders and Loss of Family Income |doi=10.1542/peds.2007-1594 |pmid=18381511 |url=http://pediatrics.aappublications.org/cgi/content/full/121/4/e821}}
+* {{Citation |last1=Montes |first1=G. |last2=Halterman |first2=J. S. |date=2008b |journal=Pediatrics |volume=122 |issue=1 |pages=e202–e208 |title=Child Care Problems and Employment Among Families with Preschool-aged Children with Autism in the United States |doi=10.1542/peds.2007-3037 |pmid=18595965 |url=http://pediatrics.aappublications.org/cgi/content/full/122/1/e202}}
+
+If these citations were altered to say "2008" rather than "2008a" and "2008b", the resulting page would not work, because the two different citations would both attempt to use the ID "<code>CITEREFMontesHalterman2008</code>". To avoid this problem, distinguish the citations by appending suffixes to the years, e.g. "{{para|date|2008a}}" and "{{para|date|2008b}}", as was done above. Any Harvard references to these citations should use years with the same suffixes.
+
+It is good practice to verify that a page does not contain duplicate IDs by using the [[W3C Markup Validation Service]]; see ''[[#External links|External links]]''.
+
+==Dates==
+{{Reflist|group="n"|refs=<ref name="dates" group="n">The format of dates in the references of an article should use consistent and unambiguous styles. Example formats used in Wikipedia citations include:
+* ''2009''
+* ''2009-09-14'' ([[ISO 8601#Calendar dates|ISO 8601 standard format]]: YYYY-MM-DD)
+* ''14 September 2009''
+* ''September 14, 2009'' (with comma)
+* ''September 2009''
+
+Dates should not be linked (say, to a Wikipedia article of the same name) in references.
+
+Please see [[Wikipedia:Manual of Style (dates and numbers)#Dates|Wikipedia:Manual of Style (dates and numbers) §&nbsp;Dates]] for more guidance about formatting dates.
+</ref>}}
+
+==Tools==
+See [[Wikipedia:Citing sources#Citation templates and tools|Wikipedia:Citing sources §&nbsp;Citation templates and tools]] for a list of tools that can help create a reference in the "citation" format.
+
+==TemplateData==
+{{notice|This template data section needs to be edited. It includes deprecated parameters and does not include parameters that were added in the Lua updates.}}
+
+{{TemplateData header}}
+{{#invoke:cs1 documentation support|template_data_validate|{{ROOTPAGENAME}}}}
+<templatedata>
+{
+	"description": "The Citation template generates a citation for a book, periodical, contribution in a collective work, or a web page. It determines the citation type by examining which parameters are used.",
+	"params": {
+		"last": {
+			"label": "Last name",
+			"description": "The surname of the author; don't wikilink, use 'author-link' instead; can suffix with a numeral to add additional authors",
+			"aliases": [
+				"author",
+				"author1",
+				"last1"
+			],
+			"type": "line",
+			"suggested": true
+		},
+		"first": {
+			"label": "First name",
+			"description": "Given or first name, middle names, or initials of the author; don't wikilink, use 'author-link' instead; can suffix with a numeral to add additional authors",
+			"aliases": [
+				"first1"
+			],
+			"type": "line",
+			"suggested": true
+		},
+		"title": {
+			"label": "Title of source",
+			"type": "string",
+			"description": "Title of source. Works display in italics and articles surrounded in quotation marks.",
+			"required": true
+		},
+		"date": {
+			"label": "Date of source",
+			"type": "string",
+			"description": "Full date of source being referenced in the same format as other publication dates in the citations.[1] Do not wikilink. Displays after the authors and enclosed in parentheses. If there is no author, then displays after publisher."
+		},
+		"url": {
+			"label": "URL of source",
+			"type": "string",
+			"description": "URL of an online location where the text of the publication can be found."
+		},
+		"publication-date": {
+			"label": "Publication date",
+			"type": "string",
+			"required": false,
+			"description": "Date of publication when different from the date the work was written. Displays only if year or date are defined and only if different, else publication-date is used and displayed as date. Use the same format as other dates in the article; do not wikilink. Follows publisher; if work is not defined, then publication-date is preceded by \"published\" and enclosed in parenthesis."
+		},
+		"df": {
+			"label": "Date format",
+			"description": "Sets rendered dates to the specified format",
+			"type": "string"
+		},
+		"year": {
+			"label": "Year of publication",
+			"description": "Year of the source being referenced; recommended only when date parameter format is YYYY-MM-DD and a CITEREF disambiguator is needed",
+			"type": "number"
+		},
+		"postscript": {
+			"label": "Postscript",
+			"type": "string",
+			"required": false,
+			"description": "Controls the closing punctuation for a citation; defaults to a period (.); for no terminating punctuation, specify |postscript=none – leaving |postscript= empty is the same as omitting it, but is ambiguous. Ignored if quote is defined."
+		},
+		"author-mask": {
+			"label": "Author mask",
+			"type": "string",
+			"required": false,
+			"aliases": [
+			],
+			"description": "Replaces the name of the first author with em dashes or text. Set author-mask to a numeric value n to set the dash n em spaces wide; set author-mask to a text value to display the text without a trailing author separator; for example, \"with\". You must still include the values for all authors for metadata purposes. Primarily intended for use with bibliographies or bibliography styles where multiple works by a single author are listed sequentially such as shortened footnotes. Do not use in a list generated by {{reflist}}, <references /> or similar as there is no control of the order in which references are displayed. You can also use editor-mask and translator-mask in the same way."
+		},
+		"last2": {
+			"label": "Last name 2",
+			"description": "The surname of the second author; don't wikilink, use 'author-link2' instead.",
+			"aliases": [
+				"author2",
+				"surname2"
+			],
+			"type": "line"
+		},
+		"first2": {
+			"label": "First name 2",
+			"description": "Given or first name, middle names, or initials of the second author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given2"
+			]
+		},
+		"last3": {
+			"label": "Last name 3",
+			"description": "The surname of the third author; don't wikilink, use 'author-link3' instead.",
+			"aliases": [
+				"author3",
+				"surname3"
+			],
+			"type": "line"
+		},
+		"first3": {
+			"label": "First name 3",
+			"description": "Given or first name, middle names, or initials of the third author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given3"
+			]
+		},
+		"last4": {
+			"label": "Last name 4",
+			"description": "The surname of the forth author; don't wikilink, use 'author-link4' instead.",
+			"aliases": [
+				"author4",
+				"surname4"
+			],
+			"type": "line"
+		},
+		"first4": {
+			"label": "First name 4",
+			"description": "Given or first name, middle names, or initials of the forth author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given4"
+			]
+		},
+		"last5": {
+			"label": "Last name 5",
+			"description": "The surname of the fifth author; don't wikilink, use 'author-link5' instead.",
+			"aliases": [
+				"author5",
+				"surname5"
+			],
+			"type": "line"
+		},
+		"first5": {
+			"label": "First name 5",
+			"description": "Given or first name, middle names, or initials of the fifth author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given5"
+			]
+		},
+		"last6": {
+			"label": "Last name 6",
+			"description": "The surname of the sixth author; don't wikilink, use 'author-link6' instead.",
+			"aliases": [
+				"author6",
+				"surname6"
+			],
+			"type": "line"
+		},
+		"first6": {
+			"label": "First name 6",
+			"description": "Given or first name, middle names, or initials of the sixth author; don't wikilink.",
+			"type": "line"
+		},
+		"last7": {
+			"label": "Last name 7",
+			"description": "The surname of the seventh author; don't wikilink, use 'author-link7' instead.",
+			"aliases": [
+				"author7",
+				"surname7"
+			],
+			"type": "line"
+		},
+		"first7": {
+			"label": "First name 7",
+			"description": "Given or first name, middle names, or initials of the seventh author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given7"
+			]
+		},
+		"last8": {
+			"label": "Last name 8",
+			"description": "The surname of the eighth author; don't wikilink, use 'author-link8' instead.",
+			"aliases": [
+				"author8",
+				"surname8"
+			],
+			"type": "line"
+		},
+		"first8": {
+			"label": "First name 8",
+			"description": "Given or first name, middle names, or initials of the eighth author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given8"
+			]
+		},
+		"last9": {
+			"label": "Last name 9",
+			"description": "The surname of the ninth author; don't wikilink, use 'author-link9' instead. If nine authors are defined, then only eight will show and 'et al.' will show in place of the last author.",
+			"aliases": [
+				"author9",
+				"surname9"
+			],
+			"type": "line"
+		},
+		"first9": {
+			"label": "First name 9",
+			"description": "Given or first name, middle names, or initials of the ninth author; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"given9"
+			]
+		},
+		"author-link": {
+			"label": "Author link",
+			"description": "Title of existing Wikipedia article about the author; can suffix with a numeral to add additional authors",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author1-link",
+				"author-link1"
+			]
+		},
+		"author-link2": {
+			"label": "Author link 2",
+			"description": "Title of existing Wikipedia article about the second author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author2-link"
+			]
+		},
+		"author-link3": {
+			"label": "Author link 3",
+			"description": "Title of existing Wikipedia article about the third author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author3-link"
+			]
+		},
+		"author-link4": {
+			"label": "Author link 4",
+			"description": "Title of existing Wikipedia article about the forth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author4-link"
+			]
+		},
+		"author-link5": {
+			"label": "Author link 5",
+			"description": "Title of existing Wikipedia article about the sixth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author5-link"
+			]
+		},
+		"author-link6": {
+			"label": "Author link 6",
+			"description": "Title of existing Wikipedia article about the sixth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author6-link"
+			]
+		},
+		"author-link7": {
+			"label": "Author link 7",
+			"description": "Title of existing Wikipedia article about the seventh author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author7-link"
+			]
+		},
+		"author-link8": {
+			"label": "Author link 8",
+			"description": "Title of existing Wikipedia article about the eighth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author8-link"
+			]
+		},
+		"author-link9": {
+			"label": "Author link 9",
+			"description": "Title of existing Wikipedia article about the ninth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author9-link"
+			]
+		},
+		"orig-date": {
+			"label": "Original date",
+			"description": "Original date of publication; provide specifics",
+			"type": "number"
+		},
+		"trans-title": {
+			"label": "Translated title",
+			"description": "An English language title, if the source cited is in a foreign language; 'language' is recommended",
+			"type": "content"
+		},
+		"trans-chapter": {
+			"label": "Translated chapter title",
+			"description": "An English language chapter title, if the source cited is in a foreign language; 'language' is recommended",
+			"type": "content"
+		},
+		"type": {
+			"label": "Type",
+			"description": "Additional information about the media type of the source; format in sentence case",
+			"type": "content"
+		},
+		"archive-url": {
+			"label": "Archive URL",
+			"description": "The URL of an archived copy of a web page, if or in case the URL becomes unavailable; requires 'archive-date'",
+			"type": "line"
+		},
+		"series": {
+			"label": "Series",
+			"description": "Series identifier when the source is part of a series, such as a book series or a journal; alias of 'version'",
+			"type": "content",
+			"aliases": [
+				"version"
+			]
+		},
+		"work": {
+			"label": "Work",
+			"description": "Name of the work in which the cited title is found",
+			"type": "string",
+			"aliases": [
+				"journal",
+				"website",
+				"newspaper",
+				"magazine",
+				"encyclopedia",
+				"encyclopaedia",
+				"dictionary",
+				"periodical"
+			]
+		},
+		"volume": {
+			"label": "Volume",
+			"description": "For one publication published in several volumes",
+			"type": "line",
+			"suggested": true
+		},
+		"issue": {
+			"label": "Issue",
+			"description": "Issue number",
+			"type": "string",
+			"aliases": [
+				"number"
+			]
+		},
+		"page": {
+			"label": "Page",
+			"description": "Page in the source that supports the content; displays after 'p.'",
+			"type": "line"
+		},
+		"pages": {
+			"label": "Pages",
+			"description": "Pages in the source that support the content (not an indication of the number of pages in the source; displays after 'pp.'",
+			"type": "line",
+			"suggested": true
+		},
+		"at": {
+			"label": "At",
+			"description": "May be used instead of 'page' or 'pages' where a page number is inappropriate or insufficient",
+			"type": "line"
+		},
+		"no-pp": {
+			"label": "No pp",
+			"description": "Set to 'y' to suppress the 'p.' or 'pp.' display with 'page' or 'pages' when inappropriate (such as 'Front cover')",
+			"type": "line"
+		},
+		"chapter": {
+			"label": "Chapter",
+			"description": "The chapter heading of the source",
+			"type": "string"
+		},
+		"contribution": {
+			"label": "contribution",
+			"type": "string",
+			"required": false
+		},
+		"chapter-url": {
+			"label": "chapter-url",
+			"type": "string",
+			"required": false
+		},
+		"contribution-url": {
+			"label": "contribution-url",
+			"type": "string",
+			"required": false
+		},
+		"chapter-format": {
+			"label": "chapter-format",
+			"type": "string",
+			"required": false
+		},
+		"others": {
+			"label": "Others",
+			"type": "string",
+			"required": false,
+			"description": "Free-text field for people involved in creating a work who cannot be added with another name parameter such as author or editor"
+		},
+		"edition": {
+			"label": "Edition",
+			"description": "When the publication has more than one edition; for example: '2nd', 'Revised' etc.; suffixed with ' ed.'",
+			"type": "line"
+		},
+		"place": {
+			"label": "Location of publication",
+			"description": "Geographical place of publication; usually not wikilinked",
+			"type": "string",
+			"aliases": [
+				"location"
+			]
+		},
+		"publication-place": {
+			"label": "Place of publication",
+			"description": "Publication place shows after title; if 'place' or 'location' are also given, they are displayed before the title prefixed with 'written at'",
+			"type": "content"
+		},
+		"publisher": {
+			"label": "Publisher",
+			"description": "Name of the publisher; displays after title",
+			"type": "content"
+		},
+		"language": {
+			"label": "Language",
+			"description": "The language in which the source is written, if not English; use the ISO 639 language code (preferred) or the full language name; do not use icons or templates",
+			"type": "content"
+		},
+		"format": {
+			"label": "Format",
+			"description": "Format of the work referred to by 'url' ('url' is required when using 'format'); examples: PDF, DOC, XLS; do not specify HTML",
+			"type": "content"
+		},
+		"arxiv": {
+			"label": "arXiv identifier",
+			"description": "An identifier for arXive electronic preprints of scientific papers",
+			"type": "line"
+		},
+		"asin": {
+			"label": "ASIN",
+			"description": "Amazon Standard Identification Number; 10 characters",
+			"type": "line",
+			"aliases": [
+				"ASIN"
+			]
+		},
+		"asin-tld": {
+			"label": "ASIN TLD",
+			"description": "ASIN top-level domain for Amazon sites other than the US",
+			"type": "line"
+		},
+		"bibcode": {
+			"label": "Bibcode",
+			"description": "Bibliographic Reference Code (REFCODE); 19 characters",
+			"type": "line"
+		},
+		"biorxiv": {
+			"label": "biorXiv",
+			"description": "biorXiv identifier; 6 digits",
+			"type": "line"
+		},
+		"citeseerx": {
+			"label": "CiteSeerX",
+			"description": "CiteSeerX identifier; found after the 'doi=' query parameter",
+			"type": "line"
+		},
+		"doi": {
+			"label": "DOI",
+			"description": "Digital Object Identifier; begins with '10.'",
+			"type": "string",
+			"aliases": [
+				"DOI"
+			]
+		},
+		"doi-broken-date": {
+			"label": "DOI broken date",
+			"description": "The date that the DOI was determined to be broken",
+			"type": "date"
+		},
+		"isbn": {
+			"label": "ISBN",
+			"description": "International Standard Book Number; use the 13-digit ISBN where possible",
+			"type": "line"
+		},
+		"issn": {
+			"label": "ISSN",
+			"description": "International Standard Serial Number (print); 8 characters; usually split into two groups of four using a hyphen",
+			"type": "line"
+		},
+		"eissn": {
+			"label": "eISSN",
+			"description": "International Standard Serial Number (online); 8 characters; usually split into two groups of four using a hyphen",
+			"type": "line"
+		},
+		"jfm": {
+			"label": "jfm code",
+			"description": "Jahrbuch über die Fortschritte der Mathematik classification code",
+			"type": "line"
+		},
+		"jstor": {
+			"label": "JSTOR",
+			"description": "JSTOR identifier",
+			"type": "line"
+		},
+		"lccn": {
+			"label": "LCCN",
+			"description": "Library of Congress Control Number",
+			"type": "line"
+		},
+		"mr": {
+			"label": "MR",
+			"description": "Mathematical Reviews identifier",
+			"type": "line"
+		},
+		"oclc": {
+			"label": "OCLC",
+			"description": "Online Computer Library Center number",
+			"type": "number"
+		},
+		"ol": {
+			"label": "OL",
+			"description": "Open Library identifier",
+			"type": "line"
+		},
+		"osti": {
+			"label": "OSTI",
+			"description": "Office of Scientific and Technical Information identifier",
+			"type": "line"
+		},
+		"pmc": {
+			"label": "PMC",
+			"description": "PubMed Center article number",
+			"type": "number"
+		},
+		"pmid": {
+			"label": "PMID",
+			"description": "PubMed Unique Identifier",
+			"type": "line"
+		},
+		"rfc": {
+			"label": "RFC",
+			"description": "Request for Comments number",
+			"type": "number"
+		},
+		"ssrn": {
+			"label": "SSRN",
+			"description": "Social Science Research Network",
+			"type": "line"
+		},
+		"zbl": {
+			"label": "Zbl",
+			"description": "Zentralblatt MATH journal identifier",
+			"type": "line"
+		},
+		"id": {
+			"label": "id",
+			"description": "A unique identifier used where none of the specialized ones are applicable",
+			"type": "line"
+		},
+		"quote": {
+			"label": "Quote",
+			"description": "Relevant text quoted from the source; displays last, enclosed in quotes; needs to include terminating punctuation",
+			"type": "content"
+		},
+		"ref": {
+			"label": "Ref",
+			"description": "An anchor identifier; can be made the target of wikilinks to full references; special value 'harv' generates an anchor suitable for the harv and sfn templates",
+			"type": "line"
+		},
+		"access-date": {
+			"label": "URL access date",
+			"description": "The full date when the original URL was accessed; do not wikilink",
+			"type": "date"
+		},
+		"archive-date": {
+			"label": "Archive date",
+			"description": "Date when the original URL was archived; do not wikilink",
+			"type": "date"
+		},
+		"editor-last": {
+			"label": "Editor last name",
+			"description": "The surname of the editor; don't wikilink, use 'editor-link'; can suffix with a numeral to add additional editors",
+			"aliases": [
+				"editor",
+				"editor-surname",
+				"editor-last1",
+				"editor-surname1",
+				"editor1",
+				"editor1-last",
+				"editor1-surname"
+			]
+		},
+		"editor-first": {
+			"label": "Editor first name",
+			"description": "The given or first name, middle names, or initials of the editor; don't wikilink, use 'editor-link'; can suffix with a numeral to add additional editors",
+			"aliases": [
+				"editor-first1",
+				"editor-given1",
+				"editor1-first",
+				"editor1-given"
+			]
+		},
+		"editor2-last": {
+			"label": "Editor last name 2",
+			"description": "The surname of the second editor; don't wikilink, use 'editor2-link'.",
+			"aliases": [
+				"editor2"
+			],
+			"type": "line"
+		},
+		"editor2-first": {
+			"label": "Editor first name 2",
+			"description": "Given or first name, middle names, or initials of the second editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor2-given"
+			]
+		},
+		"editor3-last": {
+			"label": "Editor last name 3",
+			"description": "The surname of the third editor; don't wikilink, use 'editor3-link'.",
+			"aliases": [
+				"editor3"
+			],
+			"type": "line"
+		},
+		"editor3-first": {
+			"label": "Editor first name 3",
+			"description": "Given or first name, middle names, or initials of the third editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor3-given"
+			]
+		},
+		"editor4-last": {
+			"label": "Editor last name 4",
+			"description": "The surname of the fourth editor; don't wikilink, use 'editor4-link'.",
+			"aliases": [
+				"editor4"
+			],
+			"type": "line"
+		},
+		"editor4-first": {
+			"label": "Editor first name 4",
+			"description": "Given or first name, middle names, or initials of the fourth editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor4-given"
+			]
+		},
+		"editor5-last": {
+			"label": "Editor last name 5",
+			"description": "The surname of the fifth editor; don't wikilink, use 'editor5-link'.",
+			"aliases": [
+				"editor5"
+			],
+			"type": "line"
+		},
+		"editor5-first": {
+			"label": "Editor first name 5",
+			"description": "Given or first name, middle names, or initials of the fifth editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor5-given"
+			]
+		},
+		"editor6-last": {
+			"label": "Editor last name 6",
+			"description": "The surname of the sixth editor; don't wikilink, use 'editor6-link'.",
+			"aliases": [
+				"editor6"
+			],
+			"type": "line"
+		},
+		"editor6-first": {
+			"label": "Editor first name 6",
+			"description": "Given or first name, middle names, or initials of the sixth editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor6-given"
+			]
+		},
+		"editor7-last": {
+			"label": "Editor last name 7",
+			"description": "The surname of the seventh editor; don't wikilink, use 'editor7-link'.",
+			"aliases": [
+				"editor7"
+			],
+			"type": "line"
+		},
+		"editor7-first": {
+			"label": "Editor first name 7",
+			"description": "Given or first name, middle names, or initials of the seventh editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor7-given"
+			]
+		},
+		"editor8-last": {
+			"label": "Editor last name 8",
+			"description": "The surname of the eighth editor; don't wikilink, use 'editor8-link'.",
+			"aliases": [
+				"editor8"
+			],
+			"type": "line"
+		},
+		"editor8-first": {
+			"label": "Editor first name 8",
+			"description": "Given or first name, middle names, or initials of the eighth editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor8-given"
+			]
+		},
+		"editor9-last": {
+			"label": "Editor last name 9",
+			"description": "The surname of the ninth editor; don't wikilink, use 'editor9-link'.",
+			"aliases": [
+				"editor9"
+			],
+			"type": "line"
+		},
+		"editor9-first": {
+			"label": "Editor first name 9",
+			"description": "Given or first name, middle names, or initials of the ninth editor; don't wikilink.",
+			"type": "line",
+			"aliases": [
+				"editor9-given"
+			]
+		},
+		"editor-link": {
+			"label": "editor-link",
+			"type": "string",
+			"required": false
+		},
+		"editor1-link": {
+			"label": "editor1-link",
+			"type": "string",
+			"required": false
+		},
+		"editor2-link": {
+			"label": "editor2-link",
+			"type": "string",
+			"required": false
+		},
+		"editor3-link": {
+			"label": "editor3-link",
+			"type": "string",
+			"required": false
+		},
+		"editor4-link": {
+			"label": "editor4-link",
+			"type": "string",
+			"required": false
+		},
+		"translator-last": {
+			"label": "Translator last name",
+			"description": "The surname of the translator; don't wikilink, use 'translator-link'; can suffix with a numeral to add additional translators.",
+			"aliases": [
+				"translator",
+				"translator-last1",
+				"translator1",
+				"translator1-last"
+			],
+			"type": "string"
+		},
+		"translator-first": {
+			"label": "Translator first name",
+			"description": "Given or first name, middle names, or initials of the translator; don't wikilink, use 'translator-link'; can suffix with a numeral to add additional translators.",
+			"aliases": [
+				"translator1-first",
+				"translator-first1"
+			],
+			"type": "string"
+		},
+		"translator-link": {
+			"label": "Translator link",
+			"description": "Title of existing Wikipedia article about the translator; can suffix with a numeral to add additional translators.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator-link1",
+				"translator1-link"
+			]
+		},
+		"translator-last2": {
+			"label": "Translator last name 2",
+			"description": "The surname of the second translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator2",
+				"translator2-last"
+			],
+			"type": "string"
+		},
+		"translator-first2": {
+			"label": "Translator first name 2",
+			"description": "Given or first name, middle names, or initials of the second translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator2-first"
+			],
+			"type": "string"
+		},
+		"translator-last3": {
+			"label": "Translator last name 3",
+			"description": "The surname of the third translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator3",
+				"translator3-last"
+			],
+			"type": "string"
+		},
+		"translator-first3": {
+			"label": "Translator first name 3",
+			"description": "Given or first name, middle names, or initials of the third translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator3-first"
+			],
+			"type": "string"
+		},
+		"translator-last4": {
+			"label": "Translator last name 4",
+			"description": "The surname of the fourth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator4",
+				"translator4-last"
+			],
+			"type": "string"
+		},
+		"translator-first4": {
+			"label": "Translator first name 4",
+			"description": "Given or first name, middle names, or initials of the fourth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator4-first"
+			],
+			"type": "string"
+		},
+		"translator-last5": {
+			"label": "Translator last name 5",
+			"description": "The surname of the fifth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator5",
+				"translator5-last"
+			],
+			"type": "string"
+		},
+		"translator-first5": {
+			"label": "Translator first name 5",
+			"description": "Given or first name, middle names, or initials of the fifth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator5-first"
+			],
+			"type": "string"
+		},
+		"translator-last6": {
+			"label": "Translator last name 6",
+			"description": "The surname of the sixth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator6",
+				"translator6-last"
+			],
+			"type": "string"
+		},
+		"translator-first6": {
+			"label": "Translator first name 6",
+			"description": "Given or first name, middle names, or initials of the sixth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator6-first"
+			],
+			"type": "string"
+		},
+		"translator-last7": {
+			"label": "Translator last name 7",
+			"description": "The surname of the seventh translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator7",
+				"translator7-last"
+			],
+			"type": "string"
+		},
+		"translator-first7": {
+			"label": "Translator first name 7",
+			"description": "Given or first name, middle names, or initials of the seventh translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator7-first"
+			],
+			"type": "string"
+		},
+		"translator-last8": {
+			"label": "Translator last name 8",
+			"description": "The surname of the eighth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator8",
+				"translator8-last"
+			],
+			"type": "string"
+		},
+		"translator-first8": {
+			"label": "Translator first name 8",
+			"description": "Given or first name, middle names, or initials of the eighth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator8-first"
+			],
+			"type": "string"
+		},
+		"translator-last9": {
+			"label": "Translator last name 9",
+			"description": "The surname of the ninth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator9",
+				"translator9-last"
+			],
+			"type": "string"
+		},
+		"translator-first9": {
+			"label": "Translator first name 9",
+			"description": "Given or first name, middle names, or initials of the ninth translator; don't wikilink, use 'translator-link'.",
+			"aliases": [
+				"translator9-first"
+			],
+			"type": "string"
+		},
+		"translator-link2": {
+			"label": "Translator link 2",
+			"description": "Title of existing Wikipedia article about the second translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator2-link"
+			]
+		},
+		"translator-link3": {
+			"label": "Translator link 3",
+			"description": "Title of existing Wikipedia article about the third translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator3-link"
+			]
+		},
+		"translator-link4": {
+			"label": "Translator link 4",
+			"description": "Title of existing Wikipedia article about the fourth translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator4-link"
+			]
+		},
+		"translator-link5": {
+			"label": "Translator link 5",
+			"description": "Title of existing Wikipedia article about the fifth translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator5-link"
+			]
+		},
+		"translator-link6": {
+			"label": "Translator link 6",
+			"description": "Title of existing Wikipedia article about the sixth translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator6-link"
+			]
+		},
+		"translator-link7": {
+			"label": "Translator link 7",
+			"description": "Title of existing Wikipedia article about the seventh translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator7-link"
+			]
+		},
+		"translator-link8": {
+			"label": "Translator link 8",
+			"description": "Title of existing Wikipedia article about the eighth translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator8-link"
+			]
+		},
+		"translator-link9": {
+			"label": "Translator link 9",
+			"description": "Title of existing Wikipedia article about the ninth translator.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"translator9-link"
+			]
+		},
+		"display-authors": {
+			"label": "Display authors",
+			"description": "number of authors to display before 'et al.' is used; must be less than the number listed",
+			"type": "number"
+		},
+		"name-list-style": {
+			"label": "Name list style",
+			"description": "Sets the style for the list. Accepts 'amp', 'and', and 'vanc'. amp displays an ampersand after the penultimate name; and the same with 'and', and vanc displays in Vancouver format",
+			"type": "string"
+		}
+	},
+	"maps": {
+		"citoid": {
+			"edition": "edition",
+			"title": "title",
+			"caseName": "title",
+			"nameOfAct": "title",
+			"url": "url",
+			"label": "publisher",
+			"company": "publisher",
+			"studio": "publisher",
+			"network": "publisher",
+			"distributor": "publisher",
+			"publisher": "publisher",
+			"publicationTitle": "work",
+			"dictionaryTitle": "work",
+			"encyclopediaTitle": "work",
+			"bookTitle": "work",
+			"date": "date",
+			"dateEnacted": "date",
+			"dateDecided": "date",
+			"accessDate": "access-date",
+			"place": "place",
+			"ISSN": [
+				"issn"
+			],
+			"ISBN": [
+				"isbn"
+			],
+			"PMCID": "pmc",
+			"PMID": "pmid",
+			"oclc": "oclc",
+			"pages": "pages",
+			"firstPage": "pages",
+			"codePages": "pages",
+			"volume": "volume",
+			"reporterVolume": "volume",
+			"codeVolume": "volume",
+			"series": "series",
+			"programTitle": "series",
+			"episodeNumber": "issue",
+			"billNumber": "issue",
+			"documentNumber": "issue",
+			"publicLawNumber": "issue",
+			"docketNumber": "issue",
+			"issue": "issue",
+			"type": "type",
+			"genre": "type",
+			"letterType": "type",
+			"mapType": "type",
+			"DOI": "doi",
+			"language": "language",
+			"podcaster": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"cartographer": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"interviewee": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"performer": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"programmer": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"sponsor": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"artist": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"director": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"contributor": "others",
+			"author": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"translator": [
+				[
+					"translator-first",
+					"translator-last"
+				],
+				[
+					"translator-first2",
+					"translator-last2"
+				],
+				[
+					"translator-first3",
+					"translator-last3"
+				],
+				[
+					"translator-first4",
+					"translator-last4"
+				],
+				[
+					"translator-first5",
+					"translator-last5"
+				],
+				[
+					"translator-first6",
+					"translator-last6"
+				],
+				[
+					"translator-first7",
+					"translator-last7"
+				],
+				[
+					"translator-first8",
+					"translator-last8"
+				],
+				[
+					"translator-first9",
+					"translator-last9"
+				]
+			],
+			"editor": [
+				[
+					"editor-first",
+					"editor-last"
+				],
+				[
+					"editor2-first",
+					"editor2-last"
+				],
+				[
+					"editor3-first",
+					"editor3-last"
+				],
+				[
+					"editor4-first",
+					"editor4-last"
+				]
+			]
+		}
+	},
+	"format": "{{_ |_=_}}",
+	"paramOrder": [
+		"last",
+		"first",
+		"title",
+		"date",
+		"url",
+		"work",
+		"volume",
+		"issue",
+		"page",
+		"pages",
+		"publication-date",
+		"df",
+		"year",
+		"postscript",
+		"editor-last",
+		"editor-first",
+		"author-mask",
+		"orig-date",
+		"trans-title",
+		"trans-chapter",
+		"type",
+		"archive-url",
+		"series",
+		"at",
+		"no-pp",
+		"chapter",
+		"contribution",
+		"chapter-url",
+		"contribution-url",
+		"chapter-format",
+		"others",
+		"edition",
+		"place",
+		"publication-place",
+		"publisher",
+		"language",
+		"format",
+		"arxiv",
+		"asin",
+		"asin-tld",
+		"bibcode",
+		"biorxiv",
+		"citeseerx",
+		"doi",
+		"doi-broken-date",
+		"isbn",
+		"issn",
+		"eissn",
+		"jfm",
+		"jstor",
+		"lccn",
+		"mr",
+		"oclc",
+		"ol",
+		"osti",
+		"pmc",
+		"pmid",
+		"rfc",
+		"ssrn",
+		"zbl",
+		"id",
+		"quote",
+		"ref",
+		"access-date",
+		"name-list-style",
+		"display-authors",
+		"archive-date",
+		"last2",
+		"first2",
+		"last3",
+		"first3",
+		"last4",
+		"first4",
+		"last5",
+		"first5",
+		"last6",
+		"first6",
+		"last7",
+		"first7",
+		"last8",
+		"first8",
+		"last9",
+		"first9",
+		"author-link",
+		"author-link2",
+		"author-link3",
+		"author-link4",
+		"author-link5",
+		"author-link6",
+		"author-link7",
+		"author-link8",
+		"author-link9",
+		"editor2-last",
+		"editor2-first",
+		"editor3-last",
+		"editor3-first",
+		"editor4-last",
+		"editor4-first",
+		"editor5-last",
+		"editor5-first",
+		"editor6-last",
+		"editor6-first",
+		"editor7-last",
+		"editor7-first",
+		"editor8-last",
+		"editor8-first",
+		"editor9-last",
+		"editor9-first",
+		"editor-link",
+		"editor1-link",
+		"editor2-link",
+		"editor3-link",
+		"editor4-link",
+		"translator-last",
+		"translator-first",
+		"translator-link",
+		"translator-last2",
+		"translator-first2",
+		"translator-last3",
+		"translator-first3",
+		"translator-last4",
+		"translator-first4",
+		"translator-last5",
+		"translator-first5",
+		"translator-last6",
+		"translator-first6",
+		"translator-last7",
+		"translator-first7",
+		"translator-last8",
+		"translator-first8",
+		"translator-last9",
+		"translator-first9",
+		"translator-link2",
+		"translator-link3",
+		"translator-link4",
+		"translator-link5",
+		"translator-link6",
+		"translator-link7",
+		"translator-link8",
+		"translator-link9"
+	]
+}
+</templatedata>
+
+{{UF-COinS}}
+
+== See also ==
+* [[Wikipedia:Citation templates]]
+* [[Wikipedia:Inline citation]]
+* [[Wikipedia:Parenthetical referencing]]
+* For a comparison of citations using templates with citations written freehand, see [[Wikipedia:Citing sources/Example edits for different methods#Footnotes|Wikipedia:Citing sources/Example edits for different methods §&nbsp;Footnotes]]
+
+== Notes ==
+{{Reflist}}
+
+{{Wikipedia referencing}}
+{{Wikipedia help pages}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Citation Style 2 templates]]
+}}</includeonly>
