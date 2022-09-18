@@ -1,0 +1,145 @@
+{{IPA key|H:IPA-BER}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Berber languages]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-ber}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+In the interest of pan-Berber legibility, the Berber Latin alphabet omits the partly phonemic contrast found in some Berber varieties (notably [[Kabyle language|Kabyle]] and [[Riffian language|Tarifit]]) between stops and fricatives.
+
+<div style="width: 48%; display: inline-block; margin-right: auto;">
+{| class="wikitable"
+|+ Consonants
+! [[International Phonetic Alphabet|IPA]] || English approximation || Berber Latin letter || [[Tifinagh]] (IRCAM) equivalent 
+|-
+| {{IPAlink|b}} || '''b'''ed
+| [[B]] b || rowspan="2" | <big>{{script|Tfng|ⴱ}}</big>
+|-
+| {{IPAlink|β}} || ''between'' '''b'''ed ''and'' '''v'''et
+| [[B]] b, [[Ḇ]] ḇ
+|-
+| {{IPAlink|ç}} || '''h'''uge
+| [[K]] k, [[Ḵ]] ḵ || <big>{{script|Tfng|ⴽ}}</big>
+|-
+| {{IPAlink|d}} || '''d'''o
+| [[D]] d || <big>{{script|Tfng|ⴷ}}</big>
+|-
+| {{IPAlink|dz}} || wor'''ds'''
+| Zz zz || <big>{{script|Tfng|ⴷⵣ}}</big>
+|-
+| {{IPAlink|dʒ}} || '''j'''ust
+| [[Ǧ]] ǧ || <big>{{script|Tfng|ⴵ}}</big>
+|-
+| {{IPAlink|ð}} || '''th'''is
+| [[D]] d, [[Ḏ]] ḏ || <big>{{script|Tfng|ⴷ}}</big>
+|-
+| {{IPAlink|dˤ}} || Emphatic d, no English equivalent. Arabic ض
+| [[Ḍ]] ḍ || <big>{{script|Tfng|ⴹ}}</big>
+|-
+| {{IPAlink|f}} || '''f'''in
+| [[F]] f || <big>{{script|Tfng|ⴼ}}</big>
+|-
+| {{IPAlink|ɡ}} || '''g'''o
+| [[G]] g || <big>{{script|Tfng|ⴳ}}</big>
+|-
+| {{IPAlink|ɣ}} || ''between'' '''g'''et ''and'' a'''h'''ead
+| [[gh (digraph)|Gh]] gh || <big>{{script|Tfng|ⵖ}}</big>
+|-
+| {{IPAlink|h}} || '''h'''ello
+| [[H]] h || <big>{{script|Tfng|ⵀ}}</big>
+|-
+| {{IPAlink|ħ}} || ''like'' '''h'''at ''but [[Pharyngeal consonant|pharyngeal]]; [[Arabic]]'' '''ḥ'''ijāb
+| [[Ḥ]] ḥ || <big>{{script|Tfng|ⵃ}}</big>
+|-
+| {{IPAlink|j}} || '''y'''es
+| [[Y]] y || <big>{{script|Tfng|ⵢ}}</big>
+|-
+| {{IPAlink|ʝ}} || ''like'' '''y'''es'', but stronger''
+| [[G]] g, [[Ǥ]] ǥ || <big>{{script|Tfng|ⴳ}}</big>
+|-
+| {{IPAlink|k}} || s'''c'''at
+| [[K]] k || <big>{{script|Tfng|ⴽ}}</big>
+|-
+| {{IPAlink|l}} || '''l'''et
+| [[L]] l || <big>{{script|Tfng|ⵍ}}</big>
+|-
+| {{IPAlink|m}} || '''m'''an
+| [[M]] m || <big>{{script|Tfng|ⵎ}}</big>
+|-
+| {{IPAlink|n}} || '''n'''o
+| [[N]] n || <big>{{script|Tfng|ⵏ}}</big>
+|-
+| {{IPAlink|θ}} || ba'''th'''
+| [[T]] t, [[Ṯ]] ṯ || <big>{{script|Tfng|ⵜ}}</big>
+|-
+| {{IPAlink|q}} || ''like'' '''c'''ap ''but [[Uvular consonant|uvular]]; Arabic'' al-'''Q'''urʾān
+| [[Q]] q || <big>{{script|Tfng|ⵇ}}</big>
+|-
+| {{IPAlink|r}} || rowspan="2" | ''[[alveolar trill|rolled r]]''
+| [[R]] r || <big>{{script|Tfng|ⵔ}}</big>
+|-
+| {{IPAlink|ˤ|rˤ}}
+| [[Ṛ]] ṛ || <big>{{script|Tfng|ⵕ}}</big>
+|-
+| {{IPAlink|ʁ}} || ''[[guttural r|French r]]''
+| Gh gh, [[Ɣ]] ɣ, [[Γ]] γ || <big>{{script|Tfng|ⵖ}}</big>
+|-
+| {{IPAlink|s}} || rowspan="2" | '''s'''un
+| [[S]] s || <big>{{script|Tfng|ⵙ}}</big>
+|-
+| {{IPAlink|sˤ}}
+| [[Ṣ]] ṣ || <big>{{script|Tfng|ⵚ}}</big>
+|-
+| {{IPAlink|ʃ}} || '''sh'''ip
+| [[C]] c || <big>{{script|Tfng|ⵛ}}</big>
+|-
+| {{IPAlink|t}} || rowspan="2" | s'''t'''ick
+| [[T]] t || <big>{{script|Tfng|ⵜ}}</big>
+|-
+| {{IPAlink|tˤ}}
+| [[Ṭ]] ṭ || <big>{{script|Tfng|ⵟ}}</big>
+|-
+| {{IPAlink|ts}} || ca'''ts'''
+| [[Ţ|Ţţ]] ţţ || <big>{{script|Tfng|ⵜⵙ}}</big>
+|-
+| {{IPAlink|tʃ}} || '''Ch'''ina
+| [[Č]] č || <big>{{script|Tfng|ⵞ}}</big>
+|-
+| {{IPAlink|w}} || '''w'''eep
+| [[W]] w || <big>{{script|Tfng|ⵡ}}</big>
+|-
+| {{IPAlink|ʷ}} || ''no English equivalent; [[labialization]]''
+| ''sometimes'' [[°]] || <big>{{script|Tfng|ⵯ}}</big>
+|-
+| {{IPAlink|χ}} || ''[[Scottish English|Scottish]]'' lo'''ch'''
+| [[X]] x || <big>{{script|Tfng|ⵅ}}</big>
+|-
+| {{IPAlink|z}} || rowspan="2" | '''z'''oo
+| [[Z]] z || <big>{{script|Tfng|ⵣ}}</big>
+|-
+| {{IPAlink|zˤ}}
+| [[Ẓ]] ẓ || <big>{{script|Tfng|ⵥ}}</big>
+|-
+| {{IPAlink|ʒ}} || mea'''s'''ure
+| [[J]] j || <big>{{script|Tfng|ⵊ}}</big>
+|-
+| {{IPAlink|ʕ}} || ''no English equivalent; [[German language|German]]'' fü'''r'''
+| [[Â]] â, [[Ɛ]] ɛ, [[Σ]] [[ε]] || <big>{{script|Tfng|ⵄ}}</big>
+|}
+</div>
+<div style="float: right; width: 48%;">
+{| class="wikitable"
+|+ Vowels
+! [[International Phonetic Alphabet|IPA]] || English approximation || Berber Latin letter || [[Tifinagh]] (IRCAM) equivalent 
+|-
+| {{IPAlink|æ}} || f'''a'''t
+| [[A]] a || <big>{{script|Tfng|ⴰ}}</big>
+|-
+| {{IPAlink|ə}} || '''a'''bout
+| [[E]] e || <big>{{script|Tfng|ⴻ}}</big>
+|-
+| {{IPAlink|i}} || sh'''ee'''t
+| [[I]] i || <big>{{script|Tfng|ⵉ}}</big>
+|-
+| {{IPAlink|ʊ}} || p'''u'''t
+| [[U]] u || <big>{{script|Tfng|ⵓ}}</big>
+|}
+</div>
+
+{{IPA keys}}
