@@ -46,6 +46,10 @@
 |-
 !colspan="2" bgcolor="#E3E3E3" | Auter
 |-
+{{#if:{{{Provinzies|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Provinzies''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Provinzies}}}
+| }}
 {{#if:{{{Fundazion|}}} |    
 {{!}}-
 {{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
@@ -76,6 +80,7 @@
 |Legislatura           = Parlamënt de l'Andalusia
 |sëntes cungres        = 61 de 350 (17,4%)
 |sëntes senat         = 41 de 265 (15,5%)
+|Provinzies = [[Provinzia de Almería|Almería]], [[Provinzia de Cádiz|Cádiz]], [[Provinzia de Córdoba|Córdoba]], [[Provinzia de Jaén|Jaén]], [[Provinzia de Málaga|Málaga]], [[Provinzia de Granada|Granada]], [[Provinzia de Huelva|Huelva]], [[Provinzia de Sevilla|Sevilla]]
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
 |Cherta               = Andalucia_in_Spain_(including_Canarias)_(special_marker).svg
 |Foto                 = Río_Guadalquivir_Cordoba.jpg
