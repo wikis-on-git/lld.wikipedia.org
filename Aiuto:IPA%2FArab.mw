@@ -1,0 +1,327 @@
+__NOTOC__
+{{IPA key|H:IPA-AR|H:IPAA}}
+The chart below explains how Wikipedia represents [[Modern Standard Arabic]] pronunciations with the [[International Phonetic Alphabet]] (IPA). Wikipedia also has specific charts for [[Help:IPA/Egyptian Arabic|Egyptian Arabic]], [[Help:IPA/Hejazi Arabic|Hejazi Arabic]], [[Help:IPA/Lebanese Arabic|Lebanese Arabic]], and [[Help:IPA/Tunisian Arabic|Tunisian Arabic]]. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-ar}}, {{tl|IPAc-ar}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}. 
+
+Wikipedia transcriptions for Arabic may be either more general and abstract ([[phonemic]]), using only the symbols in the IPA column, or more detailed and precise ([[phonetic]]), using the symbols explained in the notes.
+
+See [[Arabic phonology]] for a more thorough discussion of the sounds of Modern Standard Arabic, and [[varieties of Arabic]] for regional variation.
+
+<!-- PLEASE READ BEFORE ADDING EXAMPLES OR LANGUAGES TO THE KEY
+This key is intended for newbies to the IPA and should therefore be kept as short and sweet as possible. Descriptions should be brief, without technical terms like "back vowel" or "labial" or "fricative". Examples should be from familiar languages that are ''well described phonetically''.
+
+The transliteration of consonants has the standard of [[ALA-LC]] written first.
+-->
+{| class="wikitable"
+! IPA
+! English<br />approximation
+! Arabic<br />letter/symbol
+! Usual<br />[[Romanization of Arabic|romanization]]
+! Letter
+name
+|- id="A_B"
+! colspan="5" | A–B
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|a}}{{efn|name=a}}
+| ''c'''a'''t'' in [[British English]], only approx. in [[American English]]
+| style="text-align: center; font-size: larger;" | {{lang|ar|َ }}
+| a, á, e
+| فَتْحَة (''fatḥah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|aː}}{{efn|name=aa}}
+| No exact, longer ''f'''a'''r''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ا|ـَا]]}}<small>({{lang|ar|[[ى]]}} at word end)</small>
+| ā, â, aa, a
+|أَلِف (''ʾalif'')
+الف مقصورة (''ʾalif maqṣūrah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA|aj}}{{efn|name=ai}}
+| {{IPA|/a/}}+{{IPAslink|j}}, ''m'''y'''''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[Fathah|ْـَي]]}}
+| ay, ai, ey, ei
+|يَاء (''yāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA|aw}}{{efn|name=au}}
+| {{IPA|/a/}}+{{IPAslink|w}}, ''n'''ou'''n''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[Fathah|ْـَو]]}}
+| aw, au
+|وَاو (''wāw'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|b}}
+| '''''b'''ee''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ب]]}}
+| b
+|بَاء (''bāʾ'')
+|- id="D"
+! colspan="5" | D
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|d}}
+| '''''d'''ash''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[د]]}}
+| d
+|دَال (''dāl'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|dˤ}}{{efn|name=emphatic}}
+| [[emphatic consonant|emphatic]] and [[pharyngealization|pharyngealized]] {{IPAslink|d}}, no equivalent
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ض]]}}
+| ḍ, dh
+|ضَاد (''ḍād'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|dʒ}}
+| '''''j'''am''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ج]]}}{{efn|name=jim}}
+| j, ǧ, dj, g
+|جِيم (''jīm'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ð}}
+| '''''th'''ese''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ذ]]}}
+| dh, ḏ
+|ذَال (''dhāl'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ðˤ}}{{efn|name=emphatic}}{{efn|name=Zaa}}
+| emphatic and pharyngealized {{IPAblink|ð}}
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ظ]]}}
+| ẓ
+|ظَاء (''ẓāʾ'')
+|-
+|- id="F_H"
+! colspan="5" | F–H
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|f}}
+| '''''f'''ather''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ف]]}}
+| f
+|فَاء (''fāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|h}}
+| '''''h'''i''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ه]]}}
+| h
+|هَاء (''hāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ħ}}
+|'''''h'''ello'', but [[pharyngeal consonant|pharyngeal]] 
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ح]]}}
+| ḥ
+|حَاء (''ḥāʾ'')
+|- id="I_K"
+! colspan="5" | I–K
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|i|i}}{{efn|name=i}}
+| ''m'''i'''ss''
+| style="text-align: center; font-size: larger;" | {{lang|ar|ِ }}
+| i, e
+| كَسْرَة (''kasrah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|iː}}{{efn|name=ii}}
+| ''mach'''i'''ne''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ي|ـِي]]}}
+| ī, ee, i
+|يَاء (''yāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|j}}
+| '''''y'''es''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ي]]}}
+| y
+|يَاء (''yāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|k}}
+| ''s'''k'''in''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ك]]}}
+| k
+|كَاف (kāf)
+|- id="L_N"
+! colspan="5" | L–N
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|l}}
+| '''''l'''ease'' ([[Received Pronunciation]])
+| style="text-align: center;" rowspan="2" | {{lang|ar|[[ل]]}}
+| rowspan="2" | l
+| rowspan="2" |لَام (''lām'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ɫ}}{{efn|name=Allah}}
+| ''too'''l'''''
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|m}}
+| '''''m'''e''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[م]]}}
+| m
+|مِيم (''mīm'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|n}}
+| '''''n'''o''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ن]]}}
+| n
+|نُون (''nūn'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|q}}
+| like '''''c'''at'', but further down to the [[uvula]] ([[uvular consonant|uvular]]).
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ق]]}}
+| q, g, '
+|قَاف (''qāf'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|r}}
+| "[[tap consonant|tap]]ped" or "[[trill consonant|trill]]ed" r; <br> [[Spanish language|Spanish]] ''pe'''rr'''o''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ر]]}}
+| r
+|رَاء (''rāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|s}}
+| '''''s'''ee''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[س]]}}
+| s
+|سِين (''sīn'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|sˤ}}{{efn|name=emphatic}}
+| emphatic and pharyngealized {{IPAslink|s}}, no equivalent
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ص]]}}
+| ṣ
+|صَاد (''ṣād'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ʃ}}
+| '''''sh'''e''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ش]]}}
+| sh, š, ch
+|شِين (''shīn'')
+<!-- t-w ###################################################################### -->
+|- id="T_W"
+! colspan="5" | T–W
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|t}}
+| ''s'''t'''ick''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ت]]}}<br /><span style="font-size: smaller;">(sometimes</span> {{lang|ar|[[ة]]}}<span style="font-size: smaller;">)</span>
+| t
+|تَاء (''tāʾ'')
+تاء مربوطة (''tāʾ marbūṭah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|tˤ}}{{efn|name=emphatic}}
+| emphatic and pharyngealized {{IPAslink|t}}, no equivalent
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ط]]}}
+| ṭ
+|طَاء (''ṭāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|θ}}
+| '''''th'''ink''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ث]]}}
+| th, ṯ
+|ثَاء (''thāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|u}}{{efn|name=u}}
+| ''c'''oo'''k''
+| style="text-align: center; font-size: larger;" | {{lang|ar|ُ}}
+| u, o, ou
+|ضَمَّة (''ḍammah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|uː}}{{efn|name=uu}}
+| ''b'''oo'''t''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ـُو]]}}
+| ū, oo, ou, u
+|وَاو (''wāw'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|w}}
+| '''''w'''e''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[و]]}}
+| w
+|وَاو (''wāw'')
+<!-- x—z ###################################################################### -->
+|- id="X_Z"
+! colspan="5" | X–Z
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|x}}
+| [[Scots language|Scots]] ''lo'''ch''''',<br /> Spanish '''''j'''ota'',<br /> German ''Ba'''ch'''''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[خ]]}}
+| kh, ḫ, ḵ
+|خَاء (''khāʾ'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ɣ}}
+| Spanish ''fue'''g'''o''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[غ]]}}
+| gh, ġ, ḡ
+|غَيْن (''ghayn'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|z}}
+| '''''z'''oo''
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ز]]}}
+| z
+|زَاي (''zāy'')
+<!-- other ###################################################################### -->
+|- id="other"
+! colspan="5" | Other
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ʔ}}
+| The pause in ''uh<u>-</u>oh!''; <br /> [[Cockney English|Cockney]] ''bu'''tt'''er''; [[glottal stop]]
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ء]]}}
+| style="font-size:200%" | [[ʾ]] [[' (disambiguation)|’]] [[']]
+|هَمْزة (''hamzah'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|ʕ}}
+| no equivalent<br />([[voiced pharyngeal fricative]] or voiced creaky-voiced pharyngeal approximant)
+| style="text-align: center; font-size: larger;" | {{lang|ar|[[ع]]}}
+| style="font-size:200%" | [[ʿ]] [[‘]] [[']] [[`]]
+|عَيْن (''ʿayn'')
+|-
+| style="text-align: center; font-size: larger;" | {{IPA link|θ}}
+| colspan="4" | see under [[#T W|T—W]]
+|-
+| style="text-align: center;" | {{IPA link|ˈ}}
+| {{IPA|[ˈkiːwi]}} {{lang|ar|كِيوِي}} ('kiwi')
+| colspan="3" | Means that the following syllable is stressed: {{IPA|/ˈʕarabiː/}}  {{lang|ar|عربي}} ('Arab').
+|-
+| style="text-align: center;" | {{IPA link|ː}}
+| {{IPA|[kiːs]}} {{lang|ar|كِيس}} ('sack')
+| colspan="3" | Means that the preceding vowel is long
+|-
+| colspan="2" | {{IPA|[ˈdˤɑ'''ħ.ħ'''æ]}} {{lang|ar|ضَحّى}} ('[he] sacrificed'), <br> {{IPA|[mʊˈdæ'''r.r'''ɪsæ]}} {{lang|ar|مُدَرِّسَة}} ('teacher [f.]'), <br> {{IPA|[ræ'''s.ˈs'''æːmæ]}} {{lang|ar|رَسَّامَة}} ('paintress'), <br> {{IPA|[kæ'''ð.ˈð'''æːb]}} {{lang|ar|كَذَّاب}} ('liar [m.]')
+| colspan="3" | A geminated consonant never belongs to one syllable and is often broken with a [[stress (linguistics)|stress]].
+|}
+
+== Notes ==
+{{notelist|refs=
+
+{{efn|name=emphatic|Emphatic consonants may be either [[pharyngealization|pharyngealized]] or [[velarization|velarized]] and are accompanied with [[labialization]] ({{harvnb|Al-Ani|2008|p=599}}; {{harvnb|Kaye|1997|p=193–194}}).}}
+
+{{efn|name=Zaa|The letter {{lang|ar|ظ}} represents either {{IPAblink|ðˤ}} or {{IPAblink|zˤ}}, depending on the speaker's dialect {{harv|Al-Ani|2008|p=601}}.}}
+
+{{efn|name=jim|The letter {{lang|ar|ج}} represents {{IPAblink|ɡ}} in Egypt and {{IPAblink|ʒ}} in the Levant and the Maghreb ({{harvnb|Al-Ani|2008|p=598}}; {{harvnb|Gairdner|1925|p=23}}).}}
+
+{{efn|name=Allah|{{IPA|[ɫ]}} occurs only in the word ''Allah'': {{IPA|[ɑɫˈɫɑh]}} ({{harvnb|Al-Ani|2008|p=600}}; {{harvnb|Kaye|1997|p=196}}; {{harvnb|Kaye|2009|p=564}}).}}
+
+{{efn|name=a|Allophones of {{IPA|/a/}} include {{IPAblink|ɑ}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}; and {{IPAblink|æ}} elsewhere ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}).}}
+
+{{efn|name=i|Allophones of {{IPA|/i/}} include {{IPAblink|ɪ}}~{{IPAblink|e}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}, {{IPAblink|ħ}}, {{IPAblink|ʕ}} ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}); they are distinct phonemes in loan words. {{IPA|/ɪ/}} completely becomes {{IPA|/e/}} in some other particular dialects.}}
+
+{{efn|name=u|Allophones of {{IPA|/u/}} include {{IPAblink|ʊ}}~{{IPAblink|ɤ}}~{{IPAblink|o}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}, {{IPAblink|ħ}}, {{IPAblink|ʕ}} ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}); they are distinct phonemes in loan words. {{IPA|/u/}} completely becomes {{IPA|/o/}} in some other particular dialects.}}
+
+{{efn|name=aa|Allophones of {{IPA|/aː/}} include {{IPAblink|ɑː}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}; and {{IPAblink|æː}} elsewhere ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}).}}
+
+{{efn|name=ii|Allophones of {{IPA|/iː/}} include {{IPAblink|ɪː}}~{{IPAblink|ɨː}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}, {{IPAblink|ħ}}, {{IPAblink|ʕ}} ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}).}}
+
+{{efn|name=uu|Allophones of {{IPA|/uː/}} include {{IPAblink|ʊː}}~{{IPAblink|ɤː}}~{{IPAblink|oː}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}, {{IPAblink|ħ}}, {{IPAblink|ʕ}} ({{harvnb|Al-Ani|2008|p=595, 600}}; {{harvnb|Thelwall|Sa'adeddin|1999|p=52–53}}; {{harvnb|Kaye|1997|p=193, 197}}).}}
+
+{{efn|name=ai|In colloquial pronunciation, {{IPA|/aj/}} may be realized as {{IPAblink|eː}}~{{IPAblink|ɛː}}~[{{IPA|ej}}] ({{harvnb|Al-Ani|2008|p=595}}; {{harvnb|Kaye|1997|p=198}}).}}
+
+{{efn|name=au|In colloquial pronunciation, {{IPA|/aw/}} may be realized as {{IPAblink|oː}}~{{IPAblink|ɔː}}~[{{IPA|ow}}] may occur ({{harvnb|Al-Ani|2008|p=595}}; {{harvnb|Kaye|1997|p=198}}).}}
+}}
+
+== References ==
+* {{cite book|last1=Al-Ani|first1=Salman H.|title=Encyclopedia of Arabic Language and Linguistics|volume= III|date=2008|publisher=Brill|pages=593–603|chapter=Phonetics |isbn=978-90-04-14973-1 }}
+* {{cite book|last1=Gairdner|first1=W. H. T.|url=//archive.org/details/ThePhoneticsOfArabic-W.H.T.Gairdner|title=The Phonetics of Arabic|date=1925|publisher=Oxford University Press}}
+* {{cite book|last1=Kaye|first1=Alan S.|title=Phonologies of Asia and Africa|volume=I|date=1997|pages=187–204|chapter=Arabic phonology}}
+* {{cite book|last=Kaye|first=Alan S.|editor-last=Comrie|editor-first=Bernard|title=The World's Major Languages|edition=2nd|location=Abingdon, Oxfordshire|publisher=Routledge|date=2009|pages=560&ndash;577|chapter=Arabic|isbn=978-0-415-35339-7|url=http://116.58.21.27/articles/The%20World's%20Major%20Languages_0415353394.pdf}}
+* {{cite book
+|last=Ladefoged
+|first=Peter
+|authorlink=Peter Ladefoged
+|last2=Maddieson
+|first2=Ian
+|authorlink2=Ian Maddieson
+|year=1996
+|title=The Sounds of the World's Languages
+|location=Oxford
+|publisher=Blackwell
+|isbn=0-631-19815-6
+}}
+* {{cite book|last1=Mitchell|first1=T. F.|title=Pronouncing Arabic|volume=I|date=1990|publisher=Clarendon Press|location=Oxford |isbn=0-19-815151-9 }}
+* {{cite book|last1=Thelwall|first1=Robin|last2=Sa'adeddin|first2=M. Akram|title=Handbook of the International Phonetic Association|date=1999|publisher=Cambridge University Press|pages=51–54|chapter=Arabic}}
+
+{{IPA keys}}
