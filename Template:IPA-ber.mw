@@ -1,0 +1,9 @@
+<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=Berber:&nbsp;|pron=pronunzià&nbsp;|IPA=IPA:&nbsp;|=|Pronunzia [[Rujenedes Berber|Berber]]:&nbsp;}}|{{#if: {{{2}}}|Pronunzia Berber:&nbsp;}}}}</small>{{IPA|[[Help:IPA/Berber|[{{{1}}}]]]|lang=ber}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA language templates|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
