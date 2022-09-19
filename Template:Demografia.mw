@@ -1,4 +1,4 @@
-<includeonly>{{#if:{{{titolo|}}}|{{{titolo}}}|Abitanti censiti}}{{#if:{{{fonte|}}}|{{#tag:ref|{{{fonte}}}}}}}<br>
+<includeonly>{{#if:{{{titul|}}}|{{{titul}}}|Cumpededa de la populazion}}{{#if:{{{funtana|}}}|{{#tag:ref|{{{funtana}}}}}}}<br>
 {{#tag:timeline | 
 Colors=
  id:lightgrey value:gray(0.9)
