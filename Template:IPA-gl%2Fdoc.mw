@@ -1,0 +1,28 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+==Usage==
+This template formats IPA transcriptions and links them to [[Help:IPA/Portuguese|Help:IPA/Galician and Portuguese]]. The transcription should match the conventions of that key; for narrower dialect transcriptions, use {{tl|IPA-all}}, which links to a more complete IPA key. 
+
+The first cell in the template is for the transcription, and a second optional cell is a switch that controls the lede. With no second value, the lede ''Galician pronunciation:'' appears: 
+*<code><nowiki>{{IPA-gl|tu}}</nowiki></code> → {{IPA-gl|tu}}
+*<code><nowiki>{{IPA-gl|tu|pron}}</nowiki></code> → {{IPA-gl|tu|pron}}
+*<code><nowiki>{{IPA-gl|tu|lang}}</nowiki></code> → {{IPA-gl|tu|lang}}
+*<code><nowiki>{{IPA-gl|tu|eo}}</nowiki></code> → {{IPA-gl|tu|eo}}
+*<code><nowiki>{{IPA-gl|tu|langeo}}</nowiki></code> → {{IPA-gl|tu|langeo}}
+*<code><nowiki>{{IPA-gl|tu|local}}</nowiki></code> → {{IPA-gl|tu|local}}
+*<code><nowiki>{{IPA-gl|tu|IPA}}</nowiki></code> → {{IPA-gl|tu|IPA}}
+*<code><nowiki>{{IPA-gl|tu|}}</nowiki></code> → {{IPA-gl|tu|}}
+
+Any of these may be combined with a sound file in an optional third cell:
+*<code><nowiki>{{IPA-gl|tu|IPA|Es-tú.ogg}}</nowiki></code> → {{IPA-gl|tu|IPA|Es-tú.ogg}}
+
+For the default lede, however, a placeholder such as ‹-› is required in the second cell: 
+*<code><nowiki>{{IPA-gl|tu|-|Es-tú.ogg}}</nowiki></code> → {{IPA-gl|tu|-|Es-tú.ogg}}
+
+{{usage of IPA templates}}
+
+
+<includeonly>{{Sandbox other||
+[[Category:IPA language templates|{{PAGENAME}}]]
+}}</includeonly>
