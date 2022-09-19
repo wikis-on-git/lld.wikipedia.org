@@ -20,7 +20,10 @@
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Majera zità''' || style="width:170px;font-size:90%" |{{{Majera zità}}}
+{{#if:{{{Majera zità|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Majera zità''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Majera zità}}}
+| }}
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
