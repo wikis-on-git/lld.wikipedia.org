@@ -36,14 +36,10 @@
 {{!}}-  
 {{!}}style="width:160px;font-size:90%" {{!}} '''Densità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{#expr: {{{Abitanc}}} / {{{Spersa}}} round 2 }}&nbsp;ab./km²}}  |    }}
 |-
-{{#if:{{{INSEE|}}}  | 
+{{#if:{{{Codesc posta|}}}  | 
 !colspan="2" bgcolor="#E3E3E3" style="font-size:90%" {{!}} Auter
 {{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''[[INSEE]]'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{INSEE}}}  |  }}
-{{#if:{{{Codesc posta|}}}  | 
-{{!}}-  
-{{!}}style="width:160px;font-size:90%" {{!}} '''Codesc de la posta'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Codesc posta}}}  |  
-{{!}}-  }}
+{{!}}style="width:160px;font-size:90%" {{!}} '''Codesc posta'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Codesc posta}}}  |  }}
 |-
 !colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
 |-
@@ -56,22 +52,22 @@
 |Inuem luech            = Barcelona
 |Blason                 = Escudo_de_Barcelona.svg
 |Cumunità autonoma      = {{flag|Catalonia}}
-|Dipartimënt            = [[Lyon Metropolis]]
+|Provinzia              = {{flag|Provinzia de Barcelona}}
 |Fundazion              =
+|Autëza                 = 12
 |Spersa                 = 50
-|Coordinates            = {{coord|45|50|N|4|50|E|display=inline}}   <!--mantenì genau chësc format-->
-|Data abitanc           = 1-1-2019
+|Coordinates            = {{coord|41|23|N|2|11|E|display=inline}}   <!--mantenì genau chësc format-->
+|Data abitanc           = 2018
 |Abitanc                = 1636732
-|Spersa               = 101.3
-|INSEE                  =  546
-|Codesc posta           =
+|Spersa                  = 101.3
+|Codesc posta           = 08001–08042
 |Cherta                 = {{Mappa di localizzazione
-|FRA
-|label = Lyon
-|latitudineGradi = 45
-|latitudinePrimi = 50
-|longitudineGradi = 4
-|longitudinePrimi = 50
+|ESP
+|label = Barcelona
+|latitudineGradi = 41
+|latitudinePrimi = 23
+|longitudineGradi = 2
+|longitudinePrimi = 11
 |position = top
 |width = 300
 |float = center
