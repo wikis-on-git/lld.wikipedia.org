@@ -1,0 +1,95 @@
+<includeonly>{{#if:{{{titolo|}}}|{{{titolo}}}|Abitanti censiti}}{{#if:{{{fonte|}}}|{{#tag:ref|{{{fonte}}}}}}}<br>
+{{#tag:timeline | 
+Colors=
+ id:lightgrey value:gray(0.9)
+ id:darkgrey  value:gray(0.7)
+ id:sfondo value:rgb(1,1,1)
+ id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:{{#if:{{{dimx|}}}|{{{dimx}}}|455}} height:{{#if:{{{dimy|}}}|{{{dimy}}}|373}}
+PlotArea   = left:50 bottom:{{#if:{{{fonte|}}}|40|20}} top:20 right:30
+DateFormat = x.y
+Period     = from:0 till:{{#if:{{{popmax|}}}|{{{popmax}}}|100000}}
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:{{#if:{{{passo1|}}}|{{{passo1}}}|10000}} start:0
+ScaleMinor = gridcolor:lightgrey increment:{{#if:{{{passo2|}}}|{{{passo2}}}|1000}} start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+ {{#if:{{{a1|}}}|bar:{{{a1}}} text:{{{a1}}}}}
+ {{#if:{{{a2|}}}|bar:{{{a2}}} text:{{{a2}}}}}
+ {{#if:{{{a3|}}}|bar:{{{a3}}} text:{{{a3}}}}}
+ {{#if:{{{a4|}}}|bar:{{{a4}}} text:{{{a4}}}}}
+ {{#if:{{{a5|}}}|bar:{{{a5}}} text:{{{a5}}}}}
+ {{#if:{{{a6|}}}|bar:{{{a6}}} text:{{{a6}}}}}
+ {{#if:{{{a7|}}}|bar:{{{a7}}} text:{{{a7}}}}}
+ {{#if:{{{a8|}}}|bar:{{{a8}}} text:{{{a8}}}}}
+ {{#if:{{{a9|}}}|bar:{{{a9}}} text:{{{a9}}}}}
+ {{#if:{{{a10|}}}|bar:{{{a10}}} text:{{{a10}}}}}
+ {{#if:{{{a11|}}}|bar:{{{a11}}} text:{{{a11}}}}}
+ {{#if:{{{a12|}}}|bar:{{{a12}}} text:{{{a12}}}}}
+ {{#if:{{{a13|}}}|bar:{{{a13}}} text:{{{a13}}}}}
+ {{#if:{{{a14|}}}|bar:{{{a14}}} text:{{{a14}}}}}
+ {{#if:{{{a15|}}}|bar:{{{a15}}} text:{{{a15}}}}}
+ {{#if:{{{a16|}}}|bar:{{{a16}}} text:{{{a16}}}}}
+ {{#if:{{{a17|}}}|bar:{{{a17}}} text:{{{a17}}}}}
+ {{#if:{{{a18|}}}|bar:{{{a18}}} text:{{{a18}}}}}
+ {{#if:{{{a19|}}}|bar:{{{a19}}} text:{{{a19}}}}}
+ {{#if:{{{a20|}}}|bar:{{{a20}}} text:{{{a20}}}}}
+
+PlotData=
+ color:barra width:20 align:left
+
+ {{#if:{{{a1|}}}|bar:{{{a1}}} from:0 till: {{#if:{{{p1|}}}|{{{p1}}}|0}}}}
+ {{#if:{{{a2|}}}|bar:{{{a2}}} from:0 till: {{#if:{{{p2|}}}|{{{p2}}}|0}}}}
+ {{#if:{{{a3|}}}|bar:{{{a3}}} from:0 till: {{#if:{{{p3|}}}|{{{p3}}}|0}}}}
+ {{#if:{{{a4|}}}|bar:{{{a4}}} from:0 till: {{#if:{{{p4|}}}|{{{p4}}}|0}}}}
+ {{#if:{{{a5|}}}|bar:{{{a5}}} from:0 till: {{#if:{{{p5|}}}|{{{p5}}}|0}}}}
+ {{#if:{{{a6|}}}|bar:{{{a6}}} from:0 till: {{#if:{{{p6|}}}|{{{p6}}}|0}}}}
+ {{#if:{{{a7|}}}|bar:{{{a7}}} from:0 till: {{#if:{{{p7|}}}|{{{p7}}}|0}}}}
+ {{#if:{{{a8|}}}|bar:{{{a8}}} from:0 till: {{#if:{{{p8|}}}|{{{p8}}}|0}}}}
+ {{#if:{{{a9|}}}|bar:{{{a9}}} from:0 till: {{#if:{{{p9|}}}|{{{p9}}}|0}}}}
+ {{#if:{{{a10|}}}|bar:{{{a10}}} from:0 till: {{#if:{{{p10|}}}|{{{p10}}}|0}}}}
+ {{#if:{{{a11|}}}|bar:{{{a11}}} from:0 till: {{#if:{{{p11|}}}|{{{p11}}}|0}}}}
+ {{#if:{{{a12|}}}|bar:{{{a12}}} from:0 till: {{#if:{{{p12|}}}|{{{p12}}}|0}}}}
+ {{#if:{{{a13|}}}|bar:{{{a13}}} from:0 till: {{#if:{{{p13|}}}|{{{p13}}}|0}}}}
+ {{#if:{{{a14|}}}|bar:{{{a14}}} from:0 till: {{#if:{{{p14|}}}|{{{p14}}}|0}}}}
+ {{#if:{{{a15|}}}|bar:{{{a15}}} from:0 till: {{#if:{{{p15|}}}|{{{p15}}}|0}}}}
+ {{#if:{{{a16|}}}|bar:{{{a16}}} from:0 till: {{#if:{{{p16|}}}|{{{p16}}}|0}}}}
+ {{#if:{{{a17|}}}|bar:{{{a17}}} from:0 till: {{#if:{{{p17|}}}|{{{p17}}}|0}}}}
+ {{#if:{{{a18|}}}|bar:{{{a18}}} from:0 till: {{#if:{{{p18|}}}|{{{p18}}}|0}}}}
+ {{#if:{{{a19|}}}|bar:{{{a19}}} from:0 till: {{#if:{{{p19|}}}|{{{p19}}}|0}}}}
+ {{#if:{{{a20|}}}|bar:{{{a20}}} from:0 till: {{#if:{{{p20|}}}|{{{p20}}}|0}}}}
+
+PlotData=
+
+ {{#if:{{{a1|}}}|bar:{{{a1}}} at: {{#if:{{{p1|}}}|{{{p1}}}|0}} fontsize:S text: {{#if:{{{p1|}}}|{{formatnum:{{#expr: {{{p1}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a2|}}}|bar:{{{a2}}} at: {{#if:{{{p2|}}}|{{{p2}}}|0}} fontsize:S text: {{#if:{{{p2|}}}|{{formatnum:{{#expr: {{{p2}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a3|}}}|bar:{{{a3}}} at: {{#if:{{{p3|}}}|{{{p3}}}|0}} fontsize:S text: {{#if:{{{p3|}}}|{{formatnum:{{#expr: {{{p3}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a4|}}}|bar:{{{a4}}} at: {{#if:{{{p4|}}}|{{{p4}}}|0}} fontsize:S text: {{#if:{{{p4|}}}|{{formatnum:{{#expr: {{{p4}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a5|}}}|bar:{{{a5}}} at: {{#if:{{{p5|}}}|{{{p5}}}|0}} fontsize:S text: {{#if:{{{p5|}}}|{{formatnum:{{#expr: {{{p5}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a6|}}}|bar:{{{a6}}} at: {{#if:{{{p6|}}}|{{{p6}}}|0}} fontsize:S text: {{#if:{{{p6|}}}|{{formatnum:{{#expr: {{{p6}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a7|}}}|bar:{{{a7}}} at: {{#if:{{{p7|}}}|{{{p7}}}|0}} fontsize:S text: {{#if:{{{p7|}}}|{{formatnum:{{#expr: {{{p7}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a8|}}}|bar:{{{a8}}} at: {{#if:{{{p8|}}}|{{{p8}}}|0}} fontsize:S text: {{#if:{{{p8|}}}|{{formatnum:{{#expr: {{{p8}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a9|}}}|bar:{{{a9}}} at: {{#if:{{{p9|}}}|{{{p9}}}|0}} fontsize:S text: {{#if:{{{p9|}}}|{{formatnum:{{#expr: {{{p9}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a10|}}}|bar:{{{a10}}} at: {{#if:{{{p10|}}}|{{{p10}}}|0}} fontsize:S text: {{#if:{{{p10|}}}|{{formatnum:{{#expr: {{{p10}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a11|}}}|bar:{{{a11}}} at: {{#if:{{{p11|}}}|{{{p11}}}|0}} fontsize:S text: {{#if:{{{p11|}}}|{{formatnum:{{#expr: {{{p11}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a12|}}}|bar:{{{a12}}} at: {{#if:{{{p12|}}}|{{{p12}}}|0}} fontsize:S text: {{#if:{{{p12|}}}|{{formatnum:{{#expr: {{{p12}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a13|}}}|bar:{{{a13}}} at: {{#if:{{{p13|}}}|{{{p13}}}|0}} fontsize:S text: {{#if:{{{p13|}}}|{{formatnum:{{#expr: {{{p13}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a14|}}}|bar:{{{a14}}} at: {{#if:{{{p14|}}}|{{{p14}}}|0}} fontsize:S text: {{#if:{{{p14|}}}|{{formatnum:{{#expr: {{{p14}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a15|}}}|bar:{{{a15}}} at: {{#if:{{{p15|}}}|{{{p15}}}|0}} fontsize:S text: {{#if:{{{p15|}}}|{{formatnum:{{#expr: {{{p15}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a16|}}}|bar:{{{a16}}} at: {{#if:{{{p16|}}}|{{{p16}}}|0}} fontsize:S text: {{#if:{{{p16|}}}|{{formatnum:{{#expr: {{{p16}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a17|}}}|bar:{{{a17}}} at: {{#if:{{{p17|}}}|{{{p17}}}|0}} fontsize:S text: {{#if:{{{p17|}}}|{{formatnum:{{#expr: {{{p17}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a18|}}}|bar:{{{a18}}} at: {{#if:{{{p18|}}}|{{{p18}}}|0}} fontsize:S text: {{#if:{{{p18|}}}|{{formatnum:{{#expr: {{{p18}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a19|}}}|bar:{{{a19}}} at: {{#if:{{{p19|}}}|{{{p19}}}|0}} fontsize:S text: {{#if:{{{p19|}}}|{{formatnum:{{#expr: {{{p19}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+ {{#if:{{{a20|}}}|bar:{{{a20}}} at: {{#if:{{{p20|}}}|{{{p20}}}|0}} fontsize:S text: {{#if:{{{p20|}}}|{{formatnum:{{#expr: {{{p20}}} round 0}}}} shift:(-10,5)|n.d. shift:(-8,5)}}}}
+
+}}</includeonly><noinclude>
+{{Protetta}}
+{{man}}
+{{TemplateData}}
+
+[[Categoria:Template demografici]]
+[[Categoria:Template di formattazione tematici]]
+</noinclude>
