@@ -1,0 +1,30 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+==Usage==
+This template formats IPA transcriptions and links them to [[Help:IPA/Astur-Leonese]]. The transcription should match the conventions of that key; for narrower dialect transcriptions, use {{tl|IPA-all}}, which links to a more complete IPA key. 
+
+The first cell in the template is for the transcription, and a second optional cell is a switch that controls the lede. With no second value, the lede ''Asturian pronunciation:'' appears: 
+*<code><nowiki>{{IPA-ast|tu}}</nowiki></code> → {{IPA-ast|tu}}
+*<code><nowiki>{{IPA-ast|tu|pron}}</nowiki></code> → {{IPA-ast|tu|pron}}
+*<code><nowiki>{{IPA-ast|tu|lang}}</nowiki></code> → {{IPA-ast|tu|lang}}
+*<code><nowiki>{{IPA-ast|tu|local}}</nowiki></code> → {{IPA-ast|tu|local}}
+*<code><nowiki>{{IPA-ast|tu|IPA}}</nowiki></code> → {{IPA-ast|tu|IPA}}
+*<code><nowiki>{{IPA-ast|tu|}}</nowiki></code> → {{IPA-ast|tu|}}
+
+Any of these may be combined with a sound file in an optional third cell:
+*<code><nowiki>{{IPA-ast|tu|IPA|Es-tú.ogg}}</nowiki></code> → {{IPA-ast|tu|IPA|Es-tú.ogg}}
+
+For the default lede, however, a placeholder such as ‹-› is required in the second cell: 
+*<code><nowiki>{{IPA-ast|tu|-|Es-tú.ogg}}</nowiki></code> → {{IPA-ast|tu|-|Es-tú.ogg}}
+
+{{usage of IPA templates}}
+
+
+<includeonly>{{Sandbox other||
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA language templates|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+}}</includeonly>
