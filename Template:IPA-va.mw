@@ -1,0 +1,5 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Valencian:&nbsp;|pron=pronunzià&nbsp;|local=locally&nbsp;|=|Pronunzia valenciana:&nbsp;}}</small>{{IPA|[[Help:IPA/Catalan|[{{{1}}}]]]|lang=ca}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}
+
+[[Category:IPA language templates]]
+</noinclude>
