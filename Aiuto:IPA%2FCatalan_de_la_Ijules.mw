@@ -1,0 +1,423 @@
+{{For|the help page regarding IPA for Standard Catalan and Standard Valencian|Help:IPA/Catalan}}
+{{IPA key|H:IPA-CADIA|H:IPACADIA|H:IPA-CATDIA|H:IPACATDIA}}
+The charts below show the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] representations of [[Insular Catalan]] pronunciations ([[Balearic dialect|Balearic]], which includes Ibizan, Majorcan and Minorcan, and [[Alguerese dialect|Alguerese]]). For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-cadia}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+== Key for Insular Catalan ==
+[[Standard Catalan]] phonemes, in bold, are followed by their most common phonetic values and their respective occurrence amongst the [[Insular Catalan]] dialects.
+
+Except for complex clusters, examples in the charts are spelled in Standard Catalan.
+
+{| style="background: none;"
+| style="vertical-align: top;" |
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | [[Consonant]]s
+|-
+! rowspan="2" | Phoneme !! colspan="3" | {{abbr|B|Balearic Catalan}} !! rowspan="2" | {{abbr|A|Alguerese Catalan}} !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+! {{abbr|Ib.|Ibizan}} !! {{abbr|Ma.|Majorcan}} !! {{abbr|Mi.|Minorcan}}
+|-
+! <big>/{{IPA link|b}}/</big>
+| colspan="4" | <big>{{IPA link|b}}</big>
+| style="text-align: left;" | {{lang|ca|'''b'''ell}}, {{lang|ca|a'''b'''ans}}
+| style="text-align: left;" | {{lang|en|'''b'''est}}
+|-
+! rowspan="2" | <big>/{{IPA link|d̪|d}}/</big>
+| colspan="4" | <big>{{IPA link|d̪|d}}</big>
+| style="text-align: left;" | {{lang|ca|'''d'''rac}}
+| style="text-align: left;" | {{lang|en|'''d'''oor}}
+|-
+| colspan="3" | <big>{{IPA link|ð̞|ð}}</big>
+| <big>{{IPA link|ɾ}}</big>
+| style="text-align: left;" | {{lang|ca|fre'''d'''a}}
+| style="text-align: left;" | {{lang|en|'''th'''ere}} / ''[[American English|US]]'' {{lang|en|a'''t'''om}}
+|-
+! rowspan="2" | <big>/{{IPA link|dz}}/</big>
+| colspan="3" | <big>{{IPA link|dz}}</big>
+| rowspan="2" | <big>{{IPA link|dz}}</big>
+| style="text-align: left;" | {{lang|ca|se'''tz'''e}}
+| style="text-align: left;" | {{lang|en|a'''dz'''e}}
+|-
+| colspan="3" | <big>{{IPA link|z̺|z}}</big>
+| style="text-align: left;" | {{lang|ca|reali'''tz'''a}}
+| style="text-align: left;" | '''z'''ebra ({{abbr|B|Balearic Catalan}}) / {{lang|en|a'''dz'''e}} ({{abbr|A|Alguerese Catalan}})
+|-
+! <big>/{{IPA link|dʑ|dʒ}}/</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| colspan="4" | <big>{{IPA link|dʑ|dʒ}}</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| style="text-align: left;" | {{lang|ca|mi'''tj'''à}}, {{lang|ca|via'''tg'''e}}
+| style="text-align: left;" | {{lang|en|'''j'''eep}}
+|-
+! <big>/{{IPA link|f}}/</big>
+| colspan="4" | <big>{{IPA link|f}}</big>
+| style="text-align: left;" | {{lang|ca|'''f'''orça}}, {{lang|ca|pro'''v'''}}
+| style="text-align: left;" | {{lang|en|'''f'''ace}}
+|-
+! rowspan="4" | <big>/{{IPA link|ɡ}}/</big>
+| rowspan="2" | <big>{{IPA link|ɡ}}</big>
+| <big>{{IPA link|ɡ}}</big>
+| rowspan="2" colspan="2" | <big>{{IPA link|ɡ}}</big>
+| style="text-align: left;" | {{lang|ca|'''g'''uant}}
+| style="text-align: left;" | {{lang|en|'''g'''ot}}
+|-
+| <big>{{IPA link|ɟ}}</big>
+| style="text-align: left;" | {{lang|ca|'''g'''as}}
+| style="text-align: left;" | {{lang|en|'''g'''ot}} (''rest of'' {{abbr|B|Balearic Catalan}} & {{abbr|A|Alguerese Catalan}}) / ''[[Received Pronunciation|RP]]'' {{lang|en|'''d'''ue}} ({{abbr|Ma.|Majorcan}})
+|-
+| rowspan="2" | <big>{{IPA link|ɣ˕|ɣ}}</big>
+| <big>{{IPA link|ʝ}}</big>
+| rowspan="2" colspan="2" | <big>{{IPA link|ɣ̞|ɣ}}</big>
+| style="text-align: left;" | {{lang|ca|llo'''gu'''er}}
+| style="text-align: left;" | {{no wrap|''between'' {{lang|en|'''g'''ot}} ''and'' {{lang|en|'''h'''ot}} (''rest of'' {{abbr|B|Balearic Catalan}} & {{abbr|A|Alguerese Catalan}}) / {{lang|en|'''d'y'''ou}} ({{abbr|Ma.|Majorcan}})}}
+|-
+| <big>{{IPA link|ɣ˕|ɣ}}</big>
+| style="text-align: left;" | {{lang|ca|io'''g'''urt}}
+| style="text-align: left;" | ''between'' {{lang|en|'''g'''ot}} ''and'' {{lang|en|'''h'''ot}}
+|-
+! rowspan="2" | <big>/{{IPA link|k}}/</big>
+| rowspan="2" | <big>{{IPA link|k}}</big>
+| <big>{{IPA link|k}}</big>
+| rowspan="2" colspan="2" | <big>{{IPA link|k}}</big>
+| style="text-align: left;" | {{lang|ca|'''c'''or}}
+| style="text-align: left;" | {{lang|en|s'''c'''an}}
+|-
+| <big>{{IPA link|c}}</big>
+| style="text-align: left;" | {{lang|ca|'''c'''as}}
+| style="text-align: left;" | {{lang|en|s'''c'''an}} (''rest of'' {{abbr|B|Balearic Catalan}} & {{abbr|A|Alguerese Catalan}}) / {{lang|en|s'''t'''ew}} ({{abbr|Ma.|Majorcan}})
+|-
+! rowspan="2" | <big>/{{IPA link|ɫ|l}}/</big>
+| colspan="3" rowspan="2" | <big>{{IPA link|ɫ|l}}</big>
+| <big>{{IPA link|ɫ|l}}</big>
+| style="text-align: left;" | {{lang|ca|'''l'''aca}}, {{lang|ca|ma'''l'''}}
+| style="text-align: left;" | {{lang|en|pi'''l'''e}}
+|-
+| <big>{{IPA link|ɾ}}</big>
+| style="text-align: left;" | {{lang|ca|ma'''l'''a}}
+| style="text-align: left;" | {{lang|en|pi'''l'''e}} ({{abbr|B|Balearic Catalan}}) / ''[[American English|US]]'' {{lang|en|a'''t'''om}} ({{abbr|A|Alguerese Catalan}})
+|-
+! rowspan="3" | <big>/{{IPA link|ʎ}}/</big>
+| colspan="3" rowspan="2" | <big>{{IPA link|ʎ}}</big>
+| <big>{{IPA link|ʎ}}</big>
+| style="text-align: left;" | {{lang|ca|'''ll'''ac}}, {{lang|ca|ce'''ll'''a}}
+| style="text-align: left;" | {{lang|en|bi'''lli'''on}}
+|-
+| rowspan="2" | <big>{{IPA link|ɫ|l}}</big>
+| style="text-align: left;" | {{lang|ca|ba'''ll'''}}
+| style="text-align: left;" | {{lang|en|bi'''lli'''on}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|pi'''l'''e}} ({{abbr|A|Alguerese Catalan}})
+|-
+| colspan="3" | <big>{{IPA link|j}}{{IPA link|ɫ|l}}</big>
+| style="text-align: left;" | {{lang|ca|ba'''ll'''s}}
+| style="text-align: left;" | {{lang|en|o'''il'''y}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|pi'''l'''e}} ({{abbr|A|Alguerese Catalan}})
+|-
+! rowspan="2" | <big>/{{IPA link|m}}/</big>
+| colspan="4" | <big>{{IPA link|m}}</big>
+| style="text-align: left;" | {{lang|ca|'''m'''eu}}, {{lang|ca|co'''m'''te}}
+| style="text-align: left;" | {{lang|en|'''m'''ode}}
+|-
+| colspan="4" | <big>{{IPA link|ɱ}}</big>
+| style="text-align: left;" | {{lang|ca|li'''m'''fa}}
+| style="text-align: left;" | {{lang|en|ly'''m'''ph}}
+|-
+! <big>/{{IPA link|n}}/</big>
+| colspan="4" | <big>{{IPA link|n}}</big>
+| style="text-align: left;" | {{lang|ca|'''n'''eu}}
+| style="text-align: left;" | {{lang|en|'''n'''ote}}
+|-
+! <big>/{{IPA link|ŋ}}/</big>
+| colspan="4" | <big>{{IPA link|ŋ}}</big>
+| style="text-align: left;" | {{lang|ca|sa'''n'''g}}, ''víki'''ng'''''
+| style="text-align: left;" | {{lang|en|ri'''ng'''}}
+|-
+! rowspan="3" | <big>/{{IPA link|ɲ}}/</big>
+| colspan="3" rowspan="2" | <big>{{IPA link|ɲ}}</big>
+| <big>{{IPA link|ɲ}}</big>
+| style="text-align: left;" | {{lang|ca|'''ny'''eu}}
+| style="text-align: left;" | {{lang|en|o'''ni'''on}}
+|-
+| rowspan="2" | <big>{{IPA link|n}}</big>
+| style="text-align: left;" | {{lang|ca|a'''ny'''}}
+| style="text-align: left;" | {{lang|en|o'''ni'''on}} / {{lang|en|'''n'''ote}}
+|-
+| colspan="3" | <big>{{IPA link|j}}{{IPA link|n}}</big>
+| style="text-align: left;" | {{lang|ca|a'''ny'''s}}
+| style="text-align: left;" | {{lang|en|po'''in'''t}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|'''n'''ote}} ({{abbr|A|Alguerese Catalan}})
+|-
+! <big>/{{IPA link|p}}/</big>
+| colspan="4" | <big>{{IPA link|p}}</big>
+| style="text-align: left;" | {{lang|ca|'''p'''or}}, {{lang|ca|du'''b'''te}}
+| style="text-align: left;" | {{lang|en|s'''p'''an}}
+|-
+! rowspan="2" | <big>/{{IPA link|r̠|r}}/</big>
+| colspan="4" rowspan="2" | <big>{{IPA link|r̠|r}}</big>
+| style="text-align: left;" | {{lang|ca|'''r'''uc}}, {{lang|ca|hon'''r'''a}} 
+| style="text-align: left;" rowspan="2" | ''[[Scots language|Scots]]'' {{lang|sco|'''r'''ook}}
+|-
+| style="text-align: left;" | {{lang|ca|co'''rr'''}} ({{lang|ca|corro}} {{abbr|C|Standard Catalan}} / {{lang|ca-valencia|córrec}} {{abbr|V|Standard Valencian}})
+|-
+! <big>/{{IPA link|ɾ}}/</big>
+| colspan="4" | <big>{{IPA link|ɾ}}</big>
+| style="text-align: left;" | {{lang|ca|t'''r'''uc}}, {{lang|ca|ho'''r'''a}}, {{lang|ca|pe'''r'''}}
+| style="text-align: left;" | ''[[American English|US]]'' {{lang|en|a'''t'''om}}
+|-
+! <big>/{{IPA link|s̺|s}}/</big>
+| colspan="4" | <big>{{IPA link|s̺|s}}</big>
+| style="text-align: left;" | {{lang|ca|'''s'''et}}, {{lang|ca|e'''s'''tà}}, {{lang|ca|feli'''ç'''}}
+| style="text-align: left;" | {{lang|en|'''s'''ick}}
+|-
+! rowspan="2" | <big>/{{IPA link|ɕ|ʃ}}/</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| rowspan="3" colspan="4" | <big>{{IPA link|ɕ|ʃ}}</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| style="text-align: left;" | {{lang|ca|'''x'''ec}}
+| style="text-align: left;" rowspan="3" | {{lang|en|'''sh'''ip}}
+|-
+| style="text-align: left;" | {{lang|ca|gui'''x'''}}
+|-
+! <big>/{{IPA link|i̯|i}}{{IPA link|ɕ|ʃ}}/</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| style="text-align: left;" | {{lang|ca|ca'''ix'''a}}
+|-
+! <big>/{{IPA link|t̪|t}}/</big>
+| colspan="4" | <big>{{IPA link|t̪|t}}</big>
+| style="text-align: left;" | {{lang|ca|'''t'''erra}}, {{lang|ca|fre'''d'''}}
+| style="text-align: left;" | {{lang|en|s'''t'''and}}
+|-
+! <big>/{{IPA link|ts}}/</big>
+| colspan="4" | <big>{{IPA link|ts}}</big>
+| style="text-align: left;" | {{lang|ca|po'''ts'''er}}
+| style="text-align: left;" | {{lang|en|ca'''ts'''}}
+|-
+! rowspan="2" | <big>/{{IPA link|tɕ|tʃ}}/</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| colspan="4" | <big>{{IPA link|tɕ|tʃ}}</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| style="text-align: left;" | {{lang|ca|'''tx'''ec}}, {{lang|ca|mi'''g'''}}
+| style="text-align: left;" | {{lang|en|'''ch'''eap}}
+|-
+| colspan="4" | <big>{{IPA link|j}}</big>
+| style="text-align: left;" | {{lang|ca|va'''ig'''}}
+| style="text-align: left;" | {{lang|en|'''y'''oung}}
+|-
+! <big>/{{IPA link|v}}/</big>
+| colspan="4" | <big>{{IPA link|v}}</big>
+| style="text-align: left;" | {{lang|ca|'''v'''ell}}, {{lang|ca|a'''v'''anç}}
+| style="text-align: left;" | {{lang|en|'''v'''est}}
+|-
+! <big>/{{IPA link|z̺|z}}/</big>
+| colspan="4" | <big>{{IPA link|z̺|z}}</big>
+| style="text-align: left;" | {{lang|ca|'''z'''el}}, {{lang|ca|e'''s'''ma}}
+| style="text-align: left;" | {{lang|en|'''z'''ebra}}
+|-
+! rowspan="2" | <big>/({{IPA link|dʑ|d}}){{IPA link|ʑ|ʒ}}/</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| colspan="3" | <big>{{IPA link|ʑ|ʒ}}</big><!--The link is correct, as Catalan postalveolar sibilants are in fact alveolo-palatal (Wheeler (2005:10)).-->
+| rowspan="2" | <big>{{IPA link|dʑ|dʒ}}</big><!--The link is correct, as Catalan postalveolar sibilants are in fact [[alveolo-palatal consonant|alveolo-palatal]] (Wheeler (2005:10)).-->
+| style="text-align: left;" | {{lang|ca|'''j'''a}} (''rest of'' {{abbr|B|Balearic Catalan}} & {{abbr|A|Alguerese Catalan}}), {{lang|ca|'''j'''oc}}, {{lang|ca|'''g'''espa}}
+| style="text-align: left;" | {{lang|en|'''g'''enre}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|'''j'''eep}} ({{abbr|A|Alguerese Catalan}})
+|-
+| colspan="3" | <big>{{IPA link|dʑ|dʒ}}</big>
+| style="text-align: left;" | {{lang|ca|va'''ig''' entrar}}
+| style="text-align: left;" | {{lang|en|'''j'''eep}}
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | [[Syllabic consonant]]s
+|-
+! <big>/{{IPA link|ɫ|l}}/</big>
+| colspan="4" | <big>{{IPA link|l̩}}</big>
+| style="text-align: left;" | {{lang|ca|arreg'''l'''}} ({{lang|ca|arreglo}} {{abbr|C|Standard Catalan}} / {{lang|ca-valencia|arregle}} {{abbr|V|Standard Valencian}})
+| style="text-align: left;"| {{lang|en|wrink'''le'''}}
+|-
+! <big>/{{IPA link|ɾ}}/</big>
+| colspan="4" | <big>{{IPA link|ɾ̩}}</big>
+| style="text-align: left;" | {{lang|ca|comp'''r'''}} ({{lang|ca|compro}} {{abbr|C|Standard Catalan}} / {{lang|ca-valencia|compre}} {{abbr|V|Standard Valencian}})
+| style="text-align: left;" | ''[[American English|US]]'' {{lang|en|camp'''er'''}}
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | Marginal consonants
+|-
+! <big>/{{IPA link|h}}/</big>
+| colspan="4" | <big>{{IPA link|h}}</big>
+| style="text-align: left;" | {{lang|ca|e'''h'''em}}
+| style="text-align: left;" | {{lang|en|'''h'''ot}}
+|-
+! <big>/{{IPA link|θ}}/</big>
+| colspan="4" | <big>{{IPA link|θ}}</big>
+| style="text-align: left;" | {{lang|el|'''th'''eta}}, {{lang|es|Lópe'''z'''}}
+| style="text-align: left;" | {{lang|en|'''th'''ing}}
+|-
+! <big>/{{IPA link|x}}/</big>
+| colspan="4" | <big>{{IPA link|x}}</big>
+| style="text-align: left;" | {{lang|ar|'''kh'''arja}}, {{lang|de|Ba'''ch'''}}
+| style="text-align: left;" | ''[[Scots language|Scots]]'' {{lang|sco|lo'''ch'''}}
+|-
+| colspan="7" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | [[Semivowel]]s
+|-
+! rowspan="2" | Phoneme !! colspan="3" | {{abbr|B|Balearic Catalan}} !! rowspan="2" | {{abbr|A|Alguerese Catalan}} !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+! {{abbr|Ib.|Ibizan}} !! {{abbr|Ma.|Majorcan}} !! {{abbr|Mi.|Minorcan}}
+|-
+! <big>/{{IPA link|j}}/</big>
+| colspan="4" | <big>{{IPA link|j}}</big>
+| style="text-align: left;" | {{lang|ca|'''i'''ode}}, {{lang|ca|'''j'''a}} ({{abbr|Ib.|Ibizan}})
+| style="text-align: left;" | {{lang|en|'''y'''oung}}
+|-
+! <big>/{{IPA link|w}}/</big>
+| colspan="4" | <big>{{IPA link|w}}</big>
+| style="text-align: left;" | {{lang|ca|q'''u'''atre}}, {{lang|ca|pro'''v'''}} (Old {{abbr|Ma.|Majorcan}})
+| style="text-align: left;" | {{lang|en|q'''u'''ick}}
+|-
+| colspan="7" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | [[Vowel]]s
+|-
+! rowspan="2" | Phoneme !! colspan="3" | {{abbr|B|Balearic Catalan}} !! rowspan="2" | {{abbr|A|Alguerese Catalan}} !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+! {{abbr|Ib.|Ibizan}} !! {{abbr|Ma.|Majorcan}} !! {{abbr|Mi.|Minorcan}}
+|-
+! rowspan="3" | <big>/{{IPA link|ä|a}}/</big>
+| rowspan="2" | <big>{{IPA link|ä|a}}</big>
+| <big>{{IPA link|ä|a}}</big>
+| colspan="2" rowspan="2" | <big>{{IPA link|ä|a}}</big>
+| style="text-align: left;" | {{lang|ca|an'''a'''r}}, {{lang|ca|m'''à'''}}
+| style="text-align: left;" | {{lang|en|f'''a'''ther}}
+|-
+| <big>{{IPA link|æ}}</big>
+| style="text-align: left;" | {{lang|ca|c'''a'''sa}}, {{lang|ca|s'''a'''c}}
+| style="text-align: left;" | {{lang|en|b'''a'''t}}
+|-
+| colspan="3" | <big>{{IPA link|ə}}</big>
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align: left;" | {{lang|ca|cas'''a'''}}, {{lang|ca|'''a'''nar}}
+| style="text-align: left;" | {{lang|en|alph'''a'''}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|f'''a'''ther}} ({{abbr|A|Alguerese Catalan}})
+|-
+! <big>/{{IPA link|ɛ}}/</big>
+| colspan="4" | <big>{{IPA link|ɛ}}</big>
+| style="text-align: left;" | {{lang|ca|s'''e'''t}}
+| style="text-align: left;" | {{lang|en|p'''e'''t}}
+|-
+! <big>/{{IPA link|ə}}/</big> (*)
+| colspan="3" rowspan="3" | <big>{{IPA link|ə}}</big>
+| <big>{{IPA link|e}}</big>
+| style="text-align: left;" | {{lang|ca|s'''e'''c}}
+| style="text-align: left;" | {{lang|en|alph'''a'''}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|f'''a'''ce}} ({{abbr|A|Alguerese Catalan}})
+|-
+! rowspan="3" | <big>/{{IPA link|e}}/</big>
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align: left;" | {{lang|ca|'''e'''ntens}}
+| style="text-align: left;" | {{lang|en|alph'''a'''}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|f'''a'''ther}} ({{abbr|A|Alguerese Catalan}})
+|-
+| <big>{{IPA link|i}}</big>
+| style="text-align: left;" | {{lang|ca|naix'''e'''ment}}
+| style="text-align: left;" | {{lang|en|alph'''a'''}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|m'''ee'''t}} ({{abbr|A|Alguerese Catalan}})
+|-
+| colspan="4" | <big>{{IPA link|e}}</big>
+| style="text-align: left;" | {{lang|ca|s'''é'''c}}
+| style="text-align: left;" | {{lang|en|f'''a'''ce}}
+|-
+! rowspan="2" | <big>/{{IPA link|i}}/</big>
+| colspan="3" rowspan="2" | <big>{{IPA link|i}}</big>
+| <big>{{IPA link|i}}</big>
+| style="text-align: left;" | {{lang|ca|s'''i'''c}}
+| style="text-align: left;" | {{lang|en|m'''ee'''t}}
+|-
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align: left;" | {{lang|ca|'''i'''nserir}}
+| style="text-align: left;" | {{lang|en|m'''ee'''t}} ({{abbr|B|Balearic Catalan}}) / f'''a'''ther ({{abbr|A|Alguerese Catalan}})
+|-
+! <big>/{{IPA link|ɔ}}/</big>
+| colspan="4" | <big>{{IPA link|ɔ}}</big>
+| style="text-align: left;" | {{lang|ca|s'''o'''c}}
+| style="text-align: left;" | {{lang|en|'''o'''ff}}
+|-
+! rowspan="3" | <big>/{{IPA link|o}}/</big>
+| rowspan="2" | <big>{{IPA link|o}}</big>
+| rowspan="3" | <big>{{IPA link|o}}</big>
+| rowspan="2" | <big>{{IPA link|o}}</big>
+| <big>{{IPA link|o}}</big>
+| style="text-align: left;" | {{lang|ca|s'''ó'''c}}, {{lang|ca|m'''o'''lt}}
+| style="text-align: left;" | {{lang|en|st'''o'''ry}}
+|-
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align: left;" | {{lang|ca|h'''o'''spital}}
+| style="text-align: left;" | {{lang|en|st'''o'''ry}} ({{abbr|B|Balearic Catalan}}) / {{lang|en|f'''a'''ther}} ({{abbr|A|Alguerese Catalan}})
+|-
+| rowspan="2" | <big>{{IPA link|u}}</big>
+| colspan="2" rowspan="2" | <big>{{IPA link|u}}</big>
+| style="text-align: left;" | {{lang|ca|'''o'''ratge}}
+| style="text-align: left;" | {{lang|en|r'''u'''le}} (''rest of'' {{abbr|B|Balearic Catalan}} & {{abbr|A|Alguerese Catalan}}) / {{lang|en|st'''o'''ry}} ({{abbr|Ma.|Majorcan}})
+|-
+! <big>/{{IPA link|u}}/</big>
+| <big>{{IPA link|u}}</big>
+| style="text-align: left;" | {{lang|ca|s'''u'''c}}, {{lang|ca|d'''u'''es}}
+| style="text-align: left;" | {{lang|en|r'''u'''le}}
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | Marginal vowels
+|-
+! <big>/{{IPAlink|y}}/</big>
+| colspan="4" | <big>{{IPAlink|y}}</big>
+| style="text-align: left;" | {{lang|fr|déjà v'''u'''}}
+| style="text-align: left;" | {{lang|en|c'''u'''te}}
+|-
+| colspan="7" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | [[International Phonetic Alphabet#Suprasegmentals|Suprasegmentals]]
+|-
+! rowspan="2" | Phoneme !! colspan="3" | {{abbr|B|Balearic Catalan}} !! rowspan="2" | {{abbr|A|Alguerese Catalan}} !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+! {{abbr|Ib.|Ibizan}} !! {{abbr|Ma.|Majorcan}} !! {{abbr|Mi.|Minorcan}}
+|-
+! <big>{{IPA link|ˈ}}</big>
+| colspan="4" | <big>{{IPA link|ˈ}}</big>
+| style="text-align: left;" | {{lang|ca|'''Ai'''na}} <br> {{IPA|[ˈainə]}} ({{abbr|B|Balearic Catalan}}) / {{IPA|[ˈaina]}} ({{abbr|A|Alguerese Catalan}})
+| style="text-align: left;" | primary stress
+|-
+! <big>{{IPA link|ˌ}}</big>
+| colspan="4" | <big>{{IPA link|ˌ}}</big>
+| style="text-align: left;" | {{lang|ca|'''Bell'''ver}} <br> {{IPA|[ˌbeʎˈvə]}} ({{abbr|B|Balearic Catalan}}) / {{IPA|[ˌbelˈve]}} ({{abbr|A|Alguerese Catalan}})
+| style="text-align: left;" | secondary stress
+|-
+! <big>{{IPA link|.}}</big>
+| colspan="4" | <big>{{IPA link|.}}</big>
+| style="text-align: left;" | {{lang|ca|Ba'''dia'''}} <br> {{IPA|[bəˈði.ə]}} ({{abbr|B|Balearic Catalan}}) / {{IPA|[baði.a]}} ({{abbr|A|Alguerese Catalan}})
+| style="text-align: left;" | syllable break
+|-
+! <big>{{IPA link|ː}}</big>
+| colspan="4" | <big>{{IPA link|ː}}</big>
+| style="text-align: left;" | {{lang|ca|Ge'''mm'''a}} <br> {{IPA|[ˈʒemːə]}} ({{abbr|B|Balearic Catalan}}) / {{IPA|[ˈdʒemːa]}} ({{abbr|A|Alguerese Catalan}})
+| style="text-align: left;" | long consonant/vowel
+|-
+! colspan="5" | [[Help:IPA|IPA]] !! colspan="2" | Other representations
+|-
+! <big>( )</big>
+| colspan="4" | <big>( )</big>
+| style="text-align: left;" | {{lang|ca|Cam'''p'''s}} <br> {{IPA|[ˈkam(p)s]}} ({{abbr|B|Balearic Catalan}} / {{abbr|A|Alguerese Catalan}})
+| style="text-align: left;" | optional sound
+|}
+|}
+
+:<small>(*) Stressed {{IPA|/ə/}} corresponds to {{IPA|/ɛ/}} in Central Catalan and {{IPA|/e/}} in Western Catalan.</small>
+
+== Bibliography ==
+{{refbegin}}
+* {{Citation
+|last=Lloret
+|first=Maria-Rosa
+|year=
+|title=The phonological role of paradigms: The case of insular Catalan 
+|place=Barcelona
+|publisher=University of Barcelona
+|issn=
+}}
+* {{Citation
+|last=Serra
+|first=Pep
+|year=2016
+|title=Territorial  singularity  reflected  on  a  linguistic particularity:  about  a  regressive  assimilation in  insular  Catalan
+|place=Girona
+|publisher=University of Girona
+|issn=1616-413X
+}}
+* {{Citation
+|last=
+|first=
+|year=2003
+|title=El català de l'Alguer: un model d'àmbit restringit
+|place=Barcelona
+|publisher=Institut d'Estudis Catalans (IEC)
+|issn=
+}}
+{{refend}}
+
+{{IPA keys}}
