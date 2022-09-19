@@ -1,0 +1,267 @@
+{{IPA key|H:IPA-GL}}
+The charts below show the way in which the  [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Galician language]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-gl}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}
+
+See [[Galician phonology]] for a more thorough look at the sounds of Galician. 
+
+{| style="background: none"
+| style="vertical-align:top;" | 
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="3" | [[Consonant]]s 
+|-
+! [[Help:IPA|IPA]] !! Examples !! English approximation
+|-
+| <big>{{IPA link|b}}</big>
+| style="text-align:left;" | '''b'''aixo, '''v'''iver, '''w'''eber
+| style="text-align:left;" | '''b'''est
+|-
+| <big>{{IPA link|β̞|β}}</big>
+| style="text-align:left;" | a'''b'''aixo, vi'''v'''er<ref name="lenition">Voiced stops {{IPA|/b/}}, {{IPA|/d/}}, and {{IPA|/ɡ/}} are [[Lenition|lenited]] to [[Approximant consonant|approximants]] {{IPA|[{{IPA link|β̞}}, {{IPA link|ð̞}}, {{IPA link|ɣ˕}}]}} (frequently represented without the undertacks) of the same [[place of articulation]] except after a pause or a [[nasal vowel]], when they are stops {{IPA|[{{IPA link|b}}, {{IPA link|d̪|d}}, {{IPA link|ɡ}}]}}, like English ''b, d, g''.</ref>
+| style="text-align:left;" | ''between'' ba'''b'''y ''and'' be'''v'''y
+|-
+| <big>{{IPA link|d̪|d}}</big>
+| style="text-align:left;" | '''d'''edo
+| style="text-align:left;" | '''d'''ice
+|-
+| <big>{{IPA link|ð̞|ð}}</big>
+| style="text-align:left;" | de'''d'''o,<ref name="lenition"/> (''dialectal'') fa'''z'''er
+| style="text-align:left;" | o'''th'''er
+|-
+| <big>{{IPA link|f}}</big>
+| style="text-align:left;" | '''f'''aro, na'''f'''ta, '''Ph'''ilip
+| style="text-align:left;" | '''f'''ace
+|-
+| <big>{{IPA link|ɡ}}</big>
+| style="text-align:left;" | '''g'''alego
+| style="text-align:left;" | a'''g'''o
+|-
+| <big>{{IPA link|ɣ̞|ɣ}}</big>
+| style="text-align:left;" | gale'''g'''o<ref name="lenition"/>
+| style="text-align:left;" | ''between'' a'''g'''o ''and'' a'''h'''old
+|-
+| <big>{{IPA link|k}}</big>
+| style="text-align:left;" | '''c'''or, '''qu'''en, '''q'''uad, '''k'''elvin
+| style="text-align:left;" | s'''c'''an
+|-
+| <big>{{IPA link|l}}</big>
+| style="text-align:left;" | '''l'''úa, ba'''ll'''et
+| style="text-align:left;" | '''l'''uck
+|-
+| <big>{{IPA link|ʎ}}</big>
+| style="text-align:left;" | '''ll'''e, bri'''ll'''o<ref name="yeísmo">Many speakers [[Delateralization|delateralize]] {{IPA|/ʎ/}} to {{IPAblink|ʝ˕}} (normally represented without the undertack).</ref>
+| style="text-align:left;" | bi'''lli'''ards
+|-
+| <big>{{IPA link|m}}</big>
+| style="text-align:left;" | a'''m'''a, la'''m'''ber
+| style="text-align:left;" | '''m'''ate
+|-
+| <big>{{IPA link|n}}</big>
+| style="text-align:left;" | ur'''n'''a, pe'''n'''sa
+| style="text-align:left;" | '''n'''ot
+|-
+| <big>{{IPA link|ŋ}}</big>
+| style="text-align:left;" | u'''nh'''a, lo'''n'''go, u'''n''', ya'''ng''', íte'''m'''
+| style="text-align:left;" | si'''ng'''er
+|-
+| <big>{{IPA link|ɲ}}</big>
+| style="text-align:left;" | u'''ñ'''a
+| style="text-align:left;" | o'''ni'''on
+|-
+|<big>{{IPA link|p}}</big>
+| style="text-align:left;" | '''p'''és
+| style="text-align:left;" | s'''p'''ouse
+|-
+| <big>{{IPA link|θ}}</big>
+| style="text-align:left;" | '''z'''oo, '''c'''ea,<ref name="seseo">[[seseo|{{IPA|/θ/}} merges with {{IPA|/s/}}]] in western dialects.</ref> '''th'''eta
+| style="text-align:left;" | '''th'''ing
+|-
+| <big>{{IPA link|r}}</big>
+| style="text-align:left;" | '''r'''ía, pa'''rr'''a
+| style="text-align:left;" | ''[[Alveolar trill|trilled r]]''
+|-
+| <big>{{IPA link|ɾ}}</big>
+| style="text-align:left;" | f'''r'''ía, pa'''r'''a, a'''r'''
+| style="text-align:left;" | ''US'' a'''t'''om
+|-
+| <big>{{IPA link|s̺|s}}</big>
+| style="text-align:left;" | '''s'''eu, ca'''s'''a, e'''s'''te
+| style="text-align:left;" | ''between'' '''s'''ip ''and'' '''sh'''ip ''([[Voiceless alveolar fricative#Retracted alveolar|retracted]])''<ref name="laminalsibilants">The alveolar sibilants {{IPA|[s, z]}} are realized as laminal in some dialects, much like the ordinary alveolar sibilants found in [[French language|French]], [[German language|German]], [[Mandarin Chinese]] as well as the [[Slavic languages]] ({{Harvcoltxt|Regueira|1996|p=82}}).</ref>
+|-
+| <big>{{IPA link|ʃ}}</big>
+| style="text-align:left;" | '''x'''ente, fla'''sh''', bei'''ge''', (''dialectal'') de'''z''', casa'''s'''
+| style="text-align:left;" | '''sh'''ip
+|-
+| <big>{{IPA link|t̪|t}}</big>
+| style="text-align:left;" | '''t'''empo
+| style="text-align:left;" | s'''t'''and
+|-
+| <big>{{IPA link|tʃ}}</big>
+| style="text-align:left;" | '''ch'''ave
+| style="text-align:left;" | ca'''tch'''
+|-
+| <big>{{IPA link|v}}</big>
+| style="text-align:left;" | a'''f'''gano<ref name="v/z/ʒ">{{IPAblink|v}}, {{IPAblink|z̺|z}} and {{IPAblink|ʒ}} are [[allophone]]s of {{IPA|/f/}}, {{IPA|/s/}} and {{IPA|/ʃ/}}, respectively, before [[Voice (phonetics)|voiced consonants]].</ref>
+| style="text-align:left;" | o'''f'''
+|-
+| <big>{{IPA link|z̺|z}}</big>
+| style="text-align:left;" | me'''s'''mo,<ref name="v/z/ʒ"/> (''dialectal'') fa'''z'''er, ca'''s'''as
+| style="text-align:left;" | ''between'' '''z'''one ''and'' '''g'''enre ''([[Voiced alveolar fricative#Retracted alveolar|retracted]])''<ref name="laminalsibilants"/>
+|-
+! colspan="3" | Dialectal consonants 
+|-
+! [[Help:IPA|IPA]] !! Examples !! English approximation
+|-
+| <big>{{IPA link|ħ}}</big>
+| style="text-align:left;" | '''gh'''ato, tri'''gh'''o<ref>In some dialects, {{IPA|/ɡ/}} is [[Lenition|spirantized]] to {{IPA|[{{IPAlink|ħ}} ~ {{IPAlink|ʕ}}]}} or {{IPA|[{{IPAlink|h}} ~ {{IPAlink|ɦ}}]}} in a phonological process known as ''[[gheada]]''. For simplicity, this process is resepresented here with {{IPA|[ħ]}} only.</ref>
+| style="text-align:left;" | '''h'''at
+|-
+| <big>{{IPA link|ʝ˕|ʝ}}</big>
+| style="text-align:left;" | '''ll'''e, ve'''ll'''o<ref name="yeísmo"/>
+| style="text-align:left;" | '''y'''ou
+|}
+| style="vertical-align:top;" | 
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="3" | Non-native consonants
+|-
+| <big>{{IPA link|dʒ}}</big>
+| style="text-align:left;" | '''j'''oule, '''g'''in, ada'''gi'''o
+| style="text-align:left;" | bu'''dge'''
+|-
+| <big>{{IPA link|h}}</big>
+| style="text-align:left;" | '''h'''ippy
+| style="text-align:left;" | '''h'''ook
+|-
+| <big>{{IPA link|ts}}</big>
+| style="text-align:left;" | '''ts'''ar, pi'''zz'''a, her'''tz'''
+| style="text-align:left;" | ''between'' ca'''ts''' ''and'' ca'''tch''' ''(retracted)''
+|-
+| <big>{{IPA link|x}}</big>
+| style="text-align:left;" | '''kh'''arxa, Ba'''ch'''<ref>{{IPA|/x/}} may be used in loanwords, foreign names and [[Castilianization|hispanicized]] names like '''''kh'''arxa'', ''Ba'''ch''''', ''Araú'''j'''o'' (instead of ''Araúxo'', pron. with {{IPAblink|ʃ}}) and ''Fa'''g'''ilde'' or ''Fa'''j'''ilde'' (instead of ''Faxilde'', pron. with {{IPAblink|ʃ}}).</ref>
+| style="text-align:left;" | lo'''ch'''
+|-
+| <big>{{IPA link|ʒ}}</big>
+| style="text-align:left;" | fla'''sh'''back<ref name="v/z/ʒ"/>
+| style="text-align:left;" | '''g'''enre
+|-
+| colspan="3" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-<!---------- Vowels ---------->
+! colspan="3" | [[Vowel]]s
+|-
+! [[Help:IPA|IPA]] !! Examples !! English approximation
+|-
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align:left;" | c'''a'''dro, m'''á'''
+| style="text-align:left;" | '''a'''rt
+|-
+| <big>{{IPA link|ä|aː}}</big>
+| style="text-align:left;" | r'''a''', '''á'''<ref>{{Harvcoltxt|Freixeiro Mato|2006}}</ref>
+| style="text-align:left;" | f'''a'''ther
+|-
+| <big>{{IPA link|ɛ}}</big>
+| style="text-align:left;" | f'''e'''ltro, caf'''é'''
+| style="text-align:left;" | s'''e'''t
+|-
+| <big>{{IPA link|e̞|e}}</big>
+| style="text-align:left;" | s'''e'''lo, t'''é'''lex
+| style="text-align:left;" | th'''e'''y
+|-
+| <big>{{IPA link|i}}</big>
+| style="text-align:left;" | l'''i'''ma, d'''i'''al, r'''í'''o, o'''ï'''ades
+| style="text-align:left;" | sk'''i'''
+|-
+| style="text-align:center;" |<big>{{IPA link|ɔ}}</big>
+| style="text-align:left;" | '''o'''vo, abi'''ó'''tico, '''ao''' fin
+| style="text-align:left;" | '''o'''ff
+|-
+| <big>{{IPA link|o̞|o}}</big>
+| style="text-align:left;" | av'''o'''a, av'''ó'''
+| style="text-align:left;" | st'''o'''ry
+|-
+| <big>{{IPA link|u}}</big>
+| style="text-align:left;" | m'''u'''la, d'''u'''al, r'''ú'''a, arg'''ü'''ír
+| style="text-align:left;" | r'''u'''ler
+|-
+! colspan="3" | Unstressed word-final vowels<ref>There are only three unstressed word-final vowels in Galician: {{IPA|[{{IPA link|ɐ}}, {{IPA link|ɪ}}, {{IPA link|ʊ}}]}}. The first one is phonemically {{IPA|/a/}}, whereas the other two vowels are a result of the neutralizations of, respectively, the non-open front vowels {{IPA|/ɛ–e–i/}} and the non-open back vowels {{IPA|/ɔ–o–u/}}. This neutralization also applies to unstressed monosyllabic words; for instance, the article ''o'' is pronounced {{IPAblink|ʊ}}. In some cases, vowels from the final unstressed set appear in other positions, as e.g. in the word ''termonuclear'' {{IPA|[ˌtɛɾmʊnukleˈaɾ]}}, because the prefix ''termo-'' is pronounced {{IPA|[ˈtɛɾmʊ]}} ({{Harvcoltxt|Freixeiro Mato|2006|p=112}}, {{Harvcoltxt|Regueira|2010|pp=13–14, 21}}).</ref>
+|-
+| <big>{{IPA link|ɐ}}</big>
+| style="text-align:left;" | hor'''a''', n'''a'''
+| style="text-align:left;" | '''u'''nrest
+|-
+| <big>{{IPA link|ɪ}}</big>
+| style="text-align:left;" | ont'''e''', s'''e'''
+| style="text-align:left;" | k'''i'''t
+|-
+| <big>{{IPA link|ʊ}}</big>
+| style="text-align:left;" | niñ'''o''', term'''o'''nuclear, d'''o'''
+| style="text-align:left;" | outp'''u'''t
+|-
+| colspan="3" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="3" | [[Semivowel]]s 
+|-
+! [[Help:IPA|IPA]] !! Examples !! English approximation
+|-
+| <big>{{IPA link|j}}</big>
+| style="text-align:left;" | sa'''i'''a, cil'''i'''o, pa'''i''', spra'''y'''
+| style="text-align:left;" | '''y'''et / bo'''y'''
+|-
+| <big>{{IPA link|w}}</big>
+| style="text-align:left;" | ten'''u'''e, biling'''ü'''e, pa'''u''', '''w'''att
+| style="text-align:left;" | s'''w'''itch / co'''w'''
+|-
+| colspan="3" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="3" | [[International Phonetic Alphabet#Suprasegmentals|Suprasegmentals]]
+|-
+! [[Help:IPA|IPA]] !! Examples !! Explanation
+|-
+| <big>{{IPA link|ˈ}}</big>
+| style="text-align:left;" | A'''rou'''sa {{IPA|[aˈɾowsɐ]}}
+| style="text-align:left;" | primary stress
+|-
+| <big>{{IPA link|ˌ}}</big>
+| style="text-align:left;" | '''Vi'''lamarín {{IPA|[ˌbilɐmaˈɾiŋ]}}
+| style="text-align:left;" | secondary stress
+|-
+| <big>{{IPA link|.}}</big>
+| style="text-align:left;" | '''rí'''as {{IPA|[ˈri.ɐs]}}
+| style="text-align:left;" | syllable break
+|}
+|}
+
+==Notes==
+{{Reflist}}
+
+==References==
+{{Refbegin}}
+* {{Citation
+|last=Freixeiro Mato
+|first=Xosé Ramón
+|title=Gramática da lingua galega
+|date=2006
+|publisher=Edicións A Nosa Terra
+|location=Vigo
+|isbn=9788483410608
+|edition=2
+}}
+* {{Citation
+|last=Regueira
+|first=Xosé Luís
+|title=Dicionario de pronuncia da lingua galega
+|year=2010
+|publisher=Real Academia Galega
+|location=A Coruña
+|isbn=978-84-87987-77-9
+|url=http://ilg.usc.es/pronuncia/dicionario_fonetico_introducion.pdf
+}}
+{{Refend}}
+
+==External links==
+{{Refbegin}}
+* {{Cite web
+|url=http://ilg.usc.es/pronuncia/
+|title=Dicionario de pronuncia da lingua galega
+|publisher=Ilg.usc.es
+}}
+{{Refend}}
+
+{{IPA keys}}
