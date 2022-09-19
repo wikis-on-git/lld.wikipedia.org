@@ -1,0 +1,80 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+|colspan="2" align="center" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|310px|center]]}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:120%" | {{{Inuem luech}}}
+|-
+!colspan="2" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inuem luech}}}]]|}}|}}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Nfurmazions prinzipeles
+|-valign="top"
+| style="width:130px;font-size:90%" | '''Stat''' || style="width:180px;font-size:90%" | {{flag|Spania}}
+|- valign="top" 
+|style="width:130px;font-size:90%" |'''[[Cumuniteies autonomes de la Spania|Cumunità autonoma]]''' || style="width:180px;font-size:90%" | {{{Cumunità autonoma}}}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Provinzia|}}}|'''[[Provinzies de la Spania|Provinzia]]'''}} || style="width:180px;font-size:90%" |{{#if:{{{Provinzia|}}}| {{{Provinzia}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Fundazion|}}}|'''Fundazion'''}} || style="width:180px;font-size:90%" | {{#if:{{{Fundazion|}}}|{{{Fundazion}}}}}
+|- valign="top"
+| valign="top" style="font-size:90%"|'''Populazion''' || valign="top" style="font-size:90%"| {{#if:{{{Abitanc|}}}|{{formatnum:{{{Abitanc}}}}} ab. ({{{Data abitanc}}})}}
+|-
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Geografia
+|- valign="top"
+|style="width:130px;font-size:90%" | '''Coordinedes''' ||  style="width:180px;font-size:90%" | {{{Coordinates}}}
+|- 
+{{#if:{{{Autëza|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Autëza'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Autëza}}} m <small>sëura l livel dl mer</small>  |  }}
+{{#if:{{{Spersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Spersa'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{{Spersa}}}}}&nbsp;km²   |  }}
+{{#if:{{{Spersa|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Densità'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{formatnum:{{#expr: {{{Abitanc}}} / {{{Spersa}}} round 2 }}&nbsp;ab./km²}}  |    }}
+|-
+{{#if:{{{INSEE|}}}  | 
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" {{!}} Auter
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''[[INSEE]]'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{INSEE}}}  |  }}
+{{#if:{{{Codesc posta|}}}  | 
+{{!}}-  
+{{!}}style="width:160px;font-size:90%" {{!}} '''Codesc de la posta'''  {{!}}{{!}} style="width:160px;font-size:90%" align="left" {{!}} {{{Codesc posta}}}  |  
+{{!}}-  }}
+|-
+!colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Cherta
+|-
+|colspan="2" align="center" | {{{Cherta}}}
+|-
+|}</includeonly>
+<noinclude>
+{{Infobox chemun Spania
+|Foto                   = Barcelona_collage.JPG
+|Inuem luech            = Barcelona
+|Blason                 = Escudo_de_Barcelona.svg
+|Cumunità autonoma      = {{flag|Catalonia}}
+|Dipartimënt            = [[Lyon Metropolis]]
+|Fundazion              =
+|Spersa                 = 50
+|Coordinates            = {{coord|45|50|N|4|50|E|display=inline}}   <!--mantenì genau chësc format-->
+|Data abitanc           = 1-1-2019
+|Abitanc                = 1636732
+|Spersa               = 101.3
+|INSEE                  =  546
+|Codesc posta           =
+|Cherta                 = {{Mappa di localizzazione
+|FRA
+|label = Lyon
+|latitudineGradi = 45
+|latitudinePrimi = 50
+|longitudineGradi = 4
+|longitudinePrimi = 50
+|position = top
+|width = 300
+|float = center
+|relief = yes
+}}
+}}[[Categoria:Templates Franzia]]</noinclude>
