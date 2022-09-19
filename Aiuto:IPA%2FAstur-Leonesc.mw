@@ -1,0 +1,477 @@
+{{IPA key|H:IPA-AST|H:IPA-LE}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Leonese dialect| Leonese]], [[Asturian language|Asturian]], [[Extremaduran language|Extremaduran]] and [[Mirandese language|Mirandese]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-ast}}, {{tl|IPA-le}}, {{tl|IPA-mwl}}, {{tl|IPA-ext}}, and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+<!---------- Consonants ---------->
+{| style="background: none"
+| style="vertical-align:top;" | 
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="5" | [[Consonant]]s
+|-
+! colspan="3" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+! {{flagicon|Asturias}}
+
+{{flagicon|León}} <br> {{abbr|AL|Asturian and Leonese}} 
+!{{flagicon|Extremadura}} <br> {{abbr|E|Extremaduran}} !! {{flagicon|Miranda do Douro}} <br>  {{abbr|M|Mirandese}}
+|-
+| colspan="2" | <big>{{IPA link|b}}</big>
+| rowspan="2" | <big>{{IPA link|b}}</big>
+| style="text-align:left" | '''b'''ota, '''v'''ida / '''b'''ida
+| style="text-align:left" | '''b'''est
+|-
+| <big>{{IPA link|ɸ}}</big>
+| <big>{{IPA link|ː}}</big>
+| style="text-align:left" | a'''b'''dicar
+| style="text-align:left" | ''[[Japanese language|Japanese]]'' '''F'''umiko (''{{abbr|AL|Asturian and Leonese}}''), '''b'''est (''{{abbr|M|Mirandese}}'')
+|-
+| rowspan="2" | <big>{{IPA link|β}}</big>
+| <big>{{IPA link|β}}</big>
+| rowspan="2" | <big>{{IPA link|β}}</big>
+| style="text-align:left" | la '''v'''ida / la '''b'''ida, ca'''b'''ra
+| style="text-align:left" | ''between'' ba'''b'''y ''and'' be'''v'''y
+|-
+| <big>{{IPA link|ɸ}}{{IPA link|ː}}</big>
+| style="text-align:left" | las '''v'''idas / las '''b'''idas
+| style="text-align:left" | ''between'' ba'''b'''y ''and'' be'''v'''y (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), ''Japanese'' '''F'''umiko (''{{abbr|E|Extremaduran}}'')
+|-
+| colspan="3" | <big>{{IPA link|d̪|d}}</big>
+| style="text-align:left" | '''d'''e, on'''d'''a
+| style="text-align:left" | '''d'''ate
+|-
+| rowspan="2" | <big>{{IPA link|ð}}</big>
+| <big>{{IPA link|ð}}</big>
+| rowspan="2" | <big>{{IPA link|ð}}</big>
+| style="text-align:left" | se'''d'''o, pa'''d'''re
+| style="text-align:left" | o'''th'''er
+|-
+| <big>{{IPA link|θ}}{{IPA link|ː}}</big>
+| style="text-align:left" | des'''d'''e
+| style="text-align:left" | o'''ther''' (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), '''th'''ing (''{{abbr|E|Extremaduran}}'')
+|-
+| rowspan="3" | <big>{{IPA link|f}}</big>
+| <big>{{IPA link|ɸ}}</big>
+| rowspan="3" | <big>{{IPA link|f}}</big>
+| style="text-align:left" | '''f'''ueu
+| style="text-align:left" | '''f'''ace (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), ''Japanese'' '''F'''umiko (''{{abbr|E|Extremaduran}}'')
+|-
+| rowspan="2" | <big>{{IPA link|h}}</big>
+| style="text-align:left" | '''f'''ierro / '''h'''ierro / '''f'''iêrro
+| rowspan="2" style="text-align:left" | '''f'''ace (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), '''h'''ope (''{{abbr|E|Extremaduran}}'')
+|-
+| style="text-align:left" | na'''f'''ta
+|-
+| colspan="2" | <big>{{IPA link|ɡ}}</big>
+| rowspan="2" | <big>{{IPA link|ɡ}}</big>
+| style="text-align:left" | '''g'''ata, an'''gu'''ila
+| style="text-align:left" | '''g'''ot
+|-
+| <big>{{IPA link|x}}</big>
+| <big>{{IPA link|ŋ}}</big>
+| style="text-align:left" | di'''g'''no, a'''c'''né
+| style="text-align:left" | ''[[Scottish English|Scottish]]'' lo'''ch''' (''{{abbr|AL|Asturian and Leonese}}''), si'''ng''' (''{{abbr|E|Extremaduran}}''), '''g'''ot (''{{abbr|M|Mirandese}}'')
+|-
+| rowspan="2" | <big>{{IPA link|ɣ}}</big>
+| <big>{{IPA link|ɣ}}</big>
+| rowspan="2" | <big>{{IPA link|ɣ}}</big>
+| style="text-align:left" | a'''g'''ora, á'''gu'''ila
+| style="text-align:left" | ''between'' a'''g'''o ''and'' a'''h'''old
+|-
+| <big>{{IPA link|x}}{{IPA link|ː}}</big>
+| style="text-align:left" | (d)es'''g'''racia / des'''g'''raça
+| style="text-align:left" | ''between'' a'''g'''o ''and'' a'''h'''old (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), ''Scottish'' lo'''ch''' (''{{abbr|E|Extremaduran}}'')
+|-
+| rowspan="2" | <big>{{IPA link|ʝ}}</big>
+| <big>{{IPA link|h}}</big>
+| <big>{{IPA link|ʎ}}</big>
+| style="text-align:left" | mu'''y'''er / mu'''j'''er / mu'''lh'''ier
+| style="text-align:left" | be'''y'''ond (''{{abbr|AL|Asturian and Leonese}}''), '''h'''ope (''{{abbr|E|Extremaduran}}''), mi'''lli'''on (''{{abbr|M|Mirandese}}'')
+|-
+| <big>{{IPA link|ʝ}}</big>
+| <big>{{IPA link|j}}</big>
+| style="text-align:left" | o'''y'''e / o'''y'''i 
+| style="text-align:left" | be'''y'''ond
+|-
+| <big>{{IPA link|ɟʝ}}</big>
+| <big>{{IPA link|dʒ}}</big>
+| <big>{{IPA link|ʒ}}</big>
+| style="text-align:left" | cón'''y'''uxe / cón'''y'''uji / cón'''j'''uge
+| style="text-align:left" | en'''d'''ure (''{{abbr|AL|Asturian and Leonese}}''), in'''j'''ure, ''[[Polish language|Polish]]'' '''dź'''więk (''{{abbr|E|Extremaduran}}''), '''g'''enre, ''Polish'' '''ź'''rebię (''{{abbr|M|Mirandese}}'')
+|-
+| colspan="3" | <big>{{IPA link|k}}</big>
+| style="text-align:left" | '''c'''un, '''qu'''e, '''c'''ual / '''q'''ual
+| style="text-align:left" | s'''c'''an
+|-
+| rowspan="2" | <big>{{IPA link|l}}</big>
+| <big>{{IPA link|l}}</big>
+| rowspan="2" | <big>{{IPA link|l}}</big>
+| style="text-align:left" | sa'''l'''ir
+| style="text-align:left" | '''l'''ip
+|-
+| <big>{{IPA link|ɾ}}</big>
+| style="text-align:left" | a'''l'''to
+| style="text-align:left" | '''l'''ip (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), ''[[American English|US]]'' la'''dd'''er (''{{abbr|E|Extremaduran}}'')
+|-
+| colspan="2" style="background-color: gray" |
+| <big>{{IPA link|l̩}}</big>
+| style="text-align:left" | '''l'''<ref>In Mirandese, the article ''l'' (the) is pronounced {{IPA|[l̩]}} (phonemically {{IPA|/ɨl/}}).</ref>
+| style="text-align:left" | bott'''le'''
+|-
+| colspan="3" | <big>{{IPA link|ʎ}}</big>
+| style="text-align:left" | '''ll'''ingua / '''lh'''éngua
+| style="text-align:left" | mi'''lli'''on
+|-
+| colspan="3" | <big>{{IPA link|m}}</big>
+| style="text-align:left" | '''m'''es, a'''m'''ar
+| style="text-align:left" | '''m'''other
+|-
+| colspan="3" | <big>{{IPA link|n}}</big>
+| style="text-align:left" | '''n'''aide, sa'''n'''a
+| style="text-align:left" | '''n'''eed
+|-
+| colspan="2" | <big>{{IPA link|ŋ}}</big>
+| style="background-color: gray" |
+| style="text-align:left" | pi'''n'''ga, e'''n''', álbu'''m''' / álbu'''n'''<ref>In Extremaduran, {{IPA|/n/}} is the only final consonant that is always pronounced.</ref>
+| style="text-align:left" | si'''ng'''
+|-
+| colspan="3" | <big>{{IPA link|ɲ}}</big>
+| style="text-align:left" | a'''ñ'''us / a'''nh'''os
+| style="text-align:left" | ca'''ny'''on
+|-
+| colspan="3" | <big>{{IPA link|p}}</big>
+| style="text-align:left" | '''p'''ero
+| style="text-align:left" | s'''p'''ouse
+|-
+| <big>{{IPA link|r}}</big>
+| rowspan="2" | <big>{{IPA link|r}}</big>
+| <big>{{IPA link|r}}</big>
+| style="text-align:left" | '''r'''ato, ca'''rr'''o
+| style="text-align:left" | ''[[Alveolar trill|rolled r]]''
+|-
+| rowspan="2" | <big>{{IPA link|ɾ}}</big>
+| rowspan="2" | <big>{{IPA link|ɾ}}</big>
+| style="text-align:left" | ma'''r'''
+| style="text-align:left" | ''US'' a'''t'''om (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), ''[[Alveolar trill|rolled r]]'' (''{{abbr|E|Extremaduran}}'')
+|-
+| <big>{{IPA link|ɾ}}</big>
+| style="text-align:left" | t'''r'''ato, ca'''r'''o
+| style="text-align:left" | ''US'' a'''t'''om
+|-
+| rowspan="3" | <big>{{IPA link|s̺|s}}</big>
+| <big>{{IPA link|s̺|s}}</big>
+| rowspan="2" | <big>{{IPA link|s̺}}</big>
+| style="text-align:left" | '''s'''ol, pa'''s'''u / pa'''ss'''o
+| style="text-align:left" | ''between'' '''s'''ip ''and'' '''sh'''ip (''[[Voiceless alveolar fricative#Retracted alveolar|retracted]]''), ''Polish'' '''sz'''yć<ref name="retractedsibilants">The Mirandese contrast between the apical {{IPA|[s̺, z̺]}} and the laminal {{IPA|[s̻, z̻]}} is neutralized in favor of the former in Asturian, Leonese and Extremaduran, where the apical diacritic is not used for the sake of simplicity. The laminal {{IPA|[s̻, z̻]}} are the ordinary alveolar sibilants found in [[French language|French]], [[German language|German]], [[Mandarin Chinese]] and the [[Slavic languages]].</ref><ref name="mirandesepolish">The contrast between the apical {{IPA|/s̺, z̺/}}, the laminal {{IPA|/s̻, z̻/}} and the palato-alveolar {{IPA|/ʃ, ʒ, tʃ/}} found in Mirandese is similar to the contrast between {{IPA|/ʂ, ʐ/}}, {{IPA|/s, z/}} and {{IPA|/ɕ, ʑ, tɕ/}} in Polish.</ref>
+|-
+| <big>{{IPA link|h}}</big>
+| style="text-align:left" | e'''s'''tar / e'''s'''tal / '''s'''tar
+| style="text-align:left" | ''between'' '''s'''ip ''and'' '''sh'''ip (''retracted''), ''Polish'' '''sz'''yć (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''),<ref name="retractedsibilants"/><ref name="mirandesepolish"/> '''h'''ope (''{{abbr|E|Extremaduran}}'')
+|-
+| <big>{{IPA link|ð}}</big>
+| rowspan="2" | <big>{{IPA link|z̺}}</big>
+| style="text-align:left" | ca'''s'''a / ca'''d'''a
+| style="text-align:left" | ''between'' '''s'''ip ''and'' '''sh'''ip (''retracted''), ''Polish'' '''sz'''yć (''{{abbr|AL|Asturian and Leonese}}''),<ref name="retractedsibilants"/><ref name="mirandesepolish"/> o'''th'''er (''{{abbr|M|Mirandese}}''), ''between'' '''z'''one ''and'' '''g'''enre (''[[Voiced alveolar fricative#Retracted alveolar|retracted]]''), ''Polish'' '''ż'''yć (''{{abbr|E|Extremaduran}}'')<ref name="retractedsibilants"/><ref name="mirandesepolish"/>
+|-
+| <big>{{IPA link|z}}</big>
+| <big>{{IPA link|ɦ}}</big>
+| style="text-align:left" | e'''s'''meráu / '''s'''merado
+| style="text-align:left" | ''between'' '''z'''one ''and'' '''g'''enre (''retracted''), ''Polish'' '''ż'''yć (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''),<ref name="retractedsibilants"/><ref name="mirandesepolish"/> '''h'''ope (''{{abbr|E|Extremaduran}}'')
+|-
+| colspan="3" | <big>{{IPA link|t̪|t}}</big>
+| style="text-align:left" | '''t'''olos, ocho / oi'''t'''o
+| style="text-align:left" | s'''t'''and
+|-
+| colspan="3" | <big>{{IPA link|tʃ}}</big>
+| style="text-align:left" | '''ch'''ano, o'''ch'''o / oito
+| style="text-align:left" | ca'''tch''', ''Polish'' '''ć'''ma
+|-
+| <big>{{IPA link|v}}</big>
+| <big>{{IPA link|ɦ}}</big>
+| <big>{{IPA link|v}}</big>
+| style="text-align:left" | a'''f'''gano
+| style="text-align:left" | o'''f''' (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''), '''h'''ope (''{{abbr|E|Extremaduran}}'')
+|-
+| rowspan="4" | <big>{{IPA link|θ}}</big>
+| <big>{{IPA link|ː}}</big>
+| <big>{{IPA link|d}}</big>
+| style="text-align:left" | a'''d'''mira, ri'''t'''mo
+| style="text-align:left" | '''th'''ing (''{{abbr|AL|Asturian and Leonese}}''), '''d'''ate (''{{abbr|M|Mirandese}}'')
+|-
+| <big>{{IPA link|θ}}</big>
+| rowspan="2" | <big>{{IPA link|s̪|s̻}}</big>
+| style="text-align:left" | '''c'''ielos
+| style="text-align:left" | '''th'''ing (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|E|Extremaduran}}''), '''s'''ip, ''Polish'' '''s'''yty (''{{abbr|M|Mirandese}}'')
+|-
+| <big>{{IPA link|h}}</big>
+| style="text-align:left" | pa'''z''' / pa'''ç'''
+| style="text-align:left" | '''th'''ing (''{{abbr|AL|Asturian and Leonese}}''), '''h'''ope (''{{abbr|E|Extremaduran}}''), '''s'''ip, ''Polish'' '''s'''yty (''{{abbr|M|Mirandese}}'')
+|-
+| <big>{{IPA link|ð}}</big>
+| rowspan="2" | <big>{{IPA link|z̪|z̻}}</big>
+| style="text-align:left" | de'''c'''ir / i'''d'''el / de'''z'''ir
+| style="text-align:left" | '''th'''ing (''{{abbr|AL|Asturian and Leonese}}''), o'''th'''er (''{{abbr|E|Extremaduran}}''), '''z'''one, ''Polish'' '''z'''amek (''{{abbr|M|Mirandese}}'')
+|-
+| <big>{{IPA link|ð}}</big>
+| <big>{{IPA link|ɦ}}</big>
+| style="text-align:left" | pa'''z''' / pa'''ç''' de la tierra
+| style="text-align:left" | smoo'''th''' (''{{abbr|AL|Asturian and Leonese}}''), '''h'''ope (''{{abbr|E|Extremaduran}}''), '''z'''one, ''Polish'' '''z'''amek (''{{abbr|M|Mirandese}}'')
+|-
+| rowspan="3" | <big>{{IPA link|ʃ}}</big>
+| <big>{{IPA link|s}}</big>
+| rowspan="2" | <big>{{IPA link|ʃ}}</big>
+| style="text-align:left" | '''x'''orda / '''s'''orda 
+| style="text-align:left" | '''sh'''ip, ''Polish'' '''ś'''nieg (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''),<ref name="mirandesepolish"/> ''between'' '''s'''ip ''and'' '''sh'''ip (''retracted''), ''Polish'' '''sz'''yć (''{{abbr|E|Extremaduran}}'')<ref name="retractedsibilants"/><ref name="mirandesepolish"/>
+|-
+| rowspan="2" | <big>{{IPA link|h}}</big>
+| style="text-align:left" | ca'''x'''a / ca'''j'''a
+| style="text-align:left" | '''sh'''ip, ''Polish'' '''ś'''nieg (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''),<ref name="mirandesepolish"/> '''h'''ope (''{{abbr|E|Extremaduran}}'')
+|-
+| rowspan="2" | <big>{{IPA link|ʒ}}</big>
+| style="text-align:left" | a'''x'''unto / a'''j'''unto, ori'''x'''e / ouri'''g'''e
+| style="text-align:left" | '''sh'''ip, ''Polish'' '''ś'''nieg (''{{abbr|AL|Asturian and Leonese}}''),<ref name="mirandesepolish"/> '''h'''ope (''{{abbr|E|Extremaduran}}''), '''g'''enre, ''Polish'' '''ź'''rebię (''{{abbr|M|Mirandese}}'')<ref name="mirandesepolish"/>
+|-
+| <big>{{IPA link|ʒ}}</big>
+| <big>{{IPA link|ɦ}}</big>
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | '''g'''enre, ''Polish'' '''ź'''rebię (''{{abbr|AL|Asturian and Leonese}}'', ''{{abbr|M|Mirandese}}''),<ref name="mirandesepolish"/> a'''h'''old (''{{abbr|E|Extremaduran}}'')
+|}
+
+| style="vertical-align:top;" | 
+{| class="wikitable" style="margin: 1em 2em; text-align: center;"
+|-
+! colspan="3" | Dialectal consonants of Asturian and Leonese{{clarify|when should editors use these?}}
+|-
+! [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+!{{flagicon|Asturias}}
+
+{{flagicon|León}} <br> {{abbr|AL|Asturian and Leonese}} 
+|-
+| <big>{{IPA link|h}}</big>
+| style="text-align:left" | '''ḥ'''ierro
+| style="text-align:left" | '''h'''am
+|-
+| <big>{{IPA link|ɖ}}</big>
+| style="text-align:left" rowspan="3" | '''ḷḷ'''ingua, pa'''ts'''uezu <br> (''in some local orthographies'')<ref>Varies from a [[voiced retroflex affricate]] to a [[voiceless retroflex affricate]] and, in southwestern Asturian dialects, a [[voiced retroflex plosive]].</ref>
+| style="text-align:left" | gua'''rd'''
+|-
+| <big>{{IPA link|ɖʐ}}</big>
+| style="text-align:left" | ''somewhat like'' bu'''dge''' ''but [[voiced retroflex affricate|retroflex]]'', ''Polish'' '''dż'''em
+|-
+| <big>{{IPA link|ʈʂ}}</big>
+| style="text-align:left" | ''somewhat like'' ca'''tch''' ''but [[voiceless retroflex affricate|retroflex]]'', ''Polish'' '''cz'''ekać
+|-
+| <big>{{IPA link|ts}}</big>
+| style="text-align:left" | o'''ts'''o (ocho / oito)
+| style="text-align:left" | ''between'' ca'''ts''' ''and'' ca'''tch''' (''retracted''), ''Polish'' czeka'''ć'''
+|-
+| <big>{{IPA link|c}}</big>
+| style="text-align:left" rowspan="3" | mu'''yy'''er<ref>{{Cite web|url=http://elteixu.org/publicaciones/coleccion-de-cartografia-toponimica/tineu-mapa-del-conceyu/|title=Tinéu. Mapa del conceyu {{!}} El Teixu|language=es|access-date=2019-11-24}}</ref>
+| style="text-align:left" rowspan="2" | '''c'''ute
+|-
+| <big>{{IPA link|cç}}</big>
+|-
+| <big>{{IPA link|ɟʝ}}</big>
+| style="text-align:left" | en'''d'''ure
+|}
+<!---------- Vowels ---------->
+{| class="wikitable" style="margin: 1em 2em; text-align: center;"
+|-
+! colspan="5" | [[Vowel]]s
+|-
+! colspan="3" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+!{{flagicon|Asturias}}
+
+{{flagicon|León}} <br> {{abbr|AL|Asturian and Leonese}} 
+!{{flagicon|Extremadura}} <br> {{abbr|E|Extremaduran}} !! {{flagicon|Miranda do Douro}} <br> {{abbr|M|Mirandese}}
+|-
+| rowspan="2" colspan="2" | <big>{{IPA link|ä|a}}</big>
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align:left" | c'''a'''cho, p'''á'''
+| style="text-align:left" | f'''a'''ther
+|-
+| <big>{{IPA link|ə|ɐ}}</big>
+| style="text-align:left" | c'''a'''chico<ref name="finalunstressed">Many dialects allow only {{IPA|/a/}}, {{IPA|/i/}} and {{IPA|/u/}} in final unstressed syllables.</ref>
+| style="text-align:left" | t'''u'''b
+|-
+| rowspan="3" colspan="2" | <big>{{IPA link|e̞|e}}</big>
+| <big>{{IPA link|e}}</big>
+| style="text-align:left" | s'''e'''nu / s'''e'''no, pi'''e''' / pi'''ê'''
+| style="text-align:left" | p'''ay'''
+|-
+| <big>{{IPA link|ɛ}}</big>
+| style="text-align:left" | b'''e'''zu / b'''e'''ç, s'''é'''
+| style="text-align:left" | b'''e'''t
+|-
+| rowspan="2" | <big>{{IPA link|ɯ̽|ɨ}}</big>
+| style="text-align:left" | c'''e'''bada
+| style="text-align:left" | ros'''e'''s
+|-
+| colspan="2" | <big>{{IPA link|ɪ}}</big>
+| style="text-align:left" | {{example needed}}<ref name="finalunstressed"/>
+| style="text-align:left" | k'''i'''t ({{abbr|AL|Asturian and Leonese}}, {{abbr|E|Extremaduran}}), ros'''e'''s ({{abbr|M|Mirandese}})
+|-
+| colspan="3" | <big>{{IPA link|i}}</big>
+| style="text-align:left" | ch'''í'''charo 
+| style="text-align:left" | s'''ee'''
+|-
+| rowspan="3" colspan="2" | <big>{{IPA link|o̞|o}}</big>
+| <big>{{IPA link|o}}</big>
+| style="text-align:left" | puerta / pu'''ô'''rta
+| style="text-align:left" | c'''o'''ld
+|-
+| <big>{{IPA link|ɔ}}</big>
+| style="text-align:left" | h'''o'''me, ab'''ó'''
+| style="text-align:left" | th'''ough'''t
+|-
+| rowspan="2" | <big>{{IPA link|ʊ}}</big>
+| style="text-align:left" | c'''o'''stiella / c'''o'''stiêlha
+| rowspan="2" style="text-align:left" | infl'''u'''ence
+|-
+| colspan="2" | <big>{{IPA link|ʊ}}</big>
+| style="text-align:left" | {{example needed}}<ref name="finalunstressed"/>
+|-
+| colspan="3" | <big>{{IPA link|u}}</big>
+| style="text-align:left" | pr'''u'''ma
+| style="text-align:left" | f'''oo'''d
+|-
+! colspan="5" | Dialectal vowels
+|-
+| colspan="2" | <big>{{IPA link|ɛ}}</big>
+| style="background-color: gray" rowspan="2" |
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | b'''e'''t
+|-
+| colspan="2" | <big>{{IPA link|ɔ}}</big>
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | d'''o'''g
+|-
+| colspan="5" style="border-left: #fff solid 1px; border-right: #fff solid 1px" |  
+|-
+! colspan="5" | [[Semivowel]]s<ref name="Semivowel">The [[semivowels]] {{IPAblink|j}} and {{IPAblink|w}} can be combined with most vowels to form [[diphthong]]s and [[triphthong]]s.</ref>
+|-
+! colspan="3" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+!{{flagicon|Asturias}}
+
+{{flagicon|León}} <br> {{abbr|AL|Asturian and Leonese}} 
+!{{flagicon|Extremadura}} <br> {{abbr|E|Extremaduran}} !! {{flagicon|Miranda do Douro}} <br> {{abbr|M|Mirandese}}
+|-
+| colspan="3" | <big>{{IPA link|j}}</big>
+| style="text-align:left" | f'''i'''erro / f'''i'''êrro
+| style="text-align:left" | '''y'''ou / bo'''y'''
+|-
+| colspan="3" | <big>{{IPA link|w}}</big>
+| style="text-align:left" | p'''u'''erta / p'''u'''ôrta
+| style="text-align:left" | '''w'''ine / co'''w'''
+|-
+| colspan="5" style="border-left: #fff solid 1px; border-right: #fff solid 1px" |  
+|-
+! colspan="5" | [[International Phonetic Alphabet#Suprasegmentals|Suprasegmentals]]
+|-
+! colspan="3" | [[Help:IPA|IPA]] !! rowspan="2" | Examples !! rowspan="2" | English approximation
+|-
+!{{flagicon|Asturias}}
+
+{{flagicon|León}} <br> {{abbr|AL|Asturian and Leonese}} 
+!{{flagicon|Extremadura}} <br> {{abbr|E|Extremaduran}} !! {{flagicon|Miranda do Douro}} <br> {{abbr|M|Mirandese}}
+|-
+| colspan="3" | <big>{{IPA link|ˈ}}</big>
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | [[primary stress]], as in ''expla'''na'''tion''
+|-
+| colspan="3" | <big>{{IPA link|ˌ}}</big>
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | [[secondary stress]], as in '''''ex'''planation''
+|-
+| colspan="3" | <big>{{IPA link|.}}</big>
+| style="text-align:left" | {{example needed}}
+| style="text-align:left" | [[syllabification|syllable break]], as in ''r'''eu'''se''
+|-
+| colspan="3" | <big>{{IPA link|ː}}</big>
+| style="text-align:left" | es'''t'''i {{IPA|[ˈehtːɪ]}}
+| style="text-align:left" | [[consonant gemination]]
+|-
+! colspan="5" | Diacritics
+|-
+| style="background-color: gray" colspan="2" | 
+| <big>{{IPA link|◌̃}}</big>
+| style="text-align:left" | '''an'''tes, c'''un'''<ref name="nasal vowels">Mirandese has the following nasal vowels: {{IPA|/ɐ̃/, /ɛ̃/, /ĩ/, /ɨ̃/, /õ/}} and {{IPA|/ũ/}}.</ref>
+| style="text-align:left" | [[nasal vowel]]<ref name="nasal vowels"/>
+|}
+|}
+
+== Notes ==
+{{reflist}}
+
+== References ==
+{{refbegin}}
+
+'''Leonese'''
+*{{cite book
+|last=Asociación Cultural Faceira
+|first=
+|year=2012
+|title=Xurdir. Guía gramatical de leonés
+|language=Spanish
+|place=
+|publisher=Asociación Cultural Faceira
+|isbn=
+}}
+*{{cite web
+|url=http://faceira.org/curso-leones/
+|title=Curso basico de Llionés
+|language=Spanish
+|location=
+|publisher=
+}}
+'''Asturian'''
+
+*{{cite book
+|last=García Arias
+|first=Xosé Lluis
+|year=2003
+|title=Gramática histórica de la lengua asturiana
+|language=Spanish
+|place=
+|publisher=Academia de la Llingua Asturiana
+|isbn=
+}}
+*{{cite web
+|url=http://www.academiadelallingua.com/diccionariu/gramatica_llingua.pdf
+|title=Gramática de la Llingua Asturiana
+|language=Asturian
+|location=
+|publisher=
+}}
+
+'''Extremaduran'''
+
+*{{cite web
+|url=http://www.geolectos.com/ree-2-2003.pdf
+|title=La fonética de las hablas extremeñas
+|language=Spanish
+|location=
+|publisher=
+}}
+
+*{{cite web
+|url=http://www.oocities.org/es/poenllu/castuo.pdf
+|title=El habla en Extremadura
+|language=Spanish
+|location=
+|publisher=
+}}
+
+'''Mirandese'''
+
+*{{cite web
+|url=https://mirandes.no.sapo.pt/LMRNconvencao.pdf
+|title=Convenção Ortográfica da Língua Mirandesa
+|language=Portuguese
+|location=Lisbon
+|publisher=Câmara Municipal de Miranda do Douro / Centro de Linguística da Universidade de Lisboa
+}}
+{{refend}}
+
+{{IPA keys}}
