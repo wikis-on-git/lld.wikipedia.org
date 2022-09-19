@@ -28,6 +28,121 @@
 
 ==Storia==
 ==Geografia==
+=== Tlima ===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATURA = 
+| DIAGRAMM PREZIPITAUIONS =
+| DIAGRAMM PREZIPITAUIONS AUTEZA = 200
+| FUNTANA = [http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos?l=0076&k=cat Agencia Estatal de Meteorología, Periode 1981-2010]; [http://www.wetterkontor.de/de/klima/klima2.asp?and=es&stat=08181 wetterkontor.de (Wassertemperatur)] l
+| Titul =
+| Luech = Barcelona (Aeropuerto) (4 m)
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 13.6
+| hmfeb = 14.3
+| hmmär = 16.1
+| hmapr = 18.0
+| hmmai = 21.1
+| hmjun = 24.9
+| hmjul = 28.0
+| hmaug = 28.5
+| hmsep = 26.0
+| hmokt = 22.1
+| hmnov = 17.3
+| hmdez = 14.3
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = 4.7
+| lmfeb = 5.4
+| lmmär = 7.4
+| lmapr = 9.4
+| lmmai = 12.4
+| lmjun = 16.8
+| lmjul = 19.8
+| lmaug = 20.2
+| lmsep = 17.4
+| lmokt = 13.5
+| lmnov = 8.6
+| lmdez = 5.7
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan = 9.2
+| avfeb = 9.9
+| avmär = 11.8
+| avapr = 13.7
+| avmai = 16.9
+| avjun = 20.9
+| avjul = 23.9
+| avaug = 24.4
+| avsep = 21.7
+| avokt = 17.8
+| avnov = 13.0
+| avdez = 10.0
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 37
+| nbfeb = 35
+| nbmär = 36
+| nbapr = 40
+| nbmai = 47
+| nbjun = 30
+| nbjul = 21
+| nbaug = 62
+| nbsep = 81
+| nbokt = 91
+| nbnov = 59
+| nbdez = 40
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 4.9
+| shfeb = 5.8
+| shmär = 6.6
+| shapr = 7.6
+| shmai = 8.1
+| shjun = 8.9
+| shjul = 9.8
+| shaug = 9.0
+|shsep = 6.3
+| shokt = 5.9
+| shnov = 4.8
+| shdez = 4.5
+<!-- durchschnittliche Wassertemperatur (Meere, Seen u.ä.) für den jeweiligen Monat in °C -->
+| wtjan = 13
+| wtfeb = 12
+| wtmär = 13
+| wtapr = 14
+| wtmai = 16
+| wtjun = 19
+| wtjul = 22
+| wtaug = 24
+| wtsep = 22
+| wtokt = 20
+| wtnov = 16
+| wtdez = 14
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 3.7
+| rdfeb = 4.0
+| rdmär = 4.5
+| rdapr = 5.1
+| rdmai = 4.7
+| rdjun = 3.6
+| rdjul = 1.8
+| rdaug = 4.5
+| rdsep = 5.2
+| rdokt = 6.3
+| rdnov = 5.1
+| rddez = 4.4
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 70
+| lffeb = 70
+| lfmär = 70
+| lfapr = 69
+| lfmai = 70
+| lfjun = 68
+| lfjul = 67
+| lfaug = 68
+| lfsep = 70
+| lfokt = 73
+| lfnov = 71
+| lfdez = 69
+}}
+
 ==Referënzes==
 <references/>
 
