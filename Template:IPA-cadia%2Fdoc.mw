@@ -1,0 +1,30 @@
+== Usage ==
+This template formats IPA transcriptions and links them to [[Help:IPA/Insular Catalan]]. The transcription should match the conventions of that key. 
+
+The first cell in the template is for the transcription, and a second optional cell is a switch that controls the lede. With no second value, the lead ''Insular Catalan pronunciation:'' appears: 
+*<code><nowiki>{{IPA-cadia|tu}}</nowiki></code> → {{IPA-cadia|tu}}
+*<code><nowiki>{{IPA-cadia|tu|pron}}</nowiki></code> → {{IPA-cadia|tu|pron}}
+*<code><nowiki>{{IPA-cadia|tu|lang}}</nowiki></code> → {{IPA-cadia|tu|lang}}
+*<code><nowiki>{{IPA-cadia|tu|ba}}</nowiki></code> → {{IPA-cadia|tu|ba}}
+*<code><nowiki>{{IPA-cadia|tu|lang-ba}}</nowiki></code> → {{IPA-cadia|tu|lang-ba}}
+*<code><nowiki>{{IPA-cadia|tu|al}}</nowiki></code> → {{IPA-cadia|tu|al}}
+*<code><nowiki>{{IPA-cadia|tu|lang-al}}</nowiki></code> → {{IPA-cadia|tu|lang-al}}
+*<code><nowiki>{{IPA-cadia|tu|local}}</nowiki></code> → {{IPA-cadia|tu|local}}
+*<code><nowiki>{{IPA-cadia|tu|IPA}}</nowiki></code> → {{IPA-cadia|tu|IPA}}
+*<code><nowiki>{{IPA-cadia|tu|}}</nowiki></code> → {{IPA-cadia|tu|}}
+
+Any of these may be combined with a sound file in an optional third cell:
+*<code><nowiki>{{IPA-cadia|tu|IPA|Es-tú.ogg}}</nowiki></code> → {{IPA-cadia|tu|IPA|Es-tú.ogg}}
+
+For the default lead, however, a placeholder such as ‹-› is required in the second cell: 
+*<code><nowiki>{{IPA-cadia|tu|-|Es-tú.ogg}}</nowiki></code> → {{IPA-cadia|tu|-|Es-tú.ogg}}
+
+{{usage of IPA templates}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+
+[[Category:Catalan language]]
+[[Category:IPA language templates|Catalan dialects]]
+
+}}</includeonly>
