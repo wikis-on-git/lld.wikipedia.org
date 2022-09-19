@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Asturian:&nbsp;|pron=pronunzià&nbsp;|local=dl post&nbsp;|=|Pronunzia asturiana:&nbsp;}}</small>{{IPA|[[Help:IPA/Astur-Leonesc|[{{{1}}}]]]|lang=ast}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}</noinclude>
