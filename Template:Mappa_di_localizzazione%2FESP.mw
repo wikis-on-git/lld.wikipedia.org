@@ -1,0 +1,10 @@
+{{#switch:{{{1}}}|
+|name   = Spania
+|top    = 44.4
+|bottom = 34.7
+|left   = -9.9
+|right  = 4.8
+|image  = Spain location map.svg
+|image1= Relief Map of Spain.png
+}}<noinclude>{{Mappa di localizzazione/info|{{SUBPAGENAME}}}}
+</noinclude>
