@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Catalan de la Ijules:&nbsp;|pron=pronunzià&nbsp;|al=Alguerese pronunciation:&nbsp;|ba=Balearic pronunciation:&nbsp;|lang-al=Alguerese:&nbsp;|lang-ba=Balearic:&nbsp;|lang-ib=Ibizan:&nbsp;|lang-ma=Majorcan:&nbsp;|lang-mi=Minorcan:&nbsp;|local=dl post&nbsp;|=|Pronunzia tl Catalan de la Ijules:&nbsp;}}</small>{{IPA|[[Help:IPA/Catalan de la Ijules|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}</noinclude>
