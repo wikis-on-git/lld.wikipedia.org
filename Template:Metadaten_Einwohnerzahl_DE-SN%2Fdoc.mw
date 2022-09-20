@@ -1,0 +1,40 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+{| {{Bausteindesign3}}
+ | [[Datei:Information icon.svg|30px|Dokumentations-Unterseite|link=]]
+ | style="width: 100%;" |Bei Änderungen bitte zu berücksichtigen. Diese Vorlage wird als Kopie auch in '''anderssprachigen''' Wikipedias eingesetzt:
+* [[:als:Vorlage:Metadaten Einwohnerzahl DE-SN|als.wikipedia.org]]
+* [[:hsb:Předłoha:Metadaty wobydlerstwo DE-SN|hsb.wikipedia.org]]
+|}
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Einwohnerzahlen der Verwaltungsebenen in [[Sachsen]]. Alle Einwohnerzahlen haben den gleichen Stand vom {{FormatDate|{{Metadaten Einwohnerzahl DE-SN||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Einwohnerzahl_DE-SN&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-SN benutzt:
+
+<div style="border:1px solid red; background:#ffefef;padding:3px;">Hinweis: Das Entfernen aufgelöster Gemeinden kann zu Verwirrungen führen. Bitte diese nur auskommentieren und als Verweis den neuen Schlüssel anmerken. Ein Beispiel aus dem Jahr 2015:<br />14 7 29 110 Espenhain nach 14 7 29 370 Rötha, Stadt <br />14 7 29 370 Rötha, Stadt mit 14 7 29 110 Espenhain <br /><code><nowiki>| 14729370 = 6157 <!--Rötha, Stadt, Gebietsstand 01.08.2015--></nowiki></code><br />'''Danke!'''</div>
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-SN|14}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-SN|14}}
+| [[Sachsen]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-SN|14521}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-SN|14521}}
+| [[Erzgebirgskreis]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-SN|14521090}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-SN|14521090}}
+| [[Börnichen/Erzgeb.]]
+|}
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Einwohnerzahl DE|SN]]
+[[Kategorie:Vorlage:Sachsen]]
+</includeonly>
