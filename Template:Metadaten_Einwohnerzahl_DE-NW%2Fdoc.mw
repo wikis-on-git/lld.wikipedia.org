@@ -1,0 +1,44 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Einwohnerzahlen der Verwaltungsebenen in [[Nordrhein-Westfalen]]. Alle Einwohnerzahlen haben den gleichen Stand vom {{FormatDate|{{Metadaten Einwohnerzahl DE-NW||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Einwohnerzahl_DE-NW&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-NW benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-NW|05}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-NW|05}}
+| [[Nordrhein-Westfalen]]
+|-
+| Regierungsbezirke
+| [[NUTS]] 2
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-NW|053}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-NW|053}}
+| [[Regierungsbezirk Köln]]
+|-
+| Kreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-NW|05154 }}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-NW|05154}}
+| [[Kreis Kleve]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-NW|05154048}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-NW|05154048}}
+| [[Rheurdt]]
+|}
+
+{| {{Bausteindesign3}}
+ | [[Datei:Information icon.svg|30px|Dokumentations-Unterseite|link=]]
+ | style="width: 100%;" |Bei Änderungen bitte zu berücksichtigen. Diese Vorlage wird als Kopie auch in '''anderssprachigen''' Wikipedias eingesetzt:
+* [[:als:Vorlage:Metadaten Einwohnerzahl DE-NW|als.wikipedia.org]]
+* [[:hsb:Předłoha:Metadaty wobydlerstwo Sewjerorynsko-Westfalska|hsb.wikipedia.org]]
+|}
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Einwohnerzahl DE|NW]]
+[[Kategorie:Vorlage:Nordrhein-Westfalen]]
+</includeonly>
