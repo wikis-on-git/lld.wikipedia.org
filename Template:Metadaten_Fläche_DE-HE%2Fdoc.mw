@@ -1,0 +1,39 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Hessen]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-HE||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-HE&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-HE benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-HE|06}}</nowiki></code>
+| {{Metadaten Fläche DE-HE|06}}
+| [[Hessen]]
+|-
+| Regierungsbezirke
+| [[NUTS]] 2
+| <code><nowiki>{{Metadaten Fläche DE-HE|064}}</nowiki></code>
+| {{Metadaten Fläche DE-HE|064}}
+| [[Regierungsbezirk Darmstadt]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-HE|06631}}</nowiki></code>
+| {{Metadaten Fläche DE-HE|06631}}
+| [[Landkreis Fulda]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-HE|06633001}}</nowiki></code>
+| {{Metadaten Fläche DE-HE|06633001}}
+| [[Ahnatal]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|HE]]
+[[Kategorie:Vorlage:Hessen]]
+</includeonly>
