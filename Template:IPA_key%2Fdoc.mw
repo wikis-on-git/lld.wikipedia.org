@@ -1,0 +1,11 @@
+{{documentation subpage}}
+This is the page banner template for IPA keys under "[[Special:PrefixIndex/Help:IPA/|Help:IPA/]]". By default, {{param|language}} is set to the subpage name (e.g. "English" for [[Help:IPA/English]]). It supports up to five [[Wikipedia:Shortcut|shortcuts]].
+
+It categorizes the page under [[:Category:International Phonetic Alphabet help]], with the sort key set to the subpage name or the value in {{para|sort}}.
+
+{{IPA templates}}
+<includeonly>{{Sandbox other||
+[[Category:Header templates]]
+[[Category:Help namespace templates]]
+[[Category:Templates that generate short descriptions]]
+}}</includeonly>
