@@ -39,7 +39,7 @@
 |- valign="top"
 |-
 |-
-|style="width:140px;font-size:90%"|'''[[Codesc INSEE]]''' || style="width:170px;font-size:90%" |{{{INSEE}}}
+|style="width:140px;font-size:90%"|'''Kreisschlüssel''' || style="width:170px;font-size:90%" |{{{Kreisschlüssel}}}
 |- valign="top"
 |-
 |style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
@@ -56,8 +56,8 @@
 |Inuem                = Kreis Dithmarschen
 |Inuem natif          =
 |Soget aministratif        = [[Landkreis]]
-|Blason               = Blason_département_fr_Corrèze.svg
-|Bandiera             = Drapeau_département_fr_Corrèze.svg
+|Blason               = Wappen%20Kreis%20Dithmarschen.svg
+|Bandiera             = Flagge%20Kreis%20Dithmarschen.svg
 |Capitela             = [[Tulle]]
 |Region               = {{flag|Nouvelle-Aquitaine}}
 |Seuraspersa          = 5857
@@ -65,11 +65,11 @@
 |Abitanc              = 24073
 |Data abitanc         = jené 2019
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
-|Cherta               = Corrèze-Position.svg
+|Cherta               = Schleswig-Holstein%20HEI.svg
 |Foto                 = Tulle_Préfecture.jpg
 |Descrizion foto      = 
-|INSEE                = 19
-|Plata internet       = https://www.correze.fr/
+|Kreisschlüssel               = 01051
+|Plata internet       = http://www.dithmarschen.de
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
