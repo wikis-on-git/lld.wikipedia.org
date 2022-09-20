@@ -1,0 +1,39 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Rheinland-Pfalz]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-RP||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-RP&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-RP benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-RP|07}}</nowiki></code>
+| {{Metadaten Fläche DE-RP|07}}
+| [[Rheinland-Pfalz]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-RP|07131}}</nowiki></code>
+| {{Metadaten Fläche DE-RP|07131}}
+| [[Landkreis Ahrweiler]]
+|-
+| Verbandsgemeinden
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-RP|071315001}}</nowiki></code>
+| {{Metadaten Fläche DE-RP|071315001}}
+| [[Verbandsgemeinde Adenau]]
+|-
+| Ortsgemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-RP|07235001}}</nowiki></code>
+| {{Metadaten Fläche DE-RP|07235001}}
+| [[Aach (bei Trier)|Aach]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|RP]]
+[[Kategorie:Vorlage:Rheinland-Pfalz]]
+</includeonly>
