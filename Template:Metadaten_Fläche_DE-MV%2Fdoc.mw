@@ -1,0 +1,39 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Mecklenburg-Vorpommern]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-MV||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-MV&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-MV benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-MV|13}}</nowiki></code>
+| {{Metadaten Fläche DE-MV|13}}
+| [[Mecklenburg-Vorpommern]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-MV|13071}}</nowiki></code>
+| {{Metadaten Fläche DE-MV|13071}}
+| [[Landkreis Mecklenburgische Seenplatte]]
+|-
+| Ämter
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-MV|130765667}}</nowiki></code>
+| {{Metadaten Fläche DE-MV|130765667}}
+| [[Amt Zarrentin]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-MV|13072034}}</nowiki></code>
+| {{Metadaten Fläche DE-MV|13072034}}
+| [[Gnewitz]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|MV]]
+[[Kategorie:Vorlage:Mecklenburg-Vorpommern]]
+</includeonly>
