@@ -1,4 +1,4 @@
-<noinclude>{{Dokumentation}}</noinclude><includeonly>{{#if: {{{2|}}} | <!-- Die Metadaten-Parameter sind hier unabhängig vom Schlüssel -->
+<noinclude>{{Documentazion}}</noinclude><includeonly>{{#if: {{{2|}}} | <!-- Die Metadaten-Parameter sind hier unabhängig vom Schlüssel -->
   {{#switch: {{{2}}}
   | STAND = 2021
   | QUELLE=[http://www.kba.de/SharedDocs/Publikationen/DE/Presse/kfz_kennzeichenliste_faltblatt_pdf.pdf?__blob=publicationFile&v=57] 
