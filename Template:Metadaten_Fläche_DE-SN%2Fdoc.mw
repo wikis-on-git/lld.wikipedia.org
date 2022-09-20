@@ -1,0 +1,41 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Sachsen]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-SN||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-SN&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-SN benutzt:
+
+<div style="border:1px solid red; background:#ffefef;padding:3px;">Hinweis: Das Entfernen aufgelöster Gemeinden kann zu Verwirrungen führen. Bitte diese nur auskommentieren und als Verweis den neuen Schlüssel anmerken. Ein Beispiel aus 2016:<br />14 5 22 370 Mochau nach 14 5 22 080 Döbeln, Stadt <br />14 5 22 080 Döbeln, Stadt mit 14 5 22 370 Mochau <br /><code><nowiki>| 14522080 = 84.55 <!-- Döbeln, Stadt Gebietsstand 01.01.2016 --></nowiki></code><br />'''Danke!'''</div>
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-SN|14}}</nowiki></code>
+| {{Metadaten Fläche DE-SN|14}}
+| [[Sachsen]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-SN|14521}}</nowiki></code>
+| {{Metadaten Fläche DE-SN|14521}}
+| [[Erzgebirgskreis]]
+|-
+| Verwaltungsgemeinschaften, Verwaltungsverbände
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-SN|146285209}}</nowiki></code>
+| {{Metadaten Fläche DE-SN|146285209}}
+| [[Verwaltungsgemeinschaft Dohna-Müglitztal]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-SN|14521090}}</nowiki></code>
+| {{Metadaten Fläche DE-SN|14521090}}
+| [[Börnichen/Erzgeb.]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|SN]]
+[[Kategorie:Vorlage:Sachsen]]
+</includeonly>
