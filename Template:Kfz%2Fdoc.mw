@@ -1,0 +1,8 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+
+Die Vorlage '''Kfz''' (Kraftfahrzeugkennzeichen) ist eine Hilfsvorlage zur Ausgabe der formatierten Unterscheidungszeichen der [[:Kategorie:Vorlage:Metadaten Kfz-Kennzeichen|Metadaten-Vorlagen zu den Kraftfahrzeugkennzeichen]].
+
+== Aufruf ==
+Aufgerufen wird mit
+:<code><nowiki>{{Kfz|Abgrenzung|Schlüssel}}</nowiki></code>
+Werden mehrere Schlüssel angegeben, so werden die Unterscheidungszeichen aller mit diesen Schlüsseln bezeichneten Gebietskörperschaften angegeben.
