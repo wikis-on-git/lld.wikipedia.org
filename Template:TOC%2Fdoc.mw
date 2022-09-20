@@ -1,0 +1,90 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+{{TemplateData|JSON=
+{ "description": "Alphabetische Navigationsleiste für das [[Hilfe:Inhaltsverzeichnis|Inhaltsverzeichnis]], meist als Alternative zu einem automatisch generierten Inhaltsverzeichnis für eine Seite<noexport>.<br />
+Die Abkürzung '''TOC''' steht für englisch ''table of contents'' (Inhaltsverzeichnis).<br />
+Das automatisch generierte Inhaltsverzeichnis wird in diesen Fällen zunächst nicht dargestellt und muss ggf. explizit eingefordert werden.</noexport>",
+  "params": { "1": { "label":       "Wiederholung",
+                     "description": "Nur bei mehreren Einbindungen auf einer Seite: Unterscheidungszahl für [[Uniform Resource Locator|URL]] (bei der ersten Navigationsleiste darf der Parameter nicht angegeben werden)<noexport>&nbsp;– [[#Wiederholung|mehr dazu]]</noexport>",
+                     "type":        "line",
+                     "suggested":   true,
+                     "example":     "_2" },
+              "2": { "label":       "Nachgestellt",
+                     "description": "Nachgestellter Text (innerhalb der Box); zusätzliche Navigationsziele<noexport>&nbsp;– [[#Nachgestellt|mehr dazu]]</noexport>",
+                     "type":        "content",
+                     "suggested":   true,
+                     "example":     "Text1 [[#Anker1|Anker1]]" }
+  },
+  "format": "inline"
+}
+|TOC=1}}
+
+== Beispiele für Parameter ==
+=== Wiederholung ===
+Die Vorlageneinbindung ist der folgenden Tabelle zu entnehmen (hier in der Kurzform mit {{„}}TOC{{“}}):
+{| class="wikitable"
+|-
+|{{Vorlage|TOC}}|| für die erste Navigationsleiste auf der Seite
+|-
+|{{Vorlage|TOC|_2}}|| für die zweite Navigationsleiste auf der Seite
+|-
+|{{Vorlage|TOC|_3}}|| für die dritte Navigationsleiste auf der Seite
+|-
+|{{Vorlage|TOC|_4}}|| für die vierte Navigationsleiste auf der Seite
+|-
+|usw.||usf.
+|}
+
+=== Nachgestellt ===
+Der optionale zweite Parameter hat als Format prinzipiell freien (möglichst kurzen) Text, der einen oder mehrere Links enthalten sollte – wobei auch ein einziger Link alleine oder Text alleine erlaubt sind. Die Anzeige erfolgt direkt nach der alphabetischen Navigationsleiste innerhalb deren Zeile und Box.
+
+Beispiele zur Vorlageneinbindung (hier ebenfalls in der Kurzform mit {{„}}TOC{{“}}):
+
+{| class="wikitable"
+|-
+|{{Vorlage|TOC|| Text1 <nowiki>[[#Anker1|Anker1]]</nowiki> }}|| '''ohne''' ersten Parameter (für die erste Navigationsleiste auf der Seite)
+|-
+|{{Vorlage|TOC|_2| Text1 <nowiki>[[#Anker1|Anker1]]</nowiki> }}|| '''mit''' erstem Parameter (hier für die zweite Navigationsleiste auf der Seite)
+|}
+
+Dabei sind <code>Text1</code> durch den gewünschten Text und <code><nowiki>[[#Anker1|Anker1]]</nowiki></code> durch den gewünschten Link bzw. Anker auf eine Überschrift zu ersetzen. Jede Anordnung von Text und Link/Anker ist möglich, auch in beliebiger Anzahl beider.
+
+== Kopiervorlage mit gesamtem Alphabet ==
+: Wenn man kein automatisches Inhaltsverzeichnis will (der Artikel hat schon ein Inhaltsverzeichnis, das nicht versteckt werden soll, aber so zu unübersichtlich würde), arbeitet man mit {{Vorlage|Anker}}, siehe [[Vorlage:TOC Artikel #Kopiervorlage für Artikelinhaltsverzeichnis ohne das Alphabet|Kopiervorlage für Artikelinhaltsverzeichnis ohne das Alphabet]].
+<pre style="white-space:pre-wrap;">
+{{TOC}}
+== A ==
+== B ==
+== C ==
+== D ==
+== E ==
+== F ==
+== G ==
+== H ==
+== I ==
+== J ==
+== K ==
+== L ==
+== M ==
+== N ==
+== O ==
+== P ==
+== Q ==
+== R ==
+== S ==
+== T ==
+== U ==
+== V ==
+== W ==
+== X ==
+== Y ==
+== Z ==
+</pre>
+
+== Siehe auch ==
+* [[Vorlage:TOC Artikel]] – mit erweiterten Optionen
+* [[:Kategorie:Vorlage:TOC]] – alle Vorlagen für Inhaltsverzeichnisse
+* [[Hilfe:Inhaltsverzeichnis]]
+<includeonly>
+[[Kategorie:Vorlage:TOC| ]]
+[[Kategorie:Vorlage:vom Druck ausgeschlossen]]
+</includeonly>
