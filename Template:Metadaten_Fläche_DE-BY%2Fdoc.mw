@@ -1,0 +1,45 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Bayern]]. Mit eventueller Ausnahme der eingebundenen Gebiete haben alle Flächen den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-BY||STAND}} }}.
+
+Die Schlüssel (ausschließlich der eingebundenen Gebiete) und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-BY&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-BY benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-BY|09}}</nowiki></code>
+| {{Metadaten Fläche DE-BY|09}}
+| [[Bayern]]
+|-
+| Regierungsbezirke
+| [[NUTS]] 2
+| <code><nowiki>{{Metadaten Fläche DE-BY|091}}</nowiki></code>
+| {{Metadaten Fläche DE-BY|091}}
+| [[Oberbayern|Regierungsbezirk Oberbayern]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-BY|09171}}</nowiki></code>
+| {{Metadaten Fläche DE-BY|09171}}
+| [[Landkreis Altötting]]
+|-
+| Verwaltungsgemeinschaften
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-BY|091715101}}</nowiki></code>
+| {{Metadaten Fläche DE-BY|091715101}}
+| [[Verwaltungsgemeinschaft Emmerting]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-BY|09171123}}</nowiki></code>
+| {{Metadaten Fläche DE-BY|09171123}}
+| [[Marktl]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|BY]]
+[[Kategorie:Vorlage:Bayern]]
+</includeonly>
