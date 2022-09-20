@@ -1,0 +1,80 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{lua|Module:IPA symbol}}
+The template {{tl|IPA link}} takes an IPA symbol and turns it into a link to the respective article which discusses the sound the symbol represents.
+
+Versions with defined brackets are also available:
+* For phonetic representations, {{tl|IPAblink}} encloses the link in square brackets: {{IPAblink|a}}
+* For phonemic representations, {{tl|IPAslink}} encloses the link in slashes: {{IPAslink|a}}
+* For orthographic representations, {{tl|IPAalink}} encloses the link in angle brackets: {{IPAalink|a}}
+
+Another version is {{tl|IPAplink}}, which encloses the link in neither brackets nor {{tag|span|attribs=class="IPA" lang="und-fonipa"}}, which is useful if the link is already inside {{tl|IPA}}, avoiding superfluous nesting of the same class.
+
+== Usage ==
+'''First parameter''' (required): any IPA symbol.
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|m}}</code> → {{{{BASEPAGENAME}}|m}}
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|ɡb}}</code> → {{{{BASEPAGENAME}}|ɡb}}
+
+'''Second parameter''': changes the label of the wikilink.
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|m|Any text}}</code> → {{{{BASEPAGENAME}}|m|Any text}}
+
+'''Audio link'''
+
+{{para|audio|yes}} adds a link to the corresponding audio file:
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|ɽ|audio=yes}}</code> → {{{{BASEPAGENAME}}|ɽ|audio=yes}}
+
+If the value in {{para|audio}} is not "yes", "y", "true", etc., it is treated as the name of an audio file:
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|ɽ|audio=Retroflex flaps.ogg}}</code> → {{{{BASEPAGENAME}}|ɽ|audio=Retroflex flaps.ogg}}
+
+If the audio file is not specified at [[Module:IPA symbol/data]], the link will not appear:
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|s̬|audio=yes}}</code> → {{{{BASEPAGENAME}}|s̬|audio=yes}}
+
+'''Errors'''
+
+If the IPA symbol is not defined at [[Module:IPA symbol/data]], then an error message is returned and the page will be categorized into [[:Category:International Phonetic Alphabet pages needing attention]].
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|xyz}}</code> → {{{{BASEPAGENAME}}|xyz}}
+
+The error message can be customized in {{para|errortext}}. This cancels the addition of the error category. If set to <code>blank</code>, the message will not appear at all.
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|xyz|errortext=Custom error message}}</code> → {{{{BASEPAGENAME}}|xyz|errortext=Custom error message}}
+* <code><nowiki>{{</nowiki>{{BASEPAGENAME}}|xyz|errortext=blank}}</code> → {{{{BASEPAGENAME}}|xyz|errortext=blank}}
+
+{{IPA templates}}
+
+==Template data==
+{{Template data header}}
+{{collapse top|TemplateData}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "IPA symbol",
+			"description": "IPA symbol whose article to link to",
+			"example": "ʉː",
+			"type": "string",
+			"required": true
+		},
+		"2": {
+			"label": "Display text",
+			"description": "Text to show instead of the IPA symbol",
+			"type": "string"
+		},
+		"audio": {
+			"label": "Audio",
+			"description": "Adds a link to sound if available",
+			"example": "yes",
+			"type": "string"
+		},
+		"errortext": {
+			"label": "Error text",
+			"example": "blank",
+			"type": "string"
+		}
+	}
+}
+</templatedata>
+{{collapse bottom}}
+<includeonly>{{sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:IPA symbol templates]]
+[[Category:Templates that add a tracking category]]
+}}</includeonly>
