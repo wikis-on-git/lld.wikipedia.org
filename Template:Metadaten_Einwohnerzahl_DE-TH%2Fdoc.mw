@@ -1,0 +1,44 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Einwohnerzahlen der Verwaltungsebenen in [[Thüringen]]. Alle Einwohnerzahlen haben den gleichen Stand vom {{FormatDate|{{Metadaten Einwohnerzahl DE-TH||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Einwohnerzahl_DE-TH&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-TH benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-TH|16}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-TH|16}}
+| [[Thüringen]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-TH|16061}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-TH|16061}}
+| [[Landkreis Eichsfeld]]
+|-
+| Verwaltungsgemeinschaften
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-TH|160615001}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-TH|160615001}}
+| [[Verwaltungsgemeinschaft Lindenberg/Eichsfeld]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-TH|16061017}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-TH|16061017}}
+| [[Breitenworbis]]
+|}
+
+{| {{Bausteindesign3}}
+ | [[Datei:Information icon.svg|30px|Dokumentations-Unterseite|link=]]
+ | style="width: 100%;" |Bei Änderungen bitte zu berücksichtigen. Diese Vorlage wird als Kopie auch in '''anderssprachigen''' Wikipedias eingesetzt:
+* [[:als:Vorlage:Metadaten Einwohnerzahl DE-TH|als.wikipedia.org]]
+* [[:hsb:Předłoha:Metadaty wobydlerstwo Durinska|hsb.wikipedia.org]]
+|}
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Einwohnerzahl DE|TH]]
+[[Kategorie:Vorlage:Thüringen]]
+</includeonly>
