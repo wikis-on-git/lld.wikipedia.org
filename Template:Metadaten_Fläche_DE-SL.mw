@@ -1,0 +1,71 @@
+<onlyinclude><includeonly>{{#if: {{{2|}}} | <!--  Die Metadaten-Parameter sind hier unabhängig vom Schlüssel  -->
+  {{#switch: {{{2}}}
+  | STAND = 2020-12-31
+  | QUELLE= [https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV3QAktuell.html;jsessionid=7F3A016431D2FC6A93E7827243409DFF.live721 Statistisches Bundesamt] (online abgerufen am 20. September 2021; Schlüssel ergänzt)
+  | #default= <span class="error">Ungültiges Metadaten-Schlüsselwort <code>{{{2}}}</code></span>{{ns0|[[Kategorie:Wikipedia:Fehler in Vorlage Metadaten Fläche]]}}
+  }} |
+{{#switch: {{{1}}}
+| 10 = 2571.00 <!--Saarland-->
+| 10042999 = 1.03 <!--Deutsch-luxemburgisches Hoheitsgebiet-->
+| 10041000 | 10041 = 410.95 <!--Regionalverband Saarbrücken-->
+| 10042000 | 10042 = 556.66 <!--Landkreis Merzig-Wadern-->
+| 10043000 | 10043 = 249.80 <!--Landkreis Neunkirchen-->
+| 10044000 | 10044 = 459.35 <!--Landkreis Saarlouis-->
+| 10045000 | 10045 = 418.28 <!--Saarpfalz-Kreis-->
+| 10046000 | 10046 = 476.07 <!--Landkreis St. Wendel-->
+| 10041100 = 167.52 <!--Saarbrücken, Landeshauptstadt-->
+| 10041511 = 8.99 <!--Friedrichsthal, Stadt-->
+| 10041512 = 25.26 <!--Großrosseln-->
+| 10041513 = 40.01 <!--Heusweiler-->
+| 10041514 = 27.19 <!--Kleinblittersdorf-->
+| 10041515 = 23.95 <!--Püttlingen, Stadt-->
+| 10041516 = 20.21 <!--Quierschied-->
+| 10041517 = 14.65 <!--Riegelsberg-->
+| 10041518 = 16.07 <!--Sulzbach/ Saar, Stadt-->
+| 10041519 = 67.10 <!--Völklingen, Stadt-->
+| 10042111 = 51.85 <!--Beckingen-->
+| 10042112 = 96.95 <!--Losheim am See-->
+| 10042113 = 108.98 <!--Merzig, Kreisstadt-->
+| 10042114 = 77.82 <!--Mettlach-->
+| 10042115 = 75.24 <!--Perl-->
+| 10042116 = 111.14 <!--Wadern, Stadt-->
+| 10042117 = 33.65 <!--Weiskirchen-->
+| 10043111 = 47.25 <!--Eppelborn-->
+| 10043112 = 36.09 <!--Illingen-->
+| 10043113 = 12.80 <!--Merchweiler-->
+| 10043114 = 75.26 <!--Neunkirchen, Kreisstadt-->
+| 10043115 = 45.56 <!--Ottweiler, Stadt-->
+| 10043116 = 21.42 <!--Schiffweiler-->
+| 10043117 = 11.42 <!--Spiesen-Elversberg-->
+| 10044111 = 22.05 <!--Dillingen/ Saar, Stadt-->
+| 10044112 = 64.21 <!--Lebach, Stadt-->
+| 10044113 = 22.43 <!--Nalbach-->
+| 10044114 = 61.24 <!--Rehlingen-Siersburg-->
+| 10044115 = 43.30 <!--Saarlouis, Kreisstadt-->
+| 10044116 = 41.67 <!--Saarwellingen-->
+| 10044117 = 58.62 <!--Schmelz-->
+| 10044118 = 27.37 <!--Schwalbach-->
+| 10044119 = 34.31 <!--Überherrn-->
+| 10044120 = 25.91 <!--Wadgassen-->
+| 10044121 = 42.22 <!--Wallerfangen-->
+| 10044122 = 7.63 <!--Bous-->
+| 10044123 = 8.39 <!--Ensdorf-->
+| 10045111 = 31.09 <!--Bexbach, Stadt-->
+| 10045112 = 108.21 <!--Blieskastel, Stadt-->
+| 10045113 = 57.37 <!--Gersheim-->
+| 10045114 = 82.61 <!--Homburg, Kreisstadt-->
+| 10045115 = 31.34 <!--Kirkel-->
+| 10045116 = 57.71 <!--Mandelbachtal-->
+| 10045117 = 49.95 <!--St. Ingbert, Stadt-->
+| 10046111 = 48.09 <!--Freisen-->
+| 10046112 = 39.83 <!--Marpingen-->
+| 10046113 = 25.98 <!--Namborn-->
+| 10046114 = 100.82 <!--Nohfelden-->
+| 10046115 = 66.40 <!--Nonnweiler-->
+| 10046116 = 23.87 <!--Oberthal-->
+| 10046117 = 113.53 <!--St. Wendel, Kreisstadt-->
+| 10046118 = 57.55 <!--Tholey-->
+|#default= <span class="error">Ungültiger Metadaten-Schlüssel <code>{{{1}}}</code></span>{{#if: {{NAMESPACE}}||[[Kategorie:Wikipedia:Fehler in Vorlage Metadaten Fläche]]}}
+}} }}</includeonly></onlyinclude>
+
+{{Documentazion}}
