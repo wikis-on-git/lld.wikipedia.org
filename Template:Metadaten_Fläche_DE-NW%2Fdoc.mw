@@ -1,0 +1,38 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Nordrhein-Westfalen]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-NW||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-NW&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-NW benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-NW|05}}</nowiki></code>
+| {{Metadaten Fläche DE-NW|05}}
+| [[Nordrhein-Westfalen]]
+|-
+| Regierungsbezirke
+| [[NUTS]] 2
+| <code><nowiki>{{Metadaten Fläche DE-NW|051}}</nowiki></code>
+| {{Metadaten Fläche DE-NW|051}}
+| [[Regierungsbezirk Düsseldorf]]
+|-
+| Kreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-NW|05154}}</nowiki></code>
+| {{Metadaten Fläche DE-NW|05154}}
+| [[Kreis Kleve]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-NW|05154004}}</nowiki></code>
+| {{Metadaten Fläche DE-NW|05154004}}
+| [[Bedburg-Hau]]
+|}
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|NW]]
+[[Kategorie:Vorlage:Nordrhein-Westfalen]]
+</includeonly>
