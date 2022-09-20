@@ -1,0 +1,39 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Schleswig-Holstein]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-SH||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-SH&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-SH benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-SH|01}}</nowiki></code>
+| {{Metadaten Fläche DE-SH|01}}
+| [[Schleswig-Holstein]]
+|-
+| Kreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-SH|01051}}</nowiki></code>
+| {{Metadaten Fläche DE-SH|01051}}
+| [[Kreis Dithmarschen]]
+|-
+| Ämter
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-SH|010515169}}</nowiki></code>
+| {{Metadaten Fläche DE-SH|010515169}}
+| [[Amt Kirchspielslandgemeinden Eider]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-SH|01051001}}</nowiki></code>
+| {{Metadaten Fläche DE-SH|01051001}}
+| [[Albersdorf (Holstein)|Albersdorf]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|SH]]
+[[Kategorie:Vorlage:Schleswig-Holstein]]
+</includeonly>
