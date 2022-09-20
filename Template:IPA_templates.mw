@@ -1,0 +1,93 @@
+{{navbox
+| name   = IPA templates
+| title  = [[International Phonetic Alphabet|IPA]] templates
+| state  = {{{state<includeonly>|expanded</includeonly>}}}
+| basestyle = background:#ddffee;<!-- /doc colors -->
+| bodyclass = hlist
+
+| group1 = Inline
+| list1  =
+{{navbox|child| basestyle = background:#ddffee;
+ | group1 = Formatting
+ |  list1 =
+* {{tl|IPA}}
+* {{tl|IPA-all}}
+* {{tl|IPA link}}
+* {{tl|IPAblink}}&nbsp;{{IPA|[a]}}
+* {{tl|IPAslink}}&nbsp;{{IPA|/a/}}
+* {{tl|IPAalink}}&nbsp;{{angbr IPA|a}}
+* {{tl|IPAplink}}
+* {{tl|angbr IPA}}
+* {{tl|Chinese tone letter}}
+* {{tl|Audio-IPA}}
+
+| group3 = Language-<br />specific
+|  list3 =
+* {{tl|IPAc-en}}
+* {{tl|IPA-ca}}
+* {{tl|IPAc-cmn}}
+* {{tl|IPA-cs}}
+* {{tl|IPA-de}}
+* {{tl|IPA-el}}
+* {{tl|IPA-es}}
+* {{tl|IPA-fr}}
+* {{tl|IPA-it}}
+* {{tl|IPA-ko}}
+* {{tl|IPA-my}}
+* {{tl|IPA-nl}}
+* {{tl|IPA-pl}}
+* {{tl|IPAc-pl}}
+* {{tl|IPA-pt}}
+* {{tl|IPA-ro}}
+* {{tl|IPA-ru}}
+* {{tl|IPA-sh}}
+* {{tl|IPA-sl}}
+* {{tl|IPA-th}}
+* [[Template:Usage of IPA templates#Supported languages and templates|etc. (documentation)]]
+* {{category-inline|IPA language templates}}
+
+| group4 = Maintenance
+|  list4 = 
+* {{tl|Needs IPA}}
+* {{tl|Pronunciation needed}}
+* {{category-inline|Articles needing IPA cleanup}}
+}}
+
+
+| group4 = Infobox
+|  list4 =
+* {{tl|Infobox IPA}} 
+
+| group5 = Navigation
+|  list5 =
+* {{tl|IPA keys}}
+* {{tl|IPA key}}
+* {{tl|WikiIPA}}
+* {{tl|IPA notice}}
+
+| group6 = Charts
+|  list6 =
+* {{tl|IPA vowels}}
+* {{tl|IPA pulmonic consonants}}
+* {{tl|IPA non-pulmonic consonants}}
+* {{tl|IPA co-articulated consonants}}
+* {{tl|IPA affricates}}
+* {{category-inline|IPA chart templates}}
+
+| group7 = Meta templates
+|  list7 =
+* {{tl|IPA symbol}}
+* {{tl|IPA audio link}}
+* {{tl|IPA common}}
+* {{tl|IPA soundbox}}
+* {{tl|Usage of IPA templates}}
+* {{tl|IPA notice/msg}}
+
+| group8 = Others
+|  list8 = 
+
+|  below = {{hlist
+| [[:Module:IPA symbol]]
+| {{Category-inline|IPA templates|IPA templates}}
+}}
+}}<noinclude>{{documentation}}</noinclude>
