@@ -1,0 +1,39 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Sachsen-Anhalt]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-ST||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-ST&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-ST benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-ST|15}}</nowiki></code>
+| {{Metadaten Fläche DE-ST|15}}
+| [[Sachsen-Anhalt]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-ST|15081}}</nowiki></code>
+| {{Metadaten Fläche DE-ST|15081}}
+| [[Altmarkkreis Salzwedel]]
+|-
+| Verbandsgemeinden und Verwaltungsgemeinschaften
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-ST|150815051}}</nowiki></code>
+| {{Metadaten Fläche DE-ST|150815051}}
+| [[Verbandsgemeinde Beetzendorf-Diesdorf]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-ST|15081026}}</nowiki></code>
+| {{Metadaten Fläche DE-ST|15081026}}
+| [[Apenburg-Winterfeld]]
+|}
+
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|ST]]
+[[Kategorie:Vorlage:Sachsen-Anhalt]]
+</includeonly>
