@@ -1,0 +1,60 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Rundet Zahlen auf eine fixe Anzahl an Dezimalstellen.
+
+== Kopiervorlage ==
+
+<pre>
+{{RundenDez|}}
+</pre>
+
+== Parameter ==
+; 1
+: Zu rundende Gleitkomma- oder Ganzzahl. Die Zahl muss im PC-lesbaren Format (Punkt als Dezimaltrennzeichen, keine Tausendertrennzeichen) sein
+; 2
+: Ganze Zahl, die die Anzahl signifikanter Stellen angibt. Ist diese Zahl nicht-negativ, so bezeichnet sie die Nachkommastellen.
+: Ist diese Zahl negativ, so wird der ganzzahlige Anteil der Zahl ebenfalls gerundet (-1 entspricht Rundung auf volle Zehner, -2 auf volle Hunderter, …).
+: optional, Default=2
+: Siehe auch '''2''' bei [[Wikipedia:Lua/Modul/FormatNum #round]]
+; 3
+: Ganze Zahl, welcher die zu verwendende Rundungsmethode beschreibt.
+:* <code>0</code> – Rundung nach IEEE 754 (round half to even).
+:* <code>1</code> – Kaufmännisches Runden inklusive Eliminierung von "-0"-Ergebnissen.
+: optional, Default=0
+: Siehe auch '''method''' bei [[Wikipedia:Lua/Modul/FormatNum #round]]
+
+== Testtabelle ==
+{| class="wikitable"
+|-
+!colspan="3"| Parameter
+!rowspan="2"| Ausgabe
+|-
+! 1 !! 2 !! 3
+|-
+| <code>1.789</code>   ||                 || || {{RundenDez|1.789}}
+|-
+| <code>-1.3</code>    ||                 || || {{RundenDez|-1.3}}
+|-
+| <code>120.818</code> || <code>-0</code> || || {{RundenDez|120.818|-0}}
+|-
+| <code>120.818</code> || <code>-1</code> || || {{RundenDez|120.818|-1}}
+|-
+| <code>120.818</code> || <code>-2</code> || || {{RundenDez|120.818|-2}}
+|-
+| <code>120.818</code> || <code>-3</code> || || {{RundenDez|120.818|-3}}
+|-
+| <code>120.818</code> || <code>-4</code> || || {{RundenDez|120.818|-4}}
+|-
+| <code>120.818</code> || <code>1</code>  || || {{RundenDez|120.818|1}}
+|-
+| <code>120.818</code> || <code>2</code>  || || {{RundenDez|120.818|2}}
+|-
+| <code>120.818</code> || <code>3</code>  || || {{RundenDez|120.818|3}}
+|-
+| <code>120.818</code> || <code>4</code>  || || {{RundenDez|120.818|4}}
+|}
+
+<includeonly>
+{{Lua-Vorlage|FormatNum #round}}
+
+[[Kategorie:Vorlage:Zahlenformatierung]]
+</includeonly>
