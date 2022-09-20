@@ -16,6 +16,32 @@ I Landkreise ie spartii su sui stac federei a chësta maniera:
 * Schleswig-Holstein: '''11'''
 * Thüringen: '''17'''
 
+== Lista di Landkreise ==
+
+===Lijënda==
+* '''KrS:''' [[Amtlicher Gemeindeschlüssel|Kreisschlüssel]], eine fünfstellige Kennziffer des Landkreises.
+* '''Landkreis/Kreis:''' Name des Landkreises. Die Kommunalverbände besonderer Art sind durch einen Vermerk gekennzeichnet.
+* '''UZ:''' Mögliche [[Kfz-Kennzeichen (Deutschland)#Unterscheidungszeichen|Kfz-Kennzeichen]] innerhalb des Landkreises.
+* '''BL:''' [[Land (Deutschland)|Bundesland]], in dem sich der Kreis befindet. Es sind die Flagge und der [[ISO 3166-2:DE|ISO 3166-2-Code]] des Landes angegeben.
+* '''Kreissitz:''' [[Kreisstadt]]; i.&nbsp;d.&nbsp;R. Gemeinde, in der sich die Kreisverwaltung befindet. Gehört diese nicht dem Landkreis an oder ist nicht Standort der Verwaltung, ist dies durch einen Vermerk gekennzeichnet.
+* '''Einw.:''' Anzahl der [[Einwohner]], basierend auf den Angaben der [[Statistisches Landesamt|Statistischen Landesämter]]<ref>Baden-Württemberg: {{EWQ|DE-BW}} Stand {{EWD|DE-BW}}<br />
+Bayern: {{EWQ|DE-BY}} Stand {{EWD|DE-BY}}<br />
+Brandenburg: {{EWQ|DE-BB}} Stand {{EWD|DE-BB}}<br />
+Hessen: {{EWQ|DE-HE}} Stand {{EWD|DE-HE}}<br />
+Mecklenburg-Vorpommern: {{EWQ|DE-MV}} Stand {{EWD|DE-MV}}<br />
+Niedersachsen: {{EWQ|DE-NI}} Stand {{EWD|DE-NI}}<br />
+Nordrhein-Westfalen: {{EWQ|DE-NW}} Stand {{EWD|DE-NW}}<br />
+Rheinland-Pfalz: {{EWQ|DE-RP}} Stand {{EWD|DE-RP}}<br />
+Saarland: {{EWQ|DE-SL}} Stand {{EWD|DE-SL}}<br />
+Sachsen: {{EWQ|DE-SN}} Stand {{EWD|DE-SN}}<br />
+Sachsen-Anhalt: {{EWQ|DE-ST}} Stand {{EWD|DE-ST}}<br />
+Schleswig-Holstein: {{EWQ|DE-SH}} Stand {{EWD|DE-SH}}<br />
+Thüringen: {{EWQ|DE-TH}} Stand {{EWD|DE-TH}}</ref>
+* '''Fl.:''' [[Flächeninhalt|Fläche]] des Kreises, angegeben in [[Quadratkilometer]]n (km²).<ref>[https://www-genesis.destatis.de/genesis/online Statistisches Bundesamt (GENESIS Online)]</ref>
+* '''Bev.D.:''' [[Bevölkerungsdichte]], angegeben in Einwohnern pro Quadratkilometer.
+<div style="clear:both;"></div>
+
+===Lista===
 
 [[Categoria:Germania]]
 [[Categoria:Aministrazion de la Germania]]
