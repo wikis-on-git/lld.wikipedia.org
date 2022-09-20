@@ -1,0 +1,35 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Die Vorlage '''EWQ''' (Einwohner Quelle) ist eine Hilfsvorlage zur Ausgabe der Quelle (QUELLE) der [[:Kategorie:Vorlage:Metadaten Einwohnerzahl|Metadaten-Vorlagen zu Einwohnerzahlen]].
+
+== Aufruf ==
+Der Aufruf erfolgt mit
+:<code><nowiki>{{EWQ|Abgrenzung|Schlüssel}}</nowiki></code>
+{{TemplateData|<templatedata>
+{
+	"description": "Hilfsvorlage zur Ausgabe der Quelle (QUELLE) der Metadaten-Vorlagen zu Einwohnerzahlen",
+	"params": {
+		"1": {
+			"required": true,
+			"label": "Abgrenzung",
+			"type": "string/line",
+			"description": "steht für das ISO-Kürzel des Gebiets, in dem eine Einwohnerzahl abgefragt werden soll. Beispiel: <code>AT</code> für eine Gemeinde in Österreich."
+		},
+		"2": {
+			"required": true,
+			"label": "Schlüssel",
+			"type": "string/line",
+			"description": "steht für den Schlüssel der Gebietskörperschaft, die abgefragt werden soll, Beispiel: <code>50101</code> für die Einwohnerzahl im Land Salzburg."
+		}
+	}
+}
+</templatedata>}}
+
+'''Hinweis:''' Obwohl die Quelle der Daten bei vielen Metadaten-Vorlagen stets die gleiche ist (und der Schlüssel somit ignoriert wird), gibt es auch Fälle, bei denen die Quelle vom Schlüssel abhängig sein könnte.
+
+== Beispiele ==
+{{EWZ/Test}}
+
+== Siehe auch ==
+* [[Vorlage:EWZ]] zur Ausgabe der Einwohnerzahl selbst
+* [[Vorlage:EWD]] zur Ausgabe des Standes der Einwohnerzahl
+* [[Vorlage:EWZF]] zur Ausgabe von Einwohner pro Quadratkilometer
