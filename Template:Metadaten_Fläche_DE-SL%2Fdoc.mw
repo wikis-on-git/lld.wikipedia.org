@@ -1,0 +1,34 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen im [[Saarland]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-SL||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-SL&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-SL benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-SL|10}}</nowiki></code>
+| {{Metadaten Fläche DE-SL|10}}
+| [[Saarland]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-SL|10044}}</nowiki></code>
+| {{Metadaten Fläche DE-SL|10044}}
+| [[Landkreis Saarlouis]]
+|-
+| Gemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-SL|10041512}}</nowiki></code>
+| {{Metadaten Fläche DE-SL|10041512}}
+| [[Großrosseln]]
+|}
+
+Die Ergebnisse müssen noch entsprechend ([[Vorlage:Nts]], [[Vorlage:FormatNum]], [[Vorlage:Dts]], ...) formatiert werden.
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|SL]]
+[[Kategorie:Vorlage:Saarland]]
+</includeonly>
