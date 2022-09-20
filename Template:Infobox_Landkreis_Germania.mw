@@ -1,7 +1,5 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
-| colspan="2"  valign="top" | [[File:{{{Foto}}}|300px|border|center]]
-|-
-| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
+|colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|310px|center]]}}
 |-
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
@@ -14,9 +12,9 @@
 |-
 !colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
 |-valign="top"
-|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{FRA}}
+|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{DEU}}
 |- valign="top" 
-|style="width:140px;font-size:90%" | '''[[Regions de la Franzia|Region]]''' || style="width:170px;font-size:90%" | {{{Region}}}
+|style="width:140px;font-size:90%" | '''[[Regions de la Franzia|Stat federel]]''' || style="width:170px;font-size:90%" | {{{Stat federel}}}
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
@@ -35,10 +33,6 @@
 {{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
 | }}
 |-
-|style="width:140px;font-size:90%"|'''Data de amiscion''' || style="width:170px;font-size:90%" |{{{Data de amiscion}}}
-|- valign="top"
-|-
-|-
 |style="width:140px;font-size:90%"|'''Kreisschlüssel''' || style="width:170px;font-size:90%" |{{{Kreisschlüssel}}}
 |- valign="top"
 |-
@@ -46,7 +40,7 @@
 |- valign="top"
 |-
 |-
-|style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" | [{{{Plata internet}}} {{{Plata internet}}}] 
+|style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" | {{url|{{{Plata internet}}}}}
 |- valign="top"
 |-
 |}</includeonly>
@@ -55,21 +49,20 @@
 {{Infobox Landkreis Germania
 |Inuem                = Kreis Dithmarschen
 |Inuem natif          =
-|Soget aministratif        = [[Landkreis]]
+|Soget aministratif   = [[Landkreis]]
 |Blason               = Wappen%20Kreis%20Dithmarschen.svg
 |Bandiera             = Flagge%20Kreis%20Dithmarschen.svg
-|Capitela             = [[Tulle]]
-|Region               = {{flag|Nouvelle-Aquitaine}}
-|Seuraspersa          = 5857
-|Data de amiscion     = 	26 fauré 1790
-|Abitanc              = 24073
+|Capitela             = [[Heide]]
+|Stat federel         = {{DE-SH}}
+|Seuraspersa          = 1428.18
+|Abitanc              = 133210
 |Data abitanc         = jené 2019
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
 |Cherta               = Schleswig-Holstein%20HEI.svg
-|Foto                 = Tulle_Préfecture.jpg
+|Foto                 = 
 |Descrizion foto      = 
-|Kreisschlüssel               = 01051
-|Plata internet       = http://www.dithmarschen.de
+|Kreisschlüssel      = 01051
+|Plata internet       = www.dithmarschen.de
 }}
 
 [[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
