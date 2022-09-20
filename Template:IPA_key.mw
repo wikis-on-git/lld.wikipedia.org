@@ -1,0 +1,6 @@
+{{ombox
+|type = notice
+|image = [[File:Parentesi Quadre.svg|30px|link=]]
+|text = '''This is the [[Wikipedia:Manual of Style/Pronunciation|pronunciation key]] for [[International Phonetic Alphabet|IPA]] transcriptions of {{{language<includeonly>|{{SUBPAGENAME}}</includeonly>}}} on Wikipedia.'''<div style="font-size: 90%;">It provides a set of symbols to represent the pronunciation of {{#if:{{{language<includeonly>|</includeonly>}}}|<includeonly>{{delink|</includeonly>{{{language}}}<includeonly>}}</includeonly>|{{SUBPAGENAME}}}} in Wikipedia articles, and example words that illustrate the sounds that correspond to them. Integrity must be maintained between the key and the transcriptions that link here; do not change any symbol or value without establishing [[Wikipedia:Consensus|consensus]] on the [[{{TALKPAGENAME}}|talk page]] first.</div><div style="font-size: 90%;">{{IPA notice/msg|preamble=no}}</div>
+|imageright = <div style="white-space: nowrap;">{{#if:{{{1<includeonly>|</includeonly>}}}|{{Shortcut|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}<noinclude>|category=no</noinclude>}}}}</div>
+}}<includeonly>{{#ifeq:{{NAMESPACENUMBER}}|12|{{short description|Wikipedia key to pronunciation of {{{language|{{SUBPAGENAME}}}}}}}[[Category:International Phonetic Alphabet help|{{{sort|{{SUBPAGENAME}}}}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
