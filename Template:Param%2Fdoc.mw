@@ -1,0 +1,30 @@
+{{Documentation subpage}}
+{{Distinguish|Template:Para}}
+<!-- Categories and interwikis go at the bottom of this page. -->
+
+This template is for giving examples of template parameter source code which is useful in template documentation and talk page discussions of template code.
+
+===Usage===
+:<code><nowiki>{{param|foo}}</nowiki></code> → {{param|foo}}
+:<code><nowiki>{{param|foo|tag=kbd}}</nowiki></code> &rarr; {{param|foo|tag=kbd}}
+:<code><nowiki>{{param|foo|bar}}</nowiki></code> → {{param|foo|bar}}
+:<code><nowiki>{{param|foo|{{param|bar|nested=yes}}}}</nowiki></code> → {{param|foo|{{param|bar|nested=yes}}}}
+:<code><nowiki>{{param|foo|{{param|bar|{{param|baz|derp|nested=yes}}|nested=yes}}}}</nowiki></code> → {{param|foo|{{param|bar|{{param|baz|derp|nested=yes}}|nested=yes}}}}
+
+====Examples involving {{tl|para}}====
+:<code><nowiki>{{para|foo|{{param|bar}}}}</nowiki></code> → {{para|foo|{{param|bar}}}}
+:<code><nowiki>{{para|foo|{{param|bar|nested=yes}}}}</nowiki></code> → {{para|foo|{{param|bar|nested=yes}}}}
+:<code><nowiki>{{para|foo}}{{param|bar}}</nowiki></code> → {{para|foo}}{{param|bar}}
+:<code><nowiki>{{para|foo|{{var|bar}}}}</nowiki></code> → {{para|foo|{{var|bar}}}}
+
+===See also===
+* {{tbullet|para|foo|bar}}
+* {{tlc|param value|baz  quux|space{{=}}·}}  → {{param value|baz  quux|space=·}}
+
+{{Semantic markup templates|show}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please: -->
+[[Category:Semantic markup templates]]
+[[Category:Wikitext typing-aid templates]]
+}}</includeonly>
