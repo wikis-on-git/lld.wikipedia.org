@@ -1,0 +1,44 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Einwohnerzahlen der Verwaltungsebenen in [[Rheinland-Pfalz]]. Alle Einwohnerzahlen haben den gleichen Stand vom {{FormatDate|{{Metadaten Einwohnerzahl DE-RP||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Einwohnerzahl_DE-RP&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-RP benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-RP|07}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-RP|07}}
+| [[Rheinland-Pfalz]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-RP|07131}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-RP|07131}}
+| [[Landkreis Ahrweiler]]
+|-
+| Verbandsgemeinden
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-RP|071315001}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-RP|071315001}}
+| [[Verbandsgemeinde Adenau]]
+|-
+| Ortsgemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Einwohnerzahl DE-RP|07235001}}</nowiki></code>
+| {{Metadaten Einwohnerzahl DE-RP|07235001}}
+| [[Aach (bei Trier)|Aach]]
+|}
+{| {{Bausteindesign3}}
+ | [[Datei:Information icon.svg|30px|Dokumentations-Unterseite|link=]]
+ | style="width: 100%;" |Bei Änderungen bitte zu berücksichtigen. Diese Vorlage wird als Kopie auch in '''anderssprachigen''' Wikipedias eingesetzt:
+* [[:als:Vorlage:Metadaten Einwohnerzahl DE-RP|als.wikipedia.org]]
+* [[:hsb:Předłoha:Metadaty wobydlerstwo Porynsko-Pfalca|hsb.wikipedia.org]]
+|}
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Einwohnerzahl DE|RP]]
+[[Kategorie:Vorlage:Rheinland-Pfalz]]
+</includeonly>
