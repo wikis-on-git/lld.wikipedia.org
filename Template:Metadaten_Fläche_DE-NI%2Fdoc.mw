@@ -1,0 +1,38 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+Diese [[Wikipedia:WikiProjekt Metadaten|Metadatenvorlage]] enthält die Flächen in km² der Verwaltungsebenen in [[Niedersachsen]]. Alle Flächen haben den gleichen Stand vom {{FormatDate|{{Metadaten Fläche DE-NI||STAND}} }}.
+
+Die Schlüssel und die zugehörige Verwaltungseinheit sind im [http://de.wikipedia.org/w/index.php?title=Vorlage:Metadaten_Fläche_DE-NI&action=edit Quelltext] der Vorlage zu finden. Die Schlüssel werden ohne vorangestelltes DE-NI benutzt:
+
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+! Ebene !! Schlüssel !! Beispiel !! Ergebnis !! Bemerkung
+|-
+| Land
+| [[NUTS]] 1
+| <code><nowiki>{{Metadaten Fläche DE-NI|03}}</nowiki></code>
+| {{Metadaten Fläche DE-NI|03}}
+| [[Niedersachsen]]
+|-
+| Landkreise
+| [[NUTS]] 3
+| <code><nowiki>{{Metadaten Fläche DE-NI|03153}}</nowiki></code>
+| {{Metadaten Fläche DE-NI|03153}}
+| [[Landkreis Goslar]]
+|-
+| Samtgemeinden
+| [[Local administrative unit|LAU]] 1
+| <code><nowiki>{{Metadaten Fläche DE-NI|033555406}}</nowiki></code>
+| {{Metadaten Fläche DE-NI|033555406}}
+| [[Samtgemeinde Ostheide]]
+|-
+| Gemeinden, Einheitsgemeinden
+| [[Local administrative unit|LAU]] 2
+| <code><nowiki>{{Metadaten Fläche DE-NI|03151038}}</nowiki></code>
+| {{Metadaten Fläche DE-NI|03151038}}
+| [[Wesendorf]]
+|}
+
+<includeonly>
+[[Kategorie:Vorlage:Metadaten Fläche DE|NI]]
+[[Kategorie:Vorlage:Niedersachsen]]
+</includeonly>
