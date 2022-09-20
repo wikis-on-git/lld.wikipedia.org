@@ -23,7 +23,7 @@ I Landkreise ie spartii su sui stac federei a chësta maniera:
 * '''Landkreis/Kreis:''' Inuem dl Landkreis. Die Kommunalverbände besonderer Art sind durch einen Vermerk gekennzeichnet.
 * '''Targa:''' Targhes de l'auto che vën dant tl Landkreis.
 * '''SF:''' [[Stac federei de la Germania|Stat federel]], te chël che vën dant l Landkreis. Es sind die Flagge und der [[ISO 3166-2:DE|ISO 3166-2-Code]] des Landes angegeben.
-* '''Kreissitz:''' La ''Kreisstadt'', chël uel di l chemun te chël che ie la sënta aministrativa dl Landkreis.
+* '''Sënta:''' La ''Kreisstadt'', chël uel di l chemun te chël che ie la sënta aministrativa dl Landkreis.
 * '''Ab.:''' Numer de abitanc, basierend auf den Angaben der [[Statistisches Landesamt|Statistischen Landesämter]]<ref>Baden-Württemberg: {{EWQ|DE-BW}} Stand {{EWD|DE-BW}}<br />
 Bayern: {{EWQ|DE-BY}} Stand {{EWD|DE-BY}}<br />
 Brandenburg: {{EWQ|DE-BB}} Stand {{EWD|DE-BB}}<br />
@@ -46,7 +46,7 @@ Thüringen: {{EWQ|DE-TH}} Stand {{EWD|DE-TH}}</ref>
 <!-- Bitte keine Einwohnerzahlen, -dichten und Flächen ändern, da diese aus der Metavorlage stammen und damit automatisch angepasst werden -->
 {| class="wikitable sortable zebra"
 |- class="hintergrundfarbe6"
-! KrS !! Landkreis/Kreis !! Targa !! [[Stac federei de la Germania|SF]] !! Kreissitz !! Ab. !! Spersa<br />te km² !! Densità<br />Ab./km² !! class=unsortable | Cherta
+! KrS !! Landkreis/Kreis !! Targa !! [[Stac federei de la Germania|SF]] !! Sënta !! Ab. !! Spersa<br />te km² !! Densità<br />Ab./km² !! class=unsortable | Cherta
 |-
 | 05334 || {{Anker|A}} [[Städteregion Aachen|Aachen]], Städteregion<ref group="FN" name="besonder">[[Kommunalverband besonderer Art]]<br />
 Hinweis zur Städteregion Aachen: seit dem 21. Oktober 2009<br />
