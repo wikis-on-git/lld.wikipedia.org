@@ -34,6 +34,68 @@
 == Storia ==
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 250
+| FUNTANA = [http://worldweather.wmo.int/107/c00661.htm Roshydromet]
+| Titul=
+| Luech  = Krasnoiarsk
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = −11.5
+| hmfeb = −10.2
+| hmmär = −1.2
+| hmapr = 7.1
+| hmmai = 15.8
+| hmjun = 22.4
+| hmjul = 24.5
+| hmaug = 21.3
+| hmsep = 14.7
+| hmokt = 5.3
+| hmnov = −3.6
+| hmdez = −9.7
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = −20.0
+| lmfeb = −19.5
+| lmmär = −11.1
+| lmapr = −3.4
+| lmmai = 3.8
+| lmjun = 10.0
+| lmjul = 13.1
+| lmaug = 10.5
+| lmsep = 4.6
+| lmokt = −2.8
+| lmnov = −11.4
+| lmdez = −17.8
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 17
+| nbfeb = 13
+| nbmär = 15
+| nbapr = 30
+| nbmai = 48
+| nbjun = 59
+| nbjul = 81
+| nbaug = 68
+| nbsep = 41
+| nbokt = 41
+| nbnov = 38
+| nbdez = 26
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 5
+| rdfeb = 4
+| rdmär = 5
+| rdapr = 7
+| rdmai = 9
+| rdjun = 9
+| rdjul = 10
+| rdaug = 10
+| rdsep = 9
+| rdokt = 10
+| rdnov = 10
+| rddez = 8
+}}
 
 ==Notes==
 <references/>
