@@ -53,6 +53,47 @@ La capitela Dispruch ie scialdi cunesciuda per si università, dantaldut te la m
 | style="text-align:right"| 15. || [[Jenbach]] || style="text-align:right"| {{formatnum:7088}}
 |}
 
+==Populazion==
+
+L svilup storich de la populazion dl stat federel Tirol:
+<timeline>
+Colors=
+ id:lightgrey value:gray(0.9)
+ id:darkgrey  value:gray(0.7)
+ id:sfondo    value:rgb(1,1,1)
+
+ImageSize  = width:400 height:auto barincrement:28
+PlotArea   = left:35 bottom:40 top:20 right:10
+DateFormat = x.y
+Period     = from:0 till:800
+TimeAxis   = orientation:horizontal
+AlignBars  = late
+ScaleMajor = gridcolor:darkgrey  increment:50 start:0 
+ScaleMinor = gridcolor:lightgrey increment:10 start:0 
+BackgroundColors = canvas:sfondo
+
+PlotData=
+  color:skyblue width:22 shift:(-55,-5) fontsize:M anchor:till
+ bar:1869 from:0 till:236 text:236,426
+ bar:1880 from:0 till:245 text:244,736
+ bar:1890 from:0 till:250 text:249,984
+ bar:1900 from:0 till:266 text:266,374
+ bar:1910 from:0 till:305 text:304,713
+ bar:1923 from:0 till:314 text:313,888
+ bar:1934 from:0 till:349 text:349,098
+ bar:1939 from:0 till:364 text:363,959
+ bar:1951 from:0 till:427 text:427,465
+ bar:1961 from:0 till:463 text:462,899
+ bar:1971 from:0 till:544 text:544,483
+ bar:1981 from:0 till:587 text:586,663
+ bar:1991 from:0 till:631 text:631,410
+ bar:2001 from:0 till:674 text:673,504
+ bar:2011 from:0 till:710 text:710,048
+ bar:2021 from:0 till:760 text:760,105
+TextData=
+ fontsize:M pos:(35,20)
+ text:"Funtana: Statistik Austria"
+</timeline>
 
 {{Stac federei de l'Austria}}
 [[Categoria:Stac federei de l'Austria]]
