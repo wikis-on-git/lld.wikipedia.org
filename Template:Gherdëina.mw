@@ -2,7 +2,10 @@
 <div align="center">
 {| cellspacing="0" style=" background: #f2a774"
 | style="font-size: 8pt; padding: 1pt; line-height: 1.25em; color: black; text-align: center;" |  '''Articul per [[Ladin gherdëina|Ladin Gherdëina]]''' || style="width: 35px; height: 22px; background:#f2a774; text-align: right; font-size: 9pt;" color:black | '''[[File:Val Gardena dall'alto.JPG|25px]]'''
-|}</div></div><includeonly>[[Categoria:Platas por Ladin Gherdëina]]</includeonly>
-<noinclude>[[Categoria:Template de Variantes Ladines]]</noinclude><noinclude>
+|}</div></div><!--
+--- CATEGORIE SPERIMENTALI ---
+<includeonly>[[Categoria:Platas por Ladin Gherdëina]]</includeonly>
+<noinclude>[[Categoria:Template de Variantes Ladines]]</noinclude>
+--><noinclude>
 [[Categoria:Wikipedia:Templates]]
 </noinclude>
