@@ -1,0 +1,7 @@
+<!--
+-- sich gleichende Teile der Quelltext-Zeilen liegen übereinander;
+-- ggf. Ansicht bzw. Schrift verkleinern. -------------><onlyinclude><span style="display:none;">{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#if:{{{2|}}}|{{{2}}}|Baden-Württemberg}}}}</span><!--
+-->[[File:Lesser coat of arms of Baden-Württemberg.svg|class=noviewer|{{#expr:{{{WIDTH|20}}}-2}}px|link={{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}|#=Baden-Württemberg|#default={{{1|Baden-Württemberg}}}}}}}|{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{{2|Baden-Württemberg}}}}}]]<!--
+--------------------------------------------------------->{{#switch:{{{1|}}}|#=|#default=&nbsp;[[{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}|#=Baden-Württemberg|#default={{{1|Baden-Württemberg}}}}}}}|{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{{2|Baden-Württemberg}}}}}]]<!---->}}</onlyinclude>
+
+[[Categoria:Template:Stac federei Germania]]
