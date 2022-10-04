@@ -22,7 +22,7 @@
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" | {{formatnum:{{FL|{{{Stat federel}}}|{{{Kreisschlüssel}}}|0}}}}&nbsp;km² <small>
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|{{{Stat federel}}}|{{{Kreisschlüssel}}}}} / {{FL|{{{Stat federel}}}|{{{Kreisschlüssel}}}|0}} round 2 }}}}&nbsp;ab./km²
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|{{{Stat federel}}}|{{{Kreisschlüssel}}}}} / {{FL|{{{Stat federel}}}|{{{Kreisschlüssel}}}|0}} round 1 }}}}&nbsp;ab./km²
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
 |- valign="top"
 |-
