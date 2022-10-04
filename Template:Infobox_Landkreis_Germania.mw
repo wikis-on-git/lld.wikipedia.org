@@ -14,15 +14,15 @@
 |-valign="top"
 |style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{DEU}}
 |- valign="top" 
-|style="width:140px;font-size:90%" | '''[[Regions de la Franzia|Stat federel]]''' || style="width:170px;font-size:90%" | {{{Stat federel}}}
+|style="width:140px;font-size:90%" | '''[[Regions de la Franzia|Stat federel]]''' || style="width:170px;font-size:90%" | {{{{{Stat federel}}}}}
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{EWZ|{{{Stat federel}}}|{{{Kreisschlüssel}}}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km² <small>
 |- valign="top"
-|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|{{{Stat federel}}}|{{{Kreisschlüssel}}}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
 |- valign="top"
 |-
@@ -56,9 +56,8 @@
 |Blason               = Wappen%20Kreis%20Dithmarschen.svg
 |Bandiera             = Flagge%20Kreis%20Dithmarschen.svg
 |Capitela             = [[Heide]]
-|Stat federel         = {{DE-SH}}
+|Stat federel         = DE-SH
 |Seuraspersa          = 1428.18
-|Abitanc              = {{EWZ|DE-SH|01051}}
 |Data abitanc         = {{EWD|DE-SH}}
 |Zona d'orar          = [[UTC+1]] (d'instà [[UTC+2]])
 |Cherta               = Schleswig-Holstein%20HEI.svg
