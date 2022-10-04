@@ -4,51 +4,29 @@
 | Titel= Tëmp Coordinà Universel (UTC)
 | Farbschema=hellblau
 | Bild=
-| Gruppe1= Defrënzia dal UTC
+| Gruppe1= Defrënzia<br>dal UTC<br><br>''(tl cursif<br>ie zones d'orar<br>storiches o nia<br>ufizieles)''
 | Inhalt1= 
 |Untergruppe_bei_1 = ja
 |Inhalt1={{Erweiterte Navigationsleiste/Untergruppe
   |Untergruppe1        = da [[180ejim meridian|180°]] a [[90ejim meridian vest|90°V]]
-  |Untergruppe-Inhalt1 = * [[UTC−12:00|−12:00]]
-* [[UTC−11:00|−11:00]]
-* ''[[UTC−10:30|−10:30]]''
-* [[UTC−10:00|−10:00]]
-* [[UTC−09:30|−09:30]]
-* [[UTC−09:00|−09:00]]
-* ''[[UTC−08:30|−08:30]]''
-* [[UTC−08:00|−08:00]]
-* [[UTC−07:00|−07:00]]
-  |Untergruppe2        = da [[90ejim meridian vest|90°V]] a [[Meridian de referënza IERS|0°]]
-  |Untergruppe-Inhalt2 =  *[[UTC−06:00|−06:00]]
-* [[UTC−05:00|−05:00]]
-* ''[[UTC−04:30|−04:30]]''
-* [[UTC−04:00|−04:00]]
-* [[UTC−03:30|−03:30]]
-* [[UTC−03:00|−03:00]]
-* [[UTC−02:30|−02:30]]
-* [[UTC−02:00|−02:00]]
-* [[UTC−01:00|−01:00]]
-* ''[[UTC−00:44|−00:44]]''
-* ''[[UTC−00:25:21|−00:25:21]]''
+  |Untergruppe-Inhalt1 = * [[UTC−12:00|−12:00]] * [[UTC−11:00|−11:00]] * ''[[UTC−10:30|−10:30]]'' * [[UTC−10:00|−10:00]] * [[UTC−09:30|−09:30]] * [[UTC−09:00|−09:00]] * ''[[UTC−08:30|−08:30]]'' * [[UTC−08:00|−08:00]] * [[UTC−07:00|−07:00]]   
+|Untergruppe2        = da [[90ejim meridian vest|90°V]] a [[Meridian de referënza IERS|0°]]
+  |Untergruppe-Inhalt2 =  *[[UTC−06:00|−06:00]] * [[UTC−05:00|−05:00]] * ''[[UTC−04:30|−04:30]]'' * [[UTC−04:00|−04:00]] * [[UTC−03:30|−03:30]] * [[UTC−03:00|−03:00]] * [[UTC−02:30|−02:30]] * [[UTC−02:00|−02:00]] * [[UTC−01:00|−01:00]] * ''[[UTC−00:44|−00:44]]'' * ''[[UTC−00:25:21|−00:25:21]]''
  |Untergruppe3        = da [[Meridian de referënza IERS|0°]] a [[90ejim meridian est|90°E]]
-  |Untergruppe-Inhalt3 =  *[[UTC±00:00|±00:00]]
-* ''[[UTC+00:20|+00:20]]''
-* ''[[UTC+00:30|+00:30]]''
-* [[UTC+01:00|+01:00]]
-* ''[[UTC+01:24|+01:24]]''
-* ''[[UTC+01:30|+01:30]]''
-* [[UTC+02:00|+02:00]]
-* ''[[UTC+02:30|+02:30]]''
-* [[UTC+03:00|+03:00]]
-* [[UTC+03:30|+03:30]]
-* [[UTC+04:00|+04:00]]
-* [[UTC+04:30|+04:30]]
-* ''[[UTC+04:51|+04:51]]''
-* [[UTC+05:00|+05:00]]
-* [[UTC+05:30|+05:30]]
-* ''[[UTC+05:40|+05:40]]''
-* [[UTC+05:45|+05:45]]
+  |Untergruppe-Inhalt3 =  *[[UTC±00:00|±00:00]] * ''[[UTC+00:20|+00:20]]'' * ''[[UTC+00:30|+00:30]]'' * [[UTC+01:00|+01:00]] * ''[[UTC+01:24|+01:24]]'' * ''[[UTC+01:30|+01:30]]'' * [[UTC+02:00|+02:00]] * ''[[UTC+02:30|+02:30]]'' * [[UTC+03:00|+03:00]] * [[UTC+03:30|+03:30]] * [[UTC+04:00|+04:00]] * [[UTC+04:30|+04:30]] * ''[[UTC+04:51|+04:51]]''e * [[UTC+05:00|+05:00]] * [[UTC+05:30|+05:30]] * ''[[UTC+05:40|+05:40]]'' * [[UTC+05:45|+05:45]]
+ |Untergruppe4        = da [[90ejim meridian est|90°E]] a [[180ejim meridian|180°]]
+ |Untergruppe-Inhalt4 =  *[[UTC+06:00|+06:00]] * [[UTC+06:30|+06:30]] * [[UTC+07:00|+07:00]] * ''[[UTC+07:20|+07:20]]'' * ''[[UTC+07:30|+07:30]]'' * [[UTC+08:00|+08:00]] * ''[[UTC+08:30|+08:30]]'' * ''[[UTC+08:45|+08:45]]'' * [[UTC+09:00|+09:00]] * [[UTC+09:30|+09:30]] * ''[[UTC+09:45|+09:45]]'' * [[UTC+10:00|+10:00]] * [[UTC+10:30|+10:30]] * [[UTC+11:00|+11:00]] * ''[[UTC+11:30|+11:30]]''
+ |Untergruppe5        = da [[180ejim meridian|180°]] a [[90ejim meridian vest|90°V]]
+ |Untergruppe-Inhalt5 =   *[[UTC+12:00|+12:00]] * [[UTC+12:45|+12:45]] * [[UTC+13:00|+13:00]] * [[UTC+13:45|+13:45]] * [[UTC+14:00|+14:00]]
 }}
+| Gruppe2= Lista de la zones d'orar
+| Inhalt2= * [[List of time zones by country|Time zones by country]]
+* [[List of UTC offsets|Time zones by UTC offset]]
+* [[List of military time zones|Military time zones]]
+* [[List of time zone abbreviations|Time zone abbreviations]]
+* [[Daylight saving time by country]]
+
+
 
 da [[180ejim meridian|180°]] a [[90ejim meridian vest|90°V]]
 }}
