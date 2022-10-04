@@ -1,0 +1,370 @@
+{{Dokumentation/Unterseite}}
+
+<span style="font-size:larger">'''Dokumentation'''</span>
+{| {{Bausteindesign2}}
+|Siehe [[Vorlage:Erweiterte Navigationsleiste #Untergruppen]].
+|}
+<onlyinclude><includeonly>{{#if: {{{Untergruppe-Inhalt1|}}}|<div class="Broken-NavContent">}}<!--
+
+-->{{#if:{{{Untergruppe-Inhalt|}}}|<div class="Broken-NavContent">{{{Untergruppe-Inhalt}}}</div>}}<!--
+
+---HAUPTTEIL---
+---------------------wikitable zebra zur grau|neutral-Weiß Unterscheidung benutzt-----------
+--->
+{| class="wikitable {{#if:{{{NoZebra|}}}||zebra}} {{#if:{{{Toptextcells|}}}|toptextcells}}" style="<!--
+-->width:100%;<!--
+-->margin:0;<!--
+-->text-align:left;<!--
+-->border-collapse:collapse;<!-- 
+
+-->
+{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+1
+| Inhalt = {{{Untergruppe-Inhalt1|}}}
+| Gruppen-Style = {{{Untergruppe1-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe2|}}}
+| Gruppe = {{{Untergruppe1|}}}
+}}<!--
+
+-->
+{{#if: {{{BILD|}}} |
+{{!}} style="width:0%; padding:0px 2px 0px 0px; border:1px solid transparent; background: transparent; {{{Bildstyle|}}}" rowspan="<!--
+ -->{{#expr: 0{{#if:{{{Untergruppe-Inhalt1|}}}|+2}}{{#if:{{{Untergruppe-Inhalt2|}}}|+2}}{{#if:{{{Untergruppe-Inhalt3|}}}|+2}}{{#if:{{{Untergruppe-Inhalt4|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt5|}}}|+2}}{{#if:{{{Untergruppe-Inhalt6|}}}|+2}}{{#if:{{{Untergruppe-Inhalt7|}}}|+2}}{{#if:{{{Untergruppe-Inhalt8|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt9|}}}|+2}}{{#if:{{{Untergruppe-Inhalt10|}}}|+2}}{{#if:{{{Untergruppe-Inhalt11|}}}|+2}}{{#if:{{{Untergruppe-Inhalt12|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt13|}}}|+2}}{{#if:{{{Untergruppe-Inhalt14|}}}|+2}}{{#if:{{{Untergruppe-Inhalt15|}}}|+2}}{{#if:{{{Untergruppe-Inhalt16|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt17|}}}|+2}}{{#if:{{{Untergruppe-Inhalt18|}}}|+2}}{{#if:{{{Untergruppe-Inhalt19|}}}|+2}}{{#if:{{{Untergruppe-Inhalt20|}}}|+2}}<!--
+ -->}}" {{!}}  {{{BILD}}}
+}}<!--
+-->{{#if: {{{Bild|}}} |
+{{!}} style="width:0%; padding:0px 2px 0px 0px; border:1px solid transparent; background: transparent; {{{Bildstyle|}}}" rowspan="<!--
+ -->{{#expr: 0<!--
+-->{{#if:{{{Untergruppe-Inhalt1|}}}|+2}}{{#if:{{{Untergruppe-Inhalt2|}}}|+2}}{{#if:{{{Untergruppe-Inhalt3|}}}|+2}}{{#if:{{{Untergruppe-Inhalt4|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt5|}}}|+2}}{{#if:{{{Untergruppe-Inhalt6|}}}|+2}}{{#if:{{{Untergruppe-Inhalt7|}}}|+2}}{{#if:{{{Untergruppe-Inhalt8|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt9|}}}|+2}}{{#if:{{{Untergruppe-Inhalt10|}}}|+2}}{{#if:{{{Untergruppe-Inhalt11|}}}|+2}}{{#if:{{{Untergruppe-Inhalt12|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt13|}}}|+2}}{{#if:{{{Untergruppe-Inhalt14|}}}|+2}}{{#if:{{{Untergruppe-Inhalt15|}}}|+2}}{{#if:{{{Untergruppe-Inhalt16|}}}|+2}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt17|}}}|+2}}{{#if:{{{Untergruppe-Inhalt18|}}}|+2}}{{#if:{{{Untergruppe-Inhalt19|}}}|+2}}{{#if:{{{Untergruppe-Inhalt20|}}}|+2}}<!--
+ -->}}" {{!}} <!--
+-->[[Datei:{{{Bild}}}|<!--
+-->{{#if: {{{Bild-px|}}} | {{{Bild-px}}} | <!--
+-->x<!--
+ -->{{#expr: 0<!--
+-->{{#if:{{{Untergruppe-Inhalt1|}}}|+11}}{{#if:{{{Untergruppe-Inhalt2|}}}|+11}}{{#if:{{{Untergruppe-Inhalt3|}}}|+11}}{{#if:{{{Untergruppe-Inhalt4|}}}|+16}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt5|}}}|+11}}{{#if:{{{Untergruppe-Inhalt6|}}}|+11}}{{#if:{{{Untergruppe-Inhalt7|}}}|+11}}{{#if:{{{Untergruppe-Inhalt8|}}}|+16}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt9|}}}|+11}}{{#if:{{{Untergruppe-Inhalt10|}}}|+11}}{{#if:{{{Untergruppe-Inhalt11|}}}|+11}}{{#if:{{{Untergruppe-Inhalt12}}}|+16}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt13|}}}|+11}}{{#if:{{{Untergruppe-Inhalt14|}}}|+11}}{{#if:{{{Untergruppe-Inhalt15|}}}|+11}}{{#if:{{{Untergruppe-Inhalt16|}}}|+16}}<!--
+ -->{{#if:{{{Untergruppe-Inhalt17|}}}|+11}}{{#if:{{{Untergruppe-Inhalt18|}}}|+11}}{{#if:{{{Untergruppe-Inhalt19|}}}|+11}}{{#if:{{{Untergruppe-Inhalt20|}}}|+16}}<!--
+ -->}}px<!--
+-->}}<!--
+-->{{#if: {{{Bild-Beschreibung}}} | {{!}} {{{Bild-Beschreibung}}} }}]]
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+2
+| Inhalt = {{{Untergruppe-Inhalt2|}}}
+| Gruppen-Style = {{{Untergruppe2-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe3|}}}
+| Gruppe = {{{Untergruppe2|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+3
+| Inhalt = {{{Untergruppe-Inhalt3|}}}
+| Gruppen-Style = {{{Untergruppe3-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe4|}}}
+| Gruppe = {{{Untergruppe3|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+4
+| Inhalt = {{{Untergruppe-Inhalt4|}}}
+| Gruppen-Style = {{{Untergruppe4-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe5|}}}
+| Gruppe = {{{Untergruppe4|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+5
+| Inhalt = {{{Untergruppe-Inhalt5|}}}
+| Gruppen-Style = {{{Untergruppe5-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe6|}}}
+| Gruppe = {{{Untergruppe5|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+6
+| Inhalt = {{{Untergruppe-Inhalt6|}}}
+| Gruppen-Style = {{{Untergruppe6-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe7|}}}
+| Gruppe = {{{Untergruppe6|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+7
+| Inhalt = {{{Untergruppe-Inhalt7|}}}
+| Gruppen-Style = {{{Untergruppe7-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe8|}}}
+| Gruppe = {{{Untergruppe7|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+8
+| Inhalt = {{{Untergruppe-Inhalt8|}}}
+| Gruppen-Style = {{{Untergruppe8-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe9|}}}
+| Gruppe = {{{Untergruppe8|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+9
+| Inhalt = {{{Untergruppe-Inhalt9|}}}
+| Gruppen-Style = {{{Untergruppe9-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe10|}}}
+| Gruppe = {{{Untergruppe9|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+10
+| Inhalt = {{{Untergruppe-Inhalt10|}}}
+| Gruppen-Style = {{{Untergruppe10-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe11|}}}
+| Gruppe = {{{Untergruppe10|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+11
+| Inhalt = {{{Untergruppe-Inhalt11|}}}
+| Gruppen-Style = {{{Untergruppe11-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe12|}}}
+| Gruppe = {{{Untergruppe11|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+12
+| Inhalt = {{{Untergruppe-Inhalt12|}}}
+| Gruppen-Style = {{{Untergruppe12-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe13|}}}
+| Gruppe = {{{Untergruppe12|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+13
+| Inhalt = {{{Untergruppe-Inhalt13|}}}
+| Gruppen-Style = {{{Untergruppe13-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe14|}}}
+| Gruppe = {{{Untergruppe13|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+14
+| Inhalt = {{{Untergruppe-Inhalt14|}}}
+| Gruppen-Style = {{{Untergruppe14-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe15|}}}
+| Gruppe = {{{Untergruppe14|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+15
+| Inhalt = {{{Untergruppe-Inhalt15|}}}
+| Gruppen-Style = {{{Untergruppe15-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe16|}}}
+| Gruppe = {{{Untergruppe15|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+16
+| Inhalt = {{{Untergruppe-Inhalt16|}}}
+| Gruppen-Style = {{{Untergruppe16-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe17|}}}
+| Gruppe = {{{Untergruppe16|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+17
+| Inhalt = {{{Untergruppe-Inhalt17|}}}
+| Gruppen-Style = {{{Untergruppe17-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe18|}}}
+| Gruppe = {{{Untergruppe17|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+18
+| Inhalt = {{{Untergruppe-Inhalt18|}}}
+| Gruppen-Style = {{{Untergruppe18-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe19|}}}
+| Gruppe = {{{Untergruppe18|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+19
+| Inhalt = {{{Untergruppe-Inhalt19|}}}
+| Gruppen-Style = {{{Untergruppe19-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe20|}}}
+| Gruppe = {{{Untergruppe19|}}}
+}}
+|-
+<!--
+
+-->{{Erweiterte Navigationsleiste/Kern
+| Style-Zentriert = {{{Style-Zentriert|}}}
+| Farbschema = {{{Farbschema|}}}
+| Farbe = {{{Farbe|}}}
+| Farbe2 = {{{Farbe2|}}}
+| Kopfbreite = {{{Kopfbreite|}}}
+| Untertitel = {{{Untertitel|}}}
+20
+| Inhalt = {{{Untergruppe-Inhalt20|}}}
+| Gruppen-Style = {{{Untergruppe20-Style|}}}
+| Gruppe-Dahinter = {{{Untergruppe21|}}}
+| Gruppe = {{{Untergruppe20|}}}
+}}<!--
+
+-->
+|}{{#if: {{{Untergruppe-Inhalt1|}}}|</div>}}
+</includeonly></onlyinclude>
