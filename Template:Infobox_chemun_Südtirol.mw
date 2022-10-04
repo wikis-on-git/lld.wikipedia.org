@@ -31,7 +31,7 @@
 |- valign="top"
 | style="width:130px;font-size:90%" | '''Grupes linguistiches''' || - style="width:180px;font-size:90%" |{{formatnum:{{{lld}}}}}&nbsp;%&nbsp;[[lingaz ladin|ladin]]<br>{{formatnum:{{{de}}}}}&nbsp;%&nbsp;[[lingaz tudësch|tudësch]]<br>{{formatnum:{{{it}}}}}&nbsp;%&nbsp;[[lingaz talian|talian]]
 |- valign="top"
-| style="width:130px;font-size:90%" | '''Densità''' ||  style="width:180px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|IT|{{{Codesc ISTAT|}}}}} / {{{Souraspersa}}} round 2 }}}}&nbsp;ab./km²
+| style="width:130px;font-size:90%" | '''Densità''' ||  style="width:180px;font-size:90%" |{{formatnum:{{#expr: {{EWZ|IT|{{{Codesc ISTAT|}}}}} / {{{Souraspersa}}} round 1 }}}}&nbsp;ab./km²
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
 |- valign="top"
 !colspan="2" bgcolor="#E3E3E3" style="font-size:90%" | Auter
