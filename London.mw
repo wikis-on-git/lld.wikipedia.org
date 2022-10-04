@@ -10,7 +10,11 @@
 |Coordinates            = {{coord|51|30.4|N|0|7.7|W|display=inline}}
 |Data abitanc           = 2019
 |Abitanc                = 8908081
-|Codesc posta           = 
+|Codesc posta           = {{collapsible list
+ |titlestyle = background:transparent;text-align:left;font-weight:normal;
+ |title = 22 codesc
+ |E, EC, N, NW, SE, SW, W, WC, BR, CM, CR, DA, EN, HA, IG, KT, RM, SM,UB, WD, TN, TW
+ }}
 |Plata internet         = www.london.gov.uk
 |Cherta                 = {{Mappa di localizzazione
 |ENG
