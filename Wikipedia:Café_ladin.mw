@@ -599,3 +599,9 @@ Avviso di 2 votazioni admin simultanee:
 * [[Wikipedia:Aministradus/Riconferme/Starladin/3|Terza riconferma admin per l'utente Starladin]]
 
 --[[Utente:S4b1nuz E.656|<span style="color:#009246;">'''S4b1nuz'''</span> <span style="color:#CE2B37; font-family:futura">'''ᴇ.656'''</span>]]<sup>[[Discussioni utente:S4b1nuz E.656|<span style="color:#006AA7">''(SMS)''</span>]]</sup> 13:03, 9 sët 2022 (CEST)
+
+== Bot policy ==
+
+Hello. To facilitate [[:m:Special:MyLanguage/Stewards|steward]] granting of bot access, I suggest implementing the [[m:Special:MyLanguage/Bot policy|standard bot policy]] on this wiki. In particular, this policy allows stewards to automatically flag known interlanguage linking bots (if this page says that is acceptable) or bots that fix double redirects. The policy also enables [[m:Bot policy#Global_bots|global bots]] on this wiki (if this page says that is acceptable), which are trusted bots that will be given bot access on every wiki that allows global bots.
+
+This policy makes bot access requesting much easier for local users, operators, and stewards. To implement it we only need to create a redirect to this page from [[Project:Bot policy]], and add a line at the top noting that it is used here. If you use or prefer to use a dedicated project page for handling bot flag requests, that is also acceptable. Please read [[m:Special:MyLanguage/Bot policy|the text at Meta-Wiki]] before commenting. If you object, please say so; I hope to implement in two weeks if there is no objection, since it is particularly written to streamline bot requests on wikis with little or no community interested in bot access requests. Thank you for your consideration. --'''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 03:37, 7 uto 2022 (CEST)
