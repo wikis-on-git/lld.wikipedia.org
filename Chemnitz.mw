@@ -29,6 +29,121 @@
 |}}'''Chemnitz''' ie na [[zità]] te la [[Germania]] tl [[Stac federei de la Germania|stat federel]] [[Sachsen]]. Tl 2020 ovela na populazion de {{formatnum:244401}} sun na spersa de {{formatnum:221.03}} km².<ref>https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/_inhalt.html Statistisches Bundesamt – Gemeindeverzeichnis</ref>
 
 == Geografia ==
+===Tlima===
+{{Tlima
+| TABELLE =
+| DIAGRAMM TEMPERATURA =
+| DIAGRAMM PREZIPITAZIONS =
+| DIAGRAMM PREZIPITAZIONS AUTEZA = 200
+| FUNTANA = DWD, Daten: 2015–2020<ref>[https://www.wetterdienst.de/Deutschlandwetter/Chemnitz_Sachsen/Klima/ Klima Chemnitz, Sachsen – Wetterdienst], Deutscher Wetterdienst, auf wetterdienst.de</ref>
+| Titul =
+| Luech = Chemnitz
+<!-- durchschnittliche Höchsttemperatur für den jeweiligen Monat in °C -->
+| hmjan = 3.1
+| hmfeb = 5.2
+| hmmär = 7.9
+| hmapr = 13.7
+| hmmai = 18.2
+| hmjun = 23.0
+| hmjul = 24.4
+| hmaug = 24.7
+| hmsep = 19.1
+| hmokt = 13.4
+| hmnov = 8.1
+| hmdez = 5.9
+<!-- durchschnittliche Niedrigsttemperatur für den jeweiligen Monat in °C -->
+| lmjan = -2.0
+| lmfeb = −0.8
+| lmmär = 0.8
+| lmapr = 4.3
+| lmmai = 8.3
+| lmjun = 12.5
+| lmjul = 13.8
+| lmaug = 14.2
+| lmsep = 10.1
+| lmokt = 6.7
+| lmnov = 2.4
+| lmdez = 1.0
+<!-- durchschnittliche Temperatur für den jeweiligen Monat in °C -->
+| avjan =
+| avfeb =
+| avmär =
+| avapr =
+| avmai =
+| avjun =
+| avjul =
+| avaug =
+| avsep =
+| avokt =
+| avnov =
+| avdez =
+<!-- durchschnittliche Niederschlagsmenge für den jeweiligen Monat in mm -->
+| nbjan = 56
+| nbfeb = 43
+| nbmär = 57
+| nbapr = 45
+| nbmai = 32
+| nbjun = 62
+| nbjul = 64
+| nbaug = 66
+| nbsep = 60
+| nbokt = 77
+| nbnov = 56
+| nbdez = 55
+<!-- durchschnittliche Regentage für den jeweiligen Monat in d -->
+| rdjan = 18
+| rdfeb = 15
+| rdmär = 16
+| rdapr = 12
+| rdmai = 13
+| rdjun = 13
+| rdjul = 14
+| rdaug = 12
+| rdsep = 13
+| rdokt = 16
+| rdnov = 16
+| rddez = 19
+<!-- durchschnittliche Anzahl täglicher Sonnenstunden für den jeweiligen Monat in h/d -->
+| shjan = 1.9
+| shfeb = 2.4
+| shmär = 3.4
+| shapr = 4.5
+| shmai = 6.2
+| shjun = 6.2
+| shjul = 6.5
+| shaug = 6.3
+| shsep = 4.8
+| shokt = 4.1
+| shnov = 1.9
+| shdez = 1.5
+<!-- durchschnittliche Luftfeuchtigkeit für den jeweiligen Monat in % -->
+| lfjan = 84
+| lffeb = 83
+| lfmär = 79
+| lfapr = 75
+| lfmai = 73
+| lfjun = 75
+| lfjul = 74
+| lfaug = 74
+| lfsep = 79
+| lfokt = 80
+| lfnov = 83
+| lfdez = 85
+<!-- durchschnittliche Wassertemperatur (Meere, Seen) für den jeweiligen Monat in °C -->
+| wtjan =
+| wtfeb =
+| wtmär =
+| wtapr =
+| wtmai =
+| wtjun =
+| wtjul =
+| wtaug =
+| wtsep =
+| wtokt =
+| wtnov =
+| wtdez =
+}}
+
 ==Storia==
 ==Cëla nce ==
 * [[Lista de la majera ziteies te la Germania]]
