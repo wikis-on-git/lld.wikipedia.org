@@ -342,18 +342,18 @@
 |-
 ! scope="col" style="width:8%;"|Union territory
 
-! scope="col" style="width:1%;"|[[ISO 3166-2:IN]]
-! scope="col" style="width:1%;"|[[Vehicle registration plates of India|Vehicle<br />code]]
-! scope="col" style="width:1%;"|[[Zonal Council|Zone]]
-! scope="col" style="width:1%;"|Capital
-! scope="col" style="width:1%;"|Largest city
-! scope="col" style="width:1%;"|UT established
-! scope="col" style="width:1%;"|Population
-! scope="col" style="width:1%;"|[[List of states and union territories of India by area|Area]]<br />(km<sup>2</sup>)
-! scope="col" style="width:8%;"|Official<br />languages
-! scope="col" style="width:8%;"|Additional official<br />languages
+! scope="col" style="width:1%;"|[[ISO 3166-2|Codesc ISO]]
+! scope="col" style="width:1%;"|Codesc targa<br />de l'auto
+! scope="col" style="width:1%;"|Zona
+! scope="col" style="width:1%;"|Capitela
+! scope="col" style="width:1%;"|Majera zità
+! scope="col" style="width:1%;"|Fundazion
+! scope="col" style="width:1%;"|Populazion
+! scope="col" style="width:1%;"|Spersa<br />(km<sup>2</sup>)
+! scope="col" style="width:8%;"|Rujenedes<br />ufizieles
+! scope="col" style="width:8%;"|Rujenedes ufizieles<br />leprò
 |-
-! scope="row"|[[Andaman and Nicobar Islands]]
+! scope="row"|[[Ijules Andaman y Nicobar]]
 | IN-AN
 | AN
 | Southern
@@ -376,7 +376,7 @@
 | English
 | —
 |-
-! scope="row"|[[Dadra and Nagar Haveli and Daman and Diu]] 
+! scope="row"|[[Dadra y Nagar Haveli y Daman y Diu]] 
 | IN-DH
 | DD
 | Western
@@ -399,7 +399,7 @@
 | [[Hindi]], English
 | [[Punjabi language|Punjabi]], [[Urdu]]<ref>{{cite web|url=http://delhi.gov.in/wps/wcm/connect/d09fd2004bd07ad9a305ab56803943f0/Delhi+Official+Languages+Act+2000.pdf?MOD=AJPERES&lmod=-344844204|title=Official Language Act 2000|date=2 July 2003|publisher=Government of Delhi|access-date=17 July 2015|archive-url=https://web.archive.org/web/20160304084459/http://delhi.gov.in/wps/wcm/connect/d09fd2004bd07ad9a305ab56803943f0/Delhi+Official+Languages+Act+2000.pdf?MOD=AJPERES&lmod=-344844204|archive-date=4 March 2016|url-status=dead}}</ref>
 |-
-! scope="row" |[[Jammu and Kashmir (union territory)|Jammu and Kashmir]]
+! scope="row" |[[Jammu y Kashmir (raion de l'union)|Jammu y Kashmir]]
 | IN-JK
 | JK
 | Northern
@@ -434,7 +434,7 @@
 | [[Malayalam]], English 
 | —
 |-
-! scope="row"|[[Puducherry (union territory)|Puducherry]]
+! scope="row"|[[Puducherry (raion de l'union)|Puducherry]]
 | IN-PY
 | PY
 | Southern
