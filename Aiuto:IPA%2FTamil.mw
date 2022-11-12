@@ -1,0 +1,313 @@
+{{IPA key|H:IPA-TA}}
+{{Contains special characters|Indic}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Tamil language|Tamil]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-ta}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.  
+
+Tamil has phonological process by which voiceless plosives are altered to their respective voiced sounds because of their position in a word (word initial versus word medial) or presence of preceding vowel sounds.
+
+See [[Tamil phonology]] for a more thorough discussion of the sounds of Tamil.
+
+{{horizontal TOC|nonum=yes|limit=2}}
+
+==Key==
+<!-- PLEASE READ BEFORE ADDING EXAMPLES OR LANGUAGES TO THE KEY.
+This key is intended for newcomers to the IPA and should therefore be kept as simple as possible. Descriptions should be brief, without technical terms like "back vowel" or "labial" or "fricative". Approximations column should be from English since this Wikipedia is in English. If unavailable in English, examples that are well described phonetically may be from other languages that are commonly familiar to average English-readers.
+-->
+
+{| style="background:none;"
+| style="vertical-align:top;" | 
+{| class="wikitable sortable" style="margin: 1em; text-align: center;"
+! colspan="4"| [[Consonant]]s
+|-
+! rowspan="2"|[[International phonetic alphabet|IPA]]
+! colspan="2"|Example
+! rowspan="2"|English approximation
+|-
+! [[Tamil script]]
+! [[ISO 15919]]
+|-
+| <big>{{IPA link|b}}</big>
+| {{lang|ta|தம்'''பி'''}}, {{lang|ta|ஆ'''ப'''த்து}}, {{lang|ta|அன்'''பு'''}}
+| p
+| style="text-align:left;" | '''b'''and
+|-
+| <big>{{IPA link|ɕ}}</big>
+| {{lang|ta|'''ஶி'''வா}}
+| {{transl|ta|ISO|ś}}
+| style="text-align:left;" | '''sh'''eep
+|-
+| <big> {{IPA link|d̪|d}}</big>
+| {{lang|ta|பந்'''து'''}}
+| t
+| style="text-align:left;" | '''d'''o
+|-
+| <big>{{IPA link|ɖ}}</big><ref name="ʈ"> {{IPA|[ɖ]}} and {{IPA|[ɽ]}} occur as word-medial and intervocalic allophones of {{IPA|/ʈ/}}.</ref>
+| {{lang|ta|வண்'''டி'''}}, {{lang|ta|ப'''டி'''}}
+| ṭ
+| style="text-align:left;" | '''dr'''ab
+|-
+| <big> {{IPA link|ð}}</big><ref> {{angbr|த}} represents {{IPA|[ð]}} in intervocalic position.</ref>
+| {{lang|ta|நல்ல'''து'''}}
+| t
+| style="text-align:left;" | o'''th'''er
+|-
+| <big>{{IPA link|dʑ}}</big>
+| {{lang|ta|இஞ்'''சி'''}}, {{lang|ta|'''ஜா'''னகி}}
+| c
+| style="text-align:left;" | he'''dg'''e
+|-
+| <big>{{IPA link|ɡ}}</big>
+| {{lang|ta|அங்'''கே'''}}, {{lang|ta|பா'''கு'''}}
+| k
+| style="text-align:left;" | '''g'''ate
+|-
+| <big>{{IPA link|h}}</big><ref>{{angbr|க}} represents {{IPA|[h]}} in intervocalic position, but not when it appears as the first letter of a word.</ref>
+| {{lang|ta|ம'''கா'''}}, {{lang|ta|'''ஹ'''ரி}}
+| k
+| style="text-align:left;" | '''h'''eat
+|-
+| <big>{{IPA link|j}}</big>
+| {{lang|ta|'''யா'''னை}}, {{lang|ta|உ'''ய்ய'''}}
+| y
+| style="text-align:left;" | '''y'''ak
+|-
+| <big>{{IPA link|k}}</big>
+| {{lang|ta|'''கா'''ல்}}, {{lang|ta|ம'''க்க'''ள்}}, {{lang|ta|கற்'''க'''}}
+| k
+| style="text-align:left;" | s'''k'''ate
+|-
+| <big>{{IPA link|l̪|l}}</big>
+| {{lang|ta|வ'''லி'''}}, {{lang|ta|வ'''ல்லி'''}}, {{lang|ta|இ'''ல'''ங்கை}}, {{lang|ta|வந்தா'''ல்'''}}
+| l
+| style="text-align:left;" | '''l'''et
+|-
+| <big>{{IPA link|ɭ}}</big>
+| {{lang|ta|வ'''ளி'''}}, {{lang|ta|வ'''ள்ளி'''}}, {{lang|ta|வந்தா'''ள்'''}}
+| ḷ
+| style="text-align:left;" | somewhat like ca'''rl''' {{small|(American English)}}
+|-
+| <big>{{IPA link|m}}</big>
+| {{lang|ta|'''ம'''லை}}, {{lang|ta|அ'''ம்மா'''ள்}}, {{lang|ta|த'''ம்'''பி}}, {{lang|ta|வண்ண'''ம்'''}}
+| m
+| style="text-align:left;" | '''m'''uch
+|-
+| <big>{{IPA link|n}}</big><ref name="dental">Dental [n̪] and alveolar [n] are allophones in Tamil. Both sound like {{IPAc-en|n}} to English speakers.</ref>
+| {{lang|ta|ப'''ன்'''றி}}, {{lang|ta|சி'''ன்ன'''}}, {{lang|ta|வந்தா'''ன்'''}}
+| ṉ
+| style="text-align:left;" | te'''n'''
+|-
+| <big>{{IPA link|n̪}}</big><ref name="dental"/>
+| {{lang|ta|'''ந'''யம்}}, {{lang|ta|ப'''ந்'''து}}, {{lang|ta|'''ந'''ன்றி}}, {{lang|ta|எ'''ந்ந'''ன்றி}}
+| n
+| style="text-align:left;" | te'''n'''th
+|-
+| <big>{{IPA link|ɲ}}</big>
+| {{lang|ta|'''ஞா'''னம்}}, {{lang|ta|அ'''ஞ்ஞா'''னம்}}, {{lang|ta|இ'''ஞ்'''சி}}
+| ñ
+| style="text-align:left;" | ca'''ny'''on
+|-
+| <big>{{IPA link|ɳ}}</big>
+| {{lang|ta|வ'''ண்'''டி}}, {{lang|ta|வ'''ண்ண'''ம்}}
+| ṇ
+| style="text-align:left;" | co'''rn''' {{small|(American English)}}
+|-
+| <big>{{IPA link|ŋ}}</big>
+|{{lang|ta|அ'''ங்'''கே}}, {{lang|ta|அ'''ங்ங'''னம்}}
+| ṅ
+| style="text-align:left;" | so'''ng'''
+|-
+| <big>{{IPA link|r}}</big><ref>{{angbr|ற}} represents {{IPA|[dr]}} and {{IPA|[tːr]}} after corresponding nasal consonant and when geminated, respectively, in which the [t] and the [d] represent the voiceless and voiced postalveolar stops.</ref>
+| {{lang|ta|க'''றி'''}}, {{lang|ta|ப'''ற்றி'''னார்}}, {{lang|ta|பன்'''றி'''}}
+| ṟ
+| style="text-align:left;" | trilled ''r''
+|-
+| <big>{{IPA link|ɾ̪|ɾ}}</big>
+| {{lang|ta|க'''ரி'''}}, {{lang|ta|ப'''ரி'''}}, {{lang|ta|இ'''ர'''வி}}, {{lang|ta|வந்தா'''ர்'''}}
+| r
+| style="text-align:left;" | a'''t'''om {{small|(American English)}}
+|-
+| <big>{{IPA link|ɽ}}</big><ref name="ʈ"/>
+| தமிழ்நா'''டு'''
+| ṭ
+| style="text-align:left;" | po'''rt'''er {{small|(American English)}}
+|-
+| <big>{{IPA link|ɻ}}</big>
+| {{lang|ta|தமி'''ழ்'''}},
+{{lang|ta|வ'''ழி'''}}
+| ḻ
+| style="text-align:left;" | '''r'''ight
+|-
+| <big>{{IPA link|s}}</big><ref>{{angbr|ச}} represents {{IPA|[s]}} in intervocalic position.</ref>
+| {{lang|ta|பா'''ச'''ம்}}, {{lang|ta|'''ஸ'''ந்தியா}}
+| c
+| style="text-align:left;" | '''s'''um
+|-
+| <big>{{IPA link|ʂ}}</big>
+| {{lang|ta|உ'''ஷா'''}}
+| {{transl|ta|ISO|ṣ}}
+| style="text-align:left;" | '''shr'''imp
+|-
+| <big> {{IPA link|t̪|t}}</big>
+| {{lang|ta|'''த'''னி}}, {{lang|ta|ப'''த்து'''}}, {{lang|ta|யுக்'''தி'''}}
+| t
+| style="text-align:left;" | s'''t'''op
+|-
+| <big>{{IPA link|ʈ}}</big>
+| {{lang|ta|ப'''ட்டு'''}}
+| ṭ
+| style="text-align:left;" | s'''tr'''ength
+|-
+| <big>{{IPA link|tɕ}}</big>
+| {{lang|ta|'''சி'''ன்ன}}, {{lang|ta|பே'''ச்சு'''}},  {{lang|ta|கட்'''சி'''}}
+| c
+| style="text-align:left;" | ca'''tch'''
+|-
+| <big>{{IPA link|ʋ}}</big>
+| {{lang|ta|'''வ'''ழி}}, {{lang|ta|அ'''வ்வ'''ழி}}
+| v
+| style="text-align:left;" | between ''w'' and ''v''
+|-
+| <big>{{IPA link|x}}</big><ref name="aaa">Only in loanwords.</ref>
+| {{lang|ta|சிங்கிஸ் '''ஃகா'''ன்}}
+| ḵk
+| style="text-align:left;" | Scottish lo'''ch''' or German ''Ba'''ch'''''
+|-
+| <big>{{IPA link|f}}</big><ref name="aaa"/>
+| {{lang|ta|'''ஃப்'''ரான்ஸ்}}
+| ḵp
+| style="text-align:left;" | '''f'''an
+|-
+| <big>{{IPA link|z}}</big><ref name="aaa"/>
+| {{lang|ta|அ'''ஃஜா'''ருதீன்}}
+| ḵj
+| style="text-align:left;" | '''z'''oo
+|}
+<br>
+| style="vertical-align:top;" |
+{| class="wikitable sortable" style="margin: 1em; text-align: center;"
+! colspan="4"| [[Vowel]]s
+|-
+! rowspan="2"|[[International phonetic alphabet|IPA]]
+! colspan="2"|Example
+! rowspan="2"|English approximation
+|-
+! [[Tamil script]]
+! [[ISO 15919]]
+|-
+|-
+| <big>{{IPA link|ä|a}}</big>
+| style="text-align:left;" |{{lang|ta|கல்}} ('stone')
+| a
+| style="text-align:left;" | n'''u'''t
+|-
+| <big>{{IPA link|ä|aː}}</big>
+| style="text-align:left;" |{{lang|ta|கால்}} ('leg')
+| ā
+| style="text-align:left;" | br'''a'''
+|-
+| <big>{{IPA|aɪ}}</big>
+| style="text-align:left;" |{{lang|ta|கைது}} ('arrest')
+| ai
+| style="text-align:left;" | b'''i'''te
+|-
+| <big>{{IPA|aʊ}}</big>
+| style="text-align:left;" |{{lang|ta|கௌதாரி}} (a type of bird)
+| au
+| style="text-align:left;" | h'''ou'''se
+|-
+| <big>{{IPA link|e̞|e}}</big>
+| style="text-align:left;" |{{lang|ta|கெடு}} ('time limit')
+| e
+| style="text-align:left;" | b'''e'''t
+|-
+| <big>{{IPA link|e̞|eː}}</big>
+| style="text-align:left;" |{{lang|ta|கேடு}} ('destruction')
+| ē
+| style="text-align:left;" |b'''ai'''t
+|-
+| <big>{{IPA link|i}}</big>
+| style="text-align:left;" |{{lang|ta|கிரி}} ('mountain')
+| i
+| style="text-align:left;" | s'''i'''t
+|-
+| <big>{{IPA link|i|iː}}</big>
+| style="text-align:left;" |{{lang|ta|கீரி }}('mongoose')
+| ī
+| style="text-align:left;" | s'''ee'''t
+|-
+| <big>{{IPA link|o̞|o}}</big>
+| style="text-align:left;" |{{lang|ta|கொடு}} ('give')
+| o
+| style="text-align:left;" | er'''o'''de
+|-
+| <big>{{IPA link|o̞|oː}}</big>
+| style="text-align:left;" |{{lang|ta|கோடு}} ('a line drawn')
+| ō
+| style="text-align:left;" | '''o'''ld
+|-
+| <big>{{IPA link|u}}</big>
+| style="text-align:left;" |{{lang|ta|குடம்}} ('pot')
+| u
+| style="text-align:left;" | l'''oo'''k
+|-
+| <big>{{IPA link|u|uː}}</big>
+| style="text-align:left;" |{{lang|ta|கூடம்}} ('hall')
+| ū
+| style="text-align:left;" | l'''oo'''t
+|-
+| <big>{{IPA link|ɯ}}</big><ref>word final /u/ is pronounced as [ɯ]</ref>
+| style="text-align:left;" |{{lang|ta|அழகு}} ('beauty')
+| u
+| style="text-align:left;" | g'''oo'''d
+|-
+| <big> {{IPA link|ã|&nbsp;̃}}</big>
+| {{lang|ta|வரா'''ன்'''}}, {{lang|ta|வரோ'''ம்'''}} (spoken Tamil only)
+| -
+| style="text-align:left;" | nasal vowel<br>([ãː], [õː], etc.)
+|}
+<br>
+
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="3"| [[Suprasegmental]]s
+|-
+! IPA
+! Notes
+|-
+| <big>{{IPA link|ˈ|ˈ◌}}</big>
+| colspan=2 style="text-align:left;" | stress <br>(placed before stressed syllable)
+|-
+| <big>{{IPA link|ː|◌ː}}</big>
+| colspan="2" style="text-align:left;" | doubled consonant<br>(placed after doubled consonant)
+|}
+|}
+
+==See also==
+*[[IPA vowel chart with audio]] {{spoken}}
+*[[IPA pulmonic consonant chart with audio]] {{spoken}}
+*[[:File:The_International_Phonetic_Alphabet_(revised_to_2015).pdf|IPA chart (vowels and consonants) - 2015. (pdf file)]]
+
+==Notes==
+{{reflist|group=|2}}
+
+==Citations==
+{{reflist|group=S}}
+
+==Bibliography==
+{{Refbegin}}
+
+* {{citation
+|last=Keane
+|first=Elinor
+|year=2004
+|title=Tamil
+|journal=Journal of the International Phonetic Association
+|volume=34
+|issue=1
+|pages=111–116
+|doi=10.1017/S0025100304001549
+}}
+{{Refend}}
+
+==External links==
+*[http://www.virtualvinodh.com/tamil-ipa Tamil to IPA converter] : Free online tool to convert Tamil text to IPA phonetic transcription.
+
+{{IPA keys}}
