@@ -1,17 +1,19 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
-| colspan="2"  valign="top" style="cellspacing=0;border-spacing: 0px;"| {{{Foto}}}
-|-
-| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
-|-
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem natif}}}</big>
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
-|colspan="2"  valign="top" | [[File:{{{Blason}}}|140px|border|center]] 
+| colspan="2"  valign="top" align="center" style="cellspacing=0;border-spacing: 0px;"| {{{Foto}}}
 |-
-| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"| [[File:{{{Cherta}}}|300px|border|center]]
+|colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;" | [[File:{{{Blason}}}|140px|center]] 
+|-
+| colspan="2"   align="center" valign="top" | Blason de {{{Inuem}}}
+|-
+| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1;"| [[File:{{{Cherta}}}|300px|center]]
+|-
+| colspan="2"   align="center" valign="top" style="border-bottom: 1px solid #a2a9b1;"| {{{Descrizion cherta}}}
 |-
 !colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
 |-valign="top"
@@ -19,7 +21,7 @@
 |- valign="top" 
 |style="width:140px;font-size:90%" | '''Raion''' || style="width:170px;font-size:90%" | {{{Raion}}}
 |- valign="top" 
-|style="width:140px;font-size:90%"|'''Sënta aministrativa''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+| {{#if: {{{Majera zità|}}} | style="width:140px;font-size:90%" {{!}} '''Capitela''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}}   | style="width:140px;font-size:90%" {{!}} '''Capitela y majera zità''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}} }}
 |- valign="top"
 |style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
@@ -47,13 +49,15 @@
 |Inuem natif          = தமிழ் நாடு ([[lingaz tamil|tamil]])
 |Soget aministratif   = [[Stac federei y raions de l'union de l'India|Stat]]
 |Blason               = TamilNadu_Logo.svg
+|Raion                = [[India dl Sud]]
 |Capitela             = [[Chennai]]
-|Majera zità          = [[Chennai]]
+|Majera zità          =
 |Seuraspersa          = 130058
 |Abitanc              = 72147030
 |Data abitanc         = 2011
 |Cherta               = IN-TN.svg
-|Foto                 = | image_skyline           = {{Photomontage
+|Descrizion cherta = Posizion de Tamil Nadu te l'India
+|Foto                 = {{Photomontage
  | photo1a                = Le temple de Brihadishwara (Tanjore, Inde) (14354574611).jpg
  | photo2a                = Shore Temple (16217100293).jpg
  | photo2b                = Sri Ranganathaswamy Temple, dedicated to Vishnu, in Srirangam, near Tiruchirappali (28) (37464519366).jpg
@@ -61,14 +65,11 @@
  | photo4a                = Hogenakkal Falls Close.jpg
  | photo4b                = Statue of Thiruvalluvar.jpg
  | spacing                = 1
- | size                   = 250
+ | size                   = 280
  | position               = center
  | border                 = 0
  | color                  = #000000
- | foot_montage           = ''From top; left to right:''<br />[[Brihadisvara Temple, Thanjavur|Brihadisvara Temple]], [[Shore Temple]], [[Ranganathaswamy Temple, Srirangam|Ranganathaswamy Temple]], [[Nilgiri Mountains]], [[Hogenakkal Falls]], [[Thiruvalluvar Statue]].
- }}
-|Foto2                = Nilgiri_hills_view_from_Doddabetta_Peak.jpg
-|Descrizion foto      = 
+ | foot_montage           = ''Da sainsom; man ciancia a man drëta:''<br />[[Tëmpl Brihadisvara (Thanjavur)|Tëmpl Brihadisvara]], [[Tëmpl de la spiagia]], [[Tëmpl Ranganathaswamy (Srirangam)|Tëmpl Ranganathaswamy]], [[Crëps Nilgiri]], [[Pisciadoi Hogenakkal]], [[Statua Thiruvalluvar]]. }}
 |ISO                 = GB-BDF
 |County_town       = [[Bedford]]
 }}
