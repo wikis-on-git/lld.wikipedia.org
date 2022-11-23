@@ -1,0 +1,183 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AT THE BOTTOM OF THIS PAGE -->
+
+<templatedata>{
+	"params": {
+		"align": {
+			"label": "Alignment",
+			"description": "\"left\" and \"right\" float the image to that side. \"center\" centres the image, and \"none\" left-aligns it without floating.",
+			"type": "string",
+			"default": "right",
+		    "suggestedvalues": [
+		        "left",
+		        "center",
+        		"right",
+        		"none"
+		    ]
+		},
+		"width": {
+			"label": "Width",
+			"description": "The width of the image within the frame, in pixels (though do not add \"px\" to the width e.g., use width=175 and not width=175px).",
+			"type": "number",
+			"default": "Automatic, based on content",
+			"suggested": true
+		},
+		"pos": {
+			"label": "Caption position",
+			"description": "Where to put the caption. Valid values: top, bottom.",
+			"type": "string",
+			"default": "bottom"
+		},
+		"innerstyle": {
+			"label": "Inner frame style",
+			"description": "Plain [[CSS]] to apply to the inner frame. Use with care. Examples: <code>text-align: center;</code>, <code>background: #ccc;</code>.",
+			"type": "string"
+		},
+		"content": {
+			"label": "Content",
+			"description": "Content of the main section (generally images).",
+			"type": "content",
+			"required": true
+		},
+		"border": {
+			"label": "Border",
+			"description": "Border of the main section (generally images).",
+			"type": "content",
+			"required": false,
+			"default": "yes"
+		},
+		"link": {
+			"label": "Link",
+			"description": "Link for the \"Enlarge\" link in the caption (in the future, may also be used as the link for the image field inside the frame, though it would probably require an additional height parameter).",
+			"type": "wiki-page-name"
+		},
+		"link_text": {
+			"label": "Alternative link text",
+			"description": "Alternative text used for the link for the \"Enlarge\" link in the caption, usually displayed as tooltip.",
+			"type": "string"
+		},
+		"linkoverride": {
+			"label": "Link override",
+			"description": "Completely replaces the 'info' link.",
+			"type": "line"
+		},
+		"caption": {
+			"label": "Caption",
+			"type": "content"
+		},
+		"mode": {
+			"label": "Mode",
+			"description": "Display mode of the main section, \"scrollable\" will make the content scrolling if the content is longer than viewport.",
+			"type": "string"
+		},
+		"max-width": {
+			"label": "Maximum width",
+			"description": "The maximum width of the image within the frame, in pixels (though do not add \"px\" to the width e.g., use max-width=350 and not max-width=350px), valid only in scrollable mode.",
+			"type": "number",
+			"default": "100%",
+			"suggested": true
+		},
+		"dir": {
+			"label": "Direction",
+			"description": "Use the value \"rtl\" to make the right side of the image the initial visible portion inside the scroll frame, valid only in scrollable mode.",
+			"type": "string"
+		},
+		"style": {
+			"type": "content"
+		}
+	},
+	"description": "This template creates a frame like those surrounding images. This template can be used to put two or more images into a frame together, or as a wrapper for more complicated templates like Template:Superimpose.",
+	"paramOrder": [
+		"content",
+		"width",
+		"align",
+		"pos",
+		"innerstyle",
+		"link",
+		"link_text",
+		"linkoverride",
+		"caption",
+		"border",
+		"mode",
+		"max-width",
+		"dir",
+		"style"
+	]
+}</templatedata>
+
+== Examples ==
+
+By filling out the parameters as follows, the result will be as shown below the code.
+<pre style="overflow:auto">
+{{Image frame|width=200|content=[[File:PNG transparency demonstration 1.png|100px]][[File:White Stars 3.svg|100px]]
+|caption=Example usage|link=Hello world|align=center}}
+</pre>
+{{Image frame|width=200|content=[[File:PNG transparency demonstration 1.png|100px]][[File:White Stars 3.svg|100px]]
+|caption=Example usage|link=Hello world|align=center}}
+
+<pre style="overflow:auto">
+{{Image frame|width=200|content=[[File:PNG transparency demonstration 1.png|100px]][[File:White Stars 3.svg|100px]]
+|caption=Example usage|link=Hello world|align=center|pos=top}}
+</pre>
+{{Image frame|width=200|content=[[File:PNG transparency demonstration 1.png|100px]][[File:White Stars 3.svg|100px]]
+|caption=Example usage|link=Hello world|align=center|pos=top}}
+
+<syntaxhighlight lang="tid" style="overflow:auto">
+{|
+|-
+|
+{{Image frame|caption={{magnify icon|link=File:WW2-Holocaust-Europe.png}} Concentration-camp network of Nazi-occupied Europe.<br>Auschwitz is circled.|align=left
+|content={{Superimpose
+  | base = WW2-Holocaust-Europe.png
+  | base_width = 300px
+  | base_alt = Concentration-camp network in Nazi-occupied Europe
+  | base_caption = Concentration-camp network in Nazi-occupied Europe
+  | float = Red circle thick.svg
+  | float_width = 20px
+  | x = 171
+  | y = 120
+}}}}
+|
+# {{tl|Image frame}} to add frame and caption to a complex image made by {{tl|Superimpose}} — float [[File:Red circle thick.svg|20px]] on base [[File:WW2-Holocaust-Europe.png|100px]] 
+# Manually add {{tl|magnify icon}} to caption to simulate the thumbnail icon [[File:Magnify-clip.svg|15px]]
+# caption text won't auto-wrap to image width; you can add <br /> to prevent text overshooting. 
+|}
+</syntaxhighlight>
+{|
+|-
+|
+{{Image frame|caption={{magnify icon|link=File:WW2-Holocaust-Europe.png}} Concentration-camp network of Nazi-occupied Europe.<br>Auschwitz is circled.|align=left
+|content={{Superimpose
+  | base = WW2-Holocaust-Europe.png
+  | base_width = 300px
+  | base_alt = Concentration-camp network in Nazi-occupied Europe
+  | base_caption = Concentration-camp network in Nazi-occupied Europe
+  | float = Red circle thick.svg
+  | float_width = 20px
+  | x = 171
+  | y = 120
+}}}}
+|
+# {{tl|Image frame}} to add frame and caption to a complex image made by {{tl|Superimpose}} — float [[File:Red circle thick.svg|20px]] on base [[File:WW2-Holocaust-Europe.png|100px]] 
+# Manually add {{tl|magnify icon}} to caption to simulate the thumbnail icon [[File:Magnify-clip.svg|15px]]
+# caption text won't auto-wrap to image width; you can add <nowiki><br></nowiki> to prevent text overshooting. 
+|}
+
+{{clear}}
+
+== See also ==
+* [[Wikipedia:Extended image syntax]]
+** For <code>[[File: .. |thumb ..</code> or <code>[[ Image .. |</code> et cetera.
+* {{tlx|image array}}
+* {{tlx|multiple image}}
+* {{tlx|photo montage}}
+* {{tlx|pseudo image}}
+* {{tlx|align}}
+* {{tlx|center}}, {{tlx|right}} and {{tlx|left}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Graphics templates]]
+[[Category:Image formatting and function templates]]
+[[Category:Positioning templates]]
+}}</includeonly>
