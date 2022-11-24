@@ -40,7 +40,7 @@
 |- valign="top" 
 |style="font-size:90%"| &bull; de ndut || style="font-size:90%" |₹ {{formatnum:{{{PIB INR}}}}} bilions ($ {{formatnum:{{{PIB USD}}}}} miliarc)
 |- valign="top"
-|style="font-size:90%"| &bull; a persona || style="font-size:90%" |₹ {{formatnum:{{#expr: ({{{PIB INR}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} ($ {{formatnum:{{#expr: ({{{PIB USD}}} * 1000000000) / {{{Abitanc}}} round 0 }}}})
+|style="font-size:90%"| &bull; a persona || style="font-size:90%" |₹ {{formatnum:{{#expr: ({{{PIB INR}}} * 1000000000000) / {{{Abitanc}}} round 0 }}}} ($ {{formatnum:{{#expr: ({{{PIB USD}}} * 1000000000) / {{{Abitanc}}} round 0 }}}})
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
