@@ -31,6 +31,13 @@
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
 |- valign="top"
 |-
+|style="width:140px;font-size:90%" | '''[[Prudot intern brutto|PIB]]''' ({{{Ann PIB}}}) || style="width:170px;font-size:90%" | 
+|- valign="top" 
+|style="font-size:90%"| &bull; de ndut || style="font-size:90%" |₹ {{formatnum:{{{PIB INR}}}}} bilions ($ {{formatnum:{{{PIB USD}}}}} miliarc)
+|- valign="top"
+|style="font-size:90%"| &bull; a persona || style="font-size:90%" |₹ {{formatnum:{{#expr: ({{{PIB INR}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} ($ {{formatnum:{{#expr: ({{{PIB USD}}} * 1000000000) / {{{Abitanc}}} round 0 }}}})
+|- valign="top"
+|- 
 !colspan="2" bgcolor="#E3E3E3" | Auter
 |-
 {{#if:{{{County_town|}}} |    
@@ -56,7 +63,10 @@
 |Abitanc              = 72147030
 |Data abitanc         = 2011
 |Cherta               = IN-TN.svg
-|Descrizion cherta = Posizion de Tamil Nadu te l'India
+|Descrizion cherta    = Posizion de Tamil Nadu te l'India
+|Ann PIB              = 2021
+|PIB USD              = 310       <!--valor te miliarc-->
+|PIB INR              = 24.85     <!--valor te bilions (mil miliarc)-->   
 |Foto                 = {{Photomontage
  | photo1a                = Le temple de Brihadishwara (Tanjore, Inde) (14354574611).jpg
  | photo2a                = Shore Temple (16217100293).jpg
