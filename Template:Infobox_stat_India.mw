@@ -21,30 +21,40 @@
 |- valign="top" 
 |style="width:140px;font-size:90%" | '''Raion''' || style="width:170px;font-size:90%" | {{{Raion}}}
 |- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
 | {{#if: {{{Majera zità|}}} | style="width:140px;font-size:90%" {{!}} '''Capitela''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}}   | style="width:140px;font-size:90%" {{!}} '''Capitela y majera zità''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}} }}
-|- valign="top"
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
 |style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
 |-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
-|- valign="top"
-|-
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
 |style="width:140px;font-size:90%" | '''[[Prudot intern brutto|PIB]]''' ({{{Ann PIB}}}) || style="width:170px;font-size:90%" | 
 |- valign="top" 
 |style="font-size:90%"| &bull; de ndut || style="font-size:90%" |₹ {{formatnum:{{{PIB INR}}}}} bilions ($ {{formatnum:{{{PIB USD}}}}} miliarc)
 |- valign="top"
 |style="font-size:90%"| &bull; a persona || style="font-size:90%" |₹ {{formatnum:{{#expr: ({{{PIB INR}}} * 1000000000) / {{{Abitanc}}} round 0 }}}} ($ {{formatnum:{{#expr: ({{{PIB USD}}} * 1000000000) / {{{Abitanc}}} round 0 }}}})
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''Rujendes''' || style="width:170px;font-size:90%" | 
+|- valign="top" 
+|style="font-size:90%"| &bull; ufiziela || style="font-size:90%" | {{{rujeneda ufiziela}}}
 |- valign="top"
-|- 
-!colspan="2" bgcolor="#E3E3E3" | Auter
-|-
-{{#if:{{{County_town|}}} |    
-{{!}}-
-{{!}} style="width:140px;font-size:90%" {{!}} '''County town''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{County_town}}}
-| }}
-|-
+|style="font-size:90%"| &bull; ufiziela leprò || style="font-size:90%" | {{{rujeneda leprò}}}
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''[[Zona d'orar]]''' || style="width:170px;font-size:90%" | {{{zona d'orar}}}
+|- valign="top" 
+
 |style="width:140px;font-size:90%"|'''[[Codesc ISO 3166-2]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
 |- valign="top"
 |-
@@ -80,6 +90,11 @@
  | border                 = 0
  | color                  = #000000
  | foot_montage           = ''Da sainsom; man ciancia a man drëta:''<br />[[Tëmpl Brihadisvara (Thanjavur)|Tëmpl Brihadisvara]], [[Tëmpl de la spiagia]], [[Tëmpl Ranganathaswamy (Srirangam)|Tëmpl Ranganathaswamy]], [[Crëps Nilgiri]], [[Pisciadoi Hogenakkal]], [[Statua Thiruvalluvar]]. }}
+|rujeneda ufiziela        = [[lingaz tamil|tamil]]
+|rujeneda leprò           = [[lingaz nglëisc|nglëisc]]
+
+|zona d'orar              = [[UTC+05:30]] 
+
 |ISO                 = GB-BDF
 |County_town       = [[Bedford]]
 }}
