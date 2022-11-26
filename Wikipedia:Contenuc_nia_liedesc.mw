@@ -1,0 +1,31 @@
+{{Aiutopolicy}}
+: ''[[Wikipedia:File non liberi/English|English version]]''
+La [[Wikimedia Foundation]], nella sua ''[[foundation:Resolution:Licensing_policy|Licensing policy]]'' ([[foundation:Resolution:Licensing_policy/It|traduzione in lingua italiana]]), ha stabilito che Wikipedia dovrebbe ospitare solo [[contenuto libero]], ovvero materiale conforme alla [[Definizione di opera culturale libera|definizione di Opera Culturale Libera]].<ref>[http://freedomdefined.org/Definition/It Definizione adottata di Opera Culturale Libera, aggiornata, su ''Freedomdefined.org''].</ref> La regola però prevede dei casi di eccezione. Tra i file multimediali cosiddetti "non liberi", alcuni possono essere pubblicati su [[Wikipedia:It.wiki|it.wiki]]. Questi criteri di esenzione<ref>Richiesti dalla ''[[foundation:Resolution:Licensing_policy|Licensing policy]]'' di [[Wikimedia Foundation]].</ref> prendono il nome di '''Exemption Doctrine Policy''' ('''EDP''') e sono di seguito elencati.
+
+== Requisiti ==
+{{abbreviazioni|Wikipedia:EDP}}
+I file multimediali ([[Aiuto:Immagini|immagini]], [[Aiuto:Suoni|suoni]], video) non liberi possono essere utilizzati su it.wiki a condizione che vengano soddisfatti '''tutti''' i seguenti requisiti:
+#Non sia ragionevolmente possibile ottenere un file equivalente dal punto di vista illustrativo e dotato di una licenza libera conforme alla definizione di Opera Culturale Libera.
+#Il file abbia una [[Wikipedia:Copyright immagini#Licenze non libere|licenza non libera]] consentita su it.wiki e quindi elencata in [[Wikipedia:Copyright immagini]].
+#Il file sia usato solo nel [[Aiuto:Namespace|namespace principale]], in particolare nelle voci a cui il suo contenuto si riferisce ''direttamente'' (esempi: il fermo immagine di un videogioco solo nella voce del videogioco stesso e non in altre; la copertina di un album nella voce sull'album e non, per esempio, del cantante; la registrazione di un discorso solo nella voce di chi ha pronunciato il discorso e non in altre). Il numero delle immagini deve essere limitato (non possono essere inserite in gallerie di immagini).
+#La [[Wikipedia:Pagina di descrizione|pagina di descrizione]] del file contenga:
+#* la corretta individuazione della ''fonte'' del file;
+#* la corretta attribuzione del copyright (se non già esplicitato dal [[Aiuto:Schema dei template/Immagini|tag di licenza]]);
+#* il template {{tl|EDP}}, che indica chiaramente che il file viene utilizzato in base all'EDP per it.wiki;
+#* una chiara spiegazione del motivo per cui il file non è ragionevolmente sostituibile (ad esempio, "persona deceduta").
+
+I file non liberi che non rispettano tali requisiti '''non possono essere utilizzati''' su Wikipedia.<ref>Si può però cercare di ottenerne il licenziamento da parte del titolare di copyright, contattandolo direttamente, da pubblicizzare poi tramite [[Wikipedia:VRT|VRTS]].</ref>
+
+==Note==
+<references/>
+== Pagine correlate ==
+* [[Aiuto:Immagini]]
+* [[Aiuto:File non liberi]]
+* [[Wikipedia:Copyright]]
+* [[Wikipedia:Copyright immagini]]
+* [[Aiuto:Copyright immagini/FAQ]] 
+* [[Aiuto:Copyright immagini/Percorso guidato]]
+* {{tl|EDP}}
+* {{tl|Nonlibera}}
+
+[[Categoria:Linee guida sul copyright]]
