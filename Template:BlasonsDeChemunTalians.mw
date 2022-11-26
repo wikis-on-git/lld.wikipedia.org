@@ -1,0 +1,45 @@
+{| cellspacing="8" cellpadding="0" style="clear:both; margin:0.5em auto; background-color:#f0f0f0; border:2px solid #e0e0e0;" class="licensetpl"
+|
+
+{| cellspacing="8" cellpadding="0" style="width:100%; clear:both; margin:0.5em auto; background-color:#e8f8e8; border:2px solid #80d080;"
+| align=center | 
+<span class="licensetpl_long">
+Chësta ilustrazion mostra l [[valon]] o l [[blason]] de n [[chemun (Talia)|chemun talian]].</span> L'adurvanza de valons y blasons de chemun sta generalmënter sota i regulamënc metui su da la aministrazions de chemun tenian cont di statuc de chemun, da leges regiuneles y la disposizions ududes dant da la lege de la Republica taliana. Chësc regulamënc vëij dant che l'adurvanza de blasons o valons muessa unì lasceda pro danora dal ambolt o da l'aministrazion de cumpetënza.
+
+{{#if:{{{VRTS|}}}|'''L'uso di questo stemma o gonfalone in Wikipedia è stato autorizzato dall'amministrazione competente'''. L'utilizzo deve essere limitato alle voci che con lo stesso hanno diretta attinenza e, comunque, sempre e solo con mere finalità informative e didattiche. L'uso da parte di terzi, compresa la copia e la ridistribuzione, è vietato senza previa autorizzazione rilasciata dal comune. {{{VRTS}}}|Si ritiene che l'immagine possa essere riprodotta su Wikipedia in quanto utilizzata esclusivamente a fini didattici e in attesa di ricevere l'autorizzazione alla pubblicazione.}}{{#if:{{{fonte|}}}|<br />Fonte: ''{{{fonte}}}''|}}<br />Questa immagine deve essere rimossa da eventuali versioni commerciali di Wikipedia.
+<span class="licensetpl_short" style="display: none">Stemmi Comunali Italiani</span>
+<span class="licensetpl_link" style="display: none">{{fullurl:{{FULLPAGENAME}}}}</span>
+|}
+{{EDP}}
+{| cellspacing="8" cellpadding="0" style="width:80%; clear:both; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #8888aa;"
+| [[File:Zeichen 206.svg|50px|STOP]]
+| A causa di restrizioni che riguardano esclusivamente Wikipedia in lingua italiana, questa immagine non deve essere sostituita con corrispondenti esistenti su [[Wikimedia Commons]].
+-----
+{{Big|testo='''Non sostituire questo file con il corrispondente su Commons!'''}}
+|}
+La composizione di stemmi e gonfaloni comunali è generalmente considerata di [[pubblico dominio]] (alcune composizioni, di origini più recenti, potrebbero essere soggette al diritto d'autore). Questo principio si applica solo alla '''definizione''' dello stemma (composizione/descrizione). La '''riproduzione''' di uno stemma è invece considerata una creazione artistica e come tale protetta dalle leggi sul [[diritto d'autore]]/[[copyright]]. 
+
+Lo status del copyright della riproduzione dello stemma è il seguente:
+{{#if:{{{licenza|}}}|{{{{{licenza}}}}}|{{Copyright stemmi}}}}
+|}<includeonly>{{#ifeq:{{NAMESPACE}} | {{ns:6}} |
+[[Categoria:Immagini stemmi comunali italiani]]
+{{#switch:{{{provincia|}}}
+ | Valle d'Aosta = [[Categoria:Stemmi dei comuni della {{{provincia}}}]]
+ | Bari = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Bologna = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Firenze = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Genova = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Milano = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Napoli = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Roma = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}} Capitale]]
+ | Palermo = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Reggio Calabria = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Torino = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | Venezia = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
+ | #default = {{#if:{{{provincia|}}}|[[Categoria:Stemmi dei comuni della provincia di {{{provincia}}}]]}}}}
+{{#if:{{{provincia2|}}}|[[Categoria:Stemmi dei comuni della provincia {{{provincia2}}}]]}}
+}}</includeonly><noinclude>
+{{Protetta}}
+{{man}}
+[[Categoria:Template copyright enti italiani‎]]
+</noinclude>
