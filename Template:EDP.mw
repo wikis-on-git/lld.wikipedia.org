@@ -1,0 +1,15 @@
+<noinclude>{{Protetta}}</noinclude><div class="boilerplate" style="margin:0.5em auto; width:80%; clear:both; background-color:#f7f8ff; border:2px solid #8888aa; padding:4px; font-size:90%; vertical-align:center; text-align:left;">
+Chësc file vën adurvà respetan i recuisic cumandei dala '''[[Wikipedia:EDP per lld.wiki|Exemption Doctrine Policy]]''' per lld.wiki. N miena che l ne sibe nia puscibl giaté n file ecuivalent dal pont de ududa ilustratif y che ebe na [[Wikipedia:Copyright ilustrazions#lizënzes d'adurvanza|lizënza lieda]]. 
+
+'''L ie da respeté chësta indicazions''':
+*'''Chësta anunzia ne mostra nia l status dl [[copyright]] dl file'''. Perchël muessl for nce vester n [[WP:TAG|tag de copyright]] che debe la nfurmazions che ie de bujën sul status dl copyright.
+*L muessa unì mustreda su la '''funtana''' dl file y spezificà chi che ie l '''tituler dl copyright''' (canche chësc ne ie nia tler tl tag dl copyright).
+*L file muessa unì adurvà '''mé tl [[Aiuto:Namespace|namespace prinzipel]]''', dantaldut '''te la ujes a chëles che si contenut fej diretamënter referimënt'''. La ilustrazions ne possa nia unì metudes ite te galeries de fotos.
+*Sce l ne ie nia tler, po muessa unì spezificheda la '''rejon''' per chëla che l file ne po nia unì muda ora cun un sota lizënza lieda. Sce l ne da deguna rejon razionela, damanda la [[Wikipedia:Straichedes sun l mumënt|straicheda sun l mumënt]].
+</div>
+<includeonly>
+{{#ifeq:{{NAMESPACE}}|File|[[Categoria:Immagini protette non libere - EDP]]}}
+</includeonly><noinclude>
+{{man}}
+
+[[Categoria:Template copyright immagini|EDP]]</noinclude>
