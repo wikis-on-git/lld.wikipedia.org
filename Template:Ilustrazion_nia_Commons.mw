@@ -1,0 +1,16 @@
+<includeonly>{| cellspacing="8" cellpadding="0" style="width:80%; clear:both; margin:0.5em auto; background-color:#f9f9f9; border:2px solid #8888aa;"
+| [[File:Zeichen 206.svg|50px|STOP]]
+| {{Big|testo='''NO SPUSTÉ SUN COMMONS ZËNZA N CUNTROL SCICHE L TOCA'''}}
+
+-----
+{{#if:{{{1|}}}|{{{1}}}|
+Chësc file ne ie bonamënter nia cumpatibl cun la normes y regules de [[Wikimedia Commons]] y si trasferimënt muessa perchël unì ejaminà avisa ajache l pudës unì scancelà. Sce l file fova bel sun Commons no scancelé chësta copia.}}
+
+-----
+{{Big|testo='''Do not move this file to Wikimedia Commons without adequate review!'''}}
+|}{{#ifeq: {{NAMESPACE}} | File | [[Categoria:File non trasferibili su Commons]] }}</includeonly><noinclude>
+{{Protetta}}
+{{man}}
+
+[[Categoria:File non trasferibili su Commons| ]]
+[[Categoria:Template copyright immagini]]</noinclude>
