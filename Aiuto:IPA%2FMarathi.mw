@@ -1,0 +1,141 @@
+{{IPA key|H:IPA-MR}}
+
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Marathi language|Marathi]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-mr}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Marathi phonology]] for a more thorough look at the sounds of Marathi. 
+
+{| style="background:none;"
+|- style="vertical-align:top;" 
+|
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="4"| [[Consonant]]s
+|-
+! [[International Phonetic Alphabet|IPA]]<ref name="inherentv">In the letter series beginning with क, क = क् + अ; ka = k + a. Thus 'क' has the [[inherent vowel]] 'अ', giving 'क' without  added vowel sign using diacritics (The [[halanta]] "्" is removed). But the IPA shown here has the consonant 'k' only & does not include the vowel 'a'.</ref> !! [[Devanagari|Marathi]]<ref name="inherentv"/> !! [[International Alphabet of Sanskrit Transliteration|IAST]] !! English Approximation
+|-
+|<big>{{IPA link|b}}</big> || ब || b || style="text-align:left;" | a'''b'''ash
+|-
+|<big>{{IPA link|bʱ}}</big><ref name="Voiced labiodental fricative">{{IPA|/bʱ/}} is pronounced either as [bʱ] or [{{IPA link|v}}].</ref> || भ || bh || style="text-align:left;" | clu'''bh'''ouse
+|-
+|<big>{{IPA link|d̪|d}}</big> || द || d || style="text-align:left;" | '''d'''eal ([[Dental consonant|dental]]), '''th'''e ([[Th-stopping]])
+|-
+|<big>{{IPA link|dʱ}}</big> || ध || dh || style="text-align:left;" | re'''dh'''ead
+|-
+|<big>{{IPA link|ɖ}}</big> || ड || ḍ || style="text-align:left;" | American English bir'''d'''
+|-
+|<big>{{IPA link|ɖʱ}}</big> || ढ || ḍh || style="text-align:left;" | American English bir'''dh'''ouse
+|-
+|<big>{{IPA link|dʑ}}</big><ref name="Voiced alveolo-palatal affricate">{{IPA|/dʑ/}} and {{IPA|/dʑʱ/}} phonetically may be either [dʑ] and [dʑʱ], [{{IPA link|dz}}] and [dzʱ] or [{{IPA link|dʒ}}] and [dʒʱ] depending on the variety and speaker.</ref>|| ज || j || style="text-align:left;" | '''j'''azz
+|-
+|<big>{{IPA link|dʑʱ}}</big><ref name="Voiced alveolo-palatal affricate"/> || झ || jh || style="text-align:left;" | he'''dgeh'''og
+|-
+|<big>{{IPA link|ɡ}}</big> || ग || g || style="text-align:left;" | a'''g'''ain
+|-
+|<big>{{IPA link|ɡʱ}}</big> || घ || gh || style="text-align:left;" | lo'''gh'''ouse
+|-
+|<big>{{IPA link|ɦ}}</big> || ह || h || style="text-align:left;" | '''h'''ave
+|-
+|<big>{{IPA link|j}}</big> || य, ञ || y || style="text-align:left;" | '''y'''ak
+|-
+|<big>{{IPA link|k}}</big> || क || k || style="text-align:left;" | s'''c'''an
+|-
+|<big>{{IPA link|kʰ}}</big> || ख || kh || style="text-align:left;" | '''c'''an
+|-
+|<big>{{IPA link|l}}</big> || ल || l || style="text-align:left;" | '''l'''ot
+|-
+|<big>{{IPA link|ɭ̆}}</big><ref name="Voiced retroflex lateral flap">{{IPA|/ɭ̆/}} is pronounced either as [ɭ̆] or [{{IPA link|ɭ}}].</ref> || ळ || ḷ || style="text-align:left;" | Similar to be'''ll'''
+|-
+|<big>{{IPA link|m}}</big> || म || m || style="text-align:left;" | '''m'''ight
+|-
+|<big>{{IPA link|n}}</big> || न || n || style="text-align:left;" | '''n'''ot
+|-
+|<big>{{IPA link|ŋ}}</big> || ङ || ṅ || style="text-align:left;" | si'''ng'''
+|-
+|<big>{{IPA link|ɳ}}</big> || ण || ṇ || style="text-align:left;" | American English bur'''n'''
+|-
+|<big>{{IPA link|ɲ}}</big> || ञ || ñ || style="text-align:left;" | mi'''ni'''on
+|-
+|<big>{{IPA link|p}}</big> || प || p || style="text-align:left;" |s'''p'''ot
+|-
+|<big>{{IPA link|pʰ}}</big><ref name="Voiceless labiodental fricative">{{IPA|/pʰ/}} is pronounced either as [pʰ] or [{{IPA link|f}}].</ref> || फ || ph || style="text-align:left;" | '''p'''ot
+|-
+|<big>{{IPA link|ɾ}}</big> || र || r || style="text-align:left;" | [[American English|American]] a'''t'''om
+|-
+|<big>{{IPA link|ʃ}}</big> || श || ś || style="text-align:left;" | '''sh'''ip
+|-
+|<big>{{IPA link|ʂ}}</big> || ष || ṣ || style="text-align:left;" | American English wor'''sh'''ip
+|-
+|<big>{{IPA link|s}}</big><ref name="Voiceless alveolo-palatal fricative">{{IPA|/s/}} is pronounced either as [s] or [{{IPA link|ɕ}}].</ref> || स || s || style="text-align:left;" | '''s'''ee
+|-
+|<big>{{IPA link|t̪|t}}</big> || त || t || style="text-align:left;" | bi'''t''' (dental), '''th'''ink (Th-stopping)
+|-
+|<big>{{IPA link|tʰ}}</big> || थ || th || style="text-align:left;" | '''t'''able (dental), '''th'''ought (Th-stopping)
+|-
+|<big>{{IPA link|ʈ}}</big> || ट || ṭ || style="text-align:left;" | pa'''rt'''s
+|-
+|<big>{{IPA|ʈʰ}}</big> || ठ || ṭh || style="text-align:left;" | pa'''rt'''ake
+|-
+|<big>{{IPA link|tɕ}}</big><ref name="Voiceless alveolar affricate>{{IPA|/tɕ/}} and {{IPA|/tɕʰ/}} phonetically may be either [tɕ] and [tɕʰ] or [{{IPA link|ts}}] and [tsʰ], [{{IPA link|tʃ}}] and [tʃʰ] depending on the variety and speaker.</ref> || च || c || style="text-align:left;" | cat'''ch'''
+|-
+|<big>{{IPA link|tɕʰ}}</big><ref name="Voiceless alveolar affricate/> || छ || ch || style="text-align:left;" | bea'''ch'''ead
+|-
+|<big>{{IPA link|ʋ}}</big> || व || v || style="text-align:left;" | Between '''w'''ine and '''v'''ine
+|}
+|
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="4"| [[Vowel]]s
+|-
+! [[International Phonetic Alphabet|IPA]] !! [[Devanagari|Marathi]] !! [[International Alphabet of Sanskrit Transliteration|IAST]] !! English Approximation
+|-
+|<big>{{IPA link|ä|aː}}</big> || आ || ā || style="text-align:left;" | f'''a'''ther
+|-
+|<big>{{IPA link|æ}}</big> ||अ‍ॅ || æ || style="text-align:left;" | tr'''a'''p
+|-
+|<big>{{IPA link|ə}}</big> || अ || a || style="text-align:left;" | '''a'''bout
+|-
+|<big>{{IPA link|e}}</big> || ए || e || style="text-align:left;" | m'''ay'''
+|-
+|<big>{{IPA link|i}}</big> || इ || i || style="text-align:left;" | happ'''y'''
+|-
+|<big>{{IPA|iː}}</big> || ई || ī || style="text-align:left;" | k'''ee'''p
+|-
+|<big>{{IPA link|o}}</big> || ओ || o || style="text-align:left;" | s'''o'''le
+|-
+|<big>{{IPA link|ɔ}}</big> || ऑ || a || style="text-align:left;" | n'''o'''t
+|-
+|<big>{{IPA link|u}}</big> || उ || u || style="text-align:left;" | l'''oo'''k
+|-
+|<big>{{IPA|uː}}</big> || ऊ || ū || style="text-align:left;" | b'''oo'''t
+|-
+|<big>{{IPA|əi}}</big> || ऐ || ai || style="text-align:left;" | Similar to b'''uy'''
+|-
+|<big>{{IPA|əm}}</big> || अं || am || style="text-align:left;" | rhyth'''m'''
+|-
+|<big>{{IPA|əu}}</big> || औ || au || style="text-align:left;" | Similar to g'''o'''
+|-
+|<big>{{IPA|ru}}</big> || ऋ || ṛ || style="text-align:left;" | '''ru'''le
+|}
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="3"| [[Suprasegmental]]s
+|-
+! IPA !! colspan="2" | 
+|-
+|<big>{{IPA link|ˈ}}</big>
+| colspan="2" style="text-align:left;" | stress<br>(placed before stressed syllable)
+|-
+|<big>{{IPA link|ː|◌ː}}</big>
+| style="text-align: left;" | doubled consonant<br>(placed after consonant)
+|}
+|}
+
+==Notes==
+{{reflist}}
+
+==Bibliography==
+{{refbegin|2}}
+* [http://www.nvtc.gov/lotw/months/february/marathi.html#stru Marathi language sounds]
+* {{cite book|last=Bloch|first=J|title=Formation of the Marathi Language|url=https://books.google.com/books?id=1noaklDiSOEC&pg=PP17|year=1970|publisher=Motilal Banarsidass|isbn=978-81-208-2322-8}}
+*{{cite book|last2=Wali|first2=Kashi|last1=Dhongde|first1=Ramesh Vaman|title=Marathi|year=2009|publisher=John Benjamins Pub. Co.|location=Amsterdam|isbn=978-90-272-38139|url=https://books.google.co.uk/books?id=zVVOvi5C8uIC}}
+* A Survey of Marathi Dialects. VIII. Gāwḍi, A. M. Ghatage & P. P. Karapurkar. The State Board for Literature and Culture, Bombay. 1972.
+{{refend}}
+
+{{IPA keys}}
