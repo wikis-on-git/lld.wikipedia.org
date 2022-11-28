@@ -23,6 +23,10 @@
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
+|style="width:140px;font-size:90%" | '''Fundazion''' || style="width:170px;font-size:90%" | {{{Fundazion}}}
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
 | {{#if: {{{Majera zità|}}} | style="width:140px;font-size:90%" {{!}} '''Capitela''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}}   | style="width:140px;font-size:90%" {{!}} '''Capitela y majera zità''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Capitela}}} }}
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
