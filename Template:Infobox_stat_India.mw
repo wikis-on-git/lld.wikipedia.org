@@ -48,7 +48,7 @@
 |- valign="top" 
 |style="font-size:90%"| &bull; ufiziela || style="font-size:90%" | {{{rujeneda ufiziela}}}
 |- valign="top"
-|style="font-size:90%"| &bull; ufiziela leprò || style="font-size:90%" | {{{rujeneda leprò}}}
+| {{#if: {{{rujeneda leprò|}}} | style="font-size:90%"{{!}} &bull; ufiziela leprò {{!}}{{!}} style="font-size:90%" {{!}} {{{rujeneda leprò}}} | }}
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
