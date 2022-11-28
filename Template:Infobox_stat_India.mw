@@ -1,7 +1,7 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
-!colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem natif}}}</big>
+!colspan="2" bgcolor="#E3E3E3" | {{{Inuem natif}}}
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
@@ -68,7 +68,7 @@
 <noinclude>
 {{Infobox stat India
 |Inuem                = Tamil Nadu
-|Inuem natif          = தமிழ் நாடு ([[lingaz tamil|tamil]])
+|Inuem natif          = தமிழ் நாடு (''[[lingaz tamil|tamil]]'')
 |Soget aministratif   = [[Stac federei y raions de l'union de l'India|Stat]]
 |Blason               = TamilNadu_Logo.svg
 |Raion                = [[India dl Sud]]
