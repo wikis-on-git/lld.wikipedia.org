@@ -62,6 +62,8 @@
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''[[Codesc ISO 3166]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
 |- valign="top" 
+|style="width:140px;font-size:90%"|'''Codesc targa de l'auto''' || style="width:170px;font-size:90%" |{{{Targa}}}
+|- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" |{{url|{{{Plata internet}}}}}
@@ -103,6 +105,7 @@
 |rujeneda leprò           = [[lingaz nglëisc|nglëisc]]
 |zona d'orar              = [[UTC+05:30]] 
 |ISO                 = IN-TN
+|Targa                  = TN
 |Plata internet   = 	tn.gov.in
 }}
 
