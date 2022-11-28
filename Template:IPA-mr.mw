@@ -1,0 +1,5 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=marathi:&nbsp;|pron=pronunzià&nbsp;|=|pronunzia per marathi:&nbsp;}}</small>{{IPA|[[Help:IPA/Marathi|[{{{1}}}]]]|lang=mr}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+{{documentation|Template:Usage of IPA templates}}
+[[Category:Lingaz marathi]]
+[[Category:IPA language templates‎]]
+</noinclude>
