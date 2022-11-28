@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=punjabi:&nbsp;|langpa=Gurmukhi script:&nbsp;|langpnb=Shahmukhi script:&nbsp;|pron=pronunzià&nbsp;|pa=Gurmukhi pronunciation:&nbsp;|pnb=Shahmukhi pronunciation:&nbsp;|=|pronunzia per punjabi:&nbsp;}}</small>{{IPA|[[Help:IPA/Punjabi|[{{{1}}}]]]|lang=pa}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}</noinclude>
