@@ -1,0 +1,386 @@
+{{IPA key|H:IPA-PA||}}
+{{Contains special characters|Indic}}
+{{Contains special characters
+|special = the Shahmukhi character [[lam with tah above]]
+}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Punjabi language|Punjabi]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-pa}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Punjabi language#Phonology|Punjabi phonology]], [[Gurmukhi]], and [[Shahmukhi alphabet|Shahmukhi]] for a more thorough discussion of the sounds of Punjabi.
+
+{| style="background:none;"
+|- style="vertical-align:top;" 
+|
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="5" | [[Consonant]]s
+|-
+! rowspan="2"|[[International Phonetic Alphabet|IPA]]
+! colspan="3"| Examples
+! rowspan="2"|English Approximation
+|-
+! [[Gurmukhi]]
+! [[Shahmukhi alphabet|Shahmukhi]]
+! [[ISO 15919]]
+|-
+|<big>{{IPA link|b}}</big>
+|ਬਿਸਤਰਾ
+|ا{{nq|بستر}}
+|'''''b'''istarā''
+|style="text-align:left;" | '''b'''utter
+|-
+|<big>{{IPA link|d̪|d}}</big>
+|ਦਿੱਤਾ
+|{{nq|دتا}}
+|'''''d'''ittā''
+| style="text-align:left;" | '''d'''uck<ref name="coronal">Punjabi contrast dental {{IPAblink|t̪|t}} and {{IPAblink|d̪|d}} with apical postalveolar {{IPAblink|ʈ}} and {{IPAblink|ɖ}} (as well as aspirated variants). Both sets sound like {{IPAc-en|t}} and {{IPAc-en|d}} to most English speakers.</ref>
+|-
+|<big>{{IPA link|dʒ}}</big>
+|ਜਦੋਂ
+|{{nq|جدوں}}
+|'''''j'''adōṁ''
+| style="text-align:left;" | '''j'''ug
+|-
+|<big>{{IPA link|ɖ}}</big>
+|ਡੰਗਰ
+|{{nq|ڈنگر}}
+|'''''ḍ'''angar''
+| style="text-align:left;" | gua'''rd'''<ref name=coronal/>
+{{Small|(Rhotic dialects)}}
+|-
+|<big>{{IPA link|ɡ}}</big>
+|ਗੱਡੀ
+|{{nq|گڈی}}
+|'''''g'''aḍḍī''
+| style="text-align:left;" | '''g'''ut
+|-
+|<big>{{IPA link|ɦ}}</big>
+|ਹਾਏ
+|{{nq|ہائے}}
+|'''''h'''āe''
+| style="text-align:left;" |a'''h'''ead
+|-
+|<big>{{IPA link|j}}</big>
+|ਯਾਰੀ
+|{{nq|یاری}}
+|'''''y'''ārī''
+| style="text-align:left;" | '''y'''uck
+|-
+|<big>{{IPA link|k}}</big>
+|ਕਿੱਖੇ
+----'''ਘ'''ਰ
+|{{Nq|کتھے}}
+----{{nq|گھر}}
+|'''k'''itthe
+----'''''gh'''ar''
+| style="text-align:left;" | s'''c'''ab
+|-
+|<big>{{IPA link|kʰ}}</big>
+|ਔਖਾ
+|{{nq|اوکھا}}
+|''au'''kh'''ā''
+| style="text-align:left;" | '''c'''ab
+|-
+|<big>{{IPA link|l}}</big>
+|ਲਾਂਬਾ
+|{{nq|لامبا}}
+|'''''l'''āmbā''
+| style="text-align:left;" | '''l'''eaf
+|-
+|<big>{{IPA link|ɭ}}</big><ref name=":0">Considered an allophone of {{IPAlink|l}} and {{IPAlink|n}} in the [[Shahmukhi alphabet]], though pronounced.</ref>
+|ਰੌਲ਼ਾ
+|{{Nq|روࣇا}}
+|rau'''ḷ'''ā
+| style="text-align:left;" | ga'''rl'''ic
+{{Small|(Rhotic dialects)}}
+|-
+|<big>{{IPA link|m}}</big>
+|ਮਸੀਤ
+|{{nq|مسیت}}
+|'''''m'''asīt''
+| style="text-align:left;" | '''m'''uch
+|-
+|<big>{{IPA link|n}}</big>
+|ਨੂਹ
+|{{nq|نوہ}}
+|'''''n'''ūh''
+| style="text-align:left;" | '''n'''ot
+|-
+|<big>{{IPA link|ɳ}}</big><ref name=":0">Considered an allophone of {{IPAlink|l}} and {{IPAlink|n}} in the [[Shahmukhi alphabet]], though pronounced.</ref>
+|ਸੋਹਣਾ
+|{{Nq|سوہݨا}}
+|''soh'''ṇ'''ā''
+| style="text-align:left;" | bu'''rn'''
+|-
+|<big>{{IPA link|ɲ}}</big>
+|ਉਂਞ
+|{{Nq|انج}}
+|''u'''ñj'''''
+|style="text-align:left;" | ca'''ny'''on
+|-
+|<big>{{IPA link|ŋ}}</big>
+|ਕੰਙਣ
+|{{nq|کنگݨ}}
+|''ka'''ṅ'''gaṇ''
+| style="text-align:left;" | ba'''ng'''
+|-
+|<big>{{IPA link|p}}</big>
+|ਸੁਪਨਾ
+----ਭਰਿਆ
+|{{Nq|سپنا}}
+----{{nq|بھریا}}
+|su'''p'''nā
+----'''''bh'''ariyā''
+| style="text-align:left;" | s'''p'''ot
+|-
+|<big> {{IPA link|pʰ}}</big>
+|ਫੁੱਲ
+|{{nq|پھلّ‎ }}
+|'''''ph'''ull''
+| style="text-align:left;" | '''p'''ot
+|-
+|<big>{{IPA link|ɾ}}</big>
+|ਵਾਰੀ
+|{{nq|واری}}
+|''wā'''r'''ī''
+| style="text-align:left;" | American a'''t'''om<ref name="rhotic">{{IPA|/ɾ/}} can surface as a trill {{IPA|[r]}} in word-initial and syllable-final positions. Geminate {{IPA|/ɾː/}} is always a trill.</ref>
+|-
+|<big>{{IPA link|ɽ}}</big>
+|ਕੂੜ
+|{{Nq|کوڑ}}
+|''kū'''ṛ'''''
+| style="text-align:left;" | ga'''rt'''er {{Small|(Rhotic dialects)}}
+|-
+|<big>{{IPA link|ɽʱ}}</big>
+|ਉਲੇੜ੍ਹ
+|{{nq|الیڑھ}}
+|''ule'''ṛh'''''
+| style="text-align:left;" | no English equivalent
+|-
+|<big>{{IPA link|s}}</big>
+|ਸਾਡਾ
+|{{nq|ساڈا}}
+|'''''s'''āḍā''
+| style="text-align:left;" |'''s'''un
+|-
+|<big>{{IPA link|t̪|t}}</big>
+|ਤਿੱਲੜ
+|{{nq|تلّڑ}}
+|'''''t'''illaṛ''
+| style="text-align:left;" | s'''t'''ub<ref name=coronal/>
+|-
+|<big>{{IPA link|tʰ}}</big>
+|ਓਥੇ
+|{{nq|اوتھے}}
+|''o'''th'''ē''
+| style="text-align:left;" | '''t'''ub<ref name=coronal/>
+|-
+|<big>{{IPA link|tʃ}}</big>
+|ਚੜ੍ਹਦਾ
+----ਝੂਠ
+|{{nq|چڑھدا}}
+----{{Nq|جھوٹھ}}
+| '''''c'''aṛhdā''
+----'''''jh'''<small>ūṭh</small>''
+|style="text-align:left;" | ca'''tch'''
+|-
+|<big> {{IPA link|tʃʰ}}</big>
+|ਛੱਡ
+|{{nq|چھڈّ‎}}
+|'''''ch'''aḍḍ''
+| style="text-align:left;" | '''ch'''oose
+|-
+|<big>{{IPA link|ʈ}}</big>
+|ਸੱਟ
+----ਢੀਠ
+|{{Nq|سٹ}}
+----{{nq|ڈھیٹھ}}
+|''sa'''ṭṭ'''a''
+----'''''ḍh'''ī<small>ṭh</small>''
+| style="text-align:left;" | ca'''rt'''s<ref name=coronal/>
+|-
+|<big>{{IPA link|ʈʰ}}</big>
+|ਕਾਠ
+|{{nq|کاٹھ}}
+|''kā'''ṭh'''''
+| style="text-align:left;" | '''tr'''ip<ref name=coronal/>
+|-
+|<big>{{IPA link|ʋ}}</big>
+|ਵਹੁਟੀ
+|{{nq|وہوٹی}}
+|'''''v'''ahuṭī''
+| style="text-align:left;" | '''v'''at<ref name="V">{{IPA|[w]}} occurs as an allophone of {{IPA|[ʋ]}} when /{{lang|hi|व}} {{lang|ur|{{nastaliq|و}}}}/ is in an onglide position between an onset consonant and a following vowel while {{IPA|[ʋ]}}, which may phonetically be {{IPAblink|v}}, occurs otherwise.</ref>
+|-
+! colspan="5" |Marginal consonants
+|-
+|<big>{{IPA link|f}}</big><ref name=":1"/>
+|ਫ਼ੇਰ
+|{{nq|فیر}}
+|'''''f'''er''
+|'''f'''uss
+|-
+|<big>{{IPA link|ɣ}}</big><ref name=":2"/>
+|ਕਾਗ਼ਜ਼
+|{{nq|کاغذ}}
+|''kā'''ġ'''az''
+|similar to a French ''r''
+|-
+|<big>{{IPA link|q}}</big><ref name=":2">Not considered a native sound (nor a native letter in [[Gurmukhi]], hence written as a modified consonant with a [[Nuqta]] placed below the corresponding letter, unlike [[Shahmukhi]], for which the original letter from [[Persian alphabet|Persian]], which was derived from the [[Arabic script]]). The phonology is, however, retained in Pakistani dialects except for {{IPA link|q}} for which only the spelling is retained, but it is pronounced interchangeably with {{IPAlink|k}}.</ref><ref name="Bhardwaj2016">{{cite book |last1=Bhardwaj |first1=Mangat |title=Panjabi: A Comprehensive Grammar |date=25 August 2016 |publisher=Routledge |isbn=978-1-317-64326-5 |page=390 |language=English|quote= Almost all Panjabi speakers (and many Urdu speakers as well) pronounce the first two of these words with {{IPAlink|k}} instead of {{IPA link|q}}.}}</ref>
+|ਕ਼ਲਮ
+|{{nq|قلم}}
+|'''''q'''alam''
+|somewhat like '''c'''aught
+|-
+|<big>{{IPA link|r}}</big><ref name="rhotic" />
+|ਮੁਕ਼ੱਰਰ
+|{{nq|مقرّر}}
+|''muqa'''rr'''ar''
+|Trilled R
+|-
+|<big>{{IPA link|ʃ}}</big>
+|ਹੋਸ਼
+|{{nq|ہوش}}
+|''ho'''ś'''''
+|'''sh'''oe
+|-
+|<big>{{IPA link|x}}</big><ref name=":1">{{IPAlink|f}} and {{IPAlink|x}} are not considered native sounds and are present only in loanwords, or they can be considered as tonal sounds of {{IPAlink|pʰ}} for Indian dialects. In Pakistani dialects and the [[Shahmukhi alphabet]], it is not considered a [[Total sounding|tonal sound]], and some words are natively derived such as {{Nq|فیر}} 'fer' (ਫੇਰ 'pher' ~ ਫਿਰ 'phir'). {{IPAlink|x}} may, however, be considered a [[Total sounding|tonal sound]] for {{IPAlink|kʰ}} in Pakistani dialects and are pronounced but not written as such.</ref>
+|ਖ਼ਾਲਿਸ
+|{{Nq|خالص}}
+|'''''k͟h'''ālis''
+|[[Scottish English|Scottish]] Lo'''ch'''
+|-
+|<big>{{IPA link|z}}</big><ref name=":2"/>
+|ਹਜ਼ਾਰ
+|{{nq|ہزار}}
+|''ha'''z'''ār''
+|'''z'''oo
+|}
+|
+
+{| class="wikitable" style="margin: 1em 2em; text-align: center;"
+! colspan="5" | [[Vowel]]s
+|-
+! rowspan="2"|[[International Phonetic Alphabet|IPA]]
+! colspan="3"| Examples
+! rowspan="2"|English Approximation
+|-
+![[Gurmukhi]]
+![[Shahmukhi alphabet|Shahmukhi]]
+! [[ISO 15919]]
+|-
+| <big>{{IPA link|ə}}</big>
+|ਕਮ
+|{{nq|کم}}
+|''k'''a'''m''
+| style="text-align: left;" |'''a'''bout
+|-
+|<big>{{IPA link|äː|aː}}</big>
+|ਨਾਲ਼
+|{{Script/Nastaliq|ناࣇ}}
+| n'''ā'''ḷ
+| style="text-align: left;" | f'''a'''ther
+|-
+|<big>{{IPA link|e}}</big>
+|ਵਾਹਿਗੁਰੂ
+|{{Script/Nastaliq|واہِگرو}}
+|v''āh'''''i'''guru
+| style="text-align: left;" | s'''ay''' (shortened ē)
+|-
+| <big>{{IPA link|eː}}</big>
+|ਜੇਬ
+|{{nq|جیب}}
+| ''j'''ē'''b''
+| style="text-align: left;" | s'''ay'''
+|-
+|<big>{{IPA link|ɛ}}</big>
+|ਰਹਿਣਾ
+|{{nq|رَہݨا}}
+|''r'''ahi'''ṇā''
+|style="text-align: left;" |p'''e'''n<ref>{{IPA|[ɛ]}} occurs as an allophone of {{IPA|/ə/}} near an {{IPA|/ɦ/}} that is surrounded on both sides by schwas. Usually, the second schwa becomes silent, which results in an {{IPA|[ɛ]}} preceding an {{IPA|/ɦ/}}.</ref>
+|-
+| <big>{{IPA link|ɛː}}</big>
+|ਪੈਂਦਾ
+|{{nq|پَیندا}}
+| ''p'''ai'''nda''
+|style="text-align: left;"| f'''ai'''ry
+|-
+| <big>{{IPA link|ɪ}}</big>
+|ਇਮਲੀ
+|{{nq|اِملی}}
+|'''''i'''malī''
+| style="text-align: left;" | s'''i'''t<ref name="Vowels">{{IPA|/iː, ɪ/}} and {{IPA|/uː, ʊ/}} are neutralised to [{{IPA link|i}}, {{IPA link|u}}] at the end of a word.</ref>
+|-
+| <big>{{IPA link|iː}}</big>
+|ਈਖ
+|{{nq|اِیکھ}}
+|'''''ī'''kh''
+| style="text-align: left;" | s'''ea'''t<ref name="Vowels"/>
+|-
+| <big>{{IPA link|i}}</big>
+|ਬੱਤੀ
+|{{Nq|بَتّی}}
+|batt'''ī'''
+| style="text-align: left;" | happ'''y'''<ref name="Vowels"/>
+|-
+| <big>{{IPA link|oː}}</big>
+|ਬੋਲੋ
+|{{nq|بولو}}
+|''b'''ō'''l'''ō'''''
+| style="text-align: left;" | b'''or'''der ([[Received Pronunciation]]) g'''o''' ([[General American]])
+|-
+| <big>{{IPA link|ɔː}}</big>
+|ਕੌਣ
+|{{nq|کَوݨ}}
+|''k'''au'''n''
+| style="text-align: left;" | d'''o'''g ([[Received Pronunciation]]) h'''o'''rse ([[General American]])
+|-
+| <big>{{IPA link|ʊ}}</big>
+|ਤੁਕ
+|{{nq|تُک}}
+|''t'''u'''k''
+| style="text-align: left;" | b'''oo'''k
+|-
+| <big>{{IPA link|uː}}</big>
+|ਸੂਤ
+|{{Nq|سُوت}}
+|''s'''ū'''t''
+| style="text-align: left;" | m'''oo'''n<ref name="Vowels"/>
+|-
+| rowspan="2" |<big>{{IPA link|◌̃}}</big>
+|ਹੰਸ
+|{{nq|ہن٘س}}
+|''ha'''m̐'''s''
+| rowspan="2" style="text-align: left;" | nasal vowel fa'''un'''<br>({{IPA|[ãː, õː]}}, etc.)
+|-
+|ਮੈਂ
+|{{nq|مَیں}}
+|''mai'''ṁ'''''
+|}
+
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="4" | [[Suprasegmental]]s
+|-
+! [[International Phonetic Alphabet|IPA]]
+! Example
+! Notes
+|-
+|<big>{{IPA link|ˈ|ˈ◌}}</big>
+| {{IPA|[pənˈdʒaːb]}}
+| style="text-align: left;" | stress<br>(placed before stressed syllable)
+|-
+|<big>{{IPA link|ː|◌ː}}</big>
+|{{IPA|[ˈʊtːəɾ pɾəˈdeːʃ]}}
+| style="text-align: left;" | doubled consonant<br>(placed after doubled consonant)
+|-
+| {{IPA|á}}, {{IPA|é}}, ...
+| {{lang|pa|ਕੋੜ੍ਹਾ}} {{lang|pnb|{{Nastaliq|کوڑھا}}}} ''k'''oh'''ṛā'' 'leper'
+| high, or high-falling [[Tone (linguistics)|tone]]
+|-
+| {{IPA|à}}, {{IPA|è}}, ...
+|{{lang|pa|ਘੋੜਾ}} {{lang|pnb|{{Nastaliq|گھوڑا}}}} ''g'''ho'''ṛā'' 'horse'
+| low, or low-rising [[Tone (linguistics)|tone]]
+|}
+|}
+
+==Notes==
+{{reflist}}
+
+{{IPA keys}}
