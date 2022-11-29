@@ -1,0 +1,234 @@
+{{IPA key|H:IPA-BN|H:IPAB}}
+
+Charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Bengali language|Bengali]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-bn}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Bengali phonology]] and [[Bengali alphabet]] for a more thorough look at the sounds of Bengali. 
+
+{| style="background:none;"
+|- style="vertical-align:top;" 
+|
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan="5"| [[Consonant]]s
+|-
+! IPA !! Bengali !! Examples !! [[ISO 15919]] !! English Approximation
+|-
+|<big>{{IPA link|b}}</big>
+| ব || '''বা'''লি || b || style="text-align:left;" | a'''b'''ash
+|-
+|<big> {{IPA|b}}{{IPA link|ʱ}}</big><ref name="Voiced bilabial stop">/bʱ/ is phonetically realised either as [{{IPA|bʱ}}] or /β/ (phonetically [{{IPA link|v}}~{{IPA link|β}}]) depending on the speaker and variety. /β/ can additionally occur as an allophone of /bʱ/ in foreign loan words e.g. ভিসা [βisa] 'visa'.</ref>
+| ভ || '''ভী'''রু || bh || style="text-align:left;" | clu'''bh'''ouse
+|-
+|<big> {{IPA link|d̪|d}}</big>
+| দ || '''দা'''ম || d || style="text-align:left;" | '''d'''eal ([[Dental consonant|dental]]), '''th'''e ([[Th-stopping]])
+|-
+|<big> {{IPA|d}}{{IPA link|ʱ}}</big>
+| ধ || '''ধা'''রা || dh || style="text-align:left;" | re'''dh'''ead (dental)
+|-
+|<big>{{IPA link|ɖ}}</big>
+| ড || '''ডু'''মুর || ḍ || style="text-align:left;" | [[American English|American]] bir'''d'''
+|-
+|<big> {{IPA|ɖ}}{{IPA link|ʱ}}</big>
+| ঢ || '''ঢো'''ল || ḍh || style="text-align:left;" | American bir'''dh'''ouse
+|-
+|<big>{{IPA link|dʒ}}</big>
+| জ, য<ref name="Voiced alveolar sibilant">{{angbr|{{lang|bn|জ}}}} and {{angbr|{{lang|bn|য}}}} may represent a voiced affricate {{IPAslink|dʒ}} in Standard Bengali words of native origin, but they can also represent {{IPAslink|z}} in foreign words and names ({{lang|bn|জাকাত}} {{IPA|[zakat]}} '[[zakah]] charity', {{lang|bn|আজিজ}} {{IPA|[aziz]}} 'Aziz'). However, many speakers usually replace {{IPA|/z/}} with {{IPA|/dʒ/}}. Additionally, some words that originally had /z/ are now pronounced with {{IPAslink|dʑ}} in Standard Bengali (সবজি [ɕobdʑi] 'vegetable', from Persian sabzi).</ref> || '''জ'''ল '''য'''বন || j || style="text-align:left;" | he'''dg'''e
+|-
+|<big> {{IPA|dʒ}}{{IPA link|ʱ}}</big>
+| ঝ || '''ঝা'''উ || jh || style="text-align:left;" | he'''dgeh'''og
+|-
+|<big>{{IPA link|ɡ}}</big>
+| গ || '''গ'''ম || g || style="text-align:left;" | a'''g'''ate
+|-
+|<big> {{IPA|ɡ}}{{IPA link|ʱ}}</big>
+| ঘ || বা'''ঘা''' || gh || style="text-align:left;" | lo'''gh'''ouse
+|-
+|<big>{{IPA link|ɦ}}</big>
+|  rowspan="2" | হ, ঃ<ref name="glottal fricative">/ɦ/ may be devoiced to [h] in word-initial or final positions, with [ɦ] occurring medially.</ref> ||  rowspan="2" | ম'''হা'''ন '''বাঃ'''||  rowspan="2" | h || style="text-align:left;" | be'''h'''ind 
+|-
+|<big>{{IPA link|h}}</big>
+| style="text-align:left;" | '''h'''ead
+|-
+|<big>{{IPA link|k}}</big>
+| ক || '''ক'''লম || k || style="text-align:left;" | s'''c'''an
+|-
+|<big> {{IPA|k}}{{IPA link|ʰ}}</big>
+| খ, ক্ষ || শা'''খা ক্ষ'''মা || kh || style="text-align:left;" | '''c'''an
+|-
+|<big>{{IPA link|l}}</big>
+| ল || মা'''লি'''নী || l || style="text-align:left;" | '''l'''eaf
+|-
+|<big>{{IPA link|m}}</big>
+| ম || '''মা'''নুষ || m || style="text-align:left;" | '''m'''uch
+|-
+|<big>{{IPA link|n}}</big>
+| ন, ণ, ঞ || '''নী'''লা বা'''ণ''' || n || style="text-align:left;" | '''n'''ot
+|-
+|<big>{{IPA link|ŋ}}</big>
+| ঙ, ং || বা'''ঙা'''লি '''অং'''শ || ṅ || style="text-align:left;" | si'''ng'''
+|-
+|<big>{{IPA link|p}}</big>
+| প || '''পা'''কা || p || style="text-align:left;" | s'''p'''an
+|-	
+|<big> {{IPA|p}}{{IPA link|ʰ}}</big><ref name="Voiceless bilabial stop">/pʰ/ is phonetically realised either as [{{IPA|pʰ}}] or /ɸ/ (phonetically [{{IPA link|f}}~{{IPA link|ɸ}}]) depending on the speaker and variety. /ɸ/ can additionally occur as an allophone of /pʰ/ in foreign loan words e.g. {{lang|bn|ফ্যান}} {{IPA|[ɸæn]}} 'fan'.</ref>
+| ফ || '''ফ'''ল || ph || style="text-align:left;" | '''p'''in
+|-
+|<big>{{IPA|r}}</big><ref name="rhotic r">/r/ is phonetically an alveolar flap [{{IPA link|ɾ}}], alveolar approximant [{{IPA link|ɹ}}] or alveolar trill [{{IPA link|r}}] depending on the variety and speaker.</ref>
+| র,‍‍ র্ক, (র্),  ‍‍্র || বি'''রা'''ম, ত'''র্ক, শ্র'''ম || r || style="text-align:left;" | '''r'''ing;  ''[[Flap consonant|flapped]] or [[Trill consonant|trilled]] r''
+|-
+|<big>{{IPA link|ɽ}}</big>
+| ড়, ঢ় || ব'''ড়''' দৃ'''ঢ়''' || ṛ || style="text-align:left;" | American la'''rd'''er
+|-
+|<big>{{IPA link|s}}</big>
+| স || '''সে'''লাম || s || style="text-align:left;" | '''s'''ue
+|-
+|<big>{{IPA link|ʃ}}</big>
+| শ, ষ, স || ম'''শা''' '''ষা'''ট '''স'''ময় || ś || style="text-align:left;" | '''sh'''oe
+|-
+|<big> {{IPA link|t̪|t}}</big>
+| ত, ৎ || '''ত'''মাল উ'''ৎ'''স || t || style="text-align:left;" | ge'''t''' (dental), '''th'''ink (Th-stopping)
+|-
+|<big> {{IPA|t}}{{IPA link|ʰ}}</big>
+| থ || '''থা'''বা || th || style="text-align:left;" | '''t'''ub  (dental), '''th'''ought (Th-stopping)
+|-
+|<big>{{IPA link|ʈ}}</big>
+| ট || ব'''ট''' || ṭ || style="text-align:left;" | a'''rt''' (rhotic)
+|-
+|<big> {{IPA|ʈ}}{{IPA link|ʰ}}</big>
+| ঠ || কা'''ঠু'''রে || ṭh || style="text-align:left;" | a'''rt'''ist (rhotic)
+|-
+|<big>{{IPA link|tʃ}}</big>
+| চ || মু'''চি''' || c || style="text-align:left;" | ca'''tch'''
+|-
+|<big> {{IPA|tʃ}}{{IPA link|ʰ}}</big>
+| ছ || '''ছা'''গল || ch || style="text-align:left;" | '''ch'''oose
+|-
+! colspan="5" | Marginal consonants
+|-
+|<big>{{IPA|β}}</big><ref name="Voiced bilabial stop"/>
+| ভ || '''ভি'''সা|| v || style="text-align:left;" | '''v'''ery
+|-
+|<big>{{IPA link|j}}</big>
+| য়<ref name="palatalapproximant">The {{IPA|[j]}} phoneme occurs in some pronunciations of Bengali vowel clusters, such as {{lang|bn|নয়ন}} {{IPA|[nɔjon]}}.</ref> || ন'''য়'''ন|| y || style="text-align:left;" | '''y'''es
+|-
+|<big>{{IPA|ɸ}}</big><ref name="Voiceless bilabial stop"/>
+| ফ || '''ফ্যা'''ন || f || style="text-align:left;" | '''f'''ind
+|-
+|<big>{{IPA link|w}}</big><ref name="Voiced labial–velar approximant">When preceding a vowel in word-initial positions, /w/ may occur as an allophone of /o/ and /u/, especially in loan words e.g. ওয়াদা [wada] 'promise', উইলিয়াম [wiliam] 'William'.</ref>
+|ও, উ || '''ও'''য়াদা, '''উ'''ইলিয়াম || v || style="text-align:left;" | '''w'''ill
+|-
+|<big>{{IPA|ɽ}}{{IPA link|ʱ}}</big><ref name="Mumured retroflex stop">[ɽʱ] only occurs in the individual pronunciation of the letter ঢ় [ɽʱɔ] and some Sanskrit loanwords but is usually pronounced as [ɽ] in ordinary speech.</ref>
+|ঢ়|| '''ঢ়''' || ṛh || style="text-align:left;" | No English equivalent
+|-
+|<big>{{IPA link|z}}</big>
+| জ, য<ref name="Voiced alveolar sibilant"/> || '''জা'''কাত '''যি'''য়ারত || z || style="text-align:left;" | '''z'''ip
+|}
+|
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="5"| [[Vowel]]s
+|-
+! colspan="5"| [[Monophthong]]s
+|-
+! IPA !! Bengali !! Examples !! [[ISO 15919]] !! English Approximation
+|-
+|<big> {{IPA link|ɔ}}</big>
+| অ, প || '''অ'''মর || a || style="text-align:left;" | '''o'''ff
+|-
+|<big> {{IPA link|ɐ|a}}</big><!--The link is correct, as Bengali [a] is actually near-open central, not open front nor open central (Khan (2010:222)).-->
+| আ, পা || '''আ'''ঙিনা || ā || style="text-align:left;" | [[Australian English|Australian]] f'''a'''ther, [[Received Pronunciation|RP]] c'''u'''t
+|-
+|<big>{{IPA link|æ}}</big><ref>{{cite book |last1=Thompson |first1=Hanne-Ruth |title=Bengali: A Comprehensive Grammar (Routledge Comprehensive Grammars), 1 |date=November 25, 2020 |publisher=Routledge |isbn=978-0415411394 |page=23 |edition=1}}</ref>
+| অ্যা, প্যা, এ, পে || '''ত্যা'''গ '''খে'''লা || ae/æ || style="text-align:left;" | tr'''a'''p
+|-
+|<big>{{IPA link|i}}</big>
+| ই, পি, ঈ, পী || '''দি'''ন '''দী'''ন || i || style="text-align:left;" | b'''ea'''t
+|-
+|<big> {{IPA link|u}}</big><ref name="Voiced labial–velar approximant" />
+| উ, পু, ঊ, পূ || '''কু'''ল '''কূ'''ল || u || style="text-align:left;" | b'''oo'''t
+|-
+|<big> {{IPA link|e}}</big>
+| এ, পে || '''মে'''দিনী || ē || style="text-align:left;" | m'''ay''' (monophthongal)
+|-
+|<big> {{IPA link|o}}</big><ref name="Voiced labial–velar approximant"/>
+| ও, পো, অ, প || '''ও'''জন '''অ'''ঙ্কুর|| ō || style="text-align:left;" | s'''o'''le (monophthongal)
+|-
+|<big> {{IPA link|ã|◌̃}}</big> || ঁ || '''ইঁ'''দুর || ঁ || style="text-align:left;" | [[nasal vowel]]<br>({{IPA|[ã], [õ]}}, etc.)
+|-
+! colspan="5" | [[Semivowel]]s
+|-
+|<big> {{IPA link|e̯}}</big> || য় || খা'''য়''' || ẏ || style="text-align:left;" | Similar to ver'''y'''
+|-
+|<big> {{IPA link|i̯}}</big> || ই || ভা'''ই''' || i || style="text-align:left;" | happ'''y'''
+|-
+|<big> {{IPA link|o̯}}</big> || ও || যা'''ও''' হা'''ও'''য়া || ō || style="text-align:left;" | Similar to l'''oo'''k
+|-
+|<big> {{IPA link|u̯}}</big> || উ || ঝা'''উ''' || u || style="text-align:left;" | t'''oo'''
+|-
+! colspan="5" | [[Diphthong]]s
+|-
+|-
+|<big> {{IPA|ii̯}}</big> || িই || '''নিই''' || ii || style="text-align:left;" | t'''ea'''
+|-
+|<big> {{IPA|iu̯}}</big> || িউ || '''বিউ'''ভোল || iu || style="text-align:left;" | '''ew'''
+|-
+|<big> {{IPA|ei̯}}</big> || েয় || '''দেয়''' || ēi || style="text-align:left;" | b'''ay''' (diphthongal)
+|-
+|<big> {{IPA|eu̯}}</big> || েও || '''ঢেও''' || ēu || style="text-align:left;" | No English equivalent
+|-
+|<big> {{IPA|æe̯}}</big> || ্যায় || '''ন্যায়''' || aeẏ/æẏ || style="text-align:left;" | No English equivalent
+|-
+|<big> {{IPA|ai̯}}</big> || াই || '''পাই''' || āi || style="text-align:left;" | B'''uy'''
+|-
+|<big> {{IPA|ae̯}}</big> || ায় || '''পায়''' || āẏ || style="text-align:left;" | Similar to H'''i'''
+|-
+|<big> {{IPA|au̯}}</big> || াউ || '''পাউ''' || āu || style="text-align:left;" | H'''ow'''
+|-
+|<big> {{IPA|ao̯}}</big> || াও || '''পাও''' || āō || style="text-align:left;" | Similar to H'''ow'''
+|-
+|<big> {{IPA|ɔe̯}}</big> || ◌য় || '''নয়''' || aẏ || style="text-align:left;" | No English equivalent
+|-
+|<big> {{IPA|ɔo̯}}</big> || ◌ও || '''নও''' || aō || style="text-align:left;" | No English equivalent
+|-
+|<big> {{IPA|oi̯}}</big> || োই || '''দোই''' || ōi || style="text-align:left;" | Similar to b'''oy'''
+|-
+|<big> {{IPA|oo̯}}</big> || োও || '''দোও''' || ōō || style="text-align:left;" | n'''o'''
+|-
+|<big> {{IPA|ou̯}}</big> || ৌ || '''নৌ'''কা || ōu || style="text-align:left;" | g'''o''' (diphthongal)
+|-
+|<big> {{IPA|ui̯}}</big> ||ুই, ূই || '''ধুই''' || ui || style="text-align:left;" | No English equivalent
+|}
+{| class="wikitable" style="margin: 1em 2em; text-align: center;" 
+! colspan="3"| [[Suprasegmental]]s
+|-
+! IPA !! colspan="2" | 
+|-
+|<big> {{IPA link|ˈ}}</big>
+| colspan="2" style="text-align:left;" | primary stress<br>(placed before stressed syllable)<ref name="Stress">Primary stress usually occurs in word-initial positions with secondary stress occurring afterwards.</ref>
+|-
+|<big> {{IPA link|ˌ}}</big>
+| colspan="2" style="text-align:left;" | secondary stress<br>(placed before stressed syllable)<ref name="Stress"/>
+|-
+|<big> {{IPA link|ː}}</big>
+| colspan="2" style="text-align:left;" | doubled consonant
+|}
+|}
+
+==Notes==
+{{reflist}}
+
+==Bibliography==
+{{refbegin}}
+* {{citation
+|last=Khan
+|first=Sameer ud Dowla
+|year=2010
+|title=Bengali (Bangladeshi Standard)
+|journal=Journal of the International Phonetic Association
+|volume=40
+|issue=2
+|pages=221–225
+|url=http://www.reed.edu/linguistics/khan/assets/Khan%202010%20Bengali%20Bangladeshi%20standard.pdf
+|doi=10.1017/S0025100310000071
+}}
+{{refend}}
+
+{{IPA keys}}
