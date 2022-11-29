@@ -1,0 +1,10 @@
+<onlyinclude><small>{{#if: {{{2|}}}|{{#switch: {{{2}}}|lang=bengali:&nbsp;|pron=pronunzià&nbsp;|IPA=IPA:&nbsp;|local=dl post&nbsp;|=|pronunzia per [[lingaz bengali|bengali]]:&nbsp;}}|{{#if: {{{2}}}|pronunzia per bengali:&nbsp;}}}}</small>{{IPA|[[Help:IPA/Bengali|[{{{1}}}]]]|lang=bn}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+
+{{documentation|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:IPA language templates|{{PAGENAME}}]]
+[[Category:Bengali language]]
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+</noinclude>
