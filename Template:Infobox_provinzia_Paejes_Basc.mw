@@ -1,11 +1,7 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
-| colspan="2"  valign="top" | [[File:{{{Foto}}}|300px|border|center]]
-|-
-| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
-|-
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
-!colspan="2" bgcolor="#E3E3E3" | {{{Inuem natif}}}
+|colspan="2" bgcolor="#E3E3E3" style="text-align:center" | <big>''{{{Inuem natif}}}''</big>
 |-
 !colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
 |-
@@ -17,85 +13,57 @@
 |-valign="top"
 |style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{flag|Paejes Basc}}
 |- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
 |style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
 |- valign="top"
 |style="width:140px;font-size:90%"|'''Majera zità''' || style="width:170px;font-size:90%" |{{{Majera zità}}}
-|- valign="top"
-|style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
-|- valign="top"
-
-|Seuraspersa || {{{Seuraspersa total}}}&nbsp;km² <small>(de ndut)</small><br>{{{Seuraspersa tiera}}}&nbsp;km² <small>(tiera)</small><br>{{{Seuraspersa ega}}}&nbsp;km² <small>(ega)</small><br>
-|- valign="top"
-|Densità || {{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa tiera}}} round 2 }}}}&nbsp;ab./km²
-
-
-
-|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km²
-|- valign="top"
-|style="width:140px;font-size:90%"|'''de ndut''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa total}}}}}&nbsp;km²
-|- valign="top"
-|style="width:140px;font-size:90%"|'''tiera''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa tiera}}}}}&nbsp;km²
-|- valign="top"
-
-|style="width:140px;font-size:90%"|'''ega''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa ega}}}}}&nbsp;km²
-|- valign="top"
-
-
-
-|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
-|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
-|- valign="top"
-|-
-!colspan="2" bgcolor="#E3E3E3" | Auter
-|-
-{{#if:{{{County_town|}}} |    
-{{!}}-
-{{!}} style="width:140px;font-size:90%" {{!}} '''County town''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{County_town}}}
-| }}
-|-
-|style="width:140px;font-size:90%"|'''[[Codesc ISO 3166-2]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
-|- valign="top"
-|-
-|}</includeonly>
-
-
-
-
-
-
-<includeonly>{| border="2" cellspacing="0" cellpadding="2" rules="all" style="float:right; clear:right; margin:2px 0 1em 1em; border:solid 1px #AAAAAA; border-collapse:collapse; background-color:#F9F9F9; empty-cells:show; width:300px;"
-!colspan="2" bgcolor="#E3E3E3" | {{{Inuem}}}
-|-
-|colspan="2" align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|130px|center|Blason de {{{Inuem}}}]]|}}|}}
-|-
-!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
-|-valign="top"
-| style="width:120px;" | Stat: || style="width:180px;" | {{NLD}}
 |- valign="top" 
-|Capitela: || {{{Capitela}}}
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="font-size:90%"|'''Abitanc''' || style="font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa tiera}}} round 2 }}}}&nbsp;ab./km²
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |
 |- valign="top"
-|Majera zità: || {{{Majera zità}}}
+|style="width:140px;font-size:90%"|&bull; de ndut || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa total}}}}}&nbsp;km²
 |- valign="top"
-|Abitanc || {{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|style="width:140px;font-size:90%"|&bull; tiera || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa tiera}}}}}&nbsp;km²
 |- valign="top"
-|Seuraspersa || {{{Seuraspersa total}}}&nbsp;km² <small>(de ndut)</small><br>{{{Seuraspersa tiera}}}&nbsp;km² <small>(tiera)</small><br>{{{Seuraspersa ega}}}&nbsp;km² <small>(ega)</small><br>
+|style="width:140px;font-size:90%"|&bull; ega || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa ega}}}}}&nbsp;km²
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''[[Prudot intern brutto|PIB]]''' ({{{Ann PIB}}}) || style="width:170px;font-size:90%" | 
+|- valign="top" 
+|style="font-size:90%"| &bull; de ndut || style="font-size:90%" | € {{formatnum:{{{PIB}}}}} miliarc
 |- valign="top"
-|Densità || {{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa tiera}}} round 2 }}}}&nbsp;ab./km²
-|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
-|- valign="top"
-|-
-!colspan="2" bgcolor="#E3E3E3" | Cherta
-|-
-|colspan="2" align="center" | [[File:{{{Cherta}}}|295px|center|Cherta de {{{Inuem}}}]]
+|style="font-size:90%"| &bull; a persona || style="font-size:90%" | € {{formatnum:{{#expr: ({{{PIB}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
+|- valign="top" 
+! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''[[Codesc ISO 3166]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" |{{url|{{{Plata internet}}}}}
+| {{#if: {{{Cherta2|}}} | {{!}}- valign="top" {{!}} colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"{{!}} [[File:{{{Cherta2}}}|300px|border|center]] | }}
 |-
 |}</includeonly>
+
+
+
+
+
 
 <noinclude>
 {{Infobox provinzia Paejes Basc
 |Inuem                = Olanda dl Nord
 |Inuem natif          = Noord-Holland
 |Soget aministratif   = [[Provinzies di Paejes Basc|Provinzia]]
-|Blason               = Flag_of_North_Holland.svg
+|Blason               = Noord-Holland_wapen.svg
+|Bandiera = Flag_of_North_Holland.svg
 |Capitela             = {{Blason|Haarlem}}
 |Majera zità          = {{Blason|Amsterdam}}
 |Seuraspersa total    = 4092
@@ -104,6 +72,11 @@
 |Abitanc              = 2877909
 |Data abitanc         = 2019
 |Cherta               = Noord-Holland_in_the_Netherlands.svg
+|Cherta2              =
+|ISO                  = NL-NH
+|Ann PIB              = 2019
+|PIB                  = 167      <!--valor te miliarc-->
+|Plata internet       = noord-holland.nl
 }}
 
 [[Categoria:Wikipedia:Templates]]</noinclude>
