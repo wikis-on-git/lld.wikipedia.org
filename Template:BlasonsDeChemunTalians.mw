@@ -24,7 +24,7 @@ N jega che l'ilustrazion possa unì reprejenteda sun Wikipedia ajache la vën m�
 La cumposizion de blasons y valons de chemun vën generalmënter ududa coche [[dumëne publich]] (n valguna cumposizions, de urigin da permò, pudës vester sotmetudes ai dërc d'autëur). Chësc prinzip vel mé per la '''definizion''' dl blason (cumposizion/descrizion). L '''fé do''' de n blason vën ntant udù coche na creazion artistica y ie perchël scuneda dala leges sui [[dërc d'autëur]]/[[copyright]]. 
 
 L status dl copyright de la reproduzion dl blason ie chësta:
-{{#if:{{{licenza|}}}|{{{{{licenza}}}}}|{{Copyright stemmi}}}}
+{{#if:{{{licenza|}}}|{{{{{licenza}}}}}|{{Copyright blasons}}}}
 |}<includeonly>{{#ifeq:{{NAMESPACE}} | {{ns:6}} |
 [[Categoria:Blasons chemuns talians]]
 {{#switch:{{{provinzia|}}}
