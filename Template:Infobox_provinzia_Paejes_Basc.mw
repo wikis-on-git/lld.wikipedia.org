@@ -48,7 +48,8 @@
 |style="width:140px;font-size:90%"|'''[[Codesc ISO 3166]]''' || style="width:170px;font-size:90%" |{{{ISO}}}
 |- valign="top" 
 |style="width:140px;font-size:90%"|'''Plata internet''' || style="width:170px;font-size:90%" |{{url|{{{Plata internet}}}}}
-| {{#if: {{{Cherta2|}}} | {{!}}- valign="top" {{!}} colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"{{!}} [[File:{{{Cherta2}}}|300px|border|center]] | }}
+|- valign="top" 
+| {{#if: {{{Cherta2|}}} | ! colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1" {{!}} [[File:{{{Cherta2}}}|300px|border|center]] | }}
 |-
 |}</includeonly>
 
@@ -72,7 +73,7 @@
 |Abitanc              = 2877909
 |Data abitanc         = 2019
 |Cherta               = Noord-Holland_in_the_Netherlands.svg
-|Cherta2              =
+|Cherta2              = North_Holland_by_Sentinel-2,_2018-06-30.jpg
 |ISO                  = NL-NH
 |Ann PIB              = 2019
 |PIB                  = 167      <!--valor te miliarc-->
