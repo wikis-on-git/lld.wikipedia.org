@@ -1,0 +1,5 @@
+<onlyinclude><span style="display:none;">{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#if:{{{2|}}}|{{{2}}}|Olanda dl Nord}}}}</span><!--
+-->[[File:Flag_of_North_Holland.svg|class=noviewer|border|{{#expr:{{{WIDTH|20}}}-2}}px|link={{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}|#=Olanda dl Nord|#default={{{1|Olanda dl Nord}}}}}}}|{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{{2|Olanda dl Nord}}}}}]]<!--
+--------------------------------------------------------->{{#switch:{{{1|}}}|#=|#default=&nbsp;[[{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{#switch:{{{1|}}}|#=Olanda dl Nord|#default={{{1|Noord-Holland}}}}}}}|{{#if:{{{Ziel|}}}|{{{Ziel}}}|{{{2|Olanda dl Nord}}}}}]]<!---->}}</onlyinclude>
+
+[[Categoria:Template:Provinzies Paejes Basc]]
