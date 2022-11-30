@@ -10,7 +10,7 @@ Chësta ilustrazion mostra l [[valon]] o l [[blason]] de n [[chemun (Talia)|chem
 
 L'adurvanza muessa unì limiteda a la ujes che à da n fé limpea y che te uni caje ebe mé n fin nfurmatif y didatich. L'adurvanza da pert de terzi, nsci sciche la copia y la redestribuzion, ie pruibida zënza na autrizazion data ora dal chemun. {{{VRTS}}}|
 
-N jega che l'ilustrazion possa unì reprejenteda sun Wikipedia ajache la vën mé adurveda a fins didatics, aspitan de giaté la autorisazion ala publicazion.}}{{#if:{{{fonte|}}}|<br />Funtana: ''{{{fonte}}}''|}}<br />Chësta ilustrazion muessa unì scanceleda de eventuela verscions cumerzieles de Wikipedia.<span class="licensetpl_short" style="display: none">Blasons de Chemun Talians</span>
+N jega che l'ilustrazion possa unì reprejenteda sun Wikipedia ajache la vën mé adurveda a fins didatics, aspitan de giaté la autorisazion ala publicazion.}}{{#if:{{{funtana|}}}|<br />Funtana: ''{{{funtana}}}''|}}<br />Chësta ilustrazion muessa unì scanceleda de eventuela verscions cumerzieles de Wikipedia.<span class="licensetpl_short" style="display: none">Blasons de Chemun Talians</span>
 <span class="licensetpl_link" style="display: none">{{fullurl:{{FULLPAGENAME}}}}</span>
 |}
 {{EDP}}
@@ -29,9 +29,9 @@ L status dl copyright de la reproduzion dl blason ie chësta:
 [[Categoria:Blasons chemuns talians]]
 {{#switch:{{{provinzia|}}}
  | Valle d'Aosta = [[Categoria:Blasons di chemuns de la {{{provinzia}}}]]
- | Bari = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
- | Bologna = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
- | Firenze = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Bari = [[Categoria:Blasons di chemuns de la città metropolitana di {{{provinzia}}}]]
+ | Bologna = [[Categoria:Blasons di chemuns de la città metropolitana di {{{provinzia}}}]]
+ | Firenze = [[Categoria:Blasons di chemuns de la città metropolitana di {{{provinzia}}}]]
  | Genova = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
  | Milano = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
  | Napoli = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
@@ -40,8 +40,8 @@ L status dl copyright de la reproduzion dl blason ie chësta:
  | Reggio Calabria = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
  | Torino = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
  | Venezia = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
- | #default = {{#if:{{{provinzia|}}}|[[Categoria:Stemmi dei comuni della provinzia di {{{provinzia}}}]]}}}}
-{{#if:{{{provinzia2|}}}|[[Categoria:Stemmi dei comuni della provinzia {{{provinzia2}}}]]}}
+ | #default = {{#if:{{{provinzia|}}}|[[Categoria:Blasons di chemuns de {{{provinzia}}}]]}}}}
+{{#if:{{{provinzia2|}}}|[[Categoria:Blasons di chemuns de la provinzia {{{provinzia2}}}]]}}
 }}</includeonly><noinclude>
 {{Protetta}}
 {{man}}
