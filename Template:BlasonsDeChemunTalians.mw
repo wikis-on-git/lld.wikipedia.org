@@ -17,29 +17,29 @@ L'adurvanza muessa unì limiteda a la ujes che à da n fé limpea y che te uni c
 | [[File:Zeichen 206.svg|50px|STOP]]
 | A causa di restrizioni che riguardano esclusivamente Wikipedia in lingua italiana, questa immagine non deve essere sostituita con corrispondenti esistenti su [[Wikimedia Commons]].
 -----
-{{Big|testo='''Non sostituire questo file con il corrispondente su Commons!'''}}
+{{Big|testo='''No baraté ora chësc file cun chël che ti curespuend sun Commons!'''}}
 |}
-La composizione di stemmi e gonfaloni comunali è generalmente considerata di [[pubblico dominio]] (alcune composizioni, di origini più recenti, potrebbero essere soggette al diritto d'autore). Questo principio si applica solo alla '''definizione''' dello stemma (composizione/descrizione). La '''riproduzione''' di uno stemma è invece considerata una creazione artistica e come tale protetta dalle leggi sul [[diritto d'autore]]/[[copyright]]. 
+La cumposizion de blasons y valons de chemun vën generalmënter ududa coche [[dumëne publich]] (n valguna cumposizions, de urigin da permò, pudës vester sotmetudes ai dërc d'autëur). Chësc prinzip vel mé per la '''definizion''' dl blason (cumposizion/descrizion). L '''fé do''' de n blason vën ntant udù coche na creazion artistica y ie perchël scuneda dala leges sui [[dërc d'autëur]]/[[copyright]]. 
 
-Lo status del copyright della riproduzione dello stemma è il seguente:
+L status dl copyright de la reproduzion dl blason ie chësta:
 {{#if:{{{licenza|}}}|{{{{{licenza}}}}}|{{Copyright stemmi}}}}
 |}<includeonly>{{#ifeq:{{NAMESPACE}} | {{ns:6}} |
-[[Categoria:Immagini stemmi comunali italiani]]
-{{#switch:{{{provincia|}}}
- | Valle d'Aosta = [[Categoria:Stemmi dei comuni della {{{provincia}}}]]
- | Bari = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Bologna = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Firenze = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Genova = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Milano = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Napoli = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Roma = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}} Capitale]]
- | Palermo = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Reggio Calabria = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Torino = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | Venezia = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provincia}}}]]
- | #default = {{#if:{{{provincia|}}}|[[Categoria:Stemmi dei comuni della provincia di {{{provincia}}}]]}}}}
-{{#if:{{{provincia2|}}}|[[Categoria:Stemmi dei comuni della provincia {{{provincia2}}}]]}}
+[[Categoria:Blasons chemuns talians]]
+{{#switch:{{{provinzia|}}}
+ | Valle d'Aosta = [[Categoria:Blasons di chemuns de la {{{provinzia}}}]]
+ | Bari = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Bologna = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Firenze = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Genova = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Milano = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Napoli = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Roma = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}} Capitale]]
+ | Palermo = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Reggio Calabria = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Torino = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | Venezia = [[Categoria:Stemmi dei comuni della città metropolitana di {{{provinzia}}}]]
+ | #default = {{#if:{{{provinzia|}}}|[[Categoria:Stemmi dei comuni della provinzia di {{{provinzia}}}]]}}}}
+{{#if:{{{provinzia2|}}}|[[Categoria:Stemmi dei comuni della provinzia {{{provinzia2}}}]]}}
 }}</includeonly><noinclude>
 {{Protetta}}
 {{man}}
