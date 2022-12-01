@@ -1,0 +1,358 @@
+__notoc__
+{{IPA key|H:IPA-NL|H:IPAD}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Dutch language|Dutch]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-nl}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Dutch phonology]] for a more thorough look at the sounds of Dutch as well as dialectal variations not represented here.
+
+{|
+|- style="vertical-align:top;"
+|
+{| class="wikitable" style="margin: 1em"
+! colspan="3" | [[Consonant]]s
+|-
+! IPA
+! Examples
+! English approximation
+|-
+| style="text-align: center;" | <big>{{IPA link|b}}</big>
+| {{lang|nl|'''b'''eet}}
+| '''''b'''ait''
+|-
+| style="text-align: center;" | <big>{{IPA link|d}}</big>
+| {{lang|nl|'''d'''ak}}
+| '''''d'''uck''
+|-
+| style="text-align: center;" | <big>{{IPA link|f}}</big>
+| {{lang|nl|'''f'''iets}}
+| '''''f'''eats''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɣ}}</big>
+| {{lang|nl|'''g'''aan}}{{efn|name=voiceless-voiced|Generally, the southern varieties preserve the {{IPA|/f/}}–{{IPA|/v/}}, {{IPA|/x/}}–{{IPA|/ɣ/}} and {{IPA|/s/}}–{{IPA|/z/}} contrasts.{{sfnp|Gussenhoven|1999|p=74}}{{sfnp|Collins|Mees|2003|p=48}} Southern {{IPA|/x/}}, {{IPA|/ɣ/}} may be also somewhat more front, i.e. post-palatal.{{sfnp|Collins|Mees|2003|p=48}} In the north, these are far less stable: most speakers merge {{IPA|/x/}} and {{IPA|/ɣ/}} into a post-velar {{IPA|[x̠]}} or uvular {{IPAblink|χ}};{{sfnp|Gussenhoven|1999|p=74}}{{sfnp|Collins|Mees|2003|p=48}} most Netherlandic Standard Dutch speakers lack a consistent {{IPA|/f/}}–{{IPA|/v/}} contrast.{{sfnp|Collins|Mees|2003|p=48}} In some accents, e.g. Amsterdam, {{IPA|/s/}} and {{IPA|/z/}} are also not distinguished.{{sfnp|Collins|Mees|2003|p=48}} {{IPA|/ʒ/}} often joins this neutralization by merging with {{IPA|/ʃ/}}. In some accents, {{IPAslink|ɦ}} is also devoiced to {{IPAblink|h}}. See also [[Hard and soft G in Dutch]].}}
+| no English equivalent; roughly like ''lo'''ch''''' (Scottish) but voiced 
+|-
+| style="text-align: center;" | <big>{{IPA link|ɦ}}</big>
+| {{lang|nl|'''h'''ad}}{{efn|name=voiceless-voiced}}
+| ''be'''h'''ind''
+|-
+| style="text-align: center;" | <big>{{IPA link|j}}</big>
+| {{lang|nl|'''j'''as}}
+| '''''y'''ard''
+|-
+| style="text-align: center;" | <big>{{IPA link|k}}</big>
+| {{lang|nl|'''k'''at}}, {{lang|nl|'''c'''abaret}}
+| ''s'''k'''i''
+|-
+| style="text-align: center;" | <big>{{IPA link|l}}</big>
+| {{lang|nl|'''l'''and}}
+| '''''l'''and''
+|-
+| style="text-align: center;" | <big>{{IPA link|m}}</big>
+| {{lang|nl|'''m'''ens}}
+| '''''m'''an''
+|-
+| style="text-align: center;" | <big>{{IPA link|n}}</big>
+| {{lang|nl|'''n'''ek}}
+| '''''n'''eck''
+|-
+| style="text-align: center;" | <big>{{IPA link|ŋ}}</big>
+| {{lang|nl|e'''ng'''}}
+| ''lo'''ng'''''
+|-
+| style="text-align: center;" | <big>{{IPA link|p}}</big>
+| {{lang|nl|'''p'''en}}, {{lang|nl|ri'''b'''}}{{efn|name=devoicing}}
+| ''s'''p'''ort''
+|-
+| style="text-align: center;" | <big>{{IPA link|r}}</big>
+| {{lang|nl|'''r'''as}}{{efn|name=r}}
+| [[trilled R]] or [[guttural R]]
+|-
+| style="text-align: center;" | <big>{{IPA link|s}}</big>
+| {{lang|nl|'''s'''ok}}
+| between '''''s'''ip'' and '''''sh'''ip'' ([[Voiceless alveolar fricative#Retracted alveolar|retracted]]) ({{abbr|N|Northern Standard Dutch}}), '''''s'''ip'' ({{abbr|B|Belgian Standard Dutch}})
+|-
+| style="text-align: center;" | <big>{{IPA link|t}}</big>
+| {{lang|nl|'''t'''ak}}, {{lang|nl|ha'''d'''}}{{efn|name=devoicing}}
+| ''s'''t'''op''
+|-
+| style="text-align: center;" | <big>{{IPA link|v}}</big>
+| {{lang|nl|'''v'''er}}{{efn|name=voiceless-voiced}}
+| '''''v'''ery'', but more forceful
+|-
+| style="text-align: center;" | <big>{{IPA link|ʋ}}</big>
+| {{lang|nl|'''w'''ang}}{{efn|name=w}}
+| like a looser '''''v'''ery''
+|-
+| style="text-align: center;" | <big>{{IPA link|x}}</big>
+| {{lang|nl|a'''ch'''t}},{{efn|name=voiceless-voiced}} {{lang|nl|we'''g'''}}{{efn|name=devoicing}}
+| ''lo'''ch''''' ([[Scottish English]])
+|-
+| style="text-align: center;" | <big>{{IPA link|z}}</big>
+| {{lang|nl|'''z'''eep}}{{efn|name=voiceless-voiced}}
+| between '''''z'''one'' and '''''g'''enre'' ([[Voiced alveolar fricative#Retracted alveolar|retracted]]) ({{abbr|N|Northern Standard Dutch}}), '''''z'''one'' ({{abbr|B|Belgian Standard Dutch}})
+|-
+! colspan="3" | Marginal consonants
+|-
+| style="text-align: center;" | <big>{{IPA link|c}}</big>
+| {{lang|nl|tien'''tj'''e}}, {{lang|nl|'''ch'''eck}}{{efn|name=palatal}}
+| '''''ch'''eer''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɡ}}</big>
+| {{lang|nl|'''g'''oal}}{{efn|name=g}}
+| '''''g'''oal''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɟ}}</big>
+| {{lang|nl|'''G'''iovanni}}{{efn|name=palatal}}
+| '''''j'''eep''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɱ}}</big>
+| {{lang|nl|o'''m'''vallen}}
+| ''sy'''m'''phony''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɲ}}</big>
+| {{lang|nl|ora'''nj'''e}}, {{lang|nl|Trij'''n'''tje}}{{efn|name=palatal}}
+| somewhat like ''ca'''ny'''on''
+|-
+| style="text-align: center;" | <big>{{IPA link|ʃ}}</big>
+| {{lang|nl|'''sj'''abloon}}, {{lang|nl|'''ch'''ef}}{{efn|name=palatal}}
+| '''''sh'''ip''
+|-
+| style="text-align: center;" | <big>{{IPA link|ʒ}}</big>
+| {{lang|nl|'''j'''ury}}{{efn|name=voiceless-voiced}}{{efn|name=palatal}}
+| '''''g'''enre''
+|-
+| style="text-align: center;" | <big>{{IPA link|ʔ}}</big>
+| {{lang|nl|b'''eë'''indig}} {{IPA|[bəˈʔɛindəx]}},<br/>{{lang|nl|[[Trijntje Oosterhuis|Trijntj'''e Oo'''sterhuis]]}}<br/>{{IPA|[-ə ˈʔoː-]}}{{efn|name=glottal stop}}
+| [[glottal stop|catch]] in ''uh'''-'''oh!''
+|-
+! colspan="3" | [[Stress (linguistics)|Stress]]
+|-
+| style="text-align: center;" | <big>{{IPA link|ˈ}}</big>
+| rowspan="2" | {{lang|nl|v<u>oo</u>rkomen}}<br>{{lang|nl|voork<u>o</u>men}}
+| rowspan="2" | as in ''commandeer''<br>{{IPA|/ˌkɒmənˈdɪər/}}
+|-
+| style="text-align: center;" | <big>{{IPA link|ˌ}}</big>
+|-
+! colspan="3" | Other representations
+|-
+| style="text-align: center;" | <big>{{IPA|( )}}</big>
+| {{lang|nl|make'''n'''}} {{IPA|[ˈmaːkə(n)]}}<br/>{{lang|nl|zelf}} {{IPA|[zɛl(ə)f]}}
+| Optional sound{{efn|name=optional sounds|After the schwa, the final {{IPA|/n/}} is frequently elided, so that ''maken'' is often pronounced {{IPA|[ˈmaːkə]}}, especially in non-prevocalic environments. The nasal may be retained before vowels, yielding a linking {{IPA|/n/}}. An intrusive {{IPA|/n/}} may also occur, as in the phrase ''red je 't?'' {{IPA|[ˈrɛcənət]}}. In stems ending in {{IPA|/ən/}} (such as ''teken'' {{IPA|[ˈteːkən]}} 'I draw') and in the indefinite article ''een'' {{IPA|/ən/}} the nasal is always retained, except when it is degeminated, but when an additional {{IPA|/ən/}} is added to the stem (yielding the infinitive form or the present tense plural form), it behaves regularly, as in ''tekenen'' {{IPA|[ˈteːkənə(n)]}} 'to draw' or 'we/you/they draw'. Furthermore, an epenthetic schwa can be inserted between {{IPA|/l/}} or {{IPA|/r/}} and {{IPA|/m, p, k, f, x/}} (in the case of {{IPA|/r/}} alone also {{IPA|/n/}}) within the same morpheme. This is found in all types of Dutch, standard or otherwise. However, in Standard Dutch, it is limited to non-prevocalic clusters. In dialects, it can be generalized to all environments and it can also apply to the sequence {{IPA|/rɣ/}}, so that ''morgen'' 'morning', pronounced {{IPA|[ˈmɔrɣə(n)]}} in Standard Dutch, is pronounced {{IPA|[ˈmɔrəɣə(n)]}}.{{sfnp|Collins|Mees|2003|pp=197, 201, 216–7}}}}
+|}
+|
+{| class="wikitable" style="margin: 1em"
+! colspan="3" | [[Vowel]]s
+|-
+! IPA
+! Examples
+! English approximation
+|-
+! colspan="3" | [[Checked and free vowels|Checked vowels]]{{efn|name=checked free}}
+|-
+| style="text-align: center;" | <big>{{IPA link|ɑ}}</big>
+| {{lang|nl|b'''a'''d}}
+| ''f'''a'''ther'', ''but rather short''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɛ}}</big>
+| {{lang|nl|b'''e'''d}}
+| ''b'''e'''d''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɪ}}</big>
+| {{lang|nl|v'''i'''s}}
+| ''s'''i'''t''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɔ}}</big>
+| {{lang|nl|b'''o'''t}}
+| '''''o'''ff''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɵ|ʏ}}</big>
+| {{lang|nl|h'''u'''t}}
+| roughly like ''n'''ur'''se''
+|-
+! colspan="3" | [[Checked and free vowels|Free vowels]] and [[diphthong]]s{{efn|name=checked free}}
+|-
+| style="text-align: center;" | <big>{{IPA link|ä|aː}}</big>
+| {{lang|nl|'''aa'''p}}
+| ''f'''a'''ther''
+|-
+| style="text-align: center;" | <big>{{IPA link|eː}}</big>
+| {{lang|nl|b'''ee'''t}}, {{lang|nl|'''e'''zel}}{{efn|name=mid vowels|For most speakers of Netherlandic Standard Dutch, the long close-mid vowels {{IPAslink|eː}}, {{IPAslink|øː}} and {{IPAslink|oː}} are realised as slightly closing diphthongs {{IPA|[eɪ]}}, {{IPA|[øʏ]}} and {{IPA|[oʊ]}}, unless they precede {{IPA|/r/}} within the same syllable.{{sfnp|Gussenhoven|1999|p=76}}{{sfnp|Collins|Mees|2003|pp=133–4}} The closing diphthongs also appear in certain Belgian dialects, e.g. the one of [[Bruges]], but not in Belgian Standard Dutch. See [[Dutch phonology#Monophthongs]] for more details.}}
+| ''m'''a'''de''
+|-
+| style="text-align: center;" | <big>{{IPA link|ə}}</big>
+| {{lang|nl|d'''e'''}}
+| '''''a'''gain''
+|-
+| style="text-align: center;" | <big>{{IPA link|i}}</big>
+| {{lang|nl|d'''ie'''p}}
+| ''d'''ee'''p''
+|-
+| style="text-align: center;" | <big>{{IPA link|oː}}</big>
+| {{lang|nl|b'''oo'''t}}{{efn|name=mid vowels}}
+| ''st'''o'''ry''
+|-
+| style="text-align: center;" | <big>{{IPA link|y}}</big>
+| {{lang|nl|f'''uu'''t}}
+| roughly like ''f'''ew'''''
+|-
+| style="text-align: center;" | <big>{{IPA link|øː}}</big>
+| {{lang|nl|n'''eu'''s}}{{efn|name=mid vowels}}
+| roughly like ''f'''ur'''''
+|-
+| style="text-align: center;" | <big>{{IPA link|u}}</big>
+| {{lang|nl|h'''oe'''d}}
+| roughly like ''r'''u'''le''
+|-
+| style="text-align: center;" | <big>{{IPA|ɑi}}</big>
+| {{lang|nl|'''ai'''}}
+| ''pr'''i'''ce''
+|-
+| style="text-align: center;" | <big>{{IPA|aːi}}</big>
+| {{lang|nl|dr'''aai'''}}
+| ''pr'''i'''ze''
+|-
+| style="text-align: center;" | <big>{{IPA|ʌu}}</big>
+| {{lang|nl|j'''ou'''}}, {{lang|nl|d'''auw'''}}{{efn|name=diphthongs}}
+| '''''ou'''t''
+|-
+| style="text-align: center;" | <big>{{IPA|ɛi}}</big>
+| {{lang|nl|b'''ij'''t}}, {{lang|nl|'''ei'''}}{{efn|name=diphthongs|The exact quality of diphthongs varies; Netherlandic Standard Dutch has somewhat more open (in case of {{IPA|/ʌu/}} and often {{IPA|/œy/}} also unrounded) first elements: {{IPA|[æi]}}, {{IPA|[ɐy]}}, {{IPA|[ɑu]}}.{{sfnp|Collins|Mees|2003|p=135}}<ref>{{Harvcoltxt|Rietveld|Van Heuven|2009|p=70}}. Authors state that "in most northern areas, {{IPA|/œy/}} is pronounced {{IPA|[ʌ̈y̯]}}."</ref> In Belgian Standard Dutch, they begin in the open-mid region, and the last diphthong has a rounded first element: {{IPA|[ɛi]}}, {{IPA|[œy]}}, {{IPA|[ɔu]}}.{{sfnp|Collins|Mees|2003|pp=135–6}}{{sfnp|Verhoeven|2005|p=245}} In Belgium, the onset of {{IPA|/œy/}} can also be unrounded to {{IPA|[ɐy]}}.{{sfnp|Collins|Mees|2003|p=136}} Some non-standard dialects (e.g. many southern dialects) realise these diphthongs as either narrow diphthongs or (as in The Hague dialect) long monophthongs.{{sfnp|Collins|Mees|2003|p=136}} See {{section link|Dutch phonology|Diphthongs}} for more details.}}
+| roughly like '''''ai'''r''
+|-
+| style="text-align: center;" | <big>{{IPA|eːu}}</big>
+| {{lang|nl|sn'''eeuw'''}}
+| ''s'''ay oo'''''
+|-
+| style="text-align: center;" | <big>{{IPA|iu}}</big>
+| {{lang|nl|n'''ieuw'''}}
+| '''''ew'''!''
+|-
+| style="text-align: center;" | <big>{{IPA|ɔi}}</big>
+| {{lang|nl|h'''oi'''}}
+| ''ch'''oi'''ce''
+|-
+| style="text-align: center;" | <big>{{IPA|oːi}}</big>
+| {{lang|nl|n'''ooi'''t}}
+| ''b'''oy'''s''
+|-
+| style="text-align: center;" | <big>{{IPA|œy}}</big>
+| {{lang|nl|b'''ui'''t}}{{efn|name=diphthongs}}
+| roughly like Canadian '''''i'''ce''
+|-
+| style="text-align: center;" | <big>{{IPA|ui}}</big>
+| {{lang|nl|gr'''oei'''}}
+| ''g'''ooey'''''
+|-
+| style="text-align: center;" | <big>{{IPA|yu}}</big>
+| {{lang|nl|d'''uw'''}}
+| roughly like ''f'''ew'''''
+|-
+! colspan="3" | Marginal vowels
+|-
+| style="text-align: center;" | <big>{{IPA link|ɛː}}</big>
+| {{lang|nl|sc'''è'''ne}}{{efn|name=open-mid front}}
+| ''squ'''are''''' ([[British English]])
+|-
+| style="text-align: center;" | <big>{{IPA link|iː}}</big>
+| {{lang|nl|anal'''y'''se}}, {{lang|nl|d'''ie'''r}}{{efn|name=pre-r}}
+| ''wh'''ee'''ze''
+|-
+| style="text-align: center;" | <big>{{IPA link|ɔː}}</big>
+| {{lang|nl|r'''o'''ze}}{{efn|name=non-native vowels}}{{efn|name=open-mid back}}
+| ''th'''ough'''t''
+|-
+| style="text-align: center;" | <big>{{IPA link|œː}}</big>
+| {{lang|nl|fr'''eu'''le}}{{efn|name=non-native vowels}}
+| roughly like ''f'''ur'''''
+|-
+| style="text-align: center;" | <big>{{IPA link|uː}}</big>
+| {{lang|nl|cr'''ui'''se}}, {{lang|nl|b'''oe'''r}}{{efn|name=pre-r}}
+| ''r'''u'''le''
+|-
+| style="text-align: center;" | <big>{{IPA link|yː}}</big>
+| {{lang|nl|centrif'''u'''ge}}, {{lang|nl|k'''uu'''r}}{{efn|name=pre-r}}
+| roughly like ''f'''u'''gue''
+|-
+| style="text-align: center;" | <big>{{IPA|ɑ̃ː}}</big>
+| {{lang|nl|g'''en'''re}}{{efn|name=non-native vowels}}
+| roughly like ''croiss'''an'''t''
+|-
+| style="text-align: center;" | <big>{{IPA|ɛ̃ː}}</big>
+| {{lang|nl|haut'''ain'''}}{{efn|name=non-native vowels}}
+| roughly like ''doy'''en'''''
+|-
+| style="text-align: center;" | <big>{{IPA|ɔ̃ː}}</big>
+| {{lang|nl|chans'''on'''}}{{efn|name=non-native vowels}}
+| roughly like ''m'''on'''tage''
+|}
+|}
+
+==Notes==
+{{notelist|refs=
+{{efn|name=palatal|The alveolo-palatal stops {{IPA|[c]}} and {{IPA|[ɟ]}}, the fricatives {{IPA|[ʃ]}} and {{IPA|[ʒ]}}, and the [[palatal nasal|nasal]] {{IPA|[ɲ]}} are allophones of the sequences {{IPA|/tj/}}, {{IPA|/dj/}}, {{IPA|/sj/}}, {{IPA|/zj/}} and {{IPA|/nj/}}. {{IPA|[ɟ]}} and {{IPA|[ʒ]}} occur only in loanwords. {{IPA|[ɲ]}} also occurs as an allophone of {{IPA|/n/}} before {{IPA|/tj/}} (realized as {{IPA|[c]}}).}}
+{{efn|name=devoicing|Dutch [[Final-obstruent devoicing|devoices]] all obstruents at the ends of words (e.g. a final {{IPA|/d/}} becomes {{IPAblink|t}}). This is partly reflected in the spelling: the voiced ‹z› in plural ''hui'''z'''en'' ('houses') becomes ''hui'''s''''' ('house') in singular, and ''dui'''v'''en'' ('doves') becomes ''dui'''f''''' ('dove'). The other cases are always written with the voiced consonant, even though a devoiced one is actually pronounced: the voiced ‹d› in plural ''baar'''d'''en'' {{IPA|[ˈbaːrdə(n)]}} ('beards') is retained in the singular spelling ''baar'''d''''' ('beard'), but pronounced as {{IPA|[baːrt]}}; and plural ''ri'''bb'''en'' {{IPA|[ˈrɪbə(n)]}} ('ribs') has singular ''ri'''b''''', pronounced as {{IPA|[rɪp]}}.  Because of assimilation, often the initial consonant of the next word is also devoiced, e.g. ''het vee'' ('the cattle') is {{IPA|[ɦət ˈfeː]}}}}
+{{efn|name=r|The realization of the {{IPA|/r/}} phoneme varies considerably from dialect to dialect. In "standard" Dutch, {{IPA|/r/}} is realized as the [[alveolar trill]] {{IPA|[r]}} or as a [[uvular trill]] {{IPA|[ʀ]}}. In some dialects, it is realized as an [[alveolar flap]] {{IPA|[ɾ]}} or even as an [[alveolar approximant]] {{IPA|[ɹ]}} or [[retroflex approximant]]  [{{IPA|ɻ}}]; the latter 2 occur as allophones of trill [r] or flap {{IPA|[ɾ]}} before consonants and a pause.}}
+{{efn|name=w|The realization of the {{IPA|/ʋ/}} phoneme varies considerably from the Northern to the Southern and Belgium dialects of the Dutch language. In the north of the Netherlands, it is a [[labiodental approximant]] {{IPA|[ʋ]}}, or even a [[voiced labiodental fricative]] {{IPA|[v]}}. In the south of the Netherlands and in Belgium, it is pronounced as a [[voiced bilabial fricative|bilabial approximant]] {{IPA|[β̞]}} (as it also is in the Hasselt and Maastricht dialects), and Standard Surinamese Dutch uses the [[labiovelar approximant]] {{IPA|[w]}}.}}
+{{efn|name=glottal stop|The [[glottal stop]] {{IPA|[ʔ]}} is indicated sparingly in Dutch transcriptions on Wikipedia: it is mandatorily inserted between {{IPA|[aː]}} and {{IPA|[ə]}} and a syllable-initial vowel, both within words and at word boundaries. Often, it is also inserted before phrase-initial vowels and before any word-initial vowel. This is not indicated in most of our transcriptions.}}
+{{efn|name=g|{{IPAslink|ɡ}} is not a native phoneme of Dutch and only occurs in loanwords, like ''goal'' or when {{IPA|/k/}} is voiced, like in ''zakdoek'' {{IPA|[ˈzɑɡduk]}}.}}
+{{efn|name=checked free|The "checked" vowels {{IPAslink|ɑ}}, {{IPAslink|ɛ}}, {{IPAslink|ɪ}}, {{IPAslink|ɔ}}, and {{IPAslink|ʏ}} occur only in [[Syllable#Open and closed|closed syllables]], while their "free" counterparts {{IPAslink|ä|aː}}, {{IPAslink|eː}}, {{IPAslink|i}}, {{IPAslink|oː}}, and {{IPAslink|y}} can occur in open syllables (as can the other vowels).}}
+{{efn|name=non-native vowels|Found in loanwords.}}
+{{efn|name=open-mid back|In Belgium, {{IPA|/ɔː/}} tends to be pronounced the same as {{IPA|/oː/}}.}}
+{{efn|name=open-mid front|Mainly found in loanwords.}}
+{{efn|name=pre-r|Found in loanwords as a separate phoneme, and as an allophone of its shorter counterpart before {{IPA|/r/}} in both native and non-native words.}}
+}}
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+{{refbegin}}
+* {{citation
+|last1 = Collins
+|first1 = Beverley
+|last2 = Mees
+|first2 = Inger M.
+|year=2003
+|title = The Phonetics of English and Dutch, Fifth Revised Edition
+|isbn = 9004103406
+|url = http://npu.edu.ua/!e-book/book/djvu/A/iif_kgpm_Collins_Phonetics_of_English_and_Dutch_pdf.pdf
+}}
+* {{citation
+|last=Gussenhoven
+|first=Carlos
+|year=1999
+|chapter=Dutch
+|title = Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet
+|location = Cambridge, England 
+|publisher= Cambridge University Press
+|isbn=0-521-65236-7
+|pages=74–77
+|chapter-url = https://www.researchgate.net/publication/231848048_Dutch
+}}
+*{{citation
+|last=Rietveld
+|first=A.C.M.
+|last2=Van Heuven
+|first2=V.J.
+|year=2009
+|title = Algemene Fonetiek
+|publisher = Uitgeverij Coutinho
+}}
+* {{citation
+|last=Verhoeven
+|first=Jo
+|year=2005
+|title = Belgian Standard Dutch
+|journal = Journal of the International Phonetic Association
+|volume=35
+|issue=2
+|pages=243–247
+|doi = 10.1017/S0025100305002173
+|url = https://www.cambridge.org/core/services/aop-cambridge-core/content/view/40E060F565C2A84B07993980D2957D49/S0025100305002173a.pdf/belgian_standard_dutch.pdf
+}}
+{{refend}}
+
+==External links==
+* [http://www.woorden.org/ Nederlands woordenboek]
+
+{{IPA keys}}
