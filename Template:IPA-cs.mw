@@ -1,0 +1,5 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Cech:&#32;|pron=pronunzià&#32;|=|Pronunzia ceca:&#32;}}</small>{{IPA|[[Help:IPA/Cech|[{{{1}}}]]]|lang=cs}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}
+
+[[Category:IPA language templates]]
+</noinclude>
