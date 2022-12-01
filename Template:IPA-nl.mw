@@ -1,0 +1,2 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=olandesc:&nbsp;|pron=pronunzià&#32;|=|pronunzia olandeja:&#32;}}</small>{{IPA|[[Help:IPA/Olandesc|[{{{1}}}]]]|lang=nl}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<noinclude>{{documentation}}</noinclude>
