@@ -1,0 +1,18 @@
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+This template is placed on category pages and in template documentation to warn about bots, depending on those categories and templates. These pages with this template will be added to [[:Category:Pages monitored by Wikipedia bots]].
+
+== Parameters ==
+* Use {{Para|subcats|yes}} to show "This category and subcategories are used by..." instead.
+* Use {{Para|bots|<nowiki>*[[User:ExampleBot]] operated by [[User:Example]]</nowiki>}} to list bot usernames
+* Use {{Para|namespace|infobox}} to override the namespace name and show "This infobox is...". Other values can be substituted here.
+
+== See also ==
+* {{tl|Twinkle standard installation}}
+* {{tl|AWB standard installation}}
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line; interwikis at Wikidata -->
+[[Category:Courtesy templates]]
+[[Category:Category namespace templates]]
+}}</includeonly>
