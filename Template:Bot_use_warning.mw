@@ -1,0 +1,7 @@
+{{mbox
+|image=[[File:Kawaii robot power clipart.svg|80px|link=|alt=]]
+|text=<div style="text-align: center;"><span style="font-size: larger;">'''This {{{namespace|{{pagetype|defaultns=extended}}}}} {{#if:{{yesno|{{{subcats|}}}}}| and subcategories are | is }} used by one or more [[Wikipedia:Bots|bots]].'''</span>
+-----
+If you intend to change this {{{namespace|{{pagetype|defaultns=extended}}}}} in any significant way, move or nominate it for deletion, please inform the bot operators. Thank you. {{#if:{{{bot|{{{bots|}}}}}}|The relevant bots are: {{{bot|{{{bots}}}}}}.}}</div>}}<includeonly>{{Sandbox other||[[Category:Pages monitored by Wikipedia bots]]}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
