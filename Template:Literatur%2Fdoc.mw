@@ -1,0 +1,1005 @@
+<noinclude>{{Dokumentation/Dokuseite}}</noinclude>
+{{TemplateData|JSON=
+{ "description": "Einheitliche Quellenangabe für ein '''einzelnes gedruckt vorliegendes Werk''' gemäß den [[Wikipedia:Zitierregeln]] ([[WP:ZR]])<noexport>.<br /> Die Vorlage generiert zusätzlich einen Eintrag im Mikroformat [[COinS]], der die automatische Extraktion von Metadaten durch Literaturverwaltungsprogramme wie [[Zotero]] erlaubt.<br /> Für reine Internetquellen (nur online verfügbar) wird die [[Template:Internetquelle]] empfohlen.</noexport>",
+  "params": {
+  "=== person": {
+    "description": "Personen",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+  "Autor": {
+      "description": "(menschliche) Autoren, ungekürzte Namen mit Komma getrennt (Vorname Nachname, Vorname Nachname,&nbsp;…); auch Autoren-Kürzel oder Pseudonym",
+      "type": "content",
+      "suggested": true,
+      "example": "Petra Meier, Paul Schulz"
+  },
+  "=== titel": {
+    "description": "Einzeltitel",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+  "Titel": {
+      "description": "Titel des zitierten Werkes (bei Bedarf automatische Punktsetzung am Titelende)<noexport>
+* Einziger Pflichtparameter (ohne den die Verwendbarkeit sehr eingeschränkt wäre).
+* Untertitel (die offenbar vom Autor selbst spezifiziert wurden) sind anzuschließen; mit Punkt oder Semikolon, immer jedoch möglich mit [[Halbgeviertstrich]].
+  <div style='clear:both'></div></noexport>",
+      "required": true,
+      "type": "content",
+      "example": "Die Überschrift des wissenschaftlichen Aufsatzes"
+  },
+  "TitelErg": {
+      "label": "ergänzende Titelangaben",
+      "description": "Ergänzende Angaben zum „<code>[[#templatedata:Titel|Titel]]</code>“, '''nicht für Untertitel!'''<noexport>
+* Der Untertitel ist Teil des Titels und wird in Kursivschrift dargestellt.
+* Die Titel-Ergänzung wird hingegen in normaler Schrift gezeigt.
+<div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "Mit einer Einleitung von Willy Brandt"
+  },
+  "=== werk": {
+    "description": "Gesamtwerk",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+  "Hrsg": {
+      "label": "Herausgeber",
+      "description": "(Menschlicher) Herausgeber des „<code>[[#templatedata:Sammelwerk|Sammelwerks]]</code>“ oder des zitierten Werkes (falls kein Autor angegeben)<noexport>
+* Die Bezeichnung darf keine (runden) Klammern enthalten, weil sich „(Hrsg.)“ anschließt.
+  <div style='clear:both'></div></noexport><!-- seit 2016-05; vorher Herausgeber -->",
+      "type": "line",
+      "aliases": [ "Herausgeber" ],
+      "suggested": true,
+      "example": "Jacob Grimm, Wilhelm Grimm"
+  },
+  "Sammelwerk": {
+      "description": "Titel eines übergeordneten Werkes: Zeitung, Zeitschrift, Sammelband, Lexikon&nbsp;… (gern verlinkt)<noexport>
+* „In:“ davor wird automatisch ergänzt.
+* Besser hier bei ''jedem'' Auftreten auf einen entsprechend vorhandenen Artikel verlinken, weil andere schon verlinkte Einzelnachweise wieder gelöscht worden sein könnten und die in den darüber liegenden Nummern stehenden Einzelnachweise nach einem Sprung auf einen später auftretenden Einzelnachweis für die Leser unsichtbar sind.
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "Kosmos"
+  },
+  "WerkErg": {
+      "label": "ergänzende Werksangaben",
+      "description": "Ergänzende Angaben zum „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“ (nur möglich, wenn dieses angegeben ist), analog zu „<code>[[#templatedata:TitelErg|TitelErg]]</code>“",
+      "type": "line"
+    },
+    "Band": {
+      "description": "Einheit im „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“, wie „Band“, „Volume“/„Vol.“ oder „Buch“ (bei einfachen Zahlenwerten wird „Band“ automatisch vorangestellt); gelegentlich das meist redundante „42.&nbsp;Jahrgang“<noexport>; gefolgt von der „<code>[[#templatedata:Nummer|Nummer]]</code>“.
+* Ein Zeilenumbruch wird hier nach „Band“ verhindert, es muss deshalb auch kein <code>&amp;nbsp;</code> angegeben werden.
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "2"
+    },
+    "Nummer": {
+      "description": "Nummer im „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“, auch bekannt als “issue” oder „Heft“ („Nr.“ wird bei numerischen Werten automatisch ergänzt; genauer: wenn ohne einen Buchstaben); auch „Herbst“ oder „Januar/Februar“<noexport>.
+* Ein Zeilenumbruch wird hier nach „Nr.“ verhindert, es muss deshalb auch kein <code>&amp;nbsp;</code> angegeben werden.
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "12"
+    },
+    "Auflage": {
+      "description": "„1.“, „2., überarbeitete“ („Auflage“ wird automatisch ergänzt<noexport>, nicht eingeben</noexport>)",
+      "type": "line",
+      "suggested": true,
+      "example": "7"
+  },
+  "=== publiziert": {
+    "description": "Publiziert",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+  "Verlag": {
+      "description": "Publizierende Institution (ohne automatische Ergänzungen).<noexport>
+* Neben Buchverlagen kommen auch Firmen, Behörden oder andere Institutionen in Frage.
+* Bei Privatpersonen als Autor: <code>Selbstverlag</code>.
+* Ohne automatische Ergänzungen.
+* Verlage werden in aller Regel nicht verlinkt angegeben; es sei denn, die Art des Verlags deutet auf eine Selbstpublikation oder hätte sonst eine besondere Bedeutung für die Beurteilung des Werks wie ein stark weltanschaulich ausgerichteter Verlag; auch Sonderfälle wie Exilverlage kämen in Frage.</noexport>
+  Keine Angabe erforderlich, wenn eine Zeitschrift etc. als „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“ angegeben und möglichst auch verlinkt oder durch Datenbankschlüssel konkretisiert ist.",
+      "type": "line",
+      "suggested": true
+  },
+  "Ort": {
+      "description": "Verlagsort (nur bei Buchverlagen als „<code>[[#templatedata:Verlag|Verlag]]</code>“); mehrere Verlagsorte mit Schrägstrich „/“ trennen<noexport>.<br /> Orte werden nie verlinkt.</noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "Berlin / Heidelberg / New York"
+  },
+  "Datum": {
+      "description": "Jahreszahl sollte immer vorhanden sein; bei Bedarf genauer, Format JJJJ-MM-TT erwünscht<noexport>
+* Bei Büchern wird nur die Jahreszahl genannt.
+* Bei monatlichen [[Periodikum|Periodika]] soll der Monat angegeben werden im Format <code>JJJJ-MM</code>, also etwa 2016-05.
+* Bei Tageszeitungen ist <code>JJJJ-MM-TT</code>, also etwa 2016-05-21 anzugeben.
+* Bei anderen Zyklen von Periodika kann „<code>[[#templatedata:Nummer|Nummer]]</code>“ genutzt werden; etwa „Herbst“ oder „Januar/Februar“.
+* Bei einem „Heft 1/2015“ ist <code>2015</code> anzugeben, selbst wenn als Erscheinungsdatum der 30.&nbsp;Dezember 2014 genannt wurde.
+* Bei einem „Jahrbuch 2012“ ist <code>2012</code> anzugeben, selbst wenn die Texte erst 2013 geschrieben wurden und das Buch erst 2014 gedruckt und verkauft wurde.
+* Bei einem regelmäßig erscheinenden dynamischen Werk kann als „<code>[[#templatedata:Kommentar|Kommentar]]</code>“ der Redaktionsschluss gesondert genannt werden.
+* Es gilt das Datum der beschriebenen Veröffentlichung. Vorab publizierte Textversionen sind nicht anzuführen; falls doch einmal von wissenschaftshistorischer Bedeutung, dann unter „<code>[[#templatedata:Kommentar|Kommentar]]</code>“ anzugeben.
+* Es ist nur eine einzelne kalendarische Einheit zulässig; also nur der eine Tag des Erscheinens, nur ein Monat, nur ein Jahr.
+* Für nicht im Impressum angegebene Veröffentlichungsdaten, die anderweitig ermittelt oder geschätzt wurden, ist unter „<code>[[#templatedata:Kommentar|Kommentar]]</code>“ anzugeben: „<code style='white-space:nowrap'>o. J.</code>“ und ggf. das mutmaßliche Jahr.
+  <div style='clear:both'></div></noexport>",
+      "type": "date",
+      "suggested": true,
+      "example": "1932-01"
+    },
+    "Jahr": {
+      "description": "„<code>[[#templatedata:Datum|Datum]]</code>“ verwenden",
+      "type": "number",
+      "deprecated": true
+    },
+    "Monat": {
+      "description": "„<code>[[#templatedata:Datum|Datum]]</code>“ verwenden; wenn kein Einzelmonat, dann unter „<code>[[#templatedata:Nummer|Nummer]]</code>“ angeben",
+      "type": "line",
+      "deprecated": true
+    },
+    "Tag": {
+      "description": "„<code>[[#templatedata:Datum|Datum]]</code>“ verwenden",
+      "type": "number",
+      "deprecated": true
+    },
+    "Sprache": {
+      "description": "Fremdsprache des aktuell herangezogenen Textes. Angabe nach [[ISO&nbsp;639]], mit meist zwei oder drei Kleinbuchstaben<noexport>.
+* Es sind mehrere durch Leerzeichen getrennte Angaben <code style='white-space:nowrap'>lb fr</code> oder Sprachabgrenzungen <code style='white-space:nowrap'>en-US</code> möglich, die Sprachen bitte ''nicht'' verlinken
+* <code>de</code> für „Deutsch“ sollte nicht extra erwähnt werden, um die Einbindung kompakt zu halten; es würde ohnehin nicht angezeigt. Allerdings wird es für externe Anwendungen hinterlegt.
+  <div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false,
+      "example": "en"
+    },
+    "Umfang": {
+      "description": "''(selten verwenden)'' Gesamtzahl der Seiten eines Werkes, wenn für die Literaturverwendung notwendig und hilfreich; „S.“&nbsp;wird automatisch ergänzt<noexport> (nicht eingeben).
+* Die Literaturangaben sind keine Werbung für Verleger oder Buchhändler.
+* Nicht erforderlich, wenn über <code>[[#templatedata:ISBN|ISBN]]</code> usw. leicht erschließbar.
+* Bei Publikationslisten im Artikel zum Autor sinnvoll.
+<div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false,
+      "example": "2345"
+  },
+  "=== serie": {
+    "description": "Schriftenreihe",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+  "Reihe": {
+      "description": "[[Schriftenreihe|Schriften-]] oder [[Buchreihe]] (Serie, englisch ''series''), in der das Werk erschienen ist<noexport> (Serientitel, keine Ziffern). Gemeint sind Fachserien, keine Verlegerserien.
+* Der Eintrag steht hinter dem <code>[[#templatedata:Titel|Titel]]</code> oder <code>[[#templatedata:Sammelwerk|Sammelwerk]]</code> in Klammern mit einem vorangestellten Gleichheitszeichen.
+* Pflichtparameter, wenn auf die Reihe Bezug genommen wird.
+  <div style='clear:both'></div></noexport>",
+      "type": "line"
+    },
+    "NummerReihe": {
+      "description": "Bandnummer in einer Schriften- oder Buchreihe „<code>[[#templatedata:Reihe|Reihe]]</code>“. „Nr.“&nbsp;wird automatisch ergänzt<noexport> (nicht eingeben)</noexport>, wenn nur <!-- arabische/römische --> Ziffern.<!-- seit 2016-05 -->",
+      "type": "number",
+      "example": "14"
+    },
+    "BandReihe": {
+      "description": "Bandbezeichnung (keine Nummer) in einer Schriften- oder Buchreihe „<code>[[#templatedata:Reihe|Reihe]]</code>“. „Band“ wird automatisch ergänzt<noexport> (nicht eingeben)</noexport>, wenn nur <!-- arabische/römische --> Ziffern.<!-- seit 2016-05 -->",
+      "type": "line",
+      "example": "5"
+    },
+    "HrsgReihe": {
+      "description": "Herausgeber einer Schriften- oder Buchreihe „<code>[[#templatedata:Reihe|Reihe]]</code>“<!-- seit 2016-05 -->",
+      "type": "line"
+    },
+  "=== id": {
+    "description": "Schlüsselnummern",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "ISBN": {
+      "description": "[[Internationale Standardbuchnummer|ISB-Nummer]] (ohne Eingabe des vorangestellten „ISBN“)<noexport>.
+* Die ISB-Nummer wird dann so angezeigt: <code style='white-space:nowrap'>ISBN 978-3-577-09102-2</code>
+* ISBN sind erst ab 2007 13-stellig, z.&nbsp;B. <code style='white-space:nowrap'>978-3-577-09102-2</code>, zuvor 10-stellig <code style='white-space:nowrap'>3-577-09102-9</code>
+<div style='clear:both'></div></noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "978-3-577-09102-2"
+    },
+    "ISBNformalFalsch": {
+      "label": "formal falsche ISBN",
+      "description": "Wie <code>[[#templatedata:ISBN|ISBN]]</code> aber mit falsch berechneter Prüfziffer<noexport>.
+* Der Verlag hatte eine ungültige Prüfziffer ermittelt und in das Buch hineingedruckt. Unter dieser Nummer ist das Buch trotzdem auffindbar, und in den Katalogen ist die „falsche“ Nummer vermerkt und als falsch gekennzeichnet.
+* In solchen Fällen darf auf keinen Fall die „falsche“ Nummer durch eine solche mit richtig berechneter Prüfziffer „korrigiert“ werden. [[Wikipedia:ISBNformalFalsch|Mehr dazu]].
+  <div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false
+    },
+    "ISBNdefekt": {
+      "label": "unmögliche ISBN",
+      "description": "Wie <code>[[#templatedata:ISBN|ISBN]]</code> aber mit falscher Anzahl der Ziffern<noexport>.
+* Der Verlag hatte eine ungültige ISBN in das Buch hineingedruckt. Unter dieser Nummer ist das Buch trotzdem auffindbar, und in den Katalogen ist die „falsche“ Nummer vermerkt und als falsch gekennzeichnet.
+* [[Wikipedia:ISBNdefekt|Mehr dazu]].
+  <div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false
+    },
+    "ISSN": {
+      "description": "[[Internationale Standardnummer für fortlaufende Sammelwerke|ISS-Nummer]] für Zeitschriften (ohne Eingabe des vorangestellten „ISSN“), wenn „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“ nicht verlinkbar ist<noexport> („ISSN“ wird automatisch ergänzt).<br /> Sofern die Zeitschrift einen eigenen Artikel bei uns hat, dann das “Sammelwerk” verlinken.</noexport>",
+      "type": "line"
+    },
+    "ISSNformalFalsch": {
+      "description": "Wie „<code>[[#templatedata:ISSN|ISSN]]</code>“, aber mit falsch berechneter Prüfziffer<noexport>. Die Hinweise unter „<code>[[#templatedata:ISBNformalFalsch|ISBNformalFalsch]]</code>“ gelten analog.</noexport><!-- seit 2016-05 -->",
+      "type": "line"
+    },
+    "ZDB": {
+      "description": "[[Zeitschriftendatenbank]] der [[Deutsche Nationalbibliothek|Deutschen Nationalbibliothek]], wenn „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“ nicht verlinkbar und <code>[[#templatedata:ISSN|ISSN]]</code> nicht vergeben ist<noexport>.
+* Die ZDB-Nummer wird dann so angezeigt: <code style='white-space:nowrap'>[http://dispatch.opac.dnb.de/DB=1.1/CMD?ACT=SRCHA&IKT=8506&TRM=565790-8 ZDB-ID 565790-8]</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "565790-8"
+    },
+    "DNB": {
+      "type": "line",
+      "description": "[[Deutsche Nationalbibliothek]], wenn keine <code>[[#templatedata:ISBN|ISBN]]</code> vorhanden<noexport>.
+* Die DNB-Nummer wird dann so angezeigt: <code style='white-space:nowrap'>[[Deutsche Nationalbibliografie|DNB]] [http://d-nb.info/988141825 988141825]</code>
+  <div style='clear:both'></div></noexport>",
+      "example": "988141825"
+    },
+    "LCCN": {
+      "description": "[[Library of Congress|Library of Congress Control Number]], wenn keine <code>[[#templatedata:ISBN|ISBN]]</code> vorhanden<noexport>.
+* Dies wird dann so angezeigt: <code>{{LCCN|32-14978}}</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "32-14978"
+    },
+    "OCLC": {
+      "description": "Code für [[WorldCat]] / [[Online Computer Library Center]], wenn keine [[#templatedata:ISBN|ISBN]] usw. vorhanden<noexport>.
+* Die OCLC-Nummer wird dann so angezeigt: <code style='white-space:nowrap'>{{OCLC|227278342}}</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "227278342"
+    },
+    "Lizenznummer": {
+      "description": "[[Lizenznummer]] in der [[Deutsche Demokratische Republik|DDR]], wenn keine „<code>[[#templatedata:DNB|DNB]]</code>“ vorhanden, bzw. [[Lizenznummer#Bestellnummer|DDR-Bestellnummer]]<!-- seit 2016 -->",
+      "type": "line"
+    },
+    "arXiv": {
+      "label": "arXiv",
+      "description": "Artikel in ''The Archive''&nbsp;– siehe [[Template:arXiv]]<noexport>.
+* Dies wird dann so angezeigt: <code style='white-space:nowrap'>{{arXiv|astro-ph|0506600}}</code>
+  <div style='clear:both'></div></noexport><!-- seit 2016-05; vorher wechselnde Groß- und Kleinschreibung -->",
+      "type": "line",
+      "aliases": [ "arxiv" ],
+      "example": "astro-ph/0506600v1"
+    },
+    "bibcode": {
+      "description": "Artikel im [[Astrophysics Data System]] ([[Template:bibcode|bibcode]])<noexport>.
+* Dies wird dann so angezeigt: <code>{{bibcode|1974AJ.....79..819H}}</code>
+  <div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "example": "1974AJ.....79..819H"
+    },
+    "DOI": {
+      "description": "[[Digital Object Identifier]]<noexport>.
+* Dies wird dann so angezeigt: <code>[[Digital Object Identifier|doi]]:[[doi:10.1000/182|10.1000/182]]</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "10.1000/182"
+    },
+    "JSTOR": {
+      "description": "Stabile JSTOR für einzelne Artikel gemäß [[Template:JSTOR]]<noexport>.
+* Die JSTOR-Nummer wird dann so angezeigt: <code>{{JSTOR|3562296}}</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "3562296"
+    },
+    "PMC": {
+      "description": "Artikel im [[PubMed Central]]; freier Volltext (ohne Eingabe des vorangestellten „PMC“)<noexport>.
+* Die PMC-Nummer wird dann so angezeigt: <code>{{PMC|987654}}</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "987654"
+    },
+    "PMID": {
+      "description": "Artikel im [[PubMed]], selbst wenn „<code>[[#templatedata:PMC|PMC]]</code>“ bereits angegeben ist (ohne Eingabe des vorangestellten „PMID“)<noexport>.
+* Die PMID-Nummer wird dann so angezeigt: <code>PMID 123456789</code>
+  <div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "123456789"
+    },
+    "URN": {
+      "description": "Artikel mit [[Uniform Resource Name]] (ohne vorangestelltes <code>urn:</code>)<!-- seit 2016-05 -->",
+      "type": "line",
+      "example": "ietf:rfc:1776"
+    },
+    "ID": {
+      "description": "nichtkommerzieller Datenbankschlüssel, der von keinem anderen Bezeichner abgedeckt ist<noexport>; „nichtkommerziell“ schließt insbesondere aus: [[Amazon Standard Identification Number|ASIN]], [[Google Books|GoogleBooks]].</noexport>",
+      "type": "line",
+      "suggested": false
+    },
+  "=== loc": {
+    "description": "Fundstelle im Werk",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "Kapitel": {
+      "description": "Beispiele: „Vorwort des Herausgebers“, „2.1.7 ''Sonstiges''“, „614b“<noexport>, „Annex&nbsp;II“; (Titulatur kursiv setzen).<br /> Im Unterschied zu <code>[[#templatedata:Seiten|Seiten]]</code> und <code>[[#templatedata:Spalten|Spalten]]</code> wird „Kap.“ nur bei Eingabe von reinen Zahlenwerten ergänzt; es bleibt Freiraum für beliebige Gliederungsabschnitte des Werks; siehe auch <code>[[#templatedata:Fundstelle|Fundstelle]]</code></noexport>",
+      "type": "line",
+      "example": "Kap. ''Urgeschichte''"
+    },
+    "Seiten": {
+      "description": "Seitenangabe einer Zitatstelle bzw. eines Abschnitts, nicht jedoch für die Angabe der Gesamtzahl der Seiten eines Buches (siehe hierzu <code>[[#templatedata:Umfang|Umfang]]</code>). Beispiele: „192“, „27–34“, „13&nbsp;f.“, „13&nbsp;ff.“; siehe auch <code>[[#templatedata:Fundstelle|Fundstelle]]</code> „S.“&nbsp;wird automatisch ergänzt<noexport> (nicht eingeben).
+* Ein Zeilenumbruch wird hier nach „S.“ verhindert, es muss deshalb auch kein <code>&amp;nbsp;</code> angegeben werden. Gleiches gilt für die Ergänzungen „f“ oder „ff“.
+* Ist bei einer Paarung von Zahlen die erste kleiner als die zweite, so wird ein normaler Strich (ASCII) durch einen [[Halbgeviertstrich]] ersetzt. Sollte das ausnahmsweise nicht beabsichtigt sein, weil <code style='white-space:nowrap'>4-17</code> einen Code ''Kapitel vier, Seite siebzehn'' meint, so kann <code style='white-space:nowrap'>&lt;nowiki /></code> zwischengeschaltet oder der Strich mittels <code>&amp;#45;</code> kodiert werden.
+<div style='clear:both'></div></noexport>",
+      "type": "line",
+      "suggested": true,
+      "example": "123"
+    },
+    "Spalten": {
+      "description": "Vor allem Lexika sind oft nach Spalten statt Seiten organisiert; „Sp.“ wird automatisch ergänzt<noexport> (nicht eingeben)</noexport>",
+      "type": "line",
+      "example": "567–569"
+    },
+    "ArtikelNr": {
+      "description": "Einheit in einem nicht nach Seiten oder Spalten, sondern numerisch organisierten „<code>[[#templatedata:Sammelwerk|Sammelwerk]]</code>“<noexport>. Es gibt einige Fälle (z.&nbsp;B. [[Public Library of Science|PLoS]] und einige Fachzeitschriften), bei denen Fachartikel nicht mit Seitenzahlen, sondern mit einer Artikelnummer angegeben werden. Dieser Fall wird durch <code>[[#templatedata:Seiten|Seiten]]</code>, <code>[[#templatedata:Band|Band]]</code>, <code>[[#templatedata:Nummer|Nummer]]</code> nicht erfasst und ein vorangestelltes „S.“ bei der Nutzung des ''Seiten''-Parameters ist irritierend.
+* Nur rein numerische Werte zulässig.
+* Grundsätzlich kann die Angabe für alle Werke genutzt werden, die in fortlaufend nummerierte Paragrafen gegliedert sind; etwa die Regeln zu Beginn des Rechtschreibdudens unabhängig von einer konkreten Auflage und Seitenzählung.
+* Nicht zulässig in Verbindung mit <code>[[#templatedata:Seiten|Seiten]]=</code> oder <code>[[#templatedata:Spalten|Spalten]]=</code>.<div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "number"
+    },
+    "Fundstelle": {
+      "description": "Hochauflösende Fundstelle ''innerhalb einer Seite'' oder eines Abschnitts. Etwa: Absatz, Randnummer, Zeile, Vers, Anmerkung. „Tab. 12 (Gewinn)“ oder „Fußnote 735“<noexport>; siehe auch „<code>[[#templatedata:Kapitel|Kapitel]]</code>“</noexport>. Ein Zeilenumbruch wird hier verhindert, es muss deshalb kein <code>&amp;nbsp;</code> angegeben werden.<noexport> Umgekehrt soll deshalb die Bezeichnung kurz und knapp sein.</noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "example": "hier: S. 78"
+    },
+  "=== var": {
+    "description": "Freitext",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "Kommentar": {
+      "description": "Anmerkungen, selten Empfehlung, z.&nbsp;B. auch „E-Book“. Wird in Klammer hinter dem Werk angeführt; weil auch andere Angaben dort stehen können und das Trennzeichen ein „;“ ist, ggf. in Kleinbuchstaben beginnen",
+      "type": "content"
+    },
+  "=== www": {
+    "description": "Digitalisat",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "Online": {
+      "description": "[[Hilfe:Links#Links_zu_externen_Webseiten_(Weblinks,_URLs)|Weblink]]: pure [[Uniform Resource Locator|URL]], wodurch eine Reproduktion des Textes zugänglich wird und die nicht schon aus einer Datenbank-ID gebildet werden kann oder ein [[Hilfe:Links#Übersicht|Link mit Linktext]].<noexport> 
+* Geeigneter Linktext wäre die Domain des Anbieters oder aber „Volltext“, „Scan“ (nur grafische Wiedergabe), „Abstract“ und eine Verdeutlichung, wer der Anbieter ist; insbesondere Google-Websites.
+* Ebenfalls: [[Template:Google Buch#Verweis in Kombination mit der Vorlage:Literatur (Empfehlung)|Vorlage:Google Buch]].
+''Datenbankschlüssel'' sollen hier nicht als Online-Ressource angegeben werden; statt dessen sind die dafür möglichen ID anzugeben.
+* Die Nutzung der [[Template:Internetquelle]] ist unzulässig, da diese eine eigenständige Nennung von Autor, Titel, Datum usw. einfordern würde.
+** Hier geht es aber nur um eine inhaltlich gleiche elektronische Wiedergabe der gedruckten Fassung, die bereits hinlänglich beschrieben ist.
+** Auch andere eigenständige Zitationsvorlagen sind hier unzulässig.
+* Ein geklammerter Weblink oder eine Vorlage zur Auflösung einer Kodierung durch Bildung eines URL sind hinreichend; ein echter Datenbanklink würde hingegen eine andere Textfassung oder selbst wieder eine rekursive Anwendung der Vorlage:Literatur enthalten.
+* Angaben zu Software-Formaten (wie PDF) sind nur über <code>[[#templatedata:Format|Format]]</code> zu spezifizieren.
+<div style='clear:both'></div></noexport>",
+      "type": "line",
+      "example": "[http://eu.org/server/file.pdf eu.org]"
+    },
+    "Format": {
+      "description": "Format einer <code>[[#templatedata:Online|Online]]</code>-Ressource, für die spezielle Software benötigt wird<noexport>, sofern die URL direkt auf eine derartige Ressource verlinkt.
+* Es wird ein kontrolliertes Vokabular für gängige Typen unterstützt. Dann ist nur das standardisierte Schlüsselwort ohne Verlinkung einzutragen.
+* Anders als in der englischsprachigen Wikipedia ist <code>HTML</code> hier unerwünscht und würde nicht angezeigt werden.
+* Bei <code>[[#templatedata:Online|Online]]</code> dürfen keine entsprechenden Angaben gemacht werden, wenn die standardisierte Darstellung wirksam werden soll.
+* [[Wikipedia:Bots|Bots]] sollen diese Spezifikation eintragen können.
+  <div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "line",
+      "suggestedvalues": [ { "code":    "PDF",
+                             "support": "Portable Document Format" },
+                           { "code":    "MSExcel",
+                             "support": "Microsoft Excel" },
+                           { "code":    "MSPowerPoint",
+                             "support": "Microsoft PowerPoint" },
+                           { "code":    "MSWord",
+                             "support": "Microsoft Word" },
+                           { "code":    "MP3",
+                             "support": "MP3" },
+                           { "code":    "MPEG",
+                             "support": "Moving Picture Experts Group" },
+                           { "code":    "MPEG4",
+                             "support": "MPEG-4" },
+                           { "code":    "CSV",
+                             "support": "CSV (Dateiformat)" },
+                           { "code":    "DjVu",
+                             "support": "DjVu" },
+                           { "code":    "Flash",
+                             "support": "Adobe Flash" },
+                           { "code":    "gzip",
+                             "support": "gzip" },
+                           { "code":    "PostScript",
+                             "support": "PostScript" },
+                           { "code":    "RAR",
+                             "support": "RAR (Dateiformat)" },
+                           { "code":    "RTF",
+                             "support": "Rich Text Format" },
+                           { "code":    "ZIP",
+                             "support": "ZIP-Dateiformat" } ],
+      "example": "PDF"
+    },
+    "KBytes": {
+      "description": "ungefähre Größenangabe als Anzahl der [[Kilobyte]]s bei einer <code>[[#templatedata:Online|Online]]</code>-Ressource, für die spezielle Software benötigt wird<noexport>, die durch „<code>[[#templatedata:Format|Format]]</code>“ spezifiziert wurde.
+* Bei langsamer Internetverbindung oder begrenztem Datenvolumen sollen Leser den Abruf auf eine günstigere Gelegenheit verschieben können.
+* Es ist eine ganze Zahl anzugeben.
+* Wenn 100 MB überstiegen werden sollen, ist das durch nachgestelltes <code>[sic!]</code> zu bestätigen; andernfalls wird von einem Eingabefehler ausgegangen.
+* Bots sollen diese Information nachtragen können.
+* Das Fehlen der Angabe besagt nicht, dass die Ressource klein sei, sondern sagt dem Publikum, dass unbekannt ist, ob sie riesig oder winzig wäre.
+<div style='clear:both'></div></noexport><!-- seit 2016-05 -->",
+      "type": "number",
+      "example": "1200"
+    },
+    "Abruf": {
+      "description": "Nur bei der Angabe von <code>[[#templatedata:Online|Online]]</code>-Ressourcen. Zeitpunkt, zu dem die darüber zitierten Informationen zuletzt erfolgreich gelesen wurden, im numerischen Format JJJJ-MM-TT, d.&nbsp;h. Jahr-Monat-Tag<noexport>.
+* Früher als <code>Zugriff</code> notiert.
+<div style='clear:both'></div></noexport><!-- seit 2016-05; vorher Zugriff -->",
+      "type": "date",
+      "aliases": [ "Zugriff" ],
+      "example": "{{#time:Y-m-d}}"
+    },
+  "=== original": {
+    "description": "Original",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "Originaltitel": {
+      "description": "Originaltitel in der Originalsprache<noexport> (meist nicht deutsch).
+* Pflichtparameter, wenn auf das Originalwerk Bezug genommen wird.
+* Ohne diese Angabe kann der Leser nicht danach suchen und mit den sonstigen Informationen nur wenig anfangen.
+  „<code>[[#templatedata:Originalsprache|Originalsprache]]</code>“ sollte zur Klarstellung immer angegeben werden.</noexport>",
+      "type": "line",
+      "suggested": false
+    },
+    "Originalsprache": {
+      "description": "Code nach BCP 47 / RFC 4646 für die Sprache, in der das Original verfasst wurde (Beispiel: „en“, „en-US“ oder „ar-Latn-EG“), siehe auch [[Template:lang]]<noexport>.<br /> Dieser Parameter wird nur bei gleichzeitiger Verwendung von „<code>[[#templatedata:Originaltitel|Originaltitel]]</code>“ ausgewertet.</noexport>",
+      "type": "line",
+      "suggested": false,
+      "example": "en-US"
+    },
+    "Originaljahr": {
+      "description": "Jahr der Herausgabe des fremdsprachigen Originals",
+      "type": "date",
+      "suggested": false
+    },
+    "Originalort": {
+      "description": "Ort des Erscheinens des fremdsprachigen Originals",
+      "type": "line",
+      "suggested": false
+    },
+    "Übersetzer": {
+      "description": "(Meist deutscher) Übersetzer der direkt zitierten Ausgabe; wird nicht angezeigt, wenn kein Originaltitel angegeben wurde",
+      "type": "line",
+      "suggested": false
+    },
+  "=== ea": {
+    "description": "Erstausgabe",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "JahrEA": {
+      "description": "Jahr der Erstausgabe; sollte sinnvollerweise angegeben sein, wenn diese Angaben gemacht werden<noexport>.<br /> Bezieht sich auf den [[#templatedata:Originaltitel|Ursprungstext]], falls definiert, sonst das herangezogene Werk.</noexport><!-- seit 2016-05 -->",
+      "type": "date",
+      "suggested": false,
+      "example": "1884"
+    },
+    "VerlagEA": {
+      "description": "Verlag der Erstausgabe, wenn abweichend vom Verlag des Bezugstexts<!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false
+    },
+    "OrtEA": {
+      "description": "Verlagsort der Erstausgabe; nur wenn <code>[[#templatedata:VerlagEA|VerlagEA]]</code> angegeben<!-- seit 2016-05 -->",
+      "type": "line",
+      "suggested": false
+    },
+  "=== misc": {
+    "description": "Sonstiges",
+    "style":       { "background-color": "#80FF80",
+                     "text-align":       "center" }
+  },
+    "Zitat": {
+      "description": "Kurzes Zitat (<code>in der „[[#templatedata:Sprache|Sprache]]“</code> oder sonst deutsch); ohne Anführungszeichen<!-- seit 2016-05 -->",
+      "type": "string",
+      "suggested": false
+    },
+    "Typ": {
+      "description": "Einzig gültiger Wert: „<code>wl</code>“ (Werkliste), wenn der Name des Autors nicht im Resultat angezeigt werden soll<noexport>. Dadurch kann die Vorlage auch in Werklisten verwendet werden.</noexport>",
+      "type": "line",
+      "suggested": false,
+      "example": "wl"
+    }
+  },
+  "format": "inline half",
+  "maps": {
+    "citoid": { "contributor": "Autor",
+                "author": "Autor",
+                "sponsor": "Autor",
+                "inventor": "Autor",
+                "title": "Titel",
+                "nameOfAct": "Titel",
+                "caseTitle": "Titel",
+                "bookTitle": "Sammelwerk",
+                "dictionaryTitle": "Sammelwerk",
+                "encyclopediaTitle": "Sammelwerk",
+                "proceedingsTitle": "Sammelwerk",
+                "publicationTitle": "Sammelwerk",
+                "volume": "Band",
+                "codeVolume": "Band",
+                "reporterVolume": "Band",
+                "issue": "Nummer",
+                "series": "Reihe",
+                "seriesNumber": "Nummer",
+                "reportNumber": "Nummer",
+                "billNumber": "Nummer",
+                "patentNumber": "Nummer",
+                "docketNumber": "Nummer",
+                "publicLawNumber": "Nummer",
+                "publisher": "Verlag",
+                "university": "Verlag",
+                "institution": "Verlag",
+                "place": "Ort",
+                "date": "Datum",
+                "dateEnacted": "Datum",
+                "dateDecided": "Datum",
+                "issueDate": "Datum",
+                "edition": "Auflage",
+                "pages": "Seiten",
+                "codePages": "Seiten",
+                "firstPage": "Seiten",
+                "DOI": "DOI",
+                "ISBN": [ "ISBN" ],
+                "ISSN": [ "ISSN" ],
+                "PMCID": "PMC",
+                "PMID": "PMID",
+                "url": "Online",
+                "accessDate": "Abruf",
+                "university": "Kommentar" }
+    }
+}
+|TOC=1}}
+Anmerkung: Die TemplateData enthalten auch Mappings für den [[Wikipedia:Technik/Labs/Citoid|Citoid]]-Dienst zur automatischen Übernahme von bibliografischen Angaben aus URLs im [[Hilfe:VisualEditor|VisualEditor]]. Die unterstützten Quelltypen sind unter [[MediaWiki:Citoid-template-type-map.json]] spezifiziert und unter [http://gsl-nagoya-u.net/http/pub/csl-fields/index.html gsl-nagoya-u.net] die möglichen Citoid-Parameter.
+
+== Allgemeines ==
+Diese Vorlage wurde im Mai 2016 komplett auf Lua-Programmierung umgestellt.
+
+Zunächst sollte fast alles wie gewohnt weitergehen.
+
+Es gibt aber [[#Neu.2016|neue Parameter und Funktionalitäten]], und Details der Darstellung können sich ändern.
+* Andere Parameter und Parameterformate wurden obsolet.
+* Neu ist eine intensivierte Analyse der Parameter, die während der Bearbeitungsvorschau Fehlermeldungen sichtbar macht.
+
+Unter [[Template:Literatur/Test]] kann an verschiedenen Testaufrufen die Funktionsweise erkannt werden. Fragen und Hinweise bitte auf die [[Vorlage Diskussion:Literatur|Diskussionsseite]]. Die Anwendungsweise wird im Folgenden erklärt.
+
+Neben der allgemeinen [[Template:Literatur]] existieren noch weitere spezialisierte Vorlagen, siehe [[:Kategorie:Template:Zitation]], sowie spezielle Vorlagen für die Angabe von Datenbankverweisen, die mit [[Template:Literatur]] kombiniert werden können, siehe [[:Kategorie:Template:Datenbanklink]]. Beispiele sind auf dieser Dokumentationsseite zu finden.
+
+{{Achtung|Diese Vorlage sollte nicht als <code><nowiki>{{</nowiki>[[Hilfe:Vorlagen#Vorlagen verwenden|subst]]<nowiki>:Literatur|…}}</nowiki></code> aufgelöst und durch Normaltext ersetzt werden, weil dadurch ein unüberblickbarer Wust von <code><nowiki>{{if…}}</nowiki></code> und sonstigem Wiki-Quelltext entstünde.}}
+
+== Parameter (Einzelheiten) ==
+Alle Parameter außer dem <code>[[#templatedata:Titel|Titel]]=</code> sind optional und werden über ihren Namen angesprochen. Die Reihenfolge der Parameter ist technisch egal, sollte jedoch einer gewissen Logik folgen.
+
+Die Vorlage ist zunächst tolerant gegenüber Abweichungen in den Namen der Parameter und der Formatierung von Werten, stellt sie wie mutmaßlich gewünscht dar, wirkt jedoch teils nachdrücklich auf die Standardisierung hin.
+
+Die meisten Parameterwerte werden inhaltlich analysiert und die Formatierungen entsprechend angepasst. Punkte am Ende von Werten müssen nicht angegeben werden, können es aber, etwa als Abkürzungspunkte. Bei einfachen (numerischen) Werten werden Schlüsselwörter geeignet ergänzt; nicht erkennbare Wertzuweisungen jedoch belassen wie vorgefunden. Als Textwerte können –&nbsp;anders als in der englischsprachigen Wikipedia&nbsp;– immer auch Vorlagen benutzt werden, etwa zur [[:Kategorie:Template:Fremdsprachenunterstützung|Fremdsprachenunterstützung]], sofern nicht bereits durch den einfachen Sprachparameter ausreichend abgedeckt.
+
+=== Gliederung ===
+; [[#templatedata:Autor|Basisinformationen]]
+: Allgemeine Beschreibung des von uns zitierten oder erwähnten Aufsatzes bzw. Buches.
+; [[#templatedata:Reihe|Schriftenreihe]]
+: Wenn eine Publikation Teil einer übergeordneten Reihe ist (jedoch keine Zeitschrift).
+; [[#templatedata:Kapitel|Fundstelle]]
+: Innerhalb der Basisinformationen genauere Spezifikation eines Bereichs.
+; [[#templatedata:ISBN|Bezeichner]]
+: Standardisierte Datenbankschlüssel. Diese gibt es in zwei Grundtypen:
+:# Identifikation des gesamten Werkes, etwa eines Buches oder einer Zeitschrift allgemein.
+:# Identifikation eines einzelnen Aufsatzes oder Artikels darin.
+: Vom ersten Typ soll immer nur einer und möglichst ein weltweit gültiger Wert angegeben werden. Der zweite Typ führt oft zu einem online lesbaren Text oder Auszug; hiervon sollen alle bekannten ID benannt werden, um in Datenbanken nach frei verfügbaren Reproduktionen suchen zu können.
+; [[#templatedata:Online|Online]]
+: Wenn der Text vollständig oder in Auszügen im Internet verfügbar ist und nicht schon durch einen „Datenbankschlüssel“ erschlossen ist, kann ein Weblink angegeben werden.
+; [[#templatedata:Originaltitel|Originaltext]]
+: Wenn der unter „Basisinformationen“ beschriebene Text aus einem anderen entstanden ist (meist durch Übersetzung), kann bei Bedarf der Originaltext spezifiziert werden.
+; [[#templatedata:JahrEA|Erstausgabe]]
+: Allererstes Erscheinen des unter „Basisinformationen“ beschriebenen Textes, falls erforderlich.
+: Sofern ein „Originaltext“ definiert ist, bezieht es sich auf dessen Erstausgabe.
+; [[#templatedata:Zitat|Sonstiges]]
+: [[#templatedata:Kommentar|Kommentar]] – Ergänzung zur allgemeinen Beschreibung oder allen anderen Parameterwerten
+: [[#templatedata:Zitat|Zitat]]
+: [[#templatedata:Typ|Steuerparameter]]
+; [[#.obsolet|Veraltet]]
+: Die Struktur und Namensgebung wurde möglichst der [[Template:Internetquelle]] angeglichen.
+: Einige Parametrisierungen verursachen Probleme beim Austausch mit externer Software.
+
+=== {{Anker|Neu.2016}} Neu im Sommer 2016 ===
+* <code>[[#templatedata:Sprache|Sprache]]=</code> (Bezugstext)
+* <code>[[#templatedata:Umfang|Umfang]]=</code> (sparsam verwenden)
+* <code>[[#templatedata:Fundstelle|Fundstelle]]=</code> für vielfältige Spezialfälle
+* Genauere Beschreibung der Schriftenreihe: <code>[[#templatedata:NummerReihe|NummerReihe]]=</code> | <code>[[#templatedata:BandReihe|BandReihe]]=</code> | <code>[[#templatedata:HrsgReihe|HrsgReihe]]=</code>
+* <code>[[#templatedata:ArtikelNr|ArtikelNr]]=</code> für bestimmte Werke ermöglicht
+* <code>[[#templatedata:Zitat|Zitat]]=</code>
+* Eigenschaften von Online-Ressourcen, auch zur Bot-Unterstützung geeignet: <code>[[#templatedata:Format|Format]]=</code> | <code>[[#templatedata:KBytes|KBytes]]=</code>
+* Verschiedene Schlüsselnummern; offen für zukünftige Vorschläge weiterer sinnvoller und häufiger IDs: <code>[[#templatedata:bibcode|bibcode]]=</code> | <code>[[#templatedata:JSTOR|JSTOR]]=</code> | <code>[[#templatedata:URN|URN]]=</code> | <code>[[#templatedata:ID|ID]]=</code>
+* Erstausgabe – mit <code>[[#templatedata:JahrEA|JahrEA]]=</code> | <code>[[#templatedata:VerlagEA|VerlagEA]]=</code> | <code>[[#templatedata:OrtEA|OrtEA]]=</code>
+* <code>[[#templatedata:ISBNdefekt|ISBNdefekt]]=</code> (für falsche Anzahl der Ziffern)
+
+=== {{Anker|.obsolet}} Veraltet ===
+{| class="wikitable sortable toptextcells"
+! Parameter
+!class="unsortable"| Kommentar/Beispiel
+|-
+| Herausgeber {{Anker|p.Herausgeber}}
+| Jetzt: <code>[[#templatedata:Hrsg|Hrsg]]=</code>
+* Die Abkürzung ist allgemeinverständlich.
+* Die Abkürzung erscheint in der Ausgabe.
+* Angleichung an [[Template:Internetquelle]] – <code>hrsg</code>.
+Die Umstellung kann nach und nach ohne Eile erfolgen.
+|-
+| [[#templatedata:Jahr|Jahr]] {{Anker|p.Jahr}}
+| Jetzt: <code>[[#templatedata:Datum|Datum]]=</code>
+* Externe Werkzeuge wie citoid@VE konnten das Datum nicht fragmentiert schreiben.
+* Allgemein ist der Austausch zwischen Werkzeugen als komplettes Datum üblich.
+* Angleichung an [[Template:Internetquelle]] – <code>datum</code>.
+* In der Vorlagenprogrammierung wurden Einzelstücke in einzelnen Variablen bevorzugt, weil die Zerlegung und Analyse von Teilzeichenketten kaum möglich war.
+|-
+| [[#templatedata:Monat|Monat]] {{Anker|p.Monat}}
+| Jetzt: <code>[[#templatedata:Datum|Datum]]=</code>.
+* Siehe <code>[[#p.Jahr|Jahr]]=</code>.
+* Es kann <code>[[#templatedata:Nummer|Nummer]]=</code> für „Herbst“ oder „Januar/Februar“ genutzt werden.
+* Ungültige Angaben führen zu einer dauerhaft sichtbaren Fehlermeldung.
+|-
+| [[#templatedata:Tag|Tag]] {{Anker|p.Tag}}
+| Jetzt: <code>[[#templatedata:Datum|Datum]]=</code>.
+* Siehe <code>[[#p.Jahr|Jahr]]=</code>.
+* Ungültige Angaben führen zu einer dauerhaft sichtbaren Fehlermeldung.
+|-
+| <s>ISBNistFormalFalsch</s> {{Anker|p.ISBNistFormalFalsch}}
+| Jetzt: <code>[[#templatedata:ISBNformalFalsch|ISBNformalFalsch]]=</code> und Angabe der ISBN unter diesem Parameternamen, bzw. <code>[[#templatedata:ISBNdefekt|ISBNdefekt]]=</code>.
+* Dies war bisher ein logischer Schalter gewesen, der aussagen sollte, dass <code>[[#templatedata:ISBN|ISBN]]=</code> eine ungültige Prüfziffer habe oder sonst ungültig wäre.
+* Das führte zu Fehlerberichten externer Prüfsoftware am Quelltext. Das Konstrukt<br /> <code>ISBN</code> &lt;Trennzeichen> ''Kodierung''<br /> (wobei auch <code>isbn</code> stehen kann, &lt;Trennzeichen> für Leerzeichen auch mit Gleichheitszeichen oder Doppelpunkt steht) erwartet eine gültige ''Kodierung.'' Durch den veränderten Variablennamen sind die Fälle klar zu unterscheiden, ohne in der Umgebung nach den Werten einer logischen Variable suchen zu müssen.
+* Der Parameter wird nicht mehr unterstützt/nicht mehr erkannt. Alle signifikanten Altfälle wurden aufgelöst.
+|-
+| <s>Titel-P</s> {{Anker|p.Titel-P}}
+| Jetzt: <code>[[#templatedata:Titel|Titel]]=</code>
+* Bedeutete: „Titel minus Punkt“
+* In der Vorlagenprogrammierung wurde damit die automatische Punktsetzung am Titelende unterdrückt, etwa weil der Titel schon auf ein anderes Satzzeichen endete.
+* Das wird inzwischen automatisch erkannt.
+
+* Der Parameter wird nicht mehr unterstützt/nicht mehr erkannt. Alle signifikanten Altfälle wurden aufgelöst.
+|-
+| Zugriff {{Anker|p.Zugriff}}
+| Jetzt: <code>[[#templatedata:Abruf|Abruf]]=</code>
+* In den Artikeln hat sich „abgerufen“ durchgesetzt.
+* Dem soll Rechnung getragen und nicht durch „zugegriffen“, „gelesen“, „aufgerufen“, „eingesehen“, „konsultiert“, „gesichtet“, „gesehen“, „Download“, „empfangen“, „besucht“, „geprüft“, „Autopsie“, „Einsicht genommen“ Verwirrung gestiftet werden.
+Die Umstellung kann nach und nach ohne Eile erfolgen.
+|}
+
+== Kopiervorlagen ==
+Nicht verwendete Parameter sollten nach dem Kopieren, soweit es sich nicht um fehlende Angaben handelt oder mit ihrer Vervollständigung nicht zu rechnen ist, komplett entfernt werden. Weil der [[Hilfe:VisualEditor|VisualEditor]] aber die „empfohlenen“ Parameter automatisch wieder einfügt, sobald die Vorlage angefasst wurde, ist das heutzutage für solche Parameter nicht mehr zu gewährleisten.
+
+Es wird außerdem gebeten, bei [[Hilfe:Einzelnachweise|Einzelnachweisen]] (<code>ref</code>-Baustein) im Artikelrumpf nach dem Anlegen die Zeilenumbrüche zu entfernen, um den Quelltext nicht zu unübersichtlich zu machen. In den Literaturlisten am Ende der Artikel oder dort in den Blöcken <code>&lt;references></code>…<code>&lt;/references></code> sind viele Autoren zu einer zeilenweisen Anordnung im Quelltext übergegangen (wie bei einer Infobox), um die teils umfangreichen Parameter besser kontrollieren zu können.
+<!--: <code><nowiki>{{Literatur |Autor= |Titel= |Datum= |Sammelwerk= |Nummer= |Seiten= |Online=}}</nowiki></code> Worauf genau soll sich das beziehen?-->
+
+{{Anker|KurzBuch}}'''Kurzversion (Buch)'''
+: <code><nowiki>{{Literatur |Autor= |Titel= |Auflage= |Verlag= |Ort= |Datum= |ISBN= |Seiten=}}</nowiki></code>
+<pre>
+{{Literatur
+ | Autor=
+ | Titel=
+ | Auflage=
+ | Verlag=
+ | Ort=
+ | Datum=
+ | ISBN=
+ | Seiten=
+}}
+</pre>
+
+{{Anker|KurzZeitung}}'''Kurzversion (Zeitschriftenaufsatz)'''
+: <code><nowiki>{{Literatur |Autor= |Titel= |Sammelwerk= |Band= |Nummer= |Datum= |Seiten= |DOI=}}</nowiki></code>
+
+<pre>
+{{Literatur
+ | Autor=
+ | Titel=
+ | Sammelwerk=
+ | Band=
+ | Nummer=
+ | Datum=
+ | Seiten=
+ | DOI=
+}}
+</pre>
+
+{{Anker|KurzSammelwerk}}'''Kurzversion (Beitrag im Sammelwerk)'''
+: <code><nowiki>{{Literatur |Autor= |Titel= |Hrsg= |Sammelwerk= |Band= |Auflage= |Verlag= |Ort= |Datum= |ISBN= |Seiten=}}</nowiki></code>
+<pre>
+{{Literatur
+ | Autor=
+ | Titel=
+ | Hrsg=
+ | Sammelwerk=
+ | Band=
+ | Auflage=
+ | Verlag=
+ | Ort=
+ | Datum=
+ | ISBN=
+ | Seiten=
+}}
+</pre>
+
+{{Anker|KurzSchriftenreihe}}'''Kurzversion (Beitrag in Schriftenreihe)'''
+: <code><nowiki>{{Literatur |Autor= |Titel= |Reihe= |BandReihe= |HrsgReihe= |Verlag= |Ort= |Datum= |ISBN= |Seiten=}}</nowiki></code>
+<pre>
+{{Literatur
+ | Autor=
+ | Titel=
+ | Reihe=
+ | BandReihe=
+ | HrsgReihe=
+ | Auflage=
+ | Verlag=
+ | Ort=
+ | Datum=
+ | ISBN=
+ | Seiten=
+}}
+</pre>
+
+{{Anker|KurzSuS}}'''Kurzversion (Beitrag in Sammelwerk und Schriftenreihe)'''
+: <code><nowiki>{{Literatur |Autor= |Hrsg= |Titel= |Sammelwerk= |Reihe= |BandReihe= |HrsgReihe= |Band= |Verlag= |Ort= |Datum= |ISBN= |Seiten=}}</nowiki></code>
+<pre>
+{{Literatur
+ | Autor=
+ | Hrsg=
+ | Titel=
+ | Sammelwerk=
+ | Reihe=
+ | BandReihe=
+ | HrsgReihe=
+ | Band= 
+ | Verlag=
+ | Ort=
+ | Datum=
+ | ISBN=
+ | Seiten=
+}}
+</pre>
+
+{{Anker|Vollversion|all}}'''Vollversion''' – unbedingt vor dem Speichern die nicht benötigten Parameter löschen!
+<div class="mw-code">
+{&#123;Literatur |Autor= |Titel= |TitelErg= |Hrsg= |Sammelwerk= |WerkErg= |Band= |Nummer= |Auflage= |Verlag= |Ort= |Datum= |Sprache= |Umfang= |Reihe= |NummerReihe= |BandReihe= |HrsgReihe= |ISBN= |ISBNformalFalsch= |Kapitel= |Seiten= |Spalten= |ArtikelNr= |Fundstelle= |ISSN= |ISSNformalFalsch= |ISBNdefekt= |ZDB= |DNB= |LCCN= |OCLC= |Lizenznummer= |arXiv= |bibcode= |DOI= |JSTOR= |PMC= |PMID= |URN= |ID= |Kommentar= |Online= |Format= |KBytes= |Abruf={{LOKALES_JAHR}}-{{LOKALER_MONAT}}-{{LOKALER_KALENDERTAG_2}} |Originaltitel= |Originaljahr= |Originalort= |Originalsprache= |Übersetzer= |JahrEA= |VerlagEA= |OrtEA= |Zitat= |Typ=}}
+</div>
+
+ {&#123;Literatur
+ | Autor=
+ | Titel=
+ | TitelErg=
+ | Hrsg=
+ | Sammelwerk=
+ | WerkErg=
+ | Band=
+ | Nummer=
+ | Auflage=
+ | Verlag=
+ | Ort=
+ | Datum=
+ | Sprache=
+ | Umfang=
+ | Reihe=
+ | NummerReihe=
+ | BandReihe=
+ | HrsgReihe=
+ | ISBN=
+ | ISBNformalFalsch=
+ | ISBNdefekt=
+ | ISSN=
+ | ISSNformalFalsch=
+ | Kapitel=
+ | Seiten=
+ | Spalten=
+ | ArtikelNr=
+ | Fundstelle=
+ | ZDB=
+ | DNB=
+ | LCCN=
+ | OCLC=
+ | Lizenznummer=
+ | arXiv=
+ | bibcode=
+ | DOI=
+ | JSTOR=
+ | PMC=
+ | PMID=
+ | URN=
+ | ID=
+ | Kommentar=
+ | Online=
+ | Format=
+ | KBytes=
+ | Abruf={{LOKALES_JAHR}}-{{LOKALER_MONAT}}-{{LOKALER_KALENDERTAG_2}}
+ | Originaltitel=
+ | Originaljahr=
+ | Originalort=
+ | Originalsprache=
+ | Übersetzer=
+ | JahrEA=
+ | VerlagEA=
+ | OrtEA=
+ | Zitat=
+ | Typ=
+ }}
+
+== Beispiele ==
+
+=== Beitrag in Sammelwerk ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Max Mustermann
+|Titel=Aspekte modernen Wikipädisierens
+|Hrsg=Bernd Beispiel
+|Sammelwerk=Soziologie der Wikipädianer
+|Band=1
+|Verlag=Wikipedia-Press
+|Ort=Musterstadt
+|Datum=2003
+|ISBN=3-9801412-1-7
+|Seiten=213–278}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Hrsg=Bernd Beispiel |Titel=Aspekte modernen Wikipädisierens |Sammelwerk=Soziologie der Wikipädianer |Band=1 |Verlag=Wikipedia-Press |Ort=Musterstadt |Datum=2003 |ISBN=3-9801412-1-7 |Seiten=213–278}}
+
+=== Beitrag in Schriftenreihe ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Max Mustermann
+|Titel=Aspekte modernen Wikipädisierens
+|Reihe=Wikipediabeispielbücher
+|BandReihe=14
+|HrsgReihe=Rudi Ratlos
+|Verlag=Wikipedia-Press
+|Ort=Musterstadt
+|Datum=2003
+|ISBN=3-9801412-1-7
+|Seiten=213–278}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Titel=Aspekte modernen Wikipädisierens |Reihe=Wikipediabeispielbücher |BandReihe=14 |HrsgReihe=Rudi Ratlos |Verlag=Wikipedia-Press |Ort=Musterstadt |Datum=2003 |ISBN=3-9801412-1-7 |Seiten=213–278}}
+
+=== Beitrag in Sammelwerk und Schriftenreihe ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Max Mustermann
+|Hrsg=Bernd Beispiel
+|Titel=Aspekte modernen Wikipädisierens
+|Sammelwerk=Soziologie der Wikipädianer
+|Reihe=Wikipediabeispielbücher
+|BandReihe=14
+|HrsgReihe=Rudi Ratlos
+|Band=1
+|Verlag=Wikipedia-Press
+|Ort=Musterstadt
+|Datum=2003
+|ISBN=3-9801412-1-7
+|Seiten=213–278}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Hrsg=Bernd Beispiel |Titel=Aspekte modernen Wikipädisierens |Sammelwerk=Soziologie der Wikipädianer |Reihe=Wikipediabeispielbücher |BandReihe=14 |HrsgReihe=Rudi Ratlos |Band=1 |Verlag=Wikipedia-Press |Ort=Musterstadt |Datum=2003 |ISBN=3-9801412-1-7 |Seiten=213–278}}
+
+=== Artikel in wissenschaftlicher Zeitschrift ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Max Mustermann
+|Titel=Semantischer Kollaps bei Löschdiskussionen
+|Sammelwerk=Journal of Wikipedianism
+|Band=2
+|Nummer=3
+|Datum=2006
+|Seiten=17–67
+|DOI=10.1371/journal.pbio.0020449}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Titel=Semantischer Kollaps bei Löschdiskussionen |Sammelwerk=Journal of Wikipedianism |Band=2 |Nummer=3 |Datum=2006 |Seiten=17–67 |DOI=10.1371/journal.pbio.0020449}}
+
+=== Zeitungsartikel ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Max Mustermann
+|Titel=Wikipedia wohin?
+|Sammelwerk=[[Frankfurter Allgemeine Zeitung]]
+|Datum=2003-02-01
+|ISSN=0174-4909
+|Seiten=3}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Titel=Wikipedia wohin? |Sammelwerk=[[Frankfurter Allgemeine Zeitung]] |Datum=2003-02-01 |ISSN=0174-4909 |Seiten=3}}
+
+=== Übersetzung eines fremdsprachigen Werkes ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=John Doe
+|Titel=Einführung in die Trollerei
+|Originaltitel=Introduction to Trolling
+|Originalsprache=en-US
+|Übersetzer=Lala Translatio
+|Verlag=Wikipedia-Press
+|Ort=Musterstadt
+|Datum=2003
+|ISBN=3-9801412-1-7}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=John Doe |Titel=Einführung in die Trollerei |Verlag=Wikipedia-Press |Ort=Musterstadt |Datum=2003 |ISBN=3-9801412-1-7 |Originaltitel=Introduction to Trolling |Originalsprache=en-US|Übersetzer=Lala Translatio}}
+
+=== Historisches ===
+<pre style="overflow:auto;">
+{{Literatur
+| Titel=Augsburg
+| Sammelwerk=Die Chroniken der deutschen Städte vom vierzehnten bis ins sechzehnte Jahrhundert
+| WerkErg=Auf Veranlassung und mit Unterstützung Seiner Majestaet des Königs von Bayern, Maximilian&nbsp;II. hrsg. durch die Historische Commission bei der Königl. Academie der Wissenschaften
+| Band=LII
+| Verlag=Hirzel
+| Ort=Leipzig
+| Datum=1866}}
+</pre>
+'''Resultat:'''
+{{Literatur |Autor= |Titel=Augsburg |Sammelwerk=Die Chroniken der deutschen Städte vom vierzehnten bis ins sechzehnte Jahrhundert |WerkErg=Auf Veranlassung und mit Unterstützung Seiner Majestaet des Königs von Bayern, Maximilian&nbsp;II. hrsg. durch die Historische Commission bei der Königl. Academie der Wissenschaften |Band=LII |Verlag=Hirzel |Ort=Leipzig |Datum=1866}}
+
+=== Zeitschriftenaufsatz online ===
+<pre style="overflow:auto;">
+{{Literatur
+|Autor=Benoît Majerus
+|Titel=Polizei im besetzten Belgien, 1914–1918 und 1940–1944. Eine vergleichende Studie der Brüsseler Polizei während der beiden Weltkriege
+|Sammelwerk=Francia
+|Band=32
+|Nummer=3
+|Datum=2005
+|Seiten=1–22
+|Online=[http://francia.digitale-sammlungen.de/Blatt_bsb00016438,00013.html digitale-sammlungen.de]
+|Abruf=2011-04-18}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Benoît Majerus |Titel=Polizei im besetzten Belgien, 1914–1918 und 1940–1944. Eine vergleichende Studie der Brüsseler Polizei während der beiden Weltkriege |Sammelwerk=Francia |Band=32 |Nummer=3 |Datum=2005 |Seiten=1–22 |Online=[http://francia.digitale-sammlungen.de/Blatt_bsb00016438,00013.html digitale-sammlungen.de] |Abruf=2011-04-18}}
+
+=== Werklisten ===
+Als Teil einer Werkliste kann die Autorenangabe ausgeblendet werden:
+<pre style="overflow:auto;">{{Literatur
+ |Autor=Max Mustermann
+ |Titel=Aspekte modernen Wikipädisierens
+ |Verlag=Wikipedia-Press
+ |Ort=Musterstadt
+ |Datum=2003
+ |ISBN=3-9801412-1-7
+ |Typ=wl}}
+</pre>
+'''Resultat:''' {{Literatur |Autor=Max Mustermann |Titel=Aspekte modernen Wikipädisierens |Verlag=Wikipedia-Press |Ort=Musterstadt |Datum=2003 |ISBN=3-9801412-1-7 |Typ=wl}}
+
+Diese Werklisten setzen voraus, dass klassische Literaten oder Wissenschaftler des 19.&nbsp;Jahrhunderts alle Werke allein verfasst hatten. Sobald in modernen Wissenschaften und Herausgeberschaften mehrere Personen zusammenwirken, auch als Ko-Autor und Mitherausgeber, ist es für die Leser völlig undurchschaubar, wer als was tätig war; es sind dann immer alle Beteiligten in ihrer Funktion aufzuzählen und es ist nichts wegzulassen.
+
+== Hilfsmittel und Werkzeuge ==
+Für das halbautomatische Ausfüllen der Vorlagenfelder stehen derzeit verschiedene Hilfmittel zur Verfügung:
+# Direkt als JavaScript:
+#* Im [[Hilfe:VisualEditor|VisualEditor]] werden [[Wikipedia:Technik/Labs/Citoid|Citoid]]-Angaben aus den Ressourcen selbst zur Verfügung gestellt.
+#* Das [[Wikipedia:Technik/Skin/Benutzerskripte/Hinweise|Benutzerskript]] [[Benutzer:PerfektesChaos/js/citoidWikitext|citoidWikitext]] füllt bei der Quelltextbearbeitung die Einzelheiten anhand von ISBN, DOI, PMID, PMC, DNB, OCLC, LCCN, arXiv usw. aus.
+#* Der [[Wikipedia:Technik/Skin/Gadgets/Vorlagenmeister|Vorlagenmeister]] erleichtert das Ausfüllen bei der Quelltextbearbeitung.
+# Labs-Tools:
+#* [[toollabs:templator|Templator]] – Hilfsmittel zum Erstellen von Literaturangaben mit dieser Vorlage. Aktuelle Dokumentation siehe auch unter [[meta:Templator/De]].
+# Externe Anbieter:
+#* [http://www.hbz-da.de/wikipedia/PMID2reference.php PMID- und DOI-zu-Wikipedia-Reference-Konverter] – füllt die Vorlagenfelder anhand einer PMID oder DOI.
+
+Es gibt auch [{{fullurl:Spezial:Linkliste/Template:Literatur|hideredirs=1&hidelinks=1&namespace=10}} spezielle Formatierungsvorlagen], die auf der Template:Literatur aufsetzen bzw. zur Formatierung des Online-Parameters eingesetzt werden können. Dazu zählt unter anderem die [[Template:Google Buch]], die als Hilfsvorlage für den Online-Parameter (bitte [[Wikipedia:Weblinks]] beachten) genutzt werden kann.
+
+Des Weiteren gibt es die Literaturverwaltung [[Zotero]], der es über die [[COinS]]-Angaben aus der ''Template:Literatur'' möglich ist, automatisch Literaturangaben aus Wikipedia-Artikeln einzulesen. Diese Funktion steht auch für die meisten Seiten von Fachzeitschriften, Online-Buchhändlern und den meisten Verlags- sowie Suchdiensten für wissenschaftliche Recherche zu Verfügung. Über nachfolgende Möglichkeiten kann ein so angelegter Datensatz einfach aus der Zotero-Datenbank in einen Wikipediaartikel eingefügt werden:
+# über ein von [[Benutzer:JakobVoss]] bereitgestelltes Scaffold-Skript, siehe [[Benutzer:JakobVoss/Zotero]],
+# über einen von [[Benutzer:Cepheiden]] bereitgestellten CSL-Style (nutzbar ab Zotero 2), siehe [[Benutzer:Cepheiden/Zotero]].
+
+Die Literaturverwaltung [[Citavi]] verfügt ebenfalls über einen Zitierstil „Wikipedia – Vorlage Literatur (German)“.
+
+== Wartung ==
+[[:Kategorie:Wikipedia:Vorlagenfehler/Template:Literatur]]: Sammlung von Artikeln mit nicht unterstützten Parametern oder fehlenden Pflichtparametern.
+
+Die Fehlermeldungen sind bei der Ansicht der Seite unsichtbar, sofern man nicht Elemente der Klasse Zitationswartung sichtbar macht (siehe [[Wikipedia:Technik/Skin/CSS|WP:CSS]]):
+<syntaxhighlight lang="css">
+.Zitationswartung {
+   display: inline ! important;
+}
+</syntaxhighlight>
+Während der Bearbeitung sind die Fehlermeldungen in der Vorschau für alle Bearbeiter sichtbar.
+* Bis zur Reduktion des Rückstands der letzten Jahre wird die Anzeige der Fehlermeldungen in der Normalansicht ausgeblendet.
+<!--
+== Anmerkungen ==
+<references />
+-->
+<includeonly>
+{{Dokumentation/Lua|Vorlage:Literatur #f}}
+
+[[Kategorie:Vorlage:Formatierungshilfe]]
+[[Kategorie:Vorlage:Zitation/!Vorlagen]]
+</includeonly>
