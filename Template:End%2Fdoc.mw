@@ -1,0 +1,86 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[</nowiki>[[Wikipedia:Wikidata]]<nowiki>]]) -->
+{{high-use}}
+
+== Usage ==
+This template ends any table (with bar-brace "|}") and may be used with any other templates that begin a one-level table, except with template {{tl|Collapse top}} which requires a {{tl|collapse bottom}} to end a collapsible text.
+
+This template duplicates {{tl|s-end}} for technical reasons. See the documentation on that page. Any succession template ending with {{tl|end}} should be changed to {{tl|s-end}}.
+
+=== Position ===
+WARNING: Template {{tl|end}} must be placed on a separate line for ending a table; otherwise, it inserts a literal bar-brace "|}" into the text.
+
+== Redirects ==
+
+Other "table end" templates redirect here.
+
+Alternatively, this template may take the dummy parameter <code>1=</code>, such as <code><nowiki>{{End|Cricket series}}</nowiki></code>, to indicate which table start template it matches (in the example given, {{tl|Election table}}). The parameter has no technical function.
+
+== Example ==
+<pre>
+{{election table|title=Summary of the May 2, 2011 election}}
+|- style="text-align:right;"
+! style="background-color:#E9E9E9; width:400; text-align:left;" colspan="2" | Party
+! style="background-color:#E9E9E9; width:200; text-align:left;" | Main candidate
+! style="background-color:#E9E9E9; width:50;" | Votes
+! style="background-color:#E9E9E9; width:50;" | %
+! style="background-color:#E9E9E9; width:50;" | +/–
+! style="background-color:#E9E9E9; width:50;" | Seats
+! style="background-color:#E9E9E9; width:50;" | +/–
+|-
+| style="background-color:green" | || Green
+| John Johnson
+| 12
+| 50%
+| +5
+| 5
+| +1
+|-
+{{end|election table}}
+</pre>
+''Result:''
+{{election table|title=Summary of the May 2, 2011 election}}
+|- style="text-align:right;"
+! style="background-color:#E9E9E9; width:400; text-align:left;" colspan="2" | Party
+! style="background-color:#E9E9E9; width:200; text-align:left;" | Main candidate
+! style="background-color:#E9E9E9; width:50;" | Votes
+! style="background-color:#E9E9E9; width:50;" | %
+! style="background-color:#E9E9E9; width:50;" | +/–
+! style="background-color:#E9E9E9; width:50;" | Seats
+! style="background-color:#E9E9E9; width:50;" | +/–
+|-
+| style="background-color:green" | || Green
+| John Johnson
+| 12
+| 50%
+| +5
+| 5
+| +1
+|-
+{{end|election table}}
+
+==Tracking categories==
+*{{clc|Pages using end template with unknown parameters}}
+
+== TemplateData ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+    "description": "Ends a table. Must appear on a separate line. Normally used with {{col-begin}}. It takes no parameters.",
+    "params": {
+    }
+}
+</templatedata>
+
+== See also ==
+* {{tl|!)}}
+*{{tl|Rugby squad end}} (inserts two instances of wikitable closing markup)
+*{{tl|Div col end}} (inserts a closing {{tag|div|c}} tag)
+
+{{Column-generating template families}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Succession templates]]
+[[Category:Templates with partial table wikitext]]
+}}</includeonly>
