@@ -1,0 +1,137 @@
+{{Documentation subpage}} __NOTOC__
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{hatnote|For inline cleanup templates requesting definitions or explanations, see {{tl|Definition}} and {{tl|Explain}}.}}
+{{COinS safe|n}}
+{{High-use| 452316 }}
+{{Bot use warning|bots=[[User:AAlertBot]]}}
+{{#ifeq:{{ROOTPAGENAME}}|Tooltip|{{Uses TemplateStyles|Template:Tooltip/styles.css}}}}
+
+The template&nbsp;{{tl|Abbr}} is used to write an abbreviation (including an acronym or initialism) with its meaning. It is a wrapper for the [[HTML]] [[HTML element#General phrase elements|element]] {{tag|abbr}}, to create a [[tooltip]] indicating the meaning of the term.  The {{tl|Tooltip}} variant is the same, except it uses the {{tag|span}} element, and is for providing mouse-over notes about non-abbreviations.
+
+{{strong|Please note: Do not use {{tnull|abbr}} or {{tag|abbr|o}} to mark up material other than abbreviations (including acronyms). Using it to generate tooltips elsewhere is a misuse of the underlying HTML and causes [[WP:Accessibility|accessibility]] problems.  For general-purpose tooltips, use {{tlx|tooltip}} instead.}}
+
+Note that readers on mobile devices typically do not have a mouse to hover with, and so generally cannot see tooltip contents. Mobile users may access tooltips via a tap by modifying the settings for [[mw:Reference Tooltips|Reference Tooltips]], but this is not so useful on linked text, because the same tap that brings up the tooltip also follows the hyperlink to the destination page. As of 2021, approximately the same number of English Wikipedia page views occur on mobile vs. desktop web browsers.[https://stats.wikimedia.org/#/en.wikipedia.org/reading/total-page-views/normal|bar|2-year|access~desktop*mobile-app*mobile-web|monthly]
+
+== Usage ==
+
+The template&nbsp;{{tlx|abbr}} and its {{tlx|tooltip}} variant take two unnamed parameters, in order:
+;{{para|1}} or first unnamed parameter: the term to be explained; shows as text, and may use wikimarkup, such as a link to an article about what it refers to.
+;{{para|2}} or second unnamed parameter: the expansion or definition or other note about the term; shows as the popup when you hover over the term. {{strong|No wikimarkup}} can be used in this parameter.
+Use explicitly numbered parameters if a parameter's content contains the equals ({{kbd|{{=}}}}) character:
+* Complex example: <code><nowiki>[[Mass–energy equivalence|{{</nowiki>'''abbr'''<nowiki>|{{math|''E'' {{=}} ''mc''<sup>2</sup>}}|</nowiki>'''2='''<nowiki>Energy = mass times the speed of light squared}}]]</nowiki></code>
+* Produces: [[Mass–energy equivalence|{{abbr|{{math|''E'' {{=}} ''mc''<sup>2</sup>}}|2=Energy = mass times the speed of light squared}}]]
+
+Named parameters (usually not needed) and the input they take:
+;{{para|class}}: One or more CSS classes (space-separated if more than one)
+;{{para|id}}: An HTML <code>id</code> (i.e., a <code>#{{var|ID name here}}</code> link anchor); this must be unique on the entire page.
+;{{para|style}}: Arbitrary inline CSS to apply to the displayed text of the term (has no effect on the tooltip text). For any input that needs to be quotation-marked (e.g. because it contains a space character), use straight single-quotes only, e.g. {{para|style|font-family: 'Times New Roman', serif;}}
+
+== Examples ==
+
+{{markup
+|<nowiki>{{abbr|MSLP|Mean Sea Level Pressure}}</nowiki>
+|{{abbr|MSLP|Mean Sea Level Pressure}}
+}}
+
+When hovering over the text "{{abbr|MSLP|Mean Sea Level Pressure}}", something like {{titlehint|Mean Sea Level Pressure}} will appear as a tooltip in most browsers. Popular [[screen reader]]s, used by visually impaired readers, give the meaning in a different way.
+
+{{markup
+|<nowiki>{{abbr|UK|United Kingdom|class=country-name|id=foobar}}</nowiki>
+|{{abbr|UK|United Kingdom|class=country-name|id=foobar}}
+}}
+
+{{markup
+|<nowiki>[[WP:COI|{{tooltip|conflict of interest|in the specific sense employed in Wikipedia policy}}]]</nowiki>
+|[[WP:COI|{{tooltip|conflict of interest|in the specific sense employed in Wikipedia policy}}]]
+}}
+
+== Linking must be done a particular way ==
+To wiki-link the abbreviation being marked up by this template, wrap the template in the link, not vice versa, or the meaning will not appear in some browsers, including Chrome. 
+
+{|class="wikitable"
+!Compatibility
+!Markup
+!Renders as
+|-
+!{{yes|Compatible}}
+|{{code|<nowiki>[[Knockout#Technical knockout|{{abbr|TKO|technical knockout}}]]</nowiki>}}
+|[[Knockout#Technical knockout|{{abbr|TKO|technical knockout}}]]
+|-
+!{{no|Less compatible}}
+|{{code|<nowiki>{{abbr|[[Knockout#Technical knockout|TKO]]|technical knockout}}</nowiki>}}
+|{{abbr|[[Knockout#Technical knockout|TKO]]|technical knockout}}
+|}
+
+'''Do not link, or use any other wikimarkup or HTML markup, in the <kbd><var>meaning</var></kbd> (popup) – only plain text.'''<br />
+The mouse-over popup for the <kbd><var>meaning</var></kbd> text is created by a <code>title=</code> attribute inside an {{tag|abbr|o}} HTML element's opening tag, so it cannot itself contain any HTML (or markup that resolves to HTML when rendered). This includes simple things like <code><nowiki>''italics''</nowiki></code>.
+
+== Accessibility and HTML validity concerns ==
+
+{{Tl|Abbr}} template is intended {{em|only}} for use with abbreviations (including acronyms and initialisms).
+
+The [[Web Content Accessibility Guidelines]] contain guidelines for using the {{tag|abbr|o}} element generated by this template; see section [http://www.w3.org/TR/WCAG20-TECHS/H28.html H28: Providing definitions for abbreviations by using the abbr and acronym elements].
+
+Furthermore, the HTML specifications (both those of the [[W3C]] and [[WHATWG]]) strictly define the {{tag|abbr|o}} element as reserved for markup of abbreviations.  Abusing it for mouse-over tooltips breaks our [[Semantic HTML|semantic markup]] and makes our content {{em|invalid HTML}} (technically, "not [[Well-formed document|well-formed]]"; it will pass a basic [[Validator|automated validator]] test because such a tool can't tell that the logical application of the data to the structure isn't correct, only that tags are nested properly, etc.).
+
+== Redirects ==
+
+The following template names will [[Wikipedia:Redirect|redirect]] to {{tl|Abbr}}:
+* {{tl|Abbrv}}
+* {{tl|Define}}
+
+{{tl|Tooltip}} is a separate template sharing the same documentation.
+
+==Maintenance categories==
+*{{clc|Pages using tooltip with unknown parameters}}
+
+== Template data ==
+{{TemplateData header}}
+<TemplateData>
+{
+        "description": "This template defines an abbreviation or acronym, by creating a tooltip that is displayed on mouse-over.",
+        "params": {
+                "1": {
+                        "label": "Term",
+                        "description": "Shows as text",
+                        "type": "string/line",
+                        "required": true
+                },
+                "2": {
+                        "label": "Meaning",
+                        "description": "Shows as a mouse-over tooltip",
+                        "type": "string",
+                        "required": true
+                },
+                "style": {
+                        "label": "CSS",
+                        "description": "applies the specified CSS directives to the content of parameter 1",
+                        "type": "string",
+                        "required": false
+                },
+                "class": {
+                        "label": "Class",
+                        "description": "Adds a one or more CSS classes",
+                        "type": "string",
+                        "required": false
+                },
+                "id": {
+                        "label": "ID",
+                        "description": "Adds an HTML id (must be unique in the page)",
+                        "type": "string",
+                        "required": false
+                }
+        }
+}
+</TemplateData>
+
+== See also ==
+* {{tl|Abbrlink}}, a variant of this template that includes automatic wikilinking of the term (abbreviation).
+* {{tl|dfn}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Abbreviation templates| ]]
+[[Category:Wikipedia XHTML tag-replacing templates]]
+[[Category:Semantic markup templates]]
+
+}}</includeonly>
