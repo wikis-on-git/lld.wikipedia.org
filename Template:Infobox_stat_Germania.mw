@@ -1,0 +1,49 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" | <big> {{{Inuem}}}</big>
+|-
+|align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de l {{{Inuem}}}]]|}}|}}
+|rowspan="2"  align="center" | [[File:{{{Cherta}}}|160px|center|Cherta de l {{{Inuem}}}]]
+|-
+|align="center" | {{#if:{{{Bandiera|}}}|{{#if: {{{Bandiera|}}} = " "|[[File:{{{Bandiera|}}}|150px|center|Bandiera de l {{{Inuem}}}]]|}}|}}
+|-
+!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
+|-valign="top"
+|style="width:140px;font-size:90%"  | '''Stat''' || style="width:170px;font-size:90%" | {{DEU}}
+|- valign="top" 
+|style="width:140px;font-size:90%" | '''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+|- valign="top"
+|style="width:140px;font-size:90%" | '''Majera zità''' || style="width:170px;font-size:90%" |{{{Majera zità}}}
+|- valign="top"
+|style="width:140px;font-size:90%" | '''Populazion''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top"
+|style="width:140px;font-size:90%" | '''Seuraspersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km² <small>
+|- valign="top"
+|style="width:140px;font-size:90%" | '''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" | Economia
+|-
+|style="width:140px;font-size:90%" |'''[[Prudot Regiunel Brutto]]''' || style="width:170px;font-size:90%" |€&nbsp;{{formatnum:{{{Prudot Regiunel Brutto}}}}}&nbsp;miliarc
+|- valign="top"
+|style="width:140px;font-size:90%" |'''PRB a persona''' || style="width:170px;font-size:90%" |€ {{formatnum:{{#expr: ({{{Prudot Regiunel Brutto}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
+|- valign="top" 
+ 
+
+|}</includeonly>
+
+<noinclude>
+{{Infobox stat Germania
+|Inuem                = Paiern
+|Blason               = Bayern_Wappen.svg
+|Bandiera             = Flag_of_Bavaria_(lozengy).svg
+|Capitela             = [[Minca]]
+|Majera zità          = Minca
+|Seuraspersa          = 70550
+|Abitanc              = 13124737
+|Data abitanc         = 2019
+|Cherta               = Locator_map_Bavaria_in_Germany.svg
+|Prudot Regiunel Brutto = 633 <!-- valor te miliarc -->
+}}
+
+[[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
