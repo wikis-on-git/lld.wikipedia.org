@@ -1,25 +1,39 @@
 {{Dolomitan}}
-{{Infobox rujenedes
-|Foto                     = Ladin2_K.jpg
-|Inuem                    = Ladin
-|Inuem natif              =
-|Rujeneda de l'oma        = 40.000 persones
-|Region                   = [[Ladinia]]
-|Familia 1                = [[Rujenedes italiches|Italich]]
-|Familia 2                = [[Lingaz latin|Latin]]
-|Familia 3                = [[Lingac neolatins|Neolatin]]
-|Familia 4                = [[Lingac italoroman|italoroman]]
-|Familia 5                = [[Lingac retoromans|retoroman]]
-|Forma 1                  =
-|Forma 2                  =
-|Forma 3                  =
-|Forma 4                  = 
-|Forma 5                  = 
+{{Infobox rujeneda
+| name = Ladin
+| image = Ladin2 K.jpg
+| nativename = ''lingaz ladin'', ''ladin''
+| states = {{flag|Talia}}
+| region = {{flag|Ladinia}}
+| speakers = zirca {{formatnum:40000}}
+| date = 2006<ref name=veneto2006/>–2011<ref name=altoadige2011/><ref name=trentino2011/>
+| ethnicity = [[Ladins]]
+| familycolor = Indo-European
+|fam1={{wikidata|label|short|linked|Q19860}}
+|fam2={{wikidata|label|short|linked|Q131848}}
+|fam3={{wikidata|label|short|linked|Q33478}}
+|fam4={{wikidata|label|short|linked|Q19814}}
+|fam5={{wikidata|label|short|linked|Q112608}}
+|fam6={{wikidata|label|short|linked|Q2714388}}
+|fam7={{wikidata|label|short|linked|Q500394}}
+|fam8={{wikidata|label|short|linked|Q515593}} o {{wikidata|label|short|linked|Q97646466}}<ref>{{Cite web |url=https://glottolog.org/resource/languoid/id/ladi1250 |title=Ladin |date=2022-05-24 |access-date=2022-10-07 |website=[[Glottolog]] |last=Hammarström |first=Harald |archive-url=https://web.archive.org/web/20221007144616/https://glottolog.org/resource/languoid/id/ladi1250 |archive-date=2022-10-07 |url-status=live |publisher=[[Max Planck Institute for Evolutionary Anthropology]] |last2=Forkel |first2=Robert |last3=Haspelmath |first3=Martin |last4=Bank |first4=Sebastian}}</ref>
+| dia1 = [[Ladin gherdëina|gherdëina]]
+| dia2 = [[Ladin Val Badia|badiot]]
+| dia3 = [[Ladin fascian|fascian]]
+| dia4 = [[Ladin fodom|fodom]]
+| dia5 = [[Ladin anpezan|anpezan]]
+| agency = [[Istitut Ladin Micurá de Rü]]<br>[[Istitut Cultural Ladin “Majon di fascegn”]]<br>[[Istitut Cultural Ladin Cesa de Jan]]
+| iso3 = lld
+| glotto = ladi1250
+| glottorefname = Ladin
+| lingua = 51-AAA-l
+| notice = IPA
+
 |Formes standardisedes    = [[Ladin Dolomitan]]
-|Dialec                   = [[Ladin gherdëina|gherdëina]], [[Ladin Val Badia|badiot]], [[Ladin fascian|fascian]], [[Ladin fodom|fodom]], [[Ladin anpezan|anpezan]]
+|Dialec                   = , , , , 
 |Sistem de scritura       = [[Scritura latina|Latin]]
 |Rujeneda ufiziela te     = ''Stravardeda, adurveda te l'aministrazion y nsenieda a scola:''<br>&bullet;&nbsp;[[Chemuns ladins de Südtirol]], [[Comun General de Fascia]]<br><br>''Recunesciuda, ma nia stravardeda y nia nsenieda te la scoles te:''<br>&bullet;&nbsp;[[Fodom]], [[Col]], [[Ampëz]]
-|Regulà da                = [[Istitut Ladin Micurá de Rü]]<br>[[Istitut Cultural Ladin “Majon di fascegn”]]<br>[[Istitut Cultural Ladin Cesa de Jan]]
+|Regulà da                = 
 |ISO 639-1                =
 |ISO 639-2                =
 |ISO 639-3                = lld
