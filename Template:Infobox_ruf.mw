@@ -19,16 +19,13 @@
 |-
 !colspan="2" bgcolor="#E3E3E3" | Raion
 |-valign="top"
-
 {{#if:{{{Stat|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Stat'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Stat}}}  | {{!}}- }}
 {{#if:{{{Majera ziteies|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Majera ziteies''' {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Majera ziteies}}} | {{!}}- }}
 |-
-
 !colspan="2" bgcolor="#E3E3E3" |Carateristiches natureles
 |-valign="top"
-
 {{#if:{{{Funtana|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Funtana'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Funtana}}}  | {{!}}- }}
 {{#if:{{{Funtana post|}}} | {{!}}- valign="top"
@@ -37,12 +34,11 @@
 {{!}}style="width:120px;font-size:90%" {{!}} &bull; coordinedes {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Funtana coordinedes}}}  | {{!}}- }}
 {{#if:{{{Funtana autëza|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} &bull; autëza {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{formatnum:{{{Funtana autëza}}}}} m  | {{!}}- }}
-
 {{#if:{{{Funtana2|}}} | {{!}}- valign="top"
 {{!}}  colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" {{!}} 
 {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Segonda funtana'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Funtana2}}}  | {{!}}- }}
-{{#if:{{{Funtana post|}}} | {{!}}- valign="top"
+{{#if:{{{Funtana2 post|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} &bull; post  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Funtana2 post}}}  | {{!}}- }}
 {{#if:{{{Funtana2 coordinedes|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} &bull; coordinedes {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Funtana2 coordinedes}}}  | {{!}}- }}
