@@ -9,7 +9,7 @@
 |-
 |colspan="2" align="center" style="border-bottom: 1px solid #a2a9b1;;" | 
 |-
-| {{#if: {{{Blason|}}} | {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center|Bandiera de {{{Inuem luech}}}]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|160px|border|center|Blason de {{{Inuem luech}}}]] }} | }}
+| {{#if: {{{Blason|}}} | {{#if: {{{Bandiera|}}} | [[File:{{{Bandiera}}}|160px|border|center|Bandiera de {{{Inuem luech}}}]] {{!}}{{!}} [[File:{{{Blason}}}|100px|border|center]] | ! colspan="2"  valign="top" {{!}} [[File:{{{Blason}}}|100px|border|center|Blason de {{{Inuem luech}}}]] }} | }}
 |-
 !colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
 |-valign="top"
