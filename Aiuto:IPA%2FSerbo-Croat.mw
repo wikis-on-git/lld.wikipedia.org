@@ -1,0 +1,254 @@
+{{IPA key|H:IPA-SH|H:IPASC}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Serbo-Croatian]] (the [[Croatian language|Croatian]] and [[Serbian language|Serbian]] standards thereof) pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-sh}}, {{tl|IPA-sr}}, {{tl|IPA-hr}}, {{tl|IPA-bs}}, {{tl|IPA-cnr}}, and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+Examples below in the Latin script are given in the [[Ijekavian]] pronunciation, while Cyrillic ones are in the [[Ekavian]] pronunciation. See [[Serbo-Croatian phonology]] for a more thorough look at the sounds of these languages.
+
+{| style="background: none"
+|-----
+| style="vertical-align:top;" |
+
+{| style="background: none"
+|-----
+| style="vertical-align:top;" |
+{| class="wikitable"
+! colspan=5 | [[Consonant]]s
+|-
+! rowspan="2" | [[Help:IPA|IPA]] !! colspan="2" | Example !! rowspan="2" | English approximation
+|-
+! [[Gaj's Latin alphabet|Latin]] !! [[Serbian Cyrillic alphabet|Cyrillic]]
+|-
+| style="text-align:center;" | <big>{{IPAlink|b}}</big>
+| '''b'''o'''b'''
+| {{lang|sh|'''б'''о'''б'''}}
+| '''b'''o'''b'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|d̪|d}}</big>
+| '''d'''an
+| {{lang|sh|'''д'''ан}}
+| '''d'''oom
+|-
+| style="text-align:center;" | <big>{{IPAlink|dʑ}}</big>
+| '''đ'''ak<ref name="affricates">Many speakers in Croatia and some in Bosnia have no distinction between {{IPA|/tɕ/}} and {{IPA|/tʃ/}} ({{angle bracket|ć}} and {{angle bracket|č}}) or between {{IPA|/dʑ/}} and {{IPA|/dʒ/}} ({{angle bracket|đ}} and {{angle bracket|dž}}) and are both pronounced {{IPA|[tʃ]}} and {{IPA|[dʒ]}} respectively.</ref>
+| {{lang|sh|'''ђ'''ак}}
+| '''j'''eep ([[Alveolo-palatal]])
+|-
+| style="text-align:center;" | <big>{{IPAlink|dʒ}}</big>
+| '''dž'''ep<ref name="affricates"/><ref name="retroflex"/>
+| {{lang|sh|'''џ'''eп}}
+| '''j'''ust
+|-
+| style="text-align:center;" | <big>{{IPAlink|f}}</big>
+| '''f'''ilm
+| {{lang|sh|'''ф'''илм}}
+| '''f'''ilm
+|-
+| style="text-align:center;" | <big>{{IPAlink|ɡ}}</big>
+| '''g'''ore
+| {{lang|sh|'''г'''оре}}
+| '''g'''ore
+|-
+| style="text-align:center;" | <big>{{IPAlink|j}}</big>
+| '''j'''a
+| {{lang|sh|'''ј'''а}}
+| '''y'''aw
+|-
+| style="text-align:center;" | <big>{{IPAlink|k}}</big>
+| '''k'''ola
+| {{lang|sh|'''к'''ола}}
+| s'''c'''ore
+|-
+| style="text-align:center;" | <big>{{IPAlink|ɫ|l}}</big>
+| '''L'''uka
+| {{lang|sh|'''Л'''ука}}
+| fi'''ll'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|l̩}}</big>
+| bicik'''l'''
+| {{lang|sh|бицик'''л'''}}
+| litt'''le'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|ʎ̟|ʎ}}</big>
+| bi'''lj'''e
+| {{lang|sh|би'''љ'''е}}
+| mi'''lli'''on
+|-
+| style="text-align:center;" | <big>{{IPAlink|m}}</big>
+| '''m'''ore
+| {{lang|sh|'''м'''оре}}
+| '''m'''ore
+|-
+| style="text-align:center;" | <big>{{IPAlink|ɱ}}</big>
+| i'''n'''formacija
+| {{lang|sh|и'''н'''формација}}
+| co'''m'''fort
+|-
+| style="text-align:center;" | <big>{{IPAlink|n}}</big>
+| '''n'''e
+| {{lang|sh|'''н'''е}}
+| '''n'''o
+|-
+| style="text-align:center;" | <big>{{IPAlink|n̩}}</big>
+| njut'''n'''
+| {{lang|sh|њут'''н'''}}
+| burd'''en'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|ŋ}}</big>
+| ba'''n'''ka
+| {{lang|sh|ба'''н'''ка}}
+| ba'''n'''k
+|-
+| style="text-align:center;" | <big>{{IPAlink|ɲ̟|ɲ}}</big>
+| ko'''nj'''
+| {{lang|sh|ко'''њ'''}}
+| ca'''ny'''on
+|-
+| style="text-align:center;" | <big>{{IPAlink|p}}</big>
+| '''p'''et
+| {{lang|sh|'''п'''ет}}
+| s'''p'''ace
+|-
+| style="text-align:center;" | <big>{{IPAlink|r}}</big>
+| '''r'''obot
+| {{lang|sh|'''р'''обот}}
+|''[[Voiced dental, alveolar and postalveolar trills|trilled r]]''
+|-
+| style="text-align:center;" | <big>{{IPAlink|r̩}}</big>
+| v'''r'''ba
+| {{lang|sh|в'''р'''ба}}
+| ''[[US English|US]]'' v'''er'''b'', but trilled''
+|-
+| style="text-align:center;" | <big>{{IPAlink|s̪|s}}</big>
+| '''s'''tol
+| {{lang|sh|'''с'''то}}
+| '''s'''tole
+|-
+| style="text-align:center;" | <big>{{IPAlink|ʃ}}</big>
+| '''š'''uma<ref name="retroflex">{{IPA|/ʃ/}}, {{IPA|/tʃ/}}, {{IPA|/ʒ/}} and {{IPA|/dʒ/}} are sometimes transcribed as {{IPAblink|ʂ}}, {{IPAblink|tʂ}}, {{IPAblink|ʐ}} and {{IPAblink|dʐ}}, respectively. The fricatives {{IPA|/ʃ/}} and {{IPA|/ʒ/}} may be realized {{IPAblink|ɕ}} or {{IPAblink|ʑ}} before {{IPA|/tɕ/}} or {{IPA|/dʑ/}}.</ref>
+| {{lang|sh|'''ш'''ума}}
+| '''sh'''ell
+|-
+| style="text-align:center;" | <big>{{IPAlink|t̪|t}}</big>
+| '''t'''a'''t'''a
+| {{lang|sh|'''т'''а'''т'''а}}
+| s'''t'''ar
+|-
+| style="text-align:center;" | <big>{{IPAlink|tɕ}}</big>
+| '''ć'''up<ref name="affricates"/>
+| {{lang|sh|'''ћ'''уп}}
+|'''ch'''eap ([[Alveolo-palatal]])
+|-
+| style="text-align:center;" | <big>{{IPAlink|t̪s̪|ts}}</big>
+| ribi'''c'''a
+| {{lang|sh|риби'''ц'''а}}
+| shor'''ts'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|tʃ}}</big>
+| '''č'''ekić<ref name="affricates"/><ref name="retroflex"/>
+| '''ч'''екић
+|'''ch'''oose
+|-
+| style="text-align:center;" | <big>{{IPAlink|ʋ|v}}</big>
+| '''v'''oda<ref name="v">{{angle bracket|v}} is a light fricative, more precisely transcribed {{IPA|[ʋ̝]}} or {{IPA|[v̞]}}. However, it does not behave as a fricative in that it does not devoice to *{{IPA|[f]}} before a voiceless consonant, nor it causes preceding voiceless consonants to become voiced.</ref>
+| {{lang|sh|'''в'''ода}}
+| ''between'' '''v'''et ''and'' '''w'''et
+|-
+| style="text-align:center;" | <big>{{IPAlink|x}}</big>
+| '''h'''ir
+| {{lang|sh|'''х'''ир}}
+| ''Scottish'' lo'''ch'''
+|-
+| style="text-align:center;" | <big>{{IPAlink|z̪|z}}</big>
+| '''z'''ima
+| {{lang|sh|'''з'''има}}
+| '''z'''oo
+|-
+| style="text-align:center;" | <big>{{IPAlink|ʒ}}</big>
+| '''ž'''aba<ref name="retroflex"/>
+| {{lang|sh|'''ж'''аба}}
+| trea'''s'''ure
+|}
+| style="vertical-align:top;" | 
+{| class="wikitable"
+! colspan="5"| [[Vowel]]s
+|-
+! rowspan="2" | [[Help:IPA|IPA]] !! colspan="2" | Example !! rowspan="2" | English approximation
+|-
+! [[Gaj's Latin alphabet|Latin]] !! [[Serbian Cyrillic alphabet|Cyrillic]]
+|-
+| style="text-align:center;" | <big>{{IPAlink|ä|a}}</big>
+| r'''a'''d
+| {{lang|sh|р'''а'''д}}
+| f'''a'''ther
+|-
+| style="text-align:center;" | <big>{{IPAlink|e̞|e}}</big>
+| l'''e'''t
+| {{lang|sh|л'''е'''т}}
+| l'''e'''t
+|-
+| style="text-align:center;" | <big>{{IPAlink|i}}</big>
+| l'''i'''st
+| {{lang|sh|л'''и'''ст}}
+| l'''ea'''st
+|-
+| style="text-align:center;" | <big>{{IPAlink|o̞|o}}</big>
+| m'''o'''re
+| {{lang|sh|м'''о'''ре}}
+| m'''o'''re
+|-
+| style="text-align:center;" | <big>{{IPAlink|u}}</big>
+| tr'''u'''p
+| {{lang|sh|тр'''у'''п}}
+| t'''oo'''l
+|}
+{| class="wikitable"
+! colspan="5" | [[tone (linguistics)|Tone]] and [[vowel length]]
+|-
+| colspan=5 | Tonic marks are not normally written but are found in dictionaries.<ref>Tone marks can also be found on syllabic consonants, such as {{IPA|[ř̩]}} and {{IPA|[r̩̂ː]}}. Some articles may use the stress mark, {{IPA|[ˈe]}}, which could correspond to either of the tonic accents (rising or falling) and so they are not a complete transcription, although many speakers in Croatia have no tone distinctions.</ref>
+|-
+! rowspan="2" | [[Help:IPA|IPA]] !! colspan="2" | Example !! rowspan="2" | Explanation
+|-
+! [[Gaj's Latin alphabet|Latin]] !! [[Serbian Cyrillic alphabet|Cyrillic]]
+|-
+| style="text-align:center;" | <big>{{IPA|e}}</big>
+| s'''e'''zóna
+| {{lang|sh|с'''е'''зо́на}}
+| non-tonic short vowel
+|-
+| style="text-align:center;" | <big>{{IPA|eː}}</big>
+| ùz'''ē'''ti
+| {{lang|sh|у̀з'''е̄'''ти}}
+| non-tonic long vowel<ref>Many speakers in Croatia and Serbia pronounce most unstressed long vowels as short.</ref>
+|-
+| style="text-align:center;" | <big>{{IPA|ě}}</big>
+| dj'''è'''ca
+| {{lang|sh|дј'''ѐ'''ца}}
+| short vowel with rising tone
+|-
+| style="text-align:center;" | <big>{{IPA|ěː}}</big>
+| kr'''é'''da
+| {{lang|sh|кр'''е́'''да}}
+| long vowel with rising tone
+|-
+| style="text-align:center;" | <big>{{IPA|ê}}</big>
+| sj'''ȅ'''me
+| {{lang|sh|сј'''ȅ'''ме}}
+| short vowel with falling tone
+|-
+| style="text-align:center;" | <big>{{IPA|êː}}</big>
+| r'''ȇ'''p
+| {{lang|sh|р'''ȇ'''п}}
+| long vowel with falling tone
+|}
+|}
+|}
+
+==See also==
+*[[Serbo-Croatian phonology]]
+
+==Notes==
+{{reflist}}
+
+==External links==
+*[http://hjp.znanje.hr/ Hrvatski jezični portal] {{in lang|sh}}
+
+{{IPA keys}}
