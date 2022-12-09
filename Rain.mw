@@ -1,26 +1,32 @@
-{{gherdëina}}{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:300px;"
-! colspan="2" bgcolor="lightgray" style="font-size:120%"|Rain
-|-
-|- valign="top"
-|-
-| colspan="2" valign="top"|[[File:Flusssystemkarte_Rhein_02.jpg|320px|border|center]]
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Lunghëza''' || style="width:180px;font-size:90%" align="left" |1 238,8 km
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Autëza de la funtana''' || style="width:180px;font-size:90%" align="left" |1 602 m
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Volum che l mëina''' || style="width:180px;font-size:90%" align="left" |2 200 m³/s
-|-valign="top"
-|style="width:160px;font-size:90%" |'''Vën ora te''' || style="width:180px;font-size:90%" align="left" |[[Elpes]]
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Se jeta ite te''' || style="width:180px;font-size:90%" align="left" | [[Mer dl nord]]
-|- valign="top"
-|style="width:160px;font-size:90%" |'''Regor tres''' || style="width:180px;font-size:90%" align="left" | {{CHE}}, {{LIE}}, {{AUT}}, {{DEU}}, {{FRA}}, {{NLD}}
-|-
-| colspan="2" valign="top"|[[File:Boppard_Rheinschleife.jpg|320px|border|center]]
-|-
-| colspan="2" valign="top" align="center"|L Rain daujin a Boppard te la [[Germania]]
-|}L '''Rain''' ([[tudësch]]: ''Rhein'', [[franzëus]]: ''Rhin'') ie n [[ruf]] te l'[[Europa]], che cun 1.233 km de lunghëza ie un de i ruves plu lonc dl cuntinënt.
+{{gherdëina}}
+{{Infobox ruf
+|Inuem                = Rain
+|Inuem natif          = ''Rhein ([[lingaz tudësch|de]]), Rhin ([[lingaz franzëus|fr]])''
+|Inuemes natives          = Rhein ([[lingaz tudësch|tudësch]])<br>Rhin ([[lingaz franzëus|franzëus]])<br>Rijn ([[lingaz olandesc|olandesc]])<br>Rien ([[lingaz limburghesc|limburghesc]])<br>Ragn ([[lingaz rumanc|sutsilvan]])<br>Rain ([[lingaz rumanc|rumanc]])<br>Rhi(n) ([[lingaz alemannich|alemannich]])<br>Rhing  ([[lingaz francon bas|francon bas]])<br>
+|Etimologia = [[lingaz celtich|celtich]]: ''Rēnos''
+|Stat   = {{flag|Svizra}}<br>{{flag|Liechtenstein}}<br>{{flag|Austria}}<br>{{flag|Germania}}<br>{{flag|Franzia}}<br>{{flag|Paejes Basc}}
+|Majera ziteies = {{blason|Köln}}<br>{{blason|Rotterdam}}<br>{{blason|Düsseldorf}}<br>{{blason|Duisburg}}<br>{{blason|Strasbourg}}<br>{{blason|Nijmegen}}<br>{{blason|Basel}}
+|Funtana = [[Vorderrhein]]
+|Funtana post =  [[Lai da Tuma]], [[Surselva]], [[Grison]], [[Svizra]]
+|Funtana coordinedes = {{coord|46|37|57|N|8|40|20|W|display=inline}}   <!--mantenì chësc format-->
+|Funtana autëza =  2345   <!--metri-->
+|Funtana2 = [[Hinterrhein]]
+|Funtana2 post =  [[Dlacier Paradies]], [[Grison]], [[Svizra]]
+|Funtana2 coordinedes = 
+|Funtana2 autëza = 
+|Bocia = [[Mer dl Nord]]
+|Bocia post =  [[Paejes Basc]]
+|Bocia coordinedes = {{coord|51|58|54|N|4|4|50|W|display=inline}}   <!--mantenì chësc format-->
+|Bocia autëza =  0
+|Lunghëza =  1230 <!--valor te km-->
+|Ciavuel idrografich =  185000 <!--valor te km²-->
+|Purteda mesana = 	2900 <!--valor te m³/s-->
+|Purteda mascima = 800 <!--valor te m³/s-->
+|Purteda minima = 13000 <!--valor te m³/s-->
+|Foto                 = Middle_Bridge,_Basel,_Switzerland.JPG
+|Descrizion foto      = L Rain a [[Basel]]
+|Cherta = Flusssystemkarte_Rhein_02.jpg
+}}L '''Rain''' ([[tudësch]]: ''Rhein'', [[franzëus]]: ''Rhin'') ie n [[ruf]] te l'[[Europa]], che cun 1.233 km de lunghëza ie un de i ruves plu lonc dl cuntinënt.
 
 L nasc sun [[Grijon]] en [[Svizra]].
 
