@@ -1,0 +1,23 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Colorado
+| flag alias = Flag of Colorado.svg
+| flag alias-1876 = US flag 37 stars.svg
+| flag alias-1877 = US flag 38 stars.svg
+| flag alias-1890 = US flag 43 stars.svg
+| flag alias-1891 = US flag 44 stars.svg
+| flag alias-1896 = Flag of the United States (1896-1908).svg
+| flag alias-1907 = Flag of Colorado (1907–1911).svg
+| flag alias-1911 = Flag of Colorado (1911–1964).svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| variant = {{{variant|}}}
+<noinclude>
+|var1=1876
+|var2=1877
+|var3=1890
+|var4=1891
+|var5=1896
+|var6=1907
+|var7=1911
+</noinclude>
+}}
