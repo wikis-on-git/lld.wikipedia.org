@@ -5,15 +5,15 @@
 {{!}}colspan="2" bgcolor="#E3E3E3" valign="top" style="text-align:center" {{!}} <big>{{{Inuem natif}}}</big> | }}
 |-
 {{#if:{{{|Foto|}}} |
-{{!}} colspan="2"  valign="top" {{!}} [[File:{{{Foto}}}|300px|border|center]] | }}
+{{!}}colspan="2"  valign="top" {{!}} [[File:{{{Foto}}}|300px|border|center]] | }}
 |-
 {{#if:{{{Descrizion foto|}}} | {{!}}- valign="top"
-{{!}} colspan="2"  valign="top" style="font-size:90%;text-align:center" {{!}}  {{{Descrizion foto}}}  | {{!}}- }}
+{{!}}colspan="2"  valign="top" style="font-size:90%;text-align:center" {{!}}  {{{Descrizion foto}}}  | {{!}}- }}
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
 {{#if:{{{Cherta|}}} |
-{{!}} colspan="2"  valign="top" {{!}} [[File:{{{Cherta}}}|300px|border|center]] | }}
+{{!}}colspan="2"  valign="top" {{!}} [[File:{{{Cherta}}}|300px|border|center]] | }}
 |-
 {{#if:{{{Inuemes natives|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Inuem natif'''  {{!}}{{!}}  style="width:180px;font-size:90%" align="left" {{!}} {{{Inuemes natives}}}  | {{!}}- }}
