@@ -1,0 +1,119 @@
+{{IPA key|H:IPA-SQ|H:IPAAL}}
+The charts below show the way in which the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Albanian language|Albanian]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-sq}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+{| style="background: none"
+| style="vertical-align:top;" |
+{| class="wikitable" style="margin: 1em;"
+! colspan=3| Consonants
+|-
+! scope="col" | IPA
+! scope="col" | Orthography
+! scope="col" | English approximation
+|-
+| style="text-align: center;" | <big>{{IPAlink|b}}</big> || b || '''b'''at
+|-
+| style="text-align: center;" | <big>{{IPAlink|cç|c}}</big> || q || s'''k'''ew
+|-
+| style="text-align: center;" | <big>{{IPAlink|d}}</big> || d || '''d'''ebt
+|-
+| style="text-align: center;" | <big>{{IPAlink|dz}}</big> || x || goo'''ds'''
+|-
+| style="text-align: center;" | <big>{{IPAlink|dʒ}}</big> || xh || '''j'''et
+|-
+| style="text-align: center;" | <big>{{IPAlink|ð}}</big> || dh || '''th'''en
+|-
+| style="text-align: center;" | <big>{{IPAlink|f}}</big> || f || '''f'''ar
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɡ}}</big> || g || '''g'''o
+|-
+| style="text-align: center;" | <big>{{IPAlink|h}}</big> || h || '''h'''at
+|-
+| style="text-align: center;" | <big>{{IPAlink|j}}</big> || j || '''y'''es
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɟʝ|ɟ}}</big> || gj || ar'''g'''ue
+|-
+| style="text-align: center;" | <big>{{IPAlink|k}}</big> || k || s'''c'''ar
+|-
+| style="text-align: center;" | <big>{{IPAlink|l}}</big> || l || '''l'''ean
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɫ}}</big> || ll || woo'''l'''
+|-
+| style="text-align: center;" | <big>{{IPAlink|m}}</big> || m || '''m'''an
+|-
+| style="text-align: center;" | <big>{{IPAlink|n}}</big> || n || '''n'''ot
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɲ}}</big> || nj || o'''ni'''on
+|-
+| style="text-align: center;" | <big>{{IPAlink|ŋ}}</big> || ng || ba'''ng'''
+|-
+| style="text-align: center;" | <big>{{IPAlink|p}}</big> || p || s'''p'''end
+|-
+| style="text-align: center;" | <big>{{IPAlink|r}}</big> || rr || ''[[alveolar trill|rolled r]]''<ref name="r,rr">The contrast between flapped ''r'' and trilled ''rr'' is the same as in [[Spanish language|Spanish]]. English does not phonemically have either sound.</ref>
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɽ|ɾ}}</big> || r || ''[[American English|American]]'' a'''t'''om<ref name="r,rr"/>
+|-
+| style="text-align: center;" | <big>{{IPAlink|s}}</big> || s || '''s'''on
+|-
+| style="text-align: center;" | <big>{{IPAlink|ʃ}}</big> || sh || '''sh'''ow
+|-
+| style="text-align: center;" | <big>{{IPAlink|t}}</big> || t || s'''t'''and
+|-
+| style="text-align: center;" | <big>{{IPAlink|ts}}</big> || c || ha'''ts'''
+|-
+| style="text-align: center;" | <big>{{IPAlink|tʃ}}</big> || ç<ref>The letter {{angbr|ç}} is sometimes written {{angbr|ch}} due to technical limitations or because of its use in English for the same sound and its analogy to the other [[digraph (orthography)|digraph]]s {{angbr|xh}}, {{angbr|sh}}, and {{angbr|zh}}. Usually, it is written simply {{angbr|c}} or, more rarely, {{angbr|q}}, with the context resolving any ambiguities.</ref> || '''ch'''in
+|-
+| style="text-align: center;" | <big>{{IPAlink|v}}</big> || v || '''v'''an
+|-
+| style="text-align: center;" | <big>{{IPAlink|z}}</big> || z || '''z'''ip
+|-
+| style="text-align: center;" | <big>{{IPAlink|ʒ}}</big> || zh || vi'''si'''on
+|-
+| style="text-align: center;" | <big>{{IPAlink|θ}}</big> || th || '''th'''in
+|}
+<!---------- Vowels ---------->
+| style="vertical-align:top;" |
+{| class="wikitable" style="margin: 1em 2em;"
+! colspan=3| Vowels
+|-
+! width="15%" scope="col" | IPA
+! scope="col" | Orthography
+! scope="col" | English approximation
+|-
+| style="text-align: center;" | <big>{{IPAlink|a}}</big> || a || f'''a'''ther
+|-
+| style="text-align: center;" | <big>{{IPAlink|e}}</big> || e || b'''e'''d
+|-
+| style="text-align: center;" | <big>{{IPAlink|ə}}</big> || ë || '''a'''bout
+|-
+| style="text-align: center;" | <big>{{IPAlink|i}}</big> || i || s'''ee'''d
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɔ}}</big> || rowspan="2" | o || '''o'''ff (''[[Tosk Albanian|Tosk]]'')
+|-
+| style="text-align: center;" | <big>{{IPAlink|o}}</big> || ''American'' J'''oe''' (''[[Gheg Albanian|Gheg]]'')
+|-
+| style="text-align: center;" | <big>{{IPAlink|u}}</big> || u || c'''oo'''l
+|-
+| style="text-align: center;" | <big>{{IPAlink|y}}</big> || y || ''somewhat like'' c'''u'''te
+|-
+| colspan="3" style="border-left: #fff solid 1px; border-right: #fff solid 1px" | &nbsp;
+|-
+! colspan="3" | [[International Phonetic Alphabet#Suprasegmentals|Suprasegmentals]]
+|-
+! width="15%" scope="col" | IPA
+! scope="col" | Examples
+! scope="col" | Explanation
+|-
+| style="text-align: center;" | <big>{{IPA link|ˈ}}</big> || gjah'''tar''' {{IPA|[ɟahˈtaɾ]}}
+| [[primary stress]] (placed before the stressed syllable)
+|}
+|}
+
+==Notes==
+{{reflist}}
+The letter r is actually an alveolar approximant [ɹ], similar to the r sound in North American English.
+
+==References==
+* {{cite web|url=http://www.omniglot.com/writing/albanian.htm|title=Albanian language, alphabets and pronunciation|work=Omniglot.com}}
+
+{{IPA keys}}
+{{Albanian language}}
