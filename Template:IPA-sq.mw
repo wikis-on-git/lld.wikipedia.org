@@ -1,0 +1,11 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=albanesc:&nbsp;|pron=pronunzià&nbsp;|=|pronunzia albaneja:&nbsp;}}</small>{{IPA|[[Help:IPA/Albanesc|[{{{1}}}]]]|lang=sq}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude><noinclude>
+
+{{documentation|Template:Usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
+
+[[Category:Albanian language]]
+[[Category:IPA language templates]]
+
+<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+</noinclude>
