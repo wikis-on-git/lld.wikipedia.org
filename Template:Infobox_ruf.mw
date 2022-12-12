@@ -52,8 +52,6 @@
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
-
-
 {{#if:{{{Bocia|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Bocia'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Bocia}}}  | {{!}}- }}
 {{#if:{{{Bocia post|}}} | {{!}}- valign="top"
@@ -65,8 +63,6 @@
 |- valign="top" 
 ! colspan="2" style="font-size:90%;border-top: 1px solid #a2a9b1;" | 
 |- valign="top" 
-
-
 {{#if:{{{Lunghëza|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Lunghëza'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{formatnum:{{{Lunghëza}}}}} km   | {{!}}- }}
 {{#if:{{{Ciavuel idrografich|}}} | {{!}}- valign="top"
