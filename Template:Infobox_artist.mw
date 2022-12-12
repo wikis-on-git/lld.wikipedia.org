@@ -1,0 +1,46 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" | {{{Inuem}}}
+|-
+|colspan="2" align="center" | {{#if:{{{Foto|}}}| [[File:{{{Foto}}}|270px|center]]}}
+|-
+|colspan="2" align="center" style="font-size:90%;" | {{#if:{{{Descrizion foto|}}} | {{{Descrizion foto}}}}}
+|-
+| style="width:130px;font-size:90%" | {{#if:{{{Auter inuem|}}} | '''Auter inuem'''}} || style="width:180px;font-size:90%" | {{#if:{{{Auter inuem|}}} | {{{Auter inuem}}} }}
+|- valign="top" 
+| style="width:130px;font-size:90%" | '''Nasciù/da''' || style="width:180px;font-size:90%" | {{{Nasciù/da}}}
+|- valign="top" 
+| style="width:130px;font-size:90%" | {{#if:{{{Mort/a|}}} | '''Mort/a''' }}|| style="width:180px;font-size:90%" | {{#if:{{{Mort/a|}}} | {{{Mort/a}}} }}
+|- valign="top" 
+|style="width:130px;font-size:90%" | {{#if:{{{Suplì/da|}}} | '''Suplì/da''' }}|| style="width:180px;font-size:90%" | {{#if:{{{Suplì/da|}}} | {{{Suplì/da}}} }}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Educazion|}}}|'''Educazion'''}} || style="width:180px;font-size:90%" |{{#if:{{{Educazion|}}}| {{{Educazion}}} }}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Cunesciù/da per|}}}|'''Cunesciù/da per'''}} || style="width:180px;font-size:90%" | {{#if:{{{Cunesciù/da per|}}}|{{{Cunesciù/da per}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" | {{#if:{{{Operes cunesciudes|}}}|'''Operes cunesciudes'''}} || style="width:180px;font-size:90%" | {{#if:{{{Operes cunesciudes|}}}|{{{Operes cunesciudes}}}}}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Muvimënt|}}}|'''Muvimënt'''}} || style="width:180px;font-size:90%" |{{#if:{{{Muvimënt|}}}| {{{Muvimënt}}} }}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Uem|}}}|'''Uem'''}} || style="width:180px;font-size:90%" |{{#if:{{{Uem|}}}| {{{Uem}}} }}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Fëna|}}}|'''Fëna'''}} || style="width:180px;font-size:90%" |{{#if:{{{Fëna|}}}| {{{Fëna}}} }}
+|- valign="top"
+|style="width:130px;font-size:90%" |{{#if:{{{Firma|}}}|'''Firma'''}} || style="width:180px;font-size:90%; align:left" |{{#if:{{{Firma|}}}| [[File:{{{Firma}}}|120px|center]]   }}
+|-
+|}</includeonly>
+<noinclude>
+{{Infobox artist
+|Inuem                  = Salvador Dalí
+|Auter inuem            = Salvador Domingo Felipe Jacinto Dalí i Domènech
+|Foto                   = Salvador Dalí 1939.jpg
+|Descrizion foto        = Dalí tl 1939 (foto de [[Carl Van Vechten]])
+|Nasciù/da              = 11 mei 1904 a [[Figueres]], [[Catalonia]], [[Spania]]
+|Mort/a                 = 23 jené 1989 a [[Figueres]], [[Catalonia]], [[Spania]]
+|Suplì/da               = Cripta te l [[Teater y Museum Dalì]] a [[Figueres]], [[Catalonia]], [[Spania]]
+|Educazion              = Scola d'Ert ''San Fernando'' a [[Madrid]], [[Spania]]
+|Cunesciù/da per        = Depënjer, dessëni, fotografia, scultura, scrì, film
+|Operes cunesciudes     = The Persistence of Memory (1931)<br>Soft Construction with Boiled Beans (Premonition of Civil War) (1936)<br>Swans Reflecting Elephants (1937)<br>Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening (1944)<br>The Temptation of St. Anthony (1946)
+|Muvimënt               = [[Cubism]], [[Dada]], [[Surrealism]]
+|Fëna              = [[Gala Dalí]] (Elena Ivanovna Diakonova)
+|Firma                  = Salvador_dali_signature.svg
+}}[[Categoria:Wikipedia:Templates]]</noinclude>
