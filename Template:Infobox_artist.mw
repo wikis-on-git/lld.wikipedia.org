@@ -9,23 +9,25 @@
 |- valign="top" 
 | style="width:130px;font-size:90%" | '''Nasciù/da''' || style="width:180px;font-size:90%" | {{{Nasciù/da}}}
 |- valign="top" 
-| style="width:130px;font-size:90%" | {{#if:{{{Mort/a|}}} | '''Mort/a''' }}|| style="width:180px;font-size:90%" | {{#if:{{{Mort/a|}}} | {{{Mort/a}}} }}
+{{#if:{{{Mort/a|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Mort/a'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Mort/a}}} | }}
+{{#if:{{{Suplì/da|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Suplì/da'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Suplì/da}}} | }}
+{{#if:{{{Educazion|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Educazion'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Educazion}}} | }}
+{{#if:{{{Cunesciù/da per|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Cunesciù/da per'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Cunesciù/da per}}} | }}
+{{#if:{{{Operes cunesciudes|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Operes cunesciudes'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Operes cunesciudes}}} | }}
+{{#if:{{{Muvimënt|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Muvimënt'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Muvimënt}}} | }}
+{{#if:{{{Uem|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Uem'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Uem}}} | }}
+{{#if:{{{Fëna|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Fëna'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} {{{Fëna}}} | }}
+{{#if:{{{Firma|}}} | {{!}}- valign="top" 
+{{!}}style="width:130px;font-size:90%" {{!}} '''Firma'''  {{!}}{{!}} style="width:180px;font-size:90%" {{!}} [[File:{{{Firma}}}|120px|center]]  | }}
 |- valign="top" 
-|style="width:130px;font-size:90%" | {{#if:{{{Suplì/da|}}} | '''Suplì/da''' }}|| style="width:180px;font-size:90%" | {{#if:{{{Suplì/da|}}} | {{{Suplì/da}}} }}
-|- valign="top"
-|style="width:130px;font-size:90%" |{{#if:{{{Educazion|}}}|'''Educazion'''}} || style="width:180px;font-size:90%" |{{#if:{{{Educazion|}}}| {{{Educazion}}} }}
-|- valign="top"
-|style="width:130px;font-size:90%" | {{#if:{{{Cunesciù/da per|}}}|'''Cunesciù/da per'''}} || style="width:180px;font-size:90%" | {{#if:{{{Cunesciù/da per|}}}|{{{Cunesciù/da per}}}}}
-|- valign="top"
-|style="width:130px;font-size:90%" | {{#if:{{{Operes cunesciudes|}}}|'''Operes cunesciudes'''}} || style="width:180px;font-size:90%" | {{#if:{{{Operes cunesciudes|}}}|{{{Operes cunesciudes}}}}}
-|- valign="top"
-|style="width:130px;font-size:90%" |{{#if:{{{Muvimënt|}}}|'''Muvimënt'''}} || style="width:180px;font-size:90%" |{{#if:{{{Muvimënt|}}}| {{{Muvimënt}}} }}
-|- valign="top"
-|style="width:130px;font-size:90%" |{{#if:{{{Uem|}}}|'''Uem'''}} || style="width:180px;font-size:90%" |{{#if:{{{Uem|}}}| {{{Uem}}} }}
-|- valign="top"
-|style="width:130px;font-size:90%" |{{#if:{{{Fëna|}}}|'''Fëna'''}} || style="width:180px;font-size:90%" |{{#if:{{{Fëna|}}}| {{{Fëna}}} }}
-|- valign="top"
-|style="width:130px;font-size:90%" |{{#if:{{{Firma|}}}|'''Firma'''}} || style="width:180px;font-size:90%; align:left" |{{#if:{{{Firma|}}}| [[File:{{{Firma}}}|120px|center]]   }}
 |-
 |}</includeonly>
 <noinclude>
@@ -41,6 +43,7 @@
 |Cunesciù/da per        = Depënjer, dessëni, fotografia, scultura, scrì, film
 |Operes cunesciudes     = The Persistence of Memory (1931)<br>Soft Construction with Boiled Beans (Premonition of Civil War) (1936)<br>Swans Reflecting Elephants (1937)<br>Dream Caused by the Flight of a Bee Around a Pomegranate a Second Before Awakening (1944)<br>The Temptation of St. Anthony (1946)
 |Muvimënt               = [[Cubism]], [[Dada]], [[Surrealism]]
+|Uem              =
 |Fëna              = [[Gala Dalí]] (Elena Ivanovna Diakonova)
 |Firma                  = Salvador_dali_signature.svg
 }}[[Categoria:Wikipedia:Templates]]</noinclude>
