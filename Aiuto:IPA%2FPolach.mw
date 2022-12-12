@@ -1,0 +1,260 @@
+__NOTOC__
+{{IPA key|H:IPA-PL|H:IPAP|H:IPAPL}}
+
+The charts below show the way in which the [[International Phonetic Alphabet]] (IPA) represents [[Polish language]] pronunciations in [[Wikipedia]] articles. For a guide to adding IPA characters to Wikipedia articles, see {{tl|IPA-pl}}, {{tl|IPAc-pl}} and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Polish phonology]] for a more thorough look at the sounds of Polish.
+
+{| style="background: none"
+|-----
+| style="vertical-align:top;" |
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan=4| [[Consonant]]s<ref>All [[voice (phonetics)|voiced]] [[obstruent]]s {{nowrap|{{IPA|/b, d, ɡ, v, z, ʐ, ʑ, d͡ʐ, d͡ʑ/}}}} are [[Final obstruent devoicing|devoiced]] to {{IPA|[p, t, k, f, s, ʂ, ɕ, t͡ʂ, t͡ɕ]}} respectively at the ends of words and in clusters ending in any unvoiced obstruents. Voiceless obstruents are voiced ({{IPA|/x/}} becoming {{IPAblink|ɣ}}, etc.) in clusters ending in any voiced obstruent except {{IPA|/v/}} and {{IPA|/ʐ/}} (when spelled with ''rz''), which are then themselves devoiced.</ref>
+|-
+! [[Help:IPA|IPA]] !! [[Polish alphabet|Polish]]!! Example !! English approximation
+|-
+| <big>{{IPA link|b}}</big>
+| b
+| {{audio|pl-bardzo.ogg|'''b'''ardzo|help=no}}
+| style="text-align:left;" |'''b'''ike
+|-
+| <big>{{IPA link|ɕ}}</big>
+| ś, s(i)<ref name="soften"/>
+| {{audio|pl-Jaś.ogg|Ja'''ś'''|help=no}}
+| style="text-align:left;" |'''sh'''e
+|-
+| <big>{{IPA link|d̪|d}}</big>
+| d
+| {{audio|pl-dawno.ogg|'''d'''awno|help=no}}
+| style="text-align:left;" |'''d'''oor
+|-
+| <big>{{IPA link|d͡z}}</big><ref name="affricate"/>
+| dz
+| {{audio|pl-dzban.ogg|'''dz'''ban|help=no}}
+| style="text-align:left;" |be'''ds'''
+|-
+| <big>{{IPA link|d͡ʑ}}</big><ref name="affricate"/>
+| dź, dz(i)<ref name="soften"/>
+| {{audio|pl-dziadek.ogg|'''dzi'''adek|help=no}}
+| style="text-align:left;" |'''j'''eep<ref name="postalveolar"/>
+|-
+| <big>{{IPA link|d͡ʐ}}</big><ref name="affricate"/>
+| dż
+| {{audio|pl-Dżakarta.ogg|'''Dż'''akarta|help=no}}
+| style="text-align:left;" |'''j'''ug<ref name="postalveolar"/>
+|-
+| <big>{{IPA link|f}}</big>
+| f
+| {{audio|pl-foka.ogg|'''f'''oka|help=no}}
+| style="text-align:left;" |'''f'''eist
+|-
+| <big>{{IPA link|ɡ}}</big>
+| g
+| {{audio|pl-grać.ogg|'''g'''rać|help=no}}
+| style="text-align:left;" |'''g'''irl
+|-
+| <big>{{IPA link|ɡ˖|ɡʲ}}</big>
+| g(i)<ref name="soften"/>
+| {{audio|pl-Giewont.ogg|'''Gi'''ewont|help=no}}
+| style="text-align:left;" |ar'''g'''ue
+|-
+| <big>{{IPA link|ɣ}}</big>
+| ch, h
+| nie'''ch'''by
+| style="text-align:left;" |''Spanish'' ami'''g'''o
+|-
+| <big>{{IPA link|j}}</big>
+| j, i<ref name="soften"/>
+| {{audio|pl-jak.ogg|'''j'''ak|help=no}}
+| style="text-align:left;" |'''y'''es
+|-
+| <big>{{IPA link|j̃}}</big><ref>Allophone of {{IPA|/ɲ/}} before [[Fricative consonant|fricatives]].</ref>
+| ń
+| {{audio|Pl-Gdańsk.ogg|Gda'''ń'''sk|help=no}}
+| style="text-align:left;" |po'''i'''nt
+|-
+| <big>{{IPA link|k}}</big>
+| k
+| {{audio|pl-krowa.ogg|'''k'''rowa|help=no}}
+| style="text-align:left;" |s'''c'''am
+|-
+| <big>{{IPA link|k̟|kʲ}}</big>
+| k(i)<ref name="soften"/>
+| {{audio|pl-kierowca.ogg|'''ki'''erowca|help=no}}
+| style="text-align:left;" |s'''k'''ew
+|-
+| <big>{{IPA link|l}}</big>
+| l
+| {{audio|pl-lampa.ogg|'''l'''ampa|help=no}}
+| style="text-align:left;" |'''l'''ion
+|-
+| <big>{{IPA link|m}}</big>
+| m<ref name="nasalvowel"/>
+| {{audio|pl-morze.ogg|'''m'''orze|help=no}}
+| style="text-align:left;" |'''m'''ile
+|-
+| <big>{{IPA link|n̪|n}}</big>
+| n<ref name="nasalvowel"/>
+| {{audio|pl-nad.ogg|'''n'''ad|help=no}}
+| style="text-align:left;" |'''N'''ile
+|-
+| <big>{{IPA link|ɲ̟|ɲ}}</big>
+| ń, n(i)<ref name="nasalvowel"/><ref name="soften"/>
+| {{audio|pl-nie.ogg|'''ni'''e|help=no}}
+| style="text-align:left;" |ca'''ny'''on
+|-
+| <big>{{IPA link|ŋ}}</big><ref>Allophone of {{IPA|/n/}} before a [[velar consonant|velar]] {{IPA|/ɡ, k, x/}} in some cases.</ref>
+| n<ref name="nasalvowel"/>
+| {{audio|pl-mango.ogg|ma'''n'''go|help=no}}
+| style="text-align:left;" |doi'''ng'''
+|-
+| <big>{{IPA link|p}}</big>
+| p
+| {{audio|pl-policja.ogg|'''p'''olicja|help=no}}
+| style="text-align:left;" |s'''p'''ike
+|-
+| <big>{{IPA link|ɾ|r}}</big>
+| r
+| {{audio|pl-różowy.ogg|'''r'''óżowy|help=no}}
+| style="text-align:left;" | ''American English'' a'''t'''om
+|-
+| <big>{{IPA link|s̪|s}}</big>
+| s
+| {{audio|pl-smak.ogg|'''s'''mak|help=no}}
+| style="text-align:left;" |'''s'''ign
+|-
+| <big>{{IPA link|ʂ}}</big>
+| sz
+| {{audio|pl-szybko.ogg|'''sz'''ybko|help=no}}
+| style="text-align:left;" |'''sh'''ore<ref name="postalveolar">Polish makes a distinction between [[Retroflex consonant|retroflex]] and [[Alveolo-palatal consonant|alveolo-palatal]] consonants, both of which sound roughly like the English postalveolars {{IPA|/ʃ, ʒ, tʃ, dʒ/}}. The retroflex sounds are pronounced "hard", with the tip of the tongue approaching the [[alveolar ridge]] and the blade of the tongue somewhat lowered, and the alveolo-palatal sounds are "soft", realized with the middle of the tongue raised, adding a bit of an {{angbr|ee}} sound to them.</ref>
+|-
+| <big>{{IPA link|t̪|t}}</big>
+| t
+| {{audio|pl-tak.ogg|'''t'''ak|help=no}}
+| style="text-align:left;" |s'''t'''ow
+|-
+| <big>{{IPA link|t͡ɕ}}</big><ref name="affricate"/>
+| ć, c(i)<ref name="soften">The letter {{angbr|i}}, when it is followed by a vowel, represents a pronunciation like a {{angbr|j}} or a "soft" pronunciation of the preceding consonant (so ''pies'' is pronounced as if it were spelt *''pjes''). It has the same effect as an [[acute accent]] on alveolar consonants ({{angbr|s}}, {{angbr|z}}, {{angbr|c}}, {{angbr|dz}}, {{angbr|n}}) so ''się'', ''cios'' and ''niania'' are pronounced as if they were spelt *''śę'', *''ćos'', *''ńańa''. A following {{angbr|i}} also softens consonants when it is itself pronounced as a vowel: ''zima'', ''ci'' and ''dzisiaj'' are pronounced as if they were spelled *''źima'', *''ći'', *''dźiśaj''.</ref>
+| {{audio|pl-cierpki.ogg|'''ci'''erpki|help=no}}
+| style="text-align:left;" |'''ch'''eer<ref name="postalveolar"/>
+|-
+| <big>{{IPA link|t͡s}}</big><ref name="affricate"/>
+| c
+| {{audio|pl-całkiem.ogg|'''c'''ałkiem|help=no}}
+| style="text-align:left;" |ca'''ts'''
+|-
+| <big>{{IPA link|t͡ʂ}}</big>{{#tag:ref|Polish contrasts [[affricate]]s {{IPA|/t͡s, d͡z, t͡ɕ, d͡ʑ, t͡ʂ, d͡ʐ/}} with stop–fricative clusters: for example, {{wikt-lang|pl|czysta}} {{audio-IPA|Pl-czysta.ogg|[ˈt͡ʂɨsta]|help=no}} "clean" versus {{wikt-lang|pl|trzysta}} {{audio-IPA|Pl-trzysta.ogg|[ˈtʂɨsta]|help=no}} "three hundred".|name=affricate}}
+| cz
+| {{audio|pl-czy.ogg|'''cz'''y|help=no}}
+| style="text-align:left;" |'''ch'''ild<ref name="postalveolar"/>
+|-
+| <big>{{IPA link|v}}</big>
+| w
+| {{audio|pl-wartość.ogg|'''w'''artość|help=no}}
+| style="text-align:left;" |'''v'''ile
+|-
+| <big>{{IPA link|w}}</big>
+| [[L with stroke|ł]]
+| {{audio|pl-ładny.ogg|'''ł'''adny|help=no}}
+| style="text-align:left;" |'''w'''ay
+|-
+| <big>{{IPA link|x}}</big>
+| ch, h
+| {{audio|pl-chleb.ogg|'''ch'''leb|help=no}}
+| style="text-align:left;" |''[[Scottish English|Scottish]]'' lo'''ch'''
+|-
+| <big>{{IPA link|x̟|xʲ}}</big>
+| ch(i), h(i)<ref name="soften"/>
+| {{audio|pl-hiacynt.ogg|'''hi'''acynt|help=no}}
+| style="text-align:left;" |'''h'''uge
+|-
+| <big>{{IPA link|z̪|z}}</big>
+| z
+| {{audio|pl-zebra.ogg|'''z'''ebra|help=no}}
+| style="text-align:left;" |'''z'''ebra
+|-
+| <big>{{IPA link|ʑ}}</big>
+| ź, z(i)<ref name="soften"/>
+| {{audio|pl-ziarno.ogg|'''zi'''arno|help=no}}
+|align=left rowspan=2|vi'''si'''on, a'''z'''ure<ref name="postalveolar"/>
+|-
+| <big>{{IPA link|ʐ}}</big>
+| ż, rz
+| {{audio|pl-rzadko.ogg|'''rz'''adko|help=no}}
+|}
+| style="vertical-align:top;" |
+{| class="wikitable" style="margin: 1em; text-align: center;"
+! colspan=4 | [[Vowel]]s
+|-
+! [[Help:IPA|IPA]] !! [[Polish alphabet|Polish]] !! Example !! English approximation
+|-
+| <big>{{IPA link|ä|a}}</big>
+| a
+| {{audio|pl-tam.ogg|t'''a'''m|help=no}}
+| style="text-align:left;" | f'''a'''ther
+|-
+| <big>{{IPA link|ɛ}}</big>
+| e
+| {{audio|pl-krem.ogg|kr'''e'''m|help=no}}
+| style="text-align:left;" | b'''e'''t
+|-
+| <big>{{IPA link|ɛ̃}}</big>
+| [[ę]]<ref name="nasalvowel"/>
+| {{audio|LL-Q809_(pol)-Olaf-kęs.wav|k'''ę'''s|help=no}}
+| style="text-align:left;" | ''French'' v'''in'''
+|-
+| <big>{{IPA link|i}}</big>
+| i<ref name="soften"/>
+| {{audio|pl-piwo.ogg|p'''i'''wo|help=no}}
+| style="text-align:left;" | '''ea'''t
+|-
+| <big>{{IPA link|ɘ|ɨ}}</big>
+| y
+| {{audio|pl-my.ogg|m'''y'''|help=no}}
+| style="text-align:left;" | m'''i'''ll
+|-
+| <big>{{IPA link|ɔ}}</big>
+| o
+| {{audio|pl-rok.ogg|r'''o'''k|help=no}}
+| style="text-align:left;" | '''o'''ff
+|-
+| <big>{{IPA link|ɔ̃}}</big>
+| [[ą]]<ref name="nasalvowel">The letters {{angbr|[[ą]]}} and {{angbr|[[ę]]}} represent the [[nasal vowel]]s {{IPA|/ɔ̃, ɛ̃/}} except when they are followed by a [[stop consonant|stop]] or [[affricate consonant|affricate]], in which case they represent oral vowels {{IPA|/ɔ, ɛ/}} followed by a [[nasal consonant]] [[homorganic]] with the following stop or affricate: ''kąt'' {{IPA|[ˈkɔnt]}}, ''gęba'' {{IPA|[ˈɡɛmba]}}, ''ręka'' {{IPA|[ˈrɛŋka]}}, ''piszący'' {{IPA|[piˈʂɔnt͡sɨ]}}, ''pieniądze'' {{IPA|[pjɛˈɲɔnd͡zɛ]}}, ''pięć'' {{IPA|[ˈpjɛɲt͡ɕ]}}, ''jęczy'' {{IPA|[ˈjɛnt͡ʂɨ]}} (as if spelled *''kont'', *''gemba'', *''renka'', *''piszoncy'', *''pieńondze'', *''pieńć'', *''jenczy'').</ref>
+| {{audio|pl-wąż.ogg|w'''ą'''ż|help=no}}
+| style="text-align:left;" | croiss'''an'''t
+|-
+| <big>{{IPA link|u}}</big>
+| u, [[ó]]
+| {{audio|pl-duży.ogg|d'''u'''ży|help=no}}
+| style="text-align:left;" | b'''oo'''t
+|}
+{| class="wikitable"
+! colspan=3 | Other symbols used for Polish
+|-
+! IPA !! Explanation
+|-
+| style="text-align:center;" |<big>{{IPA link|ˈ}}</big>
+| Primary stress (placed before the stressed syllable), usually the penultimate syllable of a word.
+|-
+| style="text-align:center;" |<big>{{IPA link|ˌ}}</big>
+| Secondary stress (placed before the stressed syllable).
+|-
+| style="text-align:center;" |<big>{{IPA link|.}}</big>
+| Syllable break.
+|}
+|}
+
+==See also==
+* [[Polish phonology]]
+
+== Explanatory notes ==
+{{Reflist}}
+
+==Further reading==
+* {{Cite journal |last=Jassem |first=Wiktor |title=Polish |url=https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8CDD2C699493A69A40A5E7D923629574/S0025100303001191a.pdf/polish.pdf |journal=Journal of the International Phonetic Association |year=2003 |volume=33 |issue=1 |pages=103–107 |doi=10.1017/S0025100303001191 }}
+* {{Cite book| last=Sadowska| first=Iwona| title= Polish: A Comprehensive Grammar| year=2012| publisher=[[Routledge]]| location=Oxford; New York |isbn=978-0-415-47541-9}}
+
+== External links ==
+* {{Wikibooks-inline|Polish/Polish pronunciation}}
+
+{{IPA keys}}
