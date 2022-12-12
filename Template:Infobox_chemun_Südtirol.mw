@@ -1,7 +1,7 @@
 <includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
 !colspan="2" bgcolor="#E3E3E3" | {{{Inuem luech}}}
 |-
-|colspan="2" align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inom luech}}}]]|}}|}}
+|colspan="2" align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inuem scëmpl}}}]]|}}|}}
 |-
 |colspan="2" align="center" | {{#if:{{{Foto|}}}|{{#if: {{{Foto|}}} = " "|[[File:{{{Foto|}}}|280px|center|]]|}}|}}
 |-
@@ -64,7 +64,7 @@
 {{Infobox chemun Südtirol
 |Inuem luech         = prova
 |Inuem scëmpl = Milan
-|Blason             = Flag of None.svg
+|Blason             = Blason Sëlva.png
 |Auteza = 1563
 |Coordinedes        = {{coord|46|33|24|N|11|45|32|E|display=inline}}   <!--mantenì genau chësc format-->
 |de          = 5.2
