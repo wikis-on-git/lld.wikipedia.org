@@ -23,6 +23,8 @@
 |-valign="top"
 {{#if:{{{Stat|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Stat'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Stat}}}  | {{!}}- }}
+{{#if:{{{Raion|}}} | {{!}}- valign="top"
+{{!}}style="width:120px;font-size:90%" {{!}} '''Raion'''  {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Raion}}}  | {{!}}- }}
 {{#if:{{{Majera ziteies|}}} | {{!}}- valign="top"
 {{!}}style="width:120px;font-size:90%" {{!}} '''Majera ziteies''' {{!}}{{!}} style="width:180px;font-size:90%" align="left" {{!}} {{{Majera ziteies}}} | {{!}}- }}
 |-
