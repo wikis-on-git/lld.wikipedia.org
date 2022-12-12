@@ -1,7 +1,8 @@
 <includeonly>{| cellpadding=3  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:no; width:300px;"
 !colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
 |-
-|colspan="2" bgcolor="#E3E3E3" valign="top" style="text-align:center" | <big>{{{Inuem natif}}}</big>
+{{#if:{{{Inuem natif|}}} |
+{{!}}colspan="2" bgcolor="#E3E3E3" valign="top" style="text-align:center" {{!}} <big>{{{Inuem natif}}}</big> | }}
 |-
 | colspan="2"  valign="top" | [[File:{{{Foto}}}|300px|border|center]]
 |-
