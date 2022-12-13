@@ -4,8 +4,8 @@
 {{#if:{{{Inuem natif|}}} |
 {{!}}colspan="2" bgcolor="#E3E3E3" valign="top" style="text-align:center" {{!}} <big>{{{Inuem natif}}}</big> | }}
 |-
-{{#if:{{{|Foto|}}} |
-{{!}}colspan="2"  valign="top" {{!}} [[File:{{{Foto}}}{{!}}300px{{!}}border{{!}}center]] | {{!}}-}}
+{{#if:{{{Foto|}}} |
+{{!}}colspan="2"  valign="top" {{!}} [[File:{{{Foto}}}{{!}}300px{{!}}border{{!}}center]] |  }}
 |-
 {{#if:{{{Descrizion foto|}}} | {{!}}- valign="top"
 {{!}}colspan="2"  valign="top" style="font-size:90%;text-align:center" {{!}}  {{{Descrizion foto}}}  | {{!}}- }}
