@@ -1,0 +1,70 @@
+<includeonly>{| cellpadding=2  style="float:right;  clear:right; margin-left: 1em; border:1px solid #BBB;  background-color:#F9F9F9; empty-cells:show; width:300px;"
+!colspan="2" bgcolor="#E3E3E3" | <big>{{{Inuem}}}</big>
+|-
+!colspan="2" bgcolor="#E3E3E3" | {{#if:{{{Inuem natif|}}}|{{#if: {{{Inuem natif|}}} = " "|''{{{Inuem natif|}}}''|}}|}}
+|-
+!colspan="2" bgcolor="#C4E5F8" | {{#if:{{{Soget aministratif|}}}|{{#if: {{{Soget aministratif}}} = " "|{{{Soget aministratif|}}}|}}|}}
+|-
+|align="center" | {{#if:{{{Blason|}}}|{{#if: {{{Blason|}}} = " "|[[File:{{{Blason|}}}|100px|center|Blason de {{{Inuem}}}]]|}}|}}
+|align="center" | {{#if:{{{Bandiera|}}}|{{#if: {{{Bandiera|}}} = " "|[[File:{{{Bandiera|}}}|150px|center|Bandiera de {{{Inuem}}}]]|}}|}}
+|-
+| colspan="2"  valign="top" style="border-top: 1px solid #a2a9b1"| [[File:{{{Foto}}}|300px|border|center]]
+|-
+| colspan="2"  valign="top" style="font-size:90%;text-align:center"| {{{Descrizion foto}}}
+|-
+| colspan="2"  valign="top" style="border-bottom: 1px solid #a2a9b1;border-top: 1px solid #a2a9b1"| [[File:{{{Cherta}}}|300px|border|center]]
+|-
+!colspan="2" bgcolor="#E3E3E3" | Nfurmazions prinzipeles
+|-valign="top"
+|style="width:140px;font-size:90%" | '''Stat''' || style="width:170px;font-size:90%" | {{UKR}}
+|- valign="top" 
+|style="width:140px;font-size:90%"|'''Capitela''' || style="width:170px;font-size:90%" |{{{Capitela}}}
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Abitanc''' || style="width:170px;font-size:90%" |{{formatnum:{{{Abitanc}}}}} ab. <small>({{{Data abitanc}}})</small>
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Spersa''' || style="width:170px;font-size:90%" |{{formatnum:{{{Seuraspersa}}}}}&nbsp;km² <small>
+|- valign="top"
+|style="width:140px;font-size:90%"|'''Densità''' || style="width:170px;font-size:90%" |{{formatnum:{{#expr: {{{Abitanc}}} / {{{Seuraspersa}}} round 2 }}}}&nbsp;ab./km²
+|-style="margin:0;background:#ccccff";width:100%" align="center" cellpadding="2"
+|- valign="top"
+|-
+!colspan="2" bgcolor="#E3E3E3" | Economia
+|-
+|style="width:140px;font-size:90%"| '''[[Prudot Regiunel Brutto]]''' || style="width:170px;font-size:90%" |€ {{formatnum:{{{Prudot Regiunel Brutto}}}}} miliarc ({{{Ann PRB}}})
+|- valign="top"
+|style="width:140px;font-size:90%"| '''PRB a persona''' || style="width:170px;font-size:90%" |€ {{formatnum:{{#expr: ({{{Prudot Regiunel Brutto}}} * 1000000000) / {{{Abitanc}}} round 0 }}}}
+|- valign="top" 
+|-
+!colspan="2" bgcolor="#E3E3E3" | Auter
+|-
+{{#if:{{{Fundazion|}}} |    
+{{!}}-
+{{!}} style="width:140px;font-size:90%" {{!}} '''Ann de fundazion''' {{!}}{{!}} style="width:170px;font-size:90%" {{!}} {{{Fundazion}}}
+| }}
+|-
+|style="width:140px;font-size:90%"|'''[[Zona d'orar]]''' || style="width:170px;font-size:90%" |{{{Zona d'orar}}}
+|- valign="top"
+|-
+|}</includeonly>
+
+<noinclude>
+{{Infobox region Ukraina
+|Inuem                = Kherson Oblast
+|Inuem natif          = Херсонська область
+|Soget aministratif        = [[Region de la Ukraina]]
+|Blason               = Coat of Arms of Kherson Oblast.svg
+|Bandiera             = Flag of Kherson Oblast.svg
+|Capitela             = {{Blason|Kherson}}
+|Seuraspersa          = 28461
+|Abitanc              = 1000370
+|Data abitanc         = jené 2022
+|Prudot Regiunel Brutto = 1.229   
+<!-- valor te miliarc -->
+|Ann PRB               = 
+|Zona d'orar          = [[UTC+2]] (d'instà [[UTC+3]])
+|Cherta               = Kherson oblast location map.svg
+|Foto                 = Ukraine Oblast Cherson Verwaltung.jpg
+|Descrizion foto      = Ududa de [[Kherson]]
+}}
+
+[[Categoria:Wikipedia:Templates]][[Categoria:Template infobox region]]</noinclude>
