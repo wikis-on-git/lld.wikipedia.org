@@ -1,0 +1,9 @@
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=rus:&nbsp;|pron=pronunzià&nbsp;|=|pronunzia russa:&nbsp;}}</small>{{IPA|[[Help:IPA/Rus|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+
+{{documentazion|Template:usage of IPA templates}}
+
+<!-- PLEASE ADD CATEGORIES AFTER THIS LINE, THANKS. -->
+
+[[Categoria:templates rujenedes IPA|{{PAGENAME}}]]
+
+<!-- PLEASE ADD INTERWIKIS LINKS AFTER THIS LINE, THANKS. -->
